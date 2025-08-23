@@ -1,2 +1,5 @@
 Data/*
 env.md
+.env
+Backend/src/app/__pycache__/*
+Backend/IIAProject/*
