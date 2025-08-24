@@ -1,0 +1,1263 @@
+{
+  "query": "Show me course from Coursera on Law",
+  "debug": {
+    "user_query": "Show me course from Coursera on Law",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bLaw\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bLaw\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bLaw\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 31,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546603f",
+        "Title": "U.S. Federal Taxation Specialization",
+        "URL": "https://www.coursera.org/specializations/united-states-federal-taxation",
+        "Short Intro": "U.S. Federal Taxation of Individuals & Businesses. Learners will develop knowledge in U.S. federal taxation as applied to individuals and businesses. ",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Depreciation, Federal Tax Returns, Tax Law, ",
+        "Instructors": "Matthew Hutchens ,Michael P Donohoe, PhD, CPA ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "629",
+        "Duration": "Approximately 9 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "U.S. Federal Taxation Specialization",
+        "url": "https://www.coursera.org/specializations/united-states-federal-taxation",
+        "description": "U.S. Federal Taxation of Individuals & Businesses. Learners will develop knowledge in U.S. federal taxation as applied to individuals and businesses. ",
+        "category": "Business",
+        "subCategory": "Business Essentials",
+        "provider": "Coursera",
+        "skills": [
+          "Depreciation",
+          " Federal Tax Returns",
+          " Tax Law",
+          " "
+        ],
+        "language": "English",
+        "duration": "Approximately 9 months to complete",
+        "rating": 4.8,
+        "viewers": 629
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660b0",
+        "Title": "Healthcare Law Specialization",
+        "URL": "https://www.coursera.org/specializations/healthcare-law",
+        "Short Intro": null,
+        "Category": "Health",
+        "Sub-Category": "Healthcare Management",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Affordable Care Act, Health Law, Health Insurance Portability And Accountability Act (HIPAA), Health Policy, Privacy, Healthcare Management, Health Policy Analysis, Health Insurance, Permanent Placement, Unfair Labor Practices, Legal Liability, Budget Estimation, ",
+        "Instructors": "Theodore Ruger ,Lauren Steinfeld ,R. Polk Wagner ,Angus Corbett ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "344",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Healthcare Law Specialization",
+        "url": "https://www.coursera.org/specializations/healthcare-law",
+        "description": null,
+        "category": "Health",
+        "subCategory": "Healthcare Management",
+        "provider": "Coursera",
+        "skills": [
+          "Affordable Care Act",
+          " Health Law",
+          " Health Insurance Portability And Accountability Act (HIPAA)",
+          " Health Policy",
+          " Privacy",
+          " Healthcare Management",
+          " Health Policy Analysis",
+          " Health Insurance",
+          " Permanent Placement",
+          " Unfair Labor Practices",
+          " Legal Liability",
+          " Budget Estimation",
+          " "
+        ],
+        "language": "English",
+        "duration": "Approximately 4 months to complete",
+        "rating": 4.8,
+        "viewers": 344
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466117",
+        "Title": "Cloud Computing Law Specialization",
+        "URL": "https://www.coursera.org/specializations/cloud-computing-law",
+        "Short Intro": "Learn how the Law Regulates the Cloud. Master the main legal and regulatory implications of using and providing cloud computing services. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Cloud Services, General Data Protection Regulation (GDPR), Cybersecurity, Contract Law, Cloud Computing, Intellectual Property, Contract Negotiations, Cybersecurity Regulation, International Transfers of Personal Data, Competition Law, Law Enforcement Access, Tax, ",
+        "Instructors": "Christopher Millard ,Chris Reed ,Johan David Michels ,Ian Walden ,Dimitra Kamarinou ,Jessica Shurson ,Vasiliki Koukoulioti ,",
+        "Rating": "4.9stars",
+        "Number of viewers": "34",
+        "Duration": "Approximately 3 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cloud Computing Law Specialization",
+        "url": "https://www.coursera.org/specializations/cloud-computing-law",
+        "description": "Learn how the Law Regulates the Cloud. Master the main legal and regulatory implications of using and providing cloud computing services. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Cloud Services",
+          " General Data Protection Regulation (GDPR)",
+          " Cybersecurity",
+          " Contract Law",
+          " Cloud Computing",
+          " Intellectual Property",
+          " Contract Negotiations",
+          " Cybersecurity Regulation",
+          " International Transfers of Personal Data",
+          " Competition Law",
+          " Law Enforcement Access",
+          " Tax",
+          " "
+        ],
+        "language": "English",
+        "duration": "Approximately 3 months to complete",
+        "rating": 4.9,
+        "viewers": 34
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466126",
+        "Title": "Foundations of Global Health Specialization",
+        "URL": "https://www.coursera.org/specializations/global-health",
+        "Short Intro": "Build skills to improve health & save lives. Learn foundational building blocks of humanitarian program planning, implementation, and evaluation.",
+        "Category": "Health",
+        "Sub-Category": "Public Health",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Nutrition, International Law, Humanitarian, Public Health, ",
+        "Instructors": "William Brieger, DrPH ,Gilbert Burnham, MD ,Mija Ververs ,Dr. Henry Perry, MD, PhD, MPH ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "634",
+        "Duration": "Approximately 8 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Foundations of Global Health Specialization",
+        "url": "https://www.coursera.org/specializations/global-health",
+        "description": "Build skills to improve health & save lives. Learn foundational building blocks of humanitarian program planning, implementation, and evaluation.",
+        "category": "Health",
+        "subCategory": "Public Health",
+        "provider": "Coursera",
+        "skills": [
+          "Nutrition",
+          " International Law",
+          " Humanitarian",
+          " Public Health",
+          " "
+        ],
+        "language": "English",
+        "duration": "Approximately 8 months to complete",
+        "rating": 4.8,
+        "viewers": 634
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466146",
+        "Title": "European Business Law  Specialization",
+        "URL": "https://www.coursera.org/specializations/european-business-law",
+        "Short Intro": "Launch your career in Europe. Master the essentials in European Business Law.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Compete on the Internal Market, Legal Research, Law, Business Law, Foreign Policy, ",
+        "Instructors": "Hans Henrik Lidgard ,Xavier Groussot ,Julian Nowag ,Anna Wiberg ,Eduardo Gill Pedro ,Angelica Ericsson ,Magnus Schmauch ,Annegret Engel ,Mia Rönnmar  ,Cécile Brokelind ,Sanja Bogojevic ,Michael Bogdan ,Niklas Arvidsson ,Jörgen Hettne ,Justin Pierce ,Ulf Maunsbach ,",
+        "Rating": "4.9stars",
+        "Number of viewers": "279",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law  Specialization",
+        "url": "https://www.coursera.org/specializations/european-business-law",
+        "description": "Launch your career in Europe. Master the essentials in European Business Law.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Compete on the Internal Market",
+          " Legal Research",
+          " Law",
+          " Business Law",
+          " Foreign Policy",
+          " "
+        ],
+        "language": "English",
+        "duration": "Approximately 5 months to complete",
+        "rating": 4.9,
+        "viewers": 279
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254661b9",
+        "Title": "PwC GST Taxation Executive  Professional Certificate",
+        "URL": "https://www.coursera.org/professional-certificates/pwc-gst-taxation-executive",
+        "Short Intro": "Launch your Career as a GST taxation executive. Build job-ready skills for an in-demand career as a GST professional in India. No prior experience required.",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Professional Certificate",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "E-invoicing & E-way bill,GST technical,GST Compliances & Return filing,GST law,Registration & Reconciliation,",
+        "Instructors": "Tax Academy",
+        "Rating": "4.5",
+        "Number of viewers": "21 reviews",
+        "Duration": "3 months at 10 hours a week",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "PwC GST Taxation Executive  Professional Certificate",
+        "url": "https://www.coursera.org/professional-certificates/pwc-gst-taxation-executive",
+        "description": "Launch your Career as a GST taxation executive. Build job-ready skills for an in-demand career as a GST professional in India. No prior experience required.",
+        "category": "Business",
+        "subCategory": "Finance",
+        "provider": "Coursera",
+        "skills": [
+          "E-invoicing & E-way bill",
+          "GST technical",
+          "GST Compliances & Return filing",
+          "GST law",
+          "Registration & Reconciliation",
+          ""
+        ],
+        "language": "English",
+        "duration": "3 months at 10 hours a week",
+        "rating": 4.5,
+        "viewers": null
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254661f8",
+        "Title": "AI & Law ",
+        "URL": "https://www.coursera.org/learn/ai-law",
+        "Short Intro": "About this Course",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Vietnamese",
+        "Skills": null,
+        "Instructors": "Jeffery Atik",
+        "Rating": "4.8stars",
+        "Number of viewers": "272",
+        "Duration": "Approx. 21 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "AI & Law ",
+        "url": "https://www.coursera.org/learn/ai-law",
+        "description": "About this Course",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 21 hours to complete",
+        "rating": 4.8,
+        "viewers": 272
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466210",
+        "Title": "Nuts and Bolts of U.S. Immigration Law",
+        "URL": "https://www.coursera.org/learn/us-immigration-law",
+        "Short Intro": "This course begins by exploring short term entry and long term entry into the United States. We will cover the various means of short term entry and long term entry, as well as the general application processes. We will also examine exclusion and deportation in the United States. In particular, we will discuss how and why individuals may not be admitted into the United States and possible reasons for deportation or removal. Lastly, we will cover the process of how to become a United States citizen and the various requirements for naturalization.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Fernando Chang-Muy",
+        "Rating": "4.9stars",
+        "Number of viewers": "69",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Nuts and Bolts of U.S. Immigration Law",
+        "url": "https://www.coursera.org/learn/us-immigration-law",
+        "description": "This course begins by exploring short term entry and long term entry into the United States. We will cover the various means of short term entry and long term entry, as well as the general application processes. We will also examine exclusion and deportation in the United States. In particular, we will discuss how and why individuals may not be admitted into the United States and possible reasons for deportation or removal. Lastly, we will cover the process of how to become a United States citizen and the various requirements for naturalization.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 10 hours to complete",
+        "rating": 4.9,
+        "viewers": 69
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466214",
+        "Title": "American Contract Law I",
+        "URL": "https://www.coursera.org/learn/contracts-1",
+        "Short Intro": "American Contract Law I (along with its sister course Contracts II) provides a comprehensive overview of contract law in the United States. The course covers most of the key concepts found in a first year law school class. Each lecture is based on one or more common-law cases, integrating legal doctrines with policy discussions. The course also covers key sections from the Uniform Commercial Code (UCC), which governs the sale of goods. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Ian Ayres",
+        "Rating": "4.9stars",
+        "Number of viewers": "820",
+        "Duration": "Approx. 32 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "American Contract Law I",
+        "url": "https://www.coursera.org/learn/contracts-1",
+        "description": "American Contract Law I (along with its sister course Contracts II) provides a comprehensive overview of contract law in the United States. The course covers most of the key concepts found in a first year law school class. Each lecture is based on one or more common-law cases, integrating legal doctrines with policy discussions. The course also covers key sections from the Uniform Commercial Code (UCC), which governs the sale of goods. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 32 hours to complete",
+        "rating": 4.9,
+        "viewers": 820
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466231",
+        "Title": "International Law in Action: the Arbitration of International Disputes",
+        "URL": "https://www.coursera.org/learn/arbitration-international-disputes",
+        "Short Intro": "‘The Arbitration of International Disputes’ is the third course of Leiden University’s  series on International Law in Action. The first course covered generalities on the international courts and tribunals in The Hague, while the second course provided an insider's  perspective into the work of international criminal courts and tribunals.  This third course explores the major aspects of international arbitration as one of the most common method of international dispute settlement . Through this course you will gain an in-depth understanding of the  various facets of international arbitration through the analysis of its role as a mechanism of dispute settlement, its institutions, the fields of law it is applicable to, and, of course, its most famous awards. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Eric De Brabandere",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,014",
+        "Duration": "Approx. 11 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "International Law in Action: the Arbitration of International Disputes",
+        "url": "https://www.coursera.org/learn/arbitration-international-disputes",
+        "description": "‘The Arbitration of International Disputes’ is the third course of Leiden University’s  series on International Law in Action. The first course covered generalities on the international courts and tribunals in The Hague, while the second course provided an insider's  perspective into the work of international criminal courts and tribunals.  This third course explores the major aspects of international arbitration as one of the most common method of international dispute settlement . Through this course you will gain an in-depth understanding of the  various facets of international arbitration through the analysis of its role as a mechanism of dispute settlement, its institutions, the fields of law it is applicable to, and, of course, its most famous awards. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 11 hours to complete",
+        "rating": 4.8,
+        "viewers": 1014
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466237",
+        "Title": "Introduction to English Common Law",
+        "URL": "https://www.coursera.org/learn/intro-common-law",
+        "Short Intro": "The common law of England and Wales is one of the major global legal traditions.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Vietnamese, German, Russian, English, Spanish, Hungarian",
+        "Skills": null,
+        "Instructors": "Charlotte Crilly",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,641",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to English Common Law",
+        "url": "https://www.coursera.org/learn/intro-common-law",
+        "description": "The common law of England and Wales is one of the major global legal traditions.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 19 hours to complete",
+        "rating": 4.8,
+        "viewers": 1641
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466238",
+        "Title": "A Law Student's Toolkit",
+        "URL": "https://www.coursera.org/learn/law-student",
+        "Short Intro": "Whether you are an advanced law student looking to review the basics, or an aspiring law student looking for head start, this course will help you build the foundation you will need to succeed in law school and beyond. This course will introduce you to terminology, concepts, and tools lawyers and legal academics use to make their arguments. It will help you follow these arguments—and make arguments of your own.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Ian Ayres",
+        "Rating": "4.7stars",
+        "Number of viewers": "1,317",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "A Law Student's Toolkit",
+        "url": "https://www.coursera.org/learn/law-student",
+        "description": "Whether you are an advanced law student looking to review the basics, or an aspiring law student looking for head start, this course will help you build the foundation you will need to succeed in law school and beyond. This course will introduce you to terminology, concepts, and tools lawyers and legal academics use to make their arguments. It will help you follow these arguments—and make arguments of your own.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": null,
+        "language": "English",
+        "duration": "Approx. 15 hours to complete",
+        "rating": 4.7,
+        "viewers": 1317
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662bc",
+        "Title": "Overcoming Dyslexia",
+        "URL": "https://www.coursera.org/learn/dyslexia",
+        "Short Intro": "Dyslexia is everywhere, touching so many children and adults, and while science has made extraordinary progress in understanding and clarifying the condition, this incredible powerful knowledge rarely reaches those who most need to know and would greatly benefit from it. Our goal is to change all this with the Coursera you are about to view, produced by Dr. Sally Shaywitz, the Audrey G. Ratner Professor in Learning Development, both the leading scientist studying dyslexia and the most devoted advocate for helping those who are dyslexic.",
+        "Category": "Health",
+        "Sub-Category": "Research",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Dyslexia,Education,READING,Law,Learning,",
+        "Instructors": "Sally E Shaywitz M.D.",
+        "Rating": "4.8stars",
+        "Number of viewers": "196",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Overcoming Dyslexia",
+        "url": "https://www.coursera.org/learn/dyslexia",
+        "description": "Dyslexia is everywhere, touching so many children and adults, and while science has made extraordinary progress in understanding and clarifying the condition, this incredible powerful knowledge rarely reaches those who most need to know and would greatly benefit from it. Our goal is to change all this with the Coursera you are about to view, produced by Dr. Sally Shaywitz, the Audrey G. Ratner Professor in Learning Development, both the leading scientist studying dyslexia and the most devoted advocate for helping those who are dyslexic.",
+        "category": "Health",
+        "subCategory": "Research",
+        "provider": "Coursera",
+        "skills": [
+          "Dyslexia",
+          "Education",
+          "READING",
+          "Law",
+          "Learning",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 12 hours to complete",
+        "rating": 4.8,
+        "viewers": 196
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662c0",
+        "Title": "Reducing Gun Violence in America: Evidence for Change",
+        "URL": "https://www.coursera.org/learn/gun-violence",
+        "Short Intro": "Reducing Gun Violence in America: Evidence for Change is designed to provide learners with the best available science and insights from top scholars across the country as well as the skills to understand which interventions are the most effective to offer a path forward for reducing gun violence in our homes, schools, and communities.",
+        "Category": "Health",
+        "Sub-Category": "Public Health",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Gun Violence Epidemiology,Community Change,Public Health Interventions,American Law & Policy,",
+        "Instructors": "Daniel W. Webster, ScD, MPH",
+        "Rating": "4.7stars",
+        "Number of viewers": "241",
+        "Duration": "Approx. 17 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Reducing Gun Violence in America: Evidence for Change",
+        "url": "https://www.coursera.org/learn/gun-violence",
+        "description": "Reducing Gun Violence in America: Evidence for Change is designed to provide learners with the best available science and insights from top scholars across the country as well as the skills to understand which interventions are the most effective to offer a path forward for reducing gun violence in our homes, schools, and communities.",
+        "category": "Health",
+        "subCategory": "Public Health",
+        "provider": "Coursera",
+        "skills": [
+          "Gun Violence Epidemiology",
+          "Community Change",
+          "Public Health Interventions",
+          "American Law & Policy",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 17 hours to complete",
+        "rating": 4.7,
+        "viewers": 241
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662da",
+        "Title": "An Introduction to American Law",
+        "URL": "https://www.coursera.org/learn/american-law",
+        "Short Intro": "This course will give you a glimpse into six different areas of American law: Tort Law, Contract Law, Property, Constitutional Law, Criminal Law, and Civil Procedure. You will gain insight into the complexities and dilemmas that arise from the application of law in different settings, and what is distinctive about American approaches.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "American Law,Common Law,Law,Constitution,",
+        "Instructors": "Anita Allen",
+        "Rating": "4.8stars",
+        "Number of viewers": "4,512",
+        "Duration": "Approx. 11 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "An Introduction to American Law",
+        "url": "https://www.coursera.org/learn/american-law",
+        "description": "This course will give you a glimpse into six different areas of American law: Tort Law, Contract Law, Property, Constitutional Law, Criminal Law, and Civil Procedure. You will gain insight into the complexities and dilemmas that arise from the application of law in different settings, and what is distinctive about American approaches.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "American Law",
+          "Common Law",
+          "Law",
+          "Constitution",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 11 hours to complete",
+        "rating": 4.8,
+        "viewers": 4512
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466310",
+        "Title": "International Humanitarian Law in Theory and Practice ",
+        "URL": "https://www.coursera.org/learn/international-humanitarian-law",
+        "Short Intro": "“International Humanitarian Law in Theory and Practice” is the first MOOC of the Kalshoven-Gieskes Forum on International Humanitarian Law, which is the platform within the Grotius Centre for International Legal Studies of Leiden University for the research, teaching and dissemination of international humanitarian law (IHL). ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "International Humanitarian Law,International Law,Law,",
+        "Instructors": "Robert Heinsch",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,493",
+        "Duration": "Approx. 18 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "International Humanitarian Law in Theory and Practice ",
+        "url": "https://www.coursera.org/learn/international-humanitarian-law",
+        "description": "“International Humanitarian Law in Theory and Practice” is the first MOOC of the Kalshoven-Gieskes Forum on International Humanitarian Law, which is the platform within the Grotius Centre for International Legal Studies of Leiden University for the research, teaching and dissemination of international humanitarian law (IHL). ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "International Humanitarian Law",
+          "International Law",
+          "Law",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 18 hours to complete",
+        "rating": 4.8,
+        "viewers": 1493
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466340",
+        "Title": "Terrorism and Counterterrorism: Comparing Theory and Practice",
+        "URL": "https://www.coursera.org/learn/terrorism",
+        "Short Intro": "Delve into the research behind terrorism as you unpack the assumptions and impacts of both terrorism and counterterrorism.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Governance and Society",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "History,counterterrorism,International Law,Terrorism Studies,Policy Analysis,",
+        "Instructors": "Edwin Bakker",
+        "Rating": "4.8stars",
+        "Number of viewers": "3,009",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Terrorism and Counterterrorism: Comparing Theory and Practice",
+        "url": "https://www.coursera.org/learn/terrorism",
+        "description": "Delve into the research behind terrorism as you unpack the assumptions and impacts of both terrorism and counterterrorism.",
+        "category": "Social Sciences",
+        "subCategory": "Governance and Society",
+        "provider": "Coursera",
+        "skills": [
+          "History",
+          "counterterrorism",
+          "International Law",
+          "Terrorism Studies",
+          "Policy Analysis",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 19 hours to complete",
+        "rating": 4.8,
+        "viewers": 3009
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466394",
+        "Title": "Children's Human Rights - An Interdisciplinary Introduction",
+        "URL": "https://www.coursera.org/learn/childrens-rights",
+        "Short Intro": "Drawing on the contributions of several academic disciplines including law, psychology, sociology, history, educational and health sciences, economy and anthropology, an interdisciplinary approach guides the student into a selection of critical issues concerning children’s rights. Participants will gain insight relative to the development of this specific human rights category, as well as to the evolution of the challenges faced by children over time and society’s efforts to respond. Successful international strategies and programs promoting children’s rights will be highlighted, as well as the role of key actors involved in international organizations working in this field. This open online course provides an overview of the most important features of children’s human rights. A central portion of the MOOC will consist of a presentation of the international and regional standards on children’s rights and the related international and regional judicial and quasi-judicial bodies designed to ensure their implementation. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Turkish, English, Slovak, Spanish",
+        "Skills": "Justice,Child Psychology,International Law,Humanitarian,",
+        "Instructors": "Roberta Ruggiero",
+        "Rating": "4.7stars",
+        "Number of viewers": "1,980",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Children's Human Rights - An Interdisciplinary Introduction",
+        "url": "https://www.coursera.org/learn/childrens-rights",
+        "description": "Drawing on the contributions of several academic disciplines including law, psychology, sociology, history, educational and health sciences, economy and anthropology, an interdisciplinary approach guides the student into a selection of critical issues concerning children’s rights. Participants will gain insight relative to the development of this specific human rights category, as well as to the evolution of the challenges faced by children over time and society’s efforts to respond. Successful international strategies and programs promoting children’s rights will be highlighted, as well as the role of key actors involved in international organizations working in this field. This open online course provides an overview of the most important features of children’s human rights. A central portion of the MOOC will consist of a presentation of the international and regional standards on children’s rights and the related international and regional judicial and quasi-judicial bodies designed to ensure their implementation. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Justice",
+          "Child Psychology",
+          "International Law",
+          "Humanitarian",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 10 hours to complete",
+        "rating": 4.7,
+        "viewers": 1980
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254663bc",
+        "Title": "Introduction to Environmental Law and Policy",
+        "URL": "https://www.coursera.org/learn/environmental-law",
+        "Short Intro": "Environmental law may be the one institution standing between us and planetary exhaustion. It is also an institution that needs to be reconciled with human liberty and economic aspirations. This course considers these issues and provides a tour though existing legal regimes governing pollution, water law, endangered species, toxic substances, environmental impact analyses, and environmental risk.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Environmental Law,Common Law,Law,Environmental Protection,",
+        "Instructors": "Donald Hornstein",
+        "Rating": "4.8stars",
+        "Number of viewers": "2,755",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Environmental Law and Policy",
+        "url": "https://www.coursera.org/learn/environmental-law",
+        "description": "Environmental law may be the one institution standing between us and planetary exhaustion. It is also an institution that needs to be reconciled with human liberty and economic aspirations. This course considers these issues and provides a tour though existing legal regimes governing pollution, water law, endangered species, toxic substances, environmental impact analyses, and environmental risk.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Environmental Law",
+          "Common Law",
+          "Law",
+          "Environmental Protection",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 14 hours to complete",
+        "rating": 4.8,
+        "viewers": 2755
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466423",
+        "Title": "Patent Law",
+        "URL": "https://www.coursera.org/learn/patents?specialization=introduction-intellectual-property",
+        "Short Intro": "In our modern technologically-based economy, the creation and enforcement of patent rights can make or break a business. With record numbers of patents being issued every year, the stakes for inventors (and, indeed, their lawyers) continue to rise, even as the patent law and its administration faces growing criticism. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Innovation,Business Strategy,Reading a Patent,Competition,",
+        "Instructors": "R. Polk Wagner",
+        "Rating": "4.8stars",
+        "Number of viewers": "215",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Patent Law",
+        "url": "https://www.coursera.org/learn/patents?specialization=introduction-intellectual-property",
+        "description": "In our modern technologically-based economy, the creation and enforcement of patent rights can make or break a business. With record numbers of patents being issued every year, the stakes for inventors (and, indeed, their lawyers) continue to rise, even as the patent law and its administration faces growing criticism. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Innovation",
+          "Business Strategy",
+          "Reading a Patent",
+          "Competition",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 10 hours to complete",
+        "rating": 4.8,
+        "viewers": 215
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466458",
+        "Title": "Copyright Law in the Music Business",
+        "URL": "https://www.coursera.org/learn/copyright-law-music-business?specialization=music-business",
+        "Short Intro": "In this course taught by E. Michael Harrington, students will learn the basis for copyright including what is and is not covered by copyright law. This course will help clarify what rights artists have as creators as well as what the public is free to take from their work. Students will also learn what to do if someone copies their work and what to do if they are accused of copying someone else. Finally, the course will discuss how technology has changed copyright for the better (and worse) and how copyright laws may change in the coming years.",
+        "Category": "Business",
+        "Sub-Category": "Business Strategy",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Create music legally,Read Legal Documents,Leverage the copyright law to your advantage,Write a co-writing agreement,",
+        "Instructors": "Dr. E. Michael Harrington",
+        "Rating": "4.8stars",
+        "Number of viewers": "613",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Copyright Law in the Music Business",
+        "url": "https://www.coursera.org/learn/copyright-law-music-business?specialization=music-business",
+        "description": "In this course taught by E. Michael Harrington, students will learn the basis for copyright including what is and is not covered by copyright law. This course will help clarify what rights artists have as creators as well as what the public is free to take from their work. Students will also learn what to do if someone copies their work and what to do if they are accused of copying someone else. Finally, the course will discuss how technology has changed copyright for the better (and worse) and how copyright laws may change in the coming years.",
+        "category": "Business",
+        "subCategory": "Business Strategy",
+        "provider": "Coursera",
+        "skills": [
+          "Create music legally",
+          "Read Legal Documents",
+          "Leverage the copyright law to your advantage",
+          "Write a co-writing agreement",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 10 hours to complete",
+        "rating": 4.8,
+        "viewers": 613
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254664fa",
+        "Title": "European Business Law: Understanding the Fundamentals",
+        "URL": "https://www.coursera.org/learn/european-law-fundamentals?specialization=european-business-law",
+        "Short Intro": "The European Union is one of the world’s largest and most important economies. This six week course is the first in a series of three that will provide students with an insight into European Business Law. The series ranges from considering the basic structures and principles of the European Union to focusing on various specialized areas of law. Each course will give the students an understanding of the laws and policies that regulate the internal market of European Union, as well as relevant case law and useful inputs from leading practitioners in the field. ",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Foreign Policy,Law,Legal Research,Business Law,",
+        "Instructors": "Hans Henrik Lidgard",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,228",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law: Understanding the Fundamentals",
+        "url": "https://www.coursera.org/learn/european-law-fundamentals?specialization=european-business-law",
+        "description": "The European Union is one of the world’s largest and most important economies. This six week course is the first in a series of three that will provide students with an insight into European Business Law. The series ranges from considering the basic structures and principles of the European Union to focusing on various specialized areas of law. Each course will give the students an understanding of the laws and policies that regulate the internal market of European Union, as well as relevant case law and useful inputs from leading practitioners in the field. ",
+        "category": "Business",
+        "subCategory": "Business Essentials",
+        "provider": "Coursera",
+        "skills": [
+          "Foreign Policy",
+          "Law",
+          "Legal Research",
+          "Business Law",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 13 hours to complete",
+        "rating": 4.8,
+        "viewers": 1228
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466501",
+        "Title": "Cloud Computing Law: Data Protection and Cybersecurity",
+        "URL": "https://www.coursera.org/learn/cloud-computing-law-data-protection-and-cybersecurity?specialization=cloud-computing-law",
+        "Short Intro": "Vast amounts of personal information are processed in the cloud. But who is legally responsible for such ‘personal data’ in cloud environments? What duties do cloud providers like Amazon, Microsoft, and Google have? And what rights can you, as an individual, exercise under data protection law? If you’d like to find out, then this course is for you!",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Cybersecurity Regulation,Cloud Services,General Data Protection Regulation (GDPR),International Transfers of Personal Data,Cloud Computing,",
+        "Instructors": "Christopher Millard",
+        "Rating": "5.0stars",
+        "Number of viewers": "22",
+        "Duration": "Approx. 16 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cloud Computing Law: Data Protection and Cybersecurity",
+        "url": "https://www.coursera.org/learn/cloud-computing-law-data-protection-and-cybersecurity?specialization=cloud-computing-law",
+        "description": "Vast amounts of personal information are processed in the cloud. But who is legally responsible for such ‘personal data’ in cloud environments? What duties do cloud providers like Amazon, Microsoft, and Google have? And what rights can you, as an individual, exercise under data protection law? If you’d like to find out, then this course is for you!",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Cybersecurity Regulation",
+          "Cloud Services",
+          "General Data Protection Regulation (GDPR)",
+          "International Transfers of Personal Data",
+          "Cloud Computing",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 16 hours to complete",
+        "rating": 5.0,
+        "viewers": 22
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254665ee",
+        "Title": "Copyright Law",
+        "URL": "https://www.coursera.org/learn/copyright-law?specialization=introduction-intellectual-property",
+        "Short Intro": "Copyright law is unique in the greater intellectual property regime, as it protects original expression that is fixed in a tangible medium and is the product of authorship.  This course is designed for creative professionals — such as screenwriters, musicians, documentary filmmakers or artists — who want to understand the scope and limits of which works can enjoy U.S. copyright protection. The course will introduce students to the workings of copyright law through an examination of the system’s basic principles, rules, and institutions. Topics will include; the justifications for copyright law, copyrightable subject matter, authorship, the nature and scope of copyright’s exclusive rights, fair use, and remedies for infringement. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Spanish",
+        "Skills": "Copyright,Copyright Protection,Fair Use,",
+        "Instructors": "Shyam Balganesh",
+        "Rating": "4.8stars",
+        "Number of viewers": "280",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Copyright Law",
+        "url": "https://www.coursera.org/learn/copyright-law?specialization=introduction-intellectual-property",
+        "description": "Copyright law is unique in the greater intellectual property regime, as it protects original expression that is fixed in a tangible medium and is the product of authorship.  This course is designed for creative professionals — such as screenwriters, musicians, documentary filmmakers or artists — who want to understand the scope and limits of which works can enjoy U.S. copyright protection. The course will introduce students to the workings of copyright law through an examination of the system’s basic principles, rules, and institutions. Topics will include; the justifications for copyright law, copyrightable subject matter, authorship, the nature and scope of copyright’s exclusive rights, fair use, and remedies for infringement. ",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Copyright",
+          "Copyright Protection",
+          "Fair Use",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 12 hours to complete",
+        "rating": 4.8,
+        "viewers": 280
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254666b1",
+        "Title": "Cloud Computing Law: Transactions",
+        "URL": "https://www.coursera.org/learn/cloud-computing-law-transactions?specialization=cloud-computing-law",
+        "Short Intro": "Have you ever wondered what’s in the small print of cloud contracts? Or who owns the information you upload to the cloud? And who can access and control it? If so, then this course is for you! You’ll learn to identify the legal risks involved in cloud computing transactions - and to suggest possible solutions.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Intellectual Property,Cybersecurity,Contract Negotiations,Contract Law,Cloud Computing,",
+        "Instructors": "Christopher Millard",
+        "Rating": "4.9stars",
+        "Number of viewers": "25",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cloud Computing Law: Transactions",
+        "url": "https://www.coursera.org/learn/cloud-computing-law-transactions?specialization=cloud-computing-law",
+        "description": "Have you ever wondered what’s in the small print of cloud contracts? Or who owns the information you upload to the cloud? And who can access and control it? If so, then this course is for you! You’ll learn to identify the legal risks involved in cloud computing transactions - and to suggest possible solutions.",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Intellectual Property",
+          "Cybersecurity",
+          "Contract Negotiations",
+          "Contract Law",
+          "Cloud Computing",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 19 hours to complete",
+        "rating": 4.9,
+        "viewers": 25
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546675b",
+        "Title": "Public Health in Humanitarian Crises 1",
+        "URL": "https://www.coursera.org/learn/humanitarian-public-health?specialization=global-health",
+        "Short Intro": "This course, Public Health in Humanitarian Crises 1, introduces discussions about the public health approach to problems experienced by people affected by disasters, both natural and related to conflict. The course discusses the many changes which occur in people’s lives when they are uprooted by a disaster, ranging from changes in disease patterns, access to health care, livelihoods, shelter, sanitary conditions, nutritional status, etceteras. We will explore what humanitarian interventions could look like if we want to mitigate the effects of disasters. The course content is a mix of theoretical knowledge and many practical examples from recent disasters. We think this course is unique because it contains so many practical ‘real-life’ examples and is taught by instructors and guest lecturers who together have over 200 years of experience in this field. ",
+        "Category": "Social Sciences",
+        "Sub-Category": "Governance and Society",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Nutrition,International Law,Humanitarian,Public Health,",
+        "Instructors": "Gilbert Burnham, MD",
+        "Rating": "4.8stars",
+        "Number of viewers": "515",
+        "Duration": "Approx. 16 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Public Health in Humanitarian Crises 1",
+        "url": "https://www.coursera.org/learn/humanitarian-public-health?specialization=global-health",
+        "description": "This course, Public Health in Humanitarian Crises 1, introduces discussions about the public health approach to problems experienced by people affected by disasters, both natural and related to conflict. The course discusses the many changes which occur in people’s lives when they are uprooted by a disaster, ranging from changes in disease patterns, access to health care, livelihoods, shelter, sanitary conditions, nutritional status, etceteras. We will explore what humanitarian interventions could look like if we want to mitigate the effects of disasters. The course content is a mix of theoretical knowledge and many practical examples from recent disasters. We think this course is unique because it contains so many practical ‘real-life’ examples and is taught by instructors and guest lecturers who together have over 200 years of experience in this field. ",
+        "category": "Social Sciences",
+        "subCategory": "Governance and Society",
+        "provider": "Coursera",
+        "skills": [
+          "Nutrition",
+          "International Law",
+          "Humanitarian",
+          "Public Health",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 16 hours to complete",
+        "rating": 4.8,
+        "viewers": 515
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546677b",
+        "Title": "Cloud Computing Law: Law Enforcement, Competition, & Tax",
+        "URL": "https://www.coursera.org/learn/cloud-computing-law-law-enforcement-competition-tax?specialization=cloud-computing-law",
+        "Short Intro": "Have you ever wondered how a police officer in Europe can obtain evidence from a cloud provider in the USA? Or whether a major cloud provider might abuse its market power? Or in which countries cloud providers pay taxes? If so, then this course is for you!",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Competition Law,Cloud Services,Law Enforcement Access,Tax,Cloud Computing,",
+        "Instructors": "Ian Walden",
+        "Rating": "4.7stars",
+        "Number of viewers": "11",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cloud Computing Law: Law Enforcement, Competition, & Tax",
+        "url": "https://www.coursera.org/learn/cloud-computing-law-law-enforcement-competition-tax?specialization=cloud-computing-law",
+        "description": "Have you ever wondered how a police officer in Europe can obtain evidence from a cloud provider in the USA? Or whether a major cloud provider might abuse its market power? Or in which countries cloud providers pay taxes? If so, then this course is for you!",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Competition Law",
+          "Cloud Services",
+          "Law Enforcement Access",
+          "Tax",
+          "Cloud Computing",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 15 hours to complete",
+        "rating": 4.7,
+        "viewers": 11
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254667a6",
+        "Title": "Copyright Law in the Music Business",
+        "URL": "https://www.coursera.org/learn/copyright-law-music-business?specialization=business-music-production",
+        "Short Intro": "In this course taught by E. Michael Harrington, students will learn the basis for copyright including what is and is not covered by copyright law. This course will help clarify what rights artists have as creators as well as what the public is free to take from their work. Students will also learn what to do if someone copies their work and what to do if they are accused of copying someone else. Finally, the course will discuss how technology has changed copyright for the better (and worse) and how copyright laws may change in the coming years.",
+        "Category": "Business",
+        "Sub-Category": "Business Strategy",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Create music legally,Read Legal Documents,Leverage the copyright law to your advantage,Write a co-writing agreement,",
+        "Instructors": "Dr. E. Michael Harrington",
+        "Rating": "4.8stars",
+        "Number of viewers": "613",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Copyright Law in the Music Business",
+        "url": "https://www.coursera.org/learn/copyright-law-music-business?specialization=business-music-production",
+        "description": "In this course taught by E. Michael Harrington, students will learn the basis for copyright including what is and is not covered by copyright law. This course will help clarify what rights artists have as creators as well as what the public is free to take from their work. Students will also learn what to do if someone copies their work and what to do if they are accused of copying someone else. Finally, the course will discuss how technology has changed copyright for the better (and worse) and how copyright laws may change in the coming years.",
+        "category": "Business",
+        "subCategory": "Business Strategy",
+        "provider": "Coursera",
+        "skills": [
+          "Create music legally",
+          "Read Legal Documents",
+          "Leverage the copyright law to your advantage",
+          "Write a co-writing agreement",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 10 hours to complete",
+        "rating": 4.8,
+        "viewers": 613
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466877",
+        "Title": "Introduction to Intellectual Property",
+        "URL": "https://www.coursera.org/learn/introduction-intellectual-property?specialization=introduction-intellectual-property",
+        "Short Intro": "Intellectual property is the currency of the tech world, with the world’s most valuable intellectual property assets dwarfing the value of their real-world counterparts. Apple’ trademarked brand was valued at over $100 billion as of 2017. J.K. Rowling’s Harry potter franchise has generated over $25 billion to date. But how did the law come to create such enormous value in intangible assets?",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), German, Russian, English, Spanish",
+        "Skills": "Brand Management,Asset Management,Value Proposition,Intellectual Property,",
+        "Instructors": "R. Polk Wagner",
+        "Rating": "4.8stars",
+        "Number of viewers": "824",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Intellectual Property",
+        "url": "https://www.coursera.org/learn/introduction-intellectual-property?specialization=introduction-intellectual-property",
+        "description": "Intellectual property is the currency of the tech world, with the world’s most valuable intellectual property assets dwarfing the value of their real-world counterparts. Apple’ trademarked brand was valued at over $100 billion as of 2017. J.K. Rowling’s Harry potter franchise has generated over $25 billion to date. But how did the law come to create such enormous value in intangible assets?",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Brand Management",
+          "Asset Management",
+          "Value Proposition",
+          "Intellectual Property",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 15 hours to complete",
+        "rating": 4.8,
+        "viewers": 824
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668bf",
+        "Title": "Trademark Law",
+        "URL": "https://www.coursera.org/learn/trademark-law?specialization=introduction-intellectual-property",
+        "Short Intro": "The protections afforded under trademark law have created incredible value in intangible assets, with the value of the world’s most valuable brands such as Amazon, Apple and Google each exceeding $100 billion. But what exactly is trademark law, and how is such enormous value created?",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Marketing,Brand Management,Strategic Planning,Value Proposition,",
+        "Instructors": "Cynthia Dahl",
+        "Rating": "4.8stars",
+        "Number of viewers": "199",
+        "Duration": "Approx. 18 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Trademark Law",
+        "url": "https://www.coursera.org/learn/trademark-law?specialization=introduction-intellectual-property",
+        "description": "The protections afforded under trademark law have created incredible value in intangible assets, with the value of the world’s most valuable brands such as Amazon, Apple and Google each exceeding $100 billion. But what exactly is trademark law, and how is such enormous value created?",
+        "category": "Social Sciences",
+        "subCategory": "Law",
+        "provider": "Coursera",
+        "skills": [
+          "Marketing",
+          "Brand Management",
+          "Strategic Planning",
+          "Value Proposition",
+          ""
+        ],
+        "language": "English",
+        "duration": "Approx. 18 hours to complete",
+        "rating": 4.8,
+        "viewers": 199
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68ab78d33eb917f23db49180",
+        "Title": "European Business Law Specialization",
+        "URL": "https://www.coursera.org/specializations/european-business-law",
+        "Short Intro": "The European Union is one of the world's largest and most important economies. This specialization is a 3-course bundle that will teach learners the fundamentals of European Business Law.",
+        "Category": "Law",
+        "Sub-Category": "Social Science & Law",
+        "Course Type": "Beginner",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Chinese (Simplified)",
+        "Skills": "Regulation and Legal Compliance , Legal Research , Business , Intellectual Property , Tax Laws , Competitive Analysis , International Relations , European History , Labor Law , Legal , Writing , Case Law , Legal Strategy",
+        "Instructors": "Vijay Kumar ,CJ Taylor ,Daniel E. Koditschek ,Kostas Daniilidis ,Jianbo Shi ,Daniel Lee ,Sid Deliwala ,",
+        "Rating": "4.5stars",
+        "Number of viewers": "7,667",
+        "Duration": "Approximately 2 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law Specialization",
+        "url": "https://www.coursera.org/specializations/european-business-law",
+        "description": "The European Union is one of the world's largest and most important economies. This specialization is a 3-course bundle that will teach learners the fundamentals of European Business Law.",
+        "category": "Law",
+        "subCategory": "Social Science & Law",
+        "provider": "Coursera",
+        "skills": [
+          "Regulation and Legal Compliance ",
+          " Legal Research ",
+          " Business ",
+          " Intellectual Property ",
+          " Tax Laws ",
+          " Competitive Analysis ",
+          " International Relations ",
+          " European History ",
+          " Labor Law ",
+          " Legal ",
+          " Writing ",
+          " Case Law ",
+          " Legal Strategy"
+        ],
+        "language": "English",
+        "duration": "Approximately 2 months to complete",
+        "rating": 4.5,
+        "viewers": 7667
+      }
+    }
+  ]
+}

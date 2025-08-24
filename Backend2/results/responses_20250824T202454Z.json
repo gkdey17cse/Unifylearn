@@ -1,0 +1,111 @@
+{
+  "query": "Show me only 10 Coursera Courses based on React based Development",
+  "debug": {
+    "user_query": "Show me only 10 Coursera Courses based on React based Development",
+    "llm_generated_queries": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Skills Covered": {
+                  "$regex": "\\bReact\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Title": {
+                  "$regex": "\\bReact\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bReact\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills Covered": {
+                  "$regex": "\\bReact Development\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Title": {
+                  "$regex": "\\bReact Development\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bReact Development\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\bReact\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bReact\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bReact\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bReact Development\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bReact Development\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bReact Development\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for coursera: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756067097, 28), 'signature': {'hash': b'\\x85W\\\\\\xb8\\xae{fs:A\\xd1\\xbb\\x10\\x01\\xa5\\xe2\\x13\\x06\\xa3s', 'keyId': 7492593155364093962}}, 'operationTime': Timestamp(1756067097, 28)}"
+      }
+    }
+  },
+  "results": []
+}
