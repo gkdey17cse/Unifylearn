@@ -1,19 +1,14 @@
+from src.app.data_enrichment.uniform_formatter import format_to_universal_schema
+
+
 def unifyResponse(provider, raw):
-    return {
-        "title": raw.get("Title") or raw.get("Course Title"),
-        "url": raw.get("URL") or raw.get("Course URL"),
-        "description": raw.get("Short Intro") or raw.get("Course Short Intro"),
-        "category": raw.get("Category"),
-        "subCategory": raw.get("Sub-Category"),
-        "provider": provider.capitalize(),
-        "skills": raw.get("Skills", "").split(",") if raw.get("Skills") else None,
-        "language": raw.get("Language"),
-        "duration": raw.get("Duration") or raw.get("Weekly study"),
-        "rating": parseRating(raw.get("Rating")),
-        "viewers": parseViewers(raw.get("Number of viewers")),
-    }
+    """
+    Convert raw course data to universal schema format with LLM enrichment.
+    """
+    return format_to_universal_schema(raw, provider)
 
 
+# Keep the old functions for backward compatibility
 def parseRating(rating):
     if not rating:
         return None
