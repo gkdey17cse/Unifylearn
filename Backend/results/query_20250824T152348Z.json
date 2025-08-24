@@ -1,0 +1,18 @@
+{
+  "query": "Top 5 Python courses for beginners from Coursera and Udacity",
+  "parsed": {
+    "raw": "Top 5 Python courses for beginners from Coursera and Udacity",
+    "platforms": [
+      "coursera",
+      "udacity"
+    ],
+    "topic": "Courses For Beginners From",
+    "level": "beginner",
+    "limit": 5,
+    "sort": null
+  },
+  "results_count": 0,
+  "results": [],
+  "errors": [],
+  "took_seconds": 0.2820100784301758
+}

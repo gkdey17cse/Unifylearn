@@ -1,7 +1,15 @@
 # src/app/main.py
+from dotenv import load_dotenv
+load_dotenv()  # must be before any "from src.app..." imports
+
+import os
 from flask import Flask, jsonify
-from app.routes.query_routes import bp as query_bp
-from app.routes.health_routes import bp as health_bp
+from src.app.routes.query_routes import bp as query_bp
+from src.app.routes.health_routes import bp as health_bp
+
+
+# Load .env file
+load_dotenv()
 
 
 def create_app():

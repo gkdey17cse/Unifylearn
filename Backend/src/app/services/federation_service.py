@@ -1,33 +1,58 @@
 # src/app/services/federation_service.py
 from concurrent.futures import ThreadPoolExecutor, as_completed
-from typing import List, Dict, Any
-from app.services.plan_builder import build_plans
-from app.services.db_service import find_documents
-from app.services.adapters import normalize_doc
-from app.utils.text_utils import string_relevance_score
+from typing import List, Dict, Any, Optional
+from src.app.services.plan_builder import build_plans, PROVIDERS
+from src.app.services.db_service import find_documents
+from src.app.services.adapters import normalize_doc
+from src.app.utils.text_utils import string_relevance_score
 import time
 import os
-from app.utils.config import OUTPUT_DIR
-from io_utils.write_json import write_json
+from src.app.utils.config import OUTPUT_DIR
+from src.io_utils.write_json import write_json
+import logging
 
 
 def _fetch_plan(plan: Dict[str, Any]) -> List[Dict[str, Any]]:
-    # run a simple find() for this plan
-    docs = find_documents(
-        plan["db"],
-        plan["coll"],
-        plan.get("filter", {}),
-        plan.get("projection"),
-        plan.get("limit", 20),
-    )
-    return docs
+    """
+    Execute a single plan. The plan is expected to have:
+    - db, coll
+    - filter (dict) optional
+    - projection (dict) optional
+    - limit (int) optional
+    This works for both rule-based plans (from build_plans) and LLM-generated plans.
+    """
+    db = plan.get("db")
+    coll = plan.get("coll")
+    filt = plan.get("filter", {}) or {}
+    proj = plan.get("projection", None)
+    limit = plan.get("limit", 20)
+    # Defensive defaults
+    try:
+        docs = find_documents(db, coll, filt, proj, limit)
+        return docs
+    except Exception as e:
+        logging.exception("Error executing plan for %s.%s: %s", db, coll, str(e))
+        raise
 
 
-def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
+def run_federated_query(
+    parsed_query: Dict[str, Any], llm_plans: Optional[List[Dict[str, Any]]] = None
+) -> Dict[str, Any]:
+    """
+    Run federated query. If llm_plans is provided and non-empty, we use them.
+    Otherwise we fall back to build_plans(parsed_query).
+    """
     start = time.time()
-    plans = build_plans(parsed_query)
-    results = []
-    errors = []
+
+    # Choose plans: prefer validated llm_plans, otherwise build from parsed_query
+    if llm_plans:
+        plans = llm_plans
+    else:
+        plans = build_plans(parsed_query)
+
+    results: List[Dict[str, Any]] = []
+    errors: List[Dict[str, Any]] = []
+
     # run in parallel
     with ThreadPoolExecutor(max_workers=min(8, len(plans) or 1)) as ex:
         futures = {ex.submit(_fetch_plan, p): p for p in plans}
@@ -36,11 +61,16 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
             try:
                 docs = fut.result()
             except Exception as e:
-                errors.append({"provider": plan["provider"], "error": str(e)})
+                errors.append(
+                    {
+                        "provider": plan.get("provider", plan.get("coll")),
+                        "error": str(e),
+                    }
+                )
                 continue
             # normalize docs
             for d in docs:
-                norm = normalize_doc(plan["provider"], d)
+                norm = normalize_doc(plan.get("provider", ""), d)
                 results.append(norm)
 
     # dedupe by URL (if present), else by platform+title
@@ -53,6 +83,7 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
         elif r.get("title"):
             key = f"{r.get('platform')}::{r.get('title')}".lower()
         else:
+            # skip documents without identifiable key
             continue
         if key in seen:
             continue
@@ -63,7 +94,7 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
     sort_dir = parsed_query.get("sort")
     topic = parsed_query.get("topic")
     if sort_dir in ("desc", "asc"):
-        # sort by rating where available; put missing rating at end (desc) or start (asc)
+
         def sort_key(x):
             r = x.get("rating")
             if r is None:
@@ -72,7 +103,6 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
 
         deduped.sort(key=sort_key, reverse=(sort_dir == "desc"))
     else:
-        # default: if topic exists, use relevance heuristic then rating then platform
         if topic:
             deduped.sort(
                 key=lambda x: (
@@ -89,7 +119,6 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
                 reverse=True,
             )
         else:
-            # fallback: sort by rating desc if present
             deduped.sort(key=lambda x: x.get("rating") or 0, reverse=True)
 
     # apply overall limit if user specified (we fetched per-provider)
@@ -97,7 +126,6 @@ def run_federated_query(parsed_query: Dict[str, Any]) -> Dict[str, Any]:
     final = deduped if overall_limit is None else deduped[:overall_limit]
 
     took = time.time() - start
-    # write output JSON (timestamped)
     fname = write_json(
         {
             "query": parsed_query.get("raw"),

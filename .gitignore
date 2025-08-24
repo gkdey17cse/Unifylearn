@@ -3,3 +3,5 @@ env.md
 .env
 Backend/src/app/__pycache__/*
 Backend/IIAProject/*
+Backend2/src/app/__pycache__/*
+Backend2/IIA/*

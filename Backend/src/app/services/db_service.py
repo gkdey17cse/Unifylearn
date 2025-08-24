@@ -3,7 +3,7 @@
 from pymongo import MongoClient
 from pymongo.errors import ServerSelectionTimeoutError
 from typing import List, Dict, Any, Optional
-from app.utils.config import MONGO_URI
+from src.app.utils.config import MONGO_URI
 
 _client = None
 

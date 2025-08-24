@@ -2,86 +2,93 @@
 import re
 from typing import Dict, Any, List
 
-PLATFORM_KEYWORDS = {
+PLATFORM_WORDS = {
     "coursera": ["coursera"],
-    "futurelearn": ["futurelearn", "future learn", "future-learn"],
-    "simplilearn": ["simplilearn", "simpli learn", "simpli-learn"],
+    "futurelearn": ["futurelearn", "future learn"],
+    "simplilearn": ["simplilearn", "simpli learn"],
     "udacity": ["udacity"],
 }
+LEVEL_WORDS = {
+    "beginner": r"(beginner|beginners|intro(ductory)?|basic|foundation(s)?)",
+    "intermediate": r"(intermediate)",
+    "advanced": r"(advanced|expert)",
+}
 
-TOP_SYNONYMS_TOP = ["top", "best", "highest rated", "highest-rated", "highest"]
-TOP_SYNONYMS_WORST = ["worst", "less important", "low rated", "least", "lowest rated"]
 
-
-def extract_platforms(text: str) -> List[str]:
-    t = text.lower()
+def _find_platforms(q: str) -> List[str]:
+    ql = q.lower()
     found = []
-    for key, variants in PLATFORM_KEYWORDS.items():
-        for v in variants:
-            if v in t:
-                found.append(key)
-                break
-    return found
+    for k, words in PLATFORM_WORDS.items():
+        if any(w in ql for w in words):
+            found.append(k)
+    return found or None
 
 
-def extract_limit(text: str) -> int:
-    # patterns like "top 5", "top 10", "5 results", "limit 5"
-    m = re.search(r"top\s+(\d+)", text, re.I)
+def _find_level(q: str) -> str | None:
+    ql = q.lower()
+    for lvl, patt in LEVEL_WORDS.items():
+        if re.search(rf"\b{patt}\b", ql):
+            return lvl
+    return None
+
+
+def _find_limit(q: str) -> int | None:
+    m = re.search(r"\btop\s+(\d+)\b", q.lower())
     if m:
         return int(m.group(1))
-    m = re.search(r"limit\s+(\d+)", text, re.I)
-    if m:
-        return int(m.group(1))
-    m = re.search(r"(\d+)\s+(results|courses|items)\b", text, re.I)
+    m = re.search(r"\b(\d+)\s+(results|courses)\b", q.lower())
     if m:
         return int(m.group(1))
     return None
 
 
-def extract_sort(text: str) -> str:
-    tl = text.lower()
-    if any(k in tl for k in TOP_SYNONYMS_TOP):
-        return "desc"
-    if any(k in tl for k in TOP_SYNONYMS_WORST):
-        return "asc"
-    return None
+def _find_topic(q: str) -> str | None:
+    """
+    Heuristics:
+    - grab phrase after 'in|on|about' up to 'course' or end
+    - otherwise, take the noun-like token right before 'course(s)'
+    - fallback: longest capitalized word (Python, SQL, Tableau)
+    """
+    ql = q.lower()
 
+    # after 'in|on|about'
+    m = re.search(r"(in|on|about)\s+([a-z0-9+\-# .]+?)(?=\s+course|$)", ql)
+    if m:
+        cand = m.group(2).strip()
+        if cand and cand not in ("course", "courses"):
+            return cand.title()
 
-def extract_topic(text: str) -> str:
-    # 1) try quoted phrase
-    m = re.search(r'["“](.+?)["”]', text)
+    # before 'course(s)'
+    m = re.search(r"([a-z0-9+\-# .]+)\s+course(s)?", ql)
     if m:
-        return m.group(1).strip()
-    # 2) after 'in|about|for' pick next 1-4 words phrase
-    m = re.search(r"\b(?:in|about|for)\s+([A-Za-z0-9 &+/-]{3,80})", text, re.I)
-    if m:
-        candidate = m.group(1).strip().rstrip(".,?")
-        # if candidate contains certain stopwords at end, trim
-        return candidate
-    # 3) fallback: pick last noun-ish phrase: last 2 words if they are alphabets
-    tokens = re.findall(r"[A-Za-z0-9\+\-]+", text)
+        cand = m.group(1).strip()
+        # trim trailing 'for <level>'
+        cand = re.sub(
+            r"\s+for\s+(beginners?|intermediate|advanced).*", "", cand
+        ).strip()
+        if cand:
+            return cand.title()
+
+    # fallback: pick a common tech word in Title case
+    tokens = re.findall(r"\b[A-Z][a-zA-Z0-9+\-#]{1,}\b", q)
     if tokens:
-        # return the longest token sequence that is > 2 letters (heuristic)
-        # prefer multi-word starting from first content word (after common prefixes)
-        filtered = [t for t in tokens if len(t) > 2]
-        if filtered:
-            # return joined last two as fallback
-            return " ".join(filtered[-2:])
+        # choose the longest (Python, Machine Learning, etc.)
+        return sorted(tokens, key=len, reverse=True)[0]
+
     return None
 
 
-def parse_user_query(text: str) -> Dict[str, Any]:
-    text = text.strip()
-    platforms = extract_platforms(text)
-    if not platforms:
-        platforms = None  # meaning 'search all'
-    limit = extract_limit(text)
-    sort_dir = extract_sort(text)
-    topic = extract_topic(text)
+def parse_user_query(q: str) -> Dict[str, Any]:
+    q = (q or "").strip()
+    platforms = _find_platforms(q)
+    level = _find_level(q)
+    limit = _find_limit(q)
+    topic = _find_topic(q)
     return {
-        "raw": text,
-        "platforms": platforms,
-        "topic": topic,
-        "limit": limit,
-        "sort": sort_dir,
+        "raw": q,
+        "platforms": platforms,  # list[str] | None
+        "topic": topic,  # e.g., "Python"
+        "level": level,  # beginner|intermediate|advanced|None
+        "limit": limit,  # int|None
+        "sort": None,
     }
