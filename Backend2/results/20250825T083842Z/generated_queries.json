@@ -1,0 +1,66 @@
+{
+  "user_query": "show me all coursera courses related to AUtoCad and Civil ENgineering",
+  "generated_queries": {
+    "coursera": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bAutoCad\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bAutoCad\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills Covered": {
+                "$regex": "\\bAutoCad\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bCivil Engineering\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bCivil Engineering\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills Covered": {
+                "$regex": "\\bCivil Engineering\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Main Category": {
+                "$regex": "\\bCivil Engineering\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bCivil Engineering\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-25T08:38:42.847970"
+}

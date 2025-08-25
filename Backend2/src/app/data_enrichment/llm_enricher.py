@@ -50,7 +50,7 @@ Provider: {universal_data.get('provider', 'Unknown')}
 2. For skills: Extract from description and context
 3. For category: Infer from title and description  
 4. For prerequisites: Suggest reasonable requirements based on level
-5. For learning_outcomes: Extract key learning points from description
+5. For learning_outcomes: Extract key learning points from description within 30 to 40 words max
 6. Be concise and accurate
 7. For language: Default to "English" if not specified
 8. For viewers: Provide a reasonable estimate if unknown

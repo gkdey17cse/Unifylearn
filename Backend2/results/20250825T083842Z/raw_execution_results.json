@@ -1,0 +1,50 @@
+{
+  "user_query": "show me all coursera courses related to AUtoCad and Civil ENgineering",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bshow\\ all\\ coursera\\ related\\ autocad\\ and\\ civil\\ engineering\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bshow\\ all\\ coursera\\ related\\ autocad\\ and\\ civil\\ engineering\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bshow\\ all\\ coursera\\ related\\ autocad\\ and\\ civil\\ engineering\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bshow\\ all\\ coursera\\ related\\ autocad\\ and\\ civil\\ engineering\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bshow\\ all\\ coursera\\ related\\ autocad\\ and\\ civil\\ engineering\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-25T08:38:42.848975"
+}

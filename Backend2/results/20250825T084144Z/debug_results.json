@@ -1,0 +1,2567 @@
+{
+  "timestamp": "2025-08-25T08:41:45.000594",
+  "user_query": "Show me courses based on GUitar Playing and lessons",
+  "debug_info": {
+    "user_query": "Show me courses based on GUitar Playing and lessons",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Playing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\blessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Short Intro": {
+                "$regex": "\\bGuitar Playing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bGuitar Playing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGuitar Playing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blessons\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\blessons\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\blessons\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 33,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Short Intro": {
+                "$regex": "\\bGuitar Playing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGuitar Playing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blessons\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\blessons\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 21,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ based\\ guitar\\ playing\\ and\\ lessons\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254661e8",
+        "Title": "The Science of Well-Being for Teens",
+        "URL": "https://www.coursera.org/learn/the-science-of-well-being-for-teens",
+        "Short Intro": "A recent survey found that 37% of teens say they have poor mental health. This 6-week course aims to curb this mental health crisis by bringing together the best insights from Dr. Laurie Santos’ popular Yale course Psychology and the Good Life. In this course, you will explore what the field of psychology teaches us about how to be happier, how to feel less stressed, and how to thrive in high school and beyond. The lessons along with short weekly ‘happiness homework’ assignments will ultimately prepare you to put these scientific findings into practice. The ultimate goal is for you to feel better and build healthier habits. Parents, teachers, and other professionals supporting teenagers may also find the course beneficial.",
+        "Category": "Personal Development",
+        "Sub-Category": "Personal Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Laurie Santos",
+        "Rating": "4.9stars",
+        "Number of viewers": "134",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "The Science of Well-Being for Teens",
+        "url": "https://www.coursera.org/learn/the-science-of-well-being-for-teens",
+        "description": "A recent survey found that 37% of teens say they have poor mental health. This 6-week course aims to curb this mental health crisis by bringing together the best insights from Dr. Laurie Santos’ popular Yale course Psychology and the Good Life. In this course, you will explore what the field of psychology teaches us about how to be happier, how to feel less stressed, and how to thrive in high school and beyond. The lessons along with short weekly ‘happiness homework’ assignments will ultimately prepare you to put these scientific findings into practice. The ultimate goal is for you to feel better and build healthier habits. Parents, teachers, and other professionals supporting teenagers may also find the course beneficial.",
+        "category": "Personal Development",
+        "language": "English",
+        "skills": [
+          "Well-being",
+          "Stress Management",
+          "Happiness",
+          "Healthy Habits",
+          "Mental Health"
+        ],
+        "instructors": [
+          "Laurie Santos"
+        ],
+        "duration": "Approx. 12 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 134,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Learn psychological principles for increased happiness and reduced stress. Develop healthier habits and apply scientific findings to improve well-being in high school and beyond.",
+        "price": "Free to audit",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466204",
+        "Title": "Everyday Parenting: The ABCs of Child Rearing",
+        "URL": "https://www.coursera.org/learn/everyday-parenting",
+        "Short Intro": "Everyday Parenting gives you access to a toolkit of behavior-change techniques that will make your typical day in the home easier as you develop the behaviors you would like to see in your child. The lessons provide step-by-step instructions and demonstrations to improve your course of action with both children and adolescents.  Among many techniques, you will learn how even simple modifications to tone of voice and phrasing can lead to more compliance.  The course will also shed light on many parenting misconceptions and ineffective strategies that are routinely used.",
+        "Category": "Health",
+        "Sub-Category": "Psychology",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Greek, Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Alan E. Kazdin, PhD, ABPP",
+        "Rating": "4.9stars",
+        "Number of viewers": "2,656",
+        "Duration": "Approx. 21 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Everyday Parenting: The ABCs of Child Rearing",
+        "url": "https://www.coursera.org/learn/everyday-parenting",
+        "description": "Everyday Parenting gives you access to a toolkit of behavior-change techniques that will make your typical day in the home easier as you develop the behaviors you would like to see in your child. The lessons provide step-by-step instructions and demonstrations to improve your course of action with both children and adolescents.  Among many techniques, you will learn how even simple modifications to tone of voice and phrasing can lead to more compliance.  The course will also shed light on many parenting misconceptions and ineffective strategies that are routinely used.",
+        "category": "Health",
+        "language": "English",
+        "skills": [
+          "Behavior Modification",
+          "Child Psychology",
+          "Parenting Techniques",
+          "Communication Skills",
+          "Discipline Strategies"
+        ],
+        "instructors": [
+          "Alan E. Kazdin",
+          "PhD",
+          "ABPP"
+        ],
+        "duration": "Approx. 21 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2656,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Learn behavior-change techniques for improved child behavior and compliance. Discover effective parenting strategies and avoid common misconceptions. Gain practical skills applicable to children and adolescents through step-by-step instructions and demonstrations.",
+        "price": "Free to audit",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546620f",
+        "Title": "Spanish for Successful Communication in Healthcare Settings",
+        "URL": "https://www.coursera.org/learn/spanish-in-healthcare-settings",
+        "Short Intro": "Welcome to Spanish for Successful Communication in Healthcare Settings! This course is structured in four modules, each one revolving on a topic related to the physician-patient interaction. Each module contains four lessons; on grammar, vocabulary, the dynamics of the spoken interaction, and aspects of sociocultural relevance. The video lessons are unlike regular “lectures” in which you are just listening. Instead, you should think of them as virtual classes where you are supposed to reflect, complete activities, and even get extra practice on your own time. The videos are a roadmap that will provide what you need to complete the activities on the student handout. Each module is followed by a 10-question quiz. It is important that you complete the lessons sequentially, as they build upon each other.",
+        "Category": "Health",
+        "Sub-Category": "Patient Care",
+        "Course Type": "Course",
+        "Language": "Spanish",
+        "Subtitle Languages": "Subtitles: Spanish",
+        "Skills": null,
+        "Instructors": "Maria Victoria Abad Rabat",
+        "Rating": "4.8stars",
+        "Number of viewers": "257",
+        "Duration": "Approx. 23 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Spanish for Successful Communication in Healthcare Settings",
+        "url": "https://www.coursera.org/learn/spanish-in-healthcare-settings",
+        "description": "Welcome to Spanish for Successful Communication in Healthcare Settings! This course is structured in four modules, each one revolving on a topic related to the physician-patient interaction. Each module contains four lessons; on grammar, vocabulary, the dynamics of the spoken interaction, and aspects of sociocultural relevance. The video lessons are unlike regular “lectures” in which you are just listening. Instead, you should think of them as virtual classes where you are supposed to reflect, complete activities, and even get extra practice on your own time. The videos are a roadmap that will provide what you need to complete the activities on the student handout. Each module is followed by a 10-question quiz. It is important that you complete the lessons sequentially, as they build upon each other.",
+        "category": "Health",
+        "language": "Spanish",
+        "skills": [
+          "Spanish Language",
+          "Healthcare Communication",
+          "Medical Vocabulary",
+          "Intercultural Communication",
+          "Patient Interaction"
+        ],
+        "instructors": [
+          "Maria Victoria Abad Rabat"
+        ],
+        "duration": "Approx. 23 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 257,
+        "prerequisites": [
+          "Basic understanding of Spanish grammar is helpful, but not strictly required."
+        ],
+        "learning_outcomes": "Communicate effectively in Spanish within healthcare settings, mastering relevant vocabulary, grammar, and cultural nuances. Improve physician-patient interaction through practical exercises and a focus on spoken communication dynamics.",
+        "price": "Free to audit",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466256",
+        "Title": "Leading Healthcare Quality and Safety",
+        "URL": "https://www.coursera.org/learn/quality-healthcare",
+        "Short Intro": "Ensuring patient safety and healthcare quality is critical and should be a key focus of everyone in healthcare practice. This course provides healthcare practitioners and others with an introduction to the knowledge and skills needed to lead patient safety and quality improvement initiatives at the micro and macro levels. Participants will explore the foundations of health care quality and the science underlying patient safety and quality improvement, design and select effective health care measures, analyze patient safety problems and processes using tools such as human factors analysis, apply systematic approaches including the Plan-Do-Study-Act (PDSA) model to address quality improvement challenges, and learn strategies to lead a culture of change. The course takes a world view of patient safety and quality, linking participants to research and resources from the World Health Organization (WHO), the US Agency for Healthcare Research and Quality (AHRQ), the Joint Commission and other international organizations. Course highlights include personal stories, lessons learned from other industries and interviews with the President of the National Committee for Quality Assurance (NCQA) and other leaders in quality movement.",
+        "Category": "Health",
+        "Sub-Category": "Healthcare Management",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Gregory Pawlson",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,141",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Leading Healthcare Quality and Safety",
+        "url": "https://www.coursera.org/learn/quality-healthcare",
+        "description": "Ensuring patient safety and healthcare quality is critical and should be a key focus of everyone in healthcare practice. This course provides healthcare practitioners and others with an introduction to the knowledge and skills needed to lead patient safety and quality improvement initiatives at the micro and macro levels. Participants will explore the foundations of health care quality and the science underlying patient safety and quality improvement, design and select effective health care measures, analyze patient safety problems and processes using tools such as human factors analysis, apply systematic approaches including the Plan-Do-Study-Act (PDSA) model to address quality improvement challenges, and learn strategies to lead a culture of change. The course takes a world view of patient safety and quality, linking participants to research and resources from the World Health Organization (WHO), the US Agency for Healthcare Research and Quality (AHRQ), the Joint Commission and other international organizations. Course highlights include personal stories, lessons learned from other industries and interviews with the President of the National Committee for Quality Assurance (NCQA) and other leaders in quality movement.",
+        "category": "Health",
+        "language": "English",
+        "skills": [
+          "Patient Safety",
+          "Quality Improvement",
+          "Healthcare Measures",
+          "Human Factors Analysis",
+          "PDSA Cycle",
+          "Change Management",
+          "Healthcare Quality",
+          "Process Analysis"
+        ],
+        "instructors": [
+          "Gregory Pawlson"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1141,
+        "prerequisites": "Basic understanding of healthcare systems is recommended but not required.",
+        "learning_outcomes": "Apply systematic approaches to address quality improvement challenges. Explore healthcare quality foundations. Design effective healthcare measures. Analyze patient safety problems using tools like human factors analysis. Learn strategies to lead a culture of change.",
+        "price": "Free to audit; certificate available for a fee",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546627d",
+        "Title": "Indigenous Canada",
+        "URL": "https://www.coursera.org/learn/indigenous-canada",
+        "Short Intro": "Indigenous Canada is a 12-lesson Massive Open Online Course (MOOC) from the Faculty of Native Studies that explores the different histories and contemporary perspectives of Indigenous peoples living in Canada. From an Indigenous perspective, this course explores complex experiences Indigenous peoples face today from a historical and critical perspective highlighting national and local Indigenous-settler relations. Topics for the 12 lessons include the fur trade and other exchange relationships, land claims and environmental impacts, legal systems and rights, political conflicts and alliances, Indigenous political activism, and contemporary Indigenous life, art and its expressions.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "History",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Politics,Art,Human Rights and Allyship,History,Indigenous Studies,",
+        "Instructors": "Chelsea Vowel",
+        "Rating": "4.8stars",
+        "Number of viewers": "21,037",
+        "Duration": "Approx. 21 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Indigenous Canada",
+        "url": "https://www.coursera.org/learn/indigenous-canada",
+        "description": "Indigenous Canada is a 12-lesson Massive Open Online Course (MOOC) from the Faculty of Native Studies that explores the different histories and contemporary perspectives of Indigenous peoples living in Canada. From an Indigenous perspective, this course explores complex experiences Indigenous peoples face today from a historical and critical perspective highlighting national and local Indigenous-settler relations. Topics for the 12 lessons include the fur trade and other exchange relationships, land claims and environmental impacts, legal systems and rights, political conflicts and alliances, Indigenous political activism, and contemporary Indigenous life, art and its expressions.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Politics",
+          "Art",
+          "Human Rights and Allyship",
+          "History",
+          "Indigenous Studies"
+        ],
+        "instructors": [
+          "Chelsea Vowel"
+        ],
+        "duration": "Approx. 21 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 21037,
+        "prerequisites": "None; an open mind and willingness to learn about Indigenous perspectives is recommended.",
+        "learning_outcomes": "Understand Indigenous histories and contemporary perspectives in Canada. Analyze Indigenous-settler relations, land claims, legal systems, and political activism. Explore Indigenous life and art.",
+        "price": "Free to audit; certificate available for a fee.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662c4",
+        "Title": "First Step Korean",
+        "URL": "https://www.coursera.org/learn/learn-korean",
+        "Short Intro": "This is an elementary-level Korean language course, consisting of 5 lessons with 4 units, and covers 4 skills: reading, writing, listening and speaking. The main topics include basic expressions used in everyday life, such as greetings, introducing yourself, talking about your family and a daily life and so on. Each lesson covers dialogues, pronunciation, vocabulary, grammar, quizzes and role-plays. ",
+        "Category": "Language Learning",
+        "Sub-Category": "Other Languages",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Grammar,Korean Language,Speech,Writing,",
+        "Instructors": "Seung Hae Kang",
+        "Rating": "4.9stars",
+        "Number of viewers": "46,904",
+        "Duration": "Approx. 17 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "First Step Korean",
+        "url": "https://www.coursera.org/learn/learn-korean",
+        "description": "This is an elementary-level Korean language course, consisting of 5 lessons with 4 units, and covers 4 skills: reading, writing, listening and speaking. The main topics include basic expressions used in everyday life, such as greetings, introducing yourself, talking about your family and a daily life and so on. Each lesson covers dialogues, pronunciation, vocabulary, grammar, quizzes and role-plays. ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [
+          "Grammar",
+          "Korean Language",
+          "Speech",
+          "Writing"
+        ],
+        "instructors": [
+          "Seung Hae Kang"
+        ],
+        "duration": "Approx. 17 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 46904,
+        "prerequisites": "None. This course is designed for complete beginners with no prior knowledge of Korean.",
+        "learning_outcomes": "By the end of this course, you will be able to use basic Korean expressions for greetings, self-introductions, and conversations about family and daily life. You will also develop foundational reading, writing, listening, and speaking skills.",
+        "price": "Free to audit. Paid certificate available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662e1",
+        "Title": "Write Professional Emails in English",
+        "URL": "https://www.coursera.org/learn/professional-emails-english",
+        "Short Intro": "This is a course to help you write effective business emails in English. This course is unique because each module will provide tips on writing more professional emails as well as lessons to improve your overall English writing skills. Therefore, you will improve your grammar and vocabulary skills for email writing and also improve your cross cultural knowledge to make you more powerful and successful in your business communication. You will look at different email formats to analyze tone, formality levels, and various organizational styles. You will be able to improve your emails of introduction, announcements, requests and emails that apologize or revise a request. In this course you will write and revise 4–5 emails, complete several comprehension quizzes and review the emails of other participants.  ",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, Korean, German, Russian, Turkish, English, Slovak, Spanish, Japanese, Persian",
+        "Skills": "Professional,Email Writing,Communication,Writing,",
+        "Instructors": "Gerry Landers",
+        "Rating": "4.8stars",
+        "Number of viewers": "16,270",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Write Professional Emails in English",
+        "url": "https://www.coursera.org/learn/professional-emails-english",
+        "description": "This is a course to help you write effective business emails in English. This course is unique because each module will provide tips on writing more professional emails as well as lessons to improve your overall English writing skills. Therefore, you will improve your grammar and vocabulary skills for email writing and also improve your cross cultural knowledge to make you more powerful and successful in your business communication. You will look at different email formats to analyze tone, formality levels, and various organizational styles. You will be able to improve your emails of introduction, announcements, requests and emails that apologize or revise a request. In this course you will write and revise 4–5 emails, complete several comprehension quizzes and review the emails of other participants.  ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [
+          "Professional",
+          "Email Writing",
+          "Communication",
+          "Writing"
+        ],
+        "instructors": [
+          "Gerry Landers"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 16270,
+        "prerequisites": "Basic English writing skills and familiarity with email communication.",
+        "learning_outcomes": "Improve English grammar and vocabulary for email writing. Analyze tone and formality in various email formats. Write effective introductions, announcements, requests, and apology emails. Enhance cross-cultural communication skills.",
+        "price": "Free to audit, paid for certificate",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466325",
+        "Title": "Dino 101: Dinosaur Paleobiology",
+        "URL": "https://www.coursera.org/learn/dino101",
+        "Short Intro": "Dino 101: Dinosaur Paleobiology is a 12-lesson course teaching a comprehensive overview of non-avian dinosaurs. Topics covered: anatomy, eating, locomotion, growth, environmental and behavioral adaptations, origins and extinction. Lessons are delivered from museums, fossil-preparation labs and dig sites. Estimated workload: 3-5 hrs/week.",
+        "Category": "Health",
+        "Sub-Category": "Basic Science",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Biodiversity,Biology,Evolution,Paleontology,",
+        "Instructors": "Philip John Currie, PhD",
+        "Rating": "4.9stars",
+        "Number of viewers": "3,269",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Dino 101: Dinosaur Paleobiology",
+        "url": "https://www.coursera.org/learn/dino101",
+        "description": "Dino 101: Dinosaur Paleobiology is a 12-lesson course teaching a comprehensive overview of non-avian dinosaurs. Topics covered: anatomy, eating, locomotion, growth, environmental and behavioral adaptations, origins and extinction. Lessons are delivered from museums, fossil-preparation labs and dig sites. Estimated workload: 3-5 hrs/week.",
+        "category": "Health",
+        "language": "English",
+        "skills": [
+          "Biodiversity",
+          "Biology",
+          "Evolution",
+          "Paleontology"
+        ],
+        "instructors": [
+          "Philip John Currie",
+          "PhD"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 3269,
+        "prerequisites": "High school level biology is recommended, but not required. An interest in dinosaurs and natural history is beneficial.",
+        "learning_outcomes": "Understand dinosaur anatomy, locomotion, diet, growth, and behavior. Explore their environmental adaptations, origins, and extinction through lessons from museums and dig sites.",
+        "price": "Free to audit, paid for certificate",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546636c",
+        "Title": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
+        "URL": "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
+        "Short Intro": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Mechanical Engineering",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Autocad,Design,Autodesk,Engineering,Computer-Aided Design (CAD),",
+        "Instructors": "Autodesk",
+        "Rating": "4.7stars",
+        "Number of viewers": "2,400",
+        "Duration": "Approx. 18 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
+        "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
+        "description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.",
+        "category": "Physical Science and Engineering",
+        "language": "English",
+        "skills": [
+          "Autocad",
+          "Design",
+          "Autodesk",
+          "Engineering",
+          "Computer-Aided Design (CAD)"
+        ],
+        "instructors": [
+          "Autodesk"
+        ],
+        "duration": "Approx. 18 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2400,
+        "prerequisites": [
+          "Basic computer literacy",
+          "Familiarity with technical drawing concepts is helpful but not mandatory"
+        ],
+        "learning_outcomes": "Learn to create and organize AutoCAD objects, edit with accuracy, manage layouts, and understand output formats. Master annotation techniques, reusable content, and drawing management for the Autodesk Certified Professional exam.",
+        "price": "Coursera offers a free trial, then requires a subscription.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254663fb",
+        "Title": "IELTS Listening and Speaking Sections Skills Mastery",
+        "URL": "https://www.coursera.org/learn/ielts-listening-speaking?specialization=ielts-preparation",
+        "Short Intro": "Whether you have taken the IELTS test before, you will benefit from completing this course on the listening and speaking sections of the exam. The lessons in this course will improve your overall skills in both listening and speaking, and they will prepare you for every type of question in these sections of the test, increasing your chances of getting your target band scores.  ",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Jay Daniyarova",
+        "Rating": "4.5stars",
+        "Number of viewers": "356",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "IELTS Listening and Speaking Sections Skills Mastery",
+        "url": "https://www.coursera.org/learn/ielts-listening-speaking?specialization=ielts-preparation",
+        "description": "Whether you have taken the IELTS test before, you will benefit from completing this course on the listening and speaking sections of the exam. The lessons in this course will improve your overall skills in both listening and speaking, and they will prepare you for every type of question in these sections of the test, increasing your chances of getting your target band scores.  ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [
+          "IELTS Listening",
+          "IELTS Speaking",
+          "Active Listening",
+          "Spoken English",
+          "Test-Taking Strategies"
+        ],
+        "instructors": [
+          "Jay Daniyarova"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 356,
+        "prerequisites": [
+          "Basic English proficiency (A2 level or higher)",
+          "Familiarity with the IELTS test format is helpful but not mandatory"
+        ],
+        "learning_outcomes": "Improve overall listening and speaking skills. Prepare for all question types in the IELTS listening and speaking sections. Increase chances of achieving target band scores. Develop test-taking strategies.",
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254664ee",
+        "Title": "Take Your English Communication Skills to the Next Level",
+        "URL": "https://www.coursera.org/learn/english-communication-capstone?specialization=improve-english",
+        "Short Intro": "This Capstone builds on the communication and content skills you’ve acquired throughout the Specialization and develops them further. During course lessons and Peer Assessments you will practice and expand the language skills necessary for success in the professional world. Throughout the course, you will have the opportunity to complete assessments relevant to the working world.",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Professional,Presentation,Speech,Writing,",
+        "Instructors": "Amalia B. Stephens",
+        "Rating": "4.8stars",
+        "Number of viewers": "757",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Take Your English Communication Skills to the Next Level",
+        "url": "https://www.coursera.org/learn/english-communication-capstone?specialization=improve-english",
+        "description": "This Capstone builds on the communication and content skills you’ve acquired throughout the Specialization and develops them further. During course lessons and Peer Assessments you will practice and expand the language skills necessary for success in the professional world. Throughout the course, you will have the opportunity to complete assessments relevant to the working world.",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [
+          "Professional",
+          "Presentation",
+          "Speech",
+          "Writing"
+        ],
+        "instructors": [
+          "Amalia B. Stephens"
+        ],
+        "duration": "Approx. 12 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 757,
+        "prerequisites": "Completion of introductory English communication courses or equivalent proficiency.",
+        "learning_outcomes": "Practice and expand language skills for professional success, including presentation, speech, and writing. Complete assessments relevant to the working world, improving overall communication proficiency.",
+        "price": "Coursera subscription or individual course purchase may be required.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466516",
+        "Title": "Surveillance Systems: Analysis, Dissemination, and Special Systems",
+        "URL": "https://www.coursera.org/learn/epidemiology-surveillance-systems-analysis?specialization=professional-epidemiology",
+        "Short Intro": "In this course, we'll build on the previous lessons in this specialization to focus on some very specific skills related to public health surveillance. We'll learn how to get the most out of surveillance data analysis, focusing specifically on interpreting time trend data to detect temporal aberrations as well as person, place, and time in the context of surveillance data. We'll also explore strategies for the presentation of surveillance data and some of the complex legal elements that affect its use. We'll then turn our attention to surveillance of non-communicable chronic diseases and how the data can be used to support prevention efforts. Finally, we'll explore special surveillance systems, such as syndromic surveillance, antimicrobial resistance, and event-related surveillance. This course is designed for public health practitioners with a focus on those working on health surveillance in municipal, regional, state, provincial, or even national public health agencies. We really think that this course will help those with an interest in health surveillance to see which approaches are used in actual practice of public health.",
+        "Category": "Health",
+        "Sub-Category": "Public Health",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Data Collection,Data Analysis,Epidemiology,Disease Surveillance,",
+        "Instructors": "Stefan Baral, MD, MPH, MBA, FRCPC",
+        "Rating": "4.7stars",
+        "Number of viewers": "334",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Surveillance Systems: Analysis, Dissemination, and Special Systems",
+        "url": "https://www.coursera.org/learn/epidemiology-surveillance-systems-analysis?specialization=professional-epidemiology",
+        "description": "In this course, we'll build on the previous lessons in this specialization to focus on some very specific skills related to public health surveillance. We'll learn how to get the most out of surveillance data analysis, focusing specifically on interpreting time trend data to detect temporal aberrations as well as person, place, and time in the context of surveillance data. We'll also explore strategies for the presentation of surveillance data and some of the complex legal elements that affect its use. We'll then turn our attention to surveillance of non-communicable chronic diseases and how the data can be used to support prevention efforts. Finally, we'll explore special surveillance systems, such as syndromic surveillance, antimicrobial resistance, and event-related surveillance. This course is designed for public health practitioners with a focus on those working on health surveillance in municipal, regional, state, provincial, or even national public health agencies. We really think that this course will help those with an interest in health surveillance to see which approaches are used in actual practice of public health.",
+        "category": "Health",
+        "language": "English",
+        "skills": [
+          "Data Collection",
+          "Data Analysis",
+          "Epidemiology",
+          "Disease Surveillance"
+        ],
+        "instructors": [
+          "Stefan Baral",
+          "MD",
+          "MPH",
+          "MBA",
+          "FRCPC"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 334,
+        "prerequisites": [
+          "Basic understanding of public health principles",
+          "Familiarity with epidemiological concepts",
+          "Introductory course on epidemiology (recommended)"
+        ],
+        "learning_outcomes": [
+          "Interpret time trend data to detect temporal aberrations.",
+          "Present surveillance data effectively.",
+          "Understand legal elements affecting data use.",
+          "Apply surveillance data to support chronic disease prevention."
+        ],
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546656a",
+        "Title": "Lessons on Wisdom: Personal Leadership for Your Life",
+        "URL": "https://www.coursera.org/learn/lessons-on-wisdom?specialization=strategic-leadership-impact-change-decision-making",
+        "Short Intro": "Lessons on Wisdom: Personal Leadership for Your Life is the culmination of four decades of studying and sharing about leaders and life for Professor Sydney Finkelstein. This course will teach you how to be a wise leader both personally and professionally. It is a personal, meaningful course that encourages all participants to change and grow. In it, you will be asked to think differently about who you are and what you do, so that you can take charge of your own life. By understanding nuance and paradox, by learning who you are as an individual, you will find yourself a wiser—and perhaps even happier—person.",
+        "Category": "Business",
+        "Sub-Category": "Leadership and Management",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "People Development,Change Management,Learning How To Learn,Leadership Development,Growth Strategies,",
+        "Instructors": "Sydney Finkelstein",
+        "Rating": "4.9stars",
+        "Number of viewers": "19",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Lessons on Wisdom: Personal Leadership for Your Life",
+        "url": "https://www.coursera.org/learn/lessons-on-wisdom?specialization=strategic-leadership-impact-change-decision-making",
+        "description": "Lessons on Wisdom: Personal Leadership for Your Life is the culmination of four decades of studying and sharing about leaders and life for Professor Sydney Finkelstein. This course will teach you how to be a wise leader both personally and professionally. It is a personal, meaningful course that encourages all participants to change and grow. In it, you will be asked to think differently about who you are and what you do, so that you can take charge of your own life. By understanding nuance and paradox, by learning who you are as an individual, you will find yourself a wiser—and perhaps even happier—person.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "People Development",
+          "Change Management",
+          "Learning How To Learn",
+          "Leadership Development",
+          "Growth Strategies"
+        ],
+        "instructors": [
+          "Sydney Finkelstein"
+        ],
+        "duration": "Approx. 19 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 19,
+        "prerequisites": "None explicitly stated, but an open mind and willingness to reflect on personal and professional life are recommended.",
+        "learning_outcomes": "Participants will learn to understand nuance and paradox, gain self-awareness, and develop personal leadership skills. This course aims to empower individuals to take charge of their lives and become wiser leaders.",
+        "price": "Coursera offers a free audit option for many courses. For full access to graded assignments and a certificate, there is typically a fee, which varies by course and subscription plan. Check Coursera for details.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466576",
+        "Title": "Musicianship: Chord Charts, Diatonic Chords, and Minor Keys",
+        "URL": "https://www.coursera.org/learn/musicianship-chords?specialization=musicianship-specialization",
+        "Short Intro": "After a tremendous response from learners on Coursera, Berklee Online has created a Developing Your Musicianship specialization, and this course is the second course in the series. If you have a basic knowledge of music theory or if you have completed Developing Your Musicianship I, this course will continue to help you understand key musical concepts, enabling you to create and perform contemporary music. Taught by Berklee College of Music professor George W. Russell, Jr., the course includes four lessons that delve into the next level of harmony and ear training. ",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Catalan, German, Russian, English, Spanish",
+        "Skills": "Music Performance,Piano,Music,Music composition,Music theory,",
+        "Instructors": "George W. Russell, Jr.",
+        "Rating": "4.9stars",
+        "Number of viewers": "538",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Musicianship: Chord Charts, Diatonic Chords, and Minor Keys",
+        "url": "https://www.coursera.org/learn/musicianship-chords?specialization=musicianship-specialization",
+        "description": "After a tremendous response from learners on Coursera, Berklee Online has created a Developing Your Musicianship specialization, and this course is the second course in the series. If you have a basic knowledge of music theory or if you have completed Developing Your Musicianship I, this course will continue to help you understand key musical concepts, enabling you to create and perform contemporary music. Taught by Berklee College of Music professor George W. Russell, Jr., the course includes four lessons that delve into the next level of harmony and ear training. ",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Music Performance",
+          "Piano",
+          "Music",
+          "Music composition",
+          "Music theory"
+        ],
+        "instructors": [
+          "George W. Russell",
+          "Jr."
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 538,
+        "prerequisites": [
+          "Basic music theory knowledge or completion of 'Developing Your Musicianship I'"
+        ],
+        "learning_outcomes": [
+          "Understand harmony and ear training at an advanced level, create and perform contemporary music, and delve into chord charts, diatonic chords, and minor keys."
+        ],
+        "price": "Coursera offers a free audit option; a paid subscription is required for graded assignments and a certificate.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466580",
+        "Title": "Information Design",
+        "URL": "https://www.coursera.org/learn/infodesign?specialization=interaction-design",
+        "Short Intro": "A blank canvas is full of possibility. If you have an idea for a user experience, how do you turn it into a beautiful and effective user interface?  This covers covers principles of visual design so that you can effectively organize and present information with your interfaces. You'll learn concrete strategies to create user interfaces, including key lessons in typography, information architecture, layout, color, and more. You’ll learn particular issues that arise in new device contexts, such as mobile and responsive interfaces. You will learn how to apply these design principles in a modern context of increasingly diverse form factors - from tablets, to walls, to watches.",
+        "Category": "Computer Science",
+        "Sub-Category": "Design and Product",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Information Design,User Interface Techniques,Responsive Web Design,Website Wireframe,",
+        "Instructors": "Scott  Klemmer",
+        "Rating": "4.5stars",
+        "Number of viewers": "567",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Information Design",
+        "url": "https://www.coursera.org/learn/infodesign?specialization=interaction-design",
+        "description": "A blank canvas is full of possibility. If you have an idea for a user experience, how do you turn it into a beautiful and effective user interface?  This covers covers principles of visual design so that you can effectively organize and present information with your interfaces. You'll learn concrete strategies to create user interfaces, including key lessons in typography, information architecture, layout, color, and more. You’ll learn particular issues that arise in new device contexts, such as mobile and responsive interfaces. You will learn how to apply these design principles in a modern context of increasingly diverse form factors - from tablets, to walls, to watches.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Information Design",
+          "User Interface Techniques",
+          "Responsive Web Design",
+          "Website Wireframe"
+        ],
+        "instructors": [
+          "Scott  Klemmer"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 567,
+        "prerequisites": "Basic computer literacy, familiarity with web browsing, and a general interest in user interface design are recommended.",
+        "learning_outcomes": "Learn visual design principles for effective user interfaces, including typography, layout, color, and information architecture. Apply these principles to diverse form factors like tablets, walls, and watches, considering mobile and responsive design issues.",
+        "price": "Coursera offers a free audit option. Paid option available for certificate.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466592",
+        "Title": "Investments I: Fundamentals of Performance Evaluation",
+        "URL": "https://www.coursera.org/learn/investments-fundamentals?specialization=financial-management",
+        "Short Intro": "In this course, we will discuss fundamental principles of trading off risk and return, portfolio optimization, and security pricing. We will study and use risk-return models such as the Capital Asset Pricing Model (CAPM) and multi-factor models to evaluate the performance of various securities and portfolios. Specifically, we will learn how to interpret and estimate regressions that provide us with both a benchmark to use for a security given its risk (determined by its beta), as well as a risk-adjusted measure of the security’s performance (measured by its alpha). Building upon this framework, market efficiency and its implications for patterns in stock returns and the asset-management industry will be discussed. Finally, the course will conclude by connecting investment finance with corporate finance by examining firm valuation techniques such as the use of market multiples and discounted cash flow analysis. The course emphasizes real-world examples and applications in Excel throughout. This course is the first of two on Investments that I am offering online (“Investments II: Lessons and Applications for Investors” is the second course).",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Stock,Finance,Investment Strategy,Investment,",
+        "Instructors": "Gies College of Business, University of Illinois",
+        "Rating": "4.7stars",
+        "Number of viewers": "862",
+        "Duration": "Approx. 26 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Investments I: Fundamentals of Performance Evaluation",
+        "url": "https://www.coursera.org/learn/investments-fundamentals?specialization=financial-management",
+        "description": "In this course, we will discuss fundamental principles of trading off risk and return, portfolio optimization, and security pricing. We will study and use risk-return models such as the Capital Asset Pricing Model (CAPM) and multi-factor models to evaluate the performance of various securities and portfolios. Specifically, we will learn how to interpret and estimate regressions that provide us with both a benchmark to use for a security given its risk (determined by its beta), as well as a risk-adjusted measure of the security’s performance (measured by its alpha). Building upon this framework, market efficiency and its implications for patterns in stock returns and the asset-management industry will be discussed. Finally, the course will conclude by connecting investment finance with corporate finance by examining firm valuation techniques such as the use of market multiples and discounted cash flow analysis. The course emphasizes real-world examples and applications in Excel throughout. This course is the first of two on Investments that I am offering online (“Investments II: Lessons and Applications for Investors” is the second course).",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Stock",
+          "Finance",
+          "Investment Strategy",
+          "Investment"
+        ],
+        "instructors": [
+          "Gies College of Business",
+          "University of Illinois"
+        ],
+        "duration": "Approx. 26 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 862,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466599",
+        "Title": "Understanding Financial Statements: Company Performance",
+        "URL": "https://www.coursera.org/learn/income-statement?specialization=accounting-fundamentals",
+        "Short Intro": "This course is designed to provide a basic understanding of financial statements with an emphasis on the income statement. Building on the foundation formed in the first course, you will learn about the third of our three measurement questions and how the income statement helps to answer this final measurement question. Returning to the real business people introduced in the first course, this second course describes the basic content of income statement in a simple yet relevant context. The course ends by summarizing many of the lessons learned in both courses to leave you with a lasting impression about what financial statements are and how accounting can work for you. We all know that accounting is “the language of business”; let’s make learning this language engaging, and perhaps even fun!",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Income Statement,Financial Ratio,Financial Statement,Balance Sheet,",
+        "Instructors": "Kevin E. Jackson",
+        "Rating": "4.7stars",
+        "Number of viewers": "720",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Understanding Financial Statements: Company Performance",
+        "url": "https://www.coursera.org/learn/income-statement?specialization=accounting-fundamentals",
+        "description": "This course is designed to provide a basic understanding of financial statements with an emphasis on the income statement. Building on the foundation formed in the first course, you will learn about the third of our three measurement questions and how the income statement helps to answer this final measurement question. Returning to the real business people introduced in the first course, this second course describes the basic content of income statement in a simple yet relevant context. The course ends by summarizing many of the lessons learned in both courses to leave you with a lasting impression about what financial statements are and how accounting can work for you. We all know that accounting is “the language of business”; let’s make learning this language engaging, and perhaps even fun!",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Income Statement",
+          "Financial Ratio",
+          "Financial Statement",
+          "Balance Sheet"
+        ],
+        "instructors": [
+          "Kevin E. Jackson"
+        ],
+        "duration": "Approx. 12 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 720,
+        "prerequisites": "Basic understanding of accounting principles or completion of a introductory financial accounting course. Familiarity with business concepts is helpful.",
+        "learning_outcomes": "Understand the income statement's structure and purpose. Learn how it addresses key measurement questions. Apply this knowledge in a practical business context. Comprehend how financial statements and accounting principles can be used effectively.",
+        "price": "Free to audit. Paid certificate available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254665ec",
+        "Title": "Developing a Leadership Framework",
+        "URL": "https://www.coursera.org/learn/developing-leadership-framework?specialization=advanced-leadership-skills",
+        "Short Intro": "This course offers seasoned and up-and-coming leaders a clear, concise overview of the challenges of organizational leadership and practical strategies for improving as leaders. The lessons are structured around essential leadership responsibilities, including defining leadership, understanding what it is not, and understanding how to construct a leadership framework utilizing the elements of the 4D Leadership Development Framework.",
+        "Category": "Business",
+        "Sub-Category": "Leadership and Management",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Understand the difference between leadership and management,Determine your leadership style,Define leadership,Assist in leading your organization to change management,Develop your leadership philosophy,",
+        "Instructors": "Dr Andrew Campbell",
+        "Rating": null,
+        "Number of viewers": null,
+        "Duration": "Approx. 25 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Developing a Leadership Framework",
+        "url": "https://www.coursera.org/learn/developing-leadership-framework?specialization=advanced-leadership-skills",
+        "description": "This course offers seasoned and up-and-coming leaders a clear, concise overview of the challenges of organizational leadership and practical strategies for improving as leaders. The lessons are structured around essential leadership responsibilities, including defining leadership, understanding what it is not, and understanding how to construct a leadership framework utilizing the elements of the 4D Leadership Development Framework.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Understand the difference between leadership and management",
+          "Determine your leadership style",
+          "Define leadership",
+          "Assist in leading your organization to change management",
+          "Develop your leadership philosophy"
+        ],
+        "instructors": [
+          "Dr Andrew Campbell"
+        ],
+        "duration": "Approx. 25 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254666d4",
+        "Title": "3D Model Creation with Autodesk Fusion 360",
+        "URL": "https://www.coursera.org/learn/3d-model-creation-fusion-360?specialization=cad-design-digital-manufacturing",
+        "Short Intro": "Design is the first phase in the digital manufacturing process. In this course, through a series of lectures and hands-on lessons, we’ll examine a designer’s approach to the design and manufacturing process—from concept to 3D model. We’ll start by applying design thinking to understand user needs, and then we’ll explore design criteria as we dive deeper into Autodesk® Fusion 360™ sketching, modeling, rendering, and documentation features.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Mechanical Engineering",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Autodesk",
+        "Rating": "4.8stars",
+        "Number of viewers": "746",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "3D Model Creation with Autodesk Fusion 360",
+        "url": "https://www.coursera.org/learn/3d-model-creation-fusion-360?specialization=cad-design-digital-manufacturing",
+        "description": "Design is the first phase in the digital manufacturing process. In this course, through a series of lectures and hands-on lessons, we’ll examine a designer’s approach to the design and manufacturing process—from concept to 3D model. We’ll start by applying design thinking to understand user needs, and then we’ll explore design criteria as we dive deeper into Autodesk® Fusion 360™ sketching, modeling, rendering, and documentation features.",
+        "category": "Physical Science and Engineering",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Autodesk"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 746,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546678a",
+        "Title": "Low Poly Art For Video Games",
+        "URL": "https://www.coursera.org/learn/low-poly-art-video-games?specialization=art-for-games",
+        "Short Intro": "This course is aimed to give you the tools and knowledge you need to start creating simple 3D art for video games made in the Unity game engine. Through the aesthetic of pixel art we will explore artistic principals like shape language, color theory, and composition as well as show you a step by step workflow for creating assets that you can use to make your own games. The course is broken into 4 main modules, props, environments, characters, and animation. Each of these courses will have a series of video lessons alternating between artistic and technical skills culminating in a peer-reviewed project based assignment. The last module will challenge you to take the knowledge learned in the previous 4 and use it to create your own pixel art asset pack.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Andrew Dennis",
+        "Rating": "4.2stars",
+        "Number of viewers": "39",
+        "Duration": "Approx. 16 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Low Poly Art For Video Games",
+        "url": "https://www.coursera.org/learn/low-poly-art-video-games?specialization=art-for-games",
+        "description": "This course is aimed to give you the tools and knowledge you need to start creating simple 3D art for video games made in the Unity game engine. Through the aesthetic of pixel art we will explore artistic principals like shape language, color theory, and composition as well as show you a step by step workflow for creating assets that you can use to make your own games. The course is broken into 4 main modules, props, environments, characters, and animation. Each of these courses will have a series of video lessons alternating between artistic and technical skills culminating in a peer-reviewed project based assignment. The last module will challenge you to take the knowledge learned in the previous 4 and use it to create your own pixel art asset pack.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Andrew Dennis"
+        ],
+        "duration": "Approx. 16 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 39,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254667ae",
+        "Title": "Write Professional Emails in English",
+        "URL": "https://www.coursera.org/learn/professional-emails-english?specialization=improve-english",
+        "Short Intro": "This is a course to help you write effective business emails in English. This course is unique because each module will provide tips on writing more professional emails as well as lessons to improve your overall English writing skills. Therefore, you will improve your grammar and vocabulary skills for email writing and also improve your cross cultural knowledge to make you more powerful and successful in your business communication. You will look at different email formats to analyze tone, formality levels, and various organizational styles. You will be able to improve your emails of introduction, announcements, requests and emails that apologize or revise a request. In this course you will write and revise 4–5 emails, complete several comprehension quizzes and review the emails of other participants.  ",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Chinese (Simplified), Italian, Portuguese (Brazilian), Vietnamese, Korean, German, Russian, Turkish, English, Slovak, Spanish, Japanese, Persian",
+        "Skills": "Professional,Email Writing,Communication,Writing,",
+        "Instructors": "Gerry Landers",
+        "Rating": "4.8stars",
+        "Number of viewers": "16,270",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Write Professional Emails in English",
+        "url": "https://www.coursera.org/learn/professional-emails-english?specialization=improve-english",
+        "description": "This is a course to help you write effective business emails in English. This course is unique because each module will provide tips on writing more professional emails as well as lessons to improve your overall English writing skills. Therefore, you will improve your grammar and vocabulary skills for email writing and also improve your cross cultural knowledge to make you more powerful and successful in your business communication. You will look at different email formats to analyze tone, formality levels, and various organizational styles. You will be able to improve your emails of introduction, announcements, requests and emails that apologize or revise a request. In this course you will write and revise 4–5 emails, complete several comprehension quizzes and review the emails of other participants.  ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [
+          "Professional",
+          "Email Writing",
+          "Communication",
+          "Writing"
+        ],
+        "instructors": [
+          "Gerry Landers"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 16270,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466835",
+        "Title": "Programming Fundamentals",
+        "URL": "https://www.coursera.org/learn/programming-fundamentals?specialization=c-programming",
+        "Short Intro": "Programming is an increasingly important skill, whether you aspire to a career in software development, or in other fields. This course is the first in the specialization Introduction to Programming in C, but its lessons extend to any language you might want to learn. This is because programming is fundamentally about figuring out how to solve a class of problems and writing the algorithm, a clear set of steps to solve any problem in its class. This course will introduce you to a powerful problem-solving process—the Seven Steps—which you can use to solve any programming problem. In this course, you will learn how to develop an algorithm, then progress to reading code and understanding how programming concepts relate to algorithms.",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Algorithms,Programming Language Concepts,Problem Solving,C Programming,",
+        "Instructors": "Andrew D. Hilton",
+        "Rating": "4.7stars",
+        "Number of viewers": "6,564",
+        "Duration": "Approx. 18 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Programming Fundamentals",
+        "url": "https://www.coursera.org/learn/programming-fundamentals?specialization=c-programming",
+        "description": "Programming is an increasingly important skill, whether you aspire to a career in software development, or in other fields. This course is the first in the specialization Introduction to Programming in C, but its lessons extend to any language you might want to learn. This is because programming is fundamentally about figuring out how to solve a class of problems and writing the algorithm, a clear set of steps to solve any problem in its class. This course will introduce you to a powerful problem-solving process—the Seven Steps—which you can use to solve any programming problem. In this course, you will learn how to develop an algorithm, then progress to reading code and understanding how programming concepts relate to algorithms.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Algorithms",
+          "Programming Language Concepts",
+          "Problem Solving",
+          "C Programming"
+        ],
+        "instructors": [
+          "Andrew D. Hilton"
+        ],
+        "duration": "Approx. 18 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 6564,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668ab",
+        "Title": "Implementing a Patient Safety or Quality Improvement Project (Patient Safety V)",
+        "URL": "https://www.coursera.org/learn/patient-safety-implementation?specialization=patient-safety",
+        "Short Intro": "Now that you’ve carefully planned your patient safety and quality improvement project, the real work can begin. This course will introduce students to the unique challenges encountered when implementing, maintaining, and expanding a patient safety and quality initiative. Students will learn to apply lessons learned from the 4 E model and TRiP into developing specific aims for their QI project. Additionally, students will develop a plan to address the adaptive and technical challenges in their projects including whether their initiative needs to be submitted to an Institutional Review Board (IRB). Finally, students will develop plans to grow their local QI project into a system-wide project.",
+        "Category": "Health",
+        "Sub-Category": "Healthcare Management",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Risk Management,Project Sustainment,Plan Implementation,",
+        "Instructors": "David Thompson DNSc, MS, RN",
+        "Rating": "4.8stars",
+        "Number of viewers": "66",
+        "Duration": "Approx. 9 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Implementing a Patient Safety or Quality Improvement Project (Patient Safety V)",
+        "url": "https://www.coursera.org/learn/patient-safety-implementation?specialization=patient-safety",
+        "description": "Now that you’ve carefully planned your patient safety and quality improvement project, the real work can begin. This course will introduce students to the unique challenges encountered when implementing, maintaining, and expanding a patient safety and quality initiative. Students will learn to apply lessons learned from the 4 E model and TRiP into developing specific aims for their QI project. Additionally, students will develop a plan to address the adaptive and technical challenges in their projects including whether their initiative needs to be submitted to an Institutional Review Board (IRB). Finally, students will develop plans to grow their local QI project into a system-wide project.",
+        "category": "Health",
+        "language": "English",
+        "skills": [
+          "Risk Management",
+          "Project Sustainment",
+          "Plan Implementation"
+        ],
+        "instructors": [
+          "David Thompson DNSc",
+          "MS",
+          "RN"
+        ],
+        "duration": "Approx. 9 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 66,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668cd",
+        "Title": "IELTS Reading Section Skills Mastery",
+        "URL": "https://www.coursera.org/learn/ielts-reading-section-skills-mastery?specialization=ielts-preparation",
+        "Short Intro": "Whether you have taken the IELTS test before, you will benefit from completing this course on the reading section of the exam. The lessons in this course will improve your overall skills in reading and prepare you for every type of question in this section of the test, increasing your chances of getting your target band score.  ",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Jay Daniyarova",
+        "Rating": "4.6stars",
+        "Number of viewers": "246",
+        "Duration": "Approx. 5 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "IELTS Reading Section Skills Mastery",
+        "url": "https://www.coursera.org/learn/ielts-reading-section-skills-mastery?specialization=ielts-preparation",
+        "description": "Whether you have taken the IELTS test before, you will benefit from completing this course on the reading section of the exam. The lessons in this course will improve your overall skills in reading and prepare you for every type of question in this section of the test, increasing your chances of getting your target band score.  ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Jay Daniyarova"
+        ],
+        "duration": "Approx. 5 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 246,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668e7",
+        "Title": "Guitar Scales and Chord Progressions",
+        "URL": "https://www.coursera.org/learn/guitar-scales-chord-progressions?specialization=play-guitar",
+        "Short Intro": "You’ve got the guitar basics down: You can strum your guitar and play a few of your favorite songs, but you’re ready to take the tunes to the next level. In Guitar Scales and Chord Progressions you’ll expand your knowledge of scales, chord fingerings, and common chord progressions. You’ll also learn important skills for soloing, creating melodies, and adding depth and dimension to your guitar playing. ",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Tablature,Music notation,Guitar scales,Guitar chords,Guitar,",
+        "Instructors": "Amanda Monaco",
+        "Rating": "4.7stars",
+        "Number of viewers": "369",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar Scales and Chord Progressions",
+        "url": "https://www.coursera.org/learn/guitar-scales-chord-progressions?specialization=play-guitar",
+        "description": "You’ve got the guitar basics down: You can strum your guitar and play a few of your favorite songs, but you’re ready to take the tunes to the next level. In Guitar Scales and Chord Progressions you’ll expand your knowledge of scales, chord fingerings, and common chord progressions. You’ll also learn important skills for soloing, creating melodies, and adding depth and dimension to your guitar playing. ",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Tablature",
+          "Music notation",
+          "Guitar scales",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Amanda Monaco"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 369,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466953",
+        "Title": "Effective Communication Capstone Project",
+        "URL": "https://www.coursera.org/learn/effective-communication-capstone?specialization=effective-business-communication",
+        "Short Intro": "In the Effective Communication Capstone learners apply the lessons of Business Writing, Graphic Design, and Successful Presentation to create a portfolio of work that represents their mastery of writing, design, and speaking and that expresses their personal brand. The portfolio includes three individual elements—a written memo, a slide deck, and a presentation—integrated around a single topic. We provide the elements for a basic capstone, but we also invite our learners to create their own project if they so choose. This self-designed \"Challenge Capstone\" allows learners to engage meaningfully in their world by choosing a project relevant to their current job or by volunteering to write, design, and speak for a social organization of their choice.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Communication Design,Presentation,Communication,Public Speaking,Business Writing,",
+        "Instructors": "David Underwood",
+        "Rating": "4.7stars",
+        "Number of viewers": "123",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Effective Communication Capstone Project",
+        "url": "https://www.coursera.org/learn/effective-communication-capstone?specialization=effective-business-communication",
+        "description": "In the Effective Communication Capstone learners apply the lessons of Business Writing, Graphic Design, and Successful Presentation to create a portfolio of work that represents their mastery of writing, design, and speaking and that expresses their personal brand. The portfolio includes three individual elements—a written memo, a slide deck, and a presentation—integrated around a single topic. We provide the elements for a basic capstone, but we also invite our learners to create their own project if they so choose. This self-designed \"Challenge Capstone\" allows learners to engage meaningfully in their world by choosing a project relevant to their current job or by volunteering to write, design, and speak for a social organization of their choice.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Communication Design",
+          "Presentation",
+          "Communication",
+          "Public Speaking",
+          "Business Writing"
+        ],
+        "instructors": [
+          "David Underwood"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 123,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466956",
+        "Title": "Pixel Art for Video Games",
+        "URL": "https://www.coursera.org/learn/pixel-art-video-games?specialization=art-for-games",
+        "Short Intro": "This course is aimed to give you the tools and knowledge you need to start creating simple art for video games made in the Unity game engine. Through the aesthetic of pixel art we will explore artistic principals like shape language, color theory, and composition as well as show you a step by step workflow for creating assets that you can use to make your own games. The course is broken into 4 main modules, props, environments, characters, and animation. Each of these courses will have a series of video lessons alternating between artistic and technical skills culminating in a peer-reviewed project based assignment. The last module will challenge you to take the knowledge learned in the previous 4 and use it to create your own pixel art asset pack.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Andrew Dennis",
+        "Rating": "4.5stars",
+        "Number of viewers": "206",
+        "Duration": "Approx. 9 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Pixel Art for Video Games",
+        "url": "https://www.coursera.org/learn/pixel-art-video-games?specialization=art-for-games",
+        "description": "This course is aimed to give you the tools and knowledge you need to start creating simple art for video games made in the Unity game engine. Through the aesthetic of pixel art we will explore artistic principals like shape language, color theory, and composition as well as show you a step by step workflow for creating assets that you can use to make your own games. The course is broken into 4 main modules, props, environments, characters, and animation. Each of these courses will have a series of video lessons alternating between artistic and technical skills culminating in a peer-reviewed project based assignment. The last module will challenge you to take the knowledge learned in the previous 4 and use it to create your own pixel art asset pack.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Andrew Dennis"
+        ],
+        "duration": "Approx. 9 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 206,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546696b",
+        "Title": "IELTS Writing Section Skills Mastery",
+        "URL": "https://www.coursera.org/learn/ielts-writing?specialization=ielts-preparation",
+        "Short Intro": "Whether you have taken the IELTS test before, you will benefit from completing this course on the writing section of the exam. The lessons in this course will improve your overall skills in writing and prepare you for every type of writing prompt on the test, increasing your chances of getting your target band score.  ",
+        "Category": "Language Learning",
+        "Sub-Category": "Learning English",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Jay Daniyarova",
+        "Rating": "4.7stars",
+        "Number of viewers": "785",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "IELTS Writing Section Skills Mastery",
+        "url": "https://www.coursera.org/learn/ielts-writing?specialization=ielts-preparation",
+        "description": "Whether you have taken the IELTS test before, you will benefit from completing this course on the writing section of the exam. The lessons in this course will improve your overall skills in writing and prepare you for every type of writing prompt on the test, increasing your chances of getting your target band score.  ",
+        "category": "Language Learning",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Jay Daniyarova"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 785,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466995",
+        "Title": "Investments II: Lessons and Applications for Investors",
+        "URL": "https://www.coursera.org/learn/investments-applications?specialization=financial-management",
+        "Short Intro": "In this course, you will start by reviewing the fundamentals of investments, including the trading off of return and risk when forming a portfolio, asset pricing models such as the Capital Asset Pricing Model (CAPM) and the 3-Factor Model, and the efficient market hypothesis.  You will be introduced to the two components of stock returns – dividends and capital gains – and will learn how each are taxed and the incentives provided to investors from a realization-based capital gains tax.  You will examine the investment decisions (and behavioral biases) of participants in defined-contribution (DC) pension plans like 401(k) plans in the U.S. and will learn about the evidence regarding the performance of individual investors in their stock portfolios.  The course concludes by discussing the evidence regarding the performance of actively-managed mutual funds. You will learn about the fees charged to investors by mutual funds and the evidence regarding the relation between fees charged and fund performance.  Segments of the portfolios of mutual funds that may be more likely to outperform and examples of strategies designed to “earn alpha” will also be introduced.",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Stock,Financial Markets,Investment Strategy,Investment,",
+        "Instructors": "Gies College of Business, University of Illinois",
+        "Rating": "4.8stars",
+        "Number of viewers": "811",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Investments II: Lessons and Applications for Investors",
+        "url": "https://www.coursera.org/learn/investments-applications?specialization=financial-management",
+        "description": "In this course, you will start by reviewing the fundamentals of investments, including the trading off of return and risk when forming a portfolio, asset pricing models such as the Capital Asset Pricing Model (CAPM) and the 3-Factor Model, and the efficient market hypothesis.  You will be introduced to the two components of stock returns – dividends and capital gains – and will learn how each are taxed and the incentives provided to investors from a realization-based capital gains tax.  You will examine the investment decisions (and behavioral biases) of participants in defined-contribution (DC) pension plans like 401(k) plans in the U.S. and will learn about the evidence regarding the performance of individual investors in their stock portfolios.  The course concludes by discussing the evidence regarding the performance of actively-managed mutual funds. You will learn about the fees charged to investors by mutual funds and the evidence regarding the relation between fees charged and fund performance.  Segments of the portfolios of mutual funds that may be more likely to outperform and examples of strategies designed to “earn alpha” will also be introduced.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Stock",
+          "Financial Markets",
+          "Investment Strategy",
+          "Investment"
+        ],
+        "instructors": [
+          "Gies College of Business",
+          "University of Illinois"
+        ],
+        "duration": "Approx. 19 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 811,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466a0b",
+        "Title": "Engineering Maintainable Android Apps",
+        "URL": "https://www.coursera.org/learn/engineeringandroidapps?specialization=android-app-development",
+        "Short Intro": "Engineering Maintainable Android Apps, which is a 4 week MOOC that shows by example various methods for engineering maintainable Android apps, including test-driven development methods and how to develop/run unit tests using JUnit and Robotium (or equivalent automated testing frameworks for Android), as well as how to successfully apply common Java/Android software patterns to improve the extensibility and clarity of Android apps. Students will work on the appropriate automated unit quizzes, based on the material covered in the lecture videos. These lessons will demonstrate the benefits of good software engineering practices that are targeted at creating maintainable code for mobile apps.",
+        "Category": "Computer Science",
+        "Sub-Category": "Mobile and Web Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Software Testing,Unit Testing,Android Software Development,Junit,",
+        "Instructors": "Dr. Douglas C. Schmidt",
+        "Rating": "4.5stars",
+        "Number of viewers": "278",
+        "Duration": "Approx. 8 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Engineering Maintainable Android Apps",
+        "url": "https://www.coursera.org/learn/engineeringandroidapps?specialization=android-app-development",
+        "description": "Engineering Maintainable Android Apps, which is a 4 week MOOC that shows by example various methods for engineering maintainable Android apps, including test-driven development methods and how to develop/run unit tests using JUnit and Robotium (or equivalent automated testing frameworks for Android), as well as how to successfully apply common Java/Android software patterns to improve the extensibility and clarity of Android apps. Students will work on the appropriate automated unit quizzes, based on the material covered in the lecture videos. These lessons will demonstrate the benefits of good software engineering practices that are targeted at creating maintainable code for mobile apps.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Software Testing",
+          "Unit Testing",
+          "Android Software Development",
+          "Junit"
+        ],
+        "instructors": [
+          "Dr. Douglas C. Schmidt"
+        ],
+        "duration": "Approx. 8 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 278,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466a0e",
+        "Title": "The Business of Product Management II",
+        "URL": "https://www.coursera.org/learn/real-world-product-management-skills?specialization=real-world-product-management",
+        "Short Intro": "Sponsored by AMAZON WEB SERVICES (AWS). Learn real-world product management lessons from Amazon, Tesla, Uber, WeWork, Zoom, the United States Armed Forces, Facebook, Google, Alphabet, Poshmark, Slack, Twitter, Headspace, Walmart Labs, Humana, Schwab, Allianz, Amex, Grohe, Amazon, Costco, Progressive, Activision, Yelp, H&M, Basecamp, Microsoft, and more!",
+        "Category": "Computer Science",
+        "Sub-Category": "Design and Product",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Monetization Strategy,A/B/n testing,Customer Retention,KPIs OKRs North Stars,OODA Loops,",
+        "Instructors": "Nancy Wang",
+        "Rating": "4.7stars",
+        "Number of viewers": "184",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "The Business of Product Management II",
+        "url": "https://www.coursera.org/learn/real-world-product-management-skills?specialization=real-world-product-management",
+        "description": "Sponsored by AMAZON WEB SERVICES (AWS). Learn real-world product management lessons from Amazon, Tesla, Uber, WeWork, Zoom, the United States Armed Forces, Facebook, Google, Alphabet, Poshmark, Slack, Twitter, Headspace, Walmart Labs, Humana, Schwab, Allianz, Amex, Grohe, Amazon, Costco, Progressive, Activision, Yelp, H&M, Basecamp, Microsoft, and more!",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Monetization Strategy",
+          "A/B/n testing",
+          "Customer Retention",
+          "KPIs OKRs North Stars",
+          "OODA Loops"
+        ],
+        "instructors": [
+          "Nancy Wang"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 184,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466a2c",
+        "Title": "Musicianship: Tensions, Harmonic Function, and Modal Interchange",
+        "URL": "https://www.coursera.org/learn/musicianship-harmony?specialization=musicianship-specialization",
+        "Short Intro": "After a tremendous response from learners on Coursera, Berklee Online has created a Developing Your Musicianship specialization, and this course is the third course in the series. If you have a general understanding of music theory or if you have completed Developing Your Musicianship I and II, this course will continue to help you understand musical concepts, enabling you to create and perform contemporary music. Taught by Berklee College of Music professor George W. Russell, Jr., the course includes four lessons that delve into an intermediate level of harmony and ear training. ",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Catalan",
+        "Skills": "Piano,Music,Performance,Music composition,Music theory,",
+        "Instructors": "George W. Russell, Jr.",
+        "Rating": "4.9stars",
+        "Number of viewers": "391",
+        "Duration": "Approx. 11 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Musicianship: Tensions, Harmonic Function, and Modal Interchange",
+        "url": "https://www.coursera.org/learn/musicianship-harmony?specialization=musicianship-specialization",
+        "description": "After a tremendous response from learners on Coursera, Berklee Online has created a Developing Your Musicianship specialization, and this course is the third course in the series. If you have a general understanding of music theory or if you have completed Developing Your Musicianship I and II, this course will continue to help you understand musical concepts, enabling you to create and perform contemporary music. Taught by Berklee College of Music professor George W. Russell, Jr., the course includes four lessons that delve into an intermediate level of harmony and ear training. ",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Piano",
+          "Music",
+          "Performance",
+          "Music composition",
+          "Music theory"
+        ],
+        "instructors": [
+          "George W. Russell",
+          "Jr."
+        ],
+        "duration": "Approx. 11 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 391,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466ae9",
+        "Title": "Teach English Now! Capstone Project 1",
+        "URL": "https://www.coursera.org/learn/teaching-english-capstone?specialization=tesol",
+        "Short Intro": "In the final Capstone Project, you will apply the skills you learned by observing teachers at work (a total of six hours of observation).  You will build on the concepts learned from the previous courses to analyze the lessons.  You will also submit your teaching philosophy, a five-day lesson plan, and a teaching tip. You will deliver a portion of your lesson, submitting a 6-10 minute video for peer review.  If you have completed Teach English Now! Part 1 and Teach English Now! Part 2, you will submit your work for expert review to receive your ASU 150-hour TESOL Certificate from ASU, in addition to your Coursera certificates.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Education",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Dr. Shane Dixon",
+        "Rating": "4.9stars",
+        "Number of viewers": "2,029",
+        "Duration": "Approx. 34 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Teach English Now! Capstone Project 1",
+        "url": "https://www.coursera.org/learn/teaching-english-capstone?specialization=tesol",
+        "description": "In the final Capstone Project, you will apply the skills you learned by observing teachers at work (a total of six hours of observation).  You will build on the concepts learned from the previous courses to analyze the lessons.  You will also submit your teaching philosophy, a five-day lesson plan, and a teaching tip. You will deliver a portion of your lesson, submitting a 6-10 minute video for peer review.  If you have completed Teach English Now! Part 1 and Teach English Now! Part 2, you will submit your work for expert review to receive your ASU 150-hour TESOL Certificate from ASU, in addition to your Coursera certificates.",
+        "category": "Social Sciences",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Dr. Shane Dixon"
+        ],
+        "duration": "Approx. 34 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2029,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c69f",
+        "Title": "Short Film in Language Teaching",
+        "URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "49 Courses",
+        "Topics related to CRM": "Design / Digital Marketing / Game Development / Photography & Visual Arts / Social Media / UX / Web Development / Design / Digital Marketing / Game Development / Photography & Visual Arts / Social Media / UX / Web Development / ",
+        "ExpertTracks": "9 ExpertTracks",
+        "FAQs": "What is Digital Media? /Can I learn Digital Media online? /What are the top Digital Media courses? /Is it difficult to study Digital Media? /How do I start a career in Digital Media? /",
+        "Course Title": "Short Film in Language Teaching",
+        "Course URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Course Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Short Film in Language Teaching",
+        "url": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "description": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c73a",
+        "Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Duration": "6 weeks",
+        "Site": "Future Learn",
+        "Courses": "28 Courses",
+        "Topics related to CRM": "Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Coronavirus / Diagnostics / Fertility & Birth / Genetics / Healthcare / Medical Technology / Nursing / Nutrition / Pharmacy / Veterinary Science / Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Coronavirus / Diagnostics / Fertility & Birth / Genetics / Healthcare / Medical Technology / Nursing / Nutrition / Pharmacy / Veterinary Science / ",
+        "ExpertTracks": "1 Degree",
+        "Course Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "Course URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Course Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Weekly study": "2 hours"
+      },
+      "unified_data": {
+        "title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "url": "https://www.futurelearn.com/courses/monday-campaigns",
+        "description": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "6 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cab9",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "12 Courses",
+        "Topics related to CRM": "Agriculture / Biology & Biotechnology / Chemistry / Climate Change / Earth Science / Ecology / Engineering / Food Tech / Maths / Sustainability / Agriculture / Biology & Biotechnology / Chemistry / Climate Change / Earth Science / Ecology / Engineering / Food Tech / Maths / Sustainability / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cac7",
+        "Title": "Improve Student Assessment with Microsoft Forms",
+        "URL": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "Short Intro": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "24 Courses",
+        "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Improve Student Assessment with Microsoft Forms",
+        "Course URL": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "Course Short Intro": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "Weekly study": "4 hours"
+      },
+      "unified_data": {
+        "title": "Improve Student Assessment with Microsoft Forms",
+        "url": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "description": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cad8",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "24 Courses",
+        "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cb03",
+        "Title": "Short Film in Language Teaching",
+        "URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "7 Courses",
+        "Topics related to CRM": "How to Teach Online / IELTS / Inclusive Teaching / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / IELTS / Inclusive Teaching / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 Microcredentials",
+        "Course Title": "Short Film in Language Teaching",
+        "Course URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Course Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Short Film in Language Teaching",
+        "url": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "description": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cb1c",
+        "Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "URL": "https://www.futurelearn.com/courses/primary-science",
+        "Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "34 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "Course Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "Course URL": "https://www.futurelearn.com/courses/primary-science",
+        "Course Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Our Solar System and Beyond: Teaching Primary Science",
+        "url": "https://www.futurelearn.com/courses/primary-science",
+        "description": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cb5f",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "77 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cb8f",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "40 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cba9",
+        "Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "URL": "https://www.futurelearn.com/courses/primary-science",
+        "Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "18 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 Microcredentials",
+        "Course Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "Course URL": "https://www.futurelearn.com/courses/primary-science",
+        "Course Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Our Solar System and Beyond: Teaching Primary Science",
+        "url": "https://www.futurelearn.com/courses/primary-science",
+        "description": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cbaa",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "18 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 Microcredentials",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cbd9",
+        "Title": "Health Emergency Response to a Pandemic: An Integrated Social Science Perspective",
+        "URL": "https://www.futurelearn.com/courses/health-emergency-response-to-a-pandemic-an-integrated-social-science-perspective",
+        "Short Intro": "Explore the lessons learned from the COVID-19 pandemic to understand how to manage health emergencies and make informed decisions.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Health Emergency Response to a Pandemic: An Integrated Social Science Perspective",
+        "Course URL": "https://www.futurelearn.com/courses/health-emergency-response-to-a-pandemic-an-integrated-social-science-perspective",
+        "Course Short Intro": "Explore the lessons learned from the COVID-19 pandemic to understand how to manage health emergencies and make informed decisions.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "Health Emergency Response to a Pandemic: An Integrated Social Science Perspective",
+        "url": "https://www.futurelearn.com/courses/health-emergency-response-to-a-pandemic-an-integrated-social-science-perspective",
+        "description": "Explore the lessons learned from the COVID-19 pandemic to understand how to manage health emergencies and make informed decisions.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cf1f",
+        "Title": "Short Film in Language Teaching",
+        "URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "Short Film in Language Teaching",
+        "Course URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Course Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Short Film in Language Teaching",
+        "url": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "description": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8d02d",
+        "Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Duration": "6 weeks",
+        "Site": "Future Learn",
+        "Courses": "381 Courses",
+        "Topics related to CRM": "Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Clinical Research Courses / Coronavirus / Dentistry / Diabetes / Diagnostics / Disease Outbreak Prevention / Drugs and Addictions / Fertility & Birth / First aid / Genetics / Healthcare / Immunology & Vaccine Development / Medical Technology / Neuroscience / Nursing / Nutrition / Obesity / Paediatric Care / Pain Management / Pharmacy / Physiology / Primary Care / Public Health / Safeguarding / Sexual health / Social Care / Therapy / Veterinary Science / VR & AR in Health / Womens health / Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Clinical Research Courses / Coronavirus / Dentistry / Diabetes / Diagnostics / Disease Outbreak Prevention / Drugs and Addictions / Fertility & Birth / First aid / Genetics / Healthcare / Immunology & Vaccine Development / Medical Technology / Neuroscience / Nursing / Nutrition / Obesity / Paediatric Care / Pain Management / Pharmacy / Physiology / Primary Care / Public Health / Safeguarding / Sexual health / Social Care / Therapy / Veterinary Science / VR & AR in Health / Womens health / ",
+        "ExpertTracks": "12 ExpertTracks",
+        "Course Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "Course URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Course Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Weekly study": "2 hours"
+      },
+      "unified_data": {
+        "title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "url": "https://www.futurelearn.com/courses/monday-campaigns",
+        "description": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "6 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d0c2",
+        "Title": "Aging Populations: Lessons In Healthy Aging From Japan",
+        "URL": "https://www.futurelearn.com/courses/aging-populations",
+        "Short Intro": "Explore Japan's aging population problems and discover their policies and solutions for a long and enjoyable life. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "381 Courses",
+        "Topics related to CRM": "Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Clinical Research Courses / Coronavirus / Dentistry / Diabetes / Diagnostics / Disease Outbreak Prevention / Drugs and Addictions / Fertility & Birth / First aid / Genetics / Healthcare / Immunology & Vaccine Development / Medical Technology / Neuroscience / Nursing / Nutrition / Obesity / Paediatric Care / Pain Management / Pharmacy / Physiology / Primary Care / Public Health / Safeguarding / Sexual health / Social Care / Therapy / Veterinary Science / VR & AR in Health / Womens health / Anatomy / Antimicrobial & Antibiotic Resistance / Cancer / Care / Clinical Research Courses / Coronavirus / Dentistry / Diabetes / Diagnostics / Disease Outbreak Prevention / Drugs and Addictions / Fertility & Birth / First aid / Genetics / Healthcare / Immunology & Vaccine Development / Medical Technology / Neuroscience / Nursing / Nutrition / Obesity / Paediatric Care / Pain Management / Pharmacy / Physiology / Primary Care / Public Health / Safeguarding / Sexual health / Social Care / Therapy / Veterinary Science / VR & AR in Health / Womens health / ",
+        "ExpertTracks": "12 ExpertTracks",
+        "Course Title": "Aging Populations: Lessons In Healthy Aging From Japan",
+        "Course URL": "https://www.futurelearn.com/courses/aging-populations",
+        "Course Short Intro": "Explore Japan's aging population problems and discover their policies and solutions for a long and enjoyable life. ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Aging Populations: Lessons In Healthy Aging From Japan",
+        "url": "https://www.futurelearn.com/courses/aging-populations",
+        "description": "Explore Japan's aging population problems and discover their policies and solutions for a long and enjoyable life. ",
+        "category": "Sociology",
+        "language": "English",
+        "skills": [
+          "Aging",
+          "Healthcare Policies",
+          "Social Care",
+          "Public Health"
+        ],
+        "instructors": "Unknown",
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": "1000",
+        "prerequisites": "None",
+        "learning_outcomes": "Understand the challenges of aging populations and analyze Japan's policies and solutions for promoting healthy and enjoyable aging. Investigate approaches to improve quality of life for older adults.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d553",
+        "Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Duration": "6 weeks",
+        "Site": "Future Learn",
+        "Courses": "150 Courses",
+        "Topics related to CRM": "Anxiety & Depression / Autism Courses & Awareness Training / Dementia / Emotional Intelligence  / Mental health first aid courses / Mindfulness & Wellbeing / Psychology / Self Improvement / Sports Psychology / Stress management / Trauma & PTSD / Youth Mental Health / Anxiety & Depression / Autism Courses & Awareness Training / Dementia / Emotional Intelligence  / Mental health first aid courses / Mindfulness & Wellbeing / Psychology / Self Improvement / Sports Psychology / Stress management / Trauma & PTSD / Youth Mental Health / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "Course URL": "https://www.futurelearn.com/courses/monday-campaigns",
+        "Course Short Intro": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "Weekly study": "2 hours"
+      },
+      "unified_data": {
+        "title": "The Monday Campaigns: Lessons in Public Health Promotion",
+        "url": "https://www.futurelearn.com/courses/monday-campaigns",
+        "description": "Explore new approaches to public health promotion and the science that underpins them, focusing on the The Monday Campaigns. ",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "6 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d643",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "259 Courses",
+        "Topics related to CRM": "Biology & Biotechnology / Chemistry / Data Science / Earth Science / Economics / Engineering / Maths / Physics / Statistics / Biology & Biotechnology / Chemistry / Data Science / Earth Science / Economics / Engineering / Maths / Physics / Statistics / ",
+        "ExpertTracks": "10 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "Physics Education",
+        "language": "English",
+        "skills": [
+          "Lesson planning",
+          "Physics knowledge",
+          "Astronomy knowledge",
+          "Space physics",
+          "Career skills development",
+          "Secondary science teaching"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [
+          "Bachelor's degree in science or education",
+          "Basic understanding of physics concepts",
+          "Experience with secondary science curriculum"
+        ],
+        "learning_outcomes": "Upgrade science lessons and enhance knowledge of space physics. Help students build crucial career skills. Develop a deeper understanding of physics, astronomy and space to enhance secondary science teaching.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d716",
+        "Title": "Improve Student Assessment with Microsoft Forms",
+        "URL": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "Short Intro": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "190 Courses",
+        "Topics related to CRM": "Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "9 ExpertTracks",
+        "Course Title": "Improve Student Assessment with Microsoft Forms",
+        "Course URL": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "Course Short Intro": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "Weekly study": "4 hours"
+      },
+      "unified_data": {
+        "title": "Improve Student Assessment with Microsoft Forms",
+        "url": "https://www.futurelearn.com/courses/facilitating-teaching-and-learning-with-microsoft-teams-and-onenote-class-notebooks-sc",
+        "description": "Learn how to integrate Microsoft Forms into your teaching practices to strengthen your lessons with improved assessments.",
+        "category": "Education & Teaching",
+        "language": "English",
+        "skills": [
+          "Microsoft Forms",
+          "Assessment Design",
+          "Teaching Strategies",
+          "Curriculum Development",
+          "Educational Technology"
+        ],
+        "instructors": [
+          "To be determined based on the Futurelearn course page"
+        ],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Beginner/Intermediate",
+        "viewers": "1000+",
+        "prerequisites": [
+          "Basic computer literacy",
+          "Familiarity with teaching principles"
+        ],
+        "learning_outcomes": "Integrate Microsoft Forms into teaching to enhance assessments. Strengthen lessons by creating effective and engaging assessment methods using digital tools.",
+        "price": "Free with optional upgrade for certificate",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d77c",
+        "Title": "Short Film in Language Teaching",
+        "URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "190 Courses",
+        "Topics related to CRM": "Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "9 ExpertTracks",
+        "Course Title": "Short Film in Language Teaching",
+        "Course URL": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "Course Short Intro": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Short Film in Language Teaching",
+        "url": "https://www.futurelearn.com/courses/short-film-language-teaching",
+        "description": "Find out how teaching with short film can bring alive the learning of languages and introduce rich cultural content to lessons.",
+        "category": "Language Education",
+        "language": "English",
+        "skills": [
+          "Language Teaching",
+          "Curriculum Design",
+          "Cultural Awareness",
+          "Film Analysis",
+          "Instructional Design"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 1000,
+        "prerequisites": [
+          "Basic understanding of language teaching principles",
+          "Interest in film"
+        ],
+        "learning_outcomes": "Learn how to use short films to enhance language learning, integrate cultural content into lessons, and create engaging and effective teaching materials.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d77f",
+        "Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "URL": "https://www.futurelearn.com/courses/primary-science",
+        "Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "190 Courses",
+        "Topics related to CRM": "Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "9 ExpertTracks",
+        "Course Title": "Our Solar System and Beyond: Teaching Primary Science",
+        "Course URL": "https://www.futurelearn.com/courses/primary-science",
+        "Course Short Intro": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Our Solar System and Beyond: Teaching Primary Science",
+        "url": "https://www.futurelearn.com/courses/primary-science",
+        "description": "Improve your knowledge of space science to help you deliver primary science lessons that are out of this world.",
+        "category": "Science Education",
+        "language": "English",
+        "skills": [
+          "Space Science",
+          "Primary Science Teaching",
+          "Curriculum Development"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 500,
+        "prerequisites": [
+          "Basic understanding of science concepts",
+          "Interest in primary education"
+        ],
+        "learning_outcomes": "Gain knowledge of space science for teaching primary science lessons. Improve curriculum delivery and inspire students with engaging, out-of-this-world learning experiences related to our solar system and beyond.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d780",
+        "Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "190 Courses",
+        "Topics related to CRM": "Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / Adult education / Curriculum and Learning Design / Early Childhood Education / Educational Leadership & Administration / How to Teach Online / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / SEN education / STEM Teaching / Teaching assistant / Teaching Computing / Teaching English / TEFL / Teaching History / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "9 ExpertTracks",
+        "Course Title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "Course URL": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "Course Short Intro": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Physics, Astronomy, and Space: Teaching Secondary Science",
+        "url": "https://www.futurelearn.com/courses/earth-and-space-physics-teaching-secondary-science",
+        "description": "Upgrade your secondary science lessons, boost your knowledge of space physics, and help students build key career skills.  ",
+        "category": "Teacher Professional Development, Physics Education, Astronomy Education",
+        "language": "English",
+        "skills": [
+          "Lesson planning",
+          "Curriculum development",
+          "Physics knowledge",
+          "Astronomy knowledge",
+          "Space science knowledge",
+          "Career skills development (for students)"
+        ],
+        "instructors": "Unknown",
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": "5000",
+        "prerequisites": "Bachelor's degree in science or education, or equivalent experience. Familiarity with secondary science curriculum.",
+        "learning_outcomes": "Upgrade science lessons, boost knowledge of space physics, and help students build key career skills. Improve teaching methodologies in physics, astronomy, and space science.",
+        "price": "Unknown",
+        "provider": "Futurelearn"
+      }
+    }
+  ]
+}

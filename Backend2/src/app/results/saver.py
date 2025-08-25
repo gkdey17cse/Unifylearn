@@ -1,3 +1,4 @@
+# src/app/results/saver.py
 import os
 import json
 from datetime import datetime
@@ -5,18 +6,19 @@ from datetime import datetime
 
 def save_results(user_query, debug_info, all_results, output_dir="./results"):
     """
-    Save results to JSON file
+    Save complete debug results to a file (optional, for backward compatibility)
     """
     os.makedirs(output_dir, exist_ok=True)
-    ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
-    out_path = os.path.join(output_dir, f"responses_{ts}.json")
+    debug_path = os.path.join(output_dir, "debug_results.json")
 
-    with open(out_path, "w", encoding="utf-8") as fh:
-        json.dump(
-            {"query": user_query, "debug": debug_info, "results": all_results},
-            fh,
-            ensure_ascii=False,
-            indent=2,
-        )
+    result_data = {
+        "timestamp": datetime.utcnow().isoformat(),
+        "user_query": user_query,
+        "debug_info": debug_info,
+        "all_results": all_results,
+    }
 
-    return out_path
+    with open(debug_path, "w", encoding="utf-8") as fh:
+        json.dump(result_data, fh, ensure_ascii=False, indent=2)
+
+    return debug_path

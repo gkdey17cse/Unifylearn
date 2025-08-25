@@ -1,0 +1,58 @@
+{
+  "user_query": "show me only courses from SIMplilern and Udacity on Deep Learning where Duration is not more than 4 months",
+  "generated_queries": {
+    "simplilearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills Covered": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "udacity": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "Estimated Duration": {
+            "$regex": "\\b([0-3]|[1-3][0-9])\\s*(day|week|month)s?\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-25T08:34:16.969458"
+}
