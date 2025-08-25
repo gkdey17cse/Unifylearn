@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%= title %></title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body class="bg-gray-100 min-h-screen">
+  <!-- Header -->
+  <%- include('partials/header') %>
+
+  <!-- Main Content -->
+  <main class="container mx-auto px-4 py-8">
+    <div class="text-center mb-8">
+      <h1 class="text-4xl font-bold text-gray-800 mb-2">AI Course Finder</h1>
+      <p class="text-gray-600">Find the perfect online courses using natural language queries</p>
+    </div>
+
+    <!-- Chatbot Interface -->
+    <%- include('partials/chatbot') %>
+
+    <!-- Results Section -->
+    <section id="results-section" class="mt-12">
+      <div id="results-container" class="results-grid">
+        <!-- Results will be populated here by JavaScript -->
+      </div>
+
+      <% if (loading) { %>
+      <div class="text-center py-12 col-span-3">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mb-4"></div>
+        <p class="text-gray-600">Searching for courses...</p>
+      </div>
+      <% } %>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <%- include('partials/footer') %>
+
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

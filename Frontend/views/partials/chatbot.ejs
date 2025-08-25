@@ -1,0 +1,28 @@
+<div class="fixed bottom-6 right-6 w-80 z-50 rounded-xl overflow-hidden shadow-2xl">
+  <div class="bg-blue-600 text-white px-4 py-3 flex justify-between items-center cursor-pointer" id="chatbotToggle">
+    <span class="font-medium">Course Search Assistant</span>
+    <i class="fas fa-chevron-up text-sm transition-transform" id="toggleIcon"></i>
+  </div>
+
+  <div class="bg-white h-96 flex flex-col" id="chatbotBody">
+    <div class="flex-1 p-4 overflow-y-auto" id="chatMessages">
+      <div class="flex mb-4">
+        <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
+          <i class="fas fa-robot text-blue-600"></i>
+        </div>
+        <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%]">
+          <p class="text-gray-800">Hi there! I can help you find courses. Try asking something like: "Find me Python courses for beginners" or "Show me data science courses on Coursera"</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="border-t border-gray-200 p-3">
+      <div class="flex items-center">
+        <input type="text" id="userInput" placeholder="Type your query here..." class="flex-1 border border-gray-300 rounded-l-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent">
+        <button id="sendButton" class="bg-blue-600 text-white px-4 py-2 rounded-r-lg hover:bg-blue-700 transition-colors">
+          <i class="fas fa-paper-plane"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>

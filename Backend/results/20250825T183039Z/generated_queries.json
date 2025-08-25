@@ -1,0 +1,40 @@
+{
+  "user_query": "Show me all courses From Coursera related to Human Psychology",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bHuman Psychology\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bHuman Psychology\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bHuman Psychology\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\\bHuman Psychology\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bHuman Psychology\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-25T18:30:39.275813"
+}

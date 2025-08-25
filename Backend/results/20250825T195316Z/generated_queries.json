@@ -1,0 +1,22 @@
+{
+  "user_query": "SHow me some Python courses from Coursera",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Skills Covered": {
+            "$regex": "\\bPython\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bPython\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-25T19:53:16.317674"
+}

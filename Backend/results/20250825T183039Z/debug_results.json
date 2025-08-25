@@ -1,0 +1,131 @@
+{
+  "timestamp": "2025-08-25T18:30:39.278273",
+  "user_query": "Show me all courses From Coursera related to Human Psychology",
+  "debug_info": {
+    "user_query": "Show me all courses From Coursera related to Human Psychology",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bHuman Psychology\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bHuman Psychology\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bHuman Psychology\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Main Category": {
+              "$regex": "\\bHuman Psychology\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bHuman Psychology\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Short Intro": {
+                "$regex": "\\bHuman Psychology\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bHuman Psychology\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bHuman Psychology\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bHuman Psychology\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bHuman Psychology\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546654b",
+        "Title": "Effective Compliance Programs",
+        "URL": "https://www.coursera.org/learn/effective-compliance-programs?specialization=regulatory-compliance",
+        "Short Intro": "Once you have an understanding of what compliance is, and why it may be important, it is natural to wonder next, “What should I do about it?”  In this course, we’ll explore one of the key factors for creating a positive culture of compliance: human psychology. We’ll think about what drives us, what makes us pay attention, what distracts, and how all of these pieces help build a strong belief in an organizational culture of compliance. ",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Ukrainian, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Management,Strategic Planning,Compliance,Organizational Behavior,",
+        "Instructors": "Lauren Steinfeld",
+        "Rating": "4.9stars",
+        "Number of viewers": "604",
+        "Duration": "Approx. 11 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Effective Compliance Programs",
+        "url": "https://www.coursera.org/learn/effective-compliance-programs?specialization=regulatory-compliance",
+        "description": "Once you have an understanding of what compliance is, and why it may be important, it is natural to wonder next, “What should I do about it?”  In this course, we’ll explore one of the key factors for creating a positive culture of compliance: human psychology. We’ll think about what drives us, what makes us pay attention, what distracts, and how all of these pieces help build a strong belief in an organizational culture of compliance. ",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Management",
+          "Strategic Planning",
+          "Compliance",
+          "Organizational Behavior"
+        ],
+        "instructors": [
+          "Lauren Steinfeld"
+        ],
+        "duration": "Approx. 11 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 604,
+        "prerequisites": "Basic understanding of business principles and an interest in organizational behavior.",
+        "learning_outcomes": "Understand the role of human psychology in compliance, identify factors that drive and distract individuals, and develop strategies to build a strong culture of compliance within an organization.",
+        "price": "Coursera offers courses through subscriptions and individual purchases. Check Coursera for current pricing.",
+        "provider": "Coursera"
+      }
+    }
+  ]
+}

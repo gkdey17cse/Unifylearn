@@ -1,0 +1,28 @@
+{
+  "user_query": "SHow me some Python courses from Coursera",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Skills": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 160,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-25T19:53:16.320828"
+}

@@ -1,0 +1,180 @@
+{
+  "timestamp": "2025-08-25T20:39:23.931961",
+  "user_query": "Find some courses from SimpliLearn & Udacity based on Buisness Law",
+  "debug_info": {
+    "user_query": "Find some courses from SimpliLearn & Udacity based on Buisness Law",
+    "llm_generated_queries": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bfind\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\budacity\\ based\\ buisness\\ law\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

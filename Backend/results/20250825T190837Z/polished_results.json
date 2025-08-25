@@ -1,0 +1,1817 @@
+[
+  {
+    "title": "Introduction to Data Science Specialization",
+    "url": "https://www.coursera.org/specializations/introduction-data-science",
+    "description": "Launch your career in data science. Gain foundational data science skills to prepare for a career or further advanced learning in data science. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Relational Database Management System (RDBMS)",
+      "Cloud Databases",
+      "Python Programming",
+      "SQL",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining",
+      "Github",
+      "Jupyter notebooks",
+      "Rstudio"
+    ],
+    "instructors": [
+      "Rav Ahuja",
+      "Alex Aklson",
+      "Aije Egwaikhide",
+      "Svetlana Levitan",
+      "Romeo Kienzler",
+      "Polong Lin",
+      "Hima Vasudevan"
+    ],
+    "duration": "Approximately 5 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 11927,
+    "prerequisites": "Basic computer literacy, familiarity with mathematical concepts, and a strong interest in data analysis.",
+    "learning_outcomes": "Gain foundational data science skills, including data analysis, machine learning, and programming, to prepare for a data science career or further study.",
+    "price": "Coursera offers a subscription model. Check the Coursera website for current pricing details.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465fee",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Key Technologies for Business Specialization",
+    "url": "https://www.coursera.org/specializations/key-technologies-for-business",
+    "description": "Get Ahead with Key Business Technologies. Gain Foundational Understanding of Key Technologies Driving Modern Businesses ",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Artificial Intelligence (AI)",
+      "Business",
+      "Cloud Computing",
+      "technology",
+      "Cloud Native",
+      "Devops",
+      "Iaas PaaS Saas",
+      "Hybrid Multicloud",
+      "Deep Learning",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja",
+      "Alex Aklson"
+    ],
+    "duration": "Approximately 3 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 1232,
+    "prerequisites": "Basic computer literacy and a general interest in business and technology.",
+    "learning_outcomes": "Gain foundational understanding of key technologies driving modern businesses, including data science, AI, cloud computing and related concepts.",
+    "price": "Coursera subscriptions vary; check the Coursera website for current pricing.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465ff0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Deep Learning Specialization",
+    "url": "https://www.coursera.org/specializations/deep-learning",
+    "description": "Become a Machine Learning expert. Master the fundamentals of deep learning and break into AI. Recently updated with cutting-edge techniques!",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Artificial Neural Network",
+      "Convolutional Neural Network",
+      "Tensorflow",
+      "Recurrent Neural Network",
+      "Transformers",
+      "Deep Learning",
+      "Backpropagation",
+      "Python Programming",
+      "Neural Network Architecture",
+      "Mathematical Optimization",
+      "hyperparameter tuning",
+      "Inductive Transfer"
+    ],
+    "instructors": [
+      "Andrew Ng",
+      "Kian Katanforoosh",
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approximately 5 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 129253,
+    "prerequisites": "Basic Python programming, linear algebra, calculus, and a foundational understanding of machine learning concepts.",
+    "learning_outcomes": "Master deep learning fundamentals, including neural networks, convolutional networks, recurrent networks, and transformers. Implement deep learning algorithms and build AI applications using TensorFlow.",
+    "price": "Coursera subscription required.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465ff1",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM & Darden Digital Strategy Specialization",
+    "url": "https://www.coursera.org/specializations/digital-strategy",
+    "description": "Get ahead with key business and technical skills. Understand how current technologies are changing industry and create strategy to transform your business",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Digital transformation",
+      "Artificial Intelligence (AI)",
+      "Business Strategy",
+      "Cloud Computing",
+      "Deep Learning",
+      "Jobs",
+      "Machine Learning",
+      "strategy",
+      "Swot Analysis",
+      "Value Proposition",
+      "Competitiveness"
+    ],
+    "instructors": [
+      "Rav Ahuja",
+      "Jared Harris",
+      "Michael Lenox",
+      "Rajkumar Venkatesan",
+      "Yael Grushka-Cockayne"
+    ],
+    "duration": "Approximately 7 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 262,
+    "prerequisites": "Basic understanding of business concepts and familiarity with technology trends are recommended.",
+    "learning_outcomes": "Understand how technologies reshape industries, create effective digital transformation strategies, and gain key business and technical skills for digital success.",
+    "price": "Coursera offers a subscription-based model. Prices vary, check Coursera for current costs.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465ff2",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM AI Foundations for Business Specialization",
+    "url": "https://www.coursera.org/specializations/ibm-ai-foundations-for-business",
+    "description": "The IBM AI Foundations for Business Specialization provides a comprehensive understanding of AI concepts and their application in business contexts. Learners will explore machine learning, deep learning, and data analytics, gaining skills to leverage AI for strategic decision-making and innovation.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Artificial Intelligence (AI)",
+      "Information Technology (IT) Architecture",
+      "Data Architecture",
+      "Leadership",
+      "Deep Learning",
+      "Jobs",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining",
+      "Management",
+      "Analytics"
+    ],
+    "instructors": [
+      "Rav Ahuja",
+      "Alex Aklson",
+      "Mark J Grover",
+      "Ray Lopez",
+      "Ph.D."
+    ],
+    "duration": "Approximately 2 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 1076,
+    "prerequisites": "Basic computer literacy, familiarity with spreadsheets, and a general interest in business and technology are recommended.",
+    "learning_outcomes": "Understand AI concepts, apply machine learning techniques, leverage data analytics for business decisions, and gain skills to implement AI solutions within organizations. It helps to know the usage of the skills like data science and machine learning.",
+    "price": "Coursera offers a free trial, after which a subscription is required to access course materials and earn a certificate.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465ff3",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Foundations for Everyone Specialization",
+    "url": "https://www.coursera.org/specializations/ai-foundations-for-everyone",
+    "description": "The AI Foundations for Everyone Specialization provides a broad understanding of artificial intelligence (AI) concepts, technologies, and applications. It covers fundamental AI principles, machine learning basics, deep learning concepts, and how AI is being used across various industries. You will learn how to use Watson and APIs. It is designed for individuals with little to no prior AI experience.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Watson (Computer)",
+      "Jobs",
+      "Application Programming Interfaces (API)",
+      "watson"
+    ],
+    "instructors": [
+      "Rav Ahuja",
+      "Antonio Cangiano"
+    ],
+    "duration": "Approximately 3 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 2218,
+    "prerequisites": "No prior experience in AI or programming is required. Basic computer literacy and a willingness to learn are recommended.",
+    "learning_outcomes": "Understand core AI concepts like machine learning and deep learning. Explore AI applications across industries, and use Watson. Learn how to use APIs, and gain insights into how AI can be implemented.",
+    "price": "Coursera offers various subscription options. Please refer to the Coursera website for current pricing.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466003",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI for Medicine Specialization",
+    "url": "https://www.coursera.org/specializations/ai-for-medicine",
+    "description": "The AI for Medicine Specialization on Coursera aims to equip learners with the knowledge and skills to apply artificial intelligence techniques to solve real-world problems in the medical field. The specialization covers a range of topics, including machine learning, deep learning, image segmentation, and natural language processing, with a focus on applications such as medical diagnosis, treatment planning, and drug discovery. Students will learn how to build and evaluate AI models for various medical tasks, interpret their results, and understand the ethical considerations involved in using AI in healthcare. The program uses examples such as Image Segmentation, Machine Learning, time-to-event modeling, Deep Learning, Random Forest, Multi-class classification, model tuning, and treatment effect estimation. The specialization is designed for individuals with a background in computer science, mathematics, or a related field who are interested in pursuing a career in AI for medicine.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "model interpretation",
+      "Image Segmentation",
+      "natural language extraction",
+      "Machine Learning",
+      "time-to-event modeling",
+      "Deep Learning",
+      "model evaluation",
+      "Multi-class classification",
+      "Random Forest",
+      "model tuning",
+      "treatment effect estimation",
+      "machine learning interpretation"
+    ],
+    "instructors": [
+      "Pranav Rajpurkar",
+      "Bora Uyumazturk",
+      "Amirhossein Kiani",
+      "Eddy Shyu"
+    ],
+    "duration": "Approximately 3 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 1986,
+    "prerequisites": "Basic knowledge of Python programming, linear algebra, calculus, and probability. Familiarity with machine learning concepts is recommended.",
+    "learning_outcomes": "Apply AI techniques to medical diagnosis, treatment planning, and drug discovery. Build and evaluate AI models for medical tasks and interpret results, understanding the ethical considerations of AI in healthcare. ",
+    "price": "Coursera subscription required (prices vary).",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466062",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Advanced Data Science with IBM Specialization",
+    "url": "https://www.coursera.org/specializations/advanced-data-science-ibm",
+    "description": "Expert in Data Science, Machine Learning and AI. Become an IBM-approved Expert in Data Science, Machine Learning and Artificial Intelligence.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Internet Of Things (IOT)",
+      "Deep Learning",
+      "Apache Spark",
+      "Statistics",
+      "Machine Learning",
+      "Long Short-Term Memory (ISTM)"
+    ],
+    "instructors": [
+      "Romeo Kienzler",
+      "Nikolay Manchev",
+      "Niketan Pansare",
+      "Tom Hanlon",
+      "Max Pumperla",
+      "Ilja Rasin"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 2335,
+    "prerequisites": "Basic Python programming, introductory statistics, and familiarity with machine learning concepts are recommended.",
+    "learning_outcomes": "Become an IBM-approved expert in Data Science, Machine Learning, and Artificial Intelligence. Master advanced techniques for practical applications.",
+    "price": "Coursera subscription required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546608c",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning Specialization",
+    "url": "https://www.coursera.org/specializations/machine-learning",
+    "description": "Build Intelligent Applications. Master machine learning fundamentals in four hands-on courses.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Clustering Algorithms",
+      "Machine Learning",
+      "Classification Algorithms",
+      "Decision Tree",
+      "Python Programming",
+      "Machine Learning Concepts",
+      "Deep Learning",
+      "Linear Regression",
+      "Ridge Regression",
+      "Lasso (Statistics)",
+      "Regression Analysis",
+      "Logistic Regression"
+    ],
+    "instructors": [
+      "Emily Fox",
+      "Carlos Guestrin"
+    ],
+    "duration": "Approximately 7 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 12392,
+    "prerequisites": "Basic Python programming, linear algebra, calculus, and probability.",
+    "learning_outcomes": "Master machine learning fundamentals and build intelligent applications through hands-on projects, covering concepts such as regression, classification, and deep learning.",
+    "price": "Coursera subscription required (price varies by location and subscription type).",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254660b7",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "TensorFlow 2 for Deep Learning Specialization",
+    "url": "https://www.coursera.org/specializations/tensorflow2-deeplearning",
+    "description": "This Specialization provides a comprehensive introduction to deep learning using TensorFlow 2. You'll learn to build and train neural networks, master TensorFlow tools, and develop skills in areas like computer vision, natural language processing, and generative models. The specialization covers TensorFlow, Keras, TensorFlow Probability, and probabilistic neural networks.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Tensorflow",
+      "keras",
+      "TensorFlow Probability",
+      "Probabilistic Neural Networks",
+      "Deep Learning",
+      "Probabilistic Neural Network",
+      "Generative Model",
+      "Probabilistic Programming Language (PRPL)"
+    ],
+    "instructors": [
+      "Dr Kevin Webster"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 526,
+    "prerequisites": "Basic Python programming, foundational understanding of machine learning concepts like linear regression and gradient descent.",
+    "learning_outcomes": "Build and train deep learning models using TensorFlow 2; implement computer vision, NLP, and generative models; utilize TensorFlow tools for probabilistic neural networks and understand Keras.",
+    "price": "Coursera offers a subscription-based model. Check Coursera for current pricing details for this Specialization.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466137",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Deep Learning for Healthcare Specialization",
+    "url": "https://www.coursera.org/specializations/deep-learning-healthcare",
+    "description": "Neural Networks in Applied Medicine. Learn the latest cutting-edge methods in Deep Learning for Medical Applications",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Big Data",
+      "Machine Learning",
+      "Deep Learning",
+      "Health Care",
+      "Graphs",
+      "Unsupervised Learning",
+      "Autoencoder"
+    ],
+    "instructors": [
+      "Jimeng Sun"
+    ],
+    "duration": "Approximately 3 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": "10k-50k",
+    "prerequisites": "Basic Python programming, understanding of linear algebra and calculus, familiarity with machine learning concepts.",
+    "learning_outcomes": "Learn cutting-edge deep learning methods for medical applications. Understand neural networks in applied medicine, including techniques for big data and healthcare graphs.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546618a",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM Data Science Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/ibm-data-science",
+    "description": "Kickstart your career in data science & ML. Build data science skills, learn Python & SQL, analyze & visualize data, build machine learning models. No degree or prior experience required.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining",
+      "Github",
+      "Python Programming",
+      "Jupyter notebooks",
+      "Rstudio",
+      "Methodology",
+      "CRISP-DM",
+      "Data Analysis",
+      "Pandas",
+      "Numpy",
+      "Cloud Databases",
+      "Relational Database Management System (RDBMS)",
+      "SQL",
+      "Predictive Modelling",
+      "Data Visualization (DataViz)",
+      "Model Selection",
+      "Dashboards and Charts",
+      "dash",
+      "Matplotlib",
+      "SciPy and scikit-learn",
+      "regression",
+      "classification",
+      "Hierarchical Clustering",
+      "Jupyter Notebook",
+      "Data Science Methodology",
+      "K-Means Clustering"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "5 months at 3 hours a week",
+    "site": "Coursera",
+    "level": "Professional Certificate",
+    "viewers": 62528,
+    "prerequisites": "No prior experience required, but basic computer literacy is helpful.",
+    "learning_outcomes": "Gain data science skills, including Python & SQL programming, data analysis & visualization, and building machine learning models. Learn to apply data science methodologies.",
+    "price": "Coursera subscription required. Prices vary by location and subscription plan.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546618d",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM Applied AI Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/applied-artifical-intelligence-ibm-watson-ai",
+    "description": "Kickstart your career in artificial intelligence. Learn Python, build a chatbot, explore machine learning and computer vision, and leverage IBM Watson. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning",
+      "Application Programming Interfaces (API)",
+      "watson",
+      "Python Programming",
+      "Data Analysis",
+      "Pandas",
+      "Numpy",
+      "Web Application",
+      "Application development",
+      "Flask",
+      "Artifical Intelligence",
+      "Watson AI",
+      "Chatbot"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "6 months at 3 hours a week",
+    "site": "Coursera",
+    "level": "Professional Certificate",
+    "viewers": 5621,
+    "prerequisites": "Basic computer literacy and familiarity with fundamental programming concepts are recommended.",
+    "learning_outcomes": "Upon completion, learners will be able to use Python for AI, build chatbots, apply machine learning and computer vision techniques, and leverage IBM Watson services.",
+    "price": "Coursera subscription required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466199",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM AI Engineering Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/ai-engineer",
+    "description": "Launch your career as an AI engineer. Learn how to provide business insights from big data using machine learning and deep learning techniques. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "SciPy and scikit-learn",
+      "Machine Learning",
+      "regression",
+      "classification",
+      "Hierarchical Clustering",
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Artificial Intelligence (AI)",
+      "keras",
+      "Opencv",
+      "Image Processing",
+      "Computer Vision"
+    ],
+    "instructors": [
+      "SAEED AGHABOZORGI"
+    ],
+    "duration": "8 months at 3 hours a week",
+    "site": "Coursera",
+    "level": "Professional Certificate",
+    "viewers": 5283,
+    "prerequisites": [
+      "Basic Python programming",
+      "High school level mathematics (linear algebra and calculus)",
+      "Familiarity with data analysis concepts"
+    ],
+    "learning_outcomes": "Gain skills to derive business insights from big data using machine learning and deep learning techniques. Master tools like Keras, OpenCV, and SciPy for AI engineering applications.",
+    "price": "Coursera subscription required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546619e",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "IBM Machine Learning Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/ibm-machine-learning",
+    "description": "Machine Learning, Time Series & Survival Analysis. Develop working skills in the main areas of Machine Learning: Supervised Learning, Unsupervised Learning, Deep Learning, and Reinforcement Learning. Also gain practice in specialized topics such as Time Series Analysis and Survival Analysis.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Feature Engineering",
+      "Statistical Hypothesis Testing",
+      "Exploratory Data Analysis",
+      "Regression Analysis",
+      "Supervised Learning",
+      "Linear Regression",
+      "Ridge Regression",
+      "Machine Learning (ML) Algorithms",
+      "Decision Tree",
+      "Ensemble Learning",
+      "Classification Algorithms",
+      "Dimensionality Reduction",
+      "Unsupervised Learning",
+      "Cluster Analysis",
+      "K Means Clustering",
+      "Principal Component Analysis (PCA)",
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Reinforcement Learning",
+      "keras",
+      "Python Programming",
+      "Data Analysis",
+      "unsupervised machine learning"
+    ],
+    "instructors": [
+      "Joseph Santarcangelo"
+    ],
+    "duration": "10 months at 3 hours a week",
+    "site": "Coursera",
+    "level": "Professional Certificate",
+    "viewers": 1100,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254661ce",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Fundamentals for Non-Data Scientists",
+    "url": "https://www.coursera.org/learn/wharton-ai-fundamentals-non-data-scientists",
+    "description": "In this course, you will go in-depth to discover how Machine Learning is used to handle and interpret Big Data. You will get a detailed look at the various ways and methods to create algorithms to incorporate into your business with such tools as Teachable Machine and TensorFlow. You will also learn different ML methods, Deep Learning, as well as the limitations but also how to drive accuracy and use the best training data for your algorithms. You will then explore GANs and VAEs, using your newfound knowledge to engage with AutoML to help you start building algorithms that work to suit your needs. You will also see exclusive interviews with industry leaders, who manage Big Data for companies such as McDonald's and Visa. By the end of this course, you will have learned different ways to code, including how to use no-code tools, understand Deep Learning, how to measure and review errors in your algorithms, and how to use Big Data to not only maintain customer privacy but also how to use this data to develop different strategies that will drive your business.",
+    "category": "Business",
+    "language": "English",
+    "skills": [],
+    "instructors": [
+      "Kartik Hosanagar"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 95,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254661f0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Applications in Marketing and Finance",
+    "url": "https://www.coursera.org/learn/wharton-ai-applications-marketing-finance",
+    "description": "In this course, you will learn about AI-powered applications that can enhance the customer journey and extend the customer lifecycle. You will learn how this AI-powered data can enable you to analyze consumer habits and maximize their potential to target your marketing to the right people. You will also learn about fraud, credit risks, and how AI applications can also help you combat the ever-challenging landscape of protecting consumer data. You will also learn methods to utilize supervised and unsupervised machine learning to enhance your fraud detection methods. You will also hear from leading industry experts in the world of data analytics, marketing, and fraud prevention. By the end of this course, you will have a substantial understanding of the role AI and Machine Learning play when it comes to consumer habits, and how we are able to interact and analyze information to increase deep learning potential for your business.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "AI Applications",
+      "Machine Learning",
+      "Data Analysis",
+      "Marketing Analytics",
+      "Fraud Detection",
+      "Risk Management"
+    ],
+    "instructors": [
+      "Michael R Roberts"
+    ],
+    "duration": "Approx. 6 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 70,
+    "prerequisites": [
+      "Basic understanding of marketing and finance principles.",
+      "Familiarity with data analytics concepts is helpful."
+    ],
+    "learning_outcomes": "Understand AI's role in consumer behavior, analyze data to improve deep learning for business, and apply supervised/unsupervised learning for enhanced fraud detection. Learn from industry experts.",
+    "price": "Coursera Subscription Required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466228",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Deep Neural Networks with PyTorch",
+    "url": "https://www.coursera.org/learn/deep-neural-networks-with-pytorch",
+    "description": "The course will teach you how to develop deep learning models using  Pytorch. The course will start with Pytorch's  tensors and Automatic differentiation package. Then each section will cover different models starting off with fundamentals such as Linear Regression, and logistic/softmax regression. Followed by  Feedforward deep neural networks, the role of different activation functions, normalization and dropout layers. Then Convolutional Neural Networks and Transfer learning will be covered. Finally, several other Deep learning methods will be covered.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [],
+    "instructors": [
+      "Joseph Santarcangelo"
+    ],
+    "duration": "Approx. 30 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1343,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466262",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Neural Networks and Deep Learning",
+    "url": "https://www.coursera.org/learn/neural-networks-deep-learning",
+    "description": "In the first course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Backpropagation",
+      "Python Programming",
+      "Neural Network Architecture"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 118113,
+    "prerequisites": "Basic Python programming, familiarity with linear algebra and calculus concepts.",
+    "learning_outcomes": "Understand the core concepts of neural networks and deep learning. Learn about neural network architectures, backpropagation, and how to implement them.",
+    "price": "Coursera offers a free audit option or a paid certificate option.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466283",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "What is Data Science? ",
+    "url": "https://www.coursera.org/learn/what-is-datascience",
+    "description": "Do you want to know why Data Science has been labelled as the sexiest profession of the 21st century? After taking this course you will be able to answer this question, and get a thorough understanding of what is Data Science, what data scientists do, and learn about career paths in the field. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 62499,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466288",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "url": "https://www.coursera.org/learn/deep-neural-network",
+    "description": "In the second course of the Deep Learning Specialization, you will open the deep learning black box to understand the processes that drive performance and generate good results systematically. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Tensorflow",
+      "Deep Learning",
+      "Mathematical Optimization",
+      "hyperparameter tuning"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 23 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 61980,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662a0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "url": "https://www.coursera.org/learn/introduction-to-ai",
+    "description": "In this course you will learn what Artificial Intelligence (AI) is, explore use cases and applications of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice from experts about learning and starting a career in AI.  You will also demonstrate AI in action with a mini project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 10615,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662a9",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning",
+    "url": "https://www.coursera.org/learn/introduction-tensorflow",
+    "description": "If you are a software developer who wants to build scalable AI-powered algorithms, you need to understand how to use the tools to build them. This course is part of the upcoming Machine Learning in Tensorflow Specialization and will teach you best practices for using TensorFlow, a popular open-source framework for machine learning. ",
+    "category": "Computer Science",
+    "language": "English",
+    "skills": [
+      "Computer Vision",
+      "Tensorflow",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Laurence Moroney"
+    ],
+    "duration": "Approx. 17 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 18364,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662b6",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Convolutional Neural Networks",
+    "url": "https://www.coursera.org/learn/convolutional-neural-networks",
+    "description": "In the fourth course of the Deep Learning Specialization, you will understand how computer vision has evolved and become familiar with its exciting applications such as autonomous driving, face recognition, reading radiology images, and more.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Facial Recognition System",
+      "Convolutional Neural Network",
+      "Tensorflow",
+      "Object Detection and Segmentation"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 36 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 41376,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662be",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Structuring Machine Learning Projects",
+    "url": "https://www.coursera.org/learn/machine-learning-projects",
+    "description": "In the third course of the Deep Learning Specialization, you will learn how to build a successful machine learning project and get to practice decision-making as a machine learning project leader. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Inductive Transfer",
+      "Machine Learning",
+      "Multi-Task Learning",
+      "Decision-Making"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 6 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 49034,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662c1",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning with Python",
+    "url": "https://www.coursera.org/learn/machine-learning-with-python",
+    "description": "Get ready to dive into the world of Machine Learning (ML) by using Python! This course is for you whether you want to advance your Data Science career or get started in Machine Learning and Deep Learning.  ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "SciPy and scikit-learn",
+      "Machine Learning",
+      "regression",
+      "classification",
+      "Hierarchical Clustering"
+    ],
+    "instructors": [
+      "SAEED AGHABOZORGI"
+    ],
+    "duration": "Approx. 12 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 13939,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662cf",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Sequence Models",
+    "url": "https://www.coursera.org/learn/nlp-sequence-models",
+    "description": "In the fifth course of the Deep Learning Specialization, you will become familiar with sequence models and their exciting applications such as speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Long Short Term Memory (LSTM)",
+      "Gated Recurrent Unit (GRU)",
+      "Recurrent Neural Network",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 37 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 29226,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662d0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning Foundations for Product Managers",
+    "url": "https://www.coursera.org/learn/machine-learning-foundations-for-product-managers",
+    "description": "In this first course of the AI Product Management Specialization offered by Duke University's Pratt School of Engineering, you will build a foundational understanding of what machine learning is, how it works and when and why it is applied.  To successfully manage an AI team or product and work collaboratively with data scientists, software engineers, and customers you need to understand the basics of machine learning technology.  This course provides a non-coding introduction to machine learning, with focus on the process of developing models, ML model evaluation and interpretation, and the intuition behind common ML and deep learning algorithms.  The course will conclude with a hands-on project in which you will have a chance to train and optimize a machine learning model on a simple real-world problem.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Artificial Neural Network",
+      "Machine Learning",
+      "Predictive Analytics",
+      "Modeling"
+    ],
+    "instructors": [
+      "Jon Reifschneider"
+    ],
+    "duration": "Approx. 15 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 152,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662de",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI for Medical Diagnosis",
+    "url": "https://www.coursera.org/learn/ai-for-medical-diagnosis",
+    "description": "AI is transforming the practice of medicine. It’s helping doctors diagnose patients more accurately, make predictions about patients’ future health, and recommend better treatments. As an AI practitioner, you have the opportunity to join in this transformation of modern medicine. If you're already familiar with some of the math and coding behind AI algorithms, and are eager to develop your skills further to tackle challenges in the healthcare industry, then this specialization is for you. No prior medical expertise is required! ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Image Segmentation",
+      "Machine Learning",
+      "model evaluation",
+      "Multi-class classification"
+    ],
+    "instructors": [
+      "Pranav Rajpurkar"
+    ],
+    "duration": "Approx. 20 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1825,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466351",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Getting Started with AI using IBM Watson",
+    "url": "https://www.coursera.org/learn/ai-with-ibm-watson",
+    "description": "In this course you will learn how to quickly and easily get started with Artificial Intelligence using IBM Watson. You will understand how Watson works, become familiar with its use cases and real life client examples, and be introduced to several of Watson AI services from IBM that enable anyone to easily apply AI and build smart apps. You will also work with several Watson services to demonstrate AI in action.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Application Programming Interfaces (API)",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "watson"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 2666,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466360",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning Introduction for Everyone",
+    "url": "https://www.coursera.org/learn/machine-learning-introduction-for-everyone",
+    "description": "This three-module course introduces machine learning and data science for everyone with a foundational understanding of machine learning models. You’ll learn about the history of machine learning, applications of machine learning, the machine learning model lifecycle, and tools for machine learning. You’ll also learn about supervised versus unsupervised learning, classification, regression, evaluating machine learning models, and more. Our labs give you hands-on experience with these machine learning and data science concepts. You will develop concrete machine learning skills as well as create a final project demonstrating your proficiency. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Reinforcement Learning",
+      "Machine Learning Model Lifecycle"
+    ],
+    "instructors": [
+      "Aije Egwaikhide"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 112,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466362",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Deep Learning & Neural Networks with Keras",
+    "url": "https://www.coursera.org/learn/introduction-to-deep-learning-with-keras",
+    "description": "Looking to start a career in Deep Learning? Look no further. This course will introduce you to the field of deep learning and help you answer many questions that people are asking nowadays, like what is deep learning, and how do deep learning models compare to artificial neural networks? You will learn about the different deep learning models and build your first deep learning model using the Keras library.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "keras"
+    ],
+    "instructors": [
+      "Alex Aklson"
+    ],
+    "duration": "Approx. 8 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1258,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546636f",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Computer Vision and Image Processing",
+    "url": "https://www.coursera.org/learn/introduction-computer-vision-watson-opencv",
+    "description": "Computer Vision is one of the most exciting fields in Machine Learning and AI. It has applications in many industries, such as self-driving cars, robotics, augmented reality, and much more. In this beginner-friendly course, you will understand computer vision and learn about its various applications across many industries.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Opencv",
+      "Artificial Intelligence (AI)",
+      "Image Processing",
+      "Computer Vision"
+    ],
+    "instructors": [
+      "Aije Egwaikhide"
+    ],
+    "duration": "Approx. 21 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 915,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254663a5",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Convolutional Neural Networks",
+    "url": "https://www.coursera.org/learn/convolutional-neural-networks?specialization=deep-learning",
+    "description": "In the fourth course of the Deep Learning Specialization, you will understand how computer vision has evolved and become familiar with its exciting applications such as autonomous driving, face recognition, reading radiology images, and more.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Facial Recognition System",
+      "Convolutional Neural Network",
+      "Tensorflow",
+      "Object Detection and Segmentation"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 36 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 41376,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466449",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Applied AI with DeepLearning",
+    "url": "https://www.coursera.org/learn/ai?specialization=advanced-data-science-ibm",
+    "description": ">>> By enrolling in this course you agree to the End User License Agreement as set out in the FAQ.  Once enrolled you can access the license in the Resources area <<<",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Machine Learning",
+      "Deep Learning",
+      "Long Short-Term Memory (ISTM)",
+      "Apache Spark"
+    ],
+    "instructors": [
+      "Romeo Kienzler"
+    ],
+    "duration": "Approx. 25 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1090,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466487",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Customising your models with TensorFlow 2",
+    "url": "https://www.coursera.org/learn/customising-models-tensorflow2?specialization=tensorflow2-deeplearning",
+    "description": "Welcome to this course on Customising your models with TensorFlow 2!",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Tensorflow",
+      "Deep Learning",
+      "keras"
+    ],
+    "instructors": [
+      "Dr Kevin Webster"
+    ],
+    "duration": "Approx. 27 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 173,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546654c",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "url": "https://www.coursera.org/learn/introduction-to-ai?specialization=digital-strategy",
+    "description": "In this course you will learn what Artificial Intelligence (AI) is, explore use cases and applications of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice from experts about learning and starting a career in AI.  You will also demonstrate AI in action with a mini project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 10615,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254665aa",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Generative Deep Learning with TensorFlow",
+    "url": "https://www.coursera.org/learn/generative-deep-learning-with-tensorflow?specialization=tensorflow-advanced-techniques",
+    "description": "In this course, you will: ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Variational AutoEncoders",
+      "Auto Encoders",
+      "Generative Adversarial Networks",
+      "Neural Style Transfer"
+    ],
+    "instructors": [
+      "Laurence Moroney"
+    ],
+    "duration": "Approx. 16 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 213,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254665b7",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "What is Data Science? ",
+    "url": "https://www.coursera.org/learn/what-is-datascience?specialization=ibm-ai-foundations-for-business",
+    "description": "Do you want to know why Data Science has been labelled as the sexiest profession of the 21st century? After taking this course you will be able to answer this question, and get a thorough understanding of what is Data Science, what data scientists do, and learn about career paths in the field. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 62499,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466601",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Structuring Machine Learning Projects",
+    "url": "https://www.coursera.org/learn/machine-learning-projects?specialization=deep-learning",
+    "description": "In the third course of the Deep Learning Specialization, you will learn how to build a successful machine learning project and get to practice decision-making as a machine learning project leader. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Inductive Transfer",
+      "Machine Learning",
+      "Multi-Task Learning",
+      "Decision-Making"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 6 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 49034,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466648",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning Foundations: A Case Study Approach",
+    "url": "https://www.coursera.org/learn/ml-foundations?specialization=machine-learning",
+    "description": "Do you have data and wonder what it can tell you?  Do you need a deeper understanding of the core ways in which machine learning can improve your business?  Do you want to be able to converse with specialists about anything from regression and classification to deep learning and recommender systems?",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Python Programming",
+      "Machine Learning Concepts",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "instructors": [
+      "Emily Fox"
+    ],
+    "duration": "Approx. 18 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 13247,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254666a6",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Neural Networks and Deep Learning",
+    "url": "https://www.coursera.org/learn/neural-networks-deep-learning?specialization=deep-learning",
+    "description": "In the first course of the Deep Learning Specialization, you will study the foundational concept of neural networks and deep learning. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Artificial Neural Network",
+      "Backpropagation",
+      "Python Programming",
+      "Neural Network Architecture"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 118113,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254666a9",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Advanced Data Science Capstone",
+    "url": "https://www.coursera.org/learn/advanced-data-science-capstone?specialization=advanced-data-science-ibm",
+    "description": "This project completer has proven a deep understanding on massive parallel data processing, data exploration and visualization, advanced machine learning and deep learning and how to apply his knowledge in a real-world practical use case where he justifies architectural decisions, proves understanding the characteristics of different algorithms, frameworks and technologies and how they impact model performance and scalability. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [],
+    "instructors": [
+      "Romeo Kienzler"
+    ],
+    "duration": "Approx. 8 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 375,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254666e9",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization",
+    "url": "https://www.coursera.org/learn/deep-neural-network?specialization=deep-learning",
+    "description": "In the second course of the Deep Learning Specialization, you will open the deep learning black box to understand the processes that drive performance and generate good results systematically. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Tensorflow",
+      "Deep Learning",
+      "Mathematical Optimization",
+      "hyperparameter tuning"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 23 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 61980,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466703",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Advanced Deep Learning Methods for Healthcare",
+    "url": "https://www.coursera.org/learn/advanced-deep-learning-methods-healthcare?specialization=deep-learning-healthcare",
+    "description": "This course covers deep learning (DL) methods, healthcare data and applications using DL methods. The courses include activities such as video lectures, self guided programming labs, homework assignments (both written and programming), and a large project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Graphs",
+      "Unsupervised Learning",
+      "Autoencoder",
+      "Deep Learning"
+    ],
+    "instructors": [
+      "Jimeng Sun"
+    ],
+    "duration": "Approx. 16 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466711",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Sequence Models",
+    "url": "https://www.coursera.org/learn/nlp-sequence-models?specialization=deep-learning",
+    "description": "In the fifth course of the Deep Learning Specialization, you will become familiar with sequence models and their exciting applications such as speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Long Short Term Memory (LSTM)",
+      "Gated Recurrent Unit (GRU)",
+      "Recurrent Neural Network",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 37 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 29226,
+    "prerequisites": [
+      "Basic Python programming",
+      "Knowledge of Machine Learning",
+      "Understanding of Deep Learning concepts",
+      "Experience with neural networks"
+    ],
+    "learning_outcomes": "Upon completion, you'll be adept in sequence models and their applications, including speech recognition, music synthesis, chatbots, machine translation, and NLP. You'll understand LSTMs, GRUs, and attention models.",
+    "price": "Paid Course",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546672f",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "What is Data Science? ",
+    "url": "https://www.coursera.org/learn/what-is-datascience?specialization=introduction-data-science",
+    "description": "Do you want to know why Data Science has been labelled as the sexiest profession of the 21st century? After taking this course you will be able to answer this question, and get a thorough understanding of what is Data Science, what data scientists do, and learn about career paths in the field. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 62499,
+    "prerequisites": "No prior experience required. Basic computer literacy is helpful.",
+    "learning_outcomes": "Understand the definition of Data Science, the role of a Data Scientist, and explore various career paths within the field. Gain insight into why Data Science is a sought-after profession.",
+    "price": "Free to audit",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546673a",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "url": "https://www.coursera.org/learn/introduction-to-ai?specialization=ibm-ai-foundations-for-business",
+    "description": "In this course you will learn what Artificial Intelligence (AI) is, explore use cases and applications of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice from experts about learning and starting a career in AI.  You will also demonstrate AI in action with a mini project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 10615,
+    "prerequisites": "Basic computer literacy, familiarity with mathematical concepts is helpful but not required.",
+    "learning_outcomes": "Understand AI concepts, applications, and terminology (machine learning, deep learning). Explore ethical concerns and career paths in AI. Demonstrate AI in action through a mini-project.",
+    "price": "Coursera subscription required for graded assignments and certificate.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466744",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI for Medical Prognosis ",
+    "url": "https://www.coursera.org/learn/ai-for-medical-prognosis?specialization=ai-for-medicine",
+    "description": "AI is transforming the practice of medicine. It’s helping doctors diagnose patients more accurately, make predictions about patients’ future health, and recommend better treatments. This Specialization will give you practical experience in applying machine learning to concrete problems in medicine.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Machine Learning",
+      "time-to-event modeling",
+      "Random Forest",
+      "model tuning"
+    ],
+    "instructors": [
+      "Pranav Rajpurkar"
+    ],
+    "duration": "Approx. 29 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 729,
+    "prerequisites": "Basic Python programming, introductory machine learning concepts, and familiarity with statistical analysis.",
+    "learning_outcomes": "Apply machine learning to medical problems, predict patient health outcomes, and recommend treatments using AI. Gain practical experience in medical AI applications.",
+    "price": "Subscription-based (Coursera Plus) or individual course purchase.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254667d9",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Machine Learning Foundations for Product Managers",
+    "url": "https://www.coursera.org/learn/machine-learning-foundations-for-product-managers?specialization=ai-product-management-duke",
+    "description": "In this first course of the AI Product Management Specialization offered by Duke University's Pratt School of Engineering, you will build a foundational understanding of what machine learning is, how it works and when and why it is applied.  To successfully manage an AI team or product and work collaboratively with data scientists, software engineers, and customers you need to understand the basics of machine learning technology.  This course provides a non-coding introduction to machine learning, with focus on the process of developing models, ML model evaluation and interpretation, and the intuition behind common ML and deep learning algorithms.  The course will conclude with a hands-on project in which you will have a chance to train and optimize a machine learning model on a simple real-world problem.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Artificial Neural Network",
+      "Machine Learning",
+      "Predictive Analytics",
+      "Modeling"
+    ],
+    "instructors": [
+      "Jon Reifschneider"
+    ],
+    "duration": "Approx. 15 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 152,
+    "prerequisites": [
+      "Basic understanding of mathematical concepts",
+      "Familiarity with business concepts",
+      "Interest in technology and product management"
+    ],
+    "learning_outcomes": "Understand ML fundamentals, model development process, and evaluation techniques. Interpret ML models and apply common algorithms. Gain practical experience training and optimizing models for real-world problems without coding.",
+    "price": "Coursera offers various subscription options, including a monthly fee for access to courses and specializations, or individual course purchases.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254667e1",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Getting Started with AI using IBM Watson",
+    "url": "https://www.coursera.org/learn/ai-with-ibm-watson?specialization=ai-foundations-for-everyone",
+    "description": "In this course you will learn how to quickly and easily get started with Artificial Intelligence using IBM Watson. You will understand how Watson works, become familiar with its use cases and real life client examples, and be introduced to several of Watson AI services from IBM that enable anyone to easily apply AI and build smart apps. You will also work with several Watson services to demonstrate AI in action.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Application Programming Interfaces (API)",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "watson"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 2666,
+    "prerequisites": "Basic computer literacy and familiarity with using web applications. No prior programming or AI knowledge is required.",
+    "learning_outcomes": "Understand how IBM Watson works and its real-world applications. Learn to apply AI using various Watson services and build smart applications. Work hands-on with Watson to see AI in action.",
+    "price": "Free to audit. Paid certificate available.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466887",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Technologies and platforms for Artificial Intelligence",
+    "url": "https://www.coursera.org/learn/technologies-and-platforms-for-artificial-intelligence?specialization=artificial-intelligence-overview",
+    "description": "This course will address the hardware technologies for machine and deep learning (from the units of an Internet-of-Things system to a large-scale data centers) and will explore the families of machine and deep learning platforms (libraries and frameworks) for the design and development of smart applications and systems.",
+    "category": "Computer Science",
+    "language": "English",
+    "skills": [
+      "Machine Learning",
+      "Deep Learning",
+      "IoT",
+      "Data Centers",
+      "AI Platforms"
+    ],
+    "instructors": [
+      "Manuel Roveri"
+    ],
+    "duration": "Approx. 2 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 5000,
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with linear algebra",
+      "Understanding of fundamental machine learning concepts"
+    ],
+    "learning_outcomes": "Understand hardware technologies for machine learning, from IoT devices to data centers. Explore machine and deep learning platforms for designing intelligent applications and systems.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254668aa",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Applications in Marketing and Finance",
+    "url": "https://www.coursera.org/learn/wharton-ai-applications-marketing-finance?specialization=ai-for-business-wharton",
+    "description": "In this course, you will learn about AI-powered applications that can enhance the customer journey and extend the customer lifecycle. You will learn how this AI-powered data can enable you to analyze consumer habits and maximize their potential to target your marketing to the right people. You will also learn about fraud, credit risks, and how AI applications can also help you combat the ever-challenging landscape of protecting consumer data. You will also learn methods to utilize supervised and unsupervised machine learning to enhance your fraud detection methods. You will also hear from leading industry experts in the world of data analytics, marketing, and fraud prevention. By the end of this course, you will have a substantial understanding of the role AI and Machine Learning play when it comes to consumer habits, and how we are able to interact and analyze information to increase deep learning potential for your business.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "AI Applications",
+      "Machine Learning",
+      "Data Analysis",
+      "Marketing Analytics",
+      "Fraud Detection",
+      "Risk Management",
+      "Customer Journey Analysis",
+      "Data Protection"
+    ],
+    "instructors": [
+      "Michael R Roberts"
+    ],
+    "duration": "Approx. 6 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 70,
+    "prerequisites": [
+      "Basic understanding of marketing and finance principles.",
+      "Familiarity with data analysis concepts is helpful but not mandatory.",
+      "No prior experience with AI or machine learning is required."
+    ],
+    "learning_outcomes": "Understand AI applications in marketing and finance. Analyze consumer habits, target marketing effectively, and combat fraud. Utilize supervised and unsupervised machine learning for enhanced fraud detection, ultimately increasing deep learning potential for business.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254668c9",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Health Data Science Foundation",
+    "url": "https://www.coursera.org/learn/health-data-science-foundation?specialization=deep-learning-healthcare",
+    "description": "This course is intended for persons involved in machine learning who are interested in medical applications, or vice versa, medical professionals who are interested in the methods modern computer science has to offer to their field. We will cover health data analysis, different types of neural networks, as well as training and application of neural networks applied on real-world medical scenarios.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Graphs",
+      "Unsupervised Learning",
+      "Autoencoder",
+      "Deep Learning"
+    ],
+    "instructors": [
+      "Jimeng Sun"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": "10000+",
+    "prerequisites": "Basic understanding of machine learning concepts and programming (e.g., Python). Familiarity with medical terminology is helpful but not required.",
+    "learning_outcomes": "Learn health data analysis techniques, understand various neural network types, and apply neural networks to real-world medical scenarios for practical problem-solving.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254668ef",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "What is Data Science? ",
+    "url": "https://www.coursera.org/learn/what-is-datascience?specialization=key-technologies-for-business",
+    "description": "Do you want to know why Data Science has been labelled as the sexiest profession of the 21st century? After taking this course you will be able to answer this question, and get a thorough understanding of what is Data Science, what data scientists do, and learn about career paths in the field. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Machine Learning",
+      "Big Data",
+      "Data Mining"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 62499,
+    "prerequisites": "No prior experience required, but basic computer literacy is helpful.",
+    "learning_outcomes": "Understand the definition of Data Science, the roles of data scientists, and potential career paths in the field. Learn why Data Science is considered a valuable profession.",
+    "price": "Free to audit, certificate available for a fee",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254668f3",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "url": "https://www.coursera.org/learn/introduction-to-ai?specialization=ai-foundations-for-everyone",
+    "description": "In this course you will learn what Artificial Intelligence (AI) is, explore use cases and applications of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice from experts about learning and starting a career in AI.  You will also demonstrate AI in action with a mini project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 10615,
+    "prerequisites": "Basic computer literacy, familiarity with mathematical concepts such as algebra is helpful but not mandatory.",
+    "learning_outcomes": "Understand AI concepts like machine learning and neural networks, explore AI applications, identify ethical concerns, and complete a mini-project demonstrating AI in action. Get career advice from AI experts.",
+    "price": "Coursera offers various payment options, including subscription-based access or individual course purchase. Prices vary.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546692b",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Fundamentals for Non-Data Scientists",
+    "url": "https://www.coursera.org/learn/wharton-ai-fundamentals-non-data-scientists?specialization=ai-for-business-wharton",
+    "description": "In this course, you will go in-depth to discover how Machine Learning is used to handle and interpret Big Data. You will get a detailed look at the various ways and methods to create algorithms to incorporate into your business with such tools as Teachable Machine and TensorFlow. You will also learn different ML methods, Deep Learning, as well as the limitations but also how to drive accuracy and use the best training data for your algorithms. You will then explore GANs and VAEs, using your newfound knowledge to engage with AutoML to help you start building algorithms that work to suit your needs. You will also see exclusive interviews with industry leaders, who manage Big Data for companies such as McDonald's and Visa. By the end of this course, you will have learned different ways to code, including how to use no-code tools, understand Deep Learning, how to measure and review errors in your algorithms, and how to use Big Data to not only maintain customer privacy but also how to use this data to develop different strategies that will drive your business.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Machine Learning",
+      "Big Data",
+      "Algorithm Creation",
+      "TensorFlow",
+      "Deep Learning",
+      "GANs",
+      "VAEs",
+      "AutoML",
+      "No-Code Tools",
+      "Data Privacy",
+      "Business Strategy"
+    ],
+    "instructors": [
+      "Kartik Hosanagar"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 95,
+    "prerequisites": [
+      "Basic computer literacy",
+      "Interest in AI and its applications",
+      "Familiarity with business concepts (optional)"
+    ],
+    "learning_outcomes": "Learn ML methods, Deep Learning, and how to use Teachable Machine and TensorFlow. Understand how to measure errors in algorithms and use Big Data to drive business strategies while maintaining customer privacy.",
+    "price": "Coursera offers courses with a free trial period, or the option to purchase a certificate upon completion.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466957",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Deep Learning Methods for Healthcare",
+    "url": "https://www.coursera.org/learn/deep-learning-methods-healthcare?specialization=deep-learning-healthcare",
+    "description": "This course covers deep learning (DL) methods, healthcare data and applications using DL methods. The courses include activities such as video lectures, self guided programming labs, homework assignments (both written and programming), and a large project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Graphs",
+      "Unsupervised Learning",
+      "Autoencoder",
+      "Deep Learning"
+    ],
+    "instructors": [
+      "Jimeng Sun"
+    ],
+    "duration": "Approx. 22 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 15000,
+    "prerequisites": "Basic Python programming, familiarity with linear algebra and calculus, introductory machine learning concepts.",
+    "learning_outcomes": "Understand deep learning methods, apply them to healthcare data, and develop DL applications for healthcare through video lectures, labs, homework, and a project.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466999",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI for Medical Diagnosis",
+    "url": "https://www.coursera.org/learn/ai-for-medical-diagnosis?specialization=ai-for-medicine",
+    "description": "AI is transforming the practice of medicine. It’s helping doctors diagnose patients more accurately, make predictions about patients’ future health, and recommend better treatments. As an AI practitioner, you have the opportunity to join in this transformation of modern medicine. If you're already familiar with some of the math and coding behind AI algorithms, and are eager to develop your skills further to tackle challenges in the healthcare industry, then this specialization is for you. No prior medical expertise is required! ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Deep Learning",
+      "Image Segmentation",
+      "Machine Learning",
+      "model evaluation",
+      "Multi-class classification"
+    ],
+    "instructors": [
+      "Pranav Rajpurkar"
+    ],
+    "duration": "Approx. 20 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1825,
+    "prerequisites": [
+      "Basic understanding of AI algorithms",
+      "Familiarity with math and coding concepts",
+      "Experience with Python (recommended)"
+    ],
+    "learning_outcomes": "Learn how AI can be used to diagnose patients more accurately, make predictions about patients’ future health, and recommend better treatments. Develop skills to tackle healthcare challenges with AI.",
+    "price": "Coursera offers various pricing options, including subscription-based access and individual course purchases. Check Coursera for specific pricing details.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254669a0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Probabilistic Deep Learning with TensorFlow 2",
+    "url": "https://www.coursera.org/learn/probabilistic-deep-learning-with-tensorflow2?specialization=tensorflow2-deeplearning",
+    "description": "Welcome to this course on Probabilistic Deep Learning with TensorFlow!",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Probabilistic Neural Network",
+      "Deep Learning",
+      "Generative Model",
+      "Tensorflow",
+      "Probabilistic Programming Language (PRPL)"
+    ],
+    "instructors": [
+      "Dr Kevin Webster"
+    ],
+    "duration": "Approx. 52 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 92,
+    "prerequisites": [
+      "Python programming",
+      "Linear algebra",
+      "Calculus",
+      "Basic machine learning concepts",
+      "Familiarity with TensorFlow"
+    ],
+    "learning_outcomes": "Learn Probabilistic Neural Networks, Generative Models, and Probabilistic Programming with TensorFlow. Master Deep Learning techniques for uncertainty modeling and build robust probabilistic models using TensorFlow 2.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466a49",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Artificial Intelligence (AI)",
+    "url": "https://www.coursera.org/learn/introduction-to-ai?specialization=key-technologies-for-business",
+    "description": "In this course you will learn what Artificial Intelligence (AI) is, explore use cases and applications of AI, understand AI concepts and terms like machine learning, deep learning and neural networks. You will be exposed to various issues and concerns surrounding AI such as ethics and bias, & jobs, and get advice from experts about learning and starting a career in AI.  You will also demonstrate AI in action with a mini project.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Deep Learning",
+      "Artificial Intelligence (AI)",
+      "Jobs",
+      "Machine Learning"
+    ],
+    "instructors": [
+      "Rav Ahuja"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 10615,
+    "prerequisites": "Basic computer literacy and an interest in technology are recommended.",
+    "learning_outcomes": "Understand AI concepts like machine learning and deep learning. Explore AI use cases and applications. Learn about AI ethics, bias, and career opportunities, plus complete a mini AI project.",
+    "price": "Free to audit. Certificate available for a fee.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466ad0",
+    "source_provider": "coursera"
+  }
+]

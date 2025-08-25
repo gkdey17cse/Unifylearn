@@ -1,39 +1,6 @@
-# Web framework
-Flask>=2.2,<3
-
-# MongoDB driver (use [srv] extra for mongodb+srv URIs)
-pymongo[srv]>=4.3
-
-# Env vars loader
-python-dotenv>=0.21
-
-# HTTP client for calling Gemini if you want to use REST or a simple wrapper
-requests>=2.28
-
-# For validation / typed models (requests, responses)
-pydantic>=1.10
-
-# ETL / data manipulation (optional but useful)
-pandas>=2.0
-
-# Testing & dev
-pytest>=7.0
-pytest-cov>=4.0
-
-# Lint / formatting (dev tools)
-black>=23.9
-isort>=5.12
-flake8>=6.0
-
-# Production server
-gunicorn>=20.1
-
-# Optional / future (uncomment/install later):
-google-genai           # <-- install the official Gemini client only after confirming package name / version
-# sentence-transformers  # embeddings if you add semantic search locally
-# faiss-cpu              # vector search (optional)
-
-google-generativeai>=0.3.0
-fastapi
-uvicorn
-python-dotenv
+# Create/update requirements.txt with all necessary packages
+Flask==2.3.3
+flask-cors==4.0.0
+pymongo==4.14.1
+python-dotenv==1.1.1
+google-generativeai==0.8.5

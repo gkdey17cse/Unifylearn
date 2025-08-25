@@ -1,0 +1,649 @@
+{
+  "timestamp": "2025-08-25T20:37:48.298385",
+  "user_query": "SHow me some course based on Guitar and Guitar Lessons",
+  "debug_info": {
+    "user_query": "SHow me some course based on Guitar and Guitar Lessons",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGuitar Lessons\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bGuitar\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGuitar Lessons\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bGuitar\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bGuitar Lessons\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bGuitar\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bGuitar Lessons\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 7,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ based\\ guitar\\ and\\ guitar\\ lessons\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466061",
+        "Title": "The Singer Songwriter Specialization",
+        "URL": "https://www.coursera.org/specializations/singer-songwriter",
+        "Short Intro": "Write, perform, and record original music. Learn how to transform your ideas and emotions into songs that are uniquely you",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, Catalan, Portuguese (Brazilian), Vietnamese, Russian, Portuguese (European), Spanish",
+        "Skills": "Music production, Ableton, Singing, Songwriting, Guitar, Tablature, Music notation, Guitar scales, Guitar chords, Popular Music, Breathing Techniques, Belting, ",
+        "Instructors": "Thaddeus Hogarth ,Jeannie Gagne ,Pat Pattison ,Erin Barra ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "434",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "The Singer Songwriter Specialization",
+        "url": "https://www.coursera.org/specializations/singer-songwriter",
+        "description": "Write, perform, and record original music. Learn how to transform your ideas and emotions into songs that are uniquely you",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Music production",
+          "Ableton",
+          "Singing",
+          "Songwriting",
+          "Guitar",
+          "Tablature",
+          "Music notation",
+          "Guitar scales",
+          "Guitar chords",
+          "Popular Music",
+          "Breathing Techniques",
+          "Belting"
+        ],
+        "instructors": [
+          "Thaddeus Hogarth",
+          "Jeannie Gagne",
+          "Pat Pattison",
+          "Erin Barra"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 434,
+        "prerequisites": [
+          "Basic understanding of music theory is helpful.",
+          "Familiarity with playing an instrument (guitar, piano, etc.) is recommended.",
+          "Interest in songwriting and music performance."
+        ],
+        "learning_outcomes": "Transform ideas into original songs. Master songwriting, performance, and recording techniques. Develop a unique artistic voice. Understand music production and arrangement.",
+        "price": "Coursera subscriptions vary. Check Coursera for current pricing.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660cb",
+        "Title": "How to Play Guitar Specialization",
+        "URL": "https://www.coursera.org/specializations/play-guitar",
+        "Short Intro": "Learn to play the guitar in under four months. Everything you need to know to be able to play your favorite songs",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, Catalan, Portuguese (Brazilian), Vietnamese, Russian, Portuguese (European), Spanish",
+        "Skills": "Music, Guitar scales, guitar performance, Guitar chords, Guitar, Tablature, Music notation, playing guitar, Ear Training, Performance Techniques, ",
+        "Instructors": "Thaddeus Hogarth ,Amanda Monaco ,Rick Peckham ,Tim Miller ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "429",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "How to Play Guitar Specialization",
+        "url": "https://www.coursera.org/specializations/play-guitar",
+        "description": "Learn to play the guitar in under four months. Everything you need to know to be able to play your favorite songs",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Music",
+          "Guitar scales",
+          "guitar performance",
+          "Guitar chords",
+          "Guitar",
+          "Tablature",
+          "Music notation",
+          "playing guitar",
+          "Ear Training",
+          "Performance Techniques"
+        ],
+        "instructors": [
+          "Thaddeus Hogarth",
+          "Amanda Monaco",
+          "Rick Peckham",
+          "Tim Miller"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 429,
+        "prerequisites": "No prior musical experience required. A guitar is recommended, but not mandatory to start.",
+        "learning_outcomes": "Learn guitar fundamentals, including chords, scales, tablature, and music notation. Develop skills to play your favorite songs and perform confidently.",
+        "price": "Coursera offers Specializations as a subscription; prices vary, but typically range from $49 to $79 per month.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546650c",
+        "Title": "Guitar for Beginners",
+        "URL": "https://www.coursera.org/learn/guitar?specialization=singer-songwriter",
+        "Short Intro": "Grasp the essentials needed to begin playing acoustic or electric guitar. You'll learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Catalan, Portuguese (Brazilian), Vietnamese, Russian, English",
+        "Skills": "Tablature,Music notation,Guitar scales,Guitar chords,Guitar,",
+        "Instructors": "Thaddeus Hogarth",
+        "Rating": "4.8stars",
+        "Number of viewers": "2,211",
+        "Duration": "Approx. 23 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar for Beginners",
+        "url": "https://www.coursera.org/learn/guitar?specialization=singer-songwriter",
+        "description": "Grasp the essentials needed to begin playing acoustic or electric guitar. You'll learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Tablature",
+          "Music notation",
+          "Guitar scales",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Thaddeus Hogarth"
+        ],
+        "duration": "Approx. 23 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2211,
+        "prerequisites": "No prior musical experience needed. Access to an acoustic or electric guitar is recommended.",
+        "learning_outcomes": "Learn fundamental guitar techniques, basic music theory concepts, and explore the instrument. Develop performance skills and gain an easy approach to playing quickly. ",
+        "price": "Coursera offers courses with options for free audit or paid certificate/degree.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546651e",
+        "Title": "Guitar for Beginners",
+        "URL": "https://www.coursera.org/learn/guitar?specialization=play-guitar",
+        "Short Intro": "Grasp the essentials needed to begin playing acoustic or electric guitar. You'll learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Catalan, Portuguese (Brazilian), Vietnamese, Russian, English",
+        "Skills": "Tablature,Music notation,Guitar scales,Guitar chords,Guitar,",
+        "Instructors": "Thaddeus Hogarth",
+        "Rating": "4.8stars",
+        "Number of viewers": "2,211",
+        "Duration": "Approx. 23 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar for Beginners",
+        "url": "https://www.coursera.org/learn/guitar?specialization=play-guitar",
+        "description": "Grasp the essentials needed to begin playing acoustic or electric guitar. You'll learn an easy approach to get you playing quickly, through a combination of exploring the instrument, performance technique, and basic music theory.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Tablature",
+          "Music notation",
+          "Guitar scales",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Thaddeus Hogarth"
+        ],
+        "duration": "Approx. 23 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2211,
+        "prerequisites": "No prior musical experience needed. Access to an acoustic or electric guitar is recommended.",
+        "learning_outcomes": "Learn fundamental guitar techniques, basic music theory, and performance skills. Understand chords, scales, and tablature to quickly start playing songs on acoustic or electric guitar.",
+        "price": "Free to audit; paid subscription for full access and certification.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254667bb",
+        "Title": "Guitar Performance Techniques",
+        "URL": "https://www.coursera.org/learn/guitar-performance?specialization=play-guitar",
+        "Short Intro": "Your favorite guitarist didn't become your favorite guitarist without the support of other musicians. The most important skill for a guitarist to learn is the exact same skill that was so important in kindergarten: playing well with others. Guitar Performance Techniques gives guitarists the essential and practical skills to play well with others in any ensemble situation. This course begins with daily warm-up techniques that help you prepare for rehearsals, jam sessions, and stage performances. From there, you'll explore chords, time accuracy, tone production, ear training, and the many aspects of jamming with other musicians. Upon successful completion of this course, you will be able to confidently interact with other musicians in a group setting and bring your A-game to any jam session you join.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Music,Ear Training,Performance Techniques,Guitar chords,Guitar,",
+        "Instructors": "Tim Miller",
+        "Rating": "4.5stars",
+        "Number of viewers": "44",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar Performance Techniques",
+        "url": "https://www.coursera.org/learn/guitar-performance?specialization=play-guitar",
+        "description": "Your favorite guitarist didn't become your favorite guitarist without the support of other musicians. The most important skill for a guitarist to learn is the exact same skill that was so important in kindergarten: playing well with others. Guitar Performance Techniques gives guitarists the essential and practical skills to play well with others in any ensemble situation. This course begins with daily warm-up techniques that help you prepare for rehearsals, jam sessions, and stage performances. From there, you'll explore chords, time accuracy, tone production, ear training, and the many aspects of jamming with other musicians. Upon successful completion of this course, you will be able to confidently interact with other musicians in a group setting and bring your A-game to any jam session you join.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Music",
+          "Ear Training",
+          "Performance Techniques",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Tim Miller"
+        ],
+        "duration": "Approx. 10 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 44,
+        "prerequisites": [
+          "Basic guitar knowledge (chords, strumming)",
+          "Familiarity with guitar fundamentals"
+        ],
+        "learning_outcomes": "Develop essential skills to play effectively in ensembles. Learn warm-up techniques, improve time accuracy, tone production, ear training, and confidently interact with musicians in jam sessions or rehearsals.",
+        "price": "Free to audit. Paid certificate available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668e7",
+        "Title": "Guitar Scales and Chord Progressions",
+        "URL": "https://www.coursera.org/learn/guitar-scales-chord-progressions?specialization=play-guitar",
+        "Short Intro": "You’ve got the guitar basics down: You can strum your guitar and play a few of your favorite songs, but you’re ready to take the tunes to the next level. In Guitar Scales and Chord Progressions you’ll expand your knowledge of scales, chord fingerings, and common chord progressions. You’ll also learn important skills for soloing, creating melodies, and adding depth and dimension to your guitar playing. ",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Tablature,Music notation,Guitar scales,Guitar chords,Guitar,",
+        "Instructors": "Amanda Monaco",
+        "Rating": "4.7stars",
+        "Number of viewers": "369",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar Scales and Chord Progressions",
+        "url": "https://www.coursera.org/learn/guitar-scales-chord-progressions?specialization=play-guitar",
+        "description": "You’ve got the guitar basics down: You can strum your guitar and play a few of your favorite songs, but you’re ready to take the tunes to the next level. In Guitar Scales and Chord Progressions you’ll expand your knowledge of scales, chord fingerings, and common chord progressions. You’ll also learn important skills for soloing, creating melodies, and adding depth and dimension to your guitar playing. ",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "Tablature",
+          "Music notation",
+          "Guitar scales",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Amanda Monaco"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 369,
+        "prerequisites": "Basic guitar playing skills, familiarity with basic chords and strumming patterns.",
+        "learning_outcomes": "Expand knowledge of scales and chord fingerings; master common chord progressions; develop skills in soloing and melody creation; add depth to guitar playing.",
+        "price": "Coursera offers courses with a free audit option or a paid subscription for full access and certification.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546694a",
+        "Title": "Guitar Chord Voicings: Playing Up The Neck",
+        "URL": "https://www.coursera.org/learn/guitar-chords?specialization=play-guitar",
+        "Short Intro": "Many beginning guitarists have learned the basics of open and movable chord shapes, but want to further expand this chord knowledge. In this course you’ll learn how to construct and play triads and basic 7th chords. You’ll start by creating major and minor triad inversions, and move on to power chords, drop-2 voicings, and learn how to substitute common chords to create a richer harmonic experience for listeners. Throughout the course, you will focus on the notes that chords are made up of, rather than the shape of individual chords. With this knowledge, you will be able to create inversions and different chord voicings up and down, and across the entire fretboard of the guitar, thus unlocking new ways of playing the guitar.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "playing guitar,Music,Music notation,Guitar chords,Guitar,",
+        "Instructors": "Rick Peckham",
+        "Rating": "4.7stars",
+        "Number of viewers": "50",
+        "Duration": "Approx. 10 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Guitar Chord Voicings: Playing Up The Neck",
+        "url": "https://www.coursera.org/learn/guitar-chords?specialization=play-guitar",
+        "description": "Many beginning guitarists have learned the basics of open and movable chord shapes, but want to further expand this chord knowledge. In this course you’ll learn how to construct and play triads and basic 7th chords. You’ll start by creating major and minor triad inversions, and move on to power chords, drop-2 voicings, and learn how to substitute common chords to create a richer harmonic experience for listeners. Throughout the course, you will focus on the notes that chords are made up of, rather than the shape of individual chords. With this knowledge, you will be able to create inversions and different chord voicings up and down, and across the entire fretboard of the guitar, thus unlocking new ways of playing the guitar.",
+        "category": "Arts and Humanities",
+        "language": "English",
+        "skills": [
+          "playing guitar",
+          "Music",
+          "Music notation",
+          "Guitar chords",
+          "Guitar"
+        ],
+        "instructors": [
+          "Rick Peckham"
+        ],
+        "duration": "Approx. 10 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 50,
+        "prerequisites": "Basic guitar playing skills, familiarity with open and movable chord shapes.",
+        "learning_outcomes": "Construct and play triads and basic 7th chords, create major and minor triad inversions and drop-2 voicings. Learn to substitute common chords for richer harmonies and create chord voicings across the fretboard.",
+        "price": "Coursera offers free enrollment with limited access, or a paid subscription for full access and certification.",
+        "provider": "Coursera"
+      }
+    }
+  ]
+}

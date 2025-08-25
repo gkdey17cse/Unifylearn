@@ -1,43 +1,26 @@
 # src/app/main.py
-from dotenv import load_dotenv
-load_dotenv()  # must be before any "from src.app..." imports
-
-import os
-from flask import Flask, jsonify
-from src.app.routes.query_routes import bp as query_bp
-from src.app.routes.health_routes import bp as health_bp
-
-
-# Load .env file
-load_dotenv()
+from flask import Flask
+from flask_cors import CORS  # ← ADD THIS IMPORT
+from src.app.routes import register_routes
+from src.app.db_connection import initialize_db
 
 
 def create_app():
     app = Flask(__name__)
 
-    # Register blueprints without a url_prefix so paths are /query and /health
-    app.register_blueprint(query_bp)
-    app.register_blueprint(health_bp)
+    # Enable CORS for frontend communication ← ADD THIS
+    CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000"])
 
-    # Optional: a simple home route so hitting "/" in the browser doesn't 404
-    @app.get("/")
-    def home():
-        return (
-            jsonify(
-                {
-                    "message": "Federated NL Query API is running",
-                    "try": {
-                        "health": "/health (GET)",
-                        "query": '/query (POST, JSON body: {"query": "..."})',
-                    },
-                }
-            ),
-            200,
-        )
+    # Initialize database connection
+    initialize_db()
+
+    # Register routes
+    register_routes(app)
 
     return app
 
 
 if __name__ == "__main__":
     app = create_app()
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    print("Starting Flask server on http://localhost:5003")
+    app.run(debug=True, host="0.0.0.0", port=5003)

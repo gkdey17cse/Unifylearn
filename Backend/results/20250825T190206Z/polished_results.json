@@ -1,0 +1,1068 @@
+[
+  {
+    "title": "Natural Language Processing Specialization",
+    "url": "https://www.coursera.org/specializations/natural-language-processing",
+    "description": "Break into NLP. Master cutting-edge NLP techniques through four hands-on courses! Updated with the latest techniques in October '21.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Word2vec",
+      "Machine Translation",
+      "Sentiment Analysis",
+      "Transformers",
+      "Attention Models",
+      "Word Embeddings",
+      "Locality-Sensitive Hashing",
+      "Vector Space Models",
+      "Parts-of-Speech Tagging",
+      "N-gram Language Models",
+      "Autocorrect",
+      "Word Embedding"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri",
+      "Łukasz Kaiser",
+      "Eddy Shyu"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 4787,
+    "prerequisites": "Basic Python programming, introductory machine learning concepts, and familiarity with linear algebra.",
+    "learning_outcomes": "Master NLP techniques, including word embeddings, sentiment analysis, machine translation, and transformer models. Gain hands-on experience with cutting-edge approaches.Updated with latest techniques.",
+    "price": "Coursera subscription required (price varies by region).",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125465ffe",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Practical Data Science on the AWS Cloud Specialization",
+    "url": "https://www.coursera.org/specializations/practical-data-science",
+    "description": "Become a cloud data science expert. Develop and scale your data science projects into the cloud using Amazon SageMaker",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing with BERT",
+      "ML Pipelines and ML Operations (MLOps)",
+      "A/B Testing and Model Deployment",
+      "Data Labeling at Scale",
+      "Automated Machine Learning (AutoML)",
+      "Statistical Data Bias Detection",
+      "Multi-class Classification with FastText and BlazingText",
+      "Data ingestion",
+      "Exploratory Data Analysis",
+      "ML Pipelines and MLOps",
+      "Model Training and Deployment with BERT",
+      "Model Debugging and Evaluation"
+    ],
+    "instructors": [
+      "Antje Barth",
+      "Shelbee Eigenbrode",
+      "Sireesha Muppala",
+      "Chris Fregly"
+    ],
+    "duration": "Approximately 3 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 438,
+    "prerequisites": "Basic Python programming, foundational knowledge of machine learning concepts, and familiarity with data analysis techniques.",
+    "learning_outcomes": "Develop and scale data science projects using Amazon SageMaker. Gain expertise in cloud-based data science workflows and deploy machine learning models effectively.",
+    "price": "Coursera subscription required (prices vary)",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466042",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "PostgreSQL for Everybody Specialization",
+    "url": "https://www.coursera.org/specializations/postgresql-for-everybody",
+    "description": "SQL: From Basic to Advanced. Learn SQL skills you can use in an actual, real-world environment",
+    "category": "Computer Science",
+    "language": "English",
+    "skills": [
+      "Json",
+      "Database (DBMS)",
+      "Natural Language Processing",
+      "SQL"
+    ],
+    "instructors": [
+      "Charles Russell Severance"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 803,
+    "prerequisites": "Basic computer skills and familiarity with using a computer. No prior SQL or database experience is required.",
+    "learning_outcomes": "Gain SQL skills applicable in real-world environments, progressing from basic to advanced SQL concepts. Develop practical database knowledge for immediate use.",
+    "price": "Coursera subscriptions vary; check Coursera for current pricing information.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546608a",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Microsoft Azure AI Fundamentals AI-900 Exam Prep Specialization",
+    "url": "https://www.coursera.org/specializations/microsoft-azure-ai-900-ai-fundamentals",
+    "description": "Launch Your Career in Artificial Intelligence. User services on Microsoft Azure to create AI solutions",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Describe fundamental principles of machine learning on Azure",
+      "Describe AI workloads and considerations",
+      "Describe features of conversational AI workloads on Azure",
+      "Describe features of computer vision workloads on Azure",
+      "Describe features of Natural Language Processing (NLP) workloads on Azure",
+      "Artificial Intelligence (AI)",
+      "Microsoft Azure",
+      "Machine Learning",
+      "Computer Vision",
+      "Natural Language Processing",
+      "Test Preparation"
+    ],
+    "instructors": [
+      "Microsoft"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Specialization",
+    "viewers": 312,
+    "prerequisites": "Basic computer literacy, familiarity with cloud concepts, and a general understanding of technology.",
+    "learning_outcomes": "Gain skills to utilize Microsoft Azure services for AI solutions, understand AI workloads, and prepare for the AI-900 exam by grasping machine learning principles.",
+    "price": "Coursera offers a subscription-based model. Check Coursera for specific pricing details.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254660d5",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "DeepLearning.AI TensorFlow Developer Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/tensorflow-in-practice",
+    "description": "Instructor: Laurence Moroney ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Computer Vision",
+      "Convolutional Neural Network",
+      "Machine Learning",
+      "Natural Language Processing"
+    ],
+    "instructors": [
+      "Laurence Moroney"
+    ],
+    "duration": "4 months at 5 hours a week",
+    "site": "Coursera",
+    "level": "Professional Certificate",
+    "viewers": 19996,
+    "prerequisites": "Basic Python programming, familiarity with machine learning concepts.",
+    "learning_outcomes": "Learn TensorFlow for deep learning, build neural networks, master computer vision and NLP, and deploy models effectively.",
+    "price": "Coursera subscription required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254661a2",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Classification and Vector Spaces",
+    "url": "https://www.coursera.org/learn/classification-vector-spaces-in-nlp",
+    "description": "In Course 1 of the Natural Language Processing Specialization, you will:   ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Machine Translation",
+      "Word Embeddings",
+      "Locality-Sensitive Hashing",
+      "Sentiment Analysis",
+      "Vector Space Models"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 34 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 3876,
+    "prerequisites": "Basic Python programming, familiarity with linear algebra concepts is helpful.",
+    "learning_outcomes": "Implement sentiment analysis, perform machine translation, and utilize vector space models. Apply word embeddings and locality-sensitive hashing techniques for NLP tasks.",
+    "price": "Coursera offers a free audit option. Paid options such as a certificate is also available.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546629f",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Sequence Models",
+    "url": "https://www.coursera.org/learn/nlp-sequence-models",
+    "description": "In the fifth course of the Deep Learning Specialization, you will become familiar with sequence models and their exciting applications such as speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Long Short Term Memory (LSTM)",
+      "Gated Recurrent Unit (GRU)",
+      "Recurrent Neural Network",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 37 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 29226,
+    "prerequisites": [
+      "Basic Python programming",
+      "Knowledge of Machine Learning concepts",
+      "Familiarity with Deep Learning",
+      "Understanding of Neural Networks"
+    ],
+    "learning_outcomes": "Understand sequence models and their applications. Learn about speech recognition, music synthesis, chatbots, machine translation, and NLP. Gain familiarity with Recurrent Neural Networks and related techniques.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662d0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Probabilistic Models",
+    "url": "https://www.coursera.org/learn/probabilistic-models-in-nlp",
+    "description": "In Course 2 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Word2vec",
+      "Parts-of-Speech Tagging",
+      "N-gram Language Models",
+      "Autocorrect"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 31 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1505,
+    "prerequisites": "Basic probability and statistics, introductory programming experience (e.g., Python), and familiarity with fundamental NLP concepts.",
+    "learning_outcomes": "Learn to implement and apply probabilistic models, such as N-grams and Hidden Markov Models, for tasks like part-of-speech tagging, autocorrection, and language modeling. Understand word embeddings like Word2Vec.",
+    "price": "Paid. Course is part of a specialization, individual course purchase or subscription required.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254662fd",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Attention Models",
+    "url": "https://www.coursera.org/learn/attention-models-in-nlp",
+    "description": "In Course 4 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Reformer Models",
+      "Neural Machine Translation",
+      "Chatterbot",
+      "T5+BERT Models",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 35 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 861,
+    "prerequisites": [
+      "Basic Python programming",
+      "Understanding of Machine Learning concepts",
+      "Familiarity with Neural Networks",
+      "Experience with NLP fundamentals (word embeddings, RNNs)"
+    ],
+    "learning_outcomes": "Learn to implement attention models in NLP. Understand neural machine translation, build chatbots, and work with advanced models like Reformer and T5+BERT. Gain practical skills in applying attention mechanisms.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466315",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing in TensorFlow",
+    "url": "https://www.coursera.org/learn/natural-language-processing-tensorflow",
+    "description": "If you are a software developer who wants to build scalable AI-powered algorithms, you need to understand how to use the tools to build them. This Specialization will teach you best practices for using TensorFlow, a popular open-source framework for machine learning.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Tokenization",
+      "Machine Learning",
+      "Tensorflow",
+      "RNNs"
+    ],
+    "instructors": [
+      "Laurence Moroney"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 6166,
+    "prerequisites": [
+      "Basic programming knowledge, familiarity with Python, and a foundational understanding of machine learning concepts are recommended."
+    ],
+    "learning_outcomes": [
+      "Learn best practices for using TensorFlow for NLP. Build scalable AI-powered algorithms. Understand tokenization, RNNs, and other NLP techniques. Apply learned skills to real-world problems."
+    ],
+    "price": "Coursera offers a free audit option. Paid enrollment grants access to graded assignments and a certificate.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466337",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Sequence Models",
+    "url": "https://www.coursera.org/learn/sequence-models-in-nlp",
+    "description": "In Course 3 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Word Embedding",
+      "Sentiment with Neural Nets",
+      "Siamese Networks",
+      "Natural Language Generation",
+      "Named-Entity Recognition"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1006,
+    "prerequisites": "Basic Python programming, familiarity with machine learning concepts, and introductory knowledge of natural language processing.",
+    "learning_outcomes": "Learn to build and train sequence models for NLP tasks. Understand LSTMs, GRUs, and attention mechanisms. Apply these models to tasks like text generation and named entity recognition.",
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546635c",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Introduction to Machine Learning",
+    "url": "https://www.coursera.org/learn/machine-learning-duke",
+    "description": "This course will provide you a foundational understanding of machine learning models (logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc.) as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction. In addition, we have designed practice exercises that will give you hands-on experience implementing these data science models on data sets. These practice exercises will teach you how to implement machine learning algorithms with PyTorch, open source libraries used by leading tech companies in the machine learning field (e.g., Google, NVIDIA, CocaCola, eBay, Snapchat, Uber and many more).",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Convolutional Neural Network",
+      "Machine Learning",
+      "Python Programming",
+      "pytorch"
+    ],
+    "instructors": [
+      "Lawrence Carin"
+    ],
+    "duration": "Approx. 21 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 3264,
+    "prerequisites": [
+      "Basic Python programming, familiarity with linear algebra and calculus concepts."
+    ],
+    "learning_outcomes": [
+      "Gain a foundational understanding of various machine learning models (e.g., logistic regression, CNNs, NLP). Learn to implement these models using PyTorch to solve real-world problems across industries."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254663bf",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Probabilistic Graphical Models 1: Representation",
+    "url": "https://www.coursera.org/learn/probabilistic-graphical-models",
+    "description": "Probabilistic graphical models (PGMs) are a rich framework for encoding probability distributions over complex domains: joint (multivariate) distributions over large numbers of random variables that interact with each other. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more. They are the basis for the state-of-the-art methods in a wide variety of applications, such as medical diagnosis, image understanding, speech recognition, natural language processing, and many, many more. They are also a foundational tool in formulating many machine learning problems. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Bayesian Network",
+      "Graphical Model",
+      "Markov Random Field"
+    ],
+    "instructors": [
+      "Daphne Koller"
+    ],
+    "duration": "Approx. 66 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1408,
+    "prerequisites": [
+      "Probability theory, basic statistics, introductory machine learning, and familiarity with graph algorithms."
+    ],
+    "learning_outcomes": [
+      "Understand probabilistic graphical models (PGMs) for encoding complex probability distributions. Learn to represent joint distributions, and apply PGMs in machine learning problems. Understand the applications of PGMs across various fields."
+    ],
+    "price": "Coursera offers a free audit option, or a paid subscription for graded assignments and a certificate.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254663cb",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "JSON and Natural Language Processing in PostgreSQL",
+    "url": "https://www.coursera.org/learn/json-natural-language-processing-postgresql?specialization=postgresql-for-everybody",
+    "description": "Within this course, you’ll learn about how PostgreSQL creates and uses inverted indexes for JSON and natural language content. We will use various sources of data for our databases, including access to an online API and spidering its data and storing the data in a JSON column in PostgreSQL.  Students will explore how full-text inverted indexes are structured.  Students will build their own inverted indexes and then make use of PostgreSQL built-in capabilities to support full-text indexes.",
+    "category": "Computer Science",
+    "language": "English",
+    "skills": [],
+    "instructors": [
+      "Charles Russell Severance"
+    ],
+    "duration": "Approx. 16 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 105,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466418",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Probabilistic Models",
+    "url": "https://www.coursera.org/learn/probabilistic-models-in-nlp?specialization=natural-language-processing",
+    "description": "In Course 2 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Word2vec",
+      "Parts-of-Speech Tagging",
+      "N-gram Language Models",
+      "Autocorrect"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 31 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1505,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546642a",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Applied Text Mining in Python",
+    "url": "https://www.coursera.org/learn/python-text-mining?specialization=data-science-python",
+    "description": "This course will introduce the learner to text mining and text manipulation basics. The course begins with an understanding of how text is handled by python, the structure of text both to the machine and to humans, and an overview of the nltk framework for manipulating text. The second week focuses on common manipulation needs, including regular expressions (searching for text), cleaning text, and preparing text for use by machine learning processes. The third week will apply basic natural language processing methods to text, and demonstrate how text classification is accomplished. The final week will explore more advanced methods for detecting the topics in documents and grouping them by similarity (topic modelling). ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Toolkit (NLTK)",
+      "Text Mining",
+      "Python Programming",
+      "Natural Language Processing"
+    ],
+    "instructors": [
+      "V. G. Vinod Vydiswaran"
+    ],
+    "duration": "Approx. 25 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 3743,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466434",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Data Mining Project",
+    "url": "https://www.coursera.org/learn/data-mining-project?specialization=data-mining",
+    "description": "Note: You should complete all the other courses in this Specialization before beginning this course.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Clustering Algorithms",
+      "Data Analysis",
+      "Natural Language Processing",
+      "Data Mining"
+    ],
+    "instructors": [
+      "Jiawei Han"
+    ],
+    "duration": "Approx. 10 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 43,
+    "prerequisites": "Completion of introductory courses in data mining, data analysis, and machine learning, including topics like data clustering algorithms and natural language processing.",
+    "learning_outcomes": "Apply data mining techniques to a real-world project. Gain experience in data analysis, data clustering, and natural language processing within a practical setting. Complete a data mining specialization capstone.",
+    "price": "Variable, Coursera subscription or individual course purchase may be required",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254664d7",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Preparing for AI-900: Microsoft Azure AI Fundamentals exam",
+    "url": "https://www.coursera.org/learn/microsoft-ai-900-exam-prep?specialization=microsoft-azure-ai-900-ai-fundamentals",
+    "description": "Microsoft certifications give you a professional advantage by providing globally recognized and industry-endorsed evidence of mastering skills in digital and cloud businesses.​​ In this course, you will prepare to take the AI-900 Microsoft Azure AI Fundamentals certification exam. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Test Preparation",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Microsoft Azure"
+    ],
+    "instructors": [
+      "Microsoft"
+    ],
+    "duration": "Approx. 9 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 53,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254665e7",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Computational Social Science Capstone Project",
+    "url": "https://www.coursera.org/learn/css-capstone?specialization=computational-social-science-ucdavis",
+    "description": "CONGRATULATIONS! Not only did you accomplish to finish our intellectual tour de force, but, by now, you also already have all required skills to execute a comprehensive multi-method workflow of computational social science. We will put these skills to work in this final integrative lab, where we are bringing it all together. We scrape data from a social media site (drawing on the skills obtained in the 1st course of this specialization). We then analyze the collected data by visualizing the resulting networks (building on the skills obtained in the 3rd course). We analyze some key aspects of it in depth, using machine learning powered natural language processing (putting to work the insights obtained during the 2nd course). Finally, we use a computer simulation model to explore possible generative mechanism and scrutinize aspects that we did not find in our empirical reality, but that help us to improve this aspect of society (drawing on the skills obtained during the 4th course of this specialization). The result is the first glimpse at a new way of doing social science in a digital age: computational social science. Congratulations! Having done all of this yourself, you can consider yourself a fledgling computational social scientist!",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Scraping",
+      "Network Visualization",
+      "Natural Language Processing (NLP)",
+      "Machine Learning",
+      "Computer Simulation",
+      "Multi-Method Workflow",
+      "Computational Social Science"
+    ],
+    "instructors": [
+      "Martin Hilbert"
+    ],
+    "duration": "Approx. 13 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 34,
+    "prerequisites": [
+      "Completion of the Computational Social Science Specialization courses or equivalent knowledge in data scraping, network analysis, NLP, and computer simulation.",
+      "Basic programming knowledge (e.g., Python).",
+      "Familiarity with social science research methods."
+    ],
+    "learning_outcomes": "Upon completion, learners will be able to execute a comprehensive multi-method workflow, scrape data, analyze networks, apply NLP, and utilize computer simulation for social science research, thus becoming fledgling computational social scientists.",
+    "price": "This course is part of a Coursera Specialization, so pricing varies depending on subscription options. Coursera offers a free audit option.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466616",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Sequence Models",
+    "url": "https://www.coursera.org/learn/sequence-models-in-nlp?specialization=natural-language-processing",
+    "description": "In Course 3 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Word Embedding",
+      "Sentiment with Neural Nets",
+      "Siamese Networks",
+      "Natural Language Generation",
+      "Named-Entity Recognition"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 24 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1006,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254666d5",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Classification and Vector Spaces",
+    "url": "https://www.coursera.org/learn/classification-vector-spaces-in-nlp?specialization=natural-language-processing",
+    "description": "In Course 1 of the Natural Language Processing Specialization, you will:   ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Machine Translation",
+      "Word Embeddings",
+      "Locality-Sensitive Hashing",
+      "Sentiment Analysis",
+      "Vector Space Models"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 34 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 3876,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254666f4",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "AI Workflow: Machine Learning, Visual Recognition and NLP",
+    "url": "https://www.coursera.org/learn/ibm-ai-workflow-machine-learning-vr-nlp?specialization=ibm-ai-workflow",
+    "description": "This is the fourth course in the IBM AI Enterprise Workflow Certification specialization.    You are STRONGLY encouraged to complete these courses in order as they are not individual independent courses, but part of a workflow where each course builds on the previous ones. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Information Engineering",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Python Programming"
+    ],
+    "instructors": [
+      "Mark J Grover"
+    ],
+    "duration": "Approx. 13 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 67,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466720",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Sequence Models",
+    "url": "https://www.coursera.org/learn/nlp-sequence-models?specialization=deep-learning",
+    "description": "In the fifth course of the Deep Learning Specialization, you will become familiar with sequence models and their exciting applications such as speech recognition, music synthesis, chatbots, machine translation, natural language processing (NLP), and more. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "Long Short Term Memory (LSTM)",
+      "Gated Recurrent Unit (GRU)",
+      "Recurrent Neural Network",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Andrew Ng"
+    ],
+    "duration": "Approx. 37 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 29226,
+    "prerequisites": "Basic machine learning knowledge, familiarity with Python and deep learning concepts (e.g., neural networks, backpropagation).",
+    "learning_outcomes": "Understand sequence models like RNNs, LSTMs, and GRUs. Apply them to speech recognition, NLP, music synthesis, chatbots, and machine translation.",
+    "price": "Coursera subscription required. Check Coursera for specific pricing details.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546672f",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing in Microsoft Azure",
+    "url": "https://www.coursera.org/learn/nlp-microsoft-azure?specialization=microsoft-azure-ai-900-ai-fundamentals",
+    "description": "Natural language processing supports applications that can see, hear, speak with, and understand users. Using text analytics, translation, and language understanding services, Microsoft Azure makes it easy to build applications that support natural language.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Artificial Intelligence (AI)",
+      "Microsoft Azure",
+      "Natural Language Processing"
+    ],
+    "instructors": [
+      "Microsoft"
+    ],
+    "duration": "Approx. 7 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 59,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466741",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Applying Data Analytics in Accounting",
+    "url": "https://www.coursera.org/learn/applying-data-analytics-accounting?specialization=analytics",
+    "description": "This course explores business analytic applications in accounting. First, it presents a survey of technology topics in accounting, including process mining, blockchain and applications in audit, tax, and assurance. Next, the course explores visualization and basic analytics in audit and control testing using R and Alteryx. Next, the course examines the uses of text analysis in accounting and conducts text analysis using R and RStudio. Finally, the course examines robot process automation in general using UiPath and its applications in accounting.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Natural Language Processing",
+      "robotic process automation",
+      "Analytics",
+      "Data Analysis",
+      "Accounting Analytics"
+    ],
+    "instructors": [
+      "Gies College of Business",
+      "University of Illinois"
+    ],
+    "duration": "Approx. 13 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 19,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466772",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Data Science Capstone",
+    "url": "https://www.coursera.org/learn/data-science-project?specialization=data-science-statistics-machine-learning",
+    "description": "The capstone project class will allow students to create a usable/public data product that can be used to show your skills to potential employers. Projects will be drawn from real-world problems and will be conducted with industry, government, and academic partners.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Machine Learning",
+      "R Programming",
+      "Natural Language Processing"
+    ],
+    "instructors": [
+      "Jeff Leek",
+      "PhD"
+    ],
+    "duration": "Approx. 5 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1210,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546678c",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Probabilistic Graphical Models 2: Inference",
+    "url": "https://www.coursera.org/learn/probabilistic-graphical-models-2-inference?specialization=probabilistic-graphical-models",
+    "description": "Probabilistic graphical models (PGMs) are a rich framework for encoding probability distributions over complex domains: joint (multivariate) distributions over large numbers of random variables that interact with each other. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more. They are the basis for the state-of-the-art methods in a wide variety of applications, such as medical diagnosis, image understanding, speech recognition, natural language processing, and many, many more. They are also a foundational tool in formulating many machine learning problems. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Inference",
+      "Gibbs Sampling",
+      "Markov Chain Monte Carlo (MCMC)",
+      "Belief Propagation"
+    ],
+    "instructors": [
+      "Daphne Koller"
+    ],
+    "duration": "Approx. 38 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 479,
+    "prerequisites": "Probability theory, basic graph algorithms, introductory machine learning concepts, and familiarity with programming (e.g., Python). Prior exposure to Probabilistic Graphical Models 1 is highly recommended.",
+    "learning_outcomes": "Understand and apply inference techniques in PGMs, including exact inference (e.g., Belief Propagation) and approximate inference (e.g., Markov Chain Monte Carlo, Gibbs Sampling). Implement PGMs for various applications.",
+    "price": "Coursera offers courses on a subscription basis. Check Coursera for current pricing.",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254667a0",
+    "source_provider": "coursera"
+  },
+  {
+    "title": " Build, Train, and Deploy ML Pipelines using BERT",
+    "url": "https://www.coursera.org/learn/ml-pipelines-bert?specialization=practical-data-science",
+    "description": "In the second course of the Practical Data Science Specialization, you will learn to automate a natural language processing task by building an end-to-end machine learning pipeline using Hugging Face’s highly-optimized implementation of the state-of-the-art BERT algorithm with Amazon SageMaker Pipelines. Your pipeline will first transform the dataset into BERT-readable features and store the features in the Amazon SageMaker Feature Store. It will then fine-tune a text classification model to the dataset using a Hugging Face pre-trained model, which has learned to understand the human language from millions of Wikipedia documents. Finally, your pipeline will evaluate the model’s accuracy and only deploy the model if the accuracy exceeds a given threshold.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "ML Pipelines and MLOps",
+      "Model Training and Deployment with BERT",
+      "Model Debugging and Evaluation",
+      "Feature engineering and feature store",
+      "Artifact and lineage tracking"
+    ],
+    "instructors": [
+      "Antje Barth"
+    ],
+    "duration": "Approx. 10 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 127,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254667af",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Data Science Capstone",
+    "url": "https://www.coursera.org/learn/data-science-project?specialization=jhu-data-science",
+    "description": "The capstone project class will allow students to create a usable/public data product that can be used to show your skills to potential employers. Projects will be drawn from real-world problems and will be conducted with industry, government, and academic partners.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science",
+      "Machine Learning",
+      "R Programming",
+      "Natural Language Processing"
+    ],
+    "instructors": [
+      "Jeff Leek",
+      "PhD"
+    ],
+    "duration": "Approx. 5 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1210,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254667e3",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Probabilistic Graphical Models 1: Representation",
+    "url": "https://www.coursera.org/learn/probabilistic-graphical-models?specialization=probabilistic-graphical-models",
+    "description": "Probabilistic graphical models (PGMs) are a rich framework for encoding probability distributions over complex domains: joint (multivariate) distributions over large numbers of random variables that interact with each other. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more. They are the basis for the state-of-the-art methods in a wide variety of applications, such as medical diagnosis, image understanding, speech recognition, natural language processing, and many, many more. They are also a foundational tool in formulating many machine learning problems. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Bayesian Network",
+      "Graphical Model",
+      "Markov Random Field"
+    ],
+    "instructors": [
+      "Daphne Koller"
+    ],
+    "duration": "Approx. 66 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 1408,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c212546682f",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Clinical Natural Language Processing",
+    "url": "https://www.coursera.org/learn/clinical-natural-language-processing?specialization=clinical-data-science",
+    "description": "This course teaches you the fundamentals of clinical natural language processing (NLP). In this course you will learn the basic linguistic principals underlying NLP, as well as how to write regular expressions and handle text data in R. You will also learn practical techniques for text processing to be able to extract information from clinical notes.  Finally, you will have a chance to put your skills to the test with a real-world practical application where you develop text processing algorithms to identify diabetic complications from clinical notes. You will complete this work using a free, online computational environment for data science hosted by our Industry Partner Google Cloud.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [],
+    "instructors": [
+      "Laura K. Wiley",
+      "PhD"
+    ],
+    "duration": "Approx. 12 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 20,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c21254668df",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Probabilistic Graphical Models 3: Learning",
+    "url": "https://www.coursera.org/learn/probabilistic-graphical-models-3-learning?specialization=probabilistic-graphical-models",
+    "description": "Probabilistic graphical models (PGMs) are a rich framework for encoding probability distributions over complex domains: joint (multivariate) distributions over large numbers of random variables that interact with each other. These representations sit at the intersection of statistics and computer science, relying on concepts from probability theory, graph algorithms, machine learning, and more. They are the basis for the state-of-the-art methods in a wide variety of applications, such as medical diagnosis, image understanding, speech recognition, natural language processing, and many, many more. They are also a foundational tool in formulating many machine learning problems. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Algorithms",
+      "Expectation–Maximization (EM) Algorithm",
+      "Graphical Model",
+      "Markov Random Field"
+    ],
+    "instructors": [
+      "Daphne Koller"
+    ],
+    "duration": "Approx. 66 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 297,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466974",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Natural Language Processing with Attention Models",
+    "url": "https://www.coursera.org/learn/attention-models-in-nlp?specialization=natural-language-processing",
+    "description": "In Course 4 of the Natural Language Processing Specialization, you will:",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Reformer Models",
+      "Neural Machine Translation",
+      "Chatterbot",
+      "T5+BERT Models",
+      "Attention Models"
+    ],
+    "instructors": [
+      "Younes Bensouda Mourri"
+    ],
+    "duration": "Approx. 35 hours to complete",
+    "site": "Coursera",
+    "level": "Course",
+    "viewers": 861,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Coursera",
+    "original_provider_id": "68aa13e9b82e4c2125466988",
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Become a Natural Language Processing Expert",
+    "url": "https://www.udacity.com/course/natural-language-processing-nanodegree--nd892",
+    "description": "Master the skills to get computers to understand, process, and manipulate human language. Build models on real data, and get hands-on experience with sentiment analysis, machine translation, and more.",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "3 Months to complete",
+    "site": "Udacity",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [
+      "This program requires experience with Python, statistics, machine learning, and deep learning"
+    ],
+    "learning_outcomes": [
+      "Learn cutting-edge natural language processing techniques to process speech and analyze text",
+      "Build probabilistic and deep learning models, such as hidden Markov models and recurrent neural networks, to teach the computer to do tasks such as speech recognition, machine translation, and more"
+    ],
+    "price": "",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d917",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Data Engineering for Data Scientists",
+    "url": "https://www.udacity.com/course/data-engineering-for-data-scientists--cd0018",
+    "description": "Learn how to wrangle data on a massive scale! By the end of this course, you’ll be able to pull data from a wide range of sources, store it in a database, and create data pipelines (ETL, NLP, machine learning) that power real-world web applications.",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "1 month to complete",
+    "site": "Udacity",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [
+      "Python, SQL, Statistics, Machine Learning"
+    ],
+    "learning_outcomes": [
+      "For many companies, data scientists who can also tackle data-engineering problems are worth their weight in gold",
+      "In this course, you’ll learn how to unlock data silos, pulling data from multiple sources and pipelining it into usable forms for analysts and top-level decision makers",
+      "At the end, you’ll even build an impressive machine-learning-powered web application that has real-world, life-saving significance"
+    ],
+    "price": "",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d955",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Applied Artificial Intelligence: Natural Language Processing",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-natural-language-processing-advanced",
+    "description": "Learn how Natural Language Processing is a crucial component in AI and understand its core problems. ",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "3 weeks",
+    "site": "Future Learn",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "original_provider_id": "68ac020e69e0bdd621a8c4d0",
+    "source_provider": "futurelearn"
+  },
+  {
+    "title": "Applied Artificial Intelligence: Natural Language Processing",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-natural-language-processing-advanced",
+    "description": "Learn how Natural Language Processing is a crucial component in AI and understand its core problems. ",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "3 weeks",
+    "site": "Future Learn",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "original_provider_id": "68ac020e69e0bdd621a8c77a",
+    "source_provider": "futurelearn"
+  },
+  {
+    "title": "Applied Artificial Intelligence: Natural Language Processing",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-natural-language-processing-advanced",
+    "description": "Learn how Natural Language Processing is a crucial component in AI and understand its core problems. ",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "3 weeks",
+    "site": "Future Learn",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "original_provider_id": "68ac020f69e0bdd621a8cdf5",
+    "source_provider": "futurelearn"
+  },
+  {
+    "title": "Applied Artificial Intelligence: Natural Language Processing",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-natural-language-processing-advanced",
+    "description": "Learn how Natural Language Processing is a crucial component in AI and understand its core problems. ",
+    "category": "",
+    "language": "",
+    "skills": [],
+    "instructors": [],
+    "duration": "3 weeks",
+    "site": "Future Learn",
+    "level": "",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "original_provider_id": "68ac021069e0bdd621a8d217",
+    "source_provider": "futurelearn"
+  },
+  {
+    "title": "Artificial Intelligence Engineer",
+    "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+    "description": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+    "category": "Simplilearn",
+    "language": " Career Karma",
+    "skills": [],
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "duration": "",
+    "site": "",
+    "level": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7e8",
+    "source_provider": "simplilearn"
+  }
+]

@@ -1,290 +1,179 @@
-Here’s a **clear, finalized tech stack and directory structure** for your **Federated Natural Language Query System with MongoDB Cluster + Gemini API (Hybrid Approach)**.
-
----
-
-## **Tech Stack**
-
-### **Core Components**
-
-1. **Backend Framework:** Flask (lightweight, Python-based, easy to deploy)
-2. **Database:** MongoDB Atlas (Cluster with 4 databases → each having multiple collections)
-3. **ETL/Integration:** Python scripts (custom ETL pipeline for connecting & normalizing data)
-4. **Query Generation:** Gemini API (LLM for converting natural language → MongoDB queries)
-5. **Response Formatting:** JSON output for each query (to be stored in `/results/`)
-
-### **Optional / Future Add-ons**
-
-- **Frontend (Phase 2):** React or Next.js (not for now)
-- **Authentication:** JWT (future)
-- **Deployment:** Render / Railway / Vercel (for Flask backend)
-
----
-
-## **Project Directory Structure**
-
-```
 Backend/
+│
+├── .env
+├── requirements.txt
+├── results/
+│ └── responses.json
+│
 ├── src/
-│   ├── app/
-│   │   ├── __init__.py
-│   │   ├── main.py                # Entry point (FastAPI app)
-│   │   ├── routes/
-│   │   │   ├── __init__.py
-│   │   │   └── query_routes.py    # Query execution routes
-│   │   ├── services/
-│   │   │   ├── __init__.py
-│   │   │   ├── db_service.py      # Database service (query execution)
-│   │   │   ├── federation_service.py  # Federation orchestration
-│   │   │   ├── plan_builder.py    # Build execution plans
-│   │   │   ├── adapters.py        # Database adapters (Postgres/MySQL/etc.)
-│   │   ├── nlp/
-│   │   │   ├── __init__.py
-│   │   │   ├── parser_rule_based.py   # Existing rule-based parser
-│   │   │   ├── llm_interface.py # NEW: LLM-based query generation
-│   │   ├── utils/
-│   │   │   ├── __init__.py
-│   │   │   ├── config.py          # Configs (API keys, DB URLs)
-│   │   │   └── text_utils.py      # Text preprocessing helpers
-│   ├── io_utils/
-│   │   ├── __init__.py
-│   │   └── write_json.py          # Exporting query results
-├── results/                       # Query outputs (JSON/CSV)
-├── scripts/
-│   └── run_query.py               # CLI script for testing queries
-├── .env                           # Environment variables (LLM keys, DB creds)
-├── requirements.txt               # Dependencies
-└── README.md                      # Project overview
+│ ├── app/
+│ │ ├── main.py
+│ │ ├── routes.py
+│ │ ├── query_handler.py
+│ │ ├── schema_loader.py
+│ │ ├── db_connection.py
+│ │ ├── response_formatter.py
+| | ├── universal_schema.py # NEW: Standard schema definition
+│ │ ├── utils.py
+| | ├── data_enrichment/ # NEW: Data standardization and enrichment
+| | │ ├── **init**.py
+| | │ ├── llm_enricher.py # LLM-based data completion
+| | │ └── uniform_formatter.py # Universal schema formatting
+│ │ ├── query_generator/
+│ │ │ ├── **init**.py
+│ │ │ ├── llm_query_builder.py
+│ │ │ └── query_translator.py
+│ │ ├── query_executor/
+│ │ │ ├── **init**.py
+│ │ │ └── provider_executor.py
+│ │ └── results/
+│ │ ├── **init**.py
+│ │ └── saver.py
+│ │
+│ └── tests/
+│ ├── test_api.py
+│ └── test_query_generation.py
+│
+└── README.md
 
-```
+Key Intelligence Added:
+Query Type Detection: Automatically detects category-based, technology-based, and topic-based queries
 
-```
-Backend/
-  src/
-    app/
-      __init__.py
-      main.py                # FastAPI app initialization & routes mounting
-      routes/
-        __init__.py
-        query_routes.py      # Handles incoming requests, calls Gemini for query generation
-      services/
-        __init__.py
-        db_service.py        # Handles database queries
-        federation_service.py # Executes federated queries
-        plan_builder.py      # Builds the federated execution plan
-        adapters.py          # Adapter layer between federation & DB
-      nlp/
-        __init__.py
-        parser_rule_based.py # Existing rule-based parser (kept as fallback or hybrid)
-        llm_interface.py     # NEW: Handles communication with Google Gemini API
-      utils/
-        __init__.py
-        config.py            # Loads configs, including Gemini API key
-        text_utils.py
-    io_utils/
-      __init__.py
-      write_json.py
-  results/                   # Stores query results (JSON/CSV/etc.)
-  scripts/
-    run_query.py             # CLI script to trigger a query
-  .env                       # Contains GEMINI_API_KEY and other secrets
-  requirements.txt           # Add `google-generativeai` here
-  README.md
-```
+Context Preservation: Uses word boundaries (\b) and preserves technical phrases
 
----
+Smart Field Selection: Chooses appropriate fields based on query type
 
-## **Why this structure?**
+Provider Awareness: Only queries relevant providers mentioned in the query
 
-- **Separation of concerns:** LLM handling, database interaction, and federation logic are modular.
-- **Scalable:** Can easily add new databases or query templates.
-- **Production-ready:** Works with MongoDB Atlas cluster directly.
-- **Hybrid approach:** Gemini handles query generation, Python executes & federates.
+Limit Handling: Properly handles numeric limits like "5 courses"
 
----
-
-### **Tech Flow (Step-by-step high level)**
-
-1. **User submits query** (e.g., _“Get average sales in last 3 months for all stores”_)
-2. **Flask route receives it** → passes to `llm_service.py`
-3. **LLM converts query → JSON MongoDB queries per database**
-4. **db_service.py connects to MongoDB cluster** → executes each query
-5. **federation_service.py aggregates results** (if needed)
-6. **Stores the final result in `/results/query_results.json`**
-7. **Returns JSON response to user**
-
----
-
-Would you like me to now:
-
-1. **Create this exact directory structure with empty boilerplate files** so you can start coding,
-   OR
-2. **Explain each module in depth first (what code will go inside each)?**
-
-Which path should we take next?
-
-# high-level architecture
-
-**input:** natural language query
-**engine:** hybrid planner (rule-based first → gemini fallback), per-source query builders, federated executor, normalizer, ranker
-**data:** mongodb atlas cluster (4 databases, one per provider)
-**output:** unified JSON file + API response
-
-```
-user → /query (flask API) → parser → planner → per-source queries
-   → federated execution (parallel) → normalize → merge/rank/dedup
-   → write output JSON (timestamped) → return response
-```
-
----
-
-# data layout (mongodb atlas)
-
-you said you’ll keep **4 databases inside one atlas project**. good. inside each DB, create a single collection `courses` (or keep the original name—your call). recommend:
-
-- `db_coursera.courses`
-- `db_futurelearn.courses`
-- `db_simplilearn.courses`
-- `db_udacity.courses`
-
-Perfect! Now that we are aligned on the **exact project structure** and have integrated the `llm_interface.py`, let’s walk through:
-
----
-
-## **How to Run the Backend**
-
-### **1. Set up your environment**
-
-* Make sure you have your virtual environment active (`IIAProject`).
-* Install dependencies:
+- Common Strcuture
 
 ```bash
-pip install -r requirements.txt
+Title	URL	Short Intro	Category	Language	Skills	Instructors	Duration	Site	Level	Number of Reviews	Prequisites	What you learn	Price
 ```
 
-* Set your `.env` file with:
+Perfect! Your directory structure is absolutely correct. Here's the comprehensive documentation:
 
-```bash
-GEMINI_API_KEY="your_google_gemini_api_key"
-MONGO_URI="your_mongodb_connection_uri"
+## 📁 Directory Structure & File Documentation
+
+### **Core Application Files**
+
+| File                    | Purpose                                                     |
+| ----------------------- | ----------------------------------------------------------- |
+| `main.py`               | Flask app entry point, initializes the web server           |
+| `routes.py`             | Defines API endpoints (`/health`, `/query`)                 |
+| `db_connection.py`      | MongoDB connection setup with provider-specific databases   |
+| `schema_loader.py`      | Provides schema definitions and sample data for LLM context |
+| `universal_schema.py`   | Defines standardized course format and field mappings       |
+| `response_formatter.py` | Converts raw data to unified format with LLM enrichment     |
+| `utils.py`              | Common utility functions and helpers                        |
+
+### **Query Generation Module** (`query_generator/`)
+
+| File                   | Purpose                                                    |
+| ---------------------- | ---------------------------------------------------------- |
+| `llm_query_builder.py` | Uses LLM to generate MongoDB queries from natural language |
+| `query_translator.py`  | Maps schema field names to actual database field names     |
+
+### **Query Execution Module** (`query_executor/`)
+
+| File                   | Purpose                                                    |
+| ---------------------- | ---------------------------------------------------------- |
+| `provider_executor.py` | Executes queries against MongoDB with intelligent fallback |
+
+### **Data Enrichment Module** (`data_enrichment/`)
+
+| File                   | Purpose                                                |
+| ---------------------- | ------------------------------------------------------ |
+| `llm_enricher.py`      | Uses LLM to fill missing fields in universal schema    |
+| `uniform_formatter.py` | Converts provider-specific data to standardized format |
+
+### **Results Module** (`results/`)
+
+| File       | Purpose                                                 |
+| ---------- | ------------------------------------------------------- |
+| `saver.py` | Saves query results and debug information to JSON files |
+
+## 🔄 End-to-End Flow (How Everything Connects)
+
+### **API Request Flow:**
+
+1. **User** → `POST /query` → `routes.py` → `query_handler.py`
+2. **Query Handler** → `llm_query_builder.py` (Generate queries)
+3. **Query Handler** → `provider_executor.py` (Execute queries)
+4. **Query Handler** → `response_formatter.py` → `uniform_formatter.py` → `llm_enricher.py` (Format & enrich)
+5. **Query Handler** → `saver.py` (Save results)
+6. **Response** → User with standardized course data
+
+### **Data Transformation Flow:**
+
+```
+Raw MongoDB Data
+→ response_formatter.py
+→ uniform_formatter.py (basic mapping)
+→ llm_enricher.py (fill missing fields)
+→ Universal Schema Format
+→ saver.py (save as enriched_courses.json)
 ```
 
----
+### **Query Execution Flow:**
 
-### **2. Start the FastAPI Server**
-
-Your `main.py` (FastAPI app entry point) should already have something like:
-
-```bash
-uvicorn src.app.main:app --reload
+```
+Natural Language Query
+→ llm_query_builder.py (LLM generates query)
+→ query_translator.py (field name mapping)
+→ provider_executor.py (execute on MongoDB)
+→ Fallback mechanism if no results
+→ Return matched documents
 ```
 
----
+## 🎯 Key Functions Overview
 
-## **Flow After User Submits a Query**
+### **In `query_handler.py`**
 
-### **Step-by-Step Data Flow**
+- `processUserQuery()`: Main orchestrator - handles the entire query pipeline
+- `save_enriched_courses()`: Saves standardized course data
 
-1. **User Sends Query (Frontend → Backend)**
+### **In `llm_query_builder.py`**
 
-   * Endpoint: `POST /query`
-   * Body:
+- `generate_queries()`: Converts natural language to MongoDB queries using LLM
 
-     ```json
-     {
-       "query": "Show me top 5 courses in Data Science from Coursera"
-     }
-     ```
+### **In `provider_executor.py`**
 
-2. **Query Routing (`query_routes.py`)**
+- `execute_provider_query()`: Runs queries on MongoDB with smart fallback
+- `build_keyword_fallback_query()`: Creates context-aware fallback queries
 
-   * Extracts the query string.
-   * Calls the **rule-based parser** (`parser_rule_based.py`) → produces a rough structure (keywords, filters).
-   * Sends the same user query to **Google Gemini (`llm_interface.py`)** for deeper semantic analysis.
+### **In `uniform_formatter.py`**
 
-3. **LLM Query Generation (`llm_interface.py`)**
+- `format_to_universal_schema()`: Converts raw data to standardized format
 
-   * Gemini returns a structured interpretation (intent, databases to use, filters).
-   * This is returned as `llm_context`.
+### **In `llm_enricher.py`**
 
-4. **Federation Layer (`federation_service.py`)**
+- `enrich_course_data()`: Uses LLM to intelligently fill missing fields
 
-   * Combines **rule-based parse + LLM context**.
-   * Decides which database(s) to query (from 4 sources).
-   * Calls the database adapters (`db_service.py` + `adapters.py`) for each relevant DB.
+### **In `saver.py`**
 
-5. **Data Retrieval (`db_service.py`)**
+- `save_results()`: Saves debug information and query results
 
-   * Each adapter connects to its respective DB (MongoDB collections in your case).
-   * Executes queries (currently basic; later, we will let Gemini refine them to DB-specific queries).
+## 📊 Data Flow Diagram
 
-6. **Federation Aggregation**
-
-   * Combines the results from all databases.
-   * Applies any ranking or post-processing (optional LLM re-ranking in the future).
-
-7. **Response Formation**
-
-   * Saves raw results as JSON in `/results/`.
-   * Returns a summary response with:
-
-     * Original query
-     * Parsed query
-     * LLM context
-     * Results preview (top 10)
-     * Path to full results JSON
-
----
-
-## **How Data Will Be Fetched & Combined**
-
-* **LLM determines** which DBs are relevant.
-* The federation service builds a **query execution plan** (simple: call each relevant collection with a filter).
-* Each DB adapter fetches its results.
-* Results are **merged in-memory (Python)**.
-* Optional: **Ranking or sorting using LLM (later stage)**.
-* Final merged result is sent to the user.
-
----
-
-## **Example Workflow**
-
-### User sends:
-
-```json
-{ "query": "Show top 5 free Python courses from Coursera and edX" }
+```
+User Query → API → Query Handler → LLM Query Builder → Query Translator
+    ↓
+Provider Executor → MongoDB → Raw Results → Response Formatter
+    ↓
+Uniform Formatter → LLM Enricher → Universal Format → Result Saver
+    ↓
+JSON Output → User Response
 ```
 
-* Rule-based: Extracts `{"keywords": ["Python", "courses"], "platforms": ["Coursera","edX"], "limit":5}`
-* LLM: Enhances → identifies which databases to hit: `Coursera_DB`, `edX_DB`.
-* Federation service queries both.
-* Merges results: Top 5 free Python courses.
+This architecture ensures that:
 
-Returns:
+1. **Natural language queries** become **precise database queries**
+2. **Provider-specific data** becomes **standardized information**
+3. **Missing data** gets **intelligently filled** by LLM
+4. **All results** are **persisted for analysis**
+5. **API responses** are **consistent and complete**
 
-```json
-{
-  "query": "Show top 5 free Python courses from Coursera and edX",
-  "results_count": 5,
-  "results_preview": [...],
-  "out_file": "./results/query_20250824T163000Z.json",
-  "took_seconds": 1.2
-}
-```
-
----
-
-## **What’s Next?**
-
-1. Add **MongoDB adapters** for each of the 4 databases.
-2. Make **federation\_service** actually dispatch queries based on Gemini output.
-3. Add **ranking/scoring (optional)** for better presentation.
-
----
-
-Would you like me to now:
-
-1. **Write the federation\_service.py** so it uses both rule-based + LLM output to hit all 4 MongoDB collections?
-2. Or first create **MongoDB adapters for each database** (the minimal working version)?
-3. Or both in one go so you can immediately fetch real data?
-
-Which path do you want next?
+The system beautifully combines LLM intelligence with database precision! 🚀

@@ -1,0 +1,56 @@
+{
+  "user_query": "Hey show me Data Science courses from Coursera & Simplilearn",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 448,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 9,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-25T20:12:46.146599"
+}

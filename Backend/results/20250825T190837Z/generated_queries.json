@@ -1,0 +1,28 @@
+{
+  "user_query": "Hey , SHow me some Course based on Deep Learning from Coursera",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bDeep Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bDeep Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bDeep Learning\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-25T19:08:37.948939"
+}

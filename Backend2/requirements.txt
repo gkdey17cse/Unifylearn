@@ -1,5 +1,0 @@
-Flask
-pymongo
-python-dotenv
-google-genai  # for Gemini (stubbed for now)
-google-generativeai
