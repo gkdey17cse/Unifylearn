@@ -1,0 +1,56 @@
+{
+  "user_query": "I want to make career in Artifical Intelligence , can you suggest me some AI courses from Udacity & FutureLearn platform",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b|\\bAI\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b|\\bAI\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 18,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b|\\bAI\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b|\\bAI\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bArtificial Intelligence\\b|\\bAI\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 120,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-25T21:12:58.627385"
+}
