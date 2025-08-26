@@ -1,0 +1,375 @@
+{
+  "timestamp": "2025-08-26T23:14:52.864223",
+  "user_query": "show me  AUTOCAD courses",
+  "debug_info": {
+    "user_query": "show me  AUTOCAD courses",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bAUTOCAD\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bAUTOCAD\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bAUTOCAD\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bAUTOCAD\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ autocad\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466152",
+        "Title": "CAD and Digital Manufacturing Specialization",
+        "URL": "https://www.coursera.org/specializations/cad-design-digital-manufacturing",
+        "Short Intro": "Start your Career in Digital Manufacturing. Practice your CAD/CAM/CAE skills and learn about industry trends, while creating your own drone.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Mechanical Engineering",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Computer-Aided Design (CAD), Autodesk, Manufacturing Processes, Sustainable Design, Mechanical Design, 3d modeling, Autocad, ",
+        "Instructors": "Autodesk ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "3,730",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "CAD and Digital Manufacturing Specialization",
+        "url": "https://www.coursera.org/specializations/cad-design-digital-manufacturing",
+        "description": "Start your Career in Digital Manufacturing. Practice your CAD/CAM/CAE skills and learn about industry trends, while creating your own drone.",
+        "category": "Physical Science and Engineering",
+        "language": "English",
+        "skills": [
+          "Computer-Aided Design (CAD)",
+          "Autodesk",
+          "Manufacturing Processes",
+          "Sustainable Design",
+          "Mechanical Design",
+          "3d modeling",
+          "Autocad"
+        ],
+        "instructors": [
+          "Autodesk"
+        ],
+        "duration": "Approximately 6 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 3730,
+        "prerequisites": "Basic computer skills, familiarity with technical drawings (helpful but not required), high school level math and physics.",
+        "learning_outcomes": "Develop CAD/CAM/CAE skills, understand digital manufacturing trends, and gain experience in creating a drone project from design to manufacturing. Learn about Autodesk products.",
+        "price": "Coursera subscriptions vary; check Coursera for current pricing.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546636c",
+        "Title": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
+        "URL": "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
+        "Short Intro": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Mechanical Engineering",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Autocad,Design,Autodesk,Engineering,Computer-Aided Design (CAD),",
+        "Instructors": "Autodesk",
+        "Rating": "4.7stars",
+        "Number of viewers": "2,400",
+        "Duration": "Approx. 18 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
+        "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
+        "description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.",
+        "category": "Physical Science and Engineering",
+        "language": "English",
+        "skills": [
+          "Autocad",
+          "Design",
+          "Autodesk",
+          "Engineering",
+          "Computer-Aided Design (CAD)"
+        ],
+        "instructors": [
+          "Autodesk"
+        ],
+        "duration": "Approx. 18 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2400,
+        "prerequisites": [
+          "Basic computer literacy",
+          "Familiarity with technical drawing concepts is helpful, but not mandatory"
+        ],
+        "learning_outcomes": [
+          "Create and organize drawing objects.",
+          "Use advanced editing functions.",
+          "Understand layouts, printing, and outputs.",
+          "Apply annotation techniques and manage drawings."
+        ],
+        "price": "Coursera offers a free trial, after which a subscription is required to access the course and graded materials.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466475",
+        "Title": "Autodesk Fusion 360 Integrated CAD/CAM/CAE",
+        "URL": "https://www.coursera.org/learn/fusion-360-integrated-cad-cam-cae?specialization=cad-design-digital-manufacturing",
+        "Short Intro": "Design, engineering, and manufacturing are undergoing a digital transformation, and the need for a collaborative product development environment is becoming an ever-growing requirement. Autodesk® Fusion 360™ meets this need by connecting CAD, CAM, and CAE in a single cloud-based platform unlike any other tool of its kind. This course builds upon digital manufacturing trends and foundational CAD concepts discussed in Course 1 of this series by introducing Fusion 360 as a problem-solving tool. In this course, we take the next step in connecting CAD, CAM, and CAE through a series of short exercises on 3D modeling, rendering, simulation, and computer aided manufacturing.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Mechanical Engineering",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Computer-Aided Design (CAD),Autodesk,3d modeling,Autocad,",
+        "Instructors": "Autodesk",
+        "Rating": "4.7stars",
+        "Number of viewers": "1,927",
+        "Duration": "Approx. 12 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Autodesk Fusion 360 Integrated CAD/CAM/CAE",
+        "url": "https://www.coursera.org/learn/fusion-360-integrated-cad-cam-cae?specialization=cad-design-digital-manufacturing",
+        "description": "Design, engineering, and manufacturing are undergoing a digital transformation, and the need for a collaborative product development environment is becoming an ever-growing requirement. Autodesk® Fusion 360™ meets this need by connecting CAD, CAM, and CAE in a single cloud-based platform unlike any other tool of its kind. This course builds upon digital manufacturing trends and foundational CAD concepts discussed in Course 1 of this series by introducing Fusion 360 as a problem-solving tool. In this course, we take the next step in connecting CAD, CAM, and CAE through a series of short exercises on 3D modeling, rendering, simulation, and computer aided manufacturing.",
+        "category": "Physical Science and Engineering",
+        "language": "English",
+        "skills": [
+          "Computer-Aided Design (CAD)",
+          "Autodesk",
+          "3d modeling",
+          "Autocad"
+        ],
+        "instructors": [
+          "Autodesk"
+        ],
+        "duration": "Approx. 12 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1927,
+        "prerequisites": "Basic understanding of CAD concepts and digital manufacturing trends. Completion of Course 1 in the series (if applicable) or equivalent introductory CAD experience.",
+        "learning_outcomes": "Learn to use Fusion 360 for 3D modeling, rendering, simulation, and computer-aided manufacturing. Understand how CAD, CAM, and CAE are integrated within a single platform for collaborative product development.",
+        "price": "Coursera offers courses with options to audit for free or pay for a certificate. Check Coursera for current pricing.",
+        "provider": "Coursera"
+      }
+    }
+  ]
+}

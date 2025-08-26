@@ -1,0 +1,702 @@
+{
+  "timestamp": "2025-08-26T23:23:09.077520",
+  "user_query": "SHow me some Course related to GEOGRAPHY",
+  "debug_info": {
+    "user_query": "SHow me some Course related to GEOGRAPHY",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGeography\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 8,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ related\\ geography\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466678",
+        "Title": "Strategic Management - Capstone Project",
+        "URL": "https://www.coursera.org/learn/businesscap?specialization=strategic-management",
+        "Short Intro": "In this capstone project course, we revisit the strategy controversy at e-Types, introduced in the first course in this specialization, Strategic Management, and further analysed in each of the subsequent courses, Strategy Formulation and Strategy Implementation. After revealing, examining, and analyzing what happened at e-Types, we turn to a new set of strategy cases that range in terms of company size, geography, and focus. For your final project, we ask YOU to apply everything you have learned in this specialization to analyze your choice of one of these four situations.",
+        "Category": "Business",
+        "Sub-Category": "Business Strategy",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Nicolai Pogrebnyakov",
+        "Rating": "4.6stars",
+        "Number of viewers": "320",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Strategic Management - Capstone Project",
+        "url": "https://www.coursera.org/learn/businesscap?specialization=strategic-management",
+        "description": "In this capstone project course, we revisit the strategy controversy at e-Types, introduced in the first course in this specialization, Strategic Management, and further analysed in each of the subsequent courses, Strategy Formulation and Strategy Implementation. After revealing, examining, and analyzing what happened at e-Types, we turn to a new set of strategy cases that range in terms of company size, geography, and focus. For your final project, we ask YOU to apply everything you have learned in this specialization to analyze your choice of one of these four situations.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Strategic Analysis",
+          "Case Study Analysis",
+          "Strategy Formulation",
+          "Strategy Implementation",
+          "Decision-Making"
+        ],
+        "instructors": [
+          "Nicolai Pogrebnyakov"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 320,
+        "prerequisites": [
+          "Completion of Strategic Management specialization courses (Strategic Management, Strategy Formulation, Strategy Implementation)",
+          "Basic understanding of business strategy concepts"
+        ],
+        "learning_outcomes": "Apply strategic management principles to analyze real-world business cases. Develop critical thinking and decision-making skills in the context of strategic challenges. Understand strategy formulation and implementation processes.",
+        "price": "Free to audit, paid for certificate",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668cc",
+        "Title": "Financial Management Capstone",
+        "URL": "https://www.coursera.org/learn/financial-management-capstone?specialization=financial-management",
+        "Short Intro": "The Financial Management capstone will provide a learning experience that integrates across all the courses within this specialization. You will analyze a situation taking the vantage point of a company and develop a financial management plan (for instance, a global company working in a specific geography chosen by students’ region or country of residence, or other consideration). You will design a deliverable to create value from the perspective of potential employers while achieving pedagogical and experiential goals. ",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Financial Management,Risk Management,Financial Mismanagement,Financial Aid Management,",
+        "Instructors": "Jeff Flesher",
+        "Rating": "4.7stars",
+        "Number of viewers": "111",
+        "Duration": "Approx. 8 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Financial Management Capstone",
+        "url": "https://www.coursera.org/learn/financial-management-capstone?specialization=financial-management",
+        "description": "The Financial Management capstone will provide a learning experience that integrates across all the courses within this specialization. You will analyze a situation taking the vantage point of a company and develop a financial management plan (for instance, a global company working in a specific geography chosen by students’ region or country of residence, or other consideration). You will design a deliverable to create value from the perspective of potential employers while achieving pedagogical and experiential goals. ",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Financial Management",
+          "Risk Management",
+          "Financial Mismanagement",
+          "Financial Aid Management"
+        ],
+        "instructors": [
+          "Jeff Flesher"
+        ],
+        "duration": "Approx. 8 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 111,
+        "prerequisites": [
+          "Completion of introductory financial management courses or equivalent knowledge.",
+          "Basic understanding of financial statements and investment principles.",
+          "Familiarity with business strategy and analysis."
+        ],
+        "learning_outcomes": "Develop a comprehensive financial management plan from a company's perspective. Analyze financial situations and create value for potential employers. Integrate knowledge from prior financial management coursework to achieve experiential goals.",
+        "price": "Coursera offers courses for free and with a fee, price may vary.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8c8ce",
+        "Title": "Planet Earth: Understanding and Protecting our Environment",
+        "URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "62 Courses",
+        "Topics related to CRM": "Agriculture / Biology & Biotechnology / Chemistry / Earth Science / Ecology / Food Tech / Physics / Sustainability / Agriculture / Biology & Biotechnology / Chemistry / Earth Science / Ecology / Food Tech / Physics / Sustainability / ",
+        "ExpertTracks": "1 Microcredential",
+        "Course Title": "Planet Earth: Understanding and Protecting our Environment",
+        "Course URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Course Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Planet Earth: Understanding and Protecting our Environment",
+        "url": "https://www.futurelearn.com/courses/planet-earth",
+        "description": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "category": "Environmental Science",
+        "language": "English",
+        "skills": [
+          "Geography",
+          "Environmental Protection",
+          "Sustainability",
+          "Earth Science"
+        ],
+        "instructors": "Not available",
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 1000,
+        "prerequisites": "None",
+        "learning_outcomes": "Understand Earth's physical geography and learn how to apply this knowledge to protect our natural environment. Explore sustainable practices and contribute to environmental conservation efforts.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ca72",
+        "Title": "Planet Earth: Understanding and Protecting our Environment",
+        "URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "26 Courses",
+        "Topics related to CRM": "Agriculture / Biology & Biotechnology / Chemistry / Climate Change / Ecology / Food Tech / Sustainability / Agriculture / Biology & Biotechnology / Chemistry / Climate Change / Ecology / Food Tech / Sustainability / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "Course Title": "Planet Earth: Understanding and Protecting our Environment",
+        "Course URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Course Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Planet Earth: Understanding and Protecting our Environment",
+        "url": "https://www.futurelearn.com/courses/planet-earth",
+        "description": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "category": "Environmental Science",
+        "language": "English",
+        "skills": [
+          "Physical Geography",
+          "Environmental Protection",
+          "Sustainability",
+          "Climate Change"
+        ],
+        "instructors": "Information not available, refer to course page",
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": "5000",
+        "prerequisites": "None",
+        "learning_outcomes": "Understand Earth's physical geography and apply this knowledge to protect the natural environment and promote sustainability.",
+        "price": "Free, optional upgrade available",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d272",
+        "Title": "Intermediate German: Countries and Landscapes",
+        "URL": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "Short Intro": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "138 Courses",
+        "Topics related to CRM": "IELTS / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / IELTS / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / ",
+        "ExpertTracks": "18 ExpertTracks",
+        "Course Title": "Intermediate German: Countries and Landscapes",
+        "Course URL": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "Course Short Intro": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "Weekly study": "4 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Intermediate German: Countries and Landscapes",
+        "url": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "description": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "category": "Language Learning",
+        "language": "German",
+        "skills": [
+          "German Language",
+          "Geography",
+          "Cultural Understanding",
+          "Vocabulary related to countries and landscapes"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic German language skills",
+          "Understanding of German grammar fundamentals"
+        ],
+        "learning_outcomes": "Understand the human and physical geography of German-speaking countries. Enhance vocabulary related to geography and landscapes. Improve ability to discuss geographical topics in German.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d332",
+        "Title": "Planet Earth: Understanding and Protecting our Environment",
+        "URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "233 Courses",
+        "Topics related to CRM": "Agriculture / Climate Change / Ecology / Food Tech / Sustainability / Agriculture / Climate Change / Ecology / Food Tech / Sustainability / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Planet Earth: Understanding and Protecting our Environment",
+        "Course URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Course Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Planet Earth: Understanding and Protecting our Environment",
+        "url": "https://www.futurelearn.com/courses/planet-earth",
+        "description": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "category": "Environmental Science",
+        "language": "English",
+        "skills": [
+          "Physical Geography",
+          "Environmental Protection",
+          "Sustainability"
+        ],
+        "instructors": [
+          "To be determined (FutureLearn often has multiple instructors)"
+        ],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": "10000",
+        "prerequisites": [
+          "None",
+          "Basic understanding of geography recommended"
+        ],
+        "learning_outcomes": "Gain knowledge of Earth's physical geography and apply it to environmental protection. Understand human impact and explore sustainable practices to preserve our planet's natural resources.",
+        "price": "Free (with paid upgrade options)",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d378",
+        "Title": "Intermediate German: Countries and Landscapes",
+        "URL": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "Short Intro": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "233 Courses",
+        "Topics related to CRM": "Agriculture / Climate Change / Ecology / Food Tech / Sustainability / Agriculture / Climate Change / Ecology / Food Tech / Sustainability / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Intermediate German: Countries and Landscapes",
+        "Course URL": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "Course Short Intro": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "Weekly study": "4 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Intermediate German: Countries and Landscapes",
+        "url": "https://www.futurelearn.com/courses/intermediate-german-deutsch-im-kontext-l-nder-und-landschaften",
+        "description": "Examine the human and physical geography of German-speaking countries and the language used to discuss them. ",
+        "category": "Language Learning & Geography",
+        "language": "German",
+        "skills": [
+          "German language",
+          "Geography",
+          "Cultural awareness",
+          "Vocabulary related to countries and landscapes"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": 500,
+        "prerequisites": [
+          "Basic German language skills (A1/A2 level)",
+          "Familiarity with German grammar fundamentals"
+        ],
+        "learning_outcomes": "Understand and discuss the human and physical geography of German-speaking countries. Expand German vocabulary related to landscapes and countries. Improve intermediate-level German language skills within a cultural context.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2b5",
+        "Title": "Intermediate French: People and Places",
+        "URL": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "Short Intro": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "138 Courses",
+        "Topics related to CRM": "IELTS / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / IELTS / Learn Chinese / Learn English / Learn Irish / Learn Norwegian / Linguistics / ",
+        "ExpertTracks": "18 ExpertTracks",
+        "Course Title": "Intermediate French: People and Places",
+        "Course URL": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "Course Short Intro": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "Weekly study": "4 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Intermediate French: People and Places",
+        "url": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "description": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "category": "Language Learning",
+        "language": "French",
+        "skills": [
+          "French Language",
+          "Geography",
+          "Vocabulary",
+          "Communication"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic French knowledge",
+          "Beginner French course or equivalent"
+        ],
+        "learning_outcomes": "Understand the physical and human geography of France. Use language related to geography. Improve French vocabulary and comprehension. Enhance communication skills in French.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d3dc",
+        "Title": "Intermediate French: People and Places",
+        "URL": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "Short Intro": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "233 Courses",
+        "Topics related to CRM": "Agriculture / Climate Change / Ecology / Food Tech / Sustainability / Agriculture / Climate Change / Ecology / Food Tech / Sustainability / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Intermediate French: People and Places",
+        "Course URL": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "Course Short Intro": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "Weekly study": "4 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Intermediate French: People and Places",
+        "url": "https://www.futurelearn.com/courses/french-intermediate-la-francophonie-people-and-places",
+        "description": "Gain an introduction to the physical and human geography of France and explore the language used to speak about them.",
+        "category": "Language Learning",
+        "language": "French",
+        "skills": [
+          "French Language",
+          "Geography",
+          "Cultural Awareness",
+          "Communication"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic French language skills (A1/A2 level or equivalent)"
+        ],
+        "learning_outcomes": "Understand French vocabulary related to geography and culture. Describe physical and human geographical features of France. Improve French communication skills in the context of people and places.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d58e",
+        "Title": "Planet Earth: Understanding and Protecting our Environment",
+        "URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "259 Courses",
+        "Topics related to CRM": "Biology & Biotechnology / Chemistry / Data Science / Earth Science / Economics / Engineering / Maths / Physics / Statistics / Biology & Biotechnology / Chemistry / Data Science / Earth Science / Economics / Engineering / Maths / Physics / Statistics / ",
+        "ExpertTracks": "10 ExpertTracks",
+        "Course Title": "Planet Earth: Understanding and Protecting our Environment",
+        "Course URL": "https://www.futurelearn.com/courses/planet-earth",
+        "Course Short Intro": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Planet Earth: Understanding and Protecting our Environment",
+        "url": "https://www.futurelearn.com/courses/planet-earth",
+        "description": "Learn about the physical geography of Earth and discover how to use this knowledge to protect our natural environment. ",
+        "category": "Environmental Science",
+        "language": "English",
+        "skills": [
+          "Environmental Awareness",
+          "Geographic Knowledge",
+          "Environmental Protection"
+        ],
+        "instructors": [
+          "To be determined"
+        ],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 5000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": [
+          "Understand Earth's physical geography.",
+          "Learn methods for protecting the natural environment.",
+          "Apply geographic knowledge to environmental conservation efforts."
+        ],
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    }
+  ]
+}

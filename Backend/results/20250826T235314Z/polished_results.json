@@ -1,0 +1,540 @@
+[
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Learn the Building Blocks for a Career in Robotics. Gain experience programming robots to perform in situations and for use in crisis management",
+    "duration": "Approximately 7 months to complete",
+    "instructors": [
+      "Vijay Kumar",
+      "CJ Taylor",
+      "Daniel E. Koditschek",
+      "Kostas Daniilidis",
+      "Jianbo Shi",
+      "Daniel Lee",
+      "Sid Deliwala"
+    ],
+    "language": "English",
+    "learning_outcomes": "Develop skills in robotics, motion planning, computer vision, and estimation. Gain practical experience programming robots for various situations, including crisis management.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c21254660b5",
+    "prerequisites": "Basic programming knowledge (e.g., Python), linear algebra, calculus, and familiarity with basic physics concepts.",
+    "price": "Coursera subscription required (prices vary).",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Motion Planning",
+      "Particle Filter",
+      "Matlab",
+      "Robotics",
+      "Quadcoper",
+      "Automated Planning And Scheduling",
+      "A* Search Algorithm",
+      "Serial Line Internet Protocol (SLIP)",
+      "Robot",
+      "Computer Vision",
+      "Estimation",
+      "Random Sample Consensus (Ransac)"
+    ],
+    "source_provider": "coursera",
+    "title": "Robotics Specialization",
+    "url": "https://www.coursera.org/specializations/robotics",
+    "viewers": 2981
+  },
+  {
+    "category": "Computer Science",
+    "description": "From Zero to MATLAB Hero in Three Courses.. Gain a solid foundation in computer programming and become a MATLAB expert.",
+    "duration": "Approximately 6 months to complete",
+    "instructors": [
+      "Akos Ledeczi",
+      "Mike Fitzpatrick",
+      "Jack Noble"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain a solid foundation in computer programming, become proficient in MATLAB, master data analysis techniques, and develop problem-solving skills applicable to engineering and scientific domains.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466053",
+    "prerequisites": "Basic algebra and a general interest in problem-solving. No prior programming experience is required.",
+    "price": "Coursera Specializations typically require a monthly subscription fee. Please check the Coursera website for the current pricing.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Matlab",
+      "Data Analysis",
+      "Object-Oriented Programming (OOP)",
+      "Image Processing",
+      "Computer Programming",
+      "Problem Solving",
+      "Programming Language"
+    ],
+    "source_provider": "coursera",
+    "title": "MATLAB Programming for Engineers and Scientists Specialization",
+    "url": "https://www.coursera.org/specializations/matlab-programming-engineers-scientists",
+    "viewers": 4284
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Quickly gain skills in Image Processing. Learn the essential skills to automatically extract information from images.",
+    "duration": "Approximately 3 months to complete",
+    "instructors": [
+      "Amanda  Wang",
+      "Matt Rich",
+      "Brandon Armstrong",
+      "Megan Thompson",
+      "Isaac Bruss",
+      "Sam Jones"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain skills in image processing and learn how to automatically extract information from images. Master techniques like image segmentation, object detection, and image filtering.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466141",
+    "prerequisites": "Basic understanding of programming concepts and linear algebra is recommended.",
+    "price": "Coursera offers a free trial, then subscription fees apply. Check Coursera for current pricing details.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Image Segmentation",
+      "Matlab",
+      "Object Detection",
+      "Image Processing",
+      "video processing",
+      "region analysis",
+      "image filtering"
+    ],
+    "source_provider": "coursera",
+    "title": "Image Processing for Engineering and Science Specialization",
+    "url": "https://www.coursera.org/specializations/image-processing",
+    "viewers": 73
+  },
+  {
+    "category": "Health",
+    "description": "Expertise for Professionals and Students in Biotechnology and Biomedical Data Sciences. Learn Methodologies in Systems Biology Including: Bioinformatics, Dynamical Modeling, Genomics, Network and Statistical Modeling, Proteomics, Omics Technologies Single Cell Research Technologies",
+    "duration": "Approximately 10 months to complete",
+    "instructors": [
+      "Ravi Iyengar",
+      "PhD",
+      "Marc Birtwistle",
+      "PhD",
+      "Avi Ma’ayan",
+      "PhD",
+      "Eric Sobie",
+      "PhD",
+      "Susana Neves",
+      "PhD"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain expertise in systems biology methodologies including bioinformatics, dynamical modeling, genomics, network modeling, proteomics, omics technologies, and single-cell research technologies.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466136",
+    "prerequisites": "Basic knowledge of biology, mathematics, and statistics is recommended. Familiarity with programming concepts is helpful.",
+    "price": "Coursera subscriptions vary; check Coursera for current pricing information.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Biology",
+      "Molecular Biology",
+      "Dynamical Systems",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Systems Biology and Biotechnology Specialization",
+    "url": "https://www.coursera.org/specializations/systems-biology",
+    "viewers": 693
+  },
+  {
+    "category": "Computer Science",
+    "description": "This course teaches computer programming to those with little to no previous experience. It uses the programming system and language called MATLAB to do so because it is easy to learn, versatile and very useful for engineers and other professionals. MATLAB is a special-purpose language that is an excellent choice for writing moderate-size programs that solve problems involving the manipulation of numbers. The design of the language makes it possible to write a powerful program in a few lines. The problems may be relatively complex, while the MATLAB programs that solve them are relatively simple: relative, that is, to the equivalent program written in a general-purpose language, such as C++ or Java. As a result, MATLAB is being used in a wide variety of domains from the natural sciences, through all disciplines of engineering, to finance, and beyond, and it is heavily used in industry. Hence, a solid background in MATLAB is an indispensable skill in today’s job market.",
+    "duration": "Approx. 35 hours to complete",
+    "instructors": [
+      "Akos Ledeczi"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn computer programming using MATLAB, a versatile language for engineers and professionals. Master writing programs for numerical problem-solving in various fields like science, engineering, and finance, gaining an indispensable skill for the job market.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546633b",
+    "prerequisites": [
+      "Basic computer literacy",
+      "High school level mathematics is helpful but not required"
+    ],
+    "price": "Free to audit; paid certificate available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computer Programming",
+      "Problem Solving",
+      "Matlab",
+      "Programming Language"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Programming with MATLAB",
+    "url": "https://www.coursera.org/learn/matlab",
+    "viewers": 16892
+  },
+  {
+    "category": "Data Science",
+    "description": "This course provides an introduction to basic computational methods for understanding what nervous systems do and for determining how they function. We will explore the computational principles governing various aspects of vision, sensory-motor control, learning, and memory. Specific topics that will be covered include representation of information by spiking neurons, processing of information in neural networks, and algorithms for adaptation and learning. We will make use of Matlab/Octave/Python demonstrations and exercises to gain a deeper understanding of concepts and methods introduced in the course. The course is primarily aimed at third- or fourth-year undergraduates and beginning graduate students, as well as professionals and distance learners interested in learning how the brain processes information.",
+    "duration": "Approx. 26 hours to complete",
+    "instructors": [
+      "Rajesh P. N. Rao"
+    ],
+    "language": "English",
+    "learning_outcomes": "Upon completion, you'll grasp computational methods for understanding nervous system function, explore computational principles in vision, sensory-motor control, learning, memory, and learn about information representation by spiking neurons and neural networks.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254663b5",
+    "prerequisites": [
+      "Basic calculus",
+      "Linear algebra",
+      "Some programming experience (e.g., Python, MATLAB/Octave)",
+      "Introductory neuroscience is helpful but not required"
+    ],
+    "price": "Variable (Coursera offers free audit, paid certificate)",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computational Neuroscience",
+      "Artificial Neural Network",
+      "Reinforcement Learning",
+      "Biological Neuron Model"
+    ],
+    "source_provider": "coursera",
+    "title": "Computational Neuroscience",
+    "url": "https://www.coursera.org/learn/computational-neuroscience",
+    "viewers": 1010
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "How can we create agile micro aerial vehicles that are able to operate autonomously in cluttered indoor and outdoor environments?  You will gain an introduction to the mechanics of flight and the design of quadrotor flying robots and will be able to develop dynamic models, derive controllers, and synthesize planners for operating in three dimensional environments.  You will be exposed to the challenges of using noisy sensors for localization and maneuvering in complex, three-dimensional environments.  Finally, you will gain insights through seeing real world examples of the possible applications and challenges for the rapidly-growing drone industry.",
+    "duration": "Approx. 17 hours to complete",
+    "instructors": [
+      "Vijay Kumar"
+    ],
+    "language": "English",
+    "learning_outcomes": "Students will learn mechanics of flight, quadrotor design, dynamic modeling, controller design, and path planning in 3D environments. They will also understand sensor challenges in localization and applications of drone technology.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546642b",
+    "prerequisites": [
+      "Calculus",
+      "Linear Algebra",
+      "Basic Physics or Engineering Principles",
+      "Familiarity with programming (e.g., Python or MATLAB) is helpful"
+    ],
+    "price": "Coursera offers a subscription-based model for accessing courses and specializations. Price varies.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Motion Planning",
+      "Robotics",
+      "Quadcoper",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Robotics: Aerial Robotics",
+    "url": "https://www.coursera.org/learn/robotics-flight?specialization=robotics",
+    "viewers": 2946
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Robotic systems typically include three components: a mechanism which is capable of exerting forces and torques on the environment, a perception system for sensing the world and a decision and control system which modulates the robot's behavior to achieve the desired ends.  In this course we will consider the problem of how a robot decides what to do to achieve its goals. This problem is often referred to as Motion Planning and it has been formulated in various ways to model different situations.  You will learn some of the most common approaches to addressing this problem including graph-based methods, randomized planners and artificial potential fields.  Throughout the course, we will discuss the aspects of the problem that make planning challenging.",
+    "duration": "Approx. 11 hours to complete",
+    "instructors": [
+      "CJ Taylor"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand motion planning problem formulations. Learn graph-based, randomized, and artificial potential field methods. Analyze challenges in robot planning and apply learned techniques to solve related problems.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546656b",
+    "prerequisites": "Basic programming knowledge (e.g., Python or MATLAB), linear algebra, calculus, and introductory robotics concepts are recommended.",
+    "price": "Coursera offers a free audit option. A certificate is available upon completion for a fee (Coursera Plus subscription or individual purchase).",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Motion Planning",
+      "Automated Planning And Scheduling",
+      "A* Search Algorithm",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Robotics: Computational Motion Planning",
+    "url": "https://www.coursera.org/learn/robotics-motion-planning?specialization=robotics",
+    "viewers": 1010
+  },
+  {
+    "category": "Data Science",
+    "description": "Welcome to Introduction to Data, Signal, and Image Analysis with MATLAB!     ",
+    "duration": "Approx. 23 hours to complete",
+    "instructors": [
+      "Jack Noble"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn to analyze data, signals, and images using MATLAB. Gain proficiency in signal processing techniques and image analysis methods. Apply these skills to solve real-world problems.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466609",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with mathematical concepts (linear algebra, calculus)",
+      "Some basic familiarity with data analysis is helpful"
+    ],
+    "price": "Free to audit, paid for certificate",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Data Analysis",
+      "Signal Processing",
+      "Image Analysis",
+      "MATLAB"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Data, Signal, and Image Analysis with MATLAB",
+    "url": "https://www.coursera.org/learn/matlab-image-processing?specialization=matlab-programming-engineers-scientists",
+    "viewers": 170
+  },
+  {
+    "category": "Math and Logic",
+    "description": "This course covers the most important numerical methods that an engineer should know, including root finding, matrix algebra, integration and interpolation, ordinary and partial differential equations. We learn how to use MATLAB to solve numerical problems, and access to MATLAB online and the MATLAB grader is given to all students who enroll.",
+    "duration": "Approx. 41 hours to complete",
+    "instructors": [
+      "Jeffrey R. Chasnov"
+    ],
+    "language": "English",
+    "learning_outcomes": "Apply numerical methods to solve engineering problems. Use MATLAB for root finding, matrix operations, integration, interpolation, and solving differential equations. Utilize the MATLAB grader for practice.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466675",
+    "prerequisites": [
+      "Calculus",
+      "Linear Algebra",
+      "Basic programming knowledge recommended"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Root Finding",
+      "Matrix Algebra",
+      "Integration",
+      "Interpolation",
+      "Ordinary Differential Equations",
+      "Partial Differential Equations",
+      "MATLAB"
+    ],
+    "source_provider": "coursera",
+    "title": "Numerical Methods for Engineers",
+    "url": "https://www.coursera.org/learn/numerical-methods-engineers?specialization=mathematics-engineers",
+    "viewers": 252
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "How can robots use their motors and sensors to move around in an unstructured environment?  You will understand how to design robot bodies and behaviors that recruit limbs and more general appendages to apply physical forces that confer reliable mobility in a complex and dynamic world.  We develop an approach to composing simple dynamical abstractions that partially automate the generation of complicated sensorimotor programs.  Specific topics that will be covered include: mobility in animals and robots, kinematics and dynamics of legged machines, and design of dynamical behavior via energy landscapes.",
+    "duration": "Approx. 19 hours to complete",
+    "instructors": [
+      "Daniel E. Koditschek"
+    ],
+    "language": "English",
+    "learning_outcomes": "Design robot bodies and behaviors for mobility in unstructured environments. Understand kinematics and dynamics of legged machines. Design dynamical behaviors via energy landscapes using sensorimotor programs.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546668f",
+    "prerequisites": "Calculus, linear algebra, basic physics, and introductory programming experience are recommended.",
+    "price": "Free to audit. Paid certificate available.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Serial Line Internet Protocol (SLIP)",
+      "Robotics",
+      "Robot",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Robotics: Mobility",
+    "url": "https://www.coursera.org/learn/robotics-mobility?specialization=robotics",
+    "viewers": 587
+  },
+  {
+    "category": "Computer Science",
+    "description": "This course teaches computer programming to those with little to no previous experience. It uses the programming system and language called MATLAB to do so because it is easy to learn, versatile and very useful for engineers and other professionals. MATLAB is a special-purpose language that is an excellent choice for writing moderate-size programs that solve problems involving the manipulation of numbers. The design of the language makes it possible to write a powerful program in a few lines. The problems may be relatively complex, while the MATLAB programs that solve them are relatively simple: relative, that is, to the equivalent program written in a general-purpose language, such as C++ or Java. As a result, MATLAB is being used in a wide variety of domains from the natural sciences, through all disciplines of engineering, to finance, and beyond, and it is heavily used in industry. Hence, a solid background in MATLAB is an indispensable skill in today’s job market.",
+    "duration": "Approx. 35 hours to complete",
+    "instructors": [
+      "Akos Ledeczi"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn fundamental computer programming concepts using MATLAB. Develop problem-solving skills and write MATLAB programs to manipulate numbers and solve engineering and scientific problems. Gain a solid foundation for industry applications.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254666f6",
+    "prerequisites": "No prior programming experience is required. Basic algebra skills are helpful.",
+    "price": "Coursera offers courses with options for free auditing or paid certificates. Check Coursera for current pricing.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computer Programming",
+      "Problem Solving",
+      "Matlab",
+      "Programming Language"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Programming with MATLAB",
+    "url": "https://www.coursera.org/learn/matlab?specialization=matlab-programming-engineers-scientists",
+    "viewers": 16892
+  },
+  {
+    "category": "Math and Logic",
+    "description": "Mathematics for Engineers: The Capstone Course provides a capstone project for students who are completing the Mathematics for Engineers specialization. Students will first learn some basic concepts in computational fluid dynamics, and then apply these concepts to compute the fluid flow around a cylinder.   Access to MATLAB online and the MATLAB grader is given to all students who enroll.  ",
+    "duration": "Approx. 9 hours to complete",
+    "instructors": [
+      "Jeffrey R. Chasnov"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn basic concepts in computational fluid dynamics. Apply these concepts using MATLAB to compute fluid flow around a cylinder, completing a capstone project for the Mathematics for Engineers specialization.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466700",
+    "prerequisites": [
+      "Calculus",
+      "Differential Equations",
+      "Basic programming knowledge"
+    ],
+    "price": "Free to audit, paid for certificate",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computational Fluid Dynamics",
+      "MATLAB",
+      "Fluid Flow Simulation"
+    ],
+    "source_provider": "coursera",
+    "title": "Mathematics for Engineers: The Capstone Course",
+    "url": "https://www.coursera.org/learn/mathematics-engineers-capstone?specialization=mathematics-engineers",
+    "viewers": 11
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "The capstone project of the Modern Robotics specialization is on mobile manipulation: simultaneously controlling the motion of a wheeled mobile base and its robot arm to achieve a manipulation task.  This project integrates several topics from the specialization, including trajectory planning, odometry for mobile robots, and feedback control.  Beginning from the Modern Robotics software library provided to you (written in Python, Mathematica, and MATLAB), and software you have written for previous courses, you will develop software to plan and control the motion of a mobile manipulator to perform a pick and place task.  You will test your software on the KUKA youBot, a mobile manipulator consisting of an omnidirectional mecanum-wheel mobile base, a 5-joint robot arm, and a gripper.  The state-of-the-art, cross-platform V-REP robot simulator will be used to simulate the task.",
+    "duration": "Approx. 20 hours to complete",
+    "instructors": [
+      "Kevin Lynch"
+    ],
+    "language": "English",
+    "learning_outcomes": "Develop software for motion planning and control of a mobile manipulator. Test the software on a simulated KUKA youBot to perform a pick and place task. Integrate trajectory planning, odometry, and feedback control concepts.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254667fb",
+    "prerequisites": [
+      "Completion of Modern Robotics Specialization Courses 1-5 or equivalent knowledge of robotics fundamentals, including kinematics, dynamics, control, and motion planning.",
+      "Proficiency in Python, Mathematica, or MATLAB."
+    ],
+    "price": "Part of a paid specialization, individual course price may vary.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Trajectory Planning",
+      "Odometry",
+      "Feedback Control",
+      "Mobile Robot Control",
+      "Robot Arm Control",
+      "Pick and Place Manipulation",
+      "Python",
+      "Mathematica",
+      "MATLAB",
+      "V-REP"
+    ],
+    "source_provider": "coursera",
+    "title": "Modern Robotics, Course 6:  Capstone Project, Mobile Manipulation",
+    "url": "https://www.coursera.org/learn/modernrobotics-course6?specialization=modernrobotics",
+    "viewers": 50
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "In this course, you will build on the skills acquired in Image Segmentation, Filtering, and Region Analysis to explore large sets of images and video files. It’s impractical to manually inspect results in large data sets. Automating image processing allows you to do your work more efficiently. ",
+    "duration": "Approx. 13 hours to complete",
+    "instructors": [
+      "Amanda  Wang"
+    ],
+    "language": "English",
+    "learning_outcomes": "Efficiently process large image and video datasets through automation. Learn to inspect results and streamline workflows, leveraging acquired skills in image processing tasks.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546685a",
+    "prerequisites": "Image Segmentation, Filtering, Region Analysis, basic programming knowledge (e.g., MATLAB or Python)",
+    "price": "Paid",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Image Processing",
+      "Object Detection",
+      "Matlab",
+      "video processing"
+    ],
+    "source_provider": "coursera",
+    "title": "Automating Image Processing",
+    "url": "https://www.coursera.org/learn/automating-image-processing?specialization=image-processing",
+    "viewers": 5000
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "In our 6 week Robotics Capstone, we will give you a chance to implement a solution for a real world problem based on the content you learnt from the courses  in your robotics specialization. It  will also give you a chance to use mathematical and programming methods that researchers use in robotics labs. ",
+    "duration": "Approx. 26 hours to complete",
+    "instructors": [
+      "Sid Deliwala"
+    ],
+    "language": "English",
+    "learning_outcomes": "Implement robotics solutions for real-world problems. Apply mathematical and programming methods used in robotics labs. Gain hands-on experience in robotics research and development using skills in Python, Raspberry Pi and MATLAB.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546694c",
+    "prerequisites": [
+      "Completion of introductory courses in robotics or equivalent knowledge",
+      "Familiarity with Python programming",
+      "Basic understanding of linear algebra and calculus"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Python Programming",
+      "Robotics",
+      "Raspberry Pi",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Robotics: Capstone",
+    "url": "https://www.coursera.org/learn/robotics-capstone?specialization=robotics",
+    "viewers": 108
+  },
+  {
+    "category": "Computer Science",
+    "description": "The course builds on the foundation laid by the first course of the Specialization called “Introduction to Programming with MATLAB.” It covers more advanced programming concepts such as recursion, vectorization, function handles, algorithm efficiency and others. At the same time, it presents many features that make MATLAB a powerful programming environment for engineering and scientific computing, such as  its support for object oriented programming, the new user interface design environment and Live Scripts.",
+    "duration": "Approx. 55 hours to complete",
+    "instructors": [
+      "Akos Ledeczi"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254669bf",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [],
+    "source_provider": "coursera",
+    "title": "Mastering Programming with MATLAB",
+    "url": "https://www.coursera.org/learn/advanced-matlab-programming?specialization=matlab-programming-engineers-scientists",
+    "viewers": 337
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "In this introduction to image processing, you'll take your first steps in accessing and adjusting digital images for analysis and processing. You will load, save, and adjust image size and orientation while also understanding how digital images are recognized. You will then perform basic segmentation and quantitative analysis. Lastly, you will enhance the contrast of images to make objects of interest easier to identify. ",
+    "duration": "Approx. 10 hours to complete",
+    "instructors": [
+      "Amanda  Wang"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466ae5",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Image Processing",
+      "Image Segmentation",
+      "Matlab"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Image Processing",
+    "url": "https://www.coursera.org/learn/introduction-image-processing?specialization=image-processing",
+    "viewers": 68
+  }
+]

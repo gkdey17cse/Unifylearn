@@ -1,0 +1,28 @@
+{
+  "user_query": "Show me some DATA SCIENCE course from UDacity",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T23:42:20.775069"
+}

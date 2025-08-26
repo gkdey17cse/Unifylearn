@@ -1,0 +1,184 @@
+{
+  "timestamp": "2025-08-26T23:39:41.575941",
+  "user_query": "so some coursera course in GEOGRAPHY",
+  "debug_info": {
+    "user_query": "so some coursera course in GEOGRAPHY",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bGEOGRAPHY\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bGEOGRAPHY\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bGEOGRAPHY\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bGEOGRAPHY\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bGEOGRAPHY\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bGEOGRAPHY\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bGEOGRAPHY\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bGEOGRAPHY\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bGEOGRAPHY\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bGEOGRAPHY\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466678",
+        "Title": "Strategic Management - Capstone Project",
+        "URL": "https://www.coursera.org/learn/businesscap?specialization=strategic-management",
+        "Short Intro": "In this capstone project course, we revisit the strategy controversy at e-Types, introduced in the first course in this specialization, Strategic Management, and further analysed in each of the subsequent courses, Strategy Formulation and Strategy Implementation. After revealing, examining, and analyzing what happened at e-Types, we turn to a new set of strategy cases that range in terms of company size, geography, and focus. For your final project, we ask YOU to apply everything you have learned in this specialization to analyze your choice of one of these four situations.",
+        "Category": "Business",
+        "Sub-Category": "Business Strategy",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Nicolai Pogrebnyakov",
+        "Rating": "4.6stars",
+        "Number of viewers": "320",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Strategic Management - Capstone Project",
+        "url": "https://www.coursera.org/learn/businesscap?specialization=strategic-management",
+        "description": "In this capstone project course, we revisit the strategy controversy at e-Types, introduced in the first course in this specialization, Strategic Management, and further analysed in each of the subsequent courses, Strategy Formulation and Strategy Implementation. After revealing, examining, and analyzing what happened at e-Types, we turn to a new set of strategy cases that range in terms of company size, geography, and focus. For your final project, we ask YOU to apply everything you have learned in this specialization to analyze your choice of one of these four situations.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Strategic Analysis",
+          "Case Study Analysis",
+          "Strategy Formulation",
+          "Strategy Implementation",
+          "Problem Solving",
+          "Decision Making"
+        ],
+        "instructors": [
+          "Nicolai Pogrebnyakov"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 320,
+        "prerequisites": [
+          "Completion of Strategic Management Specialization courses (Strategic Management, Strategy Formulation, Strategy Implementation) or equivalent knowledge of strategic management principles."
+        ],
+        "learning_outcomes": [
+          "Apply strategic management frameworks to analyze real-world business cases.",
+          "Evaluate and compare different strategic options.",
+          "Develop strategic recommendations based on case analysis.",
+          "Integrate learnings from previous courses to solve complex strategic challenges."
+        ],
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668cc",
+        "Title": "Financial Management Capstone",
+        "URL": "https://www.coursera.org/learn/financial-management-capstone?specialization=financial-management",
+        "Short Intro": "The Financial Management capstone will provide a learning experience that integrates across all the courses within this specialization. You will analyze a situation taking the vantage point of a company and develop a financial management plan (for instance, a global company working in a specific geography chosen by students’ region or country of residence, or other consideration). You will design a deliverable to create value from the perspective of potential employers while achieving pedagogical and experiential goals. ",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Financial Management,Risk Management,Financial Mismanagement,Financial Aid Management,",
+        "Instructors": "Jeff Flesher",
+        "Rating": "4.7stars",
+        "Number of viewers": "111",
+        "Duration": "Approx. 8 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Financial Management Capstone",
+        "url": "https://www.coursera.org/learn/financial-management-capstone?specialization=financial-management",
+        "description": "The Financial Management capstone will provide a learning experience that integrates across all the courses within this specialization. You will analyze a situation taking the vantage point of a company and develop a financial management plan (for instance, a global company working in a specific geography chosen by students’ region or country of residence, or other consideration). You will design a deliverable to create value from the perspective of potential employers while achieving pedagogical and experiential goals. ",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Financial Management",
+          "Risk Management",
+          "Financial Mismanagement",
+          "Financial Aid Management"
+        ],
+        "instructors": [
+          "Jeff Flesher"
+        ],
+        "duration": "Approx. 8 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 111,
+        "prerequisites": "Completion of introductory courses in finance, accounting, and financial management is recommended.",
+        "learning_outcomes": "Develop a financial management plan from a company's perspective. Analyze financial situations and design deliverables that create value for potential employers while achieving educational goals.",
+        "price": "Coursera offers courses for free or with a fee for certification. Check Coursera for current pricing.",
+        "provider": "Coursera"
+      }
+    }
+  ]
+}

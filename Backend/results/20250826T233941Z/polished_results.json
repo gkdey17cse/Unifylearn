@@ -1,0 +1,63 @@
+[
+  {
+    "category": "Business",
+    "description": "In this capstone project course, we revisit the strategy controversy at e-Types, introduced in the first course in this specialization, Strategic Management, and further analysed in each of the subsequent courses, Strategy Formulation and Strategy Implementation. After revealing, examining, and analyzing what happened at e-Types, we turn to a new set of strategy cases that range in terms of company size, geography, and focus. For your final project, we ask YOU to apply everything you have learned in this specialization to analyze your choice of one of these four situations.",
+    "duration": "Approx. 6 hours to complete",
+    "instructors": [
+      "Nicolai Pogrebnyakov"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Apply strategic management frameworks to analyze real-world business cases.",
+      "Evaluate and compare different strategic options.",
+      "Develop strategic recommendations based on case analysis.",
+      "Integrate learnings from previous courses to solve complex strategic challenges."
+    ],
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466678",
+    "prerequisites": [
+      "Completion of Strategic Management Specialization courses (Strategic Management, Strategy Formulation, Strategy Implementation) or equivalent knowledge of strategic management principles."
+    ],
+    "price": "Free to audit, paid certificate available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Strategic Analysis",
+      "Case Study Analysis",
+      "Strategy Formulation",
+      "Strategy Implementation",
+      "Problem Solving",
+      "Decision Making"
+    ],
+    "source_provider": "coursera",
+    "title": "Strategic Management - Capstone Project",
+    "url": "https://www.coursera.org/learn/businesscap?specialization=strategic-management",
+    "viewers": 320
+  },
+  {
+    "category": "Business",
+    "description": "The Financial Management capstone will provide a learning experience that integrates across all the courses within this specialization. You will analyze a situation taking the vantage point of a company and develop a financial management plan (for instance, a global company working in a specific geography chosen by students’ region or country of residence, or other consideration). You will design a deliverable to create value from the perspective of potential employers while achieving pedagogical and experiential goals. ",
+    "duration": "Approx. 8 hours to complete",
+    "instructors": [
+      "Jeff Flesher"
+    ],
+    "language": "English",
+    "learning_outcomes": "Develop a financial management plan from a company's perspective. Analyze financial situations and design deliverables that create value for potential employers while achieving educational goals.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254668cc",
+    "prerequisites": "Completion of introductory courses in finance, accounting, and financial management is recommended.",
+    "price": "Coursera offers courses for free or with a fee for certification. Check Coursera for current pricing.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Financial Management",
+      "Risk Management",
+      "Financial Mismanagement",
+      "Financial Aid Management"
+    ],
+    "source_provider": "coursera",
+    "title": "Financial Management Capstone",
+    "url": "https://www.coursera.org/learn/financial-management-capstone?specialization=financial-management",
+    "viewers": 111
+  }
+]

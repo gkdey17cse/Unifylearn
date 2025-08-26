@@ -1,0 +1,286 @@
+[
+  {
+    "category": "Data Science",
+    "description": "Start your data science journey right with this hands-on introduction to the discipline of data analysis. In this course you'll learn the 5 key stages of the data analysis process and apply them to real data sets using Python libraries NumPy, pandas, and Matplotlib.",
+    "duration": "1 month to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Data analysis is a rigorous discipline that can reveal illuminating insights, but a strong grasp of the fundamentals is essential to generating accurate, useful results",
+      "This hands-on course will teach you the industry-standard framework for analyzing data of any kind, and show you how to apply it using some of the most popular tools in data science"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d952",
+    "prerequisites": [
+      "Basic Python programming",
+      "Familiarity with command line"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Data Analysis",
+      "Python",
+      "NumPy",
+      "pandas",
+      "Matplotlib"
+    ],
+    "source_provider": "udacity",
+    "title": "Introduction to Data Analysis",
+    "url": "https://www.udacity.com/course/intro-to-data-analysis--cd0000",
+    "viewers": 5000
+  },
+  {
+    "category": "Programming",
+    "description": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+    "duration": "4 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn the basics of programming through HTML, CSS, Python, and JavaScript",
+      "Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8fc",
+    "prerequisites": [
+      "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Web Development",
+      "App Development",
+      "Programming Fundamentals"
+    ],
+    "source_provider": "udacity",
+    "title": "Learn to Code",
+    "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+    "viewers": 5000
+  },
+  {
+    "category": "Programming",
+    "description": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+    "duration": "4 months to complete",
+    "instructors": [
+      "Udacity Instructors"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn the basics of programming through HTML, CSS, Python, and JavaScript",
+      "Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d901",
+    "prerequisites": [
+      "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Web Development",
+      "App Development"
+    ],
+    "source_provider": "udacity",
+    "title": "Learn to Code",
+    "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+    "viewers": 5000
+  },
+  {
+    "category": "Data Science",
+    "description": "Prepare for a data science career by learning the fundamental data programming tools: R, SQL, command line, and git. ",
+    "duration": "3 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn the programming fundamentals required for a career in data science",
+      "By the end of the program, you will be able to use R, SQL, Command Line, and Git"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d943",
+    "prerequisites": [
+      "There are no prerequisites for this program, aside from basic computer skills"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "R",
+      "SQL",
+      "Command Line",
+      "Git",
+      "Data Programming"
+    ],
+    "source_provider": "udacity",
+    "title": "Programming for Data Science with R",
+    "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree-with-R--nd118",
+    "viewers": 5000
+  },
+  {
+    "category": "Business Strategy & Data Science",
+    "description": "Master the strategic decision-making skills for the people, platforms, and processes required to leverage the power of Data Science in your business.",
+    "duration": "4 - 8 Weeks to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "This course provides business leaders and managers with strategies and guidelines for how best to solve the human capital, technological, and management challenges of building data science into the business",
+      "Students will gain skills in identifying opportunities for data science across many functional areas of the business, as well as learn the tools to prioritize and execute on those opportunities as part of a data science initiative"
+    ],
+    "level": "Advanced",
+    "original_provider_id": "68ac0cf969e0bdd621a8d93b",
+    "prerequisites": [
+      "To optimize your chances of success in this Executive Program, we recommend prior exposure to statistics and probability, as well as experience in business decision-making in an IT or technical environment"
+    ],
+    "price": "Varies (Executive Program)",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Data Science Strategy",
+      "Data-Driven Decision Making",
+      "Data Science Team Leadership",
+      "Data Science Project Management",
+      "Technology Management",
+      "Business Acumen"
+    ],
+    "source_provider": "udacity",
+    "title": "Data Science for Business Leaders",
+    "url": "https://www.udacity.com/course/data-science-for-business-leaders--nd045",
+    "viewers": 5000
+  },
+  {
+    "category": "Data Science",
+    "description": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git. ",
+    "duration": "3 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn the programming fundamentals required for a career in data science",
+      "By the end of the program, you will be able to use Python, SQL, Command Line, and Git"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d905",
+    "prerequisites": [
+      "There are no prerequisites for this program, aside from basic computer skills"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Python",
+      "SQL",
+      "Command Line",
+      "Git"
+    ],
+    "source_provider": "udacity",
+    "title": "Programming for Data Science with Python",
+    "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+    "viewers": 10000
+  },
+  {
+    "category": "Data Science",
+    "description": "Gain real-world data science experience with projects designed by industry experts. Build your portfolio and advance your data science career. ",
+    "duration": "Estimated 4 months to complete",
+    "instructors": null,
+    "language": "English",
+    "learning_outcomes": [
+      "You’ll master the skills necessary to become a successful Data Scientist",
+      "You’ll work on projects designed by industry experts, and learn to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud",
+      "If you already have experience with machine learning, take this program"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d907",
+    "prerequisites": [
+      "We recommend students are familiar with machine learning concepts, like those in the Intro to Machine Learning Nanodegree Program",
+      "In addition, students should be familiar with Python programming, probability, and statistics"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Python",
+      "Machine Learning",
+      "Data Analysis",
+      "Data Pipelines",
+      "Experiment Design",
+      "Recommendation Systems",
+      "Cloud Deployment"
+    ],
+    "source_provider": "udacity",
+    "title": "How to Become a Data Scientist",
+    "url": "https://www.udacity.com/course/data-scientist-nanodegree--nd025",
+    "viewers": 5000
+  },
+  {
+    "category": "Programming",
+    "description": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+    "duration": "Estimated 2 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Python is a general-purpose coding language with applications in web development, data science, machine learning, fintech and more",
+      "The Intermediate Python Nanodegree program equips you to leverage the capabilities of Python and streamline the functionality of applications that perform complex tasks, such as classifying files, data mining a webpage, etc",
+      "By the end of the program, you’ll have a portfolio that demonstrates your ability to apply practicioner-level Python skills on the job"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d927",
+    "prerequisites": [
+      "Basic familiarity with programming in Python"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Python",
+      "Data Science",
+      "Machine Learning",
+      "Web Development",
+      "Data Mining",
+      "File Classification"
+    ],
+    "source_provider": "udacity",
+    "title": "Learn Intermediate Python",
+    "url": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+    "viewers": 5000
+  },
+  {
+    "category": "Data Science",
+    "description": "Learn two of the most in-demand skills in the entire field of data science! By the end of this course, you’ll know how to generate personalized recommendations based on user data, as well as run statistically valid tests that produce clean, interpretable results.",
+    "duration": "1 month to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "The world’s leading tech companies — including Amazon, Netflix, and Spotify — all use recommendation engines to engage their users and experiments to improve their products",
+      "In this course, you’ll get a comprehensive breakdown of the techniques and considerations that go into building these systems (including pitfalls that invalidate your results if you’re not careful",
+      "You’ll also complete two hands-on projects using real data from Starbucks and IBM’s Watson Studio platform"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d958",
+    "prerequisites": [
+      "Python, Statistics, Machine Learning"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Experimental Design",
+      "A/B Testing",
+      "Recommendation Systems",
+      "Statistical Analysis",
+      "Python",
+      "Machine Learning"
+    ],
+    "source_provider": "udacity",
+    "title": "Experimental Design & Recommendations",
+    "url": "https://www.udacity.com/course/experimental-design-and-recommendations--cd0019",
+    "viewers": 5000
+  }
+]

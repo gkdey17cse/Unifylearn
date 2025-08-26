@@ -8,18 +8,58 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .course-card {
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    .course-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Loader bounce delays */
+    .animate-bounce {
+      animation: bounce 1s infinite;
+    }
+
+    .delay-150 {
+      animation-delay: 0.15s;
+    }
+
+    .delay-300 {
+      animation-delay: 0.3s;
+    }
+  </style>
 </head>
 
-<body class="bg-gray-50 min-h-screen flex flex-col">
+<body class="bg-gray-50 min-h-screen flex flex-col relative">
 
-<<<<<<< HEAD
+  <!-- Loader -->
+  <div id="page-loader" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
+    <div class="flex flex-col items-center">
+      <div class="flex space-x-2">
+        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce"></div>
+        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce delay-150"></div>
+        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce delay-300"></div>
+      </div>
+      <p class="text-gray-700 font-semibold mt-4">Searching for courses...</p>
+    </div>
+  </div>
+
+  <!-- Back Button (only for timestamp pages) -->
+  <div id="back-button" class="absolute top-4 left-4 cursor-pointer text-gray-700 hover:text-purple-600 flex items-center space-x-2 hidden">
+    <i class="fas fa-arrow-left"></i>
+    <span class="font-semibold">Back</span>
+  </div>
+
   <!-- Navbar -->
   <nav class="bg-purple-600 shadow-md">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-2">
+      <a href="/" class="flex items-center space-x-2">
         <i class="fa-solid fa-graduation-cap text-white text-2xl"></i>
         <span class="text-xl font-bold text-white">UnifyLearn</span>
-      </div>
+      </a>
       <div class="hidden md:block text-purple-100">
         Intelligent cross-platform course discovery
       </div>
@@ -27,48 +67,78 @@
   </nav>
 
   <!-- Main -->
-  <main class="flex-1 container mx-auto px-4 py-10">
+  <main class="flex-1 w-full">
 
-    <!-- Hero Section -->
-    <div class="text-center max-w-3xl mx-auto mb-12">
-      <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter</h1>
-      <p class="text-gray-600 text-lg mb-6">
-        Use natural language queries to find the perfect courses across multiple learning platforms.
-        Just ask our chatbot — for example:
-        <span class="italic text-purple-600">"Show me beginner-friendly Python courses"</span>
-      </p>
+    <!-- Hero / Guide Section -->
+    <% if (!courses || courses.length === 0) { %>
+    <div class="container mx-auto px-4 py-10">
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter</h1>
+        <p class="text-gray-600 text-lg mb-6">
+          Use natural language queries to find the perfect courses across multiple learning platforms.
+          Just ask our chatbot — for example:
+          <span class="italic text-purple-600">"Show me beginner-friendly Python courses"</span>
+        </p>
 
-      <div class="flex flex-wrap justify-center gap-4 text-gray-700 text-sm">
-        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Coursera</span>
-        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Udemy</span>
-        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">FutureLearn</span>
-        <span class="px-4 py-2 bg-gray-200 text-gray-700 rounded-full">+ More</span>
+        <div class="flex flex-wrap justify-center gap-4 text-gray-700 text-sm">
+          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Coursera</span>
+          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Udemy</span>
+          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">FutureLearn</span>
+          <span class="px-4 py-2 bg-gray-200 text-gray-700 rounded-full">+ More</span>
+        </div>
       </div>
-=======
-  <!-- Main Content -->
-  <main class="container mx-auto px-4 py-8">
-    <div class="text-center mb-8">
-      <h1 class="text-3xl font-bold text-gray-800 pb-3">UnifyLearn: Intelligent Cross-Platform Course Discovery Engine</h1>
-      <p class="text-gray-600 py-2">Find the perfect online courses using natural language queries</p>
->>>>>>> 5612d5f968c7c89d201bd97f97e904587c9e79af
     </div>
+    <% } %>
 
     <!-- Chatbot -->
-    <div class="max-w-3xl mx-auto mb-12">
-      <%- include('partials/chatbot') %>
+    <div class="container mx-auto px-4">
+      <div class="max-w-3xl mx-auto mb-12">
+        <%- include('partials/chatbot') %>
+      </div>
     </div>
 
     <!-- Results Section -->
-    <section id="results-section">
-      <h2 class="text-2xl font-semibold text-gray-800 mb-6">Results</h2>
-      <div id="results-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <% /* Course cards will be rendered here dynamically */ %>
+    <section id="results-section" class="container mx-auto w-full px-4">
+      <% if (courses && courses.length > 0) { %>
+      <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Results</h2>
+      <div id="results-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
+        <% courses.forEach(course => { %>
+        <div class="course-card bg-white rounded-lg shadow-md overflow-hidden w-full max-w-sm flex flex-col">
+          <div class="p-6 flex flex-col h-full">
+            <h3 class="text-xl font-bold text-gray-800 mb-2"><%= course.title %></h3>
+            <p class="text-gray-600 mb-4 line-clamp-3"><%= course.description || 'No description available.' %></p>
+            <div class="flex items-center mb-3 flex-wrap gap-2">
+              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.duration || '' %></span>
+              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.level || '' %></span>
+              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.language || '' %></span>
+            </div>
+            <div class="flex justify-between items-center mb-4">
+              <span class="font-bold text-green-600"><%= course.price || 'Free' %></span>
+              <span class="text-sm text-gray-500"><%= course.viewers?.toLocaleString() || '0' %> viewers</span>
+            </div>
+            <div class="mb-4">
+              <p class="text-sm font-semibold text-gray-700 mb-2">Key Skills</p>
+              <div class="flex flex-wrap gap-2">
+                <% (course.skills || []).slice(0,4).forEach(skill => { %>
+                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded"><%= skill %></span>
+                <% }) %>
+                <% if (course.skills && course.skills.length > 4) { %>
+                <span class="text-xs text-gray-500">+<%= course.skills.length - 4 %> more</span>
+                <% } %>
+              </div>
+            </div>
+            <% if (course.url) { %>
+            <a href="<%= course.url %>" target="_blank" class="mt-auto w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded text-center">
+              View Course
+            </a>
+            <% } %>
+          </div>
+        </div>
+        <% }) %>
       </div>
-
-      <% if (loading) { %>
-      <div class="text-center py-12">
-        <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500 mb-4"></div>
-        <p class="text-gray-600">Searching for courses...</p>
+      <% } else { %>
+      <div class="text-center py-12 text-gray-500">
+        Enter a query in the chatbot above to find courses.
       </div>
       <% } %>
     </section>
@@ -84,6 +154,8 @@
   </script>
 
   <script type="module" src="/js/main.js"></script>
+  <script type="module" src="/js/chatbot.js"></script>
+
 </body>
 
 </html>
