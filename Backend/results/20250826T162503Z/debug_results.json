@@ -1,0 +1,834 @@
+{
+  "timestamp": "2025-08-26T16:25:03.750550",
+  "user_query": "so some course in Business Law",
+  "debug_info": {
+    "user_query": "so some course in Business Law",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 6,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 6,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bsome\\ business\\ law\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466146",
+        "Title": "European Business Law  Specialization",
+        "URL": "https://www.coursera.org/specializations/european-business-law",
+        "Short Intro": "Launch your career in Europe. Master the essentials in European Business Law.",
+        "Category": "Social Sciences",
+        "Sub-Category": "Law",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Compete on the Internal Market, Legal Research, Law, Business Law, Foreign Policy, ",
+        "Instructors": "Hans Henrik Lidgard ,Xavier Groussot ,Julian Nowag ,Anna Wiberg ,Eduardo Gill Pedro ,Angelica Ericsson ,Magnus Schmauch ,Annegret Engel ,Mia Rönnmar  ,Cécile Brokelind ,Sanja Bogojevic ,Michael Bogdan ,Niklas Arvidsson ,Jörgen Hettne ,Justin Pierce ,Ulf Maunsbach ,",
+        "Rating": "4.9stars",
+        "Number of viewers": "279",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law  Specialization",
+        "url": "https://www.coursera.org/specializations/european-business-law",
+        "description": "Launch your career in Europe. Master the essentials in European Business Law.",
+        "category": "Social Sciences",
+        "language": "English",
+        "skills": [
+          "Compete on the Internal Market",
+          "Legal Research",
+          "Law",
+          "Business Law",
+          "Foreign Policy"
+        ],
+        "instructors": [
+          "Hans Henrik Lidgard",
+          "Xavier Groussot",
+          "Julian Nowag",
+          "Anna Wiberg",
+          "Eduardo Gill Pedro",
+          "Angelica Ericsson",
+          "Magnus Schmauch",
+          "Annegret Engel",
+          "Mia Rönnmar",
+          "Cécile Brokelind",
+          "Sanja Bogojevic",
+          "Michael Bogdan",
+          "Niklas Arvidsson",
+          "Jörgen Hettne",
+          "Justin Pierce",
+          "Ulf Maunsbach"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 279,
+        "prerequisites": "Basic understanding of legal concepts and business principles recommended.",
+        "learning_outcomes": "Master essential aspects of European business law to launch a career in Europe. Learn to navigate the internal market and understand relevant legal frameworks.",
+        "price": "Coursera subscription required",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546622e",
+        "Title": "Corporate & Commercial Law I: Contracts & Employment Law",
+        "URL": "https://www.coursera.org/learn/corporate-commercial-law-part1",
+        "Short Intro": "This class deals with the business law topics that appear on the CPA exam: Agency, Contracts, Debtor-Creditor Relationships, Government Regulation of Business, and Business Organizations. Students will gain an understanding of how these areas of the law affect businesses and their operations, with an eye on preparation for the business law portions of the REG section of the CPA exam. By the end of the class, students will be able to identify the legal principles that govern various business situations and apply those principles to an issue to determine the outcome when the law is applied to the facts of a scenario.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Professor Michael R Fricke",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,081",
+        "Duration": "Approx. 23 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Corporate & Commercial Law I: Contracts & Employment Law",
+        "url": "https://www.coursera.org/learn/corporate-commercial-law-part1",
+        "description": "This class deals with the business law topics that appear on the CPA exam: Agency, Contracts, Debtor-Creditor Relationships, Government Regulation of Business, and Business Organizations. Students will gain an understanding of how these areas of the law affect businesses and their operations, with an eye on preparation for the business law portions of the REG section of the CPA exam. By the end of the class, students will be able to identify the legal principles that govern various business situations and apply those principles to an issue to determine the outcome when the law is applied to the facts of a scenario.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Agency Law",
+          "Contract Law",
+          "Debtor-Creditor Relationships",
+          "Government Regulation of Business",
+          "Business Organizations",
+          "Legal Principles",
+          "Legal Analysis",
+          "CPA Exam Preparation (REG Section)"
+        ],
+        "instructors": [
+          "Professor Michael R Fricke"
+        ],
+        "duration": "Approx. 23 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1081,
+        "prerequisites": [
+          "Basic understanding of business principles is helpful, but not required.",
+          "Familiarity with legal terminology is an advantage."
+        ],
+        "learning_outcomes": "Identify legal principles governing business situations. Apply these principles to analyze scenarios and determine legal outcomes. Prepare for the business law portion of the CPA exam (REG section).",
+        "price": "Coursera offers courses with a free audit option; however, a fee applies for certification.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466447",
+        "Title": "European Business Law: Competing in Europe",
+        "URL": "https://www.coursera.org/learn/eu-competition-law?specialization=european-business-law",
+        "Short Intro": "About this Course",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Hans Henrik Lidgard",
+        "Rating": "4.8stars",
+        "Number of viewers": "274",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law: Competing in Europe",
+        "url": "https://www.coursera.org/learn/eu-competition-law?specialization=european-business-law",
+        "description": "About this Course",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "European Union Law",
+          "Competition Law",
+          "Business Strategy",
+          "Legal Compliance",
+          "Market Analysis"
+        ],
+        "instructors": [
+          "Hans Henrik Lidgard"
+        ],
+        "duration": "Approx. 15 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 274,
+        "prerequisites": [
+          "Basic understanding of business principles",
+          "Interest in legal frameworks",
+          "Familiarity with economic concepts (recommended)"
+        ],
+        "learning_outcomes": "Understand EU competition law, including antitrust regulations and merger control. Learn to analyze market structures, assess competitive impacts, and develop compliant business strategies within the European market.",
+        "price": "Paid",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254664fa",
+        "Title": "European Business Law: Understanding the Fundamentals",
+        "URL": "https://www.coursera.org/learn/european-law-fundamentals?specialization=european-business-law",
+        "Short Intro": "The European Union is one of the world’s largest and most important economies. This six week course is the first in a series of three that will provide students with an insight into European Business Law. The series ranges from considering the basic structures and principles of the European Union to focusing on various specialized areas of law. Each course will give the students an understanding of the laws and policies that regulate the internal market of European Union, as well as relevant case law and useful inputs from leading practitioners in the field. ",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Foreign Policy,Law,Legal Research,Business Law,",
+        "Instructors": "Hans Henrik Lidgard",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,228",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law: Understanding the Fundamentals",
+        "url": "https://www.coursera.org/learn/european-law-fundamentals?specialization=european-business-law",
+        "description": "The European Union is one of the world’s largest and most important economies. This six week course is the first in a series of three that will provide students with an insight into European Business Law. The series ranges from considering the basic structures and principles of the European Union to focusing on various specialized areas of law. Each course will give the students an understanding of the laws and policies that regulate the internal market of European Union, as well as relevant case law and useful inputs from leading practitioners in the field. ",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Foreign Policy",
+          "Law",
+          "Legal Research",
+          "Business Law"
+        ],
+        "instructors": [
+          "Hans Henrik Lidgard"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1228,
+        "prerequisites": "Basic understanding of business concepts and an interest in international economics and law are recommended.",
+        "learning_outcomes": "Understand the basic structures and principles of the European Union, the laws and policies regulating its internal market, and relevant case law. Gain insights from leading practitioners in the field.",
+        "price": "Coursera offers both free audit options and paid certificate options. Cost varies by subscription or individual purchase.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466ad7",
+        "Title": "European Business Law: Doing Business in Europe",
+        "URL": "https://www.coursera.org/learn/eu-law-doing-business?specialization=european-business-law",
+        "Short Intro": "This six-week course titled Doing Business in Europe is the second in a series of three exploring some of the main business aspects of European Union law. Besides providing learners with a sound knowledge base of European laws and regulations relevant to establishing and managing a company within the European Union, the course also explores business considerations within a broader perspective by including inputs from leading law practitioners in the field. More specifically, the course discusses strategic and financial considerations within Company law, as well as Labour law issues such as restructuring enterprises, working conditions and handling crises situations. The course also examines other legal areas such as Tax law, Environmental law and Private International law, and how they tie in to doing business in Europe.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Julian Nowag",
+        "Rating": "4.8stars",
+        "Number of viewers": "505",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law: Doing Business in Europe",
+        "url": "https://www.coursera.org/learn/eu-law-doing-business?specialization=european-business-law",
+        "description": "This six-week course titled Doing Business in Europe is the second in a series of three exploring some of the main business aspects of European Union law. Besides providing learners with a sound knowledge base of European laws and regulations relevant to establishing and managing a company within the European Union, the course also explores business considerations within a broader perspective by including inputs from leading law practitioners in the field. More specifically, the course discusses strategic and financial considerations within Company law, as well as Labour law issues such as restructuring enterprises, working conditions and handling crises situations. The course also examines other legal areas such as Tax law, Environmental law and Private International law, and how they tie in to doing business in Europe.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "European Union Law",
+          "Company Law",
+          "Labour Law",
+          "Tax Law",
+          "Environmental Law",
+          "Private International Law",
+          "Business Strategy",
+          "Financial Considerations",
+          "Restructuring Enterprises",
+          "Crisis Management"
+        ],
+        "instructors": [
+          "Julian Nowag"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 505,
+        "prerequisites": [
+          "Basic understanding of business principles",
+          "Familiarity with legal concepts is helpful but not required"
+        ],
+        "learning_outcomes": "Gain knowledge of EU laws relevant to managing a company within the EU, including Company, Labour, Tax, and Environmental Law. Explore business considerations, financial strategies, and crisis handling within the European legal framework.",
+        "price": "Paid",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68ab78d33eb917f23db49180",
+        "Title": "European Business Law Specialization",
+        "URL": "https://www.coursera.org/specializations/european-business-law",
+        "Short Intro": "The European Union is one of the world's largest and most important economies. This specialization is a 3-course bundle that will teach learners the fundamentals of European Business Law.",
+        "Category": "Law",
+        "Sub-Category": "Social Science & Law",
+        "Course Type": "Beginner",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Chinese (Simplified)",
+        "Skills": "Regulation and Legal Compliance , Legal Research , Business , Intellectual Property , Tax Laws , Competitive Analysis , International Relations , European History , Labor Law , Legal , Writing , Case Law , Legal Strategy",
+        "Instructors": "Vijay Kumar ,CJ Taylor ,Daniel E. Koditschek ,Kostas Daniilidis ,Jianbo Shi ,Daniel Lee ,Sid Deliwala ,",
+        "Rating": "4.5stars",
+        "Number of viewers": "7,667",
+        "Duration": "Approximately 2 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "European Business Law Specialization",
+        "url": "https://www.coursera.org/specializations/european-business-law",
+        "description": "The European Union is one of the world's largest and most important economies. This specialization is a 3-course bundle that will teach learners the fundamentals of European Business Law.",
+        "category": "Law",
+        "language": "English",
+        "skills": [
+          "Regulation and Legal Compliance",
+          "Legal Research",
+          "Business",
+          "Intellectual Property",
+          "Tax Laws",
+          "Competitive Analysis",
+          "International Relations",
+          "European History",
+          "Labor Law",
+          "Legal",
+          "Writing",
+          "Case Law",
+          "Legal Strategy"
+        ],
+        "instructors": [
+          "Vijay Kumar",
+          "CJ Taylor",
+          "Daniel E. Koditschek",
+          "Kostas Daniilidis",
+          "Jianbo Shi",
+          "Daniel Lee",
+          "Sid Deliwala"
+        ],
+        "duration": "Approximately 2 months to complete",
+        "site": "Coursera",
+        "level": "Beginner",
+        "viewers": 7667,
+        "prerequisites": "Basic understanding of legal concepts and business principles is recommended.",
+        "learning_outcomes": "Gain a fundamental understanding of European Business Law, including key regulations and legal frameworks within the European Union's economic system.",
+        "price": "Subscription based on Coursera",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4f4",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "35 Courses",
+        "Topics related to CRM": "Business Strategy / Construction / CRM / Decision-making / Entrepreneurship / Excel / Finance & Accounting / Fundraising / HR / Innovation / Logistics / Management & Leadership / Marketing / Professional Development / Business Strategy / Construction / CRM / Decision-making / Entrepreneurship / Excel / Finance & Accounting / Fundraising / HR / Innovation / Logistics / Management & Leadership / Marketing / Professional Development / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law and Business",
+        "language": "English",
+        "skills": [
+          "Business Law Fundamentals",
+          "Legal System Understanding"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 1000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": [
+          "Understand business law fundamentals and the importance of legal knowledge for professionals. Gain insights into the legal system's relevance in various business contexts."
+        ],
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c6b4",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "39 Courses",
+        "Topics related to CRM": "Design / Innovation / Marketing / Music / Photography & Visual Arts / Sustainability / Writing / Design / Innovation / Marketing / Music / Photography & Visual Arts / Sustainability / Writing / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "FAQs": "What jobs are there in fashion? /How big is the fashion industry? /Can I study fashion online? /Will I gain any fashion certifications? /How do I start a career in fashion? /",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business Law, Fashion",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business Management",
+          "Brand Management",
+          "Legal Requirements",
+          "Entrepreneurship"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic understanding of business principles recommended but not required."
+        ],
+        "learning_outcomes": "Gain knowledge of business laws and requirements for starting, running, and expanding a fashion brand, regardless of size. Understand legal aspects of the fashion industry.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ccec",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law and Business",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Legal System Fundamentals",
+          "Professional Ethics"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Understand the core principles of business law. Learn how the legal system impacts business professionals. Discover the importance of legal knowledge in various professional settings.",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ce7e",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business Law, Fashion Industry",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business",
+          "Brand Management",
+          "Legal Requirements"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 500,
+        "prerequisites": [
+          "Basic understanding of business concepts or an interest in the fashion industry."
+        ],
+        "learning_outcomes": "Understand business laws for starting, running, and expanding a fashion brand. Learn legal requirements for businesses in the fashion industry, regardless of size.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2f3",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law and Business",
+        "language": "English",
+        "skills": [
+          "Legal System",
+          "Business Law",
+          "Contract Law",
+          "Legal Principles"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 10000,
+        "prerequisites": [
+          "None",
+          "Basic understanding of business concepts (optional)"
+        ],
+        "learning_outcomes": "Understand fundamental business law principles and how the legal system impacts business operations. Learn about contracts, intellectual property, and other key legal areas relevant to professionals in various industries.",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2e6",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business Law, Fashion",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business",
+          "Brand Management",
+          "Entrepreneurship"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic understanding of business principles",
+          "Interest in the fashion industry"
+        ],
+        "learning_outcomes": "Understand business laws relevant to fashion. Learn the requirements for starting, running, and expanding a fashion brand. Gain knowledge applicable to fashion businesses of all sizes.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    }
+  ]
+}

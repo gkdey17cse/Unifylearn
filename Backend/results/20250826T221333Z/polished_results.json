@@ -1,0 +1,486 @@
+[
+  {
+    "title": "Introduction to Data Analysis",
+    "url": "https://www.udacity.com/course/intro-to-data-analysis--cd0000",
+    "description": "Start your data science journey right with this hands-on introduction to the discipline of data analysis. In this course you'll learn the 5 key stages of the data analysis process and apply them to real data sets using Python libraries NumPy, pandas, and Matplotlib.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Analysis",
+      "Python",
+      "NumPy",
+      "pandas",
+      "Matplotlib"
+    ],
+    "instructors": [],
+    "duration": "1 month to complete",
+    "site": "Udacity",
+    "level": "Beginner",
+    "viewers": 5000,
+    "prerequisites": [
+      "Basic Python programming knowledge"
+    ],
+    "learning_outcomes": [
+      "Data analysis is a rigorous discipline that can reveal illuminating insights, but a strong grasp of the fundamentals is essential to generating accurate, useful results",
+      "This hands-on course will teach you the industry-standard framework for analyzing data of any kind, and show you how to apply it using some of the most popular tools in data science"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d952",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Learn to Code",
+    "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+    "description": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+    "category": "Programming",
+    "language": "English",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Web Development",
+      "App Development",
+      "Problem-Solving"
+    ],
+    "instructors": null,
+    "duration": "4 months to complete",
+    "site": "Udacity",
+    "level": "Beginner",
+    "viewers": 10000,
+    "prerequisites": [
+      "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward"
+    ],
+    "learning_outcomes": [
+      "Learn the basics of programming through HTML, CSS, Python, and JavaScript",
+      "Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8fc",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Learn to Code",
+    "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+    "description": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+    "category": "Programming",
+    "language": "English",
+    "skills": [
+      "HTML",
+      "CSS",
+      "Python",
+      "JavaScript",
+      "Web Development",
+      "App Development"
+    ],
+    "instructors": [],
+    "duration": "4 months to complete",
+    "site": "Udacity",
+    "level": "Beginner",
+    "viewers": 5000,
+    "prerequisites": [
+      "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward"
+    ],
+    "learning_outcomes": [
+      "Learn the basics of programming through HTML, CSS, Python, and JavaScript",
+      "Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d901",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Programming for Data Science with R",
+    "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree-with-R--nd118",
+    "description": "Prepare for a data science career by learning the fundamental data programming tools: R, SQL, command line, and git. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "R",
+      "SQL",
+      "Command Line",
+      "Git",
+      "Data Programming"
+    ],
+    "instructors": [],
+    "duration": "3 months to complete",
+    "site": "Udacity",
+    "level": "Beginner",
+    "viewers": 5000,
+    "prerequisites": [
+      "There are no prerequisites for this program, aside from basic computer skills"
+    ],
+    "learning_outcomes": [
+      "Learn the programming fundamentals required for a career in data science",
+      "By the end of the program, you will be able to use R, SQL, Command Line, and Git"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d943",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Data Science for Business Leaders",
+    "url": "https://www.udacity.com/course/data-science-for-business-leaders--nd045",
+    "description": "Master the strategic decision-making skills for the people, platforms, and processes required to leverage the power of Data Science in your business.",
+    "category": "Business Strategy & Data Science",
+    "language": "English",
+    "skills": [
+      "Data Science Strategy",
+      "Data Science Management",
+      "Data Science Prioritization",
+      "Strategic Decision-Making",
+      "Data Science Initiative Execution"
+    ],
+    "instructors": [],
+    "duration": "4 - 8 Weeks to complete",
+    "site": "Udacity",
+    "level": "Intermediate to Advanced",
+    "viewers": 5000,
+    "prerequisites": [
+      "To optimize your chances of success in this Executive Program, we recommend prior exposure to statistics and probability, as well as experience in business decision-making in an IT or technical environment"
+    ],
+    "learning_outcomes": [
+      "This course provides business leaders and managers with strategies and guidelines for how best to solve the human capital, technological, and management challenges of building data science into the business",
+      "Students will gain skills in identifying opportunities for data science across many functional areas of the business, as well as learn the tools to prioritize and execute on those opportunities as part of a data science initiative"
+    ],
+    "price": "Varies",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d93b",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Programming for Data Science with Python",
+    "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+    "description": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Python",
+      "SQL",
+      "Command Line",
+      "Git"
+    ],
+    "instructors": [],
+    "duration": "3 months to complete",
+    "site": "Udacity",
+    "level": "Beginner",
+    "viewers": 5000,
+    "prerequisites": [
+      "There are no prerequisites for this program, aside from basic computer skills"
+    ],
+    "learning_outcomes": [
+      "Learn the programming fundamentals required for a career in data science",
+      "By the end of the program, you will be able to use Python, SQL, Command Line, and Git"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d905",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "How to Become a Data Scientist",
+    "url": "https://www.udacity.com/course/data-scientist-nanodegree--nd025",
+    "description": "Gain real-world data science experience with projects designed by industry experts. Build your portfolio and advance your data science career. ",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Data Pipelines",
+      "Experiment Design",
+      "Recommendation Systems",
+      "Cloud Deployment",
+      "Machine Learning",
+      "Python",
+      "Statistics",
+      "Probability"
+    ],
+    "instructors": [],
+    "duration": "Estimated 4 months to complete",
+    "site": "Udacity",
+    "level": "Advanced",
+    "viewers": 5000,
+    "prerequisites": [
+      "We recommend students are familiar with machine learning concepts, like those in the Intro to Machine Learning Nanodegree Program",
+      "In addition, students should be familiar with Python programming, probability, and statistics"
+    ],
+    "learning_outcomes": [
+      "You’ll master the skills necessary to become a successful Data Scientist",
+      "You’ll work on projects designed by industry experts, and learn to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud",
+      "If you already have experience with machine learning, take this program"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d907",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Learn Intermediate Python",
+    "url": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+    "description": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+    "category": "Programming",
+    "language": "English",
+    "skills": [
+      "Python",
+      "Data Science",
+      "Machine Learning",
+      "Web Development",
+      "Data Mining"
+    ],
+    "instructors": [],
+    "duration": "Estimated 2 months to complete",
+    "site": "Udacity",
+    "level": "Intermediate",
+    "viewers": 5000,
+    "prerequisites": [
+      "Basic familiarity with programming in Python"
+    ],
+    "learning_outcomes": [
+      "Python is a general-purpose coding language with applications in web development, data science, machine learning, fintech and more",
+      "The Intermediate Python Nanodegree program equips you to leverage the capabilities of Python and streamline the functionality of applications that perform complex tasks, such as classifying files, data mining a webpage, etc",
+      "By the end of the program, you’ll have a portfolio that demonstrates your ability to apply practicioner-level Python skills on the job"
+    ],
+    "price": "Variable",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d927",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Experimental Design & Recommendations",
+    "url": "https://www.udacity.com/course/experimental-design-and-recommendations--cd0019",
+    "description": "Learn two of the most in-demand skills in the entire field of data science! By the end of this course, you’ll know how to generate personalized recommendations based on user data, as well as run statistically valid tests that produce clean, interpretable results.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Experimental Design",
+      "A/B Testing",
+      "Statistical Analysis",
+      "Recommendation Systems",
+      "Machine Learning",
+      "Python"
+    ],
+    "instructors": [],
+    "duration": "1 month to complete",
+    "site": "Udacity",
+    "level": "Intermediate",
+    "viewers": 5000,
+    "prerequisites": [
+      "Python, Statistics, Machine Learning"
+    ],
+    "learning_outcomes": [
+      "The world’s leading tech companies — including Amazon, Netflix, and Spotify — all use recommendation engines to engage their users and experiments to improve their products",
+      "In this course, you’ll get a comprehensive breakdown of the techniques and considerations that go into building these systems (including pitfalls that invalidate your results if you’re not careful",
+      "You’ll also complete two hands-on projects using real data from Starbucks and IBM’s Watson Studio platform"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "original_provider_id": "68ac0cf969e0bdd621a8d958",
+    "source_provider": "udacity"
+  },
+  {
+    "title": "Ranked No.1 Data Science Program by Economic Times",
+    "url": "https://www.simplilearn.com/pgp-data-science-certification-bootcamp-program?tag=",
+    "description": "The #1 ranked Post Graduate in Data Science program by ET is here â€” the PG in Data Science, in partnership with Purdue University & in collaboration with IBM. The program features masterclasses by Purdue faculty & IBM experts, exclusive hackathons, & Ask Me Anything sessions by IBM.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 757,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "Not specified in provided data",
+    "site": "Simplilearn",
+    "level": "Post Graduate",
+    "viewers": "1000+",
+    "prerequisites": "Bachelor's degree in a quantitative field (e.g., mathematics, statistics, computer science, engineering) or relevant work experience.",
+    "learning_outcomes": "Master data science through Purdue faculty masterclasses, IBM expert sessions, exclusive hackathons, and IBM AMA sessions. Gain practical skills and industry insights.",
+    "price": "Not specified in provided data",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7b3",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Caltech Post Graduate Program in Data Science",
+    "url": "https://www.simplilearn.com/post-graduate-program-data-science?tag=",
+    "description": "Learn to make data-driven decisions with this PG in Data Science, built and delivered in partnership with Caltech CTME and IBM. Designed for working professionals, the program features masterclasses by Caltech faculty & IBM experts, with exclusive hackathons and Ask Me Anything sessions by IBM.",
+    "category": "Simplilearn",
+    "language": " Times Higher Education",
+    "skills": 8583,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "6-12 months (estimated, based on similar programs)",
+    "site": "Simplilearn",
+    "level": "Caltech is Ranked #4 in Best Universities in the US by Times Higher Education",
+    "viewers": "1000+ (estimated)",
+    "prerequisites": "Bachelor's degree, basic programming knowledge, and foundational understanding of statistics.",
+    "learning_outcomes": "Make data-driven decisions, gain expertise from Caltech faculty and IBM experts, and participate in exclusive hackathons and Ask Me Anything sessions.",
+    "price": "Variable (Check Simplilearn website for current pricing)",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7be",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Best Data Science Course in India",
+    "url": "https://www.simplilearn.com/iitk-professional-certificate-course-data-science?tag=",
+    "description": "Stay ahead of the Data Science curve with this Best Data Science course in India. Master essential Data Science skills through applied learning with live classes by industry experts, asynchronous videos, hands-on labs, and masterclasses from distinguished IIT Kanpur faculty.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 8583,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "6-12 months (Estimated, based on similar Simplilearn courses)",
+    "site": "Simplilearn",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": "Basic programming knowledge (Python preferred), understanding of statistics and mathematics concepts.",
+    "learning_outcomes": "Master data science skills through applied learning, live classes, asynchronous videos, hands-on labs, and masterclasses from IIT Kanpur faculty.",
+    "price": "Variable (Check Simplilearn website)",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7d3",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Data Science for Business Decisions",
+    "url": "https://www.simplilearn.com/data-science-for-business-decisions-program?tag=",
+    "description": "Data Science plays a major role in supporting organizations in making strategic business decisions. Learn this in-demand skill set and turn yourself into a data-driven decision-maker to optimize the performance of your organization.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 8583,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "To be determined from the Simplilearn website",
+    "site": "Simplilearn",
+    "level": "Beginner to Intermediate",
+    "viewers": "5000+",
+    "prerequisites": "Basic understanding of business concepts and familiarity with spreadsheets.",
+    "learning_outcomes": "Learn how Data Science supports strategic business decisions. Gain in-demand skills to become a data-driven decision-maker and optimize organizational performance.",
+    "price": "To be determined from the Simplilearn website",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7d7",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Data Science Bootcamp",
+    "url": "https://www.simplilearn.com/data-science-bootcamp?tag=",
+    "description": "Learn to make data-driven decisions with this Data Science Bootcamp delivered through live-interactive sessions. Designed for working professionals, the program features masterclasses by distinguished Caltech instructors, interactive capstone projects, and office hours._x000D_\n",
+    "category": "Simplilearn",
+    "language": " Times Higher Education",
+    "skills": 8583,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "6 months",
+    "site": "Simplilearn",
+    "level": "Caltech is Ranked #1 in Best Universities in the US by Times Higher Education",
+    "viewers": 5000,
+    "prerequisites": [
+      "Basic programming knowledge (Python preferred)",
+      "Familiarity with statistics and probability",
+      "High school level mathematics"
+    ],
+    "learning_outcomes": "Learn to make data-driven decisions using live-interactive sessions and masterclasses by Caltech instructors. Work on interactive capstone projects to apply acquired knowledge and participate in office hours.",
+    "price": "USD 1499",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7d9",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Data Scientist",
+    "url": "https://www.simplilearn.com/",
+    "description": "This IBM-sponsored Data Science course includes unique hackathons, masterclasses, webinars, and Ask-Me-Anything sessions. The online training will give you hands-on experience with R, Python, Machine Learning, Tableau, Hadoop, and Spark. Improve your knowledge with this Data Science course and live interaction with other practitioners and Machine Learning Engineers.",
+    "category": "Simplilearn",
+    "language": " Career Karma",
+    "skills": [
+      "R",
+      "Python",
+      "Machine Learning",
+      "Tableau",
+      "Hadoop",
+      "Spark"
+    ],
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "duration": "6-12 months (estimated, needs verification from Simplilearn)",
+    "site": "Simplilearn",
+    "level": "Ranked #1 Best Data Science Course by Career Karma",
+    "viewers": "1000+ (estimated)",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Understanding of statistics",
+      "Familiarity with data concepts"
+    ],
+    "learning_outcomes": "Gain hands-on experience with R, Python, Machine Learning, Tableau, Hadoop, and Spark. Enhance knowledge through live interaction with practitioners and Machine Learning Engineers, improving overall data science capabilities.",
+    "price": "Varies (check Simplilearn website)",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7e0",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Artificial Intelligence Engineer",
+    "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+    "description": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+    "category": "Simplilearn",
+    "language": " Career Karma",
+    "skills": [],
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "duration": "",
+    "site": "",
+    "level": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+    "viewers": 0,
+    "prerequisites": [],
+    "learning_outcomes": [],
+    "price": "",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7e8",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Data Science with R Certification Course",
+    "url": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+    "description": "Simplilearnâ€™s Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 53626,
+    "instructors": [
+      "Big Data Analytics"
+    ],
+    "duration": "Not specified in description, check website",
+    "site": "Simplilearn",
+    "level": "Intermediate",
+    "viewers": "1000+",
+    "prerequisites": "Basic programming knowledge and understanding of statistical concepts recommended.",
+    "learning_outcomes": "Become an expert in data analytics using R programming. Develop job-ready data science skills to analyze data and make informed business decisions through a cutting-edge curriculum.",
+    "price": "Not specified in description, check website",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7f7",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Data Science with Python Course",
+    "url": "https://www.simplilearn.com/big-data-and-analytics/python-for-data-science-training?tag=",
+    "description": "This Data Science with Python course gives you a complete overview of Pythonâ€™s data analytics tools and techniques. Learning python is a crucial skill for many data science roles, and you can develop it with this Python data science course. With a blended learning approach, you can learn Python for data science along with concepts like data wrangling, mathematical computing, and more. Unlock your career as a data scientist with Simplilearnâ€™s Data Science with Python training.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 48619,
+    "instructors": [
+      "Big Data Analytics"
+    ],
+    "duration": "Self-Paced Learning",
+    "site": "Simplilearn",
+    "level": "Intermediate",
+    "viewers": 500,
+    "prerequisites": "Basic programming knowledge, familiarity with statistical concepts.",
+    "learning_outcomes": "Learn Python's data analytics tools, data wrangling, and mathematical computing techniques. Develop skills crucial for data science roles and unlock your career as a data scientist.",
+    "price": "Varies, check Simplilearn website",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7f9",
+    "source_provider": "simplilearn"
+  }
+]

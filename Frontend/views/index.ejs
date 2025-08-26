@@ -10,29 +10,56 @@
   <link rel="stylesheet" href="/css/style.css">
 </head>
 
-<body class="bg-gray-100 min-h-screen">
-  <!-- Header -->
-  <%- include('partials/header') %>
+<body class="bg-gray-50 min-h-screen flex flex-col">
 
-  <!-- Main Content -->
-  <main class="container mx-auto px-4 py-8">
-    <div class="text-center mb-8">
-      <h1 class="text-4xl font-bold text-gray-800 mb-2">AI Course Finder</h1>
-      <p class="text-gray-600">Find the perfect online courses using natural language queries</p>
+  <!-- Navbar -->
+  <nav class="bg-purple-600 shadow-md">
+    <div class="container mx-auto px-4 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-2">
+        <i class="fa-solid fa-graduation-cap text-white text-2xl"></i>
+        <span class="text-xl font-bold text-white">UnifyLearn</span>
+      </div>
+      <div class="hidden md:block text-purple-100">
+        Intelligent cross-platform course discovery
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main -->
+  <main class="flex-1 container mx-auto px-4 py-10">
+
+    <!-- Hero Section -->
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter</h1>
+      <p class="text-gray-600 text-lg mb-6">
+        Use natural language queries to find the perfect courses across multiple learning platforms.
+        Just ask our chatbot — for example:
+        <span class="italic text-purple-600">"Show me beginner-friendly Python courses"</span>
+      </p>
+
+      <div class="flex flex-wrap justify-center gap-4 text-gray-700 text-sm">
+        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Coursera</span>
+        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Udemy</span>
+        <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">FutureLearn</span>
+        <span class="px-4 py-2 bg-gray-200 text-gray-700 rounded-full">+ More</span>
+      </div>
     </div>
 
-    <!-- Chatbot Interface -->
-    <%- include('partials/chatbot') %>
+    <!-- Chatbot -->
+    <div class="max-w-3xl mx-auto mb-12">
+      <%- include('partials/chatbot') %>
+    </div>
 
     <!-- Results Section -->
-    <section id="results-section" class="mt-12">
-      <div id="results-container" class="results-grid">
-        <!-- Results will be populated here by JavaScript -->
+    <section id="results-section">
+      <h2 class="text-2xl font-semibold text-gray-800 mb-6">Results</h2>
+      <div id="results-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <% /* Course cards will be rendered here dynamically */ %>
       </div>
 
       <% if (loading) { %>
-      <div class="text-center py-12 col-span-3">
-        <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-blue-500 mb-4"></div>
+      <div class="text-center py-12">
+        <div class="inline-block animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-purple-500 mb-4"></div>
         <p class="text-gray-600">Searching for courses...</p>
       </div>
       <% } %>
@@ -42,7 +69,13 @@
   <!-- Footer -->
   <%- include('partials/footer') %>
 
-  <script src="/js/script.js"></script>
+  <!-- Inject Data -->
+  <script>
+    window.__LOCAL_COURSES__ = <%- JSON.stringify(courses || []) %>;
+    window.__LOCAL_TEST_MESSAGE__ = <%- JSON.stringify(message || '') %>;
+  </script>
+
+  <script type="module" src="/js/main.js"></script>
 </body>
 
 </html>

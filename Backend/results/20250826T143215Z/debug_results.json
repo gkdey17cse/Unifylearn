@@ -1,0 +1,120 @@
+{
+  "timestamp": "2025-08-26T14:32:15.247470",
+  "user_query": "SHow me some Python courses from SImpliLearn",
+  "debug_info": {
+    "user_query": "SHow me some Python courses from SImpliLearn",
+    "llm_generated_queries": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Skills Covered": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Skills": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7f9",
+        "Title": "Data Science with Python Course",
+        "URL": "https://www.simplilearn.com/big-data-and-analytics/python-for-data-science-training?tag=",
+        "Short Intro": "This Data Science with Python course gives you a complete overview of Pythonâ€™s data analytics tools and techniques. Learning python is a crucial skill for many data science roles, and you can develop it with this Python data science course. With a blended learning approach, you can learn Python for data science along with concepts like data wrangling, mathematical computing, and more. Unlock your career as a data scientist with Simplilearnâ€™s Data Science with Python training.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "Course",
+        "Skills": 48619,
+        "Instructors": "Big Data Analytics"
+      },
+      "unified_data": {
+        "title": "Data Science with Python Course",
+        "url": "https://www.simplilearn.com/big-data-and-analytics/python-for-data-science-training?tag=",
+        "description": "This Data Science with Python course gives you a complete overview of Pythonâ€™s data analytics tools and techniques. Learning python is a crucial skill for many data science roles, and you can develop it with this Python data science course. With a blended learning approach, you can learn Python for data science along with concepts like data wrangling, mathematical computing, and more. Unlock your career as a data scientist with Simplilearnâ€™s Data Science with Python training.",
+        "category": "Simplilearn",
+        "language": "English",
+        "skills": 48619,
+        "instructors": [
+          "Big Data Analytics"
+        ],
+        "duration": "Self-Paced Learning",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Familiarity with data concepts"
+        ],
+        "learning_outcomes": "Learn Python's data analytics tools, data wrangling, and mathematical computing. Develop Python skills for data science roles and unlock a data science career.",
+        "price": "Varies",
+        "provider": "Simplilearn"
+      }
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d812",
+        "Title": "Python Certification Course",
+        "URL": "https://www.simplilearn.com/mobile-and-software-development/python-development-training?tag=",
+        "Short Intro": "Simplilearnâ€™s comprehensive Python Training Course will teach you the basics of Python, data operations, conditional statements, shell scripting, and Django. This Python certification course will give you hands-on development experience and prepare you for an exciting career as a professional Python programmer.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best Coding Bootcamp by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Course",
+        "Skills": 8099,
+        "Instructors": "Cisco Certification"
+      },
+      "unified_data": {
+        "title": "Python Certification Course",
+        "url": "https://www.simplilearn.com/mobile-and-software-development/python-development-training?tag=",
+        "description": "Simplilearnâ€™s comprehensive Python Training Course will teach you the basics of Python, data operations, conditional statements, shell scripting, and Django. This Python certification course will give you hands-on development experience and prepare you for an exciting career as a professional Python programmer.",
+        "category": "Simplilearn",
+        "language": " Career Karma",
+        "skills": 8099,
+        "instructors": [
+          "Cisco Certification"
+        ],
+        "duration": "Varies, typically several weeks",
+        "site": "Simplilearn",
+        "level": "Ranked #1 Best Coding Bootcamp by Career Karma",
+        "viewers": "1000+",
+        "prerequisites": "Basic programming knowledge recommended",
+        "learning_outcomes": "Learn Python basics, data operations, conditional statements, shell scripting, and Django. Gain hands-on experience to become a professional Python programmer.",
+        "price": "Varies depending on offers and location",
+        "provider": "Simplilearn"
+      }
+    }
+  ]
+}

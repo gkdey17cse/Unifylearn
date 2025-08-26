@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Data Science with Python Course",
+    "url": "https://www.simplilearn.com/big-data-and-analytics/python-for-data-science-training?tag=",
+    "description": "This Data Science with Python course gives you a complete overview of Pythonâ€™s data analytics tools and techniques. Learning python is a crucial skill for many data science roles, and you can develop it with this Python data science course. With a blended learning approach, you can learn Python for data science along with concepts like data wrangling, mathematical computing, and more. Unlock your career as a data scientist with Simplilearnâ€™s Data Science with Python training.",
+    "category": "Simplilearn",
+    "language": "English",
+    "skills": 48619,
+    "instructors": [
+      "Big Data Analytics"
+    ],
+    "duration": "Self-Paced Learning",
+    "site": "Simplilearn",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Familiarity with data concepts"
+    ],
+    "learning_outcomes": "Learn Python's data analytics tools, data wrangling, and mathematical computing. Develop Python skills for data science roles and unlock a data science career.",
+    "price": "Varies",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d7f9",
+    "source_provider": "simplilearn"
+  },
+  {
+    "title": "Python Certification Course",
+    "url": "https://www.simplilearn.com/mobile-and-software-development/python-development-training?tag=",
+    "description": "Simplilearnâ€™s comprehensive Python Training Course will teach you the basics of Python, data operations, conditional statements, shell scripting, and Django. This Python certification course will give you hands-on development experience and prepare you for an exciting career as a professional Python programmer.",
+    "category": "Simplilearn",
+    "language": " Career Karma",
+    "skills": 8099,
+    "instructors": [
+      "Cisco Certification"
+    ],
+    "duration": "Varies, typically several weeks",
+    "site": "Simplilearn",
+    "level": "Ranked #1 Best Coding Bootcamp by Career Karma",
+    "viewers": "1000+",
+    "prerequisites": "Basic programming knowledge recommended",
+    "learning_outcomes": "Learn Python basics, data operations, conditional statements, shell scripting, and Django. Gain hands-on experience to become a professional Python programmer.",
+    "price": "Varies depending on offers and location",
+    "provider": "Simplilearn",
+    "original_provider_id": "68ac04f569e0bdd621a8d812",
+    "source_provider": "simplilearn"
+  }
+]

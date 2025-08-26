@@ -1,0 +1,66 @@
+{
+  "user_query": "Give me some courses based on Geograpaphy from SImpliLearn or FutureLern platform",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bgive\\ some\\ based\\ geograpaphy\\ from\\ simplilearn\\ futurelern\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bgive\\ some\\ based\\ geograpaphy\\ from\\ simplilearn\\ futurelern\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bgive\\ some\\ based\\ geograpaphy\\ from\\ simplilearn\\ futurelern\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bgive\\ some\\ based\\ geograpaphy\\ from\\ simplilearn\\ futurelern\\ platform\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bGeography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 8,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-26T15:36:02.590633"
+}

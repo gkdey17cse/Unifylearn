@@ -1,0 +1,90 @@
+{
+  "user_query": "Show me beginner-friendly Python courses from Udacity and SImpliLearn",
+  "generated_queries": {
+    "udacity": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Brief Description": {
+                "$regex": "\\bbeginner-friendly\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Course Title": {
+                "$regex": "\\bbeginner-friendly\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$or": [
+            {
+              "Skills Covered": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Course Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "simplilearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Brief Description": {
+                "$regex": "\\bbeginner-friendly\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Course Title": {
+                "$regex": "\\bbeginner-friendly\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$or": [
+            {
+              "Skills Covered": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Course Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T21:45:03.594504"
+}
