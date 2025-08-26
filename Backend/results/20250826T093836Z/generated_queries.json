@@ -1,0 +1,22 @@
+{
+  "user_query": "Show me courses from FutureLearn related Python",
+  "generated_queries": {
+    "futurelearn": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bPython\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bPython\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T09:38:36.644235"
+}

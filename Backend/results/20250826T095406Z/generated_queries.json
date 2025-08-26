@@ -1,0 +1,34 @@
+{
+  "user_query": "Hi SHow me some Online courses from SimpliLearn",
+  "generated_queries": {
+    "simplilearn": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\bOnline courses\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\bOnline courses\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\bOnline courses\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\bOnline courses\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T09:54:06.338188"
+}

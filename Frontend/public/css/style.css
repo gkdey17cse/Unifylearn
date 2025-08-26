@@ -107,3 +107,50 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* Ensure course cards are visible */
+.course-col {
+    display: block;
+    width: 100%;
+}
+
+.course-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Debug styling to see what's happening */
+.debug-outline {
+    outline: 1px solid red;
+}
+
+/* Make sure grid works properly */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Loading animation */
+.loading-dots::after {
+    content: '';
+    animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+    0%, 20% { content: '.'; }
+    40% { content: '..'; }
+    60%, 100% { content: '...'; }
+}

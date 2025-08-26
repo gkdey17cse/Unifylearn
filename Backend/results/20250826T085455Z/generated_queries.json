@@ -1,0 +1,29 @@
+{
+  "user_query": "Show me 10 Python related course from SimpliLearn",
+  "generated_queries": {
+    "simplilearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Skills Covered": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Course Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 10
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T08:54:55.766146"
+}

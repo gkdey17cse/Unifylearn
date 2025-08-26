@@ -108,6 +108,8 @@ Project/
 
 2. **Install Python dependencies**:
 
+   - Create a python venv named any thing `IIABackend` andf actiavte it
+
    ```bash
    pip install -r requirements.txt
    ```
