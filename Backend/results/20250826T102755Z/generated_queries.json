@@ -1,0 +1,22 @@
+{
+  "user_query": "Show me some Data Science Courses from Udacity platform",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T10:27:55.821470"
+}

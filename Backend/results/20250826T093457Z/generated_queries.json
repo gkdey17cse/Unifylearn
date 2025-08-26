@@ -1,0 +1,28 @@
+{
+  "user_query": "show me Some Law related courses from SImpliLearn",
+  "generated_queries": {
+    "simplilearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T09:34:57.185998"
+}

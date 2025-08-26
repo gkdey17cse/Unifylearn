@@ -1,0 +1,28 @@
+{
+  "user_query": "Show me some Data SCience courses from Udacity",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bData Science\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 12,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-26T09:54:33.508682"
+}

@@ -1,0 +1,72 @@
+{
+  "timestamp": "2025-08-26T09:34:57.195852",
+  "user_query": "show me Some Law related courses from SImpliLearn",
+  "debug_info": {
+    "user_query": "show me Some Law related courses from SImpliLearn",
+    "llm_generated_queries": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ law\\ related\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ law\\ related\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ law\\ related\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ law\\ related\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

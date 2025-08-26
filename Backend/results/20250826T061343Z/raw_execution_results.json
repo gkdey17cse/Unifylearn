@@ -1,0 +1,130 @@
+{
+  "user_query": "SHow me some course in NLP or Natural Language Processing",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 33,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 4,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-26T06:13:43.238049"
+}

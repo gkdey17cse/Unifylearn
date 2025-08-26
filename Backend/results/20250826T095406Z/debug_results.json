@@ -1,0 +1,78 @@
+{
+  "timestamp": "2025-08-26T09:54:06.342443",
+  "user_query": "Hi SHow me some Online courses from SimpliLearn",
+  "debug_info": {
+    "user_query": "Hi SHow me some Online courses from SimpliLearn",
+    "llm_generated_queries": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\bOnline courses\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\bOnline courses\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Main Category": {
+              "$regex": "\bOnline courses\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\bOnline courses\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ from\\ simplilearn\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

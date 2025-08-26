@@ -1,0 +1,34 @@
+{
+  "user_query": "show some course of SImpleLearn",
+  "generated_queries": {
+    "simplilearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bSimpleLearn\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bSimpleLearn\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bSimpleLearn\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bSimpleLearn\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-26T09:35:43.415417"
+}

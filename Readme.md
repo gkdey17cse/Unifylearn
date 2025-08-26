@@ -61,10 +61,14 @@ Project/
 │   │   ├── css/
 │   │   │   └── style.css   # Custom styles
 │   │   ├── js/
+<<<<<<< HEAD
 |   │   │   ├── chatbot.js        # chatbot toggle, sendMessage, addMessage
 |   │   │   ├── courseCard.js     # card rendering (only handles HTML of 1 course card)
 |   │   │   ├── results.js        # updateCourseResults (loops + uses courseCard.js)
 |   │   │   └── main.js
+=======
+│   │   │   └── script.js   # Frontend JavaScript
+>>>>>>> 5612d5f968c7c89d201bd97f97e904587c9e79af
 │   │   └── assets/         # Images and other assets
 │   └── routes/
 │       └── index.js        # API route handlers
