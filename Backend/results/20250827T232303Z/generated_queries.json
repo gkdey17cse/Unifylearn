@@ -1,0 +1,16 @@
+{
+  "user_query": "SHow me Data science course from Future Learn Platform",
+  "generated_queries": {
+    "futurelearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bData Science\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-27T23:23:03.028999"
+}

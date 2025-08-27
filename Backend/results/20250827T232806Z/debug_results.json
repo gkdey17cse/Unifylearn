@@ -1,0 +1,676 @@
+{
+  "timestamp": "2025-08-27T23:28:06.718212",
+  "user_query": "SHow me Python courses from Udacity",
+  "debug_info": {
+    "user_query": "SHow me Python courses from Udacity",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 13,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d847",
+        "Title": "Linear Algebra Refresher Course",
+        "URL": "https://www.udacity.com/course/linear-algebra-refresher-course--ud953",
+        "Short Intro": "A Brief Refresher (with Python!)",
+        "Duration": "Estimated timeApprox. 4 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "The course has no formal prerequisites except experience with some programming language. A familiarity with high-school algebra and trigonometry will also be useful.See the Technology Requirements for using Udacity.",
+        "What you learn": "VectorsLearn the basic operations on vectors (one of the fundamental objects of study in linear algebra).Code a library of functions to perform operations on vectors that you will use in later lessons.Learn the basic operations on vectors (one of the fundamental objects of study in linear algebra).Code a library of functions to perform operations on vectors that you will use in later lessons.IntersectionsLearn the geometric and algebraic interpretation of intersections of \"flat\" objects and how to solve real-world problems.Write your own algorithm to find the intersections of sets of lines and planes.Learn the geometric and algebraic interpretation of intersections of \"flat\" objects and how to solve real-world problems.Write your own algorithm to find the intersections of sets of lines and planes."
+      },
+      "unified_data": {
+        "title": "Linear Algebra Refresher Course",
+        "url": "https://www.udacity.com/course/linear-algebra-refresher-course--ud953",
+        "description": "A Brief Refresher (with Python!)",
+        "category": "Mathematics",
+        "language": "English",
+        "skills": [
+          "Linear Algebra",
+          "Python",
+          "Vectors",
+          "Matrices",
+          "Geometric Transformations",
+          "Algebraic Interpretations"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 4 Months",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "The course has no formal prerequisites except experience with some programming language",
+          "A familiarity with high-school algebra and trigonometry will also be useful",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "VectorsLearn the basic operations on vectors (one of the fundamental objects of study in linear algebra)",
+          "Code a library of functions to perform operations on vectors that you will use in later lessons",
+          "Learn the basic operations on vectors (one of the fundamental objects of study in linear algebra)",
+          "Code a library of functions to perform operations on vectors that you will use in later lessons",
+          "IntersectionsLearn the geometric and algebraic interpretation of intersections of \"flat\" objects and how to solve real-world problems",
+          "Write your own algorithm to find the intersections of sets of lines and planes",
+          "Learn the geometric and algebraic interpretation of intersections of \"flat\" objects and how to solve real-world problems",
+          "Write your own algorithm to find the intersections of sets of lines and planes"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d84a",
+        "Title": "Full Stack Foundations",
+        "URL": "https://www.udacity.com/course/full-stack-foundations--ud088",
+        "Short Intro": "Build a data-driven web app with Python",
+        "Duration": "Estimated timeApprox. 3 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "You should be comfortable with Python, including Object-Oriented Programming. If you’d like to brush up on your Python, try the first three lessons of our Intro to Computer Science course. For Object-Oriented Programming in Python, see Programming Foundations with Python.You should also have a firm understanding of SQL and working with a relational database, particularly PostgreSQL. Our Intro to Relational Databases course can get you started if you feel you’re not yet prepared.Finally, you should be able to read and write HTML and CSS without any guidance. If you need a refresher on HTML and CSS, start with our Intro to HTML and CSS course.To complete the final project for this course, it is critical you meet these prerequisites as you are given no assets to begin with and will truly build a complete web application from scratch.See the Technology Requirements for using Udacity.",
+        "What you learn": "Working with the CRUDLearn about CRUD; Create, Read, Update, and Delete.Implement CRUD operations on a database.Use an ORM (Object-Relational Mapping) as an alternative to SQL.Learn about CRUD; Create, Read, Update, and Delete.Implement CRUD operations on a database.Use an ORM (Object-Relational Mapping) as an alternative to SQL.Making a Web ServerBuild a web server from scratch using Python and some pre-installed libraries.Learn how GET and POST requests can retrieve and modify information on a web site.How to add CRUD functionality to our website.Build a web server from scratch using Python and some pre-installed libraries.Learn how GET and POST requests can retrieve and modify information on a web site.How to add CRUD functionality to our website.Developing with FrameworksIntroduction to web frameworks like Django and Ruby on Rails.Use the Flask web framework to develop our own web application.Introduction to APIs and how to add JSON endpoints to our application.Introduction to web frameworks like Django and Ruby on Rails.Use the Flask web framework to develop our own web application.Introduction to APIs and how to add JSON endpoints to our application.Iterative DevelopmentBuild an entire web application on your own.Learn about the iterative development process.Have a working prototype throughout all stages of the development process.Build an entire web application on your own.Learn about the iterative development process.Have a working prototype throughout all stages of the development process."
+      },
+      "unified_data": {
+        "title": "Full Stack Foundations",
+        "url": "https://www.udacity.com/course/full-stack-foundations--ud088",
+        "description": "Build a data-driven web app with Python",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "HTML",
+          "CSS",
+          "Flask",
+          "CRUD operations",
+          "ORM",
+          "Web server development",
+          "API development"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 3 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "You should be comfortable with Python, including Object-Oriented Programming",
+          "If you’d like to brush up on your Python, try the first three lessons of our Intro to Computer Science course",
+          "For Object-Oriented Programming in Python, see Programming Foundations with Python",
+          "You should also have a firm understanding of SQL and working with a relational database, particularly PostgreSQL",
+          "Our Intro to Relational Databases course can get you started if you feel you’re not yet prepared",
+          "Finally, you should be able to read and write HTML and CSS without any guidance",
+          "If you need a refresher on HTML and CSS, start with our Intro to HTML and CSS course",
+          "To complete the final project for this course, it is critical you meet these prerequisites as you are given no assets to begin with and will truly build a complete web application from scratch",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Working with the CRUDLearn about CRUD; Create, Read, Update, and Delete",
+          "Implement CRUD operations on a database",
+          "Use an ORM (Object-Relational Mapping) as an alternative to SQL",
+          "Learn about CRUD; Create, Read, Update, and Delete",
+          "Implement CRUD operations on a database",
+          "Use an ORM (Object-Relational Mapping) as an alternative to SQL",
+          "Making a Web ServerBuild a web server from scratch using Python and some pre-installed libraries",
+          "Learn how GET and POST requests can retrieve and modify information on a web site",
+          "How to add CRUD functionality to our website",
+          "Build a web server from scratch using Python and some pre-installed libraries",
+          "Learn how GET and POST requests can retrieve and modify information on a web site",
+          "How to add CRUD functionality to our website",
+          "Developing with FrameworksIntroduction to web frameworks like Django and Ruby on Rails",
+          "Use the Flask web framework to develop our own web application",
+          "Introduction to APIs and how to add JSON endpoints to our application",
+          "Introduction to web frameworks like Django and Ruby on Rails",
+          "Use the Flask web framework to develop our own web application",
+          "Introduction to APIs and how to add JSON endpoints to our application",
+          "Iterative DevelopmentBuild an entire web application on your own",
+          "Learn about the iterative development process",
+          "Have a working prototype throughout all stages of the development process",
+          "Build an entire web application on your own",
+          "Learn about the iterative development process",
+          "Have a working prototype throughout all stages of the development process"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d84d",
+        "Title": "Introduction to Python Programming",
+        "URL": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "Short Intro": "Learn to solve practical problems with Python.",
+        "Duration": "Estimated timeApprox. 5 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "This course is ideal for students who are new to Python, but have some experience programming in another language. If you're a complete beginner to programming, we recommend checking out the Learn to Code program, which will help you understand how code is used all over the web.  See the Technology Requirements for using Udacity.",
+        "What you learn": "Why Python ProgrammingReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonData Types and OperatorsRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesControl FlowWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsFunctionsDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataScriptingInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python InterpreterInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python Interpreter"
+      },
+      "unified_data": {
+        "title": "Introduction to Python Programming",
+        "url": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "description": "Learn to solve practical problems with Python.",
+        "category": "Programming",
+        "language": "English",
+        "skills": [
+          "Python",
+          "Data Structures",
+          "Control Flow",
+          "Functions",
+          "Scripting"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 5 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 50000,
+        "prerequisites": [
+          "This course is ideal for students who are new to Python, but have some experience programming in another language",
+          "If you're a complete beginner to programming, we recommend checking out the Learn to Code program, which will help you understand how code is used all over the web",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Why Python ProgrammingReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonData Types and OperatorsRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesControl FlowWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsFunctionsDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataScriptingInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python InterpreterInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python Interpreter"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d94d",
+        "Title": "Unsupervised Machine Learning",
+        "URL": "https://www.udacity.com/course/unsupervised-learning--cd0026",
+        "Short Intro": "Learn how to distill messy data into meaningful groups with unsupervised machine learning! By the end of this course, you’ll know how to perform cluster analyses and dimensionality reduction using Python’s powerful machine-learning package, scikit-learn.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course ",
+        "Courses": "Unsupervised Learning ",
+        "Prequisites": "Intermediate Python, basic understanding of Machine Learning and Supervised Learning concepts.",
+        "What you learn": "Unsupervised learning gives you the power to find common patterns within data without knowing what to look for, and its application is virtually limitless — from market segmentation to computer vision to fraud detection. In this course, you’ll learn a multitude of techniques, including hierarchical and density-based clustering, gaussian mixture models, cluster validation, principal component analysis (PCA), and independent component analysis (ICA). In addition, you’ll apply what you’ve learned to identify customer segments within complex demographic data for a mail-order sales company."
+      },
+      "unified_data": {
+        "title": "Unsupervised Machine Learning",
+        "url": "https://www.udacity.com/course/unsupervised-learning--cd0026",
+        "description": "Learn how to distill messy data into meaningful groups with unsupervised machine learning! By the end of this course, you’ll know how to perform cluster analyses and dimensionality reduction using Python’s powerful machine-learning package, scikit-learn.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Machine Learning",
+          "Unsupervised Learning",
+          "Clustering",
+          "Dimensionality Reduction",
+          "Python",
+          "Scikit-learn",
+          "PCA",
+          "ICA"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Intermediate Python, basic understanding of Machine Learning and Supervised Learning concepts"
+        ],
+        "learning_outcomes": [
+          "Unsupervised learning gives you the power to find common patterns within data without knowing what to look for, and its application is virtually limitless — from market segmentation to computer vision to fraud detection",
+          "In this course, you’ll learn a multitude of techniques, including hierarchical and density-based clustering, gaussian mixture models, cluster validation, principal component analysis (PCA), and independent component analysis (ICA)",
+          "In addition, you’ll apply what you’ve learned to identify customer segments within complex demographic data for a mail-order sales company"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d952",
+        "Title": "Introduction to Data Analysis",
+        "URL": "https://www.udacity.com/course/intro-to-data-analysis--cd0000",
+        "Short Intro": "Start your data science journey right with this hands-on introduction to the discipline of data analysis. In this course you'll learn the 5 key stages of the data analysis process and apply them to real data sets using Python libraries NumPy, pandas, and Matplotlib.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Intro to Data Analysis",
+        "Prequisites": "Python.",
+        "What you learn": "Data analysis is a rigorous discipline that can reveal illuminating insights, but a strong grasp of the fundamentals is essential to generating accurate, useful results. This hands-on course will teach you the industry-standard framework for analyzing data of any kind, and show you how to apply it using some of the most popular tools in data science."
+      },
+      "unified_data": {
+        "title": "Introduction to Data Analysis",
+        "url": "https://www.udacity.com/course/intro-to-data-analysis--cd0000",
+        "description": "Start your data science journey right with this hands-on introduction to the discipline of data analysis. In this course you'll learn the 5 key stages of the data analysis process and apply them to real data sets using Python libraries NumPy, pandas, and Matplotlib.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Analysis",
+          "Python",
+          "NumPy",
+          "Pandas",
+          "Matplotlib"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic Python programming knowledge",
+          "Basic Statistics"
+        ],
+        "learning_outcomes": [
+          "Data analysis is a rigorous discipline that can reveal illuminating insights, but a strong grasp of the fundamentals is essential to generating accurate, useful results",
+          "This hands-on course will teach you the industry-standard framework for analyzing data of any kind, and show you how to apply it using some of the most popular tools in data science"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d953",
+        "Title": "Data Wrangling",
+        "URL": "https://www.udacity.com/course/data-wrangling--cd0015",
+        "Short Intro": "Learn the most efficient methods for gathering raw “dirty” data and cleaning it up for analysis. After finishing this course, you’ll be able to gather messy data from a variety of sources and “tidy” it up in no time using the powerful Python library, pandas.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Data Wrangling",
+        "Prequisites": "Python & SQL.",
+        "What you learn": "Knowing how to “wrangle data” (aka write code that cleans up “dirty” data and shapes it into useful formats) is a universally sought-after skill across data-driven companies. In this course you’ll learn how to leverage the power of Python to quickly gather, assess & clean messy data so it can be explored and analyzed easily."
+      },
+      "unified_data": {
+        "title": "Data Wrangling",
+        "url": "https://www.udacity.com/course/data-wrangling--cd0015",
+        "description": "Learn the most efficient methods for gathering raw “dirty” data and cleaning it up for analysis. After finishing this course, you’ll be able to gather messy data from a variety of sources and “tidy” it up in no time using the powerful Python library, pandas.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Wrangling",
+          "Data Cleaning",
+          "Data Analysis",
+          "Python",
+          "Pandas",
+          "SQL",
+          "Data Gathering"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Python & SQL"
+        ],
+        "learning_outcomes": [
+          "Knowing how to “wrangle data” (aka write code that cleans up “dirty” data and shapes it into useful formats) is a universally sought-after skill across data-driven companies",
+          "In this course you’ll learn how to leverage the power of Python to quickly gather, assess & clean messy data so it can be explored and analyzed easily"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d95a",
+        "Title": "Data Visualization with Python",
+        "URL": "https://www.udacity.com/course/data-visualization-with-python--cd0016",
+        "Short Intro": "Discover how data visualization can communicate insights far more effectively than text or tables. In this course, you’ll learn how to build data visualizations programmatically using Python, and how you can use visualization to both discover and convey trends in your data.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Data Visualization with Python",
+        "Prequisites": "Basic Python skill, statistics and probability concepts.",
+        "What you learn": "Data visualization allows us to instantly see patterns in data that would otherwise be impossible to detect. Without visualization, humans would be unable to make sense of even small amounts of data, let alone the trillions of megabytes now generated every day. In this course, you’ll learn how to create illuminating charts of your data analyses, so you can convey findings to others in the most impactful way possible. "
+      },
+      "unified_data": {
+        "title": "Data Visualization with Python",
+        "url": "https://www.udacity.com/course/data-visualization-with-python--cd0016",
+        "description": "Discover how data visualization can communicate insights far more effectively than text or tables. In this course, you’ll learn how to build data visualizations programmatically using Python, and how you can use visualization to both discover and convey trends in your data.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Visualization",
+          "Python Programming",
+          "Data Analysis"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic Python skill, statistics and probability concepts"
+        ],
+        "learning_outcomes": [
+          "Data visualization allows us to instantly see patterns in data that would otherwise be impossible to detect",
+          "Without visualization, humans would be unable to make sense of even small amounts of data, let alone the trillions of megabytes now generated every day",
+          "In this course, you’ll learn how to create illuminating charts of your data analyses, so you can convey findings to others in the most impactful way possible"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8fd",
+        "Title": "How to Become a Data Analyst",
+        "URL": "https://www.udacity.com/course/data-analyst-nanodegree--nd002",
+        "Short Intro": "Use Python, SQL, and statistics to uncover insights, communicate critical findings, and create data-driven solutions",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Analysis with Python and SQL",
+        "Prequisites": "You should have experience working with Python (specifically NumPy and Pandas) and SQL.",
+        "What you learn": "Advance your programming skills and refine your ability to work with messy, complex datasets. You’ll learn to manipulate and prepare data for analysis, and create visualizations for data exploration. Finally, you’ll learn to use your data skills to tell a story with data."
+      },
+      "unified_data": {
+        "title": "How to Become a Data Analyst",
+        "url": "https://www.udacity.com/course/data-analyst-nanodegree--nd002",
+        "description": "Use Python, SQL, and statistics to uncover insights, communicate critical findings, and create data-driven solutions",
+        "category": "Data Analysis",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "Statistics",
+          "Data Analysis",
+          "Data Visualization",
+          "Data Manipulation"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "You should have experience working with Python (specifically NumPy and Pandas) and SQL"
+        ],
+        "learning_outcomes": [
+          "Advance your programming skills and refine your ability to work with messy, complex datasets",
+          "You’ll learn to manipulate and prepare data for analysis, and create visualizations for data exploration",
+          "Finally, you’ll learn to use your data skills to tell a story with data"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d94c",
+        "Title": "Introduction to Python",
+        "URL": "https://www.udacity.com/course/introduction-to-python--cd0024",
+        "Short Intro": "Every programmer needs to know Python, including those looking to work in rapidly-growing fields such as machine learning and A.I. During this course, you’ll learn the fundamentals you need to take the next step in your career.",
+        "Duration": "1 month",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Introduction to Python",
+        "Prequisites": "No Experience Required.",
+        "What you learn": "In this course, you’ll learn to represent and store data using Python data types and variables, and use conditionals and loops to control the flow of your programs. You’ll harness the power of complex data structures like lists, sets, dictionaries and tuples to store collections of related data. You’ll define and document your own custom functions, write scripts and handle errors. You will also learn to use two powerful Python libraries — Numpy, a scientific computing package, and Pandas, a data manipulation package."
+      },
+      "unified_data": {
+        "title": "Introduction to Python",
+        "url": "https://www.udacity.com/course/introduction-to-python--cd0024",
+        "description": "Every programmer needs to know Python, including those looking to work in rapidly-growing fields such as machine learning and A.I. During this course, you’ll learn the fundamentals you need to take the next step in your career.",
+        "category": "Programming",
+        "language": "English",
+        "skills": [
+          "Python",
+          "Data Types",
+          "Variables",
+          "Conditionals",
+          "Loops",
+          "Lists",
+          "Sets",
+          "Dictionaries",
+          "Tuples",
+          "Functions",
+          "Numpy",
+          "Pandas"
+        ],
+        "instructors": [],
+        "duration": "1 month",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [
+          "No Experience Required"
+        ],
+        "learning_outcomes": [
+          "In this course, you’ll learn to represent and store data using Python data types and variables, and use conditionals and loops to control the flow of your programs",
+          "You’ll harness the power of complex data structures like lists, sets, dictionaries and tuples to store collections of related data",
+          "You’ll define and document your own custom functions, write scripts and handle errors",
+          "You will also learn to use two powerful Python libraries — Numpy, a scientific computing package, and Pandas, a data manipulation package"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d902",
+        "Title": "How to Become a Data Analyst",
+        "URL": "https://www.udacity.com/course/data-analyst-nanodegree--nd002",
+        "Short Intro": "Use Python, SQL, and statistics to uncover insights, communicate critical findings, and create data-driven solutions",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Analysis with Python and SQL",
+        "Prequisites": "You should have experience working with Python (specifically NumPy and Pandas) and SQL.",
+        "What you learn": "Advance your programming skills and refine your ability to work with messy, complex datasets. You’ll learn to manipulate and prepare data for analysis, and create visualizations for data exploration. Finally, you’ll learn to use your data skills to tell a story with data."
+      },
+      "unified_data": {
+        "title": "How to Become a Data Analyst",
+        "url": "https://www.udacity.com/course/data-analyst-nanodegree--nd002",
+        "description": "Use Python, SQL, and statistics to uncover insights, communicate critical findings, and create data-driven solutions",
+        "category": "Data Analysis",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "Statistics",
+          "Data Analysis",
+          "Data Visualization",
+          "Data Manipulation"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "You should have experience working with Python (specifically NumPy and Pandas) and SQL"
+        ],
+        "learning_outcomes": [
+          "Advance your programming skills and refine your ability to work with messy, complex datasets",
+          "You’ll learn to manipulate and prepare data for analysis, and create visualizations for data exploration",
+          "Finally, you’ll learn to use your data skills to tell a story with data"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d906",
+        "Title": "AI Programming with Python",
+        "URL": "https://www.udacity.com/course/ai-programming-python-nanodegree--nd089",
+        "Short Intro": "Learn Python, NumPy, pandas, Matplotlib, PyTorch, Calculus, and Linear Algebra—the foundations for building your own neural network.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn AI Fundamentals",
+        "Prequisites": "Formal prerequisites include basic knowledge of algebra, and basic programming in any language.",
+        "What you learn": "Learn the essential foundations of AI: the programming tools (Python, NumPy, PyTorch), the math (calculus and linear algebra), and the key techniques of neural networks (gradient descent and backpropagation)."
+      },
+      "unified_data": {
+        "title": "AI Programming with Python",
+        "url": "https://www.udacity.com/course/ai-programming-python-nanodegree--nd089",
+        "description": "Learn Python, NumPy, pandas, Matplotlib, PyTorch, Calculus, and Linear Algebra—the foundations for building your own neural network.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Python",
+          "NumPy",
+          "pandas",
+          "Matplotlib",
+          "PyTorch",
+          "Calculus",
+          "Linear Algebra",
+          "Neural Networks"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Formal prerequisites include basic knowledge of algebra, and basic programming in any language"
+        ],
+        "learning_outcomes": [
+          "Learn the essential foundations of AI: the programming tools (Python, NumPy, PyTorch), the math (calculus and linear algebra), and the key techniques of neural networks (gradient descent and backpropagation)"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d905",
+        "Title": "Programming for Data Science with Python",
+        "URL": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+        "Short Intro": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git. ",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn to Code in Python and SQL",
+        "Prequisites": "There are no prerequisites for this program, aside from basic computer skills.",
+        "What you learn": "Learn the programming fundamentals required for a career in data science. By the end of the program, you will be able to use Python, SQL, Command Line, and Git."
+      },
+      "unified_data": {
+        "title": "Programming for Data Science with Python",
+        "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+        "description": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git. ",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "Command Line",
+          "Git"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [
+          "There are no prerequisites for this program, aside from basic computer skills"
+        ],
+        "learning_outcomes": [
+          "Learn the programming fundamentals required for a career in data science",
+          "By the end of the program, you will be able to use Python, SQL, Command Line, and Git"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d927",
+        "Title": "Learn Intermediate Python",
+        "URL": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+        "Short Intro": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+        "Duration": "Estimated 2 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn Intermediate Python",
+        "Prequisites": "Basic familiarity with programming in Python. ",
+        "What you learn": "Python is a general-purpose coding language with applications in web development, data science, machine learning, fintech and more. The Intermediate Python Nanodegree program equips you to leverage the capabilities of Python and streamline the functionality of applications that perform complex tasks, such as classifying files, data mining a webpage, etc. By the end of the program, you’ll have a portfolio that demonstrates your ability to apply practicioner-level Python skills on the job.\r\n"
+      },
+      "unified_data": {
+        "title": "Learn Intermediate Python",
+        "url": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+        "description": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+        "category": "Data Science & Programming",
+        "language": "English",
+        "skills": [
+          "Python",
+          "Data Science",
+          "Machine Learning",
+          "Web Development",
+          "File Classification",
+          "Data Mining"
+        ],
+        "instructors": null,
+        "duration": "Estimated 2 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic familiarity with programming in Python"
+        ],
+        "learning_outcomes": [
+          "Python is a general-purpose coding language with applications in web development, data science, machine learning, fintech and more",
+          "The Intermediate Python Nanodegree program equips you to leverage the capabilities of Python and streamline the functionality of applications that perform complex tasks, such as classifying files, data mining a webpage, etc",
+          "By the end of the program, you’ll have a portfolio that demonstrates your ability to apply practicioner-level Python skills on the job"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    }
+  ]
+}

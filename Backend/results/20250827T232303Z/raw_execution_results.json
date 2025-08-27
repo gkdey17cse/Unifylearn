@@ -1,0 +1,44 @@
+{
+  "user_query": "SHow me Data science course from Future Learn Platform",
+  "execution_results": {
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bshow\\ data\\ science\\ from\\ future\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bshow\\ data\\ science\\ from\\ future\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bshow\\ data\\ science\\ from\\ future\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bshow\\ data\\ science\\ from\\ future\\ platform\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-27T23:23:03.033665"
+}

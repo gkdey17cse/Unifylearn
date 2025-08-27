@@ -1,0 +1,28 @@
+{
+  "user_query": "Show me MATLAB course from coursera",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bMATLAB\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bMATLAB\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bMATLAB\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-27T23:35:14.133082"
+}

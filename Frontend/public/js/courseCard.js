@@ -18,76 +18,48 @@ export function renderCourseCard(course) {
   const description = course.description || 'No description available.';
   const url = course.url || null;
 
-  // Truncate description to 25 words max
+  // Truncate description to 25 words max - don't show "read more"
   const wordCount = 25;
   const words = description.split(/\s+/);
-  const truncatedDescription = words.length > wordCount
+  const displayDescription = words.length > wordCount
     ? words.slice(0, wordCount).join(' ') + '...'
     : description;
 
-  // Generate skills (max 3 visible initially)
+  // Generate skills (max 4 visible, don't show "show all")
   let skillsHTML = '';
   if (skills.length > 0) {
-    const skillsList = skills.slice(0, 3).map(skill =>
-      `<span class="bg-gray-100 text-gray-800 text-xs px-2.5 py-1 rounded-full">${skill}</span>`
-    ).join('');
-
+    const displaySkills = skills.slice(0, 4);
     skillsHTML = `
       <div class="mb-3">
-        <h4 class="text-sm font-semibold text-gray-700 mb-2 flex items-center justify-between">
-          <span>
-            <i class="fas fa-tools mr-1 text-blue-500"></i>
-            Key Skills
-          </span>
-          ${skills.length > 3 ? `
-          <button class="text-primary-600 hover:text-primary-800 text-xs font-medium toggle-skills">
-            Show all
-          </button>` : ''}
+        <h4 class="text-sm font-semibold text-gray-700 mb-2">
+          <i class="fas fa-tools mr-1 text-blue-500"></i>
+          Key Skills
         </h4>
         <div class="flex flex-wrap gap-2">
-          ${skillsList}
-        </div>
-        ${skills.length > 3 ? `
-        <div class="all-skills hidden mt-2">
-          <div class="flex flex-wrap gap-2">
-            ${skills.slice(3).map(skill =>
+          ${displaySkills.map(skill =>
       `<span class="bg-gray-100 text-gray-800 text-xs px-2.5 py-1 rounded-full">${skill}</span>`
     ).join('')}
-          </div>
-        </div>` : ''}
+          ${skills.length > 4 ? `<span class="text-xs text-gray-500">+${skills.length - 4} more</span>` : ''}
+        </div>
       </div>`;
   }
 
-  // Generate learning outcomes (max 2 items initially)
+  // Generate learning outcomes (max 3 visible, don't show "show all")
   let learningOutcomesHTML = '';
   if (learningOutcomes.length > 0) {
-    const outcomesList = learningOutcomes.slice(0, 2).map(outcome => `
-      <li class="truncate">${outcome}</li>
-    `).join('');
-
+    const displayOutcomes = learningOutcomes.slice(0, 3);
     learningOutcomesHTML = `
       <div class="mb-3">
-        <h4 class="text-sm font-semibold text-gray-700 mb-2 flex items-center justify-between">
-          <span>
-            <i class="fas fa-graduation-cap mr-1 text-green-500"></i>
-            Learning Outcomes
-          </span>
-          ${learningOutcomes.length > 2 ? `
-          <button class="text-primary-600 hover:text-primary-800 text-xs font-medium toggle-outcomes">
-            Show all
-          </button>` : ''}
+        <h4 class="text-sm font-semibold text-gray-700 mb-2">
+          <i class="fas fa-graduation-cap mr-1 text-green-500"></i>
+          Learning Outcomes
         </h4>
         <ul class="text-xs text-gray-600 list-disc list-inside space-y-1">
-          ${outcomesList}
+          ${displayOutcomes.map(outcome => `
+            <li class="truncate">${outcome}</li>
+          `).join('')}
+          ${learningOutcomes.length > 3 ? `<li class="text-gray-400">+${learningOutcomes.length - 3} more outcomes</li>` : ''}
         </ul>
-        ${learningOutcomes.length > 2 ? `
-        <div class="all-outcomes hidden mt-2">
-          <ul class="text-xs text-gray-600 list-disc list-inside space-y-1">
-            ${learningOutcomes.slice(2).map(outcome => `
-              <li class="truncate">${outcome}</li>
-            `).join('')}
-          </ul>
-        </div>` : ''}
       </div>`;
   }
 
@@ -173,14 +145,8 @@ export function renderCourseCard(course) {
 
         <!-- Description -->
         <p class="text-gray-600 mb-4 text-sm">
-          ${truncatedDescription}
+          ${displayDescription}
         </p>
-        ${words.length > wordCount ? `
-        <button class="text-primary-600 hover:text-primary-800 text-xs font-medium mb-4 text-left toggle-description">
-          Read more
-        </button>
-        <div class="full-description hidden text-sm text-gray-600 mb-4">${description}</div>
-        ` : ''}
 
         <!-- Key Details -->
         ${detailsHTML}
