@@ -1,0 +1,205 @@
+{
+  "timestamp": "2025-08-27T18:02:37.676888",
+  "user_query": "Can you show me some courses from Udacity related to Reinforcement Learning",
+  "debug_info": {
+    "user_query": "Can you show me some courses from Udacity related to Reinforcement Learning",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bReinforcement Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bReinforcement Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Short Intro": {
+                "$regex": "\\bReinforcement Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bReinforcement Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d914",
+        "Title": "Become a Deep Reinforcement Learning Expert",
+        "URL": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893",
+        "Short Intro": "Learn the deep reinforcement learning skills that are powering amazing advances in AI. Then start applying these to applications like video games and robotics.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Deep Reinforcement Learning",
+        "Prequisites": "This program requires experience with Python, probability, machine learning, and deep learning.",
+        "What you learn": "Learn cutting-edge deep reinforcement learning algorithms—from Deep Q-Networks (DQN) to Deep Deterministic Policy Gradients (DDPG). Apply these concepts to train agents to walk, drive, or perform other complex tasks, and build a robust portfolio of deep reinforcement learning projects."
+      },
+      "unified_data": {
+        "title": "Become a Deep Reinforcement Learning Expert",
+        "url": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893",
+        "description": "Learn the deep reinforcement learning skills that are powering amazing advances in AI. Then start applying these to applications like video games and robotics.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Deep Reinforcement Learning",
+          "Deep Q-Networks (DQN)",
+          "Deep Deterministic Policy Gradients (DDPG)",
+          "AI",
+          "Robotics",
+          "Python"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 5000,
+        "prerequisites": [
+          "This program requires experience with Python, probability, machine learning, and deep learning"
+        ],
+        "learning_outcomes": [
+          "Learn cutting-edge deep reinforcement learning algorithms—from Deep Q-Networks (DQN) to Deep Deterministic Policy Gradients (DDPG)",
+          "Apply these concepts to train agents to walk, drive, or perform other complex tasks, and build a robust portfolio of deep reinforcement learning projects"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8f9",
+        "Title": "Reinforcement Learning",
+        "URL": "https://www.udacity.com/course/reinforcement-learning--ud600",
+        "Short Intro": "Offered at Georgia Tech as CS 8803",
+        "Duration": "Estimated timeApprox. 4 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Advanced",
+        "Prequisites": "Before taking this course, you should have taken a graduate-level machine-learning course and should have had some exposure to reinforcement learning from a previous course or seminar in computer science.Additionally, you will be programming extensively in Java during this course. If you are not familiar with Java, we recommend you review Udacity's Object Oriented Programming in Java course materials to get up to speed beforehand.See the Technology Requirements for using Udacity."
+      },
+      "unified_data": {
+        "title": "Reinforcement Learning",
+        "url": "https://www.udacity.com/course/reinforcement-learning--ud600",
+        "description": "Offered at Georgia Tech as CS 8803",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Reinforcement Learning",
+          "Java Programming",
+          "Machine Learning"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 4 Months",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 5000,
+        "prerequisites": [
+          "Before taking this course, you should have taken a graduate-level machine-learning course and should have had some exposure to reinforcement learning from a previous course or seminar in computer science",
+          "Additionally, you will be programming extensively in Java during this course",
+          "If you are not familiar with Java, we recommend you review Udacity's Object Oriented Programming in Java course materials to get up to speed beforehand",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": "Understand reinforcement learning principles, implement RL algorithms using Java, and apply them to real-world problems. Gain experience with techniques used in Georgia Tech's CS 8803 course.",
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8e8",
+        "Title": "AWS DeepRacer",
+        "URL": "https://www.udacity.com/course/aws-deepracer--ud014",
+        "Short Intro": "Learn the fundamentals of machine learning and reinforcement learning in a fun and engaging way through autonomous driving with AWS DeepRacer.",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "We recommend students have a basic knowledge of Python.See the Technology Requirements for using Udacity.",
+        "What you learn": "Intro to AWS DeepRacerGet an overview of what you’ll be learning and doing in the course.Learn about the items that come in the AWS DeepRacer box.Assemble and calibrate your vehicle.Get an overview of what you’ll be learning and doing in the course.Learn about the items that come in the AWS DeepRacer box.Assemble and calibrate your vehicle.Reinforcement learning in DeepRacerDeepRacer definition.Types of machine learning.DeepRacer definition.Types of machine learning.Unboxing AWS DeepRacerOptional lesson for those who do not own the AWS DeepRacer hardware.Learn about the platform by following what's included in the box.Optional lesson for those who do not own the AWS DeepRacer hardware.Learn about the platform by following what's included in the box.Under the Hood recapLearn what else is included in the vehicle beside the vehicle chassis.Learn what else is included in the vehicle beside the vehicle chassis.DeepRacer AssemblyInstall the battery.Boot the operating system and connect to wi-fi.Calibrate.Install the battery.Boot the operating system and connect to wi-fi.Calibrate.Steering calibrationFollow these steps to calibrate your vehicle.Follow these steps to calibrate your vehicle.Throttle CalibrationFollow these steps to calibrate your throttle.Follow these steps to calibrate your throttle.Track PreviewPreview one possible AWS DeepRacer track.Build your own track.Preview one possible AWS DeepRacer track.Build your own track."
+      },
+      "unified_data": {
+        "title": "AWS DeepRacer",
+        "url": "https://www.udacity.com/course/aws-deepracer--ud014",
+        "description": "Learn the fundamentals of machine learning and reinforcement learning in a fun and engaging way through autonomous driving with AWS DeepRacer.",
+        "category": "Machine Learning",
+        "language": "English",
+        "skills": [
+          "Machine Learning",
+          "Reinforcement Learning",
+          "Autonomous Driving",
+          "AWS DeepRacer",
+          "Python"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "We recommend students have a basic knowledge of Python",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Intro to AWS DeepRacerGet an overview of what you’ll be learning and doing in the course",
+          "Learn about the items that come in the AWS DeepRacer box",
+          "Assemble and calibrate your vehicle",
+          "Get an overview of what you’ll be learning and doing in the course",
+          "Learn about the items that come in the AWS DeepRacer box",
+          "Assemble and calibrate your vehicle",
+          "Reinforcement learning in DeepRacerDeepRacer definition",
+          "Types of machine learning",
+          "DeepRacer definition",
+          "Types of machine learning",
+          "Unboxing AWS DeepRacerOptional lesson for those who do not own the AWS DeepRacer hardware",
+          "Learn about the platform by following what's included in the box",
+          "Optional lesson for those who do not own the AWS DeepRacer hardware",
+          "Learn about the platform by following what's included in the box",
+          "Under the Hood recapLearn what else is included in the vehicle beside the vehicle chassis",
+          "Learn what else is included in the vehicle beside the vehicle chassis",
+          "DeepRacer AssemblyInstall the battery",
+          "Boot the operating system and connect to wi-fi",
+          "Install the battery",
+          "Boot the operating system and connect to wi-fi",
+          "Steering calibrationFollow these steps to calibrate your vehicle",
+          "Follow these steps to calibrate your vehicle",
+          "Throttle CalibrationFollow these steps to calibrate your throttle",
+          "Follow these steps to calibrate your throttle",
+          "Track PreviewPreview one possible AWS DeepRacer track",
+          "Build your own track",
+          "Preview one possible AWS DeepRacer track",
+          "Build your own track"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    }
+  ]
+}

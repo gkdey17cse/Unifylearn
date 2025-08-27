@@ -1,0 +1,66 @@
+{
+  "timestamp": "2025-08-27T18:39:23.391314",
+  "user_query": "SHow Udacity based MATLAB courses",
+  "debug_info": {
+    "user_query": "SHow Udacity based MATLAB courses",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bMATLAB\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bMATLAB\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ udacity\\ based\\ matlab\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ udacity\\ based\\ matlab\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ udacity\\ based\\ matlab\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ udacity\\ based\\ matlab\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

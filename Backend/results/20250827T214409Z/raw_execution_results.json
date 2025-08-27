@@ -1,0 +1,66 @@
+{
+  "user_query": "hey please show me some ALgorithm courses from Udacity or SImpliLearn platform",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-27T21:44:09.875179"
+}

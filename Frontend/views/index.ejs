@@ -6,156 +6,314 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><%= title %></title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: {
+              50: '#faf5ff',
+              100: '#f3e8ff',
+              200: '#e9d5ff',
+              300: '#d8b4fe',
+              400: '#c084fc',
+              500: '#a855f7',
+              600: '#9333ea',
+              700: '#7e22ce',
+              800: '#6b21a8',
+              900: '#581c87',
+            }
+          }
+        }
+      }
+    }
+  </script>
   <style>
-    .course-card {
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-    }
+    .course-card { transition: transform 0.2s ease, box-shadow 0.2s ease; }
+    .course-card:hover { transform: translateY(-4px); }
 
-    .course-card:hover {
-      transform: translateY(-4px);
-      box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
-    }
+    .line-clamp-2 { display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+    .line-clamp-3 { display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
 
-    /* Loader bounce delays */
-    .animate-bounce {
-      animation: bounce 1s infinite;
-    }
+    .animate-bounce { animation: bounce 1s infinite; }
+    .delay-150 { animation-delay: 0.15s; }
+    .delay-300 { animation-delay: 0.3s; }
 
-    .delay-150 {
-      animation-delay: 0.15s;
-    }
+    .chat-messages::-webkit-scrollbar { width: 6px; }
+    .chat-messages::-webkit-scrollbar-track { background: #f1f1f1; border-radius: 10px; }
+    .chat-messages::-webkit-scrollbar-thumb { background: #d8b4fe; border-radius: 10px; }
+    .chat-messages::-webkit-scrollbar-thumb:hover { background: '#c084fc'; }
 
-    .delay-300 {
-      animation-delay: 0.3s;
-    }
+    .chatbot-container { position: fixed; bottom: 20px; right: 20px; width: 380px; z-index: 1000; box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04); border-radius: 12px; overflow: hidden; }
+    @media (max-width: 640px) { .chatbot-container { width: calc(100% - 40px); right: 20px; left: 20px; } }
+
+    .all-skills, .all-outcomes, .full-description { max-height: 0; overflow: hidden; transition: max-height 0.3s ease-out; }
+    .all-skills.expanded, .all-outcomes.expanded, .full-description.expanded { max-height: 500px; }
   </style>
 </head>
 
-<body class="bg-gray-50 min-h-screen flex flex-col relative">
-
+<body class="bg-gray-50 min-h-screen flex flex-col">
   <!-- Loader -->
   <div id="page-loader" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
     <div class="flex flex-col items-center">
       <div class="flex space-x-2">
-        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce"></div>
-        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce delay-150"></div>
-        <div class="w-4 h-4 bg-purple-600 rounded-full animate-bounce delay-300"></div>
+        <div class="w-4 h-4 bg-primary-600 rounded-full animate-bounce"></div>
+        <div class="w-4 h-4 bg-primary-600 rounded-full animate-bounce delay-150"></div>
+        <div class="w-4 h-4 bg-primary-600 rounded-full animate-bounce delay-300"></div>
       </div>
-      <p class="text-gray-700 font-semibold mt-4">Searching for courses...</p>
+      <p class="text-white font-semibold mt-4">Searching for courses...</p>
     </div>
   </div>
 
-  <!-- Back Button (only for timestamp pages) -->
-  <div id="back-button" class="absolute top-4 left-4 cursor-pointer text-gray-700 hover:text-purple-600 flex items-center space-x-2 hidden">
-    <i class="fas fa-arrow-left"></i>
-    <span class="font-semibold">Back</span>
-  </div>
-
   <!-- Navbar -->
-  <nav class="bg-purple-600 shadow-md">
+  <nav class="bg-primary-700 shadow-md">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <a href="/" class="flex items-center space-x-2">
         <i class="fa-solid fa-graduation-cap text-white text-2xl"></i>
         <span class="text-xl font-bold text-white">UnifyLearn</span>
       </a>
-      <div class="hidden md:block text-purple-100">
+      <div class="hidden md:block text-primary-100">
         Intelligent cross-platform course discovery
       </div>
     </div>
   </nav>
 
-  <!-- Main -->
-  <main class="flex-1 w-full">
-
-    <!-- Hero / Guide Section -->
+  <!-- Main Content -->
+  <main class="flex-1 container mx-auto px-4 py-8">
     <% if (!courses || courses.length === 0) { %>
-    <div class="container mx-auto px-4 py-10">
-      <div class="text-center max-w-3xl mx-auto mb-12">
-        <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter</h1>
-        <p class="text-gray-600 text-lg mb-6">
-          Use natural language queries to find the perfect courses across multiple learning platforms.
-          Just ask our chatbot — for example:
-          <span class="italic text-purple-600">"Show me beginner-friendly Python courses"</span>
-        </p>
+    <div id="guideSection" class="text-center max-w-3xl mx-auto mb-8">
+      <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter with UnifyLearn</h1>
+      <p class="text-gray-600 text-lg mb-6">
+        UnifyLearn helps you find the perfect learning resources across multiple platforms using natural language.
+        Our AI assistant understands your learning needs and finds the most relevant courses for you.
+      </p>
 
-        <div class="flex flex-wrap justify-center gap-4 text-gray-700 text-sm">
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Coursera</span>
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">Udemy</span>
-          <span class="px-4 py-2 bg-purple-100 text-purple-700 rounded-full">FutureLearn</span>
-          <span class="px-4 py-2 bg-gray-200 text-gray-700 rounded-full">+ More</span>
-        </div>
+      <div class="bg-primary-50 border-l-4 border-primary-500 p-6 rounded-lg mb-8 text-left">
+        <h3 class="font-semibold text-primary-800 mb-3 flex items-center">
+          <i class="fas fa-lightbulb mr-2 text-primary-600"></i>
+          How to use UnifyLearn:
+        </h3>
+        <ol class="list-decimal list-inside space-y-2 text-gray-700">
+          <li>Type your learning request in the chat (e.g., "Python courses for beginners")</li>
+          <li>Our AI will search across multiple learning platforms</li>
+          <li>Browse the recommended courses and click to enroll</li>
+          <li>Save interesting courses for later reference</li>
+        </ol>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-3 mb-8">
+        <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm">Coursera</span>
+        <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm">Udemy</span>
+        <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm">edX</span>
+        <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm">FutureLearn</span>
+        <span class="px-4 py-2 bg-primary-100 text-primary-700 rounded-full text-sm">Pluralsight</span>
       </div>
     </div>
     <% } %>
 
-    <!-- Chatbot -->
-    <div class="container mx-auto px-4">
-      <div class="max-w-3xl mx-auto mb-12">
-        <%- include('partials/chatbot') %>
-      </div>
+    <% if (courses && courses.length > 0) { %>
+    <h2 class="text-3xl font-bold text-gray-800 mb-8 text-center">Recommended Courses</h2>
+    <div id="results-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+    <% } else { %>
+    <div class="text-center py-12 text-gray-500 col-span-full">
+      <i class="fas fa-search text-gray-300 text-4xl mb-3"></i>
+      <p>Open the chat in the bottom right corner to find courses.</p>
     </div>
-
-    <!-- Results Section -->
-    <section id="results-section" class="container mx-auto w-full px-4">
-      <% if (courses && courses.length > 0) { %>
-      <h2 class="text-2xl font-semibold text-gray-800 mb-6 text-center">Results</h2>
-      <div id="results-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 pb-12">
-        <% courses.forEach(course => { %>
-        <div class="course-card bg-white rounded-lg shadow-md overflow-hidden w-full max-w-sm flex flex-col">
-          <div class="p-6 flex flex-col h-full">
-            <h3 class="text-xl font-bold text-gray-800 mb-2"><%= course.title %></h3>
-            <p class="text-gray-600 mb-4 line-clamp-3"><%= course.description || 'No description available.' %></p>
-            <div class="flex items-center mb-3 flex-wrap gap-2">
-              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.duration || '' %></span>
-              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.level || '' %></span>
-              <span class="text-sm bg-gray-100 px-2 py-1 rounded"><%= course.language || '' %></span>
-            </div>
-            <div class="flex justify-between items-center mb-4">
-              <span class="font-bold text-green-600"><%= course.price || 'Free' %></span>
-              <span class="text-sm text-gray-500"><%= course.viewers?.toLocaleString() || '0' %> viewers</span>
-            </div>
-            <div class="mb-4">
-              <p class="text-sm font-semibold text-gray-700 mb-2">Key Skills</p>
-              <div class="flex flex-wrap gap-2">
-                <% (course.skills || []).slice(0,4).forEach(skill => { %>
-                <span class="text-xs bg-purple-100 text-purple-700 px-2 py-1 rounded"><%= skill %></span>
-                <% }) %>
-                <% if (course.skills && course.skills.length > 4) { %>
-                <span class="text-xs text-gray-500">+<%= course.skills.length - 4 %> more</span>
-                <% } %>
-              </div>
-            </div>
-            <% if (course.url) { %>
-            <a href="<%= course.url %>" target="_blank" class="mt-auto w-full bg-purple-600 hover:bg-purple-700 text-white py-2 px-4 rounded text-center">
-              View Course
-            </a>
-            <% } %>
-          </div>
-        </div>
-        <% }) %>
-      </div>
-      <% } else { %>
-      <div class="text-center py-12 text-gray-500">
-        Enter a query in the chatbot above to find courses.
-      </div>
-      <% } %>
-    </section>
+    <% } %>
   </main>
 
-  <!-- Footer -->
-  <%- include('partials/footer') %>
+  <footer class="bg-gray-800 text-white py-4 mt-4">
+    <div class="container mx-auto px-4 text-center">
+      <p>&copy; <span id="current-year"><%= new Date().getFullYear() %></span> UnifyLearn. All rights reserved.</p>
+    </div>
+  </footer>
 
-  <!-- Inject Data -->
+  <!-- Chatbot -->
+  <div class="chatbot-container" id="chatbotWrapper">
+    <div class="bg-white rounded-lg shadow-md overflow-hidden border border-gray-200">
+      <div class="bg-primary-600 text-white px-4 py-3 flex justify-between items-center">
+        <div class="flex items-center">
+          <i class="fas fa-robot mr-2"></i>
+          <h3 class="font-semibold">Course Finder Assistant</h3>
+        </div>
+        <button id="closeChat" class="text-primary-200 hover:text-white">
+          <i class="fas fa-times"></i>
+        </button>
+      </div>
+      <div class="border-t border-gray-200">
+        <div id="chatMessages" class="chat-messages h-80 overflow-y-auto p-4 bg-gray-50">
+          <div class="flex mb-4">
+            <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
+              <i class="fas fa-robot text-blue-600"></i>
+            </div>
+            <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%]">
+              Hello! I can help you find courses across multiple platforms. What would you like to learn?
+            </div>
+          </div>
+        </div>
+        <div class="px-4 py-3 bg-white border-t border-gray-200 flex">
+          <input type="text" id="userInput" placeholder="Ask about courses (e.g., Python for beginners)..." class="flex-grow px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+          <button id="sendButton" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-r-lg font-medium transition-colors">
+            <i class="fas fa-paper-plane"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <script>
     window.__LOCAL_COURSES__ = <%- JSON.stringify(courses || []) %>;
     window.__LOCAL_TEST_MESSAGE__ = <%- JSON.stringify(message || '') %>;
+    window.__CURRENT_TIMESTAMP__ = <%- JSON.stringify(locals.timestamp || '') %>;
   </script>
 
-  <script type="module" src="/js/main.js"></script>
-  <script type="module" src="/js/chatbot.js"></script>
+  <script>
+    const CHAT_STORAGE_KEY = 'unifylearn_chat_history';
+    document.addEventListener('DOMContentLoaded', function() {
+      initializeChatbot();
+      renderCourses();
 
+      // Event delegation for dynamically rendered course cards
+      document.addEventListener('click', function(e) {
+        // Description toggle
+        if (e.target.classList.contains('toggle-description')) {
+          const desc = e.target.nextElementSibling;
+          const isHidden = desc.classList.contains('hidden');
+          desc.classList.toggle('hidden');
+          e.target.textContent = isHidden ? 'Show less' : 'Read more';
+        }
+
+        // Skills toggle
+        if (e.target.classList.contains('toggle-skills')) {
+          const skillsContainer = e.target.closest('.mb-3').querySelector('.all-skills');
+          if (!skillsContainer) return;
+          const isHidden = skillsContainer.classList.contains('hidden');
+          skillsContainer.classList.toggle('hidden');
+          e.target.textContent = isHidden ? 'Show less' : 'Show all';
+        }
+
+        // Outcomes toggle
+        if (e.target.classList.contains('toggle-outcomes')) {
+          const outcomesContainer = e.target.closest('.mb-3').querySelector('.all-outcomes');
+          if (!outcomesContainer) return;
+          const isHidden = outcomesContainer.classList.contains('hidden');
+          outcomesContainer.classList.toggle('hidden');
+          e.target.textContent = isHidden ? 'Show less' : 'Show all';
+        }
+      });
+    });
+
+    function initializeChatbot() {
+      const userInput = document.getElementById('userInput');
+      const sendButton = document.getElementById('sendButton');
+      const closeChat = document.getElementById('closeChat');
+
+      sendButton.addEventListener('click', sendMessage);
+      userInput.addEventListener('keypress', e => { if (e.key === 'Enter') sendMessage(); });
+      closeChat.addEventListener('click', () => document.getElementById('chatbotWrapper').classList.add('hidden'));
+
+      loadChatHistory();
+    }
+
+    function loadChatHistory() {
+      const chatMessages = document.getElementById('chatMessages');
+      const savedChat = localStorage.getItem(CHAT_STORAGE_KEY);
+      if (savedChat && chatMessages) {
+        chatMessages.innerHTML = savedChat;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+    }
+
+    function saveChatHistory() {
+      const chatMessages = document.getElementById('chatMessages');
+      if (chatMessages) localStorage.setItem(CHAT_STORAGE_KEY, chatMessages.innerHTML);
+    }
+
+    function addMessage(text, sender) {
+      const chatMessages = document.getElementById('chatMessages');
+      const messageDiv = document.createElement('div');
+      messageDiv.className = `flex mb-4 ${sender === 'user' ? 'justify-end' : ''}`;
+
+      if (sender === 'user') {
+        messageDiv.innerHTML = `
+          <div class="bg-primary-600 text-white rounded-lg rounded-tr-none px-4 py-2 max-w-[80%]">
+            ${text}
+          </div>
+          <div class="w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center ml-3 flex-shrink-0">
+            <i class="fas fa-user text-primary-600"></i>
+          </div>
+        `;
+      } else {
+        messageDiv.innerHTML = `
+          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
+            <i class="fas fa-robot text-blue-600"></i>
+          </div>
+          <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%]">
+            ${text}
+          </div>
+        `;
+      }
+
+      chatMessages.appendChild(messageDiv);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      saveChatHistory();
+    }
+
+    function sendMessage() {
+      const userInput = document.getElementById('userInput');
+      const query = userInput.value.trim();
+      if (!query) return;
+      const pageLoader = document.getElementById('page-loader');
+      if (pageLoader) pageLoader.classList.remove('hidden');
+
+      addMessage(query, 'user');
+      userInput.value = '';
+
+      fetch('/query', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query })
+      })
+      .then(response => response.ok ? response.json() : Promise.reject('Network error'))
+      .then(data => {
+        if (pageLoader) pageLoader.classList.add('hidden');
+        if (data.success) {
+          addMessage(`Found ${data.total_results} courses! Redirecting...`, 'bot');
+          saveChatHistory();
+          setTimeout(() => { window.location.href = `/${data.timestamp}`; }, 1500);
+        } else {
+          addMessage(`Error: ${data.error}`, 'bot');
+          saveChatHistory();
+        }
+      })
+      .catch(err => {
+        if (pageLoader) pageLoader.classList.add('hidden');
+        addMessage('Error processing your request. Please try again.', 'bot');
+        saveChatHistory();
+        console.error(err);
+      });
+    }
+
+    function renderCourses() {
+      if (window.__LOCAL_COURSES__?.length > 0) {
+        import('/js/courseCard.js')
+          .then(module => {
+            const resultsContainer = document.getElementById('results-container');
+            if (!resultsContainer) return;
+            resultsContainer.innerHTML = '';
+            window.__LOCAL_COURSES__.forEach(course => {
+              const courseCol = document.createElement('div');
+              courseCol.className = 'course-col';
+              courseCol.innerHTML = module.renderCourseCard(course);
+              resultsContainer.appendChild(courseCol);
+            });
+            const guideSection = document.getElementById('guideSection');
+            if (guideSection) guideSection.classList.add('hidden');
+          })
+          .catch(console.error);
+      }
+    }
+  </script>
 </body>
-
 </html>

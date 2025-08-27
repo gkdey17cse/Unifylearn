@@ -1,0 +1,154 @@
+{
+  "timestamp": "2025-08-27T21:44:09.877182",
+  "user_query": "hey please show me some ALgorithm courses from Udacity or SImpliLearn platform",
+  "debug_info": {
+    "user_query": "hey please show me some ALgorithm courses from Udacity or SImpliLearn platform",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bAlgorithm\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bAlgorithm\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bAlgorithm\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bhey\\ please\\ show\\ some\\ algorithm\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d925",
+        "Title": "Learn Data Structures and Algorithms",
+        "URL": "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+        "Short Intro": "Get hands-on practice with over 100 data structures and algorithm exercises and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Structures & Algorithms",
+        "Prequisites": "Python & Basic Algebra.",
+        "What you learn": "In this course you will learn data structures and algorithms by solving 80+ practice problems. You will begin each course by learning to solve defined problems related to a particular data structure and algorithm. By the end of each course, you would be able to evaluate and assess different data structures and algorithms for any open-ended problem and implement a solution based on your design choices."
+      },
+      "unified_data": {
+        "title": "Learn Data Structures and Algorithms",
+        "url": "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+        "description": "Get hands-on practice with over 100 data structures and algorithm exercises and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structures",
+          "Algorithms",
+          "Problem Solving",
+          "Python"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 5000,
+        "prerequisites": [
+          "Python & Basic Algebra"
+        ],
+        "learning_outcomes": [
+          "In this course you will learn data structures and algorithms by solving 80+ practice problems",
+          "You will begin each course by learning to solve defined problems related to a particular data structure and algorithm",
+          "By the end of each course, you would be able to evaluate and assess different data structures and algorithms for any open-ended problem and implement a solution based on your design choices"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    }
+  ]
+}

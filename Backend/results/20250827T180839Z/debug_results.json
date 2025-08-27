@@ -1,0 +1,324 @@
+{
+  "timestamp": "2025-08-27T18:08:39.101457",
+  "user_query": "Show me some course related to Buiseness Law from FutureLearn",
+  "debug_info": {
+    "user_query": "Show me some course related to Buiseness Law from FutureLearn",
+    "llm_generated_queries": {
+      "futurelearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bBusiness Law\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bBusiness Law\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 6,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4f4",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "35 Courses",
+        "Topics related to CRM": "Business Strategy / Construction / CRM / Decision-making / Entrepreneurship / Excel / Finance & Accounting / Fundraising / HR / Innovation / Logistics / Management & Leadership / Marketing / Professional Development / Business Strategy / Construction / CRM / Decision-making / Entrepreneurship / Excel / Finance & Accounting / Fundraising / HR / Innovation / Logistics / Management & Leadership / Marketing / Professional Development / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law and Business",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Legal System",
+          "Contract Law",
+          "Legal Compliance"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 10000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Understand the basics of business law and its importance for professionals. Gain insight into the legal system and its impact on business operations. Learn about legal aspects related to business.",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c6b4",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "39 Courses",
+        "Topics related to CRM": "Design / Innovation / Marketing / Music / Photography & Visual Arts / Sustainability / Writing / Design / Innovation / Marketing / Music / Photography & Visual Arts / Sustainability / Writing / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "FAQs": "What jobs are there in fashion? /How big is the fashion industry? /Can I study fashion online? /Will I gain any fashion certifications? /How do I start a career in fashion? /",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business Law, Fashion Industry",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business Management",
+          "Brand Development",
+          "Legal Requirements",
+          "Entrepreneurship"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [
+          "Interest in fashion",
+          "Basic business understanding (recommended)"
+        ],
+        "learning_outcomes": "Gain knowledge of business laws and requirements for starting, running, and expanding a fashion brand. Understand legal aspects relevant to the fashion industry and develop skills for managing a fashion business within legal frameworks.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ccec",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law and Business",
+        "language": "English",
+        "skills": [
+          "Legal System",
+          "Business Law Fundamentals",
+          "Professional Ethics"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 1000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Understand the core principles of business law. Learn how the legal system impacts business decisions. Gain essential knowledge for professionals in any field. Discover the fundamentals of the legal system",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ce7e",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business Law, Fashion Industry",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business Management",
+          "Brand Management",
+          "Legal Requirements"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [
+          "Basic understanding of business concepts",
+          "Interest in the fashion industry"
+        ],
+        "learning_outcomes": "Learn the business laws needed to start, run, and expand a fashion brand. Understand legal requirements for different business sizes in the fashion industry and manage your brand within legal boundaries.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2f3",
+        "Title": "Introduction to Business Law",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Introduction to Business Law",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "Course Short Intro": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Law",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-law",
+        "description": "Learn the fundamentals of business law as you discover how knowledge of the legal system is crucial for all professionals.",
+        "category": "Law",
+        "language": "English",
+        "skills": [
+          "Legal System",
+          "Business Law Fundamentals",
+          "Contract Law",
+          "Tort Law"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 5000,
+        "prerequisites": [
+          "None"
+        ],
+        "learning_outcomes": "Understand the fundamental concepts of business law. Discover the importance of legal knowledge for professionals in various fields. Learn about key aspects of the legal system and its impact on business operations.",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2e6",
+        "Title": "Business Law and the Fashion Industry",
+        "URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Business Law and the Fashion Industry",
+        "Course URL": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "Course Short Intro": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "Weekly study": "2 hours",
+        "Premium course": "$79"
+      },
+      "unified_data": {
+        "title": "Business Law and the Fashion Industry",
+        "url": "https://www.futurelearn.com/courses/business-law-fashion-industry",
+        "description": "Build your knowledge of the business laws and requirements needed to start, run, and expand a fashion brand of any size.",
+        "category": "Business and Law, Fashion",
+        "language": "English",
+        "skills": [
+          "Business Law",
+          "Fashion Business",
+          "Brand Management",
+          "Legal Requirements"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Introductory",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic understanding of business principles or an interest in the fashion industry"
+        ],
+        "learning_outcomes": "Gain knowledge of business laws and requirements for starting, running, and expanding a fashion brand, regardless of its size, to make informed business decisions.",
+        "price": "$79",
+        "provider": "Futurelearn"
+      }
+    }
+  ]
+}

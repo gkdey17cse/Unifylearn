@@ -1,0 +1,118 @@
+[
+  {
+    "category": "Artificial Intelligence",
+    "description": "Learn the deep reinforcement learning skills that are powering amazing advances in AI. Then start applying these to applications like video games and robotics.",
+    "duration": "4 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn cutting-edge deep reinforcement learning algorithms—from Deep Q-Networks (DQN) to Deep Deterministic Policy Gradients (DDPG)",
+      "Apply these concepts to train agents to walk, drive, or perform other complex tasks, and build a robust portfolio of deep reinforcement learning projects"
+    ],
+    "level": "Advanced",
+    "original_provider_id": "68ac0cf969e0bdd621a8d914",
+    "prerequisites": [
+      "This program requires experience with Python, probability, machine learning, and deep learning"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Deep Reinforcement Learning",
+      "Deep Q-Networks (DQN)",
+      "Deep Deterministic Policy Gradients (DDPG)",
+      "AI",
+      "Robotics",
+      "Python"
+    ],
+    "source_provider": "udacity",
+    "title": "Become a Deep Reinforcement Learning Expert",
+    "url": "https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893",
+    "viewers": 5000
+  },
+  {
+    "category": "Artificial Intelligence",
+    "description": "Offered at Georgia Tech as CS 8803",
+    "duration": "Estimated timeApprox. 4 Months",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": "Understand reinforcement learning principles, implement RL algorithms using Java, and apply them to real-world problems. Gain experience with techniques used in Georgia Tech's CS 8803 course.",
+    "level": "Advanced",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8f9",
+    "prerequisites": [
+      "Before taking this course, you should have taken a graduate-level machine-learning course and should have had some exposure to reinforcement learning from a previous course or seminar in computer science",
+      "Additionally, you will be programming extensively in Java during this course",
+      "If you are not familiar with Java, we recommend you review Udacity's Object Oriented Programming in Java course materials to get up to speed beforehand",
+      "See the Technology Requirements for using Udacity"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Reinforcement Learning",
+      "Java Programming",
+      "Machine Learning"
+    ],
+    "source_provider": "udacity",
+    "title": "Reinforcement Learning",
+    "url": "https://www.udacity.com/course/reinforcement-learning--ud600",
+    "viewers": 5000
+  },
+  {
+    "category": "Machine Learning",
+    "description": "Learn the fundamentals of machine learning and reinforcement learning in a fun and engaging way through autonomous driving with AWS DeepRacer.",
+    "duration": "Estimated timeApprox. 2 Weeks",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Intro to AWS DeepRacerGet an overview of what you’ll be learning and doing in the course",
+      "Learn about the items that come in the AWS DeepRacer box",
+      "Assemble and calibrate your vehicle",
+      "Get an overview of what you’ll be learning and doing in the course",
+      "Learn about the items that come in the AWS DeepRacer box",
+      "Assemble and calibrate your vehicle",
+      "Reinforcement learning in DeepRacerDeepRacer definition",
+      "Types of machine learning",
+      "DeepRacer definition",
+      "Types of machine learning",
+      "Unboxing AWS DeepRacerOptional lesson for those who do not own the AWS DeepRacer hardware",
+      "Learn about the platform by following what's included in the box",
+      "Optional lesson for those who do not own the AWS DeepRacer hardware",
+      "Learn about the platform by following what's included in the box",
+      "Under the Hood recapLearn what else is included in the vehicle beside the vehicle chassis",
+      "Learn what else is included in the vehicle beside the vehicle chassis",
+      "DeepRacer AssemblyInstall the battery",
+      "Boot the operating system and connect to wi-fi",
+      "Install the battery",
+      "Boot the operating system and connect to wi-fi",
+      "Steering calibrationFollow these steps to calibrate your vehicle",
+      "Follow these steps to calibrate your vehicle",
+      "Throttle CalibrationFollow these steps to calibrate your throttle",
+      "Follow these steps to calibrate your throttle",
+      "Track PreviewPreview one possible AWS DeepRacer track",
+      "Build your own track",
+      "Preview one possible AWS DeepRacer track",
+      "Build your own track"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8e8",
+    "prerequisites": [
+      "We recommend students have a basic knowledge of Python",
+      "See the Technology Requirements for using Udacity"
+    ],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Machine Learning",
+      "Reinforcement Learning",
+      "Autonomous Driving",
+      "AWS DeepRacer",
+      "Python"
+    ],
+    "source_provider": "udacity",
+    "title": "AWS DeepRacer",
+    "url": "https://www.udacity.com/course/aws-deepracer--ud014",
+    "viewers": 5000
+  }
+]

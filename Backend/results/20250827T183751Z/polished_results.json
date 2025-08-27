@@ -1,0 +1,56 @@
+[
+  {
+    "category": "Simplilearn",
+    "description": "This Deep Learning course with TensorFlow certification training is developed by industry leaders and aligned with the latest best practices. Youâ€™ll master deep learning concepts and models using Keras and TensorFlow frameworks through this TensorFlow course. Learn to implement deep learning algorithms with our TensorFlow training and prepare for a career as a Deep Learning Engineer. Achieve our deep learning certification and gain a competitive edge over your peers in your next interview.",
+    "duration": "Not specified, needs further research",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": "English",
+    "learning_outcomes": "Master deep learning concepts and models using Keras and TensorFlow. Implement deep learning algorithms and prepare for a career as a Deep Learning Engineer. Gain a competitive edge with deep learning certification.",
+    "level": "Intermediate",
+    "original_provider_id": "68ac04f569e0bdd621a8d7fe",
+    "prerequisites": "Basic programming knowledge, familiarity with Python, and a foundational understanding of machine learning concepts.",
+    "price": "Not specified, needs further research",
+    "provider": "Simplilearn",
+    "site": "Simplilearn",
+    "skills": 34113,
+    "source_provider": "simplilearn",
+    "title": "Deep Learning Course (with Keras & TensorFlow) Certification Training",
+    "url": "https://www.simplilearn.com/deep-learning-course-with-tensorflow-training?tag=",
+    "viewers": "1000+"
+  },
+  {
+    "category": "Simplilearn",
+    "description": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+    "duration": "Variable, depending on program structure",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": " Career Karma",
+    "learning_outcomes": "Gain expertise in AI domains through industry-relevant courses, hands-on projects, and live sessions. Master Data Science, Machine Learning, Deep Learning, and NLP to become job-ready in the AI field.",
+    "level": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+    "original_provider_id": "68ac04f569e0bdd621a8d7e8",
+    "prerequisites": [
+      "Basic programming knowledge",
+      "Understanding of mathematics and statistics",
+      "Familiarity with data analysis concepts"
+    ],
+    "price": "Variable, inquire with Simplilearn",
+    "provider": "Simplilearn",
+    "site": "Simplilearn",
+    "skills": [
+      "Data Science",
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Chat GPT",
+      "AI"
+    ],
+    "source_provider": "simplilearn",
+    "title": "Artificial Intelligence Engineer",
+    "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+    "viewers": "5000+"
+  }
+]

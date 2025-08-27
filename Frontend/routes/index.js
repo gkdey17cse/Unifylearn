@@ -20,27 +20,31 @@ router.get('/', (req, res) => {
 // Chatbot query
 router.post('/query', async (req, res) => {
     try {
+        // Check if this is a follow-up query from a timestamp page
+        const timestamp = req.query.timestamp;
+
         const response = await axios.post(`${BACKEND_URL}/query`, {
-            query: req.body.query
+            query: req.body.query,
+            timestamp: timestamp // Pass the timestamp to backend for context
         }, { timeout: 300000 });
 
         const results = response.data.results || [];
-        const timestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, 'Z');
+        const newTimestamp = new Date().toISOString().replace(/[-:]/g, '').replace(/\..+/, 'Z');
 
         // Create folder for this timestamp
-        const saveDir = path.resolve(__dirname, '../../Backend/results', timestamp);
+        const saveDir = path.resolve(__dirname, '../../Backend/results', newTimestamp);
         fs.mkdirSync(saveDir, { recursive: true });
 
         // Save results
         const polishedPath = path.join(saveDir, 'polished_results.json');
         fs.writeFileSync(polishedPath, JSON.stringify(results, null, 2));
 
-        // Return timestamp to frontend
+        // Return results to frontend (no redirect)
         res.json({
             success: true,
             results,
             total_results: results.length,
-            timestamp
+            timestamp: newTimestamp
         });
 
     } catch (error) {
@@ -60,7 +64,10 @@ router.get('/:timestamp', (req, res) => {
             `../../Backend/results/${req.params.timestamp}/polished_results.json`
         );
 
-        if (!fs.existsSync(polishedPath)) throw new Error('File not found');
+        if (!fs.existsSync(polishedPath)) {
+            // If file doesn't exist, redirect to home page instead of throwing error
+            return res.redirect('/');
+        }
 
         delete require.cache[require.resolve(polishedPath)];
         const raw = require(polishedPath);
@@ -76,46 +83,9 @@ router.get('/:timestamp', (req, res) => {
 
     } catch (err) {
         console.error('Error loading polished_results.json', err);
-        res.render('index', {
-            title: 'Course Search',
-            courses: [],
-            loading: false,
-            error: 'Failed to load JSON',
-            message: ''
-        });
+        // Redirect to home page instead of showing error
+        res.redirect('/');
     }
 });
-
-// Local testing with JSON (optional) CURRENTLY DISABLE
-// router.get('/test-local', (req, res) => {
-//     try {
-//         const polishedPath = path.resolve(
-//             __dirname,
-//             '../../Backend/results/20250825T190206Z/polished_results.json'
-//         );
-
-//         delete require.cache[require.resolve(polishedPath)];
-//         const raw = require(polishedPath);
-//         const courses = Array.isArray(raw) ? raw : (raw.results || raw);
-
-//         res.render('index', {
-//             title: 'Course Search - Local Test',
-//             courses,
-//             loading: false,
-//             error: null,
-//             message: `Loaded ${courses.length} courses from polished_results.json`
-//         });
-
-//     } catch (err) {
-//         console.error('Error loading local polished_results.json', err);
-//         res.render('index', {
-//             title: 'Course Search - Local Test',
-//             courses: [],
-//             loading: false,
-//             error: 'Failed to load local JSON',
-//             message: ''
-//         });
-//     }
-// });
 
 module.exports = router;

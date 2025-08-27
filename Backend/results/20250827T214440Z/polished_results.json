@@ -1,0 +1,84 @@
+[
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Start your Career in Digital Manufacturing. Practice your CAD/CAM/CAE skills and learn about industry trends, while creating your own drone.",
+    "duration": "Approximately 6 months to complete",
+    "instructors": [
+      "Autodesk"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain CAD/CAM/CAE skills and learn industry trends related to digital manufacturing. Develop skills in creating and designing drones, covering various aspects of their digital design and manufacturing.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466152",
+    "prerequisites": "Basic computer skills, high school level math and physics are recommended.",
+    "price": "Coursera Plus subscription or individual course purchase.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computer-Aided Design (CAD)",
+      "Autodesk",
+      "Manufacturing Processes",
+      "Sustainable Design",
+      "Mechanical Design",
+      "3d modeling",
+      "Autocad"
+    ],
+    "source_provider": "coursera",
+    "title": "CAD and Digital Manufacturing Specialization",
+    "url": "https://www.coursera.org/specializations/cad-design-digital-manufacturing",
+    "viewers": 3730
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Prove to potential employers that you’re up to the task by becoming an Autodesk Certified Professional. This online course from Autodesk prepares you by offering an overview of skills that match what is covered in the Autodesk Certified Professional: AutoCAD for Design and Drafting exam. The video lessons are structured to match the exam’s objective domains and follow the typical workflow and features of the AutoCAD software, including sections on drawing and organizing objects, drawing with accuracy, advanced editing functions, layouts, printing, and outputs, annotation techniques, and reusable content and drawing management. In the course, you will create drawing objects, manage layers, apply object snaps, and work with the User Coordinate System. You’ll edit objects and apply rotation and scale, array techniques, grip editing, offsets, fillet and chamfer, and trim and extend. You will also gain an understanding of exam topics such as layouts and viewports, output formats, and drawing management. Brush up on markup tools, hatch and fill, text, tables, multileaders, dimensioning, and much more.",
+    "duration": "Approx. 18 hours to complete",
+    "instructors": [
+      "Autodesk"
+    ],
+    "language": "English",
+    "learning_outcomes": "Prepare for the Autodesk Certified Professional exam by mastering AutoCAD skills like creating and organizing objects, accurate drawing techniques, advanced editing, layouts, annotation, and drawing management.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546636c",
+    "prerequisites": "Basic computer literacy and familiarity with technical drawing concepts are recommended. Prior experience with AutoCAD is helpful but not required.",
+    "price": "Coursera offers courses with a free trial period, after which a subscription fee applies to continue learning and access graded assignments.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Autocad",
+      "Design",
+      "Autodesk",
+      "Engineering",
+      "Computer-Aided Design (CAD)"
+    ],
+    "source_provider": "coursera",
+    "title": "Autodesk Certified Professional: AutoCAD for Design and Drafting Exam Prep",
+    "url": "https://www.coursera.org/learn/autodesk-autocad-design-drafting",
+    "viewers": 2400
+  },
+  {
+    "category": "Physical Science and Engineering",
+    "description": "Design, engineering, and manufacturing are undergoing a digital transformation, and the need for a collaborative product development environment is becoming an ever-growing requirement. Autodesk® Fusion 360™ meets this need by connecting CAD, CAM, and CAE in a single cloud-based platform unlike any other tool of its kind. This course builds upon digital manufacturing trends and foundational CAD concepts discussed in Course 1 of this series by introducing Fusion 360 as a problem-solving tool. In this course, we take the next step in connecting CAD, CAM, and CAE through a series of short exercises on 3D modeling, rendering, simulation, and computer aided manufacturing.",
+    "duration": "Approx. 12 hours to complete",
+    "instructors": [
+      "Autodesk"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn to use Fusion 360 for 3D modeling, rendering, simulation, and computer-aided manufacturing. Understand how to connect CAD, CAM, and CAE in a single platform for collaborative product development.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466475",
+    "prerequisites": "Basic CAD knowledge, familiarity with digital manufacturing concepts. Completion of Course 1 in the series is helpful.",
+    "price": "Coursera offers courses with options to audit for free or pay for a certificate and graded assignments.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Computer-Aided Design (CAD)",
+      "Autodesk",
+      "3d modeling",
+      "Autocad"
+    ],
+    "source_provider": "coursera",
+    "title": "Autodesk Fusion 360 Integrated CAD/CAM/CAE",
+    "url": "https://www.coursera.org/learn/fusion-360-integrated-cad-cam-cae?specialization=cad-design-digital-manufacturing",
+    "viewers": 1927
+  }
+]

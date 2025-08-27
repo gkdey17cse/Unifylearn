@@ -1,0 +1,28 @@
+{
+  "user_query": "Show me some course related to Buiseness Law from FutureLearn",
+  "generated_queries": {
+    "futurelearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bBusiness Law\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bBusiness Law\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bBusiness Law\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-27T18:08:39.094264"
+}

@@ -1,0 +1,28 @@
+{
+  "user_query": "show me some AUTOCAD related course from Coursera",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Skills Covered": {
+            "$regex": "\\bAUTOCAD\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bAUTOCAD\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bAUTOCAD\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-27T21:44:40.168099"
+}

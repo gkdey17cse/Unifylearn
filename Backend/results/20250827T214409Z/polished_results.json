@@ -1,0 +1,32 @@
+[
+  {
+    "category": "Computer Science",
+    "description": "Get hands-on practice with over 100 data structures and algorithm exercises and technical mentor support when needed to help prepare you for interviews and on-the-job scenarios.",
+    "duration": "4 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "In this course you will learn data structures and algorithms by solving 80+ practice problems",
+      "You will begin each course by learning to solve defined problems related to a particular data structure and algorithm",
+      "By the end of each course, you would be able to evaluate and assess different data structures and algorithms for any open-ended problem and implement a solution based on your design choices"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d925",
+    "prerequisites": [
+      "Python & Basic Algebra"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Data Structures",
+      "Algorithms",
+      "Problem Solving",
+      "Python"
+    ],
+    "source_provider": "udacity",
+    "title": "Learn Data Structures and Algorithms",
+    "url": "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    "viewers": 5000
+  }
+]
