@@ -1,0 +1,44 @@
+{
+  "user_query": "SHow me some course from SImpliLearn based on Cryprography",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bshow\\ some\\ from\\ simplilearn\\ based\\ cryprography\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bshow\\ some\\ from\\ simplilearn\\ based\\ cryprography\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bshow\\ some\\ from\\ simplilearn\\ based\\ cryprography\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bshow\\ some\\ from\\ simplilearn\\ based\\ cryprography\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-30T16:05:56.309315"
+}

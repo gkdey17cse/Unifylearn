@@ -1,0 +1,44 @@
+{
+  "user_query": "Show me some NLP course from Udacity & SimpliLearn Platform",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bNLP\\b|\\bNatural Language Processing\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-28T21:53:28.741162"
+}

@@ -1,0 +1,110 @@
+{
+  "user_query": "Show me 10 Deep Learning course",
+  "generated_queries": {
+    "coursera": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills Covered": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 10
+        }
+      ]
+    },
+    "futurelearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 10
+        }
+      ]
+    },
+    "simplilearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills Covered": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 10
+        }
+      ]
+    },
+    "udacity": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Course Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Brief Description": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 10
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-28T21:54:25.850584"
+}

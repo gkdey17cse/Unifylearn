@@ -1,0 +1,134 @@
+{
+  "user_query": "Can you show me some Computer Networks related courses from Any platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-09-11T14:28:39.969085"
+}

@@ -1,0 +1,102 @@
+[
+  {
+    "category": "Natural Language Processing",
+    "description": "Master the skills to get computers to understand, process, and manipulate human language. Build models on real data, and get hands-on experience with sentiment analysis, machine translation, and more.",
+    "duration": "3 Months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn cutting-edge natural language processing techniques to process speech and analyze text",
+      "Build probabilistic and deep learning models, such as hidden Markov models and recurrent neural networks, to teach the computer to do tasks such as speech recognition, machine translation, and more"
+    ],
+    "level": "Advanced",
+    "original_provider_id": "68ac0cf969e0bdd621a8d917",
+    "prerequisites": [
+      "This program requires experience with Python, statistics, machine learning, and deep learning"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Natural Language Processing (NLP)",
+      "Sentiment Analysis",
+      "Machine Translation",
+      "Deep Learning",
+      "Speech Recognition",
+      "Text Analysis",
+      "Hidden Markov Models",
+      "Recurrent Neural Networks"
+    ],
+    "source_provider": "udacity",
+    "title": "Become a Natural Language Processing Expert",
+    "url": "https://www.udacity.com/course/natural-language-processing-nanodegree--nd892",
+    "viewers": 5000
+  },
+  {
+    "category": "Data Engineering",
+    "description": "Learn how to wrangle data on a massive scale! By the end of this course, you’ll be able to pull data from a wide range of sources, store it in a database, and create data pipelines (ETL, NLP, machine learning) that power real-world web applications.",
+    "duration": "1 month to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "For many companies, data scientists who can also tackle data-engineering problems are worth their weight in gold",
+      "In this course, you’ll learn how to unlock data silos, pulling data from multiple sources and pipelining it into usable forms for analysts and top-level decision makers",
+      "At the end, you’ll even build an impressive machine-learning-powered web application that has real-world, life-saving significance"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d955",
+    "prerequisites": [
+      "Python, SQL, Statistics, Machine Learning"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Data Pipelines",
+      "ETL",
+      "Databases",
+      "SQL",
+      "Python",
+      "NLP",
+      "Machine Learning",
+      "Data Wrangling"
+    ],
+    "source_provider": "udacity",
+    "title": "Data Engineering for Data Scientists",
+    "url": "https://www.udacity.com/course/data-engineering-for-data-scientists--cd0018",
+    "viewers": 5000
+  },
+  {
+    "category": "Simplilearn",
+    "description": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+    "duration": "Varies (Master's Program)",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": " Career Karma",
+    "learning_outcomes": "Gain expertise in Data Science, Machine Learning, Deep Learning, and NLP. Develop AI solutions using Python and industry-relevant tools. Participate in hackathons, capstone projects and AMA sessions hosted by IBM.",
+    "level": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+    "original_provider_id": "68ac04f569e0bdd621a8d7e8",
+    "prerequisites": [
+      "Bachelor's degree in a related field (e.g., Computer Science, Engineering, Mathematics)",
+      "Basic programming knowledge (e.g., Python)",
+      "Understanding of fundamental mathematical concepts (e.g., Linear Algebra, Calculus, Statistics)"
+    ],
+    "price": "Varies (Contact Simplilearn for details)",
+    "provider": "Simplilearn",
+    "site": "Simplilearn",
+    "skills": [
+      "Data Science",
+      "Python",
+      "Machine Learning",
+      "Deep Learning",
+      "NLP",
+      "Chat GPT",
+      "AI"
+    ],
+    "source_provider": "simplilearn",
+    "title": "Artificial Intelligence Engineer",
+    "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+    "viewers": "1000+"
+  }
+]

@@ -1,0 +1,122 @@
+{
+  "user_query": "clear",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 29,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 4,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Short Intro": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bclear\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bclear\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bclear\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bclear\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bclear\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-09-22T13:53:11.514111"
+}

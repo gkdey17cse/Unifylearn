@@ -1,0 +1,190 @@
+{
+  "user_query": "show me some course related to IFT or Fintech",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bIFT\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bFintech\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-22T14:15:58.700885"
+}

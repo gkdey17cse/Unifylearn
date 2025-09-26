@@ -1,0 +1,502 @@
+{
+  "timestamp": "2025-09-11T14:28:39.971085",
+  "user_query": "Can you show me some Computer Networks related courses from Any platform",
+  "debug_info": {
+    "user_query": "Can you show me some Computer Networks related courses from Any platform",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Main Category": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Brief Description": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Course Title": {
+              "$regex": "\\bComputer Networks\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Category": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bcan\\ you\\ show\\ some\\ computer\\ networks\\ related\\ from\\ any\\ platform\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Short Intro": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bComputer Networks\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254663ec",
+        "Title": "Managing Network Security",
+        "URL": "https://www.coursera.org/learn/managing-network-cybersecurity?specialization=managing-cybersecurity",
+        "Short Intro": "Almost every organization uses computer networks to share their information and to support their business operations. When we allow network access to data  it is exposed to threats from inside and outside of the organization.  This course examines the threats associated with using internal and external networks and how to manage the protection of information when it’s accessible via networks.",
+        "Category": "Information Technology",
+        "Sub-Category": "Security",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Wireless Security,Intrusion Detection System,Firewall (Computing),Computer Network,",
+        "Instructors": "Herbert J. Mattord, Ph.D., CISM, CISSP, CDP",
+        "Rating": "4.7stars",
+        "Number of viewers": "194",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Managing Network Security",
+        "url": "https://www.coursera.org/learn/managing-network-cybersecurity?specialization=managing-cybersecurity",
+        "description": "Almost every organization uses computer networks to share their information and to support their business operations. When we allow network access to data  it is exposed to threats from inside and outside of the organization.  This course examines the threats associated with using internal and external networks and how to manage the protection of information when it’s accessible via networks.",
+        "category": "Information Technology",
+        "language": "English",
+        "skills": [
+          "Wireless Security",
+          "Intrusion Detection System",
+          "Firewall (Computing)",
+          "Computer Network"
+        ],
+        "instructors": [
+          "Herbert J. Mattord",
+          "Ph.D.",
+          "CISM",
+          "CISSP",
+          "CDP"
+        ],
+        "duration": "Approx. 15 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 194,
+        "prerequisites": "Basic computer literacy and familiarity with networking concepts is recommended. No prior cybersecurity experience is required.",
+        "learning_outcomes": "Understand network security threats, and how to protect information accessed via networks. Learn about intrusion detection, firewalls, and wireless security to manage and mitigate risks. ",
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466862",
+        "Title": "Algorithms on Graphs",
+        "URL": "https://www.coursera.org/learn/algorithms-on-graphs?specialization=data-structures-algorithms",
+        "Short Intro": "If you have ever used a navigation service to find optimal route and estimate time to destination, you've used algorithms on graphs. Graphs arise in various real-world situations as there are road networks, computer networks and, most recently, social networks! If you're looking for the fastest time to get to work, cheapest way to connect a set of computers into a network or efficient algorithm to automatically find communities and opinion leaders in Facebook, you're going to work with graphs and algorithms on graphs.",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Graph Theory,Graphs,Graph Algorithms,",
+        "Instructors": "Neil Rhodes",
+        "Rating": "4.7stars",
+        "Number of viewers": "2,189",
+        "Duration": "Approx. 55 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Algorithms on Graphs",
+        "url": "https://www.coursera.org/learn/algorithms-on-graphs?specialization=data-structures-algorithms",
+        "description": "If you have ever used a navigation service to find optimal route and estimate time to destination, you've used algorithms on graphs. Graphs arise in various real-world situations as there are road networks, computer networks and, most recently, social networks! If you're looking for the fastest time to get to work, cheapest way to connect a set of computers into a network or efficient algorithm to automatically find communities and opinion leaders in Facebook, you're going to work with graphs and algorithms on graphs.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Graph Theory",
+          "Graphs",
+          "Graph Algorithms"
+        ],
+        "instructors": [
+          "Neil Rhodes"
+        ],
+        "duration": "Approx. 55 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2189,
+        "prerequisites": "Basic programming knowledge and familiarity with data structures.",
+        "learning_outcomes": "Understand and apply graph algorithms for real-world problems like finding optimal routes and network optimization. Learn to identify communities and opinion leaders in social networks using efficient algorithms.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d160",
+        "Title": "CCNA: Computer Networking Essentials",
+        "URL": "https://www.futurelearn.com/courses/ccna-computer-networking-essentials",
+        "Short Intro": "Acquire the skills needed to become a Cisco Certified Network Associate and launch your career in computer networks.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "CCNA: Computer Networking Essentials",
+        "Course URL": "https://www.futurelearn.com/courses/ccna-computer-networking-essentials",
+        "Course Short Intro": "Acquire the skills needed to become a Cisco Certified Network Associate and launch your career in computer networks.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "CCNA: Computer Networking Essentials",
+        "url": "https://www.futurelearn.com/courses/ccna-computer-networking-essentials",
+        "description": "Acquire the skills needed to become a Cisco Certified Network Associate and launch your career in computer networks.",
+        "category": "Networking",
+        "language": "English",
+        "skills": [
+          "Networking fundamentals",
+          "Network configuration",
+          "Network troubleshooting"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 10000,
+        "prerequisites": [],
+        "learning_outcomes": "This course will equip you with fundamental networking skills, preparing you for the Cisco Certified Network Associate (CCNA) certification and a career in computer networks.",
+        "price": "$84",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d937",
+        "Title": "Ethical Hacker",
+        "URL": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+        "Short Intro": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+        "Duration": "Estimated 2 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Ethical Hacker",
+        "Prequisites": "Linux, Networking, Programming and Windows OS.",
+        "What you learn": "You’ll master the skills necessary to become a successful Ethical Hacker. Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence."
+      },
+      "unified_data": {
+        "title": "Ethical Hacker",
+        "url": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+        "description": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "Vulnerability Assessment",
+          "Network Security"
+        ],
+        "instructors": [],
+        "duration": "Estimated 2 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 10000,
+        "prerequisites": [
+          "Linux, Networking, Programming and Windows OS"
+        ],
+        "learning_outcomes": [
+          "You’ll master the skills necessary to become a successful Ethical Hacker",
+          "Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d940",
+        "Title": "Security Engineer",
+        "URL": "https://www.udacity.com/course/security-engineer-nanodegree--nd698",
+        "Short Intro": "Gain the highly sought-after skills to protect an organization’s computer networks and systems from security threats or attacks.",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Security Engineer",
+        "Prequisites": "Basics of Python, experience configuring Windows and Linux environments.",
+        "What you learn": "You’ll master the foundational skills necessary to become a successful Security Engineer. This program will focus on how to protect a company’s computer systems, networks, applications and infrastructure from security threats or attacks."
+      },
+      "unified_data": {
+        "title": "Security Engineer",
+        "url": "https://www.udacity.com/course/security-engineer-nanodegree--nd698",
+        "description": "Gain the highly sought-after skills to protect an organization’s computer networks and systems from security threats or attacks.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Security Engineering",
+          "Network Security",
+          "System Security",
+          "Threat Detection",
+          "Incident Response"
+        ],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 50000,
+        "prerequisites": [
+          "Basics of Python, experience configuring Windows and Linux environments"
+        ],
+        "learning_outcomes": [
+          "You’ll master the foundational skills necessary to become a successful Security Engineer",
+          "This program will focus on how to protect a company’s computer systems, networks, applications and infrastructure from security threats or attacks"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d945",
+        "Title": "Security Analyst",
+        "URL": "https://www.udacity.com/course/security-analyst-nanodegree--nd324",
+        "Short Intro": "Meet the growing demand for cybersecurity professionals by gaining the skills to protect an organization’s computer networks and systems.",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Security Analyst",
+        "Prequisites": "Experience with Python, SQL, security fundamentals, database design, and networking and operating systems.",
+        "What you learn": "You’ll master the skills necessary to become a successful Security Analyst. Learn to identify, correct and respond to security weaknesses and incidents. Plus, get hands-on experience monitoring network traffic, analyzing alert and log data, and following incident handling procedures."
+      },
+      "unified_data": {
+        "title": "Security Analyst",
+        "url": "https://www.udacity.com/course/security-analyst-nanodegree--nd324",
+        "description": "Meet the growing demand for cybersecurity professionals by gaining the skills to protect an organization’s computer networks and systems.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Network Security",
+          "Incident Response",
+          "Security Analysis",
+          "Python",
+          "SQL",
+          "Database Design"
+        ],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 15000,
+        "prerequisites": [
+          "Experience with Python, SQL, security fundamentals, database design, and networking and operating systems"
+        ],
+        "learning_outcomes": [
+          "You’ll master the skills necessary to become a successful Security Analyst",
+          "Learn to identify, correct and respond to security weaknesses and incidents",
+          "Plus, get hands-on experience monitoring network traffic, analyzing alert and log data, and following incident handling procedures"
+        ],
+        "price": "Paid",
+        "provider": "Udacity"
+      }
+    }
+  ]
+}

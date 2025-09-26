@@ -134,7 +134,7 @@ You are an expert MongoDB query generator for educational courses. Analyze the u
 
 **Output ONLY the raw JSON. No other text.**
 """
-    model = genai.GenerativeModel("gemini-2.0-flash")
+    model = genai.GenerativeModel("gemini-2.0-flash-lite")
     response = model.generate_content(prompt)
     raw_text = (response.text or "").strip()
     print("\n--- Raw LLM Query Output (Using Schema Fields) ---\n", raw_text)

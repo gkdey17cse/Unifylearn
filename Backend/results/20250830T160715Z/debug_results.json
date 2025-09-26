@@ -1,0 +1,1454 @@
+{
+  "timestamp": "2025-08-30T16:07:15.830080",
+  "user_query": "Show me some Cryptography based course",
+  "debug_info": {
+    "user_query": "Show me some Cryptography based course",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 21,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 5,
+        "used_fallback": false,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCryptography\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": false,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466087",
+        "Title": "Object Oriented Programming in Java Specialization",
+        "URL": "https://www.coursera.org/specializations/object-oriented-programming",
+        "Short Intro": "Grow Your Portfolio as a Software Engineer. Learn about Object Oriented Design in four project-based courses.",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, Korean, German, Russian, Spanish, Chinese (Simplified)",
+        "Skills": "Data Structure, Hash Table, Java Programming, Object-Oriented Programming (OOP), Algorithms, Problem Solving, String (Computer Science), Cryptography, Logic Programming, Sorting Algorithm, Trees (Data Structures), Linked List, ",
+        "Instructors": "Owen Astrachan ,Robert Duvall ,Andrew D. Hilton ,Susan H. Rodger ,Mia Minnes ,Leo Porter ,Christine Alvarado ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "3,723",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Object Oriented Programming in Java Specialization",
+        "url": "https://www.coursera.org/specializations/object-oriented-programming",
+        "description": "Grow Your Portfolio as a Software Engineer. Learn about Object Oriented Design in four project-based courses.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structure",
+          "Hash Table",
+          "Java Programming",
+          "Object-Oriented Programming (OOP)",
+          "Algorithms",
+          "Problem Solving",
+          "String (Computer Science)",
+          "Cryptography",
+          "Logic Programming",
+          "Sorting Algorithm",
+          "Trees (Data Structures)",
+          "Linked List"
+        ],
+        "instructors": [
+          "Owen Astrachan",
+          "Robert Duvall",
+          "Andrew D. Hilton",
+          "Susan H. Rodger",
+          "Mia Minnes",
+          "Leo Porter",
+          "Christine Alvarado"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 3723,
+        "prerequisites": "Basic programming knowledge recommended, ideally in any language; familiarity with fundamental computer science concepts.",
+        "learning_outcomes": "Students will master object-oriented design principles, applying them through project-based courses. They will gain skills in Java programming and build a portfolio showcasing their software engineering abilities.",
+        "price": "This is a subscription-based specialization. Please check the Coursera website for pricing details.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660a1",
+        "Title": "Introduction to Discrete Mathematics for Computer Science Specialization",
+        "URL": "https://www.coursera.org/specializations/discrete-mathematics",
+        "Short Intro": "Learn the language of Computer Science. Learn the math that defines computer science, and practice applying it through mathematical proofs and Python code",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Chinese (Simplified), Greek",
+        "Skills": "Graph Theory, Number Theory, Cryptography, Probability, Mathematical Induction, Proof Theory, Discrete Mathematics, Mathematical Logic, Random Variable, Probability Interpretations, Combinatorics, Modular Exponentiation, ",
+        "Instructors": "Alexander S. Kulikov ,Michael Levin ,Владимир Подольский ,Michael Levin ,",
+        "Rating": "4.5stars",
+        "Number of viewers": "2,447",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Discrete Mathematics for Computer Science Specialization",
+        "url": "https://www.coursera.org/specializations/discrete-mathematics",
+        "description": "Learn the language of Computer Science. Learn the math that defines computer science, and practice applying it through mathematical proofs and Python code",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Graph Theory",
+          "Number Theory",
+          "Cryptography",
+          "Probability",
+          "Mathematical Induction",
+          "Proof Theory",
+          "Discrete Mathematics",
+          "Mathematical Logic",
+          "Random Variable",
+          "Probability Interpretations",
+          "Combinatorics",
+          "Modular Exponentiation"
+        ],
+        "instructors": [
+          "Alexander S. Kulikov",
+          "Michael Levin",
+          "Владимир Подольский",
+          "Michael Levin"
+        ],
+        "duration": "Approximately 6 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 2447,
+        "prerequisites": "Basic understanding of high school math, including algebra. Familiarity with basic programming concepts is helpful.",
+        "learning_outcomes": "Students will learn the mathematical foundations of computer science, including logic, proofs, and combinatorics. They will apply this knowledge through mathematical proofs and Python code.",
+        "price": "Free to audit. Paid subscription for graded assignments and certificate.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546604f",
+        "Title": "Decentralized Finance (DeFi): The Future of Finance Specialization",
+        "URL": "https://www.coursera.org/specializations/decentralized-finance-duke",
+        "Short Intro": "Learn more about decentralized finance.. Understand the infrastructure of decentralized finance and assess opportunities in this space as well as screen out ideas that are likely to fail.",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Cryptography, Smart Contract, Decentralized Protocols, governance, Blockchain Mechanics, Consensus mechanisms, digital signature, Address mechanics, Flash loans, Bonding curves, Set Protocol’s tokenization method, Mechanics of Compound and Aave, ",
+        "Instructors": "Cam Harvey ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,462",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Decentralized Finance (DeFi): The Future of Finance Specialization",
+        "url": "https://www.coursera.org/specializations/decentralized-finance-duke",
+        "description": "Learn more about decentralized finance.. Understand the infrastructure of decentralized finance and assess opportunities in this space as well as screen out ideas that are likely to fail.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Smart Contract",
+          "Decentralized Protocols",
+          "governance",
+          "Blockchain Mechanics",
+          "Consensus mechanisms",
+          "digital signature",
+          "Address mechanics",
+          "Flash loans",
+          "Bonding curves",
+          "Set Protocol’s tokenization method",
+          "Mechanics of Compound and Aave"
+        ],
+        "instructors": [
+          "Cam Harvey"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 1462,
+        "prerequisites": "Basic understanding of finance and some familiarity with blockchain technology is recommended.",
+        "learning_outcomes": "Understand the infrastructure of DeFi and assess opportunities within it. Learn to identify and avoid potentially unsuccessful ideas in the DeFi space.",
+        "price": "Course enrollment costs vary. Check Coursera for specific pricing details.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466052",
+        "Title": "Java Programming and Software Engineering Fundamentals Specialization",
+        "URL": "https://www.coursera.org/specializations/java-programming",
+        "Short Intro": "Explore a Career as a Software Engineer. Learn the basics of programming and software development",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Korean",
+        "Skills": "HTML, JavaScript, Cascading Style Sheets (CSS), Java Programming, Html5, Algorithms, Problem Solving, String (Computer Science), Data Structure, Cryptography, Hash Table, Programming Principles, ",
+        "Instructors": "Susan H. Rodger ,Robert Duvall ,Owen Astrachan ,Andrew D. Hilton ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "13,832",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Java Programming and Software Engineering Fundamentals Specialization",
+        "url": "https://www.coursera.org/specializations/java-programming",
+        "description": "Explore a Career as a Software Engineer. Learn the basics of programming and software development",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "HTML",
+          "JavaScript",
+          "Cascading Style Sheets (CSS)",
+          "Java Programming",
+          "Html5",
+          "Algorithms",
+          "Problem Solving",
+          "String (Computer Science)",
+          "Data Structure",
+          "Cryptography",
+          "Hash Table",
+          "Programming Principles"
+        ],
+        "instructors": [
+          "Susan H. Rodger",
+          "Robert Duvall",
+          "Owen Astrachan",
+          "Andrew D. Hilton"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 13832,
+        "prerequisites": "Basic computer literacy. No prior programming experience required.",
+        "learning_outcomes": "Students will learn fundamental programming concepts using Java, including data structures and algorithms. They'll develop problem-solving skills and build a foundation for software engineering careers.",
+        "price": "Free to Audit. Paid certificate available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466095",
+        "Title": "Blockchain Specialization",
+        "URL": "https://www.coursera.org/specializations/blockchain",
+        "Short Intro": "Innovate with the Next Frontier in Technology. Learn how the blockchain is leading to a paradigm shift in decentralized application programming",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, Korean, German, Russian, Spanish",
+        "Skills": "Smart Contract, Ethereum, Blockchains, Solidity, Cryptography, Bitcoin, Cryptocurrency, Blockchain, Remix IDE, MetaMask client, Decentralized Applications, Truffle IDE, ",
+        "Instructors": "Bina Ramamurthy ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "6,541",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Blockchain Specialization",
+        "url": "https://www.coursera.org/specializations/blockchain",
+        "description": "Innovate with the Next Frontier in Technology. Learn how the blockchain is leading to a paradigm shift in decentralized application programming",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Smart Contract",
+          "Ethereum",
+          "Blockchains",
+          "Solidity",
+          "Cryptography",
+          "Bitcoin",
+          "Cryptocurrency",
+          "Blockchain",
+          "Remix IDE",
+          "MetaMask client",
+          "Decentralized Applications",
+          "Truffle IDE"
+        ],
+        "instructors": [
+          "Bina Ramamurthy"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 6541,
+        "prerequisites": "Basic programming knowledge is recommended. Familiarity with computer science fundamentals is helpful.",
+        "learning_outcomes": "Understand blockchain technology and its applications. Learn about smart contracts, Ethereum, and decentralized application development. Develop skills in Solidity and blockchain-related tools.",
+        "price": "Pricing varies. Check Coursera for specific subscription or individual course fees.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546605e",
+        "Title": "Introduction to Cyber Security Specialization",
+        "URL": "https://www.coursera.org/specializations/intro-cyber-security",
+        "Short Intro": "Cyber Security. An introduction to modern information and system protection technology and methods.",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Cryptography, Cybersecurity, Risk Assessment, Cyber Defense, Cyber Attacks, Information Security (INFOSEC), Denial-Of-Service Attack (DOS), Public-Key Cryptography, ",
+        "Instructors": "Dr. Edward G. Amoroso ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "2,665",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Cyber Security Specialization",
+        "url": "https://www.coursera.org/specializations/intro-cyber-security",
+        "description": "Cyber Security. An introduction to modern information and system protection technology and methods.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Risk Assessment",
+          "Cyber Defense",
+          "Cyber Attacks",
+          "Information Security (INFOSEC)",
+          "Denial-Of-Service Attack (DOS)",
+          "Public-Key Cryptography"
+        ],
+        "instructors": [
+          "Dr. Edward G. Amoroso"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 2665,
+        "prerequisites": "Basic computer literacy and familiarity with operating systems are recommended. No prior cybersecurity knowledge is required.",
+        "learning_outcomes": "Understand fundamental cybersecurity concepts, including threats, vulnerabilities, and defense mechanisms. Learn about cryptography, risk assessment, and common cyber attacks. Gain knowledge of information security practices.",
+        "price": "Free to audit, Paid for certificate and graded assignments.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660d6",
+        "Title": "Cybersecurity Specialization",
+        "URL": "https://www.coursera.org/specializations/cyber-security",
+        "Short Intro": "Cybersecurity Fundamentals. Construction of Secure Systems",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Korean",
+        "Skills": "Software Testing, Cryptography, Usability, Penetration Test, Cybersecurity, Privacy, User Interface, Fuzz Testing, Buffer Overflow, Sql Injection, Number Theory, Public-Key Cryptography, ",
+        "Instructors": "Jennifer Golbeck ,Michael Hicks ,Jonathan  Katz ,Gang Qu ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "4,210",
+        "Duration": "Approximately 8 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cybersecurity Specialization",
+        "url": "https://www.coursera.org/specializations/cyber-security",
+        "description": "Cybersecurity Fundamentals. Construction of Secure Systems",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Software Testing",
+          "Cryptography",
+          "Usability",
+          "Penetration Test",
+          "Cybersecurity",
+          "Privacy",
+          "User Interface",
+          "Fuzz Testing",
+          "Buffer Overflow",
+          "Sql Injection",
+          "Number Theory",
+          "Public-Key Cryptography"
+        ],
+        "instructors": [
+          "Jennifer Golbeck",
+          "Michael Hicks",
+          "Jonathan  Katz",
+          "Gang Qu"
+        ],
+        "duration": "Approximately 8 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 4210,
+        "prerequisites": "Basic computer literacy and a fundamental understanding of computer science concepts are recommended. No prior cybersecurity experience is required.",
+        "learning_outcomes": "This specialization teaches cybersecurity fundamentals and secure system construction. Learn about software testing, cryptography, and penetration testing to build and maintain secure systems.",
+        "price": "Free to Audit. Paid subscription required for graded assignments and certificates.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662d9",
+        "Title": "Cryptography I",
+        "URL": "https://www.coursera.org/learn/crypto",
+        "Short Intro": "Cryptography is an indispensable tool for protecting information in computer systems. In this course you will learn the inner workings of cryptographic systems and how to correctly use them in real-world applications. The course begins with a detailed discussion of how two parties who have a shared secret key can communicate securely when a powerful adversary eavesdrops and tampers with traffic. We will examine many deployed protocols and analyze mistakes in existing systems. The second half of the course discusses public-key techniques that let two parties generate a shared secret key. Throughout the course participants will be exposed to many exciting open problems in the field and work on fun (optional) programming projects. In a second course (Crypto II) we will cover more advanced cryptographic tasks such as zero-knowledge, privacy mechanisms, and other forms of encryption.",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Cryptography,Cryptographic Attacks,Public-Key Cryptography,Symmetric-Key Algorithm,",
+        "Instructors": "Dan Boneh",
+        "Rating": "4.8stars",
+        "Number of viewers": "4,084",
+        "Duration": "Approx. 23 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cryptography I",
+        "url": "https://www.coursera.org/learn/crypto",
+        "description": "Cryptography is an indispensable tool for protecting information in computer systems. In this course you will learn the inner workings of cryptographic systems and how to correctly use them in real-world applications. The course begins with a detailed discussion of how two parties who have a shared secret key can communicate securely when a powerful adversary eavesdrops and tampers with traffic. We will examine many deployed protocols and analyze mistakes in existing systems. The second half of the course discusses public-key techniques that let two parties generate a shared secret key. Throughout the course participants will be exposed to many exciting open problems in the field and work on fun (optional) programming projects. In a second course (Crypto II) we will cover more advanced cryptographic tasks such as zero-knowledge, privacy mechanisms, and other forms of encryption.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cryptographic Attacks",
+          "Public-Key Cryptography",
+          "Symmetric-Key Algorithm"
+        ],
+        "instructors": [
+          "Dan Boneh"
+        ],
+        "duration": "Approx. 23 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 4084,
+        "prerequisites": "Basic understanding of computer science concepts and programming fundamentals. Familiarity with mathematical notation is helpful.",
+        "learning_outcomes": "Understand the principles of cryptography, including symmetric-key and public-key techniques. Learn to analyze cryptographic protocols and identify vulnerabilities.  Gain experience with practical applications of cryptography.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254662c2",
+        "Title": " IT Security: Defense against the digital dark arts ",
+        "URL": "https://www.coursera.org/learn/it-security",
+        "Short Intro": "This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.",
+        "Category": "Information Technology",
+        "Sub-Category": "Security",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Portuguese (Brazilian), Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Cybersecurity,Wireless Security,Cryptography,Network Security,",
+        "Instructors": "Google Career Certificates",
+        "Rating": "4.8stars",
+        "Number of viewers": "19,135",
+        "Duration": "Approx. 31 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": " IT Security: Defense against the digital dark arts ",
+        "url": "https://www.coursera.org/learn/it-security",
+        "description": "This course covers a wide variety of IT security concepts, tools, and best practices. It introduces threats and attacks and the many ways they can show up. We’ll give you some background of encryption algorithms and how they’re used to safeguard data. Then, we’ll dive into the three As of information security: authentication, authorization, and accounting. We’ll also cover network security solutions, ranging from firewalls to Wifi encryption options. The course is rounded out by putting all these elements together into a multi-layered, in-depth security architecture, followed by recommendations on how to integrate a culture of security into your organization or team.",
+        "category": "Information Technology",
+        "language": "English",
+        "skills": [
+          "Cybersecurity",
+          "Wireless Security",
+          "Cryptography",
+          "Network Security"
+        ],
+        "instructors": [
+          "Google Career Certificates"
+        ],
+        "duration": "Approx. 31 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 19135,
+        "prerequisites": "Basic computer literacy and familiarity with networking concepts are recommended but not strictly required. A general understanding of IT terminology is helpful.",
+        "learning_outcomes": "Understand IT security concepts, threats, and attacks. Learn about encryption, authentication, authorization, and accounting. Explore network security solutions and how to build a multi-layered security architecture.",
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466409",
+        "Title": "Decentralized Finance (DeFi) Infrastructure",
+        "URL": "https://www.coursera.org/learn/decentralized-finance-infrastructure-duke?specialization=decentralized-finance-duke",
+        "Short Intro": "Decentralized Finance: The Future of Finance is a set of four courses taught by Campbell R. Harvey (Professor of Finance at the Fuqua School of Business, Duke University, and a Research Associate of the National Bureau of Economic Research) that focus on decentralized finance (DeFi). In this first course, we begin by exploring the origins of DeFi and take a broad historical view from the earliest barter economies, such as the first peer-to-peer exchanges of bartering, to present day. The course also looks at historical examples of money having value even though it is not officially backed. ",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Cryptography,Smart Contract,Decentralized Protocols,governance,Blockchain Mechanics,",
+        "Instructors": "Cam Harvey",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,192",
+        "Duration": "Approx. 6 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Decentralized Finance (DeFi) Infrastructure",
+        "url": "https://www.coursera.org/learn/decentralized-finance-infrastructure-duke?specialization=decentralized-finance-duke",
+        "description": "Decentralized Finance: The Future of Finance is a set of four courses taught by Campbell R. Harvey (Professor of Finance at the Fuqua School of Business, Duke University, and a Research Associate of the National Bureau of Economic Research) that focus on decentralized finance (DeFi). In this first course, we begin by exploring the origins of DeFi and take a broad historical view from the earliest barter economies, such as the first peer-to-peer exchanges of bartering, to present day. The course also looks at historical examples of money having value even though it is not officially backed. ",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Smart Contract",
+          "Decentralized Protocols",
+          "governance",
+          "Blockchain Mechanics"
+        ],
+        "instructors": [
+          "Cam Harvey"
+        ],
+        "duration": "Approx. 6 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1192,
+        "prerequisites": "Basic understanding of financial concepts is helpful, but not strictly required. Familiarity with computers and the internet is assumed.",
+        "learning_outcomes": "Understand the origins of DeFi and its historical context, tracing the evolution of finance from barter economies to modern day. Analyze examples of value in money beyond official backing.",
+        "price": "Free to audit, paid certificate available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546657f",
+        "Title": "Cryptography",
+        "URL": "https://www.coursera.org/learn/cryptography?specialization=cyber-security",
+        "Short Intro": "This course will introduce you to the foundations of modern cryptography, with an eye toward practical applications.",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Number Theory,Cryptography,Public-Key Cryptography,",
+        "Instructors": "Jonathan  Katz",
+        "Rating": "4.6stars",
+        "Number of viewers": "1,273",
+        "Duration": "Approx. 17 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cryptography",
+        "url": "https://www.coursera.org/learn/cryptography?specialization=cyber-security",
+        "description": "This course will introduce you to the foundations of modern cryptography, with an eye toward practical applications.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Number Theory",
+          "Cryptography",
+          "Public-Key Cryptography"
+        ],
+        "instructors": [
+          "Jonathan  Katz"
+        ],
+        "duration": "Approx. 17 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 1273,
+        "prerequisites": [
+          "Basic understanding of mathematics (e.g., algebra)",
+          "Familiarity with programming concepts"
+        ],
+        "learning_outcomes": "Understand the principles of modern cryptography, including encryption, decryption, and digital signatures. Learn about practical applications and the underlying mathematical foundations.",
+        "price": "Free to Audit",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466414",
+        "Title": "Cyber Attack Countermeasures",
+        "URL": "https://www.coursera.org/learn/cyber-attack-countermeasures?specialization=intro-cyber-security",
+        "Short Intro": "This course introduces the basics of cyber defense starting with foundational models such as Bell-LaPadula and information flow frameworks. These underlying policy enforcements mechanisms help introduce basic functional protections, starting with authentication methods. Learners will be introduced to a series of different authentication solutions and protocols, including RSA SecureID and Kerberos, in the context of a canonical schema. ",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: French, Portuguese (European), Russian, English, Spanish",
+        "Skills": "Cybersecurity,Cryptography,Public-Key Cryptography,",
+        "Instructors": "Dr. Edward G. Amoroso",
+        "Rating": "4.8stars",
+        "Number of viewers": "627",
+        "Duration": "Approx. 19 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Cyber Attack Countermeasures",
+        "url": "https://www.coursera.org/learn/cyber-attack-countermeasures?specialization=intro-cyber-security",
+        "description": "This course introduces the basics of cyber defense starting with foundational models such as Bell-LaPadula and information flow frameworks. These underlying policy enforcements mechanisms help introduce basic functional protections, starting with authentication methods. Learners will be introduced to a series of different authentication solutions and protocols, including RSA SecureID and Kerberos, in the context of a canonical schema. ",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Cybersecurity",
+          "Cryptography",
+          "Public-Key Cryptography"
+        ],
+        "instructors": [
+          "Dr. Edward G. Amoroso"
+        ],
+        "duration": "Approx. 19 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 627,
+        "prerequisites": "Basic understanding of computer systems and networking concepts is recommended.",
+        "learning_outcomes": "Learners will understand foundational cyber defense models like Bell-LaPadula and information flow frameworks. They will be able to identify and analyze different authentication solutions including RSA SecureID and Kerberos.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466641",
+        "Title": "Java Programming: Arrays, Lists, and Structured Data",
+        "URL": "https://www.coursera.org/learn/java-programming-arrays-lists-data?specialization=object-oriented-programming",
+        "Short Intro": "Build on the software engineering skills you learned in “Java Programming: Solving Problems with Software” by learning new data structures. Use these data structures to build more complex programs that use Java’s object-oriented features. At the end of the course you will write an encryption program and a program to break your encryption algorithm.",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, Korean, German, Russian, English, Spanish",
+        "Skills": "Data Structure,Cryptography,Hash Table,Java Programming,",
+        "Instructors": "Andrew D. Hilton",
+        "Rating": "4.7stars",
+        "Number of viewers": "3,051",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Java Programming: Arrays, Lists, and Structured Data",
+        "url": "https://www.coursera.org/learn/java-programming-arrays-lists-data?specialization=object-oriented-programming",
+        "description": "Build on the software engineering skills you learned in “Java Programming: Solving Problems with Software” by learning new data structures. Use these data structures to build more complex programs that use Java’s object-oriented features. At the end of the course you will write an encryption program and a program to break your encryption algorithm.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structure",
+          "Cryptography",
+          "Hash Table",
+          "Java Programming"
+        ],
+        "instructors": [
+          "Andrew D. Hilton"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 3051,
+        "prerequisites": "Java Programming: Solving Problems with Software or equivalent experience in Java programming.",
+        "learning_outcomes": "Upon completion, students will be able to utilize data structures to build complex Java programs, including an encryption program and an algorithm to break it.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546669c",
+        "Title": "Introduction to Blockchain Technologies",
+        "URL": "https://www.coursera.org/learn/introduction-blockchain-technologies?specialization=blockchain-revolution-enterprise",
+        "Short Intro": "In this first course of the specialization, we will discuss the limitations of the Internet for business and economic activity, and explain how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. You’ll also meet the players in the blockchain ecosystem, and consider your own role in stewarding the blockchain revolution.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Portuguese (Brazilian), Vietnamese, German, Russian, English, Spanish",
+        "Skills": null,
+        "Instructors": "Don Tapscott",
+        "Rating": "4.7stars",
+        "Number of viewers": "2,293",
+        "Duration": "Approx. 28 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Blockchain Technologies",
+        "url": "https://www.coursera.org/learn/introduction-blockchain-technologies?specialization=blockchain-revolution-enterprise",
+        "description": "In this first course of the specialization, we will discuss the limitations of the Internet for business and economic activity, and explain how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. You’ll also meet the players in the blockchain ecosystem, and consider your own role in stewarding the blockchain revolution.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Blockchain",
+          "Mining",
+          "Hashing",
+          "Cryptography",
+          "Double-spend problem"
+        ],
+        "instructors": [
+          "Don Tapscott"
+        ],
+        "duration": "Approx. 28 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 2293,
+        "prerequisites": "Basic understanding of computers and the internet is recommended. No prior programming or blockchain experience required.",
+        "learning_outcomes": "Understand blockchain fundamentals, its revolutionary impact, and key concepts like mining, cryptography, and the double-spend problem. Learn design principles and the blockchain ecosystem.",
+        "price": "Free to Audit. Paid Certificate Available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546672c",
+        "Title": "Introduction to Cybersecurity Essentials",
+        "URL": "https://www.coursera.org/learn/introduction-to-cybersecurity-essentials?specialization=it-cloud-fundamentals",
+        "Short Intro": "Build key skills needed to recognize common security threats and risks. Discover the characteristics of cyber-attacks and learn how organizations employ best practices to guard against them.",
+        "Category": "Information Technology",
+        "Sub-Category": "Security",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Information Security (INFOSEC),Cyberattacks,Application Security,Cryptography,security,",
+        "Instructors": "Skills Network",
+        "Rating": "4.9stars",
+        "Number of viewers": "286",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Cybersecurity Essentials",
+        "url": "https://www.coursera.org/learn/introduction-to-cybersecurity-essentials?specialization=it-cloud-fundamentals",
+        "description": "Build key skills needed to recognize common security threats and risks. Discover the characteristics of cyber-attacks and learn how organizations employ best practices to guard against them.",
+        "category": "Information Technology",
+        "language": "English",
+        "skills": [
+          "Information Security (INFOSEC)",
+          "Cyberattacks",
+          "Application Security",
+          "Cryptography",
+          "security"
+        ],
+        "instructors": [
+          "Skills Network"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 286,
+        "prerequisites": "Basic computer literacy and a general understanding of the internet.",
+        "learning_outcomes": "Upon completion, learners will be able to identify common security threats, understand cyber-attack characteristics, and recognize best practices for organizational cybersecurity.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466771",
+        "Title": "Java Programming: Arrays, Lists, and Structured Data",
+        "URL": "https://www.coursera.org/learn/java-programming-arrays-lists-data?specialization=java-programming",
+        "Short Intro": "Build on the software engineering skills you learned in “Java Programming: Solving Problems with Software” by learning new data structures. Use these data structures to build more complex programs that use Java’s object-oriented features. At the end of the course you will write an encryption program and a program to break your encryption algorithm.",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, Korean, German, Russian, English, Spanish",
+        "Skills": "Data Structure,Cryptography,Hash Table,Java Programming,",
+        "Instructors": "Andrew D. Hilton",
+        "Rating": "4.7stars",
+        "Number of viewers": "3,051",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Java Programming: Arrays, Lists, and Structured Data",
+        "url": "https://www.coursera.org/learn/java-programming-arrays-lists-data?specialization=java-programming",
+        "description": "Build on the software engineering skills you learned in “Java Programming: Solving Problems with Software” by learning new data structures. Use these data structures to build more complex programs that use Java’s object-oriented features. At the end of the course you will write an encryption program and a program to break your encryption algorithm.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structure",
+          "Cryptography",
+          "Hash Table",
+          "Java Programming"
+        ],
+        "instructors": [
+          "Andrew D. Hilton"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 3051,
+        "prerequisites": "Java Programming: Solving Problems with Software or equivalent experience in Java programming, including basic programming concepts like variables, loops, and functions.",
+        "learning_outcomes": "Learn to use new data structures in Java, including arrays and lists, to build more complex programs. Students will implement an encryption program and break their own algorithm, solidifying their understanding of object-oriented features.",
+        "price": "Free to Audit, Paid Certificate Available",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466853",
+        "Title": "Number Theory and Cryptography",
+        "URL": "https://www.coursera.org/learn/number-theory-cryptography?specialization=discrete-mathematics",
+        "Short Intro": "A prominent expert in the number theory Godfrey Hardy described it in the beginning of 20th century as one of the most obviously useless branches of Pure Mathematics”. Just 30 years after his death, an algorithm for encryption of secret messages was developed using achievements of number theory. It was called RSA after the names of its authors, and its implementation is probably the most frequently used computer program in the world nowadays. Without it, nobody would be able to make secure payments over the internet, or even log in securely to e-mail and other personal services. In this course we will start with the basics of the number theory and get to cryptographic protocols based on it. By the end, you will be able to apply the basics of the number theory to encrypt and decrypt messages, and to break the code if one applies RSA carelessly. You will even pass a cryptographic quest!",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Greek, Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Number Theory,Cryptography,Modular Exponentiation,",
+        "Instructors": "Michael Levin",
+        "Rating": "4.5stars",
+        "Number of viewers": "542",
+        "Duration": "Approx. 16 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Number Theory and Cryptography",
+        "url": "https://www.coursera.org/learn/number-theory-cryptography?specialization=discrete-mathematics",
+        "description": "A prominent expert in the number theory Godfrey Hardy described it in the beginning of 20th century as one of the most obviously useless branches of Pure Mathematics”. Just 30 years after his death, an algorithm for encryption of secret messages was developed using achievements of number theory. It was called RSA after the names of its authors, and its implementation is probably the most frequently used computer program in the world nowadays. Without it, nobody would be able to make secure payments over the internet, or even log in securely to e-mail and other personal services. In this course we will start with the basics of the number theory and get to cryptographic protocols based on it. By the end, you will be able to apply the basics of the number theory to encrypt and decrypt messages, and to break the code if one applies RSA carelessly. You will even pass a cryptographic quest!",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Number Theory",
+          "Cryptography",
+          "Modular Exponentiation"
+        ],
+        "instructors": [
+          "Michael Levin"
+        ],
+        "duration": "Approx. 16 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 542,
+        "prerequisites": "Basic understanding of mathematics and algebra is recommended.",
+        "learning_outcomes": "Upon completion, students will be able to apply number theory basics to encrypt and decrypt messages. They will also learn to identify vulnerabilities in RSA and complete a cryptographic quest.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254668c2",
+        "Title": "Blockchain Basics",
+        "URL": "https://www.coursera.org/learn/blockchain-basics?specialization=blockchain",
+        "Short Intro": "This first course of the Blockchain specialization provides a broad overview of the essential concepts of blockchain technology – by initially exploring the Bitcoin protocol followed by the Ethereum protocol – to lay the foundation necessary for developing applications and programming. You will be equipped with the knowledge needed to create nodes on your personal Ethereum blockchain, create accounts, unlock accounts, mine, transact, transfer Ethers, and check balances.       ",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, Korean, German, Russian, English, Spanish",
+        "Skills": "Ethereum,Cryptography,Blockchains,Bitcoin,",
+        "Instructors": "Bina Ramamurthy",
+        "Rating": "4.6stars",
+        "Number of viewers": "7,274",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Blockchain Basics",
+        "url": "https://www.coursera.org/learn/blockchain-basics?specialization=blockchain",
+        "description": "This first course of the Blockchain specialization provides a broad overview of the essential concepts of blockchain technology – by initially exploring the Bitcoin protocol followed by the Ethereum protocol – to lay the foundation necessary for developing applications and programming. You will be equipped with the knowledge needed to create nodes on your personal Ethereum blockchain, create accounts, unlock accounts, mine, transact, transfer Ethers, and check balances.       ",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Ethereum",
+          "Cryptography",
+          "Blockchains",
+          "Bitcoin"
+        ],
+        "instructors": [
+          "Bina Ramamurthy"
+        ],
+        "duration": "Approx. 15 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 7274,
+        "prerequisites": "Basic understanding of computer science concepts and some familiarity with programming is recommended.",
+        "learning_outcomes": "Upon completion, you'll be able to create Ethereum nodes, manage accounts, mine, and transact with Ethers. You'll also understand Bitcoin and Ethereum protocols and fundamental blockchain concepts.",
+        "price": "Free",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466888",
+        "Title": "Introduction to Blockchain for Financial Services",
+        "URL": "https://www.coursera.org/learn/intro-blockchain-financial-services?specialization=blockchain-financial-services",
+        "Short Intro": "In this first course of the specialization, we will discuss the limitations of the Internet for business and economic activity, and explain how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. You’ll also meet the players in the blockchain ecosystem, and consider your own role in stewarding the blockchain revolution.",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Collaborative Working Environment,Blockchain (Database),Open Collaboration,Access Structure,",
+        "Instructors": "Don Tapscott",
+        "Rating": "4.7stars",
+        "Number of viewers": "614",
+        "Duration": "Approx. 29 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Blockchain for Financial Services",
+        "url": "https://www.coursera.org/learn/intro-blockchain-financial-services?specialization=blockchain-financial-services",
+        "description": "In this first course of the specialization, we will discuss the limitations of the Internet for business and economic activity, and explain how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. You’ll also meet the players in the blockchain ecosystem, and consider your own role in stewarding the blockchain revolution.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Collaborative Working Environment",
+          "Blockchain (Database)",
+          "Open Collaboration",
+          "Access Structure"
+        ],
+        "instructors": [
+          "Don Tapscott"
+        ],
+        "duration": "Approx. 29 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 614,
+        "prerequisites": "None. Basic understanding of the internet and general business concepts recommended.",
+        "learning_outcomes": "Understand blockchain technology, its functionality, and significance. Learn key concepts like mining, hashing, and public key cryptography. Identify design principles and challenges within the blockchain ecosystem.",
+        "price": "Free to Audit. Paid option available for graded assignments and certificate.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466a24",
+        "Title": "Introduction to Blockchain for Global Commerce",
+        "URL": "https://www.coursera.org/learn/introduction-to-blockchain-for-global-commerce?specialization=web3-blockchain-global-commerce",
+        "Short Intro": "This course discusses the limitations of the Internet for business and economic activity and explains how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. By the end of this course, you’ll learn how and why transacting on the blockchain can help us bring about a future that is faster, fairer, and more distributed than the world we inhabit today.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Don Tapscott",
+        "Rating": null,
+        "Number of viewers": null,
+        "Duration": "Approx. 33 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Blockchain for Global Commerce",
+        "url": "https://www.coursera.org/learn/introduction-to-blockchain-for-global-commerce?specialization=web3-blockchain-global-commerce",
+        "description": "This course discusses the limitations of the Internet for business and economic activity and explains how blockchain technology represents the way forward. After completing this course, you will be able to explain what blockchain is, how it works, and why it is revolutionary. You will learn key concepts such as mining, hashing, proof-of-work, public key cryptography, and the double-spend problem. You’ll be able to describe seven design principles for blockchain technology, and the challenges facing the people developing it. By the end of this course, you’ll learn how and why transacting on the blockchain can help us bring about a future that is faster, fairer, and more distributed than the world we inhabit today.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Blockchain Technology",
+          "Mining",
+          "Hashing",
+          "Public Key Cryptography",
+          "Double-spend Problem"
+        ],
+        "instructors": [
+          "Don Tapscott"
+        ],
+        "duration": "Approx. 33 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": "50000+",
+        "prerequisites": "Basic understanding of the internet and business concepts is recommended.",
+        "learning_outcomes": "Understand blockchain technology, its revolutionary aspects, and key concepts like mining and cryptography. Describe blockchain design principles and challenges, and the potential for future transactions.",
+        "price": "Free to Audit, Paid Certificate",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466ac6",
+        "Title": "Security Operations",
+        "URL": "https://www.coursera.org/learn/security-operations?specialization=certified-in-cybersecurity",
+        "Short Intro": "Welcome to course 5 of 5 of this Specialization, Security Operations.",
+        "Category": "Information Technology",
+        "Sub-Category": "Security",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Asset,Cryptography,Data Security,security,",
+        "Instructors": "(ISC)² Education & Training",
+        "Rating": "4.2stars",
+        "Number of viewers": "14",
+        "Duration": "Approx. 8 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Security Operations",
+        "url": "https://www.coursera.org/learn/security-operations?specialization=certified-in-cybersecurity",
+        "description": "Welcome to course 5 of 5 of this Specialization, Security Operations.",
+        "category": "Information Technology",
+        "language": "English",
+        "skills": [
+          "Asset",
+          "Cryptography",
+          "Data Security",
+          "security"
+        ],
+        "instructors": [
+          "(ISC)² Education & Training"
+        ],
+        "duration": "Approx. 8 hours to complete",
+        "site": "Coursera",
+        "level": "Course",
+        "viewers": 14,
+        "prerequisites": "Basic understanding of computer systems and networking concepts is recommended. No prior cybersecurity experience is required.",
+        "learning_outcomes": "Understand the fundamentals of security operations, including incident response, threat detection, and security monitoring. Learn about security tools and technologies used to protect organizations.",
+        "price": "Free to Audit. Paid certificate available.",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c851",
+        "Title": "Cryptography and Digital Certificates",
+        "URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cryptography and Digital Certificates",
+        "Course URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Course Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "Cryptography and Digital Certificates",
+        "url": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "description": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Digital Certificates",
+          "Cyber Law"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 10000,
+        "prerequisites": [],
+        "learning_outcomes": "Understand core cryptographic concepts. Explore cyber laws and the implications of global data access, gaining insights into digital certificates and their applications.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c884",
+        "Title": "Cryptography and Digital Certificates",
+        "URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "15 Courses",
+        "Topics related to CRM": "Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "FAQs": "What is network security? /Can I learn network security online? /What are the top network security courses? /Is it difficult to study network security? /How do I start a career in network security? /",
+        "Course Title": "Cryptography and Digital Certificates",
+        "Course URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Course Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "Cryptography and Digital Certificates",
+        "url": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "description": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Digital Certificates",
+          "Cyber Law"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [],
+        "learning_outcomes": "Learn cryptographic concepts, understand digital certificates, and explore cyber laws. Grasp the legal implications of global data and access in a digital world.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c862",
+        "Title": "Cryptography and Digital Certificates",
+        "URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cryptography and Digital Certificates",
+        "Course URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "Course Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cryptography and Digital Certificates",
+        "url": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "description": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cyber Laws",
+          "Digital Certificates"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 10000,
+        "prerequisites": [],
+        "learning_outcomes": "Learn fundamental cryptographic concepts. Explore cyber laws and the legal implications of globalized data and access. Understand the practical application of digital certificates.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d175",
+        "Title": "Cryptography and Digital Certificates",
+        "URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cryptography and Digital Certificates",
+        "Course URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "Course Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "Cryptography and Digital Certificates",
+        "url": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-sc",
+        "description": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Digital Certificates",
+          "Cyber Laws"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [],
+        "learning_outcomes": "This course helps you understand cryptographic concepts, cyber laws, and their legal implications concerning global data access. You'll learn about digital certificates and their role in securing information.",
+        "price": "Free",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1f7",
+        "Title": "Cryptography and Digital Certificates",
+        "URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cryptography and Digital Certificates",
+        "Course URL": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "Course Short Intro": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cryptography and Digital Certificates",
+        "url": "https://www.futurelearn.com/courses/cryptography-and-digital-certificates-et",
+        "description": "Understand cryptographic concepts and explore cyber laws and the legal implications of globalised data and access.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Cybersecurity",
+          "Digital Certificates",
+          "Cyber Laws"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "Beginner",
+        "viewers": 5000,
+        "prerequisites": [],
+        "learning_outcomes": "Understand cryptographic concepts, explore cyber laws and the legal implications of data access in a globalized world. Gain knowledge of digital certificates and their role in security.",
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8af",
+        "Title": "Applied Cryptography",
+        "URL": "https://www.udacity.com/course/applied-cryptography--cs387",
+        "Short Intro": "Science of Secrets",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Advanced",
+        "Prequisites": "This course assumes previous programming experience, comparable to what is covered by the Udacity CS101 course, as well as some understanding of probability and theory of computation and algorithm analysis.See the Technology Requirements for using Udacity.",
+        "What you learn": "Perfect CiphersWhat makes certain ciphers perfect.How the Lorenz Cipher was broken.What makes certain ciphers perfect.How the Lorenz Cipher was broken.Symmetric EncryptionSending messages when two people share a secret.Sending messages when two people share a secret.Key ExchangeTechniques to establish a shared secret.Techniques to establish a shared secret.Asymmetric EncryptionExchanging information using public key cryptosystems.Exchanging information using public key cryptosystems.Public Key ProtocolsEncrypted key exchange, certificates, secure commerce.Encrypted key exchange, certificates, secure commerce.Using Cryptographic PrimitivesHow cryptography can be useful for anonymizing communication, voting, and digital cash.How cryptography can be useful for anonymizing communication, voting, and digital cash.Secure ComputationComputing without exposing data.Computing without exposing data."
+      },
+      "unified_data": {
+        "title": "Applied Cryptography",
+        "url": "https://www.udacity.com/course/applied-cryptography--cs387",
+        "description": "Science of Secrets",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Symmetric Encryption",
+          "Asymmetric Encryption",
+          "Key Exchange",
+          "Public Key Cryptosystems"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Months",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 15000,
+        "prerequisites": [
+          "This course assumes previous programming experience, comparable to what is covered by the Udacity CS101 course, as well as some understanding of probability and theory of computation and algorithm analysis",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Perfect CiphersWhat makes certain ciphers perfect",
+          "How the Lorenz Cipher was broken",
+          "What makes certain ciphers perfect",
+          "How the Lorenz Cipher was broken",
+          "Symmetric EncryptionSending messages when two people share a secret",
+          "Sending messages when two people share a secret",
+          "Key ExchangeTechniques to establish a shared secret",
+          "Techniques to establish a shared secret",
+          "Asymmetric EncryptionExchanging information using public key cryptosystems",
+          "Exchanging information using public key cryptosystems",
+          "Public Key ProtocolsEncrypted key exchange, certificates, secure commerce",
+          "Encrypted key exchange, certificates, secure commerce",
+          "Using Cryptographic PrimitivesHow cryptography can be useful for anonymizing communication, voting, and digital cash",
+          "How cryptography can be useful for anonymizing communication, voting, and digital cash",
+          "Secure ComputationComputing without exposing data",
+          "Computing without exposing data"
+        ],
+        "price": "Free",
+        "provider": "Udacity"
+      }
+    }
+  ]
+}

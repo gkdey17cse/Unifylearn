@@ -1,0 +1,34 @@
+{
+  "user_query": "SHare some coursera Law Course",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 31,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-30T16:09:15.666496"
+}

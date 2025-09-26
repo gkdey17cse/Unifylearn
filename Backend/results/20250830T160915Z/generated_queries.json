@@ -1,0 +1,28 @@
+{
+  "user_query": "SHare some coursera Law Course",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-30T16:09:15.664229"
+}

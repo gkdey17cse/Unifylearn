@@ -1,0 +1,116 @@
+{
+  "user_query": "Show me some Cryptography based course",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 21,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 5,
+      "used_fallback": false,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bshow\\ some\\ cryptography\\ based\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCryptography\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-08-30T16:07:15.822907"
+}

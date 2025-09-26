@@ -1,0 +1,82 @@
+{
+  "user_query": "Show me some Cryptography based course",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bCryptography\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-08-30T16:07:15.820498"
+}

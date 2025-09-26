@@ -1,0 +1,106 @@
+{
+  "user_query": "Can you show me some Computer Networks related courses from Any platform",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bComputer Networks\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-11T14:28:39.966396"
+}

@@ -1,0 +1,244 @@
+{
+  "timestamp": "2025-08-28T21:54:25.856316",
+  "user_query": "Show me 10 Deep Learning course",
+  "debug_info": {
+    "user_query": "Show me 10 Deep Learning course",
+    "llm_generated_queries": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Course Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills Covered": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Course Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Course Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills Covered": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Course Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for coursera: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756418066, 21), 'signature': {'hash': b'\\xe3\\xa7\\x1d\\xf8;\\xf8\\xd3\\x8b1\\x05\\xd5s\\xab\\xba9\\xa1|\\x04\\x08m', 'keyId': 7492593155364093962}}, 'operationTime': Timestamp(1756418066, 21)}"
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for futurelearn: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756418066, 10), 'signature': {'hash': b'\\x0c\\xd5\\x06\\xc8mk\\x8e\\xd6\\xe2,\\x90\\xb7\\x16\\xc3;e\\xe5\\x1d8\\xcc', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1756418066, 10)}"
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for simplilearn: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756418066, 12), 'signature': {'hash': b'\\xe5G\\xb3\\xa3\\xc2\\xd8\\xa4\\x8f\\x98\\xac4\\xf1b\\x19\\x89M\\x0e\\xfeP\\x05', 'keyId': 7486364013970849793}}, 'operationTime': Timestamp(1756418066, 12)}"
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for udacity: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756418066, 10), 'signature': {'hash': b'C\\x07;\\xcbz\\xc3\\xbd\\xa6\\x1f\\xd0d\\xbb\\xd3\\xf7\\xab\\xe0\\xa6fDh', 'keyId': 7488712343174512650}}, 'operationTime': Timestamp(1756418066, 10)}"
+      }
+    }
+  },
+  "all_results": []
+}

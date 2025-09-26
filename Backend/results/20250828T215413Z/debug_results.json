@@ -1,0 +1,76 @@
+{
+  "timestamp": "2025-08-28T21:54:13.837358",
+  "user_query": "Show me 10 Deep Learning course from Coursera",
+  "debug_info": {
+    "user_query": "Show me 10 Deep Learning course from Coursera",
+    "llm_generated_queries": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Course Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Brief Description": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills Covered": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 10
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 10
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for coursera: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1756418054, 21), 'signature': {'hash': b'\\xee\\x0c\\x1f\\x81\\\\^3q\\x18\\xdb\\x8c\\xff>gqX\\xcf\\xac9n', 'keyId': 7492593155364093962}}, 'operationTime': Timestamp(1756418054, 21)}"
+      }
+    }
+  },
+  "all_results": []
+}

@@ -1,3 +1,5 @@
+- Directory structure for the Backend
+```bash 
 Backend/
 │
 ├── .env
@@ -35,7 +37,7 @@ Backend/
 │ └── test_query_generation.py
 │
 └── README.md
-
+```
 Key Intelligence Added:
 Query Type Detection: Automatically detects category-based, technology-based, and topic-based queries
 

@@ -1,0 +1,82 @@
+{
+  "user_query": "clear",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Brief Description": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Course Title": {
+            "$regex": "\\bclear\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-09-22T13:53:11.511214"
+}

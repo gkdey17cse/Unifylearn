@@ -1,0 +1,171 @@
+[
+  {
+    "category": "Information Technology",
+    "description": "Almost every organization uses computer networks to share their information and to support their business operations. When we allow network access to data  it is exposed to threats from inside and outside of the organization.  This course examines the threats associated with using internal and external networks and how to manage the protection of information when it’s accessible via networks.",
+    "duration": "Approx. 15 hours to complete",
+    "instructors": [
+      "Herbert J. Mattord",
+      "Ph.D.",
+      "CISM",
+      "CISSP",
+      "CDP"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand network security threats, and how to protect information accessed via networks. Learn about intrusion detection, firewalls, and wireless security to manage and mitigate risks. ",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254663ec",
+    "prerequisites": "Basic computer literacy and familiarity with networking concepts is recommended. No prior cybersecurity experience is required.",
+    "price": "Free to audit, paid certificate available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Wireless Security",
+      "Intrusion Detection System",
+      "Firewall (Computing)",
+      "Computer Network"
+    ],
+    "source_provider": "coursera",
+    "title": "Managing Network Security",
+    "url": "https://www.coursera.org/learn/managing-network-cybersecurity?specialization=managing-cybersecurity",
+    "viewers": 194
+  },
+  {
+    "category": "Computer Science",
+    "description": "If you have ever used a navigation service to find optimal route and estimate time to destination, you've used algorithms on graphs. Graphs arise in various real-world situations as there are road networks, computer networks and, most recently, social networks! If you're looking for the fastest time to get to work, cheapest way to connect a set of computers into a network or efficient algorithm to automatically find communities and opinion leaders in Facebook, you're going to work with graphs and algorithms on graphs.",
+    "duration": "Approx. 55 hours to complete",
+    "instructors": [
+      "Neil Rhodes"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand and apply graph algorithms for real-world problems like finding optimal routes and network optimization. Learn to identify communities and opinion leaders in social networks using efficient algorithms.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466862",
+    "prerequisites": "Basic programming knowledge and familiarity with data structures.",
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Graph Theory",
+      "Graphs",
+      "Graph Algorithms"
+    ],
+    "source_provider": "coursera",
+    "title": "Algorithms on Graphs",
+    "url": "https://www.coursera.org/learn/algorithms-on-graphs?specialization=data-structures-algorithms",
+    "viewers": 2189
+  },
+  {
+    "category": "Networking",
+    "description": "Acquire the skills needed to become a Cisco Certified Network Associate and launch your career in computer networks.",
+    "duration": "3 weeks",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": "This course will equip you with fundamental networking skills, preparing you for the Cisco Certified Network Associate (CCNA) certification and a career in computer networks.",
+    "level": "Beginner",
+    "original_provider_id": "68ac021069e0bdd621a8d160",
+    "prerequisites": [],
+    "price": "$84",
+    "provider": "Futurelearn",
+    "site": "Future Learn",
+    "skills": [
+      "Networking fundamentals",
+      "Network configuration",
+      "Network troubleshooting"
+    ],
+    "source_provider": "futurelearn",
+    "title": "CCNA: Computer Networking Essentials",
+    "url": "https://www.futurelearn.com/courses/ccna-computer-networking-essentials",
+    "viewers": 10000
+  },
+  {
+    "category": "Cybersecurity",
+    "description": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+    "duration": "Estimated 2 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "You’ll master the skills necessary to become a successful Ethical Hacker",
+      "Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d937",
+    "prerequisites": [
+      "Linux, Networking, Programming and Windows OS"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Ethical Hacking",
+      "Penetration Testing",
+      "Vulnerability Assessment",
+      "Network Security"
+    ],
+    "source_provider": "udacity",
+    "title": "Ethical Hacker",
+    "url": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+    "viewers": 10000
+  },
+  {
+    "category": "Cybersecurity",
+    "description": "Gain the highly sought-after skills to protect an organization’s computer networks and systems from security threats or attacks.",
+    "duration": "Estimated 4 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "You’ll master the foundational skills necessary to become a successful Security Engineer",
+      "This program will focus on how to protect a company’s computer systems, networks, applications and infrastructure from security threats or attacks"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d940",
+    "prerequisites": [
+      "Basics of Python, experience configuring Windows and Linux environments"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Security Engineering",
+      "Network Security",
+      "System Security",
+      "Threat Detection",
+      "Incident Response"
+    ],
+    "source_provider": "udacity",
+    "title": "Security Engineer",
+    "url": "https://www.udacity.com/course/security-engineer-nanodegree--nd698",
+    "viewers": 50000
+  },
+  {
+    "category": "Cybersecurity",
+    "description": "Meet the growing demand for cybersecurity professionals by gaining the skills to protect an organization’s computer networks and systems.",
+    "duration": "Estimated 4 months to complete",
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "You’ll master the skills necessary to become a successful Security Analyst",
+      "Learn to identify, correct and respond to security weaknesses and incidents",
+      "Plus, get hands-on experience monitoring network traffic, analyzing alert and log data, and following incident handling procedures"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d945",
+    "prerequisites": [
+      "Experience with Python, SQL, security fundamentals, database design, and networking and operating systems"
+    ],
+    "price": "Paid",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Network Security",
+      "Incident Response",
+      "Security Analysis",
+      "Python",
+      "SQL",
+      "Database Design"
+    ],
+    "source_provider": "udacity",
+    "title": "Security Analyst",
+    "url": "https://www.udacity.com/course/security-analyst-nanodegree--nd324",
+    "viewers": 15000
+  }
+]
