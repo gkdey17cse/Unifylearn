@@ -1,3 +1,4 @@
+# src/app/schema_loader.py
 def getSchemasAndSamples():
     return {
         "coursera": {

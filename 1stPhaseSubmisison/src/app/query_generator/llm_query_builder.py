@@ -1,32 +1,67 @@
+# src/app/query_generator/llm_query_builder.py
 import json
 import re
 import google.generativeai as genai
 import os
 from src.app.schema_loader import getSchemasAndSamples
 
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# TEMPORARY: Hardcode API key for testing
+API_KEY = "AIzaSyCZA-_semc7d5ogZsN7wkKzKXGXTsk0dvw"
+genai.configure(api_key=API_KEY)
 
 
 def _find_balanced_json(text: str):
+    """Extract JSON from LLM response more robustly"""
+    if not text:
+        return None
+
+    # Remove code blocks if present
     text = re.sub(r"```(?:json)?", "", text, flags=re.IGNORECASE).strip()
+
+    # Try to find JSON object
     starts = [i for i, c in enumerate(text) if c == "{"]
     candidates = []
+
     for i in starts:
         depth = 0
+        in_string = False
+        escape = False
         for j in range(i, len(text)):
-            if text[j] == "{":
-                depth += 1
-            elif text[j] == "}":
-                depth -= 1
-                if depth == 0:
-                    candidates.append(text[i : j + 1])
-                    break
+            char = text[j]
+
+            if escape:
+                escape = False
+                continue
+
+            if char == "\\":
+                escape = True
+                continue
+
+            if char == '"' and not escape:
+                in_string = not in_string
+                continue
+
+            if not in_string:
+                if char == "{":
+                    depth += 1
+                elif char == "}":
+                    depth -= 1
+                    if depth == 0:
+                        candidates.append(text[i : j + 1])
+                        break
+
+    # Try candidates from longest to shortest
     candidates.sort(key=len, reverse=True)
+
     for cand in candidates:
         try:
-            return json.loads(cand)
+            parsed = json.loads(cand)
+            # Ensure it's a dictionary with provider keys
+            if isinstance(parsed, dict):
+                return parsed
         except Exception:
             continue
+
     return None
 
 
@@ -44,103 +79,94 @@ You are an expert MongoDB query generator for educational courses. Analyze the u
 **DATABASE SCHEMA (Use these exact field names in your queries):**
 {json.dumps(schemas, indent=2)}
 
-**QUERY GENERATION STRATEGY:**
+**QUERY GENERATION RULES:**
 
 1. **PROVIDER SELECTION:**
-   - If specific providers are mentioned (Coursera, Udacity, etc.), ONLY generate for those
-   - If no provider specified, generate for all relevant providers
+   - If specific providers are mentioned (Coursera, Udacity, Simplilearn, FutureLearn), ONLY generate for those
+   - If no provider specified, generate for ALL four providers
 
-2. **QUERY TYPE DETECTION:**
-   - **Category-based:** "Law courses", "Data Science programs" → Use "Main Category" and "Sub-Category"
-   - **Technology-based:** ".Net development", "Python courses" → Use "Skills Covered" and "Course Title"  
-   - **Topic-based:** "Machine learning", "Web development" → Use "Brief Description" and "Skills Covered"
-   - **Mixed queries:** Handle combinations intelligently
+2. **QUERY CONSTRUCTION:**
+   - For technology/topic searches (like "DBMS", "Python", "Machine Learning"), search in: ["Skills Covered", "Course Title", "Brief Description"]
+   - For category searches (like "Data Science", "Business"), search in: ["Main Category", "Sub-Category"]
+   - Use $regex with word boundaries for better matching
+   - Use $or for multiple field searches
+   - Use $and for combined conditions
 
-3. **FIELD SELECTION GUIDELINES:**
-   - For categories: ["Main Category", "Sub-Category"]
-   - For technologies: ["Skills Covered", "Course Title"] 
-   - For general topics: ["Brief Description", "Skills Covered"]
-   - For course names: ["Course Title"] (exact match preferred)
+3. **OUTPUT FORMAT:**
+   - Return ONLY a valid JSON object
+   - Keys must be provider names in lowercase: "coursera", "udacity", "simplilearn", "futurelearn"
+   - Values must be MongoDB query objects
 
-4. **QUERY CONSTRUCTION:**
-   - Use word boundaries: "\\bLaw\\b" instead of "Law"
-   - Preserve technical phrases: "\\b.Net development\\b" not separate words
-   - Use $and for must-have conditions, $or for alternatives
-   - Include $limit for numeric requests: "5 courses" → "$limit": 5
+**EXAMPLES:**
 
-5. **EXAMPLES:**
-
-**Query: "Show me 5 Coursera courses in Data Science"**
+Query: "Show me DBMS courses from Simplilearn & Udacity"
 {{
-  "coursera": {{
-    "$and": [
-      {{
-        "$or": [
-          {{"Main Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}},
-          {{"Sub-Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}}
-        ]
-      }},
-      {{"$limit": 5}}
-    ]
-  }}
-}}
-
-**Query: ".Net development courses on Udacity"**
-{{
-  "udacity": {{
-    "$and": [
-      {{
-        "$or": [
-          {{"Skills Covered": {{"$regex": "\\b\\.Net\\b", "$options": "i"}}}},
-          {{"Skills Covered": {{"$regex": "\\bC#\\b", "$options": "i"}}}},
-          {{"Course Title": {{"$regex": "\\b\\.Net\\b", "$options": "i"}}}}
-        ]
-      }}
-    ]
-  }}
-}}
-
-**Query: "Law courses from all platforms"**
-{{
-  "coursera": {{
+  "simplilearn": {{
     "$or": [
-      {{"Main Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Sub-Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Skills Covered": {{"$regex": "\\bLaw\\b", "$options": "i"}}}}
+      {{"Skills Covered": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}},
+      {{"Course Title": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}},
+      {{"Brief Description": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}}
     ]
   }},
   "udacity": {{
     "$or": [
-      {{"Main Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Sub-Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Skills Covered": {{"$regex": "\\bLaw\\b", "$options": "i"}}}}
+      {{"Skills Covered": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}},
+      {{"Course Title": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}},
+      {{"Brief Description": {{"$regex": "\\bDBMS\\b", "$options": "i"}}}}
+    ]
+  }}
+}}
+
+Query: "Data Science courses from all platforms"
+{{
+  "coursera": {{
+    "$or": [
+      {{"Main Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}},
+      {{"Sub-Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}}
     ]
   }},
-  "futurelearn": {{
+  "udacity": {{
     "$or": [
-      {{"Main Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Sub-Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Skills Covered": {{"$regex": "\\bLaw\\b", "$options": "i"}}}}
+      {{"Main Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}},
+      {{"Sub-Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}}
     ]
   }},
   "simplilearn": {{
     "$or": [
-      {{"Main Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Sub-Category": {{"$regex": "\\bLaw\\b", "$options": "i"}}}},
-      {{"Skills Covered": {{"$regex": "\\bLaw\\b", "$options": "i"}}}}
+      {{"Main Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}},
+      {{"Sub-Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}}
+    ]
+  }},
+  "futurelearn": {{
+    "$or": [
+      {{"Main Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}},
+      {{"Sub-Category": {{"$regex": "\\bData Science\\b", "$options": "i"}}}}
     ]
   }}
 }}
 
-**Output ONLY the raw JSON. No other text.**
-"""
-    model = genai.GenerativeModel("gemini-2.0-flash-lite")
-    response = model.generate_content(prompt)
-    raw_text = (response.text or "").strip()
-    print("\n--- Raw LLM Query Output (Using Schema Fields) ---\n", raw_text)
+**NOW GENERATE FOR THIS QUERY: "{user_query}"**
 
-    parsed = _find_balanced_json(raw_text)
-    if parsed is None:
-        print("ERROR: Could not extract valid JSON from LLM response.")
+Return ONLY the JSON, no other text.
+"""
+
+    try:
+        model = genai.GenerativeModel("gemini-2.0-flash-lite")
+        response = model.generate_content(prompt)
+        raw_text = (response.text or "").strip()
+
+        print(f"DEBUG: Raw LLM response: {raw_text[:500]}...")  # Print first 500 chars
+
+        parsed = _find_balanced_json(raw_text)
+
+        if parsed is None:
+            print("ERROR: Could not extract valid JSON from LLM response.")
+            print(f"Full response: {raw_text}")
+            return {}
+
+        print(f"DEBUG: Successfully parsed JSON with keys: {list(parsed.keys())}")
+        return parsed
+
+    except Exception as e:
+        print(f"Error calling Gemini API: {e}")
         return {}
-    return parsed

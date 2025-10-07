@@ -3,14 +3,10 @@
 Backend/
 ├── .env
 ├── requirements.txt
-├── run.py
+├── main.py
 └── src/
     └── app/
-        ├── main.py
-        ├── routes.py
-        ├── query_handler.py
         ├── schema_loader.py
-        ├── db_connection.py
         └── query_generator/
             ├── llm_query_builder.py
             └── query_translator.py
