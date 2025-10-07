@@ -1,0 +1,6 @@
+# Create/update requirements.txt with all necessary packages
+Flask==2.3.3
+flask-cors==4.0.0
+pymongo==4.14.1
+python-dotenv==1.1.1
+google-generativeai==0.8.5
