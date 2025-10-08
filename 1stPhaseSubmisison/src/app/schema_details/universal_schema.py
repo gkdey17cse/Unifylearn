@@ -43,3 +43,5 @@ FIELD_MAPPING = {
 
 # Optional: Keep the full schema for reference, but focus on essentials
 __all__ = ["ESSENTIAL_FIELDS", "FIELD_MAPPING"]
+
+
