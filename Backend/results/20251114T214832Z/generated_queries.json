@@ -1,0 +1,29 @@
+{
+  "user_query": "Show me top 5 courses from Udacity on Social Science",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bSocial Science\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bSocial Science\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "What you learn": {
+            "$regex": "\\bSocial Science\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 5
+    }
+  },
+  "timestamp": "2025-11-14T21:48:32.528801"
+}

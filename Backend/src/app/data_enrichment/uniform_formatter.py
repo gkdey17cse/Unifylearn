@@ -5,169 +5,217 @@ from src.app.data_enrichment.llm_enricher import enrich_course_data
 from src.app.universal_schema import FIELD_MAPPING, ESSENTIAL_FIELDS
 
 
+def _clean_text(text: str) -> str:
+    """Clean and normalize text"""
+    if not text:
+        return ""
+
+    # Remove extra whitespace, newlines, and special characters
+    cleaned = re.sub(r"\s+", " ", text)
+    cleaned = re.sub(r"[^\w\s.,!?;:-]", "", cleaned)
+    return cleaned.strip()
+
+
+def _parse_duration(duration_text: str) -> str:
+    """Parse and clean duration text"""
+    if not duration_text:
+        return ""
+
+    # Extract meaningful duration information
+    if "month" in duration_text.lower():
+        months = re.search(r"(\d+)\s*month", duration_text.lower())
+        if months:
+            return f"{months.group(1)} months"
+
+    if "week" in duration_text.lower():
+        weeks = re.search(r"(\d+)\s*week", duration_text.lower())
+        if weeks:
+            return f"{weeks.group(1)} weeks"
+
+    if "hour" in duration_text.lower():
+        hours = re.search(r"(\d+)\s*hour", duration_text.lower())
+        if hours:
+            return f"{hours.group(1)} hours"
+
+    return _clean_text(duration_text)
+
+
+def _parse_viewers(viewers_text: str) -> int:
+    """Parse viewers count from text"""
+    if not viewers_text:
+        return 1000  # Reasonable default
+
+    # Extract numbers from text like "42,571" or "1,000 viewers"
+    numbers = re.findall(r"[\d,]+", viewers_text)
+    if numbers:
+        try:
+            return int(numbers[0].replace(",", ""))
+        except ValueError:
+            pass
+
+    return 1000
+
+
 def format_to_universal_schema(
     original_data: Dict[str, Any], provider: str
 ) -> Dict[str, Any]:
     """
-    Convert provider-specific data to universal schema format with focus on essential fields.
+    Convert provider-specific data to universal schema format with intelligent cleaning
     """
-    # Initialize only with essential fields
+    print(
+        f"🔄 Starting intelligent formatting for: {original_data.get('Title', 'Unknown')}"
+    )
+
+    # Initialize with cleaned, structured data
     universal_data = {
-        "title": "",
-        "url": "",
-        "description": "",
+        "title": _clean_text(original_data.get("Title", "")),
+        "url": original_data.get("URL", ""),
+        "description": _clean_text(original_data.get("Short Intro", "")),
         "category": "",
-        "language": "",
+        "language": "English",  # Default assumption
         "skills": [],
         "instructors": [],
-        "duration": "",
-        "site": "",
+        "duration": _parse_duration(original_data.get("Duration", "")),
+        "site": provider.capitalize(),
         "level": "",
-        "viewers": 0,
+        "viewers": _parse_viewers(original_data.get("Number of viewers", "")),
         "prerequisites": [],
         "learning_outcomes": [],
-        "price": "",
-        "provider": provider.capitalize(),  # Keep provider for context
+        "price": (
+            "Free"
+            if "free" in str(original_data.get("Program Type", "")).lower()
+            else "Paid"
+        ),
+        "provider": provider.capitalize(),
+        "_enrichment_applied": False,
+        "_original_fields_mapped": [],
     }
 
-    # Map only essential fields from original data
-    for universal_field in ESSENTIAL_FIELDS:
-        if universal_field not in FIELD_MAPPING:
-            continue
+    # Map specific fields with intelligent cleaning
+    mapped_fields = []
 
-        source_fields = FIELD_MAPPING[universal_field]
-        for source_field in source_fields:
-            if source_field in original_data and original_data[source_field] not in [
-                None,
-                "null",
-                "NaN",
-                "",
-                "None",
-            ]:
-                value = original_data[source_field]
+    # Handle skills specially - don't just copy, we'll use LLM for this
+    if "Skills" in original_data and original_data["Skills"]:
+        raw_skills = original_data["Skills"]
+        if isinstance(raw_skills, str):
+            # Basic cleaning but LLM will do proper extraction
+            skills_list = [
+                skill.strip() for skill in raw_skills.split(",") if skill.strip()
+            ]
+            universal_data["skills"] = [
+                s for s in skills_list if len(s) > 2 and not s.isdigit()
+            ]
+            mapped_fields.append("Skills→skills")
 
-                # Skip if value is essentially empty
-                if isinstance(value, str) and value.strip() == "":
-                    continue
+    # Handle instructors
+    if "Instructors" in original_data and original_data["Instructors"]:
+        instructors_text = original_data["Instructors"]
+        if isinstance(instructors_text, str):
+            instructors_list = [
+                inst.strip() for inst in instructors_text.split(",") if inst.strip()
+            ]
+            universal_data["instructors"] = instructors_list[
+                :5
+            ]  # Limit to 5 instructors
+            mapped_fields.append("Instructors→instructors")
 
-                # Apply field-specific transformations
-                if universal_field == "skills" and isinstance(value, str):
-                    # Convert comma-separated skills to list, filter out empty/numeric-only
-                    skills_list = [
-                        skill.strip() for skill in value.split(",") if skill.strip()
-                    ]
-                    universal_data[universal_field] = [
-                        skill for skill in skills_list if not skill.isdigit()
-                    ]
+    # Handle prerequisites
+    if "Prequisites" in original_data and original_data["Prequisites"]:
+        prereq_text = original_data["Prequisites"]
+        if isinstance(prereq_text, str):
+            # Split into meaningful points
+            sentences = re.split(r"[.!?\n]", prereq_text)
+            prerequisites = [
+                s.strip()
+                for s in sentences
+                if len(s.strip()) > 20 and len(s.strip()) < 150
+            ]
+            universal_data["prerequisites"] = prerequisites[
+                :8
+            ]  # Limit to 8 prerequisites
+            mapped_fields.append("Prequisites→prerequisites")
 
-                elif universal_field == "instructors" and isinstance(value, str):
-                    # Convert comma-separated instructors to list
-                    universal_data[universal_field] = [
-                        instructor.strip()
-                        for instructor in value.split(",")
-                        if instructor.strip()
-                    ]
+    # Track mapped fields
+    universal_data["_original_fields_mapped"] = mapped_fields
+    print(f"📊 Initially mapped {len(mapped_fields)} fields from original data")
 
-                elif universal_field == "viewers" and isinstance(value, str):
-                    # Convert formatted numbers like "7,667" to integer
-                    clean_value = value.replace(",", "").replace(" ", "")
-                    numeric_match = re.search(r"(\d+)", clean_value)
-                    if numeric_match:
-                        universal_data[universal_field] = int(numeric_match.group(1))
-
-                elif universal_field in [
-                    "prerequisites",
-                    "learning_outcomes",
-                ] and isinstance(value, str):
-                    # Convert long text to list of bullet points
-                    # Split by sentences or newlines for better processing
-                    sentences = re.split(r"[.!?\n]", value)
-                    universal_data[universal_field] = [
-                        s.strip()
-                        for s in sentences
-                        if s.strip() and len(s.strip()) > 10
-                    ]
-
-                else:
-                    universal_data[universal_field] = value
-                break
-
-    # Use LLM to fill in missing ESSENTIAL information
+    # Use LLM for intelligent enrichment of complex fields
     try:
+        print("🤖 Starting intelligent LLM enrichment...")
         enriched_data = enrich_course_data(original_data, universal_data)
-        return enriched_data
+
+        # Check if enrichment actually happened
+        if enriched_data != universal_data:
+            enriched_data["_enrichment_applied"] = True
+            print("✅ LLM enrichment completed successfully")
+        else:
+            print("ℹ️  LLM enrichment skipped or no changes made")
+
+        return _ensure_high_quality_output(enriched_data)
+
     except Exception as e:
-        print(
-            f"LLM enrichment failed for {universal_data.get('title', 'unknown')}: {e}"
-        )
+        print(f"❌ LLM enrichment failed: {e}")
         # Return the formatted data even if LLM fails
-        return universal_data
+        return _ensure_high_quality_output(universal_data)
 
 
-def ensure_essential_fields(final_data: Dict[str, Any]) -> Dict[str, Any]:
+def _ensure_high_quality_output(final_data: Dict[str, Any]) -> Dict[str, Any]:
     """
-    Ensure all essential fields have proper values for frontend.
-    LLM should have filled these, but we ensure consistency.
+    Ensure all output is high-quality and properly formatted
     """
-    # Ensure arrays are never null and have meaningful content
+    print("🎨 Applying final quality enhancements...")
+
+    # Ensure arrays are clean and meaningful
     for array_field in ["skills", "instructors", "prerequisites", "learning_outcomes"]:
         if final_data.get(array_field) is None:
             final_data[array_field] = []
-        elif isinstance(final_data[array_field], list) and not final_data[array_field]:
-            # If empty array, provide default based on field type
-            if array_field == "skills" and final_data.get("description"):
-                # Extract skills from description as fallback
-                description = final_data["description"].lower()
-                potential_skills = [
-                    "python",
-                    "tensorflow",
-                    "pytorch",
-                    "machine learning",
-                    "deep learning",
-                    "ai",
-                    "data science",
-                    "java",
-                    "javascript",
-                ]
-                final_data[array_field] = [
-                    skill for skill in potential_skills if skill in description
-                ]
+        elif isinstance(final_data[array_field], list):
+            # Remove empty strings and duplicates
+            cleaned_list = [
+                item for item in final_data[array_field] if item and str(item).strip()
+            ]
+            final_data[array_field] = list(set(cleaned_list))
 
-    # Ensure strings have meaningful defaults
-    for string_field in [
-        "title",
-        "url",
-        "description",
-        "category",
-        "language",
-        "duration",
-        "site",
-        "level",
-        "price",
-    ]:
-        if not final_data.get(string_field) or final_data[string_field] in [
-            "",
-            "null",
-            "None",
-        ]:
-            if string_field == "language" and not final_data.get(string_field):
-                final_data[string_field] = "English"  # Default assumption
-            elif string_field == "site" and not final_data.get(string_field):
-                final_data[string_field] = final_data.get("provider", "Online")
-            else:
-                final_data[string_field] = ""
-
-    # Ensure numbers have sensible defaults
-    if final_data.get("viewers") is None or final_data["viewers"] == 0:
-        # Set reasonable default based on course type
-        final_data["viewers"] = 1000  # Reasonable default
-
-    # Clean up skills array (remove any numeric-only entries)
-    if isinstance(final_data.get("skills"), list):
+    # Ensure skills are properly capitalized and clean
+    if final_data.get("skills"):
         final_data["skills"] = [
-            skill
+            skill.strip().title()
             for skill in final_data["skills"]
-            if skill and not (isinstance(skill, str) and skill.isdigit())
+            if len(skill.strip()) > 2
         ]
+        final_data["skills"] = final_data["skills"][:10]  # Limit to 10 skills
 
+    # Ensure learning outcomes are properly formatted
+    if final_data.get("learning_outcomes"):
+        final_data["learning_outcomes"] = [
+            outcome.strip()
+            for outcome in final_data["learning_outcomes"]
+            if outcome and len(outcome.strip()) > 10
+        ][
+            :6
+        ]  # Limit to 6 outcomes
+
+    # Ensure category is meaningful
+    if not final_data.get("category") or final_data["category"] in ["", "null", "None"]:
+        title = final_data.get("title", "").lower()
+        if any(term in title for term in ["machine learning", "ml", "ai"]):
+            final_data["category"] = "Artificial Intelligence"
+        elif any(term in title for term in ["data science", "data analysis"]):
+            final_data["category"] = "Data Science"
+        elif any(term in title for term in ["web", "frontend", "backend"]):
+            final_data["category"] = "Web Development"
+        else:
+            final_data["category"] = "Technology"
+
+    # Ensure level is properly set
+    if not final_data.get("level") or final_data["level"] in ["", "null", "None"]:
+        final_data["level"] = "Intermediate"  # Reasonable default
+
+    # Ensure description is clean
+    if final_data.get("description"):
+        final_data["description"] = _clean_text(final_data["description"])
+        if len(final_data["description"]) > 300:
+            final_data["description"] = final_data["description"][:297] + "..."
+
+    print("✅ Final quality enhancements applied")
     return final_data

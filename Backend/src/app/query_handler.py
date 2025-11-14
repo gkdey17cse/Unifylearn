@@ -52,7 +52,7 @@ def save_generated_queries(generated_queries, user_query, output_dir):
 
 def save_raw_execution_results(execution_results, user_query, output_dir):
     """
-    Save raw execution results (raw_execution_results.json)
+    Save raw execution results with actual document data (raw_execution_results.json)
     """
     os.makedirs(output_dir, exist_ok=True)
     raw_results_path = os.path.join(output_dir, "raw_execution_results.json")
@@ -69,23 +69,50 @@ def save_raw_execution_results(execution_results, user_query, output_dir):
     return raw_results_path
 
 
+def save_raw_documents(raw_documents_by_provider, user_query, output_dir):
+    """
+    Save raw documents fetched from databases (raw_documents.json)
+    """
+    os.makedirs(output_dir, exist_ok=True)
+    raw_docs_path = os.path.join(output_dir, "raw_documents.json")
+
+    raw_docs_data = {
+        "user_query": user_query,
+        "raw_documents": raw_documents_by_provider,
+        "total_raw_documents": sum(
+            len(docs) for docs in raw_documents_by_provider.values()
+        ),
+        "timestamp": datetime.utcnow().isoformat(),
+    }
+
+    with open(raw_docs_path, "w", encoding="utf-8") as fh:
+        json.dump(raw_docs_data, fh, ensure_ascii=False, indent=2)
+
+    return raw_docs_path
+
+
 def processUserQuery(userQuery):
     try:
         # STEP 1: Generate intelligent queries using enhanced LLM
         generated_queries = generate_queries(userQuery)
-        print("\n--- LLM Queries ---\n", json.dumps(generated_queries, indent=2))
+        print(
+            "\n--- LLM Generated Queries (Schema Fields) ---\n",
+            json.dumps(generated_queries, indent=2),
+        )
 
         all_results = []
         execution_results = {}
+        raw_documents_by_provider = {}
         debug_info = {
             "user_query": userQuery,
             "llm_generated_queries": generated_queries,
             "execution_results": execution_results,
         }
 
-        # STEP 2: Execute queries for each provider
+        # STEP 2: Execute queries for each provider and collect RAW DATA
         for provider, schema_field_query in generated_queries.items():
             print(f"\n--- Processing {provider} ---")
+            print(f"Schema Query: {json.dumps(schema_field_query, indent=2)}")
 
             sanitized_docs, result_info = execute_provider_query(
                 provider, schema_field_query, userQuery
@@ -93,46 +120,77 @@ def processUserQuery(userQuery):
             execution_results[provider] = result_info
             debug_info["execution_results"][provider] = result_info
 
+            # Store raw documents for this provider
+            raw_documents_by_provider[provider] = sanitized_docs or []
+
+            print(
+                f"Execution Result: {result_info.get('match_count', 0)} documents found"
+            )
+            print(f"Used Fallback: {result_info.get('used_fallback', False)}")
+
             if sanitized_docs:
+                print(f"✅ Found {len(sanitized_docs)} RAW documents for {provider}")
+
+                # STEP 3: Process and enrich each document
                 for doc in sanitized_docs:
+                    print(
+                        f"🔄 Processing document: {doc.get('Title', 'Unknown Title')}"
+                    )
                     unified_data = unifyResponse(provider.lower(), doc)
+
                     all_results.append(
                         {
                             "provider": provider.lower(),
-                            "original_data": doc,
-                            "unified_data": unified_data,
+                            "original_data": doc,  # Keep original raw data
+                            "unified_data": unified_data,  # Store enriched data
+                            "enrichment_applied": True,  # Track if enrichment was attempted
                         }
                     )
+            else:
+                print(f"❌ No documents found for {provider}")
 
-        # STEP 3: Create timestamp-based directory and save ALL 4 files
+        # STEP 4: Create timestamp-based directory and save ALL 5 files
         ts = datetime.utcnow().strftime("%Y%m%dT%H%M%SZ")
         output_dir = os.getenv("OUTPUT_DIR", "./results")
         query_output_dir = os.path.join(output_dir, ts)
 
-        # Save all 4 JSON files
+        # Save all JSON files
         queries_path = save_generated_queries(
             generated_queries, userQuery, query_output_dir
         )
         raw_results_path = save_raw_execution_results(
             execution_results, userQuery, query_output_dir
         )
+        raw_docs_path = save_raw_documents(
+            raw_documents_by_provider, userQuery, query_output_dir
+        )
         polished_path = save_enriched_courses(all_results, query_output_dir)
         debug_path = save_results(userQuery, debug_info, all_results, query_output_dir)
 
-        print(f"\n--- All 4 JSON files saved to {query_output_dir} ---")
+        print(f"\n--- All 5 JSON files saved to {query_output_dir} ---")
         print(f"   📋 Generated queries: {queries_path}")
         print(f"   🗄️  Raw execution results: {raw_results_path}")
+        print(f"   📄 Raw documents: {raw_docs_path}")
         print(f"   ✨ Polished results: {polished_path}")
         print(f"   🐛 Debug info: {debug_path}")
 
-        # Prepare clean results for frontend
+        # Prepare clean results for frontend (enriched data only)
         frontend_results = []
+        enrichment_stats = {
+            "total_documents": len(all_results),
+            "enrichment_applied": sum(
+                1 for r in all_results if r.get("enrichment_applied", False)
+            ),
+            "providers_processed": list(set(r["provider"] for r in all_results)),
+        }
+
         for result in all_results:
             frontend_results.append(
                 {
                     **result["unified_data"],
                     "source_provider": result["provider"],
                     "original_provider_id": result["original_data"].get("_id"),
+                    "enrichment_applied": result.get("enrichment_applied", False),
                 }
             )
 
@@ -140,10 +198,12 @@ def processUserQuery(userQuery):
             "query": userQuery,
             "results": frontend_results,
             "debug": debug_info,
+            "enrichment_stats": enrichment_stats,
             "output_directory": query_output_dir,
             "saved_files": {
                 "generated_queries": queries_path,
                 "raw_results": raw_results_path,
+                "raw_documents": raw_docs_path,
                 "polished_results": polished_path,
                 "debug_info": debug_path,
             },

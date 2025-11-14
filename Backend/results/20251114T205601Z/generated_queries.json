@@ -1,0 +1,47 @@
+{
+  "user_query": "SHow 3 Database course from Coursera",
+  "generated_queries": {
+    "coursera": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bDatabase\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bDatabase\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bDatabase\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bDatabase\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bDatabase\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 3
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-14T20:56:01.559107"
+}

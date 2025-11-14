@@ -1,0 +1,112 @@
+{
+  "user_query": "SHow me some Law related courses",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "What you learn": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-14T19:42:46.572881"
+}

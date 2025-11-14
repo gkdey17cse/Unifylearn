@@ -1,0 +1,39 @@
+{
+  "user_query": "Show me top 5 courses from Simplilearn on Deep Learning",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "limit_applied": 5,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-14T21:49:45.763942"
+}

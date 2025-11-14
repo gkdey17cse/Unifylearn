@@ -1,0 +1,776 @@
+{
+  "timestamp": "2025-11-14T21:16:46.435534",
+  "user_query": "show me only 3 course in Machine Learning",
+  "debug_info": {
+    "user_query": "show me only 3 course in Machine Learning",
+    "llm_generated_queries": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "$limit": 3
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Prequisites": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "$limit": 3
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "$limit": 3
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "$limit": 3
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "limit_applied": 3,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Prequisites": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "limit_applied": 3,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "limit_applied": 3,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "limit_applied": 3,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660bb",
+        "Title": "Artificial Intelligence: an Overview Specialization",
+        "URL": "https://www.coursera.org/specializations/artificial-intelligence-overview",
+        "Short Intro": "Enter the artificial intelligence world",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Artificial Intelligence (AI), Ethical issues of artificial intelligence, Machine Learning, Legal issues of artificial intelligence, ",
+        "Instructors": "Nicola Gatti ,Viola Schiaffonati ,Annamaria Italiano ,Manuel Roveri ,Marcello Restelli ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "40",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Artificial Intelligence: an Overview Specialization",
+        "url": "https://www.coursera.org/specializations/artificial-intelligence-overview",
+        "description": "Enter the artificial intelligence world",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Artificial Intelligence (AI)",
+          "Ethical issues of artificial intelligence",
+          "Machine Learning",
+          "Legal issues of artificial intelligence"
+        ],
+        "instructors": [
+          "Nicola Gatti",
+          "Viola Schiaffonati",
+          "Annamaria Italiano",
+          "Manuel Roveri",
+          "Marcello Restelli"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 40,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466106",
+        "Title": "Hands-on Internet of Things Specialization",
+        "URL": "https://www.coursera.org/specializations/uiuc-iot",
+        "Short Intro": "Gain real-world experience with IoT. Techniques and Concepts of  Internet of Things",
+        "Category": "Computer Science",
+        "Sub-Category": "Computer Security and Networks",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Python Programming, Device Programming, Raspberry Pi, Machine Learning, Internet, Internet Of Things (IOT), Wireless, Front And Back Ends, Service Discovery, ",
+        "Instructors": "Matthew Caesar ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "96",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Hands-on Internet of Things Specialization",
+        "url": "https://www.coursera.org/specializations/uiuc-iot",
+        "description": "Gain real-world experience with IoT. Techniques and Concepts of  Internet of Things",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Python Programming",
+          "Device Programming",
+          "Raspberry Pi",
+          "Machine Learning",
+          "Internet",
+          "Internet Of Things (IOT)",
+          "Wireless",
+          "Front And Back Ends",
+          "Service Discovery"
+        ],
+        "instructors": [
+          "Matthew Caesar"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 96,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466018",
+        "Title": "AI Product Management Specialization",
+        "URL": "https://www.coursera.org/specializations/ai-product-management-duke",
+        "Short Intro": "Manage the Design & Development of ML Products. Understand how machine learning works and when and how it can be applied to solve problems.  Learn to apply the data science process and best practices to lead machine learning projects,  and how to develop human-centered AI products which ensure privacy and ethical standards.",
+        "Category": "Data Science",
+        "Sub-Category": "Machine Learning",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Data Science, Artificial Intelligence (AI), Machine Learning, Predictive Analytics, Modeling, Artificial Neural Network, Project Management, Privacy, Design Thinking, Ethics, ",
+        "Instructors": "Jon Reifschneider ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "165",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "AI Product Management Specialization",
+        "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+        "description": "Manage the Design & Development of ML Products. Understand how machine learning works and when and how it can be applied to solve problems.  Learn to apply the data science process and best practices to lead machine learning projects,  and how to develop human-centered AI products which ensure privacy and ethical standards.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Science",
+          "Artificial Intelligence (AI)",
+          "Machine Learning",
+          "Predictive Analytics",
+          "Modeling",
+          "Artificial Neural Network",
+          "Project Management",
+          "Privacy",
+          "Design Thinking",
+          "Ethics"
+        ],
+        "instructors": [
+          "Jon Reifschneider"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "Specialization",
+        "viewers": 165,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Coursera"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d848",
+        "Title": "Machine Learning for Trading",
+        "URL": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+        "Short Intro": "Offered at Georgia Tech as CS 7646",
+        "Duration": "Estimated timeApprox. 4 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Students should have strong coding skills and some familiarity with equity markets. No finance or machine learning experience is assumed.Note that this course serves students focusing on computer science, as well as students in other majors such as industrial systems engineering, management, or math who have different experiences. All types of students are welcome!The ML topics might be \"review\" for CS students, while finance parts will be review for finance students. However, even if you have experience in these topics, you will find that we consider them in a different way than you might have seen before, in particular with an eye towards implementation for trading.Programming will primarily be in Python. We will make heavy use of numerical computing libraries like NumPy and Pandas.See the Technology Requirements for using Udacity.",
+        "What you learn": "Manipulating Financial Data in PythonComputational InvestingMachine Learning Algorithms for Trading"
+      },
+      "unified_data": {
+        "title": "Machine Learning for Trading",
+        "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+        "description": "Offered at Georgia Tech as CS 7646",
+        "category": "",
+        "language": "",
+        "skills": [
+          "Manipulating Financial Data in PythonComputational InvestingMachine Learning Algorithms for Trading"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 4 Months",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 0,
+        "prerequisites": [
+          "Students should have strong coding skills and some familiarity with equity markets",
+          "No finance or machine learning experience is assumed",
+          "Note that this course serves students focusing on computer science, as well as students in other majors such as industrial systems engineering, management, or math who have different experiences",
+          "All types of students are welcome",
+          "The ML topics might be \"review\" for CS students, while finance parts will be review for finance students",
+          "However, even if you have experience in these topics, you will find that we consider them in a different way than you might have seen before, in particular with an eye towards implementation for trading",
+          "Programming will primarily be in Python",
+          "We will make heavy use of numerical computing libraries like NumPy and Pandas",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Manipulating Financial Data in PythonComputational InvestingMachine Learning Algorithms for Trading"
+        ],
+        "price": "",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d891",
+        "Title": "Core ML: Machine Learning for iOS",
+        "URL": "https://www.udacity.com/course/core-ml--ud1038",
+        "Short Intro": "Use Apple's Core ML Framework in Your iOS Apps",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "To get the most out of this course, you should have prior experience developing apps for iOS.See the Technology Requirements for using Udacity.",
+        "What you learn": "Using Core MLGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appA Custom Core ML ModelUnderstand when you would use a custom modelConvert a custom model for use with Core MLUnderstand when you would use a custom modelConvert a custom model for use with Core MLCore ML ExtrasEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge appEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge app"
+      },
+      "unified_data": {
+        "title": "Core ML: Machine Learning for iOS",
+        "url": "https://www.udacity.com/course/core-ml--ud1038",
+        "description": "Use Apple's Core ML Framework in Your iOS Apps",
+        "category": "",
+        "language": "",
+        "skills": [
+          "Using Core MLGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appA Custom Core ML ModelUnderstand when you would use a custom modelConvert a custom model for use with Core MLUnderstand when you would use a custom modelConvert a custom model for use with Core MLCore ML ExtrasEnjoy bonus features",
+          "like an interview with Meghan Kane",
+          "the engineer who inspired this courseBuild a challenge appEnjoy bonus features",
+          "like an interview with Meghan Kane",
+          "the engineer who inspired this courseBuild a challenge app"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 0,
+        "prerequisites": [
+          "To get the most out of this course, you should have prior experience developing apps for iOS",
+          "See the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Using Core MLGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appA Custom Core ML ModelUnderstand when you would use a custom modelConvert a custom model for use with Core MLUnderstand when you would use a custom modelConvert a custom model for use with Core MLCore ML ExtrasEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge appEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge app"
+        ],
+        "price": "",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8bb",
+        "Title": "Data Analysis and Visualization",
+        "URL": "https://www.udacity.com/course/data-analysis-and-visualization--ud404",
+        "Short Intro": "Offered at Georgia Tech as CSE 6242",
+        "Duration": "Estimated timeApprox. 16 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Programming experienceMathematics: basic linear algebra, calculus, introductory probability No background in machine learning is requiredSee the Technology Requirements for using Udacity.",
+        "What you learn": "Programming in RThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresData AnalysisData PreprocessingData ProcessingData VisualizationData PreprocessingData ProcessingData VisualizationRegressionLogistic RegressionLinear RegressionRegularizationLogistic RegressionLinear RegressionRegularization"
+      },
+      "unified_data": {
+        "title": "Data Analysis and Visualization",
+        "url": "https://www.udacity.com/course/data-analysis-and-visualization--ud404",
+        "description": "Offered at Georgia Tech as CSE 6242",
+        "category": "",
+        "language": "",
+        "skills": [
+          "Programming in RThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresData AnalysisData PreprocessingData ProcessingData VisualizationData PreprocessingData ProcessingData VisualizationRegressionLogistic RegressionLinear RegressionRegularizationLogistic RegressionLinear RegressionRegularization"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 16 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 0,
+        "prerequisites": [
+          "Programming experienceMathematics: basic linear algebra, calculus, introductory probability No background in machine learning is requiredSee the Technology Requirements for using Udacity"
+        ],
+        "learning_outcomes": [
+          "Programming in RThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresData AnalysisData PreprocessingData ProcessingData VisualizationData PreprocessingData ProcessingData VisualizationRegressionLogistic RegressionLinear RegressionRegularizationLogistic RegressionLinear RegressionRegularization"
+        ],
+        "price": "",
+        "provider": "Udacity"
+      }
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7c7",
+        "Title": "AI for Decision Making: Business Strategies and Applications",
+        "URL": "https://www.simplilearn.com/ai-for-decision-making-program?tag=",
+        "Short Intro": "This AI program with Wharton Online gives you the competitive edge in emerging business technologies. The AI for Business delivers a foundational understanding of todayâ€™s top technologies, including big data, AI and machine learning, and how you can use them to support your organizationâ€™s strategy.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best AI program by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "University Program",
+        "Instructors": "AI & Machine Learning"
+      },
+      "unified_data": {
+        "title": "AI for Decision Making: Business Strategies and Applications",
+        "url": "https://www.simplilearn.com/ai-for-decision-making-program?tag=",
+        "description": "This AI program with Wharton Online gives you the competitive edge in emerging business technologies. The AI for Business delivers a foundational understanding of todayâ€™s top technologies, including big data, AI and machine learning, and how you can use them to support your organizationâ€™s strategy.",
+        "category": "Simplilearn",
+        "language": " Career Karma",
+        "skills": [],
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "",
+        "site": "",
+        "level": "Ranked #1 Best AI program by Career Karma",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Simplilearn"
+      }
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7b7",
+        "Title": "Post Graduate Program in AI and Machine Learning",
+        "URL": "https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?tag=",
+        "Short Intro": "Beat the curve with our Post Graduate Program in AI and ML, co-sponsored by Purdue University & IBM. Designed after Simplilearn's intense Bootcamp learning model, AI ML Course will help you achieve the most remarkable results & elevate your expertise.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 AI and ML Course by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "University Program",
+        "Skills": 757,
+        "Instructors": "AI & Machine Learning"
+      },
+      "unified_data": {
+        "title": "Post Graduate Program in AI and Machine Learning",
+        "url": "https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?tag=",
+        "description": "Beat the curve with our Post Graduate Program in AI and ML, co-sponsored by Purdue University & IBM. Designed after Simplilearn's intense Bootcamp learning model, AI ML Course will help you achieve the most remarkable results & elevate your expertise.",
+        "category": "Simplilearn",
+        "language": " Career Karma",
+        "skills": 757,
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "",
+        "site": "",
+        "level": "Ranked #1 AI and ML Course by Career Karma",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Simplilearn"
+      }
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7bb",
+        "Title": "AI & Machine Learning Bootcamp",
+        "URL": "https://www.simplilearn.com/ai-machine-learning-bootcamp?tag=",
+        "Short Intro": "This AI and Machine Learning Bootcamp in collaboration with Caltech, will help you advance your career as an AI and ML specialist. The AI and ML Bootcamp includes live classes delivered by industry experts, hands-on labs, Industry-relevant projects, and masterclasses by Caltech professors.",
+        "Category": "Simplilearn",
+        "Course Type": "Caltech is Ranked #1 in Best Universities in the US by Times Higher Education",
+        "Language": " Times Higher Education",
+        "Subtitle Languages": "University Program",
+        "Skills": 8583,
+        "Instructors": "AI & Machine Learning"
+      },
+      "unified_data": {
+        "title": "AI & Machine Learning Bootcamp",
+        "url": "https://www.simplilearn.com/ai-machine-learning-bootcamp?tag=",
+        "description": "This AI and Machine Learning Bootcamp in collaboration with Caltech, will help you advance your career as an AI and ML specialist. The AI and ML Bootcamp includes live classes delivered by industry experts, hands-on labs, Industry-relevant projects, and masterclasses by Caltech professors.",
+        "category": "Simplilearn",
+        "language": " Times Higher Education",
+        "skills": 8583,
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "",
+        "site": "",
+        "level": "Caltech is Ranked #1 in Best Universities in the US by Times Higher Education",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "",
+        "provider": "Simplilearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4e1",
+        "Title": "Introduction to Artificial Intelligence and Machine Learning",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-ai",
+        "Short Intro": "_x000D_\nLearn how AI can help you build a future ready career in computer science, with topics including predictive models and chatbots.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "42 Courses",
+        "Topics related to CRM": "AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / ",
+        "ExpertTracks": "11 ExpertTracks",
+        "Course Title": "Introduction to Artificial Intelligence and Machine Learning",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-ai",
+        "Course Short Intro": "_x000D_\nLearn how AI can help you build a future ready career in computer science, with topics including predictive models and chatbots.",
+        "Weekly study": "6 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Introduction to Artificial Intelligence and Machine Learning",
+        "url": "https://www.futurelearn.com/courses/introduction-to-ai",
+        "description": "_x000D_\nLearn how AI can help you build a future ready career in computer science, with topics including predictive models and chatbots.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4e3",
+        "Title": "Mastering Cloud Computing for AI: How to Use Microsoft Azure",
+        "URL": "https://www.futurelearn.com/courses/cloudswyft-msft-azure-cloud-fundamentals-ai",
+        "Short Intro": "Supercharge your career in AI and machine learning with the fundamental concepts and solutions of Azure and other cloud services.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "42 Courses",
+        "Topics related to CRM": "AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / ",
+        "ExpertTracks": "11 ExpertTracks",
+        "Course Title": "Mastering Cloud Computing for AI: How to Use Microsoft Azure",
+        "Course URL": "https://www.futurelearn.com/courses/cloudswyft-msft-azure-cloud-fundamentals-ai",
+        "Course Short Intro": "Supercharge your career in AI and machine learning with the fundamental concepts and solutions of Azure and other cloud services.",
+        "Weekly study": "6 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Mastering Cloud Computing for AI: How to Use Microsoft Azure",
+        "url": "https://www.futurelearn.com/courses/cloudswyft-msft-azure-cloud-fundamentals-ai",
+        "description": "Supercharge your career in AI and machine learning with the fundamental concepts and solutions of Azure and other cloud services.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4d3",
+        "Title": "Microsoft Future Ready: Principles of Machine Learning with Python Programming",
+        "URL": "https://www.futurelearn.com/courses/cloudswyft-msft-principles-of-machine-learning-pythoned-ethics",
+        "Short Intro": "Understand the theory of machine learning before gaining practical experience using Python programming.",
+        "Duration": "5 weeks",
+        "Site": "Future Learn",
+        "Courses": "42 Courses",
+        "Topics related to CRM": "AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / ",
+        "ExpertTracks": "11 ExpertTracks",
+        "Course Title": "Microsoft Future Ready: Principles of Machine Learning with Python Programming",
+        "Course URL": "https://www.futurelearn.com/courses/cloudswyft-msft-principles-of-machine-learning-pythoned-ethics",
+        "Course Short Intro": "Understand the theory of machine learning before gaining practical experience using Python programming.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Microsoft Future Ready: Principles of Machine Learning with Python Programming",
+        "url": "https://www.futurelearn.com/courses/cloudswyft-msft-principles-of-machine-learning-pythoned-ethics",
+        "description": "Understand the theory of machine learning before gaining practical experience using Python programming.",
+        "category": "",
+        "language": "",
+        "skills": [],
+        "instructors": [],
+        "duration": "5 weeks",
+        "site": "Future Learn",
+        "level": "",
+        "viewers": 0,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "provider": "Futurelearn"
+      }
+    }
+  ]
+}

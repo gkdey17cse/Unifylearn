@@ -1,0 +1,158 @@
+{
+  "user_query": "SHow me some Artificial Intelligence course for all platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 80,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Prequisites": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 12,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 55,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-14T23:02:22.986060"
+}

@@ -1,0 +1,132 @@
+{
+  "timestamp": "2025-11-14T19:26:38.814860",
+  "user_query": "Show me some courses from DBMS from Udacity or SImplilearn platform",
+  "debug_info": {
+    "user_query": "Show me some courses from DBMS from Udacity or SImplilearn platform",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Course Title": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Brief Description": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Main Category": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills Covered": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bshow\\ some\\ from\\ dbms\\ from\\ udacity\\ simplilearn\\ platform\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

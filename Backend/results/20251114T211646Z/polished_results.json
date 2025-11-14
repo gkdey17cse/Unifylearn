@@ -1,0 +1,303 @@
+[
+  {
+    "category": "Computer Science",
+    "description": "Enter the artificial intelligence world",
+    "duration": "Approximately 5 months to complete",
+    "instructors": [
+      "Nicola Gatti",
+      "Viola Schiaffonati",
+      "Annamaria Italiano",
+      "Manuel Roveri",
+      "Marcello Restelli"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c21254660bb",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Artificial Intelligence (AI)",
+      "Ethical issues of artificial intelligence",
+      "Machine Learning",
+      "Legal issues of artificial intelligence"
+    ],
+    "source_provider": "coursera",
+    "title": "Artificial Intelligence: an Overview Specialization",
+    "url": "https://www.coursera.org/specializations/artificial-intelligence-overview",
+    "viewers": 40
+  },
+  {
+    "category": "Computer Science",
+    "description": "Gain real-world experience with IoT. Techniques and Concepts of  Internet of Things",
+    "duration": "Approximately 4 months to complete",
+    "instructors": [
+      "Matthew Caesar"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466106",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Python Programming",
+      "Device Programming",
+      "Raspberry Pi",
+      "Machine Learning",
+      "Internet",
+      "Internet Of Things (IOT)",
+      "Wireless",
+      "Front And Back Ends",
+      "Service Discovery"
+    ],
+    "source_provider": "coursera",
+    "title": "Hands-on Internet of Things Specialization",
+    "url": "https://www.coursera.org/specializations/uiuc-iot",
+    "viewers": 96
+  },
+  {
+    "category": "Data Science",
+    "description": "Manage the Design & Development of ML Products. Understand how machine learning works and when and how it can be applied to solve problems.  Learn to apply the data science process and best practices to lead machine learning projects,  and how to develop human-centered AI products which ensure privacy and ethical standards.",
+    "duration": "Approximately 4 months to complete",
+    "instructors": [
+      "Jon Reifschneider"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466018",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Data Science",
+      "Artificial Intelligence (AI)",
+      "Machine Learning",
+      "Predictive Analytics",
+      "Modeling",
+      "Artificial Neural Network",
+      "Project Management",
+      "Privacy",
+      "Design Thinking",
+      "Ethics"
+    ],
+    "source_provider": "coursera",
+    "title": "AI Product Management Specialization",
+    "url": "https://www.coursera.org/specializations/ai-product-management-duke",
+    "viewers": 165
+  },
+  {
+    "category": "",
+    "description": "Offered at Georgia Tech as CS 7646",
+    "duration": "Estimated timeApprox. 4 Months",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [
+      "Manipulating Financial Data in PythonComputational InvestingMachine Learning Algorithms for Trading"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d848",
+    "prerequisites": [
+      "Students should have strong coding skills and some familiarity with equity markets",
+      "No finance or machine learning experience is assumed",
+      "Note that this course serves students focusing on computer science, as well as students in other majors such as industrial systems engineering, management, or math who have different experiences",
+      "All types of students are welcome",
+      "The ML topics might be \"review\" for CS students, while finance parts will be review for finance students",
+      "However, even if you have experience in these topics, you will find that we consider them in a different way than you might have seen before, in particular with an eye towards implementation for trading",
+      "Programming will primarily be in Python",
+      "We will make heavy use of numerical computing libraries like NumPy and Pandas",
+      "See the Technology Requirements for using Udacity"
+    ],
+    "price": "",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Manipulating Financial Data in PythonComputational InvestingMachine Learning Algorithms for Trading"
+    ],
+    "source_provider": "udacity",
+    "title": "Machine Learning for Trading",
+    "url": "https://www.udacity.com/course/machine-learning-for-trading--ud501",
+    "viewers": 0
+  },
+  {
+    "category": "",
+    "description": "Use Apple's Core ML Framework in Your iOS Apps",
+    "duration": "Estimated timeApprox. 1 Week",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [
+      "Using Core MLGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appA Custom Core ML ModelUnderstand when you would use a custom modelConvert a custom model for use with Core MLUnderstand when you would use a custom modelConvert a custom model for use with Core MLCore ML ExtrasEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge appEnjoy bonus features, like an interview with Meghan Kane, the engineer who inspired this courseBuild a challenge app"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d891",
+    "prerequisites": [
+      "To get the most out of this course, you should have prior experience developing apps for iOS",
+      "See the Technology Requirements for using Udacity"
+    ],
+    "price": "",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Using Core MLGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appGet a quick overview of fundamental machine learning conceptsLearn the basics of Core MLIncorporate an image classification model into an appA Custom Core ML ModelUnderstand when you would use a custom modelConvert a custom model for use with Core MLUnderstand when you would use a custom modelConvert a custom model for use with Core MLCore ML ExtrasEnjoy bonus features",
+      "like an interview with Meghan Kane",
+      "the engineer who inspired this courseBuild a challenge appEnjoy bonus features",
+      "like an interview with Meghan Kane",
+      "the engineer who inspired this courseBuild a challenge app"
+    ],
+    "source_provider": "udacity",
+    "title": "Core ML: Machine Learning for iOS",
+    "url": "https://www.udacity.com/course/core-ml--ud1038",
+    "viewers": 0
+  },
+  {
+    "category": "",
+    "description": "Offered at Georgia Tech as CSE 6242",
+    "duration": "Estimated timeApprox. 16 Weeks",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [
+      "Programming in RThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresData AnalysisData PreprocessingData ProcessingData VisualizationData PreprocessingData ProcessingData VisualizationRegressionLogistic RegressionLinear RegressionRegularizationLogistic RegressionLinear RegressionRegularization"
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8bb",
+    "prerequisites": [
+      "Programming experienceMathematics: basic linear algebra, calculus, introductory probability No background in machine learning is requiredSee the Technology Requirements for using Udacity"
+    ],
+    "price": "",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Programming in RThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresThe R Programming LanguageR Programming SyntaxR Programming and Data StructuresData AnalysisData PreprocessingData ProcessingData VisualizationData PreprocessingData ProcessingData VisualizationRegressionLogistic RegressionLinear RegressionRegularizationLogistic RegressionLinear RegressionRegularization"
+    ],
+    "source_provider": "udacity",
+    "title": "Data Analysis and Visualization",
+    "url": "https://www.udacity.com/course/data-analysis-and-visualization--ud404",
+    "viewers": 0
+  },
+  {
+    "category": "Simplilearn",
+    "description": "This AI program with Wharton Online gives you the competitive edge in emerging business technologies. The AI for Business delivers a foundational understanding of todayâ€™s top technologies, including big data, AI and machine learning, and how you can use them to support your organizationâ€™s strategy.",
+    "duration": "",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": " Career Karma",
+    "learning_outcomes": [],
+    "level": "Ranked #1 Best AI program by Career Karma",
+    "original_provider_id": "68ac04f569e0bdd621a8d7c7",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Simplilearn",
+    "site": "",
+    "skills": [],
+    "source_provider": "simplilearn",
+    "title": "AI for Decision Making: Business Strategies and Applications",
+    "url": "https://www.simplilearn.com/ai-for-decision-making-program?tag=",
+    "viewers": 0
+  },
+  {
+    "category": "Simplilearn",
+    "description": "Beat the curve with our Post Graduate Program in AI and ML, co-sponsored by Purdue University & IBM. Designed after Simplilearn's intense Bootcamp learning model, AI ML Course will help you achieve the most remarkable results & elevate your expertise.",
+    "duration": "",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": " Career Karma",
+    "learning_outcomes": [],
+    "level": "Ranked #1 AI and ML Course by Career Karma",
+    "original_provider_id": "68ac04f569e0bdd621a8d7b7",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Simplilearn",
+    "site": "",
+    "skills": 757,
+    "source_provider": "simplilearn",
+    "title": "Post Graduate Program in AI and Machine Learning",
+    "url": "https://www.simplilearn.com/pgp-ai-machine-learning-certification-training-course?tag=",
+    "viewers": 0
+  },
+  {
+    "category": "Simplilearn",
+    "description": "This AI and Machine Learning Bootcamp in collaboration with Caltech, will help you advance your career as an AI and ML specialist. The AI and ML Bootcamp includes live classes delivered by industry experts, hands-on labs, Industry-relevant projects, and masterclasses by Caltech professors.",
+    "duration": "",
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": " Times Higher Education",
+    "learning_outcomes": [],
+    "level": "Caltech is Ranked #1 in Best Universities in the US by Times Higher Education",
+    "original_provider_id": "68ac04f569e0bdd621a8d7bb",
+    "prerequisites": [],
+    "price": "",
+    "provider": "Simplilearn",
+    "site": "",
+    "skills": 8583,
+    "source_provider": "simplilearn",
+    "title": "AI & Machine Learning Bootcamp",
+    "url": "https://www.simplilearn.com/ai-machine-learning-bootcamp?tag=",
+    "viewers": 0
+  },
+  {
+    "category": "",
+    "description": "_x000D_\nLearn how AI can help you build a future ready career in computer science, with topics including predictive models and chatbots.",
+    "duration": "3 weeks",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [],
+    "level": "",
+    "original_provider_id": "68ac020e69e0bdd621a8c4e1",
+    "prerequisites": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "site": "Future Learn",
+    "skills": [],
+    "source_provider": "futurelearn",
+    "title": "Introduction to Artificial Intelligence and Machine Learning",
+    "url": "https://www.futurelearn.com/courses/introduction-to-ai",
+    "viewers": 0
+  },
+  {
+    "category": "",
+    "description": "Supercharge your career in AI and machine learning with the fundamental concepts and solutions of Azure and other cloud services.",
+    "duration": "2 weeks",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [],
+    "level": "",
+    "original_provider_id": "68ac020e69e0bdd621a8c4e3",
+    "prerequisites": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "site": "Future Learn",
+    "skills": [],
+    "source_provider": "futurelearn",
+    "title": "Mastering Cloud Computing for AI: How to Use Microsoft Azure",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-azure-cloud-fundamentals-ai",
+    "viewers": 0
+  },
+  {
+    "category": "",
+    "description": "Understand the theory of machine learning before gaining practical experience using Python programming.",
+    "duration": "5 weeks",
+    "instructors": [],
+    "language": "",
+    "learning_outcomes": [],
+    "level": "",
+    "original_provider_id": "68ac020e69e0bdd621a8c4d3",
+    "prerequisites": [],
+    "price": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+    "provider": "Futurelearn",
+    "site": "Future Learn",
+    "skills": [],
+    "source_provider": "futurelearn",
+    "title": "Microsoft Future Ready: Principles of Machine Learning with Python Programming",
+    "url": "https://www.futurelearn.com/courses/cloudswyft-msft-principles-of-machine-learning-pythoned-ethics",
+    "viewers": 0
+  }
+]
