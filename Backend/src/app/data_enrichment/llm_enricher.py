@@ -68,7 +68,7 @@ Provider: {universal_data.get('provider', 'Unknown')}
 """
 
     try:
-        model = genai.GenerativeModel("gemini-2.0-flash-lite")
+        model = genai.GenerativeModel("gemini-2.0-flash")
         response = model.generate_content(prompt)
 
         # Extract JSON from response
