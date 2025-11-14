@@ -26,7 +26,7 @@ FIELD_MAPPING = {
         "Short Intro",
         "Brief Description",
         "Course Short Intro",
-        "Description",
+        "Category",
     ],
     "category": ["Category", "Main Category"],
     "language": ["Language"],

@@ -1,5 +1,6 @@
 - Directory structure for the Backend
-```bash 
+
+```bash
 Backend/
 │
 ├── .env
@@ -38,6 +39,7 @@ Backend/
 │
 └── README.md
 ```
+
 Key Intelligence Added:
 Query Type Detection: Automatically detects category-based, technology-based, and topic-based queries
 
@@ -56,6 +58,14 @@ Title	URL	Short Intro	Category	Language	Skills	Instructors	Duration	Site	Level	N
 ```
 
 Perfect! Your directory structure is absolutely correct. Here's the comprehensive documentation:
+
+## Data Flow Direction
+
+```text
+User Query → API → Query Understanding → Multi-DB Query →
+Data Retrieval → Schema Mapping → LLM Enrichment →
+Standardized Response → Storage → User
+```
 
 ## 📁 Directory Structure & File Documentation
 

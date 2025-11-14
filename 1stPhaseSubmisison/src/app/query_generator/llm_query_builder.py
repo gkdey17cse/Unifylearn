@@ -6,7 +6,7 @@ import os
 from src.app.schema_loader import getSchemasAndSamples
 
 # Use your API key
-API_KEY = "AIzaSyCZA-_semc7d5ogZsN7wkKzKXGXTsk0dvw"
+API_KEY = "AIzaSyC7mkmr7MQP43NC-pzM_IMKi7nAeKIt6p0"
 genai.configure(api_key=API_KEY)
 
 

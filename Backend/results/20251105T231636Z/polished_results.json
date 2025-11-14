@@ -1,0 +1,580 @@
+[
+  {
+    "category": "Social Sciences",
+    "description": "Learn how the Law Regulates the Cloud. Master the main legal and regulatory implications of using and providing cloud computing services. ",
+    "duration": "Approximately 3 months to complete",
+    "instructors": [
+      "Christopher Millard",
+      "Chris Reed",
+      "Johan David Michels",
+      "Ian Walden",
+      "Dimitra Kamarinou",
+      "Jessica Shurson",
+      "Vasiliki Koukoulioti"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand the legal and regulatory landscape of cloud computing. Master key implications of cloud services, including data protection, cybersecurity, and intellectual property rights, enabling informed decision-making.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466117",
+    "prerequisites": "Basic understanding of legal concepts is recommended, but no prior experience in cloud computing is required.",
+    "price": "Pricing information not available on Coursera. Please check Coursera website.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Cloud Services",
+      "General Data Protection Regulation (GDPR)",
+      "Cybersecurity",
+      "Contract Law",
+      "Cloud Computing",
+      "Intellectual Property",
+      "Contract Negotiations",
+      "Cybersecurity Regulation",
+      "International Transfers of Personal Data",
+      "Competition Law",
+      "Law Enforcement Access",
+      "Tax"
+    ],
+    "source_provider": "coursera",
+    "title": "Cloud Computing Law Specialization",
+    "url": "https://www.coursera.org/specializations/cloud-computing-law",
+    "viewers": 34
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Launch your career in Europe. Master the essentials in European Business Law.",
+    "duration": "Approximately 5 months to complete",
+    "instructors": [
+      "Hans Henrik Lidgard",
+      "Xavier Groussot",
+      "Julian Nowag",
+      "Anna Wiberg",
+      "Eduardo Gill Pedro",
+      "Angelica Ericsson",
+      "Magnus Schmauch",
+      "Annegret Engel",
+      "Mia Rönnmar",
+      "Cécile Brokelind",
+      "Sanja Bogojevic",
+      "Michael Bogdan",
+      "Niklas Arvidsson",
+      "Jörgen Hettne",
+      "Justin Pierce",
+      "Ulf Maunsbach"
+    ],
+    "language": "English",
+    "learning_outcomes": "Master the fundamentals of European Business Law. Understand the legal frameworks governing business operations within Europe and gain the knowledge to launch a career in the field.",
+    "level": "Specialization",
+    "original_provider_id": "68aa13e9b82e4c2125466146",
+    "prerequisites": "Basic understanding of business principles is recommended, but no prior legal knowledge is required.",
+    "price": "Free to audit, paid option available for certificate.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Compete on the Internal Market",
+      "Legal Research",
+      "Law",
+      "Business Law",
+      "Foreign Policy"
+    ],
+    "source_provider": "coursera",
+    "title": "European Business Law  Specialization",
+    "url": "https://www.coursera.org/specializations/european-business-law",
+    "viewers": 279
+  },
+  {
+    "category": "Social Sciences",
+    "description": "This course begins by exploring short term entry and long term entry into the United States. We will cover the various means of short term entry and long term entry, as well as the general application processes. We will also examine exclusion and deportation in the United States. In particular, we will discuss how and why individuals may not be admitted into the United States and possible reasons for deportation or removal. Lastly, we will cover the process of how to become a United States citizen and the various requirements for naturalization.",
+    "duration": "Approx. 10 hours to complete",
+    "instructors": [
+      "Fernando Chang-Muy"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand short and long-term entry processes, exclusion and deportation grounds, and naturalization requirements. Gain knowledge of application procedures and relevant legal aspects within U.S. immigration law.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466210",
+    "prerequisites": [
+      "None. Basic understanding of legal concepts is helpful but not required."
+    ],
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Immigration Law",
+      "Visa Application",
+      "Deportation",
+      "Naturalization"
+    ],
+    "source_provider": "coursera",
+    "title": "Nuts and Bolts of U.S. Immigration Law",
+    "url": "https://www.coursera.org/learn/us-immigration-law",
+    "viewers": 69
+  },
+  {
+    "category": "Social Sciences",
+    "description": "American Contract Law I (along with its sister course Contracts II) provides a comprehensive overview of contract law in the United States. The course covers most of the key concepts found in a first year law school class. Each lecture is based on one or more common-law cases, integrating legal doctrines with policy discussions. The course also covers key sections from the Uniform Commercial Code (UCC), which governs the sale of goods. ",
+    "duration": "Approx. 32 hours to complete",
+    "instructors": [
+      "Ian Ayres"
+    ],
+    "language": "English",
+    "learning_outcomes": "Students will gain a comprehensive understanding of key contract law concepts, common-law cases, and the Uniform Commercial Code (UCC). The course covers key areas found in first-year law school classes.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466214",
+    "prerequisites": [
+      "None. Basic understanding of legal concepts is helpful but not required."
+    ],
+    "price": "Free (with paid certificate option)",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Contract Law",
+      "Legal Doctrine",
+      "Uniform Commercial Code (UCC)"
+    ],
+    "source_provider": "coursera",
+    "title": "American Contract Law I",
+    "url": "https://www.coursera.org/learn/contracts-1",
+    "viewers": 820
+  },
+  {
+    "category": "Social Sciences",
+    "description": "About this Course",
+    "duration": "Approx. 21 hours to complete",
+    "instructors": [
+      "Jeffery Atik"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain an understanding of the intersection of AI and law. Explore the impact of AI on legal practice and ethical considerations. Learn about AI applications in various legal fields.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254661f8",
+    "prerequisites": [
+      "None"
+    ],
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "AI",
+      "Law",
+      "Legal Technology"
+    ],
+    "source_provider": "coursera",
+    "title": "AI & Law ",
+    "url": "https://www.coursera.org/learn/ai-law",
+    "viewers": 272
+  },
+  {
+    "category": "Social Sciences",
+    "description": "‘The Arbitration of International Disputes’ is the third course of Leiden University’s  series on International Law in Action. The first course covered generalities on the international courts and tribunals in The Hague, while the second course provided an insider's  perspective into the work of international criminal courts and tribunals.  This third course explores the major aspects of international arbitration as one of the most common method of international dispute settlement . Through this course you will gain an in-depth understanding of the  various facets of international arbitration through the analysis of its role as a mechanism of dispute settlement, its institutions, the fields of law it is applicable to, and, of course, its most famous awards. ",
+    "duration": "Approx. 11 hours to complete",
+    "instructors": [
+      "Eric De Brabandere"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Understand the role and facets of international arbitration as a dispute settlement mechanism.",
+      "Analyze arbitration institutions and applicable fields of law.",
+      "Gain knowledge of famous arbitration awards."
+    ],
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466231",
+    "prerequisites": [
+      "Basic understanding of international law (recommended)"
+    ],
+    "price": "Free to Audit",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "International Arbitration",
+      "Dispute Settlement",
+      "International Law"
+    ],
+    "source_provider": "coursera",
+    "title": "International Law in Action: the Arbitration of International Disputes",
+    "url": "https://www.coursera.org/learn/arbitration-international-disputes",
+    "viewers": 1014
+  },
+  {
+    "category": "Social Sciences",
+    "description": "This course will give you a glimpse into six different areas of American law: Tort Law, Contract Law, Property, Constitutional Law, Criminal Law, and Civil Procedure. You will gain insight into the complexities and dilemmas that arise from the application of law in different settings, and what is distinctive about American approaches.",
+    "duration": "Approx. 11 hours to complete",
+    "instructors": [
+      "Anita Allen"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand core areas of American law including Tort, Contract, Property, Constitutional, Criminal, and Civil Procedure. Gain insights into legal complexities and the distinctiveness of American legal approaches.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254662da",
+    "prerequisites": "None. Suitable for beginners with an interest in American law.",
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "American Law",
+      "Common Law",
+      "Law",
+      "Constitution"
+    ],
+    "source_provider": "coursera",
+    "title": "An Introduction to American Law",
+    "url": "https://www.coursera.org/learn/american-law",
+    "viewers": 4512
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Whether you are an advanced law student looking to review the basics, or an aspiring law student looking for head start, this course will help you build the foundation you will need to succeed in law school and beyond. This course will introduce you to terminology, concepts, and tools lawyers and legal academics use to make their arguments. It will help you follow these arguments—and make arguments of your own.",
+    "duration": "Approx. 15 hours to complete",
+    "instructors": [
+      "Ian Ayres"
+    ],
+    "language": "English",
+    "learning_outcomes": "By the end of this course, you will understand core legal terminology and concepts. You will be able to follow and construct legal arguments effectively, setting a strong foundation for law school.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466238",
+    "prerequisites": [
+      "None. Basic understanding of English is recommended."
+    ],
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Legal terminology",
+      "Legal concepts",
+      "Argumentation",
+      "Critical thinking"
+    ],
+    "source_provider": "coursera",
+    "title": "A Law Student's Toolkit",
+    "url": "https://www.coursera.org/learn/law-student",
+    "viewers": 1317
+  },
+  {
+    "category": "Social Sciences",
+    "description": "“International Humanitarian Law in Theory and Practice” is the first MOOC of the Kalshoven-Gieskes Forum on International Humanitarian Law, which is the platform within the Grotius Centre for International Legal Studies of Leiden University for the research, teaching and dissemination of international humanitarian law (IHL). ",
+    "duration": "Approx. 18 hours to complete",
+    "instructors": [
+      "Robert Heinsch"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain a foundational understanding of International Humanitarian Law (IHL). Learn about its core principles, application in armed conflicts, and the role of the Kalshoven-Gieskes Forum. Explore practical aspects of IHL in various situations.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466310",
+    "prerequisites": "None. A basic understanding of international law is helpful but not required.",
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "International Humanitarian Law",
+      "International Law",
+      "Law"
+    ],
+    "source_provider": "coursera",
+    "title": "International Humanitarian Law in Theory and Practice ",
+    "url": "https://www.coursera.org/learn/international-humanitarian-law",
+    "viewers": 1493
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Environmental law may be the one institution standing between us and planetary exhaustion. It is also an institution that needs to be reconciled with human liberty and economic aspirations. This course considers these issues and provides a tour though existing legal regimes governing pollution, water law, endangered species, toxic substances, environmental impact analyses, and environmental risk.",
+    "duration": "Approx. 14 hours to complete",
+    "instructors": [
+      "Donald Hornstein"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand the core principles and legal regimes of environmental law. Analyze pollution control, water law, endangered species protection, and environmental risk assessment. Gain insights into the balance between environmental protection, human rights, and economic considerations.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254663bc",
+    "prerequisites": "None. A general interest in environmental issues and law is sufficient.",
+    "price": "Free to Audit, Paid Certificate Available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Environmental Law",
+      "Common Law",
+      "Law",
+      "Environmental Protection"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Environmental Law and Policy",
+    "url": "https://www.coursera.org/learn/environmental-law",
+    "viewers": 2755
+  },
+  {
+    "category": "Social Sciences",
+    "description": "The common law of England and Wales is one of the major global legal traditions.",
+    "duration": "Approx. 19 hours to complete",
+    "instructors": [
+      "Charlotte Crilly"
+    ],
+    "language": "English",
+    "learning_outcomes": "Gain an understanding of the English common law tradition, its origins, and its impact. Explore key legal concepts and how the common law system functions.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466237",
+    "prerequisites": [
+      "None"
+    ],
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Legal Systems",
+      "Common Law",
+      "Legal Terminology"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to English Common Law",
+    "url": "https://www.coursera.org/learn/intro-common-law",
+    "viewers": 1641
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Drawing on the contributions of several academic disciplines including law, psychology, sociology, history, educational and health sciences, economy and anthropology, an interdisciplinary approach guides the student into a selection of critical issues concerning children’s rights. Participants will gain insight relative to the development of this specific human rights category, as well as to the evolution of the challenges faced by children over time and society’s efforts to respond. Successful international strategies and programs promoting children’s rights will be highlighted, as well as the role of key actors involved in international organizations working in this field. This open online course provides an overview of the most important features of children’s human rights. A central portion of the MOOC will consist of a presentation of the international and regional standards on children’s rights and the related international and regional judicial and quasi-judicial bodies designed to ensure their implementation. ",
+    "duration": "Approx. 10 hours to complete",
+    "instructors": [
+      "Roberta Ruggiero"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand the development of children's rights. Learn about international standards, judicial bodies, and challenges faced by children. Analyze strategies and programs promoting children's rights. Grasp the role of key international organizations.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466394",
+    "prerequisites": "None. Basic understanding of human rights or social sciences is helpful but not required.",
+    "price": "Free",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Justice",
+      "Child Psychology",
+      "International Law",
+      "Humanitarian"
+    ],
+    "source_provider": "coursera",
+    "title": "Children's Human Rights - An Interdisciplinary Introduction",
+    "url": "https://www.coursera.org/learn/childrens-rights",
+    "viewers": 1980
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Vast amounts of personal information are processed in the cloud. But who is legally responsible for such ‘personal data’ in cloud environments? What duties do cloud providers like Amazon, Microsoft, and Google have? And what rights can you, as an individual, exercise under data protection law? If you’d like to find out, then this course is for you!",
+    "duration": "Approx. 16 hours to complete",
+    "instructors": [
+      "Christopher Millard"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand legal responsibilities for personal data in the cloud. Learn the duties of cloud providers and your rights under data protection law. Gain insights into cybersecurity regulations and GDPR compliance.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466501",
+    "prerequisites": "Basic understanding of cloud computing concepts is helpful but not required. No prior legal knowledge is assumed.",
+    "price": "Free to audit, paid option available for certificate.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Cybersecurity Regulation",
+      "Cloud Services",
+      "General Data Protection Regulation (GDPR)",
+      "International Transfers of Personal Data",
+      "Cloud Computing"
+    ],
+    "source_provider": "coursera",
+    "title": "Cloud Computing Law: Data Protection and Cybersecurity",
+    "url": "https://www.coursera.org/learn/cloud-computing-law-data-protection-and-cybersecurity?specialization=cloud-computing-law",
+    "viewers": 22
+  },
+  {
+    "category": "Social Sciences",
+    "description": "In our modern technologically-based economy, the creation and enforcement of patent rights can make or break a business. With record numbers of patents being issued every year, the stakes for inventors (and, indeed, their lawyers) continue to rise, even as the patent law and its administration faces growing criticism. ",
+    "duration": "Approx. 10 hours to complete",
+    "instructors": [
+      "R. Polk Wagner"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand the creation, enforcement, and critical aspects of patent rights. Learn about the stakes for inventors and lawyers in a technologically-based economy and the criticisms of patent law.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466423",
+    "prerequisites": "None. Basic understanding of business and technology is helpful.",
+    "price": "Free (with paid option for certificate)",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Innovation",
+      "Business Strategy",
+      "Reading a Patent",
+      "Competition"
+    ],
+    "source_provider": "coursera",
+    "title": "Patent Law",
+    "url": "https://www.coursera.org/learn/patents?specialization=introduction-intellectual-property",
+    "viewers": 215
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Have you ever wondered what’s in the small print of cloud contracts? Or who owns the information you upload to the cloud? And who can access and control it? If so, then this course is for you! You’ll learn to identify the legal risks involved in cloud computing transactions - and to suggest possible solutions.",
+    "duration": "Approx. 19 hours to complete",
+    "instructors": [
+      "Christopher Millard"
+    ],
+    "language": "English",
+    "learning_outcomes": "Identify legal risks in cloud computing contracts. Understand data ownership, access, and control issues. Learn to analyze and suggest solutions to complex cloud computing transactions.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254666b1",
+    "prerequisites": "None. Basic understanding of legal concepts is helpful, but not required.",
+    "price": "Free to Audit",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Intellectual Property",
+      "Cybersecurity",
+      "Contract Negotiations",
+      "Contract Law",
+      "Cloud Computing"
+    ],
+    "source_provider": "coursera",
+    "title": "Cloud Computing Law: Transactions",
+    "url": "https://www.coursera.org/learn/cloud-computing-law-transactions?specialization=cloud-computing-law",
+    "viewers": 25
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Copyright law is unique in the greater intellectual property regime, as it protects original expression that is fixed in a tangible medium and is the product of authorship.  This course is designed for creative professionals — such as screenwriters, musicians, documentary filmmakers or artists — who want to understand the scope and limits of which works can enjoy U.S. copyright protection. The course will introduce students to the workings of copyright law through an examination of the system’s basic principles, rules, and institutions. Topics will include; the justifications for copyright law, copyrightable subject matter, authorship, the nature and scope of copyright’s exclusive rights, fair use, and remedies for infringement. ",
+    "duration": "Approx. 12 hours to complete",
+    "instructors": [
+      "Shyam Balganesh"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand U.S. copyright law, including copyrightable subject matter, authorship, exclusive rights, fair use, and infringement remedies. Gain knowledge to protect creative works and navigate copyright regulations.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254665ee",
+    "prerequisites": "None. Basic understanding of legal concepts is helpful but not required.",
+    "price": "Free (with option to purchase certificate)",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Copyright",
+      "Copyright Protection",
+      "Fair Use"
+    ],
+    "source_provider": "coursera",
+    "title": "Copyright Law",
+    "url": "https://www.coursera.org/learn/copyright-law?specialization=introduction-intellectual-property",
+    "viewers": 280
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Have you ever wondered how a police officer in Europe can obtain evidence from a cloud provider in the USA? Or whether a major cloud provider might abuse its market power? Or in which countries cloud providers pay taxes? If so, then this course is for you!",
+    "duration": "Approx. 15 hours to complete",
+    "instructors": [
+      "Ian Walden"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand how law enforcement accesses cloud data across borders. Analyze competition issues related to cloud providers. Learn about the tax implications of cloud computing.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c212546677b",
+    "prerequisites": "None. Basic understanding of legal concepts is helpful but not required.",
+    "price": "Free to Audit, Paid Certificate Available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Competition Law",
+      "Cloud Services",
+      "Law Enforcement Access",
+      "Tax",
+      "Cloud Computing"
+    ],
+    "source_provider": "coursera",
+    "title": "Cloud Computing Law: Law Enforcement, Competition, & Tax",
+    "url": "https://www.coursera.org/learn/cloud-computing-law-law-enforcement-competition-tax?specialization=cloud-computing-law",
+    "viewers": 11
+  },
+  {
+    "category": "Social Sciences",
+    "description": "Intellectual property is the currency of the tech world, with the world’s most valuable intellectual property assets dwarfing the value of their real-world counterparts. Apple’ trademarked brand was valued at over $100 billion as of 2017. J.K. Rowling’s Harry potter franchise has generated over $25 billion to date. But how did the law come to create such enormous value in intangible assets?",
+    "duration": "Approx. 15 hours to complete",
+    "instructors": [
+      "R. Polk Wagner"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand the legal framework behind intellectual property, its role in the tech world and business, and how it generates value. Analyze the impact of trademarks and copyrights. Apply knowledge to real-world examples.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c2125466877",
+    "prerequisites": "None. Basic understanding of legal concepts is helpful but not required.",
+    "price": "Free to audit, paid option available for certificate.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Brand Management",
+      "Asset Management",
+      "Value Proposition",
+      "Intellectual Property"
+    ],
+    "source_provider": "coursera",
+    "title": "Introduction to Intellectual Property",
+    "url": "https://www.coursera.org/learn/introduction-intellectual-property?specialization=introduction-intellectual-property",
+    "viewers": 824
+  },
+  {
+    "category": "Social Sciences",
+    "description": "The protections afforded under trademark law have created incredible value in intangible assets, with the value of the world’s most valuable brands such as Amazon, Apple and Google each exceeding $100 billion. But what exactly is trademark law, and how is such enormous value created?",
+    "duration": "Approx. 18 hours to complete",
+    "instructors": [
+      "Cynthia Dahl"
+    ],
+    "language": "English",
+    "learning_outcomes": "Understand trademark law and its role in protecting brand value. Learn how trademarks create value for companies like Amazon, Apple, and Google. Explore the basics of trademark protection.",
+    "level": "Course",
+    "original_provider_id": "68aa13e9b82e4c21254668bf",
+    "prerequisites": "None. Basic understanding of business principles is helpful but not required.",
+    "price": "Free to audit. Paid certificate available.",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Marketing",
+      "Brand Management",
+      "Strategic Planning",
+      "Value Proposition"
+    ],
+    "source_provider": "coursera",
+    "title": "Trademark Law",
+    "url": "https://www.coursera.org/learn/trademark-law?specialization=introduction-intellectual-property",
+    "viewers": 199
+  },
+  {
+    "category": "Law",
+    "description": "The European Union is one of the world's largest and most important economies. This specialization is a 3-course bundle that will teach learners the fundamentals of European Business Law.",
+    "duration": "Approximately 2 months to complete",
+    "instructors": [
+      "Vijay Kumar",
+      "CJ Taylor",
+      "Daniel E. Koditschek",
+      "Kostas Daniilidis",
+      "Jianbo Shi",
+      "Daniel Lee",
+      "Sid Deliwala"
+    ],
+    "language": "English",
+    "learning_outcomes": "Learn the fundamentals of European Business Law, gaining insights into the EU's economy and legal framework. Understand key areas like regulation, intellectual property, and international business.",
+    "level": "Beginner",
+    "original_provider_id": "68ab78d33eb917f23db49180",
+    "prerequisites": "No prior legal knowledge is required; a basic understanding of business concepts is helpful.",
+    "price": "Free to audit, paid certificate available",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Regulation and Legal Compliance",
+      "Legal Research",
+      "Business",
+      "Intellectual Property",
+      "Tax Laws",
+      "Competitive Analysis",
+      "International Relations",
+      "European History",
+      "Labor Law",
+      "Legal",
+      "Writing",
+      "Case Law",
+      "Legal Strategy"
+    ],
+    "source_provider": "coursera",
+    "title": "European Business Law Specialization",
+    "url": "https://www.coursera.org/specializations/european-business-law",
+    "viewers": 7667
+  }
+]

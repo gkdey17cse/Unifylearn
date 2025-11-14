@@ -1,0 +1,38 @@
+{
+  "user_query": "Hi , Can you show me some course in Law from Coursera or Udacity platform",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Main Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bLaw\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-05T23:16:36.934271"
+}
