@@ -1,6 +1,6 @@
 # UnifyLearn: Intelligent Cross-Platform Course Discovery Engine
 
-![UnifyLearn Banner](./Public/Images/view.png)
+![UnifyLearn Banner](./Public/Images/image.png)
 
 An AI-powered intelligent search and unification system that understands natural language queries, searches across multiple online learning platforms simultaneously, and returns enriched, standardized course information with automatically completed metadata, skill extraction, and contextual understanding for comprehensive learning discovery.
 
