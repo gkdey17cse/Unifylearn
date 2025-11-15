@@ -1,0 +1,11 @@
+{
+  "user_query": "Law courses from Coursera",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-15T02:13:52.896806"
+}

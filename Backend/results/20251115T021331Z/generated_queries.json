@@ -1,0 +1,109 @@
+{
+  "user_query": "Law courses courses from all platforms",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Law courses from all platforms",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "udacity": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "simplilearn": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        }
+      },
+      "futurelearn": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bLaw\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "timestamp": "2025-11-15T02:13:31.522710"
+}

@@ -1,0 +1,18 @@
+{
+  "user_query": "Top 5 most viewed courses from Udacity Platform",
+  "generated_queries": {
+    "query_type": "AGGREGATE",
+    "description": "Top 5 most viewed courses from Udacity Platform",
+    "aggregation_strategy": "provider_level",
+    "sort_field": "Number of viewers",
+    "sort_order": -1,
+    "global_limit": 5,
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T02:40:51.151726"
+}

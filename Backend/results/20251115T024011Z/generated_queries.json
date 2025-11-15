@@ -1,0 +1,36 @@
+{
+  "user_query": "Show me Law courses from Coursera",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Law courses from Coursera",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T02:40:11.152610"
+}

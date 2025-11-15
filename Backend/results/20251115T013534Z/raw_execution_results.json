@@ -1,0 +1,178 @@
+{
+  "user_query": "Machine Learning courses sorted by number of viewers",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for coursera: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170535, 2), 'signature': {'hash': b'\\x1e\\x89\\x17@\\xc0\\x9f\\x9a\\xf5\\x9b}t\\xcfH*\\x8f\\xe8N\\xab\\xd6*', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763170535, 2)}"
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Prequisites": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for udacity: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170535, 125), 'signature': {'hash': b'5GK\\x15)=1+P\\xf9\\x13\\x18\\x99\\x8c\\xf2\\xe6\\x90G\\xbc|', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763170535, 125)}"
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for simplilearn: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170535, 1), 'signature': {'hash': b'\\x9e\\x04\\x81\\x8b\\xbc\\xb0s\\n\\x9e\\tF\\xcaB\\xcc\\x86AA\\x0cl\\xc2', 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763170535, 1)}"
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for futurelearn: unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $match. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170532, 1), 'signature': {'hash': b';g\\xb38\\x9ctj\\xa2\\xe9m5\\x03\\x1b\\x89e\\xf0\\x94\\x95\\xaa\\x83', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1763170532, 1)}"
+    }
+  },
+  "timestamp": "2025-11-15T01:35:34.284038"
+}

@@ -1,3 +1,4 @@
+# src/app/universal_schema.py
 ESSENTIAL_FIELDS = [
     "title",
     "url", 

@@ -1,0 +1,158 @@
+{
+  "user_query": "Show me all AI courses",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 131,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Prequisites": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 26,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 7,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 120,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-15T01:38:21.111640"
+}

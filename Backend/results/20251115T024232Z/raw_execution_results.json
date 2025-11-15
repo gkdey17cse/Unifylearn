@@ -1,0 +1,143 @@
+{
+  "user_query": "Show all Data Science courses where Viewrs are more than 1000 only",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "1000"
+            }
+          }
+        ]
+      },
+      "match_count": 388,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\bdata\\ science\\ where\\ viewrs\\ are\\ more\\ than\\ 1000\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-15T02:42:32.378461"
+}

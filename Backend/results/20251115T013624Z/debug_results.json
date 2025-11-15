@@ -1,0 +1,146 @@
+{
+  "timestamp": "2025-11-15T01:36:24.539690",
+  "user_query": "Highest rated Python courses across all platforms",
+  "debug_info": {
+    "user_query": "Highest rated Python courses across all platforms",
+    "llm_generated_queries": {
+      "query_type": "AGGREGATE",
+      "description": "Find highest rated Python courses across all platforms",
+      "aggregation_strategy": "cross_platform",
+      "sort_field": "Rating",
+      "sort_order": -1,
+      "global_limit": 10,
+      "providers": {
+        "coursera": {
+          "query": {
+            "$match": {
+              "$and": [
+                {
+                  "$or": [
+                    {
+                      "Title": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Short Intro": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Skills": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Rating": {
+                    "$exists": true,
+                    "$ne": null
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "udacity": {
+          "query": {
+            "$match": {
+              "$and": [
+                {
+                  "$or": [
+                    {
+                      "Title": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Short Intro": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Prequisites": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "What you learn": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "simplilearn": {
+          "query": {
+            "$match": {
+              "$and": [
+                {
+                  "$or": [
+                    {
+                      "Title": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Short Intro": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Skills": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        },
+        "futurelearn": {
+          "query": {
+            "$match": {
+              "$and": [
+                {
+                  "$or": [
+                    {
+                      "Title": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    },
+                    {
+                      "Short Intro": {
+                        "$regex": "\\bPython\\b",
+                        "$options": "i"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "query_type": "AGGREGATE",
+    "execution_results": {}
+  },
+  "all_results": []
+}

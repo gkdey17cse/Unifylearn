@@ -1,0 +1,219 @@
+{
+  "user_query": "Find top 10 highest-rated courses  across all platforms",
+  "raw_documents": {
+    "coursera": [
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c21254661a5"
+        },
+        "Title": "Google Business Intelligence Professional Certificate",
+        "URL": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+        "Short Intro": "Learn in-demand skills like data modeling, data visualization, and dashboarding and reporting in less than 2 months.",
+        "Category": "Data Science",
+        "Sub-Category": "Data Analysis",
+        "Course Type": "Professional Certificate",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Data Modeling,Business Analysis,Bigquery,Sheets,Data Analysis,Extraction, Transformation And Loading (ETL),Business Process,Tableau Software,Data Visualization (DataViz),Business Intelligence,SQL,Dashboarding and Reporting,",
+        "Instructors": "Google Career Certificates",
+        "Rating": "5",
+        "Number of viewers": "69 reviews",
+        "Duration": "2 months at 10 hours a week",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c21254661a8"
+        },
+        "Title": "Análisis de Datos de Google Professional Certificate",
+        "URL": "https://www.coursera.org/professional-certificates/analisis-de-datos-de-google",
+        "Short Intro": "El comienzo de tu carrera en el análisis de datos. Con este programa adquirirás habilidades que te prepararán para trabajar en menos de 6 meses. No se requiere título ni experiencia previa.",
+        "Category": "Ciencia de Datos",
+        "Sub-Category": "Análisis de Datos",
+        "Course Type": "Professional Certificate",
+        "Language": "Spanish",
+        "Subtitle Languages": "Subtitles: Spanish, English",
+        "Skills": "Visualización de Datos (DataViz),Limpieza de datos,Hoja de cálculo,análisis de datos,SQL,Cuestionamiento,Resolución de problemas,Toma de decisiones,Recopilación de datos,Metadatos,Ética de datos,Determinación del tamaño de la muestra,Integridad de datos,Cálculos en torno a los datos,Agregación de datos,Tableau Software,presentación,Programación en R,R Markdown,Rstudio,Portfolio de trabajo,Caso práctico,",
+        "Instructors": "Google Career Certificates",
+        "Rating": "5",
+        "Number of viewers": "3,735 reviews",
+        "Duration": "6 months at 10 hours a week",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c2125466008"
+        },
+        "Title": "Excel Skills for Business Specialization",
+        "URL": "https://www.coursera.org/specializations/excel",
+        "Short Intro": "Learn Excel Skills for Business. Master Excel to add a highly valuable asset to your employability portfolio. ",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Hungarian",
+        "Skills": "Data Validation, Microsoft Excel, Microsoft Excel Macro, Pivot Table, Graphs, Spreadsheet, Chart, Concatenation, Consolization, Pivot Chart, Lookup Table, Microsoft Excel Vba, ",
+        "Instructors": "Nicky Bull ,Dr Prashan S. M. Karunaratne ,Professor Yvonne Breyer ,",
+        "Rating": "4.9stars",
+        "Number of viewers": "42,571",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c2125466043"
+        },
+        "Title": "Risk Management Specialization",
+        "URL": "https://www.coursera.org/specializations/risk-management",
+        "Short Intro": "Enhance Your Skills in Risk Management. Understand the theory and practice of risk management and the expected results from a successful risk management process.",
+        "Category": "Business",
+        "Sub-Category": "Finance",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Credit Risk Measurement and Management, Application of Financial Statistics and Probability, Market Risk Measurement and Management, Operational Risk Measurement and Management, Risk Management, Financial Risk, Leadership and Financial Risk Estimation and Management, Regulations, Credit Analysis, Financial Analysis, credit risk, Market Risk Management, ",
+        "Instructors": "Joseph Iraci ,Jack Farmer ,Tracy Williams ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "303",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c2125466056"
+        },
+        "Title": "Security in Google Cloud Specialization",
+        "URL": "https://www.coursera.org/specializations/security-google-cloud-platform",
+        "Short Intro": "Launch your career in Cloud Security. This self-paced Specialization gives a broad study of security controls, best practices, and techniques on Google Cloud.",
+        "Category": "Information Technology",
+        "Sub-Category": "Security",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, German, Russian, Spanish, Japanese",
+        "Skills": "Google Compute Engine, Google App Engine (GAE), Google Cloud Platform, Cloud Computing, ",
+        "Instructors": "Google Cloud Training ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "3,827",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c2125466084"
+        },
+        "Title": "Songwriting: Writing, Arranging, and Producing Music Specialization",
+        "URL": "https://www.coursera.org/specializations/songwriting",
+        "Short Intro": "Write, Arrange, and Produce Your Original Songs. Apply the tools and techniques of songwriting to bring your musical ideas to life.",
+        "Category": "Arts and Humanities",
+        "Sub-Category": "Music and Art",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, Portuguese (European), Russian, Spanish",
+        "Skills": "Music, arranging, Producing, Songwriting, Music recording, Poetry, Melodic Hooks, Melody, Harmony, Writing, Audio Recording, Music Making, ",
+        "Instructors": "Pat Pattison ,Scarlet Keys ,Sarah Brindell ,Bonnie Hayes ,Erin Barra ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "163",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c212546608a"
+        },
+        "Title": "PostgreSQL for Everybody Specialization",
+        "URL": "https://www.coursera.org/specializations/postgresql-for-everybody",
+        "Short Intro": "SQL: From Basic to Advanced. Learn SQL skills you can use in an actual, real-world environment",
+        "Category": "Computer Science",
+        "Sub-Category": "Mobile and Web Development",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Json, Database (DBMS), Natural Language Processing, SQL, ",
+        "Instructors": "Charles Russell Severance ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "803",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c212546608f"
+        },
+        "Title": "School Health for Children and Adolescents Specialization",
+        "URL": "https://www.coursera.org/specializations/school-health-for-children-and-adolescents",
+        "Short Intro": "Promoting Healthy Practices in School. Learn to manage medical conditions & mental health services, facilitate healthy practices in schools",
+        "Category": "Health",
+        "Sub-Category": "Patient Care",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish",
+        "Skills": "Behavioral Health, School Health, Learning Disabilities, Medical Conditions, Nutrition, ",
+        "Instructors": "Daniel Nicklas ,Eve Kutchman ,Lauren Welch ,Karen Hecker ,",
+        "Rating": "4.8stars",
+        "Number of viewers": "1,307",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c21254660bb"
+        },
+        "Title": "Artificial Intelligence: an Overview Specialization",
+        "URL": "https://www.coursera.org/specializations/artificial-intelligence-overview",
+        "Short Intro": "Enter the artificial intelligence world",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Artificial Intelligence (AI), Ethical issues of artificial intelligence, Machine Learning, Legal issues of artificial intelligence, ",
+        "Instructors": "Nicola Gatti ,Viola Schiaffonati ,Annamaria Italiano ,Manuel Roveri ,Marcello Restelli ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "40",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      },
+      {
+        "_id": {
+          "$oid": "68aa13e9b82e4c21254660c7"
+        },
+        "Title": "Sustainability Analyst Fundamentals Specialization",
+        "URL": "https://www.coursera.org/specializations/sustainability-analyst",
+        "Short Intro": "Launch Your Career in Sustainability. Develop skills and tools to make organizations more sustainable.",
+        "Category": "Physical Science and Engineering",
+        "Sub-Category": "Environmental Science and Sustainability",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Presentation, Data Analysis, Sustainability, Business Writing, Project Management, Spreadsheet, Business Communication, Professional Development, Problem Solving, Sustainable Business, Communication, Project Planning, ",
+        "Instructors": "Christopher Boone ,",
+        "Rating": "4.1stars",
+        "Number of viewers": "23",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera",
+        "_collection": "Coursera"
+      }
+    ]
+  },
+  "total_raw_documents": 10,
+  "timestamp": "2025-11-15T19:23:04.867806"
+}

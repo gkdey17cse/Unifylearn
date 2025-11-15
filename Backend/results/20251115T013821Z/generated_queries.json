@@ -1,0 +1,134 @@
+{
+  "user_query": "Show me all AI courses",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Show all AI courses",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Prequisites": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-15T01:38:21.110483"
+}

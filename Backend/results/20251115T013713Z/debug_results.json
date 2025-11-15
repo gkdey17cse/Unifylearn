@@ -1,0 +1,54 @@
+{
+  "timestamp": "2025-11-15T01:37:13.504932",
+  "user_query": "Top 5 most viewed courses from all platforms",
+  "debug_info": {
+    "user_query": "Top 5 most viewed courses from all platforms",
+    "llm_generated_queries": {
+      "query_type": "AGGREGATE",
+      "description": "Find top 5 most viewed courses across all platforms",
+      "aggregation_strategy": "cross_platform",
+      "sort_field": "Number of viewers",
+      "sort_order": -1,
+      "global_limit": 5,
+      "providers": {
+        "coursera": {
+          "query": {
+            "$match": {
+              "Number of viewers": {
+                "$exists": true
+              }
+            },
+            "$sort": {
+              "Number of viewers": -1
+            },
+            "$limit": 5
+          }
+        },
+        "udacity": {
+          "query": {
+            "$match": {},
+            "$sort": {},
+            "$limit": 0
+          }
+        },
+        "simplilearn": {
+          "query": {
+            "$match": {},
+            "$sort": {},
+            "$limit": 0
+          }
+        },
+        "futurelearn": {
+          "query": {
+            "$match": {},
+            "$sort": {},
+            "$limit": 0
+          }
+        }
+      }
+    },
+    "query_type": "AGGREGATE",
+    "execution_results": {}
+  },
+  "all_results": []
+}

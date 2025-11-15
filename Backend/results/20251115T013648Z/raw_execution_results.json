@@ -1,0 +1,202 @@
+{
+  "user_query": "Show top 3 Data Science courses from each platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          "$sort": {
+            "Number of viewers": -1
+          },
+          "$limit": 3
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for coursera: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170610, 2), 'signature': {'hash': b'\\xc4\\xed\\xfd\\xf5\\xa4\\x0f\\xfe\\xc8\\x8b\\x14\\xea`h\\x16\\xcb\\xca\\xbe\\xe8\\xf6\\x8c', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763170610, 2)}"
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Program Type": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Level": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          "$sort": {
+            "Number of viewers": -1
+          },
+          "$limit": 3
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for udacity: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170607, 2), 'signature': {'hash': b'\\x8b\\x01\\xaf\\x8c\\xbc:\\xa6Z^MT\\xc9\\x9c\\xf1d\\xf4r\\xafw\\xaa', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763170607, 2)}"
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Type": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          "$sort": {
+            "Number of viewers": -1
+          },
+          "$limit": 3
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for simplilearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170609, 2), 'signature': {'hash': b'\\x9e\\x88\\x8e\\xc4\\xf3$\\xb1\"\\xd4r8}\\xd4\\xda\\x9e\\x00\\\\\\xe0\\xf6o', 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763170609, 2)}"
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "query": {
+          "$match": {
+            "$or": [
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          "$sort": {
+            "Number of viewers": -1
+          },
+          "$limit": 3
+        }
+      },
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "Failed to execute query for futurelearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170609, 1), 'signature': {'hash': b'\\xe4\\xf0\\x07X\\x94B\\x9c\\x85\\xba\\xb6\\xe63\\x82\\x1a\\xe8;\\xb4x\\x85\\xd8', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1763170609, 1)}"
+    }
+  },
+  "timestamp": "2025-11-15T01:36:48.961249"
+}

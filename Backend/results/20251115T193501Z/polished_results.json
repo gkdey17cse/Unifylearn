@@ -1,0 +1,57 @@
+[
+  {
+    "_enrichment_applied": false,
+    "category": "Artificial Intelligence",
+    "description": "Reinforce Your Career: Machine Learning in Finance. Extend your expertise of algorithms and tools needed to predict financial markets.",
+    "duration": "Approximately 4 months to complete",
+    "enrichment_applied": true,
+    "instructors": [
+      "Igor Halperin"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "",
+    "original_provider_id": "68aa13e9b82e4c21254660f1",
+    "prerequisites": [],
+    "price": "Paid",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [
+      "Option Pricing And Risk Management",
+      "Portfolio Optimization",
+      "Machine Learning",
+      "Tensorflow",
+      "Simple Model For Market Dynamics",
+      "Reinforcement Learning",
+      "Financial Engineering",
+      "Q-Learning Using Financial Problems"
+    ],
+    "source_provider": "coursera",
+    "title": "Machine Learning and Reinforcement Learning in Finance Specialization",
+    "url": "https://www.coursera.org/specializations/machine-learning-reinforcement-finance",
+    "viewers": 1000
+  },
+  {
+    "_enrichment_applied": false,
+    "category": "Technology",
+    "description": "In the last course of our specialization, Overview of Advanced Methods of Reinforcement Learning in Finance, we will take a deeper look into topics discussed in our third course, Reinforcement Learning in Finance.",
+    "duration": "Approx. 13 hours to complete",
+    "enrichment_applied": true,
+    "instructors": [
+      "Igor Halperin"
+    ],
+    "language": "English",
+    "learning_outcomes": [],
+    "level": "",
+    "original_provider_id": "68aa13e9b82e4c212546657b",
+    "prerequisites": [],
+    "price": "Paid",
+    "provider": "Coursera",
+    "site": "Coursera",
+    "skills": [],
+    "source_provider": "coursera",
+    "title": "Overview of Advanced Methods of Reinforcement Learning in Finance",
+    "url": "https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance?specialization=machine-learning-reinforcement-finance",
+    "viewers": 1000
+  }
+]

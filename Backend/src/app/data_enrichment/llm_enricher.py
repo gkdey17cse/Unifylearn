@@ -23,8 +23,8 @@ def _enforce_enrichment_rate_limit():
         enrichment_count = 0
         last_enrichment_time = current_time
 
-    # Limit to 8 enrichments per minute to avoid rate limits
-    if enrichment_count >= 8:
+    # More reasonable limit - 15 per minute
+    if enrichment_count >= 15:
         sleep_time = 60 - (current_time - last_enrichment_time)
         if sleep_time > 0:
             print(f"⏳ Enrichment rate limit: Waiting {sleep_time:.1f} seconds...")
@@ -33,7 +33,7 @@ def _enforce_enrichment_rate_limit():
         last_enrichment_time = time.time()
 
     enrichment_count += 1
-    time.sleep(1)  # Increased delay for better reliability
+    time.sleep(0.5)  # Reduced delay
 
 
 def safe_gemini_call(prompt, max_retries=2):
@@ -209,7 +209,7 @@ def enrich_course_data(
     Use LLM to intelligently enrich course data with high-quality formatting
     """
     # Skip enrichment if we're hitting rate limits
-    if enrichment_count >= 6:  # More conservative limit
+    if enrichment_count >= 15:  # More conservative limit
         print("⚠️  Skipping enrichment due to rate limits")
         return universal_data
 

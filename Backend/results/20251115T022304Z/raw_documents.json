@@ -1,0 +1,6 @@
+{
+  "user_query": "Top 5 most viewed courses from all platforms",
+  "raw_documents": {
+    "coursera": [
+      {
+        "_id": 

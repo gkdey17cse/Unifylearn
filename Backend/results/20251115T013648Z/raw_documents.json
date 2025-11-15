@@ -1,0 +1,11 @@
+{
+  "user_query": "Show top 3 Data Science courses from each platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-15T01:36:48.962247"
+}

@@ -1,0 +1,60 @@
+{
+  "user_query": "Top 5 most viewed courses from all platforms",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "query": {
+          "$match": {
+            "Number of viewers": {
+              "$exists": true
+            }
+          },
+          "$sort": {
+            "Number of viewers": -1
+          },
+          "$limit": 5
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for coursera: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170634, 6), 'signature': {'hash': b'\\xa1t\\x83\\xac\\x90_\\xd4#\\xce|\\xed\\xd4/\\xb6\\xf8\\xd66\\x9dD\\xa2', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763170634, 6)}"
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "query": {
+          "$match": {},
+          "$sort": {},
+          "$limit": 0
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for udacity: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170634, 63), 'signature': {'hash': b'(\\xbd\\xc7\\xe7\\x00-V\\xfa\\xb2\\xf9\\xd4o\\xe1zpv\\x8c\\x18\\x8f\\xd8', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763170634, 63)}"
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "query": {
+          "$match": {},
+          "$sort": {},
+          "$limit": 0
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for simplilearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170634, 2), 'signature': {'hash': b'#\\x1c\\x8da\\xc2\\x1baD\\x021\\x1d\\x0b\\x1fH\\xdd\\xaf2\\x05\\x97@', 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763170634, 2)}"
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "query": {
+          "$match": {},
+          "$sort": {},
+          "$limit": 0
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for futurelearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170631, 3), 'signature': {'hash': b'p\\x87\\xc4\\xc96D\\xb0\\xecG\\xb5\\x86\\x005\\\\\\x94 7#N2', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1763170631, 3)}"
+    }
+  },
+  "timestamp": "2025-11-15T01:37:13.499103"
+}

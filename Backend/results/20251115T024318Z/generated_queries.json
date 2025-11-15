@@ -1,0 +1,57 @@
+{
+  "user_query": "show some ML courses from Simplilearn and Futurelearn platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "ML courses from Simplilearn and Futurelearn",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-15T02:43:18.158944"
+}

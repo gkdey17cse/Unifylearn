@@ -1,6 +1,6 @@
 # src/app/main.py
 from flask import Flask
-from flask_cors import CORS  # ← ADD THIS IMPORT
+from flask_cors import CORS
 from src.app.routes import register_routes
 from src.app.db_connection import initialize_db
 
@@ -8,7 +8,7 @@ from src.app.db_connection import initialize_db
 def create_app():
     app = Flask(__name__)
 
-    # Enable CORS for frontend communication ← ADD THIS
+    # Enable CORS for frontend communication
     CORS(app, origins=["http://localhost:3000", "http://127.0.0.1:3000"])
 
     # Initialize database connection
