@@ -1,0 +1,111 @@
+[
+  {
+    "_enrichment_applied": false,
+    "category": "Business",
+    "description": "Prove your qualifications in your Product Manager interviews, and watch experienced Product Managers go through mock strategy and technical interviews, as well as share insights about the PM interview process.",
+    "duration": "Estimated timeApprox. 1 Week",
+    "enrichment_applied": true,
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Learn how to effectively structure your responses to Product Management interview questions.",
+      "Evaluate product performance and identify areas for improvement based on relevant metrics.",
+      "Understand the key skills and abilities that impress Product Management hiring managers.",
+      "Understand how to prepare effectively for different types of Product Management interviews.",
+      "Practice answering common product strategy questions in a mock interview setting.",
+      "Apply strategic frameworks to justify product decisions during case interview questions."
+    ],
+    "level": "Intermediate",
+    "original_provider_id": "68ac0cf969e0bdd621a8d84b",
+    "prerequisites": [],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "User Story Creation",
+      "Product Metrics",
+      "A/B Testing",
+      "Stakeholder Management",
+      "Competitive Analysis",
+      "Product Prioritization",
+      "Product Strategy"
+    ],
+    "source_provider": "udacity",
+    "title": "Product Manager Interview Preparation",
+    "url": "https://www.udacity.com/course/product-manager-interview-preparation--ud034",
+    "viewers": 1000
+  },
+  {
+    "_enrichment_applied": false,
+    "category": "Technology",
+    "description": "Build powerful business apps with Microsoft Power Platform.",
+    "duration": "Estimated timeApprox. 1 Month",
+    "enrichment_applied": true,
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Integrate AI Builder models into Power Apps for enhanced functionality.",
+      "Identify business problems and design Power Platform solutions to address them.",
+      "Create functional applications using Microsoft Power Apps.",
+      "Utilize data connectors to connect Power Platform applications to various data sources.",
+      "Design and implement automated workflows using Power Automate.",
+      "Develop canvas apps with multiple pages and data integration."
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d854",
+    "prerequisites": [],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Business Problem Solving",
+      "Power Apps",
+      "Canvas App Design",
+      "Ai Builder",
+      "App Development",
+      "Power Automate",
+      "Data Connectors"
+    ],
+    "source_provider": "udacity",
+    "title": "Microsoft Power Platform",
+    "url": "https://www.udacity.com/course/microsoft-power-platform--ud091",
+    "viewers": 1000
+  },
+  {
+    "_enrichment_applied": false,
+    "category": "Artificial Intelligence",
+    "description": "Learn the AI skills top companies are looking for.",
+    "duration": "Estimated timeApprox. 1 Month",
+    "enrichment_applied": true,
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Employ Azure Cognitive Services for computer vision workloads",
+      "Utilize Azure Machine Learning to train and evaluate machine learning models",
+      "Describe Responsible AI and Responsible ML principles",
+      "Design machine learning pipelines using Azure Machine Learning designer",
+      "Understand core concepts of Artificial Intelligence and Machine Learning",
+      "Apply automated machine learning capabilities within Azure Machine Learning"
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d8d4",
+    "prerequisites": [],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Machine Learning",
+      "Model Evaluation",
+      "Python Programming",
+      "Computer Vision",
+      "Azure Cognitive Services",
+      "Artificial Intelligence",
+      "Azure Machine Learning",
+      "Model Training"
+    ],
+    "source_provider": "udacity",
+    "title": "AI Fundamentals",
+    "url": "https://www.udacity.com/course/ai-fundamentals--ud099",
+    "viewers": 1000
+  }
+]

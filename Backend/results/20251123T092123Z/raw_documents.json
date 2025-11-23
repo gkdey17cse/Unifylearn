@@ -1,0 +1,11 @@
+{
+  "user_query": "Show me some AI related courses from Beginner Level from Futurelearn Platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-23T09:21:23.304320"
+}

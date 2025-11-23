@@ -1,0 +1,56 @@
+{
+  "user_query": "Show me some AI related courses from Beginner Level from Futurelearn Platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "AI related courses from Beginner Level from Futurelearn Platform",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bBeginner\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bBeginner\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T09:21:23.302907"
+}

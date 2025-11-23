@@ -1,0 +1,39 @@
+[
+  {
+    "_enrichment_applied": false,
+    "category": "Computer Science",
+    "description": "Learn to solve practical problems with Python.",
+    "duration": "Estimated timeApprox. 5 Weeks",
+    "enrichment_applied": true,
+    "instructors": [],
+    "language": "English",
+    "learning_outcomes": [
+      "Understand the fundamentals of Python programming.",
+      "Write conditional expressions and control program flow using if statements and loops.",
+      "Create and utilize functions for code modularity and reusability.",
+      "Represent and manipulate data using Python's data types and operators.",
+      "Apply whitespace and style guidelines for readable and maintainable code.",
+      "Debug and troubleshoot Python code."
+    ],
+    "level": "Beginner",
+    "original_provider_id": "68ac0cf969e0bdd621a8d84d",
+    "prerequisites": [],
+    "price": "Free",
+    "provider": "Udacity",
+    "site": "Udacity",
+    "skills": [
+      "Loops",
+      "Data Structures",
+      "Conditional Statements",
+      "Control Flow",
+      "Operators",
+      "Python Programming",
+      "Functions",
+      "Debugging"
+    ],
+    "source_provider": "udacity",
+    "title": "Introduction to Python Programming",
+    "url": "https://www.udacity.com/course/introduction-to-python--ud1110",
+    "viewers": 1000
+  }
+]

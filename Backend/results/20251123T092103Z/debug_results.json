@@ -1,0 +1,115 @@
+{
+  "timestamp": "2025-11-23T09:21:03.535684",
+  "user_query": "Show me some AI related courses from Beginner Level from Simplilearn Platform",
+  "debug_info": {
+    "user_query": "Show me some AI related courses from Beginner Level from Simplilearn Platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "AI related courses from Beginner Level from Simplilearn Platform",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {},
+        "udacity": {},
+        "simplilearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bAI\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bAI\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bAI\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Course Type": {
+                "$regex": "\\bBeginner\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "futurelearn": {}
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bsome\\ beginner\\ level\\ simplilearn\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bsome\\ beginner\\ level\\ simplilearn\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bsome\\ beginner\\ level\\ simplilearn\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bsome\\ beginner\\ level\\ simplilearn\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      }
+    }
+  },
+  "all_results": []
+}
