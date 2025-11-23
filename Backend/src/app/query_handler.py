@@ -1,4 +1,4 @@
-# src/app/query_handler.py
+# src/app/query_handler.py - COMPLETE VERSION
 import os
 import json
 from datetime import datetime
@@ -12,28 +12,10 @@ from src.app.query_executor.aggregation_executor import (
 from src.app.response_formatter import unifyResponse
 from src.app.results.saver import save_results
 from src.app.utils.logger import logger
+from src.app.relevance_scorer import relevance_scorer
 
 
-def save_enriched_courses(all_results, output_dir):
-    enriched_courses = []
-
-    for result in all_results:
-        enriched_course = {
-            **result["unified_data"],
-            "original_provider_id": result["original_data"].get("_id"),
-            "source_provider": result["provider"],
-        }
-        enriched_courses.append(enriched_course)
-
-    os.makedirs(output_dir, exist_ok=True)
-    enriched_path = os.path.join(output_dir, "polished_results.json")
-
-    with open(enriched_path, "w", encoding="utf-8") as fh:
-        json.dump(enriched_courses, fh, default=json_util.default, ensure_ascii=False, indent=2)
-
-    return enriched_path
-
-
+# SAVE FUNCTIONS
 def save_generated_queries(generated_queries, user_query, output_dir):
     os.makedirs(output_dir, exist_ok=True)
     queries_path = os.path.join(output_dir, "generated_queries.json")
@@ -45,7 +27,9 @@ def save_generated_queries(generated_queries, user_query, output_dir):
     }
 
     with open(queries_path, "w", encoding="utf-8") as fh:
-        json.dump(queries_data, fh, default=json_util.default, ensure_ascii=False, indent=2)
+        json.dump(
+            queries_data, fh, default=json_util.default, ensure_ascii=False, indent=2
+        )
 
     return queries_path
 
@@ -61,7 +45,13 @@ def save_raw_execution_results(execution_results, user_query, output_dir):
     }
 
     with open(raw_results_path, "w", encoding="utf-8") as fh:
-        json.dump(raw_results_data, fh, default=json_util.default, ensure_ascii=False, indent=2)
+        json.dump(
+            raw_results_data,
+            fh,
+            default=json_util.default,
+            ensure_ascii=False,
+            indent=2,
+        )
 
     return raw_results_path
 
@@ -80,11 +70,103 @@ def save_raw_documents(raw_documents_by_provider, user_query, output_dir):
     }
 
     with open(raw_docs_path, "w", encoding="utf-8") as fh:
-        json.dump(raw_docs_data, fh, default=json_util.default, ensure_ascii=False, indent=2)
+        json.dump(
+            raw_docs_data, fh, default=json_util.default, ensure_ascii=False, indent=2
+        )
 
     return raw_docs_path
 
 
+def save_enriched_courses(all_results, output_dir):
+    enriched_courses = []
+
+    for result in all_results:
+        enriched_course = {
+            **result["unified_data"],
+            "original_provider_id": result["original_data"].get("_id"),
+            "source_provider": result["provider"],
+        }
+        enriched_courses.append(enriched_course)
+
+    os.makedirs(output_dir, exist_ok=True)
+    enriched_path = os.path.join(output_dir, "polished_results.json")
+
+    with open(enriched_path, "w", encoding="utf-8") as fh:
+        json.dump(
+            enriched_courses,
+            fh,
+            default=json_util.default,
+            ensure_ascii=False,
+            indent=2,
+        )
+
+    return enriched_path
+
+
+# DEBUG FUNCTIONS
+def debug_relevance_probabilities(ranked_courses, provider_name, top_n=20):
+    """Enhanced debug function to show relevance probabilities with detailed breakdown"""
+    logger.info(
+        f"🎯 DETAILED RELEVANCE ANALYSIS FOR {provider_name.upper()} (Top {top_n}):"
+    )
+    logger.info("=" * 100)
+
+    for i, (course, probability, relevance_score, field_scores) in enumerate(
+        ranked_courses[:top_n]
+    ):
+        title = course.get("Title", "Unknown Title")[:70]
+        category = course.get("Category", "Unknown")
+
+        # Format field scores for display
+        field_score_str = " | ".join([f"{k}: {v:.2f}" for k, v in field_scores.items()])
+
+        logger.info(
+            f"{i+1:2d}. Prob: {probability:.4f} | Overall Score: {relevance_score:.4f}"
+        )
+        logger.info(f"    Title: {title}")
+        logger.info(f"    Category: {category}")
+        logger.info(f"    Field Scores: {field_score_str}")
+        logger.info("-" * 100)
+
+
+def create_relevance_summary(all_results, user_query):
+    """Create a comprehensive relevance summary report"""
+    if not all_results:
+        return
+
+    logger.info("📊 RELEVANCE SCORING SUMMARY REPORT")
+    logger.info("=" * 120)
+    logger.info(f"User Query: '{user_query}'")
+    logger.info(f"Total Courses Processed: {len(all_results)}")
+
+    # Calculate statistics
+    probabilities = [result.get("relevance_probability", 0) for result in all_results]
+    scores = [result.get("relevance_score", 0) for result in all_results]
+
+    if probabilities:
+        logger.info(
+            f"Probability Range: {min(probabilities):.4f} - {max(probabilities):.4f}"
+        )
+        logger.info(f"Average Probability: {sum(probabilities)/len(probabilities):.4f}")
+        logger.info(f"Total Probability Sum: {sum(probabilities):.4f}")
+
+    if scores:
+        logger.info(f"Score Range: {min(scores):.4f} - {max(scores):.4f}")
+        logger.info(f"Average Score: {sum(scores)/len(scores):.4f}")
+
+    # Show distribution
+    prob_ranges = [(0, 0.001), (0.001, 0.01), (0.01, 0.1), (0.1, 1.0)]
+    for low, high in prob_ranges:
+        count = len([p for p in probabilities if low <= p < high])
+        percentage = (count / len(probabilities)) * 100
+        logger.info(
+            f"Probability {low:.3f}-{high:.3f}: {count} courses ({percentage:.1f}%)"
+        )
+
+    logger.info("=" * 120)
+
+
+# PROCESSING FUNCTIONS
 def process_aggregation_query(generated_queries, user_query):
     all_results = []
     execution_results = {}
@@ -107,23 +189,36 @@ def process_aggregation_query(generated_queries, user_query):
 
         execution_results.update(provider_results)
 
-        # Process the combined results
-        for doc in combined_results:
-            provider = doc.get("_provider", "unknown")
-            unified_data = unifyResponse(provider, doc)
-
-            all_results.append(
-                {
-                    "provider": provider,
-                    "original_data": doc,
-                    "unified_data": unified_data,
-                    "enrichment_applied": True,
-                }
+        # Apply relevance scoring before processing
+        if combined_results:
+            logger.info("🎯 Applying relevance scoring to cross-platform results")
+            ranked_courses = relevance_scorer.rank_courses_by_relevance(
+                combined_results, user_query
             )
 
-            if provider not in raw_documents_by_provider:
-                raw_documents_by_provider[provider] = []
-            raw_documents_by_provider[provider].append(doc)
+            # DEBUG: Show probabilities
+            debug_relevance_probabilities(ranked_courses, "cross_platform")
+
+            for course, probability, relevance_score, field_scores in ranked_courses:
+                provider = course.get("_provider", "unknown")
+                unified_data = unifyResponse(
+                    provider, course, probability, relevance_score
+                )
+
+                all_results.append(
+                    {
+                        "provider": provider,
+                        "original_data": course,
+                        "unified_data": unified_data,
+                        "enrichment_applied": True,
+                        "relevance_probability": probability,
+                        "relevance_score": relevance_score,
+                    }
+                )
+
+                if provider not in raw_documents_by_provider:
+                    raw_documents_by_provider[provider] = []
+                raw_documents_by_provider[provider].append(course)
 
     else:
         logger.aggregation("Executing provider-level aggregation")
@@ -143,17 +238,36 @@ def process_aggregation_query(generated_queries, user_query):
             execution_results[provider] = result_info
             raw_documents_by_provider[provider] = sanitized_docs or []
 
+            # Apply relevance scoring before processing
             if sanitized_docs:
-                logger.info(f"Found {len(sanitized_docs)} documents for {provider}")
-                for doc in sanitized_docs:
-                    unified_data = unifyResponse(provider.lower(), doc)
+                logger.info(
+                    f"🎯 Applying relevance scoring to {len(sanitized_docs)} documents from {provider}"
+                )
+                ranked_courses = relevance_scorer.rank_courses_by_relevance(
+                    sanitized_docs, user_query
+                )
+
+                # DEBUG: Show probabilities for this provider
+                debug_relevance_probabilities(ranked_courses, provider)
+
+                for (
+                    course,
+                    probability,
+                    relevance_score,
+                    field_scores,
+                ) in ranked_courses:
+                    unified_data = unifyResponse(
+                        provider.lower(), course, probability, relevance_score
+                    )
 
                     all_results.append(
                         {
                             "provider": provider.lower(),
-                            "original_data": doc,
+                            "original_data": course,
                             "unified_data": unified_data,
                             "enrichment_applied": True,
+                            "relevance_probability": probability,
+                            "relevance_score": relevance_score,
                         }
                     )
 
@@ -163,8 +277,17 @@ def process_aggregation_query(generated_queries, user_query):
 def processUserQuery(userQuery):
     try:
         # STEP 1: Generate queries
+        logger.info("🧠 STEP 1: Generating queries with LLM...")
         generated_queries = generate_queries(userQuery)
-        logger.info(f"Query type: {generated_queries.get('query_type', 'SPJ')}")
+
+        # DEBUG: Show the generated queries
+        logger.info("🔍 GENERATED QUERIES DEBUG:")
+        logger.info(f"Query Type: {generated_queries.get('query_type', 'SPJ')}")
+        logger.info(f"Expanded Terms: {generated_queries.get('expanded_terms', [])}")
+        logger.info(f"Thought Process: {generated_queries.get('thought_process', '')}")
+
+        for provider, query in generated_queries.get("providers", {}).items():
+            logger.info(f"Provider {provider}: {json.dumps(query, indent=2)}")
 
         all_results = []
         execution_results = {}
@@ -198,17 +321,36 @@ def processUserQuery(userQuery):
                 debug_info["execution_results"][provider] = result_info
                 raw_documents_by_provider[provider] = sanitized_docs or []
 
+                # Apply relevance scoring before processing
                 if sanitized_docs:
-                    logger.info(f"Found {len(sanitized_docs)} documents for {provider}")
-                    for doc in sanitized_docs:
-                        unified_data = unifyResponse(provider.lower(), doc)
+                    logger.info(
+                        f"🎯 Applying relevance scoring to {len(sanitized_docs)} documents from {provider}"
+                    )
+                    ranked_courses = relevance_scorer.rank_courses_by_relevance(
+                        sanitized_docs, userQuery
+                    )
+
+                    # DEBUG: Show probabilities for this provider
+                    debug_relevance_probabilities(ranked_courses, provider)
+
+                    for (
+                        course,
+                        probability,
+                        relevance_score,
+                        field_scores,
+                    ) in ranked_courses:
+                        unified_data = unifyResponse(
+                            provider.lower(), course, probability, relevance_score
+                        )
 
                         all_results.append(
                             {
                                 "provider": provider.lower(),
-                                "original_data": doc,
+                                "original_data": course,
                                 "unified_data": unified_data,
                                 "enrichment_applied": True,
+                                "relevance_probability": probability,
+                                "relevance_score": relevance_score,
                             }
                         )
 
@@ -232,7 +374,7 @@ def processUserQuery(userQuery):
         logger.success(f"All files saved to {query_output_dir}")
         logger.info(f"Total results: {len(all_results)}")
 
-        # Prepare clean results for frontend
+        # Prepare clean results for frontend - NOW SORTED BY RELEVANCE
         frontend_results = []
         for result in all_results:
             frontend_results.append(
@@ -241,8 +383,29 @@ def processUserQuery(userQuery):
                     "source_provider": result["provider"],
                     "original_provider_id": result["original_data"].get("_id"),
                     "enrichment_applied": result.get("enrichment_applied", False),
+                    "relevance_probability": result.get("relevance_probability", 0),
+                    "relevance_score": result.get("relevance_score", 0),
                 }
             )
+
+        # Sort frontend results by relevance probability (descending)
+        frontend_results.sort(
+            key=lambda x: x.get("relevance_probability", 0), reverse=True
+        )
+
+        # FINAL DEBUG: Show comprehensive summary
+        logger.info("🏆 FINAL RANKED RESULTS (Top 15):")
+        logger.info("=" * 120)
+        for i, result in enumerate(frontend_results[:15]):
+            logger.info(
+                f"{i+1:2d}. Prob: {result.get('relevance_probability', 0):.4f} | "
+                f"Score: {result.get('relevance_score', 0):.4f} | "
+                f"Provider: {result.get('source_provider', 'Unknown')} | "
+                f"Title: {result.get('title', 'Unknown')[:60]}"
+            )
+
+        # Create comprehensive summary
+        create_relevance_summary(frontend_results, userQuery)
 
         return {
             "query": userQuery,
@@ -254,4 +417,7 @@ def processUserQuery(userQuery):
 
     except Exception as e:
         logger.error(f"Error processing query: {str(e)}")
+        import traceback
+
+        logger.error(f"Traceback: {traceback.format_exc()}")
         return {"query": userQuery, "results": [], "total_results": 0, "error": str(e)}

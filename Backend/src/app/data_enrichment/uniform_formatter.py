@@ -1,4 +1,4 @@
-# src/app/data_enrichment/uniform_formatter.py
+# src/app/data_enrichment/uniform_formatter.py - UPDATED VERSION
 from typing import Dict, Any
 import re
 from src.app.data_enrichment.llm_enricher import enrich_course_data
@@ -44,6 +44,14 @@ def format_to_universal_schema(
         "_enrichment_applied": False,
     }
 
+    # NEW: Preserve relevance scores if they exist in original data
+    if "relevance_probability" in original_data:
+        universal_data["relevance_probability"] = original_data["relevance_probability"]
+    if "relevance_score" in original_data:
+        universal_data["relevance_score"] = original_data["relevance_score"]
+
+    # ... (rest of the existing function remains the same) ...
+
     # Basic field mapping
     if "Skills" in original_data and original_data["Skills"]:
         raw_skills = original_data["Skills"]
@@ -79,6 +87,8 @@ def _ensure_high_quality_output(final_data: Dict[str, Any]) -> Dict[str, Any]:
     """
     Ensure all output is high-quality and properly formatted
     """
+    # ... (existing function remains the same, it will preserve relevance scores) ...
+
     # Ensure arrays are clean
     for array_field in ["skills", "instructors", "prerequisites", "learning_outcomes"]:
         if final_data.get(array_field) is None:
