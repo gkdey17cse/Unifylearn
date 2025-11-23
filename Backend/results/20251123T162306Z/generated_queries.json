@@ -1,0 +1,125 @@
+{
+  "user_query": "Show me top 10 Cloud Engineering courses searching from all platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Cloud Engineering'. Expanding to include relevant terms. The request is for top 10 courses from all platform, indicating a need to retrieve results from all providers.",
+    "expanded_terms": [
+      "Cloud Engineering",
+      "Cloud Computing",
+      "AWS",
+      "Azure",
+      "GCP",
+      "DevOps",
+      "Infrastructure as Code"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T16:23:06.354236"
+}

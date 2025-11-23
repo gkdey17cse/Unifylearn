@@ -1,0 +1,655 @@
+{
+  "timestamp": "2025-11-23T16:21:46.561681",
+  "user_query": "Show me top 10 Business Management courses searching from all platform",
+  "debug_info": {
+    "user_query": "Show me top 10 Business Management courses searching from all platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'Business Management'. No specific synonyms defined for this term, so using the base term directly. Requesting top 10 courses from all platforms implies no provider filter.",
+      "expanded_terms": [
+        "Business Management"
+      ],
+      "limit": 10,
+      "providers": {
+        "coursera": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "udacity": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "futurelearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\btop\\ business\\ management\\ searching\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Business Management)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 6,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466034",
+        "Title": "Foundations of Management Specialization",
+        "URL": "https://www.coursera.org/specializations/foundations-management",
+        "Short Intro": "Boost Your Career with New Business Knowledge . Master Business Management Fundamentals",
+        "Category": "Business",
+        "Sub-Category": "Leadership and Management",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Chinese (Traditional), Persian",
+        "Skills": "Accounting, Leadership, Finance, Marketing, Financial Accounting, Financial Statement, Balance Sheet, Dupont Analysis, Management Accounting, Business Analysis, Management Styles, Management, ",
+        "Instructors": "Marc Badia ,Miguel Antón ,Mario Capizzani ,Anneloes Raes ,Carlos García Pont ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "1,801",
+        "Duration": "Approximately 6 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Foundations of Management Specialization",
+        "url": "https://www.coursera.org/specializations/foundations-management",
+        "description": "Boost Your Career with New Business Knowledge . Master Business Management Fundamentals",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Strategic Management",
+          "Financial Accounting",
+          "Marketing Strategy",
+          "Operations Management",
+          "Leadership",
+          "Team Management",
+          "Project Management"
+        ],
+        "instructors": [
+          "Mario Capizzani",
+          "Marc Badia",
+          "Carlos García Pont",
+          "Miguel Antón",
+          "Anneloes Raes"
+        ],
+        "duration": "Approximately 6 months to complete",
+        "site": "Coursera",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply core management principles to real-world scenarios",
+          "Analyze business problems and develop effective solutions",
+          "Understand the key functions of a business organization",
+          "Evaluate different leadership styles and their impact",
+          "Develop a strategic management plan"
+        ],
+        "price": "Paid",
+        "provider": "coursera",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125466034",
+          "Title": "Foundations of Management Specialization",
+          "URL": "https://www.coursera.org/specializations/foundations-management",
+          "Short Intro": "Boost Your Career with New Business Knowledge . Master Business Management Fundamentals",
+          "Category": "Business",
+          "Sub-Category": "Leadership and Management",
+          "Course Type": "Specialization",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Chinese (Traditional), Persian",
+          "Skills": "Accounting, Leadership, Finance, Marketing, Financial Accounting, Financial Statement, Balance Sheet, Dupont Analysis, Management Accounting, Business Analysis, Management Styles, Management, ",
+          "Instructors": "Marc Badia ,Miguel Antón ,Mario Capizzani ,Anneloes Raes ,Carlos García Pont ,",
+          "Rating": "4.7stars",
+          "Number of viewers": "1,801",
+          "Duration": "Approximately 6 months to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 0.3310641048141305,
+        "relevance_score": 0.1772354228188798,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.3310641048141305,
+      "relevance_score": 0.1772354228188798
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660ec",
+        "Title": "Introduction to Business Specialization",
+        "URL": "https://www.coursera.org/specializations/business-introduction",
+        "Short Intro": "Jumpstart Your Business Management Career!. Adopt industry recommended best practices in business management, digital marketing, and finance.",
+        "Category": "Business",
+        "Sub-Category": "Business Essentials",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Strategic Planning, engagement, Storytelling, Expense Control, Leadership Style, Training And Development, Setting Objectives, Manage Expense Control, Analyze Financial Statements, Create a Forecast, Identify Capital Resources, Effective Use of Labor, ",
+        "Instructors": "Marla Noel ,Steve Fritzenkotter ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "80",
+        "Duration": "Approximately 3 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Specialization",
+        "url": "https://www.coursera.org/specializations/business-introduction",
+        "description": "Jumpstart Your Business Management Career!. Adopt industry recommended best practices in business management, digital marketing, and finance.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Business Communication",
+          "Digital Marketing",
+          "Financial Literacy",
+          "Project Planning",
+          "Business Strategy",
+          "Data Analysis",
+          "Negotiation"
+        ],
+        "instructors": [
+          "Marla Noel",
+          "Steve Fritzenkotter"
+        ],
+        "duration": "Approximately 3 months to complete",
+        "site": "Coursera",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the fundamentals of business management",
+          "Develop basic marketing strategies for promoting a business",
+          "Analyze financial statements and make informed decisions",
+          "Plan and execute small-scale business projects",
+          "Apply key business concepts to various industries"
+        ],
+        "price": "Paid",
+        "provider": "coursera",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68aa13e9b82e4c21254660ec",
+          "Title": "Introduction to Business Specialization",
+          "URL": "https://www.coursera.org/specializations/business-introduction",
+          "Short Intro": "Jumpstart Your Business Management Career!. Adopt industry recommended best practices in business management, digital marketing, and finance.",
+          "Category": "Business",
+          "Sub-Category": "Business Essentials",
+          "Course Type": "Specialization",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English",
+          "Skills": "Strategic Planning, engagement, Storytelling, Expense Control, Leadership Style, Training And Development, Setting Objectives, Manage Expense Control, Analyze Financial Statements, Create a Forecast, Identify Capital Resources, Effective Use of Labor, ",
+          "Instructors": "Marla Noel ,Steve Fritzenkotter ,",
+          "Rating": "4.6stars",
+          "Number of viewers": "80",
+          "Duration": "Approximately 3 months to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 0.20713417799535022,
+        "relevance_score": 0.15378816078837804,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.20713417799535022,
+      "relevance_score": 0.15378816078837804
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cd1b",
+        "Title": "Introduction to Business Management",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-business-management",
+        "Short Intro": "Discover how to manage people, money and information, and gain confidence and insight into your own management style.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Introduction to Business Management",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-management",
+        "Course Short Intro": "Discover how to manage people, money and information, and gain confidence and insight into your own management style.",
+        "Weekly study": "4 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Introduction to Business Management",
+        "url": "https://www.futurelearn.com/courses/introduction-to-business-management",
+        "description": "Discover how to manage people, money and information, and gain confidence and insight into your own management style.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Teamwork",
+          "Communication",
+          "Problem Solving",
+          "Decision Making",
+          "Time Management",
+          "Resource Allocation"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify different management styles and their applications",
+          "Understand the principles of effective team management",
+          "Apply techniques for managing information effectively",
+          "Evaluate your own management style and identify areas for improvement",
+          "Discuss the fundamentals of managing money within a business context"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cd1b",
+          "Title": "Introduction to Business Management",
+          "URL": "https://www.futurelearn.com/courses/introduction-to-business-management",
+          "Short Intro": "Discover how to manage people, money and information, and gain confidence and insight into your own management style.",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "676 Courses",
+          "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+          "ExpertTracks": "75 ExpertTracks",
+          "Course Title": "Introduction to Business Management",
+          "Course URL": "https://www.futurelearn.com/courses/introduction-to-business-management",
+          "Course Short Intro": "Discover how to manage people, money and information, and gain confidence and insight into your own management style.",
+          "Weekly study": "4 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.14592781003399102,
+        "relevance_score": 0.13627542386117963,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.14592781003399102,
+      "relevance_score": 0.13627542386117963
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cce7",
+        "Title": "Financial Accounting for Business Management",
+        "URL": "https://www.futurelearn.com/courses/financial-accounting-for-business-management",
+        "Short Intro": "Learn the tools to handle basic financial accounting and explore effective cost management techniques.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Financial Accounting for Business Management",
+        "Course URL": "https://www.futurelearn.com/courses/financial-accounting-for-business-management",
+        "Course Short Intro": "Learn the tools to handle basic financial accounting and explore effective cost management techniques.",
+        "Weekly study": "3 hours",
+        "Premium course": "$84",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Financial Accounting for Business Management",
+        "url": "https://www.futurelearn.com/courses/financial-accounting-for-business-management",
+        "description": "Learn the tools to handle basic financial accounting and explore effective cost management techniques.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Financial Statement Analysis",
+          "Cost Accounting",
+          "Budgeting",
+          "Financial Reporting",
+          "Cost Management",
+          "Accounting Software",
+          "Variance Analysis"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Interpret basic financial statements",
+          "Apply cost management techniques for decision-making",
+          "Create basic budgets and financial forecasts",
+          "Understand the principles of financial accounting",
+          "Utilize tools for managing financial information",
+          "Explain key components of a balance sheet"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cce7",
+          "Title": "Financial Accounting for Business Management",
+          "URL": "https://www.futurelearn.com/courses/financial-accounting-for-business-management",
+          "Short Intro": "Learn the tools to handle basic financial accounting and explore effective cost management techniques.",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "676 Courses",
+          "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+          "ExpertTracks": "75 ExpertTracks",
+          "Course Title": "Financial Accounting for Business Management",
+          "Course URL": "https://www.futurelearn.com/courses/financial-accounting-for-business-management",
+          "Course Short Intro": "Learn the tools to handle basic financial accounting and explore effective cost management techniques.",
+          "Weekly study": "3 hours",
+          "Premium course": "$84",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.09758762897812187,
+        "relevance_score": 0.11615735813654023,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.09758762897812187,
+      "relevance_score": 0.11615735813654023
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c513",
+        "Title": "Business Management and Leadership",
+        "URL": "https://www.futurelearn.com/courses/business-management-and-leadership-sc",
+        "Short Intro": "Discover what makes a successful leader and build your own leadership skills.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "49 Courses",
+        "Topics related to CRM": "Business Ethics / Communication / CRM / Decision-making / Digital Marketing / Entrepreneurship / Finance & Accounting / Innovation / Investment / Management & Leadership / Professional Development / Project Management / Soft Skills / Business Ethics / Communication / CRM / Decision-making / Digital Marketing / Entrepreneurship / Finance & Accounting / Innovation / Investment / Management & Leadership / Professional Development / Project Management / Soft Skills / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "FAQs": "What are the three basic types of business strategy? /How can you make an effective business strategy? /What are strategic questions? /Are there any good examples of successful business strategies? /How long does it take to learn business strategy? /",
+        "Course Title": "Business Management and Leadership",
+        "Course URL": "https://www.futurelearn.com/courses/business-management-and-leadership-sc",
+        "Course Short Intro": "Discover what makes a successful leader and build your own leadership skills.",
+        "Weekly study": "5 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Business Management and Leadership",
+        "url": "https://www.futurelearn.com/courses/business-management-and-leadership-sc",
+        "description": "Discover what makes a successful leader and build your own leadership skills.",
+        "category": "Business",
+        "language": "English",
+        "skills": [
+          "Leadership Theories",
+          "Motivation",
+          "Communication",
+          "Team Building",
+          "Conflict Resolution",
+          "Decision Making",
+          "Strategic Thinking"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify different leadership styles and their effectiveness",
+          "Apply motivational techniques to inspire teams",
+          "Improve communication skills for effective leadership",
+          "Develop strategies for building high-performing teams",
+          "Manage conflict effectively within a team environment",
+          "Understand the principles of ethical leadership"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020e69e0bdd621a8c513",
+          "Title": "Business Management and Leadership",
+          "URL": "https://www.futurelearn.com/courses/business-management-and-leadership-sc",
+          "Short Intro": "Discover what makes a successful leader and build your own leadership skills.",
+          "Duration": "2 weeks",
+          "Site": "Future Learn",
+          "Courses": "49 Courses",
+          "Topics related to CRM": "Business Ethics / Communication / CRM / Decision-making / Digital Marketing / Entrepreneurship / Finance & Accounting / Innovation / Investment / Management & Leadership / Professional Development / Project Management / Soft Skills / Business Ethics / Communication / CRM / Decision-making / Digital Marketing / Entrepreneurship / Finance & Accounting / Innovation / Investment / Management & Leadership / Professional Development / Project Management / Soft Skills / ",
+          "ExpertTracks": "5 ExpertTracks",
+          "FAQs": "What are the three basic types of business strategy? /How can you make an effective business strategy? /What are strategic questions? /Are there any good examples of successful business strategies? /How long does it take to learn business strategy? /",
+          "Course Title": "Business Management and Leadership",
+          "Course URL": "https://www.futurelearn.com/courses/business-management-and-leadership-sc",
+          "Course Short Intro": "Discover what makes a successful leader and build your own leadership skills.",
+          "Weekly study": "5 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.05457156954460157,
+        "relevance_score": 0.0870954736222406,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.05457156954460157,
+      "relevance_score": 0.0870954736222406
+    }
+  ]
+}

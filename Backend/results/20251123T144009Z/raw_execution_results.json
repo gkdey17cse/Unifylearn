@@ -1,0 +1,164 @@
+{
+  "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "Level": {
+              "$regex": "\\b(Beginner)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 43,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 11,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 198,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T14:40:09.847799"
+}

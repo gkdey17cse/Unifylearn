@@ -1,0 +1,167 @@
+{
+  "user_query": "find me the shortest duration courses in web development and programming, sorted by duration ascending. I want quick learning options",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for courses in 'web development and programming' with a preference for short duration. Expanding terms to include related technologies like HTML, CSS, JavaScript, React, Full Stack, Frontend, and Backend. Filtering to prioritize courses with shorter durations and sorting them by duration.",
+    "expanded_terms": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Full Stack",
+      "Frontend",
+      "Backend",
+      "programming"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\b(hours|hour|minutes|minute)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\b(hours|hour|minutes|minute)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\b(hours|hour|minutes|minute)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T15:27:08.603077"
+}

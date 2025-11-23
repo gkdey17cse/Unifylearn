@@ -1,0 +1,196 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs
+Total Courses: 43
+Generated at: 2025-11-23T15:22:38.432175
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    :  10 courses | Avg Prob: 0.0201 | Avg Score: 0.0392
+COURSERA       :  30 courses | Avg Prob: 0.0166 | Avg Score: 0.0475
+UDACITY        :   2 courses | Avg Prob: 0.0319 | Avg Score: 0.0761
+FUTURELEARN    :   1 courses | Avg Prob: 0.0315 | Avg Score: 0.0862
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.0945 | Score: 0.1411
+     Professional Certificate Program in Ethical Hacking and Penetration Testing
+     Skills: 8583
+
+ 2. [COURSERA    ] Prob: 0.0566 | Score: 0.1155
+     Ethical Hacking Essentials EHE
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0508 | Score: 0.1101
+     Ethical Hacker
+     Skills: No skills
+
+ 4. [COURSERA    ] Prob: 0.0492 | Score: 0.1085
+     Penetration Testing, Incident Response and Forensics
+     Skills: scripting,forensics,Penetration Test,Cybersecurity,Computer Security Incident Management,
+
+ 5. [SIMPLILEARN ] Prob: 0.0397 | Score: 0.0977
+     CEH v12 - Certified Ethical Hacking Course
+     Skills: 8962
+
+ 6. [FUTURELEARN ] Prob: 0.0315 | Score: 0.0862
+     Ethical Hacking: An Introduction
+     Skills: No skills
+
+ 7. [COURSERA    ] Prob: 0.0289 | Score: 0.0819
+     Networking in Google Cloud: Hybrid Connectivity and Network Management
+     Skills: No skills
+
+ 8. [COURSERA    ] Prob: 0.0242 | Score: 0.0729
+     Securing and Integrating Components of your Application
+     Skills: Application Programming Interfaces (API),Cloud Functions,Identity Management (IDM),Cloud Endpoints,P
+
+ 9. [COURSERA    ] Prob: 0.0214 | Score: 0.0669
+     Big Data, Artificial Intelligence, and Ethics
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0198 | Score: 0.0629
+     Elastic Google Cloud Infrastructure: Scaling and Automation
+     Skills: Load Balancing,Virtual Private Network (VPN),Google Cloud Platform,Autoscaling,
+
+11. [COURSERA    ] Prob: 0.0179 | Score: 0.0580
+     Reliable Google Cloud Infrastructure: Design and Process
+     Skills: Disaster Recovery,Site Reliability Engineering,Google Cloud Platform,Cloud Computing,
+
+12. [COURSERA    ] Prob: 0.0165 | Score: 0.0538
+     Networking in Google Cloud: Defining and Implementing Networks
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0162 | Score: 0.0528
+     Managing Security in Google Cloud
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0157 | Score: 0.0514
+     Hands-on Introduction to Linux Commands and Shell Scripting
+     Skills: Shell Script,Bash (Unix Shell),Linux,
+
+15. [COURSERA    ] Prob: 0.0155 | Score: 0.0509
+     Spring - Ecosystem and Core
+     Skills: Spring Framework,Spring Configuration Techniques,Inversion Of Control,Dependency Injection,Junit,
+
+16. [COURSERA    ] Prob: 0.0155 | Score: 0.0507
+     The Business of Product Management II
+     Skills: Monetization Strategy,A/B/n testing,Customer Retention,KPIs OKRs North Stars,OODA Loops,
+
+17. [COURSERA    ] Prob: 0.0150 | Score: 0.0491
+     Network Analysis in Systems Biology
+     Skills: No skills
+
+18. [COURSERA    ] Prob: 0.0150 | Score: 0.0490
+     Spring MVC, Spring Boot and Rest Controllers
+     Skills: Spring Framework,Restful services,Java Programming,Spring Boot,
+
+19. [COURSERA    ] Prob: 0.0147 | Score: 0.0481
+     Security Best Practices in Google Cloud
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0133 | Score: 0.0431
+     App Deployment, Debugging, and Performance
+     Skills: Application Deployment,Debugging,Google Cloud,Cloud Computing,Execution Environments,
+
+21. [COURSERA    ] Prob: 0.0133 | Score: 0.0431
+     Essential Google Cloud Infrastructure: Core Services
+     Skills: Debugging,Cloud Storage,Data Store,Google Cloud Platform,
+
+22. [UDACITY     ] Prob: 0.0130 | Score: 0.0421
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0126 | Score: 0.0403
+     Essential Google Cloud Infrastructure: Foundation
+     Skills: Google Compute Engine,Virtual Machine,Network Architecture,Google Cloud Platform,
+
+24. [COURSERA    ] Prob: 0.0119 | Score: 0.0375
+     Python Project for Data Engineering
+     Skills: Information Engineering,Python Programming,Jupyter notebooks,Web Scraping,Extract Transform Load (ET
+
+25. [COURSERA    ] Prob: 0.0117 | Score: 0.0366
+     Enterprise Database Migration
+     Skills: No skills
+
+26. [SIMPLILEARN ] Prob: 0.0114 | Score: 0.0355
+     Professional Certificate Course in AI and Machine Learning
+     Skills: 8583
+
+27. [COURSERA    ] Prob: 0.0111 | Score: 0.0343
+     A Tour of Google Cloud Hands-on Labs
+     Skills: Cloud Platforms,Cloud Storage,Google Cloud Platform,
+
+28. [COURSERA    ] Prob: 0.0107 | Score: 0.0323
+     Getting Started With Application Development
+     Skills: Cloud Storage,Data Store,Google Cloud Platform,Cloud Computing,
+
+29. [COURSERA    ] Prob: 0.0103 | Score: 0.0305
+     Google Cloud Fundamentals: Core Infrastructure
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,
+
+30. [COURSERA    ] Prob: 0.0094 | Score: 0.0257
+     Spring - Cloud Overview
+     Skills: Netflix OSS,Service Discovery,Microservices,Spring Cloud,Load Balancing,
+
+31. [COURSERA    ] Prob: 0.0092 | Score: 0.0244
+     Robotics: Capstone
+     Skills: Python Programming,Robotics,Raspberry Pi,Matlab,
+
+32. [COURSERA    ] Prob: 0.0089 | Score: 0.0230
+     Machine Learning Introduction for Everyone
+     Skills: Deep Learning,Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Machine Learning 
+
+33. [SIMPLILEARN ] Prob: 0.0088 | Score: 0.0223
+     Artificial Intelligence Engineer
+     Skills: No skills
+
+34. [COURSERA    ] Prob: 0.0084 | Score: 0.0204
+     Dino 101: Dinosaur Paleobiology
+     Skills: Biodiversity,Biology,Evolution,Paleontology,
+
+35. [COURSERA    ] Prob: 0.0084 | Score: 0.0203
+     Feature Engineering
+     Skills: No skills
+
+36. [COURSERA    ] Prob: 0.0084 | Score: 0.0199
+     Deep Learning Methods for Healthcare
+     Skills: Graphs,Unsupervised Learning,Autoencoder,Deep Learning,
+
+37. [COURSERA    ] Prob: 0.0084 | Score: 0.0199
+     Advanced Deep Learning Methods for Healthcare
+     Skills: Graphs,Unsupervised Learning,Autoencoder,Deep Learning,
+
+38. [SIMPLILEARN ] Prob: 0.0078 | Score: 0.0166
+     Post Graduate Program in DevOps
+     Skills: 8583
+
+39. [SIMPLILEARN ] Prob: 0.0078 | Score: 0.0164
+     Professional Certificate Course in Data Engineering
+     Skills: 8583
+
+40. [SIMPLILEARN ] Prob: 0.0078 | Score: 0.0163
+     Professional Certificate Course in Data Analytics
+     Skills: 8583
+
+41. [SIMPLILEARN ] Prob: 0.0077 | Score: 0.0161
+     AI  Machine Learning Bootcamp
+     Skills: 8583
+
+42. [SIMPLILEARN ] Prob: 0.0077 | Score: 0.0160
+     Best Data Science Course in India
+     Skills: 8583
+
+43. [SIMPLILEARN ] Prob: 0.0075 | Score: 0.0142
+     Data Analytics Bootcamp
+     Skills: 8583
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   3 courses (  7.0%)
+Medium    :  26 courses ( 60.5%)
+Low       :  14 courses ( 32.6%)
+Very Low  :   0 courses (  0.0%)

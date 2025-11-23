@@ -1,0 +1,314 @@
+{
+  "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Web development courses for beginners that teach javascript and react, also some python programming classes from all platforms'. Expanding terms to include synonyms for web dev and data science. Implementing beginner and platform filters.",
+    "expanded_terms": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Full Stack",
+      "Frontend",
+      "Backend",
+      "Data Science",
+      "Data Analysis",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ],
+        "$and": [
+          {
+            "Title": {
+              "$regex": "\\b(Beginner)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ],
+        "$and": [
+          {
+            "Level": {
+              "$regex": "\\b(Beginner)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Python|Data Science|Data Analysis|Statistics|Big Data|Pandas)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T14:54:30.697657"
+}

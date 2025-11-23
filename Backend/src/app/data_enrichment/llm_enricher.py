@@ -1,4 +1,4 @@
-# src/app/data_enrichment/llm_enricher.py
+# src/app/data_enrichment/llm_enricher.py - COMPLETE FIXED VERSION
 import google.generativeai as genai
 import os
 import json
@@ -14,7 +14,7 @@ enrichment_count = 0
 
 
 def _enforce_enrichment_rate_limit():
-    """Enforce rate limiting for enrichment calls"""
+    """Enforce stricter rate limiting for enrichment calls"""
     global last_enrichment_time, enrichment_count
     current_time = time.time()
 
@@ -23,8 +23,8 @@ def _enforce_enrichment_rate_limit():
         enrichment_count = 0
         last_enrichment_time = current_time
 
-    # More reasonable limit - 15 per minute
-    if enrichment_count >= 15:
+    # More conservative limit - 8 per minute instead of 15
+    if enrichment_count >= 8:
         sleep_time = 60 - (current_time - last_enrichment_time)
         if sleep_time > 0:
             print(f"⏳ Enrichment rate limit: Waiting {sleep_time:.1f} seconds...")
@@ -33,7 +33,7 @@ def _enforce_enrichment_rate_limit():
         last_enrichment_time = time.time()
 
     enrichment_count += 1
-    time.sleep(0.5)  # Reduced delay
+    time.sleep(1.0)  # Increased delay to 1 second
 
 
 def safe_gemini_call(prompt, max_retries=2):
@@ -207,10 +207,17 @@ def enrich_course_data(
 ) -> Dict[str, Any]:
     """
     Use LLM to intelligently enrich course data with high-quality formatting
+    Only enrich top N courses to avoid rate limits
     """
     # Skip enrichment if we're hitting rate limits
-    if enrichment_count >= 15:  # More conservative limit
+    if enrichment_count >= 8:  # More conservative
         print("⚠️  Skipping enrichment due to rate limits")
+        return universal_data
+
+    # Only enrich courses with high relevance probability
+    current_prob = universal_data.get("relevance_probability", 0)
+    if current_prob < 0.01:  # Only enrich courses with >1% probability
+        print(f"ℹ️  Skipping enrichment for low probability course: {current_prob:.4f}")
         return universal_data
 
     # Check which fields actually need enrichment

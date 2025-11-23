@@ -1,0 +1,33 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me web development courses for beginners that teach javascript and react, also some python programming classes from any platforms
+Total Courses: 3
+Generated at: 2025-11-23T15:09:26.949622
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :   3 courses | Avg Prob: 0.1333 | Avg Score: 0.6769
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.2000 | Score: 1.0000
+     A Beginnerâs Guide to Web Development with HTML5
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.2000 | Score: 1.0000
+     A Beginnerâs Guide to Creating a VR Experience
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0307
+     Essential Mathematics for Data Analysis in Microsoft Excel
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses ( 66.7%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   1 courses ( 33.3%)

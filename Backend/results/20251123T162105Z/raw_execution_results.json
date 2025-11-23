@@ -1,0 +1,152 @@
+{
+  "user_query": "Show me top 10 Public finance policy  courses searching from all platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\btop\\ public\\ finance\\ policy\\ searching\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T16:21:05.504060"
+}

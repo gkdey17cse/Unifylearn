@@ -1,0 +1,11 @@
+{
+  "user_query": "Show me top 10 Public finance policy  courses searching from all platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-23T16:21:05.505059"
+}

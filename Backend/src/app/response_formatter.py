@@ -1,18 +1,16 @@
-# src/app/response_formatter.py - UPDATED VERSION
+# src/app/response_formatter.py - COMPLETE FIXED VERSION
 from src.app.data_enrichment.uniform_formatter import format_to_universal_schema
 from src.app.utils.logger import logger
 
 
-def unifyResponse(
-    provider, raw, relevance_probability=None, relevance_score=None
-):  # UPDATED SIGNATURE
+def unifyResponse(provider, raw, relevance_probability=None, relevance_score=None):
     """
     Convert raw course data to universal schema format with LLM enrichment.
     """
     try:
         enriched_data = format_to_universal_schema(raw, provider)
 
-        # NEW: Add relevance information if provided
+        # Add relevance information if provided
         if relevance_probability is not None:
             enriched_data["relevance_probability"] = relevance_probability
         if relevance_score is not None:
@@ -30,7 +28,7 @@ def unifyResponse(
             "enrichment_applied": False,
         }
 
-        # NEW: Add relevance information to fallback data too
+        # Add relevance information to fallback data too
         if relevance_probability is not None:
             fallback_data["relevance_probability"] = relevance_probability
         if relevance_score is not None:

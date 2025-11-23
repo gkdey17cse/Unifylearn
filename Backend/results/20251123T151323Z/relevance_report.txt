@@ -1,0 +1,221 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement
+Total Courses: 76
+Generated at: 2025-11-23T15:13:23.476249
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :  76 courses | Avg Prob: 0.0044 | Avg Score: 0.0667
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.1667 | Score: 1.0000
+     SQL for Data Analysis
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.1667 | Score: 1.0000
+     Data Query with Transact-SQL with Python
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0894
+     Introduction to Data Science for Business
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0890
+     Financial Analysis for Business Decisions: Introduction to Data Analysis Tools and Capital Projects
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0817
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0813
+     Data Science Projects and Applications
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0792
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0708
+     Microsoft Future Ready: Fundamentals to R for Data Science
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0702
+     Advanced Data Visualisation and Analysis in Excel
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0674
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0655
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0655
+     Introduction to Data Science for Educators
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0640
+     Data Science for Climate Change
+     Skills: No skills
+
+14. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0625
+     Introduction to Data Analytics for Investment
+     Skills: No skills
+
+15. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0599
+     Successful Data Analysis for Modern Industries
+     Skills: No skills
+
+16. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0599
+     Microsoft Future Ready: Data Science Research Methods on Python Programming
+     Skills: No skills
+
+17. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0591
+     Microsoft Power BI: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+18. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0590
+     Microsoft Future Ready: Designing and Implementing a Data Science Solution on Azure
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0588
+     Getting Started with Teaching Data Science in Schools
+     Skills: No skills
+
+20. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0585
+     Introduction to Data Analytics with Python
+     Skills: No skills
+
+21. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0581
+     Statistics and Data Analysis in Excel
+     Skills: No skills
+
+22. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0566
+     Business Ethics: Exploring Big Data and Tax Avoidance
+     Skills: No skills
+
+23. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0559
+     Introduction to Big Data Analytics with Hadoop
+     Skills: No skills
+
+24. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0552
+     Microsoft Future Ready: Data Science Research Methods Using Python Programming
+     Skills: No skills
+
+25. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0546
+     Azure Cloud Fundamentals for Data Science with Python
+     Skills: No skills
+
+26. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0538
+     Big Data Analytics: Opportunities, Challenges, and the Future
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0530
+     Business Analytics Using Forecasting
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0501
+     Microsoft Future Ready: Introduction to Data Science
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0499
+     Data Visualisation with Python: Seaborn and Scatter Plots
+     Skills: No skills
+
+30. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0491
+     Mathematics for Data Science: Essential Mathematics for Machine Learning and AI
+     Skills: No skills
+
+31. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0490
+     Software Development with Python and Java: Prepare for a Software Development Career
+     Skills: No skills
+
+32. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0487
+     Essential Mathematics for Data Science and Machine Learning: Using R
+     Skills: No skills
+
+33. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0484
+     Data Analysis and Fundamental Statistics
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0471
+     Introduction to Data Science with Microsoft Azure
+     Skills: No skills
+
+35. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0457
+     Python Packages: NumPy and Pandas Dataframe
+     Skills: No skills
+
+36. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0452
+     Data Science in the Games Industry
+     Skills: No skills
+
+37. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0446
+     Essential Mathematics for Data Analysis in Microsoft Excel
+     Skills: No skills
+
+38. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0437
+     Data Analytics and Python Fundamentals
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0436
+     How to Use Pivot Tables to Analyse Data in Excel
+     Skills: No skills
+
+40. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0433
+     Teaching Migration Through Data and Storytelling
+     Skills: No skills
+
+41. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0426
+     Data Wrangling and Ingestion using Python
+     Skills: No skills
+
+42. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0423
+     Managing Big Data with R and Hadoop
+     Skills: No skills
+
+43. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0410
+     Prepare for a Software Development Career
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0407
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0402
+     Making Sense of Data in the Media
+     Skills: No skills
+
+46. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0395
+     Microsoft Future Ready: Designing and Implementing an Azure AI Solution
+     Skills: No skills
+
+47. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0361
+     AI and Big Data in Global Health Improvement
+     Skills: No skills
+
+48. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0358
+     Teaching Mathematics: Demystifying Statistics and Probability
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0341
+     Microsoft Future Ready: Fundamentals of Big Data
+     Skills: No skills
+
+50. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0341
+     Excel for Data Analysis
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses (  2.6%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :  74 courses ( 97.4%)
