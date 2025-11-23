@@ -1,0 +1,74 @@
+{
+  "user_query": "Show me some Cyber Security related courses from Future Learn platform and Simplilearn platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Cyber Security', 'Future Learn platform' and 'Simplilearn platform'. Expanding 'Cyber Security' to include Cybersecurity, Network Security, Ethical Hacking, InfoSec, and Penetration Testing.",
+    "expanded_terms": [
+      "Cyber Security",
+      "Cybersecurity",
+      "Network Security",
+      "Ethical Hacking",
+      "InfoSec",
+      "Penetration Testing"
+    ],
+    "providers": {
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T11:10:40.377466"
+}

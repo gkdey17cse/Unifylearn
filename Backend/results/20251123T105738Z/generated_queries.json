@@ -1,0 +1,70 @@
+{
+  "user_query": "Show me some Cyber Security related courses from Future Learn platform and Simplilearn platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Cyber Security courses from Future Learn and Simplilearn",
+    "context_terms": "cyber security",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCyber Security\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T10:57:38.105959"
+}

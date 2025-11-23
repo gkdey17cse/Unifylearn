@@ -1,0 +1,130 @@
+{
+  "user_query": "Show me Data Analysis courses from any platform with relevancy",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Data Analysis'. Expanding to include: Data Science, Statistics, Big Data, Pandas, Python. User requested the results to have 'relevancy'. This implies ordering of the results based on how well they match the search query.",
+    "expanded_terms": [
+      "Data Analysis",
+      "Data Science",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T11:04:54.435344"
+}

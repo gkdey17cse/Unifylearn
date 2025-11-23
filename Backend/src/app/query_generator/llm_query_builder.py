@@ -1,4 +1,3 @@
-# src/app/query_generator/llm_query_builder.py
 import json
 import re
 import time
@@ -16,16 +15,26 @@ def _enforce_rate_limit():
     global last_request_time
     current_time = time.time()
     time_since_last_request = current_time - last_request_time
-
     if time_since_last_request < 3.0:
         sleep_time = 3.0 - time_since_last_request
         time.sleep(sleep_time)
-
     last_request_time = time.time()
 
 
 def _find_balanced_json(text: str):
+    # Strip markdown code blocks
     text = re.sub(r"```(?:json)?", "", text, flags=re.IGNORECASE).strip()
+
+    # Try to find the largest outer bracket pair
+    match = re.search(r"\{.*\}", text, re.DOTALL)
+    if match:
+        candidate = match.group()
+        try:
+            return json.loads(candidate)
+        except json.JSONDecodeError:
+            pass
+
+    # Fallback to stack method if regex fails
     starts = [i for i, c in enumerate(text) if c == "{"]
     candidates = []
     for i in starts:
@@ -51,7 +60,7 @@ def call_gemini_with_retry(prompt, max_retries=2):
     for attempt in range(max_retries + 1):
         try:
             _enforce_rate_limit()
-            logger.llm(f"Calling Gemini API (attempt {attempt + 1}/{max_retries + 1})")
+            # logger.llm(f"Calling Gemini API (attempt {attempt + 1}/{max_retries + 1})") # Optional logging
 
             genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
             model = genai.GenerativeModel("gemini-2.0-flash")
@@ -69,174 +78,67 @@ def call_gemini_with_retry(prompt, max_retries=2):
                 time.sleep(wait_time)
             else:
                 raise e
-
     return None
 
 
 def generate_queries(user_query):
     logger.query(f"Processing: '{user_query}'")
-
     schemas = getSchemasAndSamples()
 
+    # We reduce the schema complexity for the prompt to save tokens and reduce confusion
+    simplified_schemas = {k: {"fields": v["fields"]} for k, v in schemas.items()}
+
     prompt = f"""
-You are an expert MongoDB query generator for educational courses. Analyze the user's query and generate precise queries.
+    You are a Principal Database Engineer. Your goal is to convert a user's natural language request into a **Semantic MongoDB Query**.
 
-**USER'S QUERY:** "{user_query}"
+    **USER QUERY:** "{user_query}"
 
-**DATABASE SCHEMA:**
-{json.dumps(schemas, indent=2)}
+    ### 🧠 STEP 1: SEMANTIC EXPANSION (CRITICAL)
+    You MUST expand the user's terms into a broader list of synonyms.
+    
+    * **IF "AI"**: Expand to -> `(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)`
+    * **IF "Cyber Security"**: Expand to -> `(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)`
+    * **IF "Web Dev"**: Expand to -> `(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)`
+    * **IF "Data Science"**: Expand to -> `(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)`
 
-**CRITICAL FIELD MAPPING - Use these EXACT field names:**
-- For ALL providers: Use "Title", "Short Intro", "Category", "Number of viewers"
-- For Coursera: Use "Skills", "Sub-Category", "Rating"  
-- For Udacity: Use "What you learn", "Level", "Program Type"
-- For Simplilearn: Use "Skills", "Course Type"
-- For FutureLearn: Use "Sub-Category", "Duration"
+    ### 🛠️ STEP 2: QUERY CONSTRUCTION
+    Construct a JSON object using MongoDB operators.
+    
+    1.  **Use Regex Groups:** Instead of multiple `$or` conditions for synonyms, use a single Regex Group joined by `|`.
+        * *BAD:* `{{ "$or": [ {{ "Title": "AI" }}, {{ "Title": "ML" }} ] }}`
+        * *GOOD:* `{{ "Title": {{ "$regex": "\\\\b(AI|ML|Deep Learning)\\\\b", "$options": "i" }} }}`
+    
+    2.  **Target Fields:** Search in `Title`, `Short Intro`, `Skills`, `Category`, `What you learn`.
+    
+    3.  **Strict Filtering:** If the user specifies "Beginner", "Free", or "Short", use `$and` to ensure those conditions are met alongside the semantic search.
 
-**QUERY TYPE DETECTION:**
-- SPJ: Simple filtering like "Python courses", "AI courses from Coursera", "Law courses"
-- AGGREGATE: Queries with sorting, limiting, ranking like "top 5", "most viewed", "highest rated"
+    ### 📝 TARGET SCHEMAS (Use these exact field names)
+    {json.dumps(simplified_schemas, indent=2)}
 
-**OUTPUT STRUCTURE:**
-{{
-  "query_type": "SPJ|AGGREGATE",
-  "description": "Brief description",
-  "aggregation_strategy": "provider_level|cross_platform",
-  "sort_field": "Number of viewers|Rating", 
-  "sort_order": 1|-1,
-  "global_limit": 5,
-  "providers": {{
-    "coursera": {{...query...}},
-    "udacity": {{...query...}},
-    "simplilearn": {{...query...}},
-    "futurelearn": {{...query...}}
-  }}
-}}
+    ### ✅ REQUIRED OUTPUT FORMAT
+    Return valid JSON only.
 
-**EXAMPLES:**
-
-**"Law courses from Coursera" (SPJ query):**
-{{
-  "query_type": "SPJ",
-  "description": "Law courses from Coursera",
-  "aggregation_strategy": "provider_level",
-  "providers": {{
-    "coursera": {{
-      "$or": [
-        {{"Title": {{"$regex": "\\\\bLaw\\\\b", "$options": "i"}}}},
-        {{"Category": {{"$regex": "\\\\bLaw\\\\b", "$options": "i"}}}},
-        {{"Sub-Category": {{"$regex": "\\\\bLaw\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "udacity": {{}},
-    "simplilearn": {{}},
-    "futurelearn": {{}}
-  }}
-}}
-
-**"Python courses for beginners" (SPJ query):**
-{{
-  "query_type": "SPJ", 
-  "description": "Python beginner courses",
-  "aggregation_strategy": "provider_level",
-  "providers": {{
-    "coursera": {{
-      "$and": [
-        {{"$or": [
-          {{"Title": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}},
-          {{"Skills": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}}
-        ]}},
-        {{"$or": [
-          {{"Course Type": {{"$regex": "\\\\bBeginner\\\\b", "$options": "i"}}}},
-          {{"Level": {{"$regex": "\\\\bBeginner\\\\b", "$options": "i"}}}}
-        ]}}
-      ]
-    }},
-    "udacity": {{
-      "$and": [
-        {{"$or": [
-          {{"Title": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}},
-          {{"What you learn": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}}
-        ]}},
-        {{"Level": {{"$regex": "\\\\bBeginner\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "simplilearn": {{
-      "$and": [
-        {{"$or": [
-          {{"Title": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}},
-          {{"Skills": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}}
-        ]}},
-        {{"Course Type": {{"$regex": "\\\\bBeginner\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "futurelearn": {{
-      "$and": [
-        {{"$or": [
-          {{"Title": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}},
-          {{"Category": {{"$regex": "\\\\bPython\\\\b", "$options": "i"}}}}
-        ]}},
-        {{"Level": {{"$regex": "\\\\bBeginner\\\\b", "$options": "i"}}}}
-      ]
+    {{
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'Cyber Security'. Expanding to include: Cybersecurity, Ethical Hacking, InfoSec, Network Security.",
+      "expanded_terms": ["Cyber Security", "Cybersecurity", "Ethical Hacking", "InfoSec", "Network Security"],
+      "providers": {{
+        "coursera": {{
+          "$or": [
+            {{ "Title": {{ "$regex": "\\\\b(Cyber Security|Ethical Hacking|InfoSec|Network Security)\\\\b", "$options": "i" }} }},
+            {{ "Skills": {{ "$regex": "\\\\b(Cyber Security|Ethical Hacking|InfoSec|Network Security)\\\\b", "$options": "i" }} }}
+          ]
+        }},
+        "udacity": {{
+           "$or": [
+            {{ "Title": {{ "$regex": "\\\\b(Cyber Security|Ethical Hacking|InfoSec|Network Security)\\\\b", "$options": "i" }} }},
+            {{ "What you learn": {{ "$regex": "\\\\b(Cyber Security|Ethical Hacking|InfoSec|Network Security)\\\\b", "$options": "i" }} }}
+          ]
+        }}
+        // ... Generate for simplilearn and futurelearn similarly
+      }}
     }}
-  }}
-}}
-
-**"Top 5 most viewed courses from all platforms":**
-{{
-  "query_type": "AGGREGATE",
-  "description": "Top 5 most viewed courses across all platforms",
-  "aggregation_strategy": "cross_platform", 
-  "sort_field": "Number of viewers",
-  "sort_order": -1,
-  "global_limit": 5,
-  "providers": {{
-    "coursera": {{}},
-    "udacity": {{}},
-    "simplilearn": {{}},
-    "futurelearn": {{}}
-  }}
-}}
-
-**"Machine Learning courses sorted by number of viewers":**
-{{
-  "query_type": "AGGREGATE", 
-  "description": "Machine Learning courses sorted by viewers",
-  "aggregation_strategy": "cross_platform",
-  "sort_field": "Number of viewers",
-  "sort_order": -1,
-  "providers": {{
-    "coursera": {{
-      "$or": [
-        {{"Title": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}},
-        {{"Category": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "udacity": {{
-      "$or": [
-        {{"Title": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}},
-        {{"What you learn": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "simplilearn": {{
-      "$or": [
-        {{"Title": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}},
-        {{"Skills": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}}
-      ]
-    }},
-    "futurelearn": {{
-      "$or": [
-        {{"Title": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}},
-        {{"Category": {{"$regex": "\\\\bMachine Learning\\\\b", "$options": "i"}}}}
-      ]
-    }}
-  }}
-}}
-
-**NOW GENERATE FOR: "{user_query}"**
-
-Return ONLY the JSON, no other text.
-"""
+    """
 
     try:
         raw_text = call_gemini_with_retry(prompt)
@@ -249,9 +151,13 @@ Return ONLY the JSON, no other text.
 
         if parsed is None:
             logger.warning("Could not parse JSON from LLM response")
+            # Fallback: Return empty to avoid crash
             return {"query_type": "SPJ", "providers": {}}
 
-        logger.success("Generated queries successfully")
+        # Log the expansion to verify it worked
+        if "expanded_terms" in parsed:
+            logger.info(f"🧠 LLM Expanded Terms: {parsed['expanded_terms']}")
+
         return parsed
 
     except Exception as e:
