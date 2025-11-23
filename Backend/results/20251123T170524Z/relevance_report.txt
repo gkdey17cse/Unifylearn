@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Show me AI , ML courses from Simplilearn & Udacity
+Total Courses: 61
+Generated at: 2025-11-23T17:05:24.212265
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    :   9 courses | Avg Prob: 0.0292 | Avg Score: 0.0492
+UDACITY        :  52 courses | Avg Prob: 0.0138 | Avg Score: 0.0093
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.0535 | Score: 0.0814
+     Post Graduate Program in AI and Machine Learning
+     Skills: 757
+
+ 2. [UDACITY     ] Prob: 0.0443 | Score: 0.0719
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0442 | Score: 0.0718
+     Model Building and Validation
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0349 | Score: 0.0600
+     Introduction to Machine Learning Course
+     Skills: No skills
+
+ 5. [SIMPLILEARN ] Prob: 0.0312 | Score: 0.0544
+     AI  Machine Learning Bootcamp
+     Skills: 8583
+
+ 6. [SIMPLILEARN ] Prob: 0.0301 | Score: 0.0525
+     Ranked 1 Artificial Intelligence Course by Career Karma
+     Skills: 8583
+
+ 7. [SIMPLILEARN ] Prob: 0.0282 | Score: 0.0492
+     Professional Certificate Course in AI and Machine Learning
+     Skills: 8583
+
+ 8. [SIMPLILEARN ] Prob: 0.0275 | Score: 0.0481
+     AI for Decision Making: Business Strategies and Applications
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0272 | Score: 0.0474
+     Self-Driving Fundamentals: Featuring Apollo
+     Skills: No skills
+
+10. [SIMPLILEARN ] Prob: 0.0263 | Score: 0.0457
+     MS in Artificial Intelligence
+     Skills: No skills
+
+11. [SIMPLILEARN ] Prob: 0.0240 | Score: 0.0413
+     Artificial Intelligence Engineer
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0225 | Score: 0.0381
+     Microsoft Power Platform
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0213 | Score: 0.0353
+     Introduction to Machine Learning using Microsoft Azure
+     Skills: No skills
+
+14. [SIMPLILEARN ] Prob: 0.0211 | Score: 0.0349
+     Deep Learning Course with Keras  TensorFlow Certification Training
+     Skills: 34113
+
+15. [SIMPLILEARN ] Prob: 0.0211 | Score: 0.0349
+     Data Scientist
+     Skills: No skills
+
+16. [UDACITY     ] Prob: 0.0193 | Score: 0.0303
+     Learn to Code
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0167 | Score: 0.0231
+     Supervised Machine Learning
+     Skills: No skills
+
+18. [UDACITY     ] Prob: 0.0136 | Score: 0.0128
+     AI Fundamentals
+     Skills: No skills
+
+19. [UDACITY     ] Prob: 0.0130 | Score: 0.0106
+     Knowledge-Based AI: Cognitive Systems
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0129 | Score: 0.0103
+     Ethical AI
+     Skills: No skills
+
+21. [UDACITY     ] Prob: 0.0126 | Score: 0.0092
+     Become an AI Product Manager
+     Skills: No skills
+
+22. [UDACITY     ] Prob: 0.0125 | Score: 0.0085
+     AI Engineer using Microsoft Azure
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0125 | Score: 0.0085
+     Expand Your Knowledge of Artificial Intelligence
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0120 | Score: 0.0066
+     AI for Business Leaders
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0118 | Score: 0.0057
+     AI Programming with Python
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0118 | Score: 0.0056
+     Core ML: Machine Learning for iOS
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0117 | Score: 0.0054
+     Secure and Private AI
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0116 | Score: 0.0047
+     AI for Healthcare
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0113 | Score: 0.0036
+     AWS Machine Learning Foundations Course
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0111 | Score: 0.0026
+     Intel Edge AI Fundamentals with OpenVINO
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0111 | Score: 0.0026
+     How to Become a Machine Learning Engineer
+     Skills: No skills
+
+32. [UDACITY     ] Prob: 0.0111 | Score: 0.0026
+     Deep Learning
+     Skills: No skills
+
+33. [UDACITY     ] Prob: 0.0111 | Score: 0.0025
+     Artificial Intelligence for Trading
+     Skills: No skills
+
+34. [UDACITY     ] Prob: 0.0110 | Score: 0.0022
+     Intro to Artificial Intelligence
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0110 | Score: 0.0021
+     Become a Deep Reinforcement Learning Expert
+     Skills: No skills
+
+36. [UDACITY     ] Prob: 0.0108 | Score: 0.0011
+     Product Manager Interview Preparation
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Machine Learning for Trading
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Oracle Autonomous Database Administration
+     Skills: No skills
+
+39. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Artificial Intelligence
+     Skills: No skills
+
+40. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Intro to Machine Learning with TensorFlow
+     Skills: No skills
+
+41. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Unsupervised Machine Learning
+     Skills: No skills
+
+42. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+43. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Machine Learning: Unsupervised Learning
+     Skills: No skills
+
+44. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Intro to TensorFlow for Deep Learning
+     Skills: No skills
+
+45. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Eigenvectors and Eigenvalues
+     Skills: No skills
+
+46. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Machine Learning Interview Preparation
+     Skills: No skills
+
+47. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Self-Driving Car Engineer
+     Skills: No skills
+
+48. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Become a Computer Vision Expert
+     Skills: No skills
+
+49. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Become a Natural Language Processing Expert
+     Skills: No skills
+
+50. [UDACITY     ] Prob: 0.0105 | Score: 0.0000
+     Introduction to Python
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   1 courses (  1.6%)
+Medium    :  60 courses ( 98.4%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

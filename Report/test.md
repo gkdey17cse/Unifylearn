@@ -1,118 +1,37 @@
-Here are natural language queries with realistic user patterns and some spelling mistakes to test your semantic system:
+##  Natural Language
 
-## 🗣️ Natural Language SPJ Queries
-
-### 1. **Basic Course Search with Typo**
+1. Basic Domain Search with Typo
+Tests: Spelling correction (machne → machine), semantic expansion (AI → ML, Deep Learning), multi-platform filtering
 ```
-Show me AI coruses for beginers
-```
-**Tests**: Spelling correction + semantic expansion + level filtering
-
-### 2. **Multi-Skill Combination**
-```
-I want to learn Python programing and data analysis together
-```
-**Tests**: Multiple skill semantic expansion + "together" logic interpretation
-
-### 3. **Provider-Specific Request**
-```
-Find me web devlopment courses from Coursera and Udacity please
-```
-**Tests**: Spelling correction + provider targeting + skill expansion
-
-## 📈 Natural Language Aggregation Queries
-
-### 4. **Popular Courses Request**
-```
-what are the top 5 most popular machine lernin courses?
-```
-**Tests**: Spelling correction + aggregation + semantic expansion
-
-### 5. **Quality-Based Search**
-```
-show me the best rated data science courses with highest enrollment
-```
-**Tests**: Multiple aggregation criteria + semantic understanding
-
-### 6. **Mixed Criteria with Casual Language**
-```
-gimme the most viewed cloud computing courses sorted by popularity
-```
-**Tests**: Casual language parsing + semantic expansion + aggregation
-
-## 🎯 Bonus Real-World Queries
-
-### 7. **Vague/Ambiguous Request**
-```
-I need courses about cloud stuff for my career"
-```
-**Tests**: Broad semantic expansion + career context interpretation
-
-### 8. **Very Specific Technology**
-```
-looking for deep lerning with tensorflow and keras courses"
-```
-**Tests**: Technical term spelling correction + specific technology matching
-
-### 9. **Time-Based Request**
-```
-short duration courses for web devlopment"
-```
-**Tests**: Duration filtering + spelling correction + skill expansion
-
-## 📝 What These Test:
-
-### **Spelling & Grammar Issues:**
-- "coruses" → "courses"
-- "beginers" → "beginners" 
-- "programing" → "programming"
-- "devlopment" → "development"
-- "lernin" → "learning"
-- "lerning" → "learning"
-
-### **Semantic Expansions Expected:**
-- **"AI"** → `["machine learning", "artificial intelligence", "deep learning"]`
-- **"data analysis"** → `["data science", "analytics", "python", "sql"]`
-- **"web development"** → `["frontend", "backend", "javascript", "react"]`
-- **"cloud"** → `["aws", "azure", "google cloud", "cloud computing"]`
-- **"cloud stuff"** → `["cloud computing", "aws", "azure", "infrastructure"]`
-
-### **Natural Language Patterns:**
-- "Show me", "I want", "Find me", "what are", "gimme"
-- "please", "for my career", "together"
-- Casual punctuation and capitalization
-
-## 🚀 Test Commands:
-
-```bash
-# Test with spelling mistakes
-curl -X POST http://localhost:5000/query \
-  -H "Content-Type: application/json" \
-  -d '{"query": "Show me AI coruses for beginers"}'
-
-# Test multi-skill combination
-curl -X POST http://localhost:5000/query \
-  -H "Content-Type: application/json" \
-  -d '{"query": "I want to learn Python programing and data analysis together"}'
-
-# Test aggregation with casual language
-curl -X POST http://localhost:5000/query \
-  -H "Content-Type: application/json" \
-  -d '{"query": "gimme the most viewed cloud computing courses sorted by popularity"}'
-
-# Test vague requests
-curl -X POST http://localhost:5000/query \
-  -H "Content-Type: application/json" \
-  -d '{"query": "I need courses about cloud stuff for my career"}'
+i want to learn about machne learning and AI courses from coursera and udacity
 ```
 
-## 🔍 What to Look For:
+2. Multi-Domain with Specific Requirements
+Tests: Cross-domain search (web dev + programming), skill filtering (JavaScript, React), level filtering (beginner), cross-platform execution
+```
+show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms
+```
+3. Complex Career-Focused Query
+Tests: Career-oriented semantic expansion, multi-skill combination (stats + SQL + visualization), quality filtering (ratings + projects)
+```
+looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement
+```
 
-1. **Spelling Correction**: Does it find courses despite typos?
-2. **Semantic Expansion**: Does it expand "AI" to include ML/DL courses?
-3. **Intent Understanding**: Does it handle "together", "for my career" context?
-4. **Casual Language**: Does it parse "gimme", "please" correctly?
-5. **Provider Targeting**: Does it respect "from Coursera and Udacity"?
-6. **Aggregation Logic**: Does it sort/limit results appropriately?
+4. Very Specific Niche Search
+Tests: Technical domain expertise, nested skill requirements, practical feature detection (hands-on labs)
+```
+cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs
+```
 
-These natural language queries will really test how robust your semantic system is in handling real-world user input!
+5. Duration-Based Aggregation
+Tests: AGGREGATION - Cross-platform sorting by duration, multi-domain filtering, result limiting based on computed fields
+```
+find me the shortest duration courses in web development and programming, sorted by duration ascending. I want quick learning options
+```
+
+6. Cross Domain Courses
+Tests: Multi-domain aggregation (public health + policy), institutional filtering (recognized universities), field extraction from unstructured data
+### 6. ** Cross Domain Courses **
+```
+find public health courses about epidemiology and gealth policy , need courses from recognized university 
+```

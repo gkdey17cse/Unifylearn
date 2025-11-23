@@ -267,20 +267,174 @@ The frontend will start on `http://localhost:3000`
 
 1. **Query Processing Pipeline**:
 
-   - User submits natural language query
-   - LLM analyzes query and generates MongoDB queries
-   - System executes queries across multiple database collections
-   - Results are standardized into universal schema format
-   - LLM enriches data by filling missing fields
-   - Final results are saved and returned to frontend
+## 🎯 **Key Technical Features**
+
+- **Multi-Database Federation**: 4 separate MongoDB clusters
+- **Intelligent Query Expansion**: Semantic term mapping
+- **Hybrid Scoring**: Multiple similarity algorithms with softmax probabilities
+- **Batch AI Processing**: Efficient enrichment with rate limiting
+- **Comprehensive Debugging**: Full query execution tracing
+- **Provider-Agnostic Results**: Unified schema with source tracking
 
 2. **Key Backend Functions**:
+
    - `processUserQuery()` (query_handler.py) - Main orchestrator
    - `generate_queries()` (llm_query_builder.py) - Converts NL to DB queries
    - `execute_provider_query()` (provider_executor.py) - Runs database queries
    - `format_to_universal_schema()` (uniform_formatter.py) - Standardizes data
    - `enrich_course_data()` (llm_enricher.py) - Completes missing information
    - `save_results()` (saver.py) - Persists query results
+
+3. **Code Explanation**:
+   I'll analyze each file and explain its functionality in the context of your course search system. Let me break down the data flow and purpose of each component:
+
+### **System Architecture Overview**
+
+#### **Core Application Files**
+
+**1. `main.py`** - Application Entry Point
+
+- Initializes Flask web server with CORS support
+- Sets up database connections and registers API routes
+- Starts the application on port 5003
+
+**2. `routes.py`** - API Endpoints Handler
+
+- `/health` - Service health check
+- `/query` - Main query processing endpoint (POST)
+- `/results` - List available result timestamps (GET)
+- `/results/<timestamp>` - Get specific saved results
+- `/results/<timestamp>/files` - List files for a timestamp
+- Error handling and API documentation
+
+**3. `db_connection.py`** - Database Management
+
+- Manages connections to 4 different MongoDB clusters (Coursera, Udacity, Simplilearn, FutureLearn)
+- Provides connection pooling and health checks
+- Environment-based configuration for security
+
+**4. `logger.py`** - Logging System
+
+- Structured logging with emojis for different log levels
+- Categories: info, debug, query, database, LLM, aggregation
+- Configurable debug mode
+
+### **Query Processing Pipeline**
+
+**5. `query_handler.py`** - MAIN PROCESSING ORCHESTRATOR
+
+- **Coordinates the entire query workflow**: LLM query generation → execution → relevance scoring → enrichment → response formatting
+- **Key functions**:
+  - `processUserQuery()` - Main entry point for query processing
+  - `process_aggregation_query()` - Handles aggregation queries
+  - Batch enrichment coordination
+  - Duplicate removal and result ranking
+  - Comprehensive file saving (queries, raw results, polished results, debug info)
+
+**6. `llm_query_builder.py`** - Query Generation with Gemini
+
+- **Converts natural language to MongoDB queries**
+- **Semantic expansion**: "AI" → "Artificial Intelligence|Machine Learning|Deep Learning"
+- **Rate limiting** to avoid API quotas
+- **JSON parsing** with fallback mechanisms
+
+**7. `query_translator.py`** - Schema Field Mapping
+
+- **Translates between universal schema fields and provider-specific database fields**
+- Example: "Course Title" → "Title" for Coursera
+- Handles nested query structures recursively
+
+### **Query Execution Layer**
+
+**8. `provider_executor.py`** - Individual Provider Query Execution
+
+- **Executes translated queries against specific providers**
+- **Fallback mechanism**: If structured query fails, uses keyword-based search
+- **Query validation** to skip empty/invalid queries
+- **Result sanitization** for JSON compatibility
+
+**9. `aggregation_executor.py`** - Cross-Platform Aggregation
+
+- **Executes aggregation pipelines** for complex queries
+- **Cross-platform aggregation**: Combines results from multiple providers then sorts/ranks
+- Handles both provider-level and cross-platform aggregation strategies
+
+### **Relevance & Ranking System**
+
+**10. `relevance_scorer.py`** - Intelligent Course Ranking
+
+- **Multi-algorithm scoring**: Jaro-Winkler, Levenshtein, Cosine similarity
+- **Technology-focused matching**: Higher weights for technical terms
+- **Softmax probability conversion** for meaningful relevance scores
+- **Field-weighted scoring**: Title (4.0), Skills (3.0), Description (2.0)
+
+**11. `response_formatter.py`** - Unified Response Formatting
+
+- **Standardizes output format** across all providers
+- **Integration point** for enrichment system
+- Ensures consistent API response structure
+
+### **AI-Powered Enrichment System**
+
+**12. `uniform_formatter.py`** - Data Normalization & Batch Enrichment
+
+- **Converts provider-specific data to universal schema**
+- **Orchestrates batch enrichment** to minimize API calls
+- **Quality assurance** for output data
+
+**13. `batch_enricher.py`** - Bulk AI Processing
+
+- **Processes multiple courses in single API call**
+- **Rate limiting** for batch operations
+- **Fallback to individual enrichment** if batch fails
+
+**14. `llm_enricher.py`** - Individual Course Enrichment
+
+- **Enriches course data using Gemini AI**
+- **Extracts skills, learning outcomes, categories, levels**
+- **Conservative rate limiting** (8 calls/minute)
+
+### **Supporting Components**
+
+**15. `schema_loader.py`** - Provider Schema Definitions
+
+- Defines field structures for each education platform
+- Provides sample data for query generation context
+
+**16. `universal_schema.py`** - Standardized Data Model
+
+- **ESSENTIAL_FIELDS**: Common schema across all providers
+- **FIELD_MAPPING**: Translation between provider-specific and universal fields
+
+**17. `database_debugger.py`** - Diagnostic Tools
+
+- **Connection testing** for all database clusters
+- **Query execution debugging**
+- **Sample data inspection**
+
+---
+
+## **Data Flow Summary**
+
+```bash
+User Query
+    ↓
+LLM Query Builder (Natural Language → MongoDB Queries)
+    ↓
+Query Handler (Orchestration)
+    ↓
+Query Translator (Schema Field Mapping)
+    ↓
+Provider Executor (Database Query Execution)
+    ↓
+Relevance Scorer (Multi-algorithm Ranking)
+    ↓
+Batch Enricher (AI-Powered Data Enhancement)
+    ↓
+Response Formatter (Unified Output)
+    ↓
+Frontend API Response
+```
 
 ### Frontend Architecture
 
@@ -329,7 +483,7 @@ Try these natural language queries:
 }
 ```
 
-![UnifyLearn Interface](https://via.placeholder.com/600x400/3B82F6/FFFFFF?text=UnifyLearn+Interface+Preview)
+![UnifyLearn Interface](./Report/result/Screenshot%202025-11-23%20200859.png)
 
 ## 🧪 Testing
 
