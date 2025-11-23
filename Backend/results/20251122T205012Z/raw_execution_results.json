@@ -1,0 +1,117 @@
+{
+  "user_query": "Show me AI course from Udacity platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 80,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "match_count": 10,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 55,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-22T20:50:12.428950"
+}

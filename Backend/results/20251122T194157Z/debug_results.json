@@ -1,0 +1,487 @@
+{
+  "timestamp": "2025-11-22T19:41:57.116852",
+  "user_query": "Show me AI coruses for beginers",
+  "debug_info": {
+    "user_query": "Show me AI coruses for beginers",
+    "enhanced_query": "\nShow me AI coruses for beginers\n\nADDITIONAL CONTEXT: The user might also be interested in related topics like: ai:, and, c++, get, ibm, (ai), (cx), cars, data, deep, edge, fact, gain, game, jobs, time, with, your, z/os, azure, basic, begin, ibm z, intro, learn, numpy, ready, using, become, course, expand, python, series, unreal, between, courses, fiction, getting, machine, making:, manager, masters, powered, product, python:, science, sorting, started, symbols, systems, trading, without, xgboost, building, business, chatbots, computer, creative, customer, decision, learning, pytorch), robotics, security, and more., apply c++, beginners, cognitive, developer, knowledge, learning,, mainframe, algorithms, artificial, experience, foundation, interfaces, prediction, sequences,, strategies, tensorflow, certificate, competitive, development, forecasting, programming, simplilearn, time series, applications, cobol coding, data science, inteligencia, intelligence, introducción, introduction, introductory, professional, programming:, self-driving, c programming, deep learning, intelligence,, intelligence:, train a model, decision trees, distinguishing, specialization, tree ensembles, cobol divisions, cobol structure, computer vision, getting started, in this program, knowledge-based, neural networks, column structure, game programming, gradient descent, machine learning, potential biases, linear regression, intrinsic function, enterprise software, logistic regression, recommender systems, supervised learning, computer programming, issue tracking system, command-line interface, video game development, artificial intelligence, euler's totient function, artificial neural network, including data processing, trading signal generation, c++ (programming language), develop trading strategies, artificial intelligence (ai), computer programs/algorithms, scrum (software development), unreal engine (user interface).\nPlease consider these related areas when generating database queries.\n",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "Find AI courses for beginners across all providers.",
+      "aggregation_strategy": "provider_level",
+      "sort_field": null,
+      "sort_order": null,
+      "global_limit": null,
+      "providers": {
+        "coursera": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Sub-Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "udacity": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "What you learn": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Level": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "simplilearn": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "futurelearn": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Sub-Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Sub-Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Query failed for coursera: unknown operator: $and, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $and', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763840516, 1), 'signature': {'hash': b'\\x92\\xd3\\x88\\x16n\\xf0c\\xf0\\xe5J\\x14\\xf4\\xe1\\xac\\x11xRQg\\xeb', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763840516, 1)}"
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "What you learn": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Level": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Query failed for udacity: unknown operator: $and, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $and', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763840513, 1), 'signature': {'hash': b'\"Z\\x04T\\x02\\x89Z\\\\a\\x9f\\xcc\\xd9\\xc3\\xf8q\\x9b\\x07O\\xea\\xd3', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763840513, 1)}"
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Query failed for simplilearn: unknown operator: $and, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $and', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763840517, 2), 'signature': {'hash': b\"\\xebuA\\xb6\\xb4\\x99\\x81\\x8bwD_'\\x0cw\\x89\\xc7[\\xb0\\xa2\\xdd\", 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763840517, 2)}"
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "filter": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Sub-Category": {
+                      "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "beginner|introductory|introduction|basic",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Query failed for futurelearn: unknown operator: $and, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $and', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763840516, 1), 'signature': {'hash': b'M\\x98\\x99\\x8a\\xb2g\\x9a\\x1eyzk\\xa5\\x17\\x934\\x81~Pr\\xf4', 'keyId': 7542623799171088392}}, 'operationTime': Timestamp(1763840516, 1)}"
+      }
+    },
+    "semantic_expansion_applied": true
+  },
+  "all_results": []
+}

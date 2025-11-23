@@ -1,0 +1,93 @@
+{
+  "user_query": "Show me AI course from Udacity platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find AI courses from Udacity platform. Specifically targeting courses related to artificial intelligence.",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "artificial intelligence",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T20:50:12.427694"
+}

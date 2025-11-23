@@ -1,0 +1,98 @@
+{
+  "user_query": "Show me all deep learning & Reinforcement learning courses",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find courses related to deep learning and reinforcement learning.",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "deep learning|reinforcement learning",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T20:47:14.266341"
+}

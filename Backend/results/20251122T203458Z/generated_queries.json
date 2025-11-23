@@ -1,0 +1,126 @@
+{
+  "user_query": "Show me AI coruses for beginers",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find beginner AI courses across multiple providers, encompassing AI, LLM, NLP, and related concepts.",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          }
+        ],
+        "Level": {
+          "$regex": "Beginner",
+          "$options": "i"
+        }
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|python|python:|mainframe|data\\ science|transformers|deep\\ learning|generative\\ ai|train\\ a\\ model|computer\\ vision|neural\\ networks|machine\\ learning|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|natural\\ language\\ processing|artificial\\ intelligence\\ \\(ai\\)",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T20:34:58.859104"
+}

@@ -1,0 +1,42 @@
+{
+  "user_query": "SHow me AI courses from FutureLearn DB",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "AI courses from FutureLearn",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bAI\\b|\\bArtificial Intelligence\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T19:01:44.475888"
+}

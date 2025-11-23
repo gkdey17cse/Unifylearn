@@ -1,0 +1,120 @@
+{
+  "user_query": "Show me Deep Learning Courses from Udacity platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [
+      {
+        "_id": "68ac0cf969e0bdd621a8d8e3",
+        "Title": "Intro to TensorFlow for Deep Learning",
+        "URL": "https://www.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187",
+        "Short Intro": "This course is a practical approach to deep learning for software developers.",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "To get the most out of your experience, we recommend the following:Beginning Python syntax, including: variables, functions, classes, and object-oriented programmingBasic algebraSee the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to Machine LearningGet a high-level overview of artificial intelligence and machine learningLearn how machine learning and deep learning have revolutionized softwareGet a high-level overview of artificial intelligence and machine learningLearn how machine learning and deep learning have revolutionized softwareYour First Model: Fashion MNISTBuild a neural network that can recognize images of articles of clothingBuild a neural network that can recognize images of articles of clothingIntroduction to Convolutional Neural Networks (\"CNNs\")Use a convolutional network to build more efficient models for Fashion MNISTUse a convolutional network to build more efficient models for Fashion MNISTGoing Further with CNNsExpand your image classifiers into models that can predict from multiple classesUse a convolutional network to build a classifier for more detailed color imagesExpand your image classifiers into models that can predict from multiple classesUse a convolutional network to build a classifier for more detailed color imagesTransfer LearningUse a pre-trained network to build powerful state-of-the-art classifiersUse a pre-trained network to build powerful state-of-the-art classifiersSaving and Loading ModelsLook at the new SAVEDMODEL format in TensorFlow 2.0 and take advantage of it for TensorFlow-Lite and TensorFlow-ServingLook at the new SAVEDMODEL format in TensorFlow 2.0 and take advantage of it for TensorFlow-Lite and TensorFlow-ServingTime Series ForecastingLearning from sequential data with recurrent neural networksLearning from sequential data with recurrent neural networksNatural Language Processing Tokenize words and create embeddings for using text data with neural networksBuild recurrent neural networks, such as LSTMs, for improved NLP modelsGenerate new text for tasks like novel song lyricsTokenize words and create embeddings for using text data with neural networksBuild recurrent neural networks, such as LSTMs, for improved NLP modelsGenerate new text for tasks like novel song lyricsIntroduction to TensorFlow LiteLearn how you can use TensorFlow lite to build machine learning apps on Android, iOS and iOT devicesLearn how you can use TensorFlow lite to build machine learning apps on Android, iOS and iOT devices"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d909",
+        "Title": "Self-Driving Car Engineer",
+        "URL": "https://www.udacity.com/course/self-driving-car-engineer-nanodegree--nd0013",
+        "Short Intro": "Self-driving cars are transformational technology, on the cutting-edge of robotics, machine learning and engineering. Learn the skills and techniques used by self-driving car teams at the most advanced technology companies in the world.",
+        "Duration": "5 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Self-Driving Car Engineer",
+        "Prequisites": "Python, C++, Linear Algebra and Calculus.",
+        "What you learn": "In this program, you will learn the techniques that power self-driving cars across the full stack of a vehicle’s autonomous capabilities. Using Deep Learning with radar and lidar sensor fusion, you will train the vehicle to detect and identify its surroundings to inform navigation. "
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d911",
+        "Title": "Deep Learning",
+        "URL": "https://www.udacity.com/course/deep-learning-nanodegree--nd101",
+        "Short Intro": "Learn to leverage the capabilities of deep learning tools to fix complex problems and unlock next-level results for enterprises.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Deep Learning",
+        "Prequisites": "Intermediate Python.",
+        "What you learn": "Join the next generation of deep learning talent that will help define a highly beneficial AI-powered future for our world. In this program, you’ll study cutting-edge topics such as neural networks, convolutional neural networks, recurrent neural networks, and generative adversarial networks."
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d915",
+        "Title": "Become a Computer Vision Expert",
+        "URL": "https://www.udacity.com/course/computer-vision-nanodegree--nd891",
+        "Short Intro": "Master the computer vision skills behind advances in robotics and automation. Write programs to analyze images, implement feature extraction, and recognize objects using deep learning models.",
+        "Duration": "3 Months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Foundations of Computer Vision",
+        "Prequisites": "This program requires experience with Python, statistics, machine learning, and deep learning.",
+        "What you learn": "Learn cutting-edge computer vision and deep learning techniques—from basic image processing, to building and customizing convolutional neural networks. Apply these concepts to vision tasks such as automatic image captioning and object tracking, and build a robust portfolio of computer vision projects."
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d917",
+        "Title": "Become a Natural Language Processing Expert",
+        "URL": "https://www.udacity.com/course/natural-language-processing-nanodegree--nd892",
+        "Short Intro": "Master the skills to get computers to understand, process, and manipulate human language. Build models on real data, and get hands-on experience with sentiment analysis, machine translation, and more.",
+        "Duration": "3 Months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Master Natural Language Processing",
+        "Prequisites": "This program requires experience with Python, statistics, machine learning, and deep learning.",
+        "What you learn": "Learn cutting-edge natural language processing techniques to process speech and analyze text. Build probabilistic and deep learning models, such as hidden Markov models and recurrent neural networks, to teach the computer to do tasks such as speech recognition, machine translation, and more!"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d8d3",
+        "Title": "Introduction to Machine Learning using Microsoft Azure",
+        "URL": "https://www.udacity.com/course/introduction-to-machine-learning-using-microsoft-azure--ud00333",
+        "Short Intro": "Enrollments are closed for this course.",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "The Introduction to Machine Learning using Microsoft Azure course is intended for learners who have prior programming knowledge in any language, preferably Python, and are comfortable writing scripts. Having a knowledge of basic statistics will also help with deploying the Machine Learning models in this course.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to Machine LearningGain a high-level introduction to the field of machine learning and train your first machine learning model using Azure Machine Learning StudioGain a high-level introduction to the field of machine learning and train your first machine learning model using Azure Machine Learning StudioModel TrainingLearn how to prepare data and then transform it into trained machine learning models and get an introduction to ensemble learning and automated machine learningLearn how to prepare data and then transform it into trained machine learning models and get an introduction to ensemble learning and automated machine learningSupervised & Unsupervised LearningDive into two of Machine Learning's fundamental approaches: supervised and unsupervised learning and learn about classification, regression, clustering, representation learning, and moreDive into two of Machine Learning's fundamental approaches: supervised and unsupervised learning and learn about classification, regression, clustering, representation learning, and moreApplications of Machine LearningThis lesson looks at some of the most important applications of ML, including deep learning, similarity learning, text classification, feature learning, and anomaly detectionThis lesson looks at some of the most important applications of ML, including deep learning, similarity learning, text classification, feature learning, and anomaly detectionManaged Services for Machine LearningLearn how to enhance your ML processes with managed services and discuss computing resources, the modeling process, automation via pipelines, and moreLearn how to enhance your ML processes with managed services and discuss computing resources, the modeling process, automation via pipelines, and moreResponsible AIThis lesson will tackle some of the potential implications and challenges posed by ML and AI—as well as principles for building responsible AI that avoids harming othersThis lesson will tackle some of the potential implications and challenges posed by ML and AI—as well as principles for building responsible AI that avoids harming others"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d8d7",
+        "Title": "Intel® Edge AI Fundamentals with OpenVINO™",
+        "URL": "https://www.udacity.com/course/intel-edge-AI-fundamentals-with-openvino--ud132",
+        "Short Intro": "Develop cutting-edge Edge AI applications",
+        "Duration": "Estimated timeApprox. 1 Month",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Basic Python experience. Basic familiarity with computer vision and AI model creation.See the Technology Requirements for using Udacity.",
+        "What you learn": "Leveraging Pre-Trained ModelsLeverage a pre-trained model for computer vision inferencingLeverage a pre-trained model for computer vision inferencingThe Model OptimizerConvert pre-trained models into the framework-agnostic intermediate representation with the Model OptimizerConvert pre-trained models into the framework-agnostic intermediate representation with the Model OptimizerThe Inference EnginePerform efficient inference on deep learning models through the hardware-agnostic Inference EnginePerform efficient inference on deep learning models through the hardware-agnostic Inference EngineDeploying an Edge AppDeploy an app on the edge, including sending information through MQTT, and analyze model performance and use casesDeploy an app on the edge, including sending information through MQTT, and analyze model performance and use cases"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d8e2",
+        "Title": "Introduction to TensorFlow Lite",
+        "URL": "https://www.udacity.com/course/intro-to-tensorflow-lite--ud190",
+        "Short Intro": "Learn how to deploy deep learning models on mobile and embedded devices with TensorFlow Lite.",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "General Experience: Some familiarity with the TensorFlow Lite framework, and comfortability with Object Oriented Programming, Python, Swift, Android, and Machine Learning.See the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to TensorFlow LiteLearn how TensorFlow works under the hoodLearn how to quantize modelsLearn how to test your TF Lite Models in PythonLearn how TensorFlow works under the hoodLearn how to quantize modelsLearn how to test your TF Lite Models in PythonTensorFlow Lite on AndroidDeploy a TF Lite Model to an Android app that classifies images of cats and dogsDeploy a TF Lite Model to an Android app that classifies images of various objectsDeploy a TF Lite Model to an Android app that performs object detectionDeploy a TF Lite Model to an Android app that recognizes speech commandsDeploy a TF Lite Model to an Android app that classifies images of cats and dogsDeploy a TF Lite Model to an Android app that classifies images of various objectsDeploy a TF Lite Model to an Android app that performs object detectionDeploy a TF Lite Model to an Android app that recognizes speech commandsTensorFlow Lite on SwiftDeploy a TF Lite Model to an iOS app that classifies images of cats and dogsDeploy a TF Lite Model to an iOS app that classifies images of various objectsDeploy a TF Lite Model to an iOS app that performs object detectionDeploy a TF Lite Model to an iOS app that recognizes speech commandsDeploy a TF Lite Model to an iOS app that classifies images of cats and dogsDeploy a TF Lite Model to an iOS app that classifies images of various objectsDeploy a TF Lite Model to an iOS app that performs object detectionDeploy a TF Lite Model to an iOS app that recognizes speech commandsTensorFlow Lite on IoTDeploy a TF Lite Model to a Linux embedded platform that classifies images of cats and dogsDeploy a TF Lite Model to a Linux embedded platform that classifies images of various objectsDeploy a TF Lite Model to a Linux embedded platform that performs object detectionDeploy a TF Lite Model to a Linux embedded platform that classifies images of cats and dogsDeploy a TF Lite Model to a Linux embedded platform that classifies images of various objectsDeploy a TF Lite Model to a Linux embedded platform that performs object detection"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d8e7",
+        "Title": "Intro to Deep Learning with PyTorch",
+        "URL": "https://www.udacity.com/course/deep-learning-pytorch--ud188",
+        "Short Intro": "Use PyTorch to implement your first deep neural network",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "To succeed in this course, you’ll need to be comfortable with Python and data processing libraries such as NumPy and Matplotlib. Basic knowledge of linear algebra and calculus is recommended, but isn’t required to complete the exercises.See the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to Deep LearningDiscover the basic concepts of deep learning such as neural networks and gradient descentImplement a neural network in NumPy and train it using gradient descent with in-class programming exercisesBuild a neural network to predict student admissionsDiscover the basic concepts of deep learning such as neural networks and gradient descentImplement a neural network in NumPy and train it using gradient descent with in-class programming exercisesBuild a neural network to predict student admissionsIntroduction to PyTorchHear from Soumith Chintala, the creator of PyTorch, how the framework came to be, where it’s being used now, and how it’s changing the future of deep learningHear from Soumith Chintala, the creator of PyTorch, how the framework came to be, where it’s being used now, and how it’s changing the future of deep learningDeep Learning with PyTorchBuild your first neural network with PyTorch to classify images of clothingWork through a set of Jupyter Notebooks to learn the major components of PyTorchLoad a pre-trained neural network to build a state-of-the-art image classifierBuild your first neural network with PyTorch to classify images of clothingWork through a set of Jupyter Notebooks to learn the major components of PyTorchLoad a pre-trained neural network to build a state-of-the-art image classifierConvolutional Neural NetworksUse PyTorch to build Convolutional Neural Networks for state-of-the-art computer vision applicationsTrain a convolutional network to classify dog breeds from images of dogsUse PyTorch to build Convolutional Neural Networks for state-of-the-art computer vision applicationsTrain a convolutional network to classify dog breeds from images of dogsStyle TransferUse a pre-trained convolutional network to create new art by merging the style of one image with the content of another imageImplement the paper \"A Neural Algorithm of Artistic Style” by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge\"Use a pre-trained convolutional network to create new art by merging the style of one image with the content of another imageImplement the paper \"A Neural Algorithm of Artistic Style” by Leon A. Gatys, Alexander S. Ecker, and Matthias Bethge\"Recurrent Neural NetworksBuild recurrent neural networks with PyTorch that can learn from sequential data such as natural languageImplement a network that learns from Tolstoy’s Anna Karenina to generate new text based on the novelBuild recurrent neural networks with PyTorch that can learn from sequential data such as natural languageImplement a network that learns from Tolstoy’s Anna Karenina to generate new text based on the novelNatural Language ClassificationUse PyTorch to implement a recurrent neural network that can classify textUse your network to predict the sentiment of movie reviewsUse PyTorch to implement a recurrent neural network that can classify textUse your network to predict the sentiment of movie reviewsDeploying with PyTorchSoumith Chintala teaches you how to deploy deep learning models with PyTorchBuild a chatbot and compile the network for deployment in a production environmentSoumith Chintala teaches you how to deploy deep learning models with PyTorchBuild a chatbot and compile the network for deployment in a production environment"
+      }
+    ],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 9,
+  "timestamp": "2025-11-22T20:57:58.517051"
+}
