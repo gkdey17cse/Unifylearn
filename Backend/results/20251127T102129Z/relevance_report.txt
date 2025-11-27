@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: SHow me Database course from Udacity & Sports related course from cursera
+Total Courses: 78
+Generated at: 2025-11-27T10:21:29.169611
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :  48 courses | Avg Prob: 0.0115 | Avg Score: 0.0348
+UDACITY        :  30 courses | Avg Prob: 0.0136 | Avg Score: 0.0520
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0543 | Score: 0.1257
+     Prediction Models with Sports Data
+     Skills: No skills
+
+ 2. [COURSERA    ] Prob: 0.0507 | Score: 0.1222
+     International Entertainment and Sports Marketing
+     Skills: Sports Marketing,Marketing By Medium,Marketing,Educational Entertainment,
+
+ 3. [COURSERA    ] Prob: 0.0392 | Score: 0.1094
+     Foundations of Sports Analytics: Data, Representation, and Models in Sports
+     Skills: No skills
+
+ 4. [COURSERA    ] Prob: 0.0293 | Score: 0.0948
+     Introduction to Machine Learning in Sports Analytics
+     Skills: No skills
+
+ 5. [COURSERA    ] Prob: 0.0286 | Score: 0.0937
+     Sports Performance Analytics Specialization
+     Skills: No skills
+
+ 6. [UDACITY     ] Prob: 0.0272 | Score: 0.0911
+     Intro to Relational Databases
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0270 | Score: 0.0907
+     Database Systems Concepts  Design
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0253 | Score: 0.0875
+     SQL for Data Analysis
+     Skills: No skills
+
+ 9. [COURSERA    ] Prob: 0.0250 | Score: 0.0869
+     Foundations for Big Data Analysis with SQL
+     Skills: Database (DBMS),Data Warehousing,Data Analysis,Big Data,SQL,
+
+10. [COURSERA    ] Prob: 0.0246 | Score: 0.0861
+     Wearable Technologies and Sports Analytics
+     Skills: No skills
+
+11. [UDACITY     ] Prob: 0.0232 | Score: 0.0831
+     Developing Android Apps with Kotlin
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0223 | Score: 0.0811
+     Oracle Autonomous Database Administration
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0193 | Score: 0.0739
+     Become a Data Architect
+     Skills: No skills
+
+14. [UDACITY     ] Prob: 0.0189 | Score: 0.0728
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+15. [COURSERA    ] Prob: 0.0184 | Score: 0.0715
+     Sports Marketing
+     Skills: No skills
+
+16. [UDACITY     ] Prob: 0.0171 | Score: 0.0679
+     How to Become a Data Analyst
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0138 | Score: 0.0573
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+18. [COURSERA    ] Prob: 0.0137 | Score: 0.0567
+     Spanish Vocabulary: Sports, Travel, and the Home
+     Skills: No skills
+
+19. [UDACITY     ] Prob: 0.0130 | Score: 0.0541
+     Oracle Cloud Infrastructure Architect Professional
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0128 | Score: 0.0532
+     Authentication  Authorization: OAuth
+     Skills: No skills
+
+21. [UDACITY     ] Prob: 0.0127 | Score: 0.0530
+     Server-Side Swift
+     Skills: No skills
+
+22. [UDACITY     ] Prob: 0.0124 | Score: 0.0517
+     iOS Networking with Swift
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0122 | Score: 0.0508
+     Learn SQL
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0120 | Score: 0.0500
+     Firebase in a Weekend: Android
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0120 | Score: 0.0500
+     Firebase in a Weekend: iOS
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0117 | Score: 0.0490
+     Programming for Data Science with R
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0117 | Score: 0.0490
+     Programming for Data Science with Python
+     Skills: No skills
+
+28. [COURSERA    ] Prob: 0.0117 | Score: 0.0490
+     Cloud Computing Law: Data Protection and Cybersecurity
+     Skills: Cybersecurity Regulation,Cloud Services,General Data Protection Regulation (GDPR),International Tran
+
+29. [COURSERA    ] Prob: 0.0115 | Score: 0.0481
+     Moneyball and Beyond
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0114 | Score: 0.0474
+     Introduction to SQL
+     Skills: No skills
+
+31. [COURSERA    ] Prob: 0.0101 | Score: 0.0415
+     C Programming for Unity Game Development Specialization
+     Skills: Video Game Development, C Sharp (C#) (Programming Language), Unity (User Interface), Game Programmin
+
+32. [UDACITY     ] Prob: 0.0101 | Score: 0.0414
+     Oracle Cloud Infrastructure Architect Associate
+     Skills: No skills
+
+33. [UDACITY     ] Prob: 0.0100 | Score: 0.0412
+     Software Debugging
+     Skills: No skills
+
+34. [UDACITY     ] Prob: 0.0094 | Score: 0.0378
+     Full Stack Foundations
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0093 | Score: 0.0377
+     Become a Data Product Manager
+     Skills: No skills
+
+36. [COURSERA    ] Prob: 0.0092 | Score: 0.0369
+     More C Programming and Unity
+     Skills: No skills
+
+37. [COURSERA    ] Prob: 0.0092 | Score: 0.0367
+     Intermediate Object-Oriented Programming for Unity Games
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0091 | Score: 0.0362
+     Full Stack Web Developer
+     Skills: No skills
+
+39. [UDACITY     ] Prob: 0.0087 | Score: 0.0342
+     How to Become a Business Analyst
+     Skills: No skills
+
+40. [COURSERA    ] Prob: 0.0086 | Score: 0.0332
+     Introduction to C Programming and Unity
+     Skills: Video Game Development,C Sharp (C#) (Programming Language),Unity (User Interface),Game Programming,
+
+41. [COURSERA    ] Prob: 0.0082 | Score: 0.0311
+     Game Design and Development 1: 2D Shooter
+     Skills: Video Game Development,Unity,Game Design,technology,Game Making,
+
+42. [UDACITY     ] Prob: 0.0082 | Score: 0.0309
+     Configuring Linux Web Servers
+     Skills: No skills
+
+43. [COURSERA    ] Prob: 0.0082 | Score: 0.0309
+     Game Design and Development 2: 2D Platformer
+     Skills: Video Game Development,Unity,Game Design,technology,Game Making,
+
+44. [COURSERA    ] Prob: 0.0081 | Score: 0.0307
+     Game Design and Development 4: 3D Platformer
+     Skills: Video Game Development,Unity,Game Design,technology,Game Making,
+
+45. [UDACITY     ] Prob: 0.0081 | Score: 0.0307
+     Data Science Interview Prep
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0081 | Score: 0.0306
+     Game Design and Development 3: 3D Shooter
+     Skills: Video Game Development,Unity,Game Design,technology,Game Making,
+
+47. [COURSERA    ] Prob: 0.0081 | Score: 0.0303
+     Low Poly Art For Video Games
+     Skills: No skills
+
+48. [COURSERA    ] Prob: 0.0081 | Score: 0.0302
+     Pixel Art for Video Games
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0079 | Score: 0.0294
+     International Marketing  Cross Industry Growth Specialization
+     Skills: Business Marketing, Sports Marketing, Marketing, Global Marketing, Brand Management, Marketing Strat
+
+50. [COURSERA    ] Prob: 0.0073 | Score: 0.0255
+     Introduction to Game Design
+     Skills: Video Game Development,Gameplay,Video Game Design,Game Design,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   2 courses (  2.6%)
+Medium    :  31 courses ( 39.7%)
+Low       :  45 courses ( 57.7%)
+Very Low  :   0 courses (  0.0%)

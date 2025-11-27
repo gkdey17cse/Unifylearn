@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me business courses from Huda City or simply learn platform
+Total Courses: 1600
+Generated at: 2025-11-27T09:57:48.494461
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 1173 courses | Avg Prob: 0.0005 | Avg Score: 0.0357
+UDACITY        :  45 courses | Avg Prob: 0.0005 | Avg Score: 0.0389
+SIMPLILEARN    :  54 courses | Avg Prob: 0.0005 | Avg Score: 0.0346
+FUTURELEARN    : 328 courses | Avg Prob: 0.0004 | Avg Score: 0.0240
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0042 | Score: 0.1548
+     Introduction to Business Analytics with R
+     Skills: Business Analytics,R Programming,Rstudio,
+
+ 2. [COURSERA    ] Prob: 0.0039 | Score: 0.1507
+     Business Analytics with Excel: Elementary to Advanced
+     Skills: Business Analytics,Spreadsheet,Microsoft Excel,Solver,Modeling,
+
+ 3. [COURSERA    ] Prob: 0.0038 | Score: 0.1495
+     High-Impact Business Writing
+     Skills: Email Writing,Proofreading,Writing,Communication,Business Writing,
+
+ 4. [COURSERA    ] Prob: 0.0036 | Score: 0.1478
+     Excel to MySQL: Analytic Techniques for Business Specialization
+     Skills: Binary Classification, Data Analysis, Tableau Software, SQL, Business Analysis, Business Analytics, 
+
+ 5. [COURSERA    ] Prob: 0.0036 | Score: 0.1476
+     International Business Essentials Specialization
+     Skills: Delegation, Business Plan, Pest Analysis, Statistical Hypothesis Testing, Personal Branding, Leaders
+
+ 6. [COURSERA    ] Prob: 0.0035 | Score: 0.1463
+     Business English for Non-Native Speakers Specialization
+     Skills: Business Communication, Communication, Business Writing, Writing, Grammar, English Language, 
+
+ 7. [COURSERA    ] Prob: 0.0035 | Score: 0.1454
+     Business Strategy Specialization
+     Skills: Strategic Analysis, Strategic Management, Strategic Thinking, Business Strategy, Capabilities Analys
+
+ 8. [COURSERA    ] Prob: 0.0034 | Score: 0.1444
+     New Models of Business in Society
+     Skills: Business Model,Management,Stakeholder Theory,Environmental Economics,Entrepreneurship,
+
+ 9. [COURSERA    ] Prob: 0.0032 | Score: 0.1412
+     Advanced Business Analytics Specialization
+     Skills: Data Analysis, Data Visualization (DataViz), Mathematical Optimization, SQL, Data Model, Data Qualit
+
+10. [COURSERA    ] Prob: 0.0031 | Score: 0.1404
+     Business Analytics Specialization
+     Skills: Machine Learning, Analytics, Data Analysis, power bi, Rstudio, Business Analytics, R Programming, He
+
+11. [COURSERA    ] Prob: 0.0031 | Score: 0.1395
+     Automation Business Analysis - Concepts and Principles
+     Skills: Process Analysis,Business Analysis,Elicitation Techniques,Process Definition Document,Process Assess
+
+12. [COURSERA    ] Prob: 0.0029 | Score: 0.1365
+     Business Writing
+     Skills: Grammar,Communication,Business Writing,Writing,
+
+13. [COURSERA    ] Prob: 0.0027 | Score: 0.1320
+     Business Transformation with Google Cloud
+     Skills: Organizational Culture,Business Transformation,Business Value,Business Strategy,Business Case Analys
+
+14. [COURSERA    ] Prob: 0.0026 | Score: 0.1308
+     Business Model Innovation
+     Skills: Strategic Management,Business Model,Business Modeling,Business Strategy,
+
+15. [COURSERA    ] Prob: 0.0026 | Score: 0.1302
+     Business Strategy
+     Skills: Strategic Management,Business Model,Strategic Thinking,Business Strategy,
+
+16. [COURSERA    ] Prob: 0.0025 | Score: 0.1284
+     Business Value and Project Management Specialization
+     Skills: Organizational Structure, Project Execution, Financial Accounting, Strategic Management, Project Man
+
+17. [COURSERA    ] Prob: 0.0024 | Score: 0.1261
+     Advanced Business Strategy
+     Skills: Strategic Management,Strategic Thinking,Business Strategy,business competition,
+
+18. [COURSERA    ] Prob: 0.0023 | Score: 0.1247
+     Business Growth Strategy
+     Skills: Mergers And Acquisitions (M&A),innovation strategy,Strategic Thinking,Business Strategy,growth strat
+
+19. [COURSERA    ] Prob: 0.0023 | Score: 0.1240
+     Foundations of Business Strategy
+     Skills: Capabilities Analysis,Business Strategy,Competitive Position,Strategic Analysis,Industry Structure,
+
+20. [COURSERA    ] Prob: 0.0022 | Score: 0.1237
+     Key Technologies for Business Specialization
+     Skills: Data Science, Artificial Intelligence (AI), Business, Cloud Computing, technology, Cloud Native, Dev
+
+21. [COURSERA    ] Prob: 0.0022 | Score: 0.1227
+     Business Strategy in Practice Project-centered Course
+     Skills: Strategic Analysis,Strategic Management,Business Strategy,Competitiveness,
+
+22. [UDACITY     ] Prob: 0.0022 | Score: 0.1225
+     Predictive Analytics for Business
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0021 | Score: 0.1213
+     European Business Law: Understanding the Fundamentals
+     Skills: Foreign Policy,Law,Legal Research,Business Law,
+
+24. [COURSERA    ] Prob: 0.0021 | Score: 0.1203
+     Blockchain Business Models
+     Skills: Cryptocurrency,Blockchains,Business Model,Disruptive Innovation,Innovation,
+
+25. [COURSERA    ] Prob: 0.0021 | Score: 0.1203
+     Business Foundations Specialization
+     Skills: Positioning (Marketing), Marketing, Marketing Strategy, Customer Satisfaction, Financial Accounting,
+
+26. [COURSERA    ] Prob: 0.0020 | Score: 0.1192
+     Business Sustainability in the Circular Economy
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0020 | Score: 0.1186
+     Data Science for Business Leaders
+     Skills: No skills
+
+28. [COURSERA    ] Prob: 0.0020 | Score: 0.1179
+     Innovating with the Business Model Canvas
+     Skills: Product/Market Fit,Business Model,Product Management,business focus,corporate innovation,
+
+29. [COURSERA    ] Prob: 0.0020 | Score: 0.1173
+     English for Effective Business Writing
+     Skills: Business Communication,English Language,Business Writing,Writing,
+
+30. [COURSERA    ] Prob: 0.0020 | Score: 0.1167
+     Entrepreneurship: Growing Your Business Specialization
+     Skills: Entrepreneurship, Leadership & Management, Innovation, Finance, HR Tech, Financial Accounting, Accou
+
+31. [COURSERA    ] Prob: 0.0019 | Score: 0.1165
+     Business Strategies for Social Impact
+     Skills: No skills
+
+32. [COURSERA    ] Prob: 0.0019 | Score: 0.1165
+     Music Business Specialization
+     Skills: Copyright, Music, Social Media, Business, Entrepreneurship, Music business, Revenue streams, Teambui
+
+33. [COURSERA    ] Prob: 0.0019 | Score: 0.1149
+     Infonomics I: Business Information Economics and Data Monetization
+     Skills: strategy,Accounting,Data Analysis,Big Data,Innovation,
+
+34. [COURSERA    ] Prob: 0.0019 | Score: 0.1145
+     Data Warehousing for Business Intelligence Specialization
+     Skills: Pentaho, Data Visualization (DataViz), Data Warehouse, SQL, Database (DB) Design, Entity–Relationshi
+
+35. [COURSERA    ] Prob: 0.0018 | Score: 0.1139
+     Business English Communication Skills Specialization
+     Skills: Business Plan, English Language, Meeting, Presentation, Email Writing, Business Communication, Commu
+
+36. [COURSERA    ] Prob: 0.0018 | Score: 0.1139
+     Business Intelligence Concepts, Tools, and Applications
+     Skills: Business Intelligence,Data Analysis,Data Visualization (DataViz),Microstrategy,
+
+37. [COURSERA    ] Prob: 0.0018 | Score: 0.1137
+     European Business Law Specialization
+     Skills: Compete on the Internal Market, Legal Research, Law, Business Law, Foreign Policy, 
+
+38. [COURSERA    ] Prob: 0.0018 | Score: 0.1130
+     Business English Specialization
+     Skills: Negotiation, English Language, Management, Marketing, Writing, Communication, Emailing, Meeting, Win
+
+39. [COURSERA    ] Prob: 0.0018 | Score: 0.1130
+     Federal Taxation II: Property Transactions of Business Owners and Shareholders
+     Skills: No skills
+
+40. [COURSERA    ] Prob: 0.0018 | Score: 0.1124
+     English for Business and Entrepreneurship
+     Skills: Business Plan,Market Research,English Language,Entrepreneurship,
+
+41. [COURSERA    ] Prob: 0.0018 | Score: 0.1120
+     Introduction to Business Analytics: Communicating with Data
+     Skills: Data Analysis,Analytics,Business Analytics,Health Care,
+
+42. [COURSERA    ] Prob: 0.0018 | Score: 0.1119
+     Fundamentals of International Business
+     Skills: No skills
+
+43. [COURSERA    ] Prob: 0.0018 | Score: 0.1119
+     SAS Visual Business Analytics Professional Certificate
+     Skills: Business Analytics,SAS VA,SAS Visual Analytics,
+
+44. [COURSERA    ] Prob: 0.0017 | Score: 0.1109
+     International B2B Business to Business Marketing
+     Skills: Business Marketing,Marketing,Marketing Strategy,
+
+45. [COURSERA    ] Prob: 0.0017 | Score: 0.1107
+     European Business Law Specialization
+     Skills: Regulation and Legal Compliance , Legal Research , Business , Intellectual Property , Tax Laws , Com
+
+46. [COURSERA    ] Prob: 0.0017 | Score: 0.1104
+     Analysis for Business Systems
+     Skills: Business analysis skills and knowledge,Management,Project management skills and knowledge,
+
+47. [COURSERA    ] Prob: 0.0017 | Score: 0.1102
+     International Business Capstone
+     Skills: No skills
+
+48. [COURSERA    ] Prob: 0.0017 | Score: 0.1089
+     Managerial Economics and Business Analysis Capstone
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0017 | Score: 0.1087
+     Exploring and Producing Data for Business Decision Making
+     Skills: Data Analysis,Microsoft Excel,Statistical Analysis,Normal Distribution,
+
+50. [COURSERA    ] Prob: 0.0016 | Score: 0.1079
+     International Business Environment
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       : 121 courses (  7.6%)
+Very Low  : 1479 courses ( 92.4%)

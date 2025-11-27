@@ -38,6 +38,79 @@
     }
   </script>
 
+  <!--  Voice Functionality -->
+  <style>
+    /* Improved voice recognition styles */
+
+    /* Voice button states */
+    .voice-listening {
+      animation: voice-pulse 1s ease-in-out infinite;
+      box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3);
+    }
+
+    @keyframes voice-pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+        box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3);
+      }
+
+      50% {
+        transform: scale(1.05);
+        box-shadow: 0 0 0 4px rgba(239, 68, 68, 0.5);
+      }
+    }
+
+    /* Clear button positioning */
+    .relative .absolute {
+      z-index: 10;
+    }
+
+    /* Better textarea focus states */
+    textarea:focus {
+      border-color: #a855f7;
+      box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
+    }
+
+    /* Voice help tooltip */
+    .voice-tooltip {
+      position: absolute;
+      bottom: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1f2937;
+      color: white;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 12px;
+      white-space: nowrap;
+      opacity: 0;
+      transition: opacity 0.2s;
+      pointer-events: none;
+    }
+
+    .voice-tooltip::after {
+      content: '';
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+      border: 4px solid transparent;
+      border-top-color: #1f2937;
+    }
+
+    .voice-button-wrapper:hover .voice-tooltip {
+      opacity: 1;
+    }
+
+    /* Error states */
+    .textarea-error {
+      border-color: #ef4444;
+      box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+    }
+  </style>
+
   <style>
     .poppins-thin {
       font-family: "Poppins", sans-serif;
@@ -246,9 +319,9 @@
   </footer>
 
   <!-- Chatbot -->
-  <!-- Chatbot -->
-  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50 h-max" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
-    <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200 overflow-hidden">
+
+  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50 h-max text-sm">
+    <div class="bg-violet-100 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200 overflow-hidden">
       <!-- Header -->
       <div class="flex justify-between items-center bg-primary-600 text-white px-4 py-3">
         <div class="flex items-center space-x-2">
@@ -268,7 +341,7 @@
       </div>
 
       <!-- Chat body -->
-      <div class="border-t border-gray-200">
+      <div class="border-t border-gray-200 bg-violet-100">
         <div id="chatMessages" class="chat-messages h-80 overflow-y-auto p-4 bg-gray-50/90">
           <div class="flex mb-4">
             <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
@@ -280,164 +353,357 @@
           </div>
         </div>
 
-        <!-- Input -->
-        <div class="px-4 py-3 bg-white border-t border-gray-200 flex h-20">
-          <input type="text" id="userInput" placeholder="Ask about courses (e.g., Python for beginners)..." class="flex-grow px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm">
-          <button id="sendButton" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-r-lg font-medium transition-colors">
-            <i class="fas fa-paper-plane"></i>
-          </button>
+        <!-- Updated Input Section -->
+        <div class="px-4 py-3 bg-white border-t border-gray-200">
+          <div class="flex flex-col space-y-2">
+            <!-- Text Input Area -->
+            <div class="flex items-start space-x-2">
+              <div class="flex-1 relative">
+                <textarea id="userInput" placeholder="Ask about courses (e.g., Python for beginners)..." rows="2" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm resize-none min-h-[60px] max-h-[120px] transition-colors"></textarea>
+                <!-- Character counter -->
+                <div class="absolute bottom-1 right-2 text-xs text-gray-400 hidden" id="charCount">
+                  <span id="charCountText">0</span>/500
+                </div>
+              </div>
+            </div>
+
+            <!-- Action Buttons -->
+            <div class="flex justify-between items-center">
+              <!-- Voice Input Button with Wrapper for Tooltip -->
+              <div class="voice-button-wrapper relative">
+                <button id="voiceButton" class="bg-gray-100 hover:bg-gray-200 text-gray-700 p-2 rounded-lg transition-all duration-200 relative group" title="Voice Input (Ctrl+Space)" type="button">
+                  <i class="fas fa-microphone"></i>
+                </button>
+                <div class="voice-tooltip">
+                  Click to speak (Ctrl+Space)
+                </div>
+              </div>
+
+              <!-- Send Button -->
+              <button id="sendButton" class="bg-primary-600 hover:bg-primary-700 text-white px-6 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed" type="button">
+                <span>Send</span>
+                <i class="fas fa-paper-plane text-sm"></i>
+              </button>
+            </div>
+          </div>
         </div>
+
+
       </div>
     </div>
   </div>
 
-
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const chatbotWrapper = document.getElementById('chatbotWrapper');
-      const minimizeBtn = document.getElementById('minimizeChat');
-
-      minimizeBtn.addEventListener('click', () => {
-        if (chatbotWrapper.classList.contains('minimized')) {
-          chatbotWrapper.classList.remove('minimized');
-          chatbotWrapper.style.height = 'auto';
-        } else {
-          chatbotWrapper.classList.add('minimized');
-          chatbotWrapper.style.height = '50px';
-        }
-      });
-    });
-  </script>
-
-
+  <!-- Script for Voice Functionality -->
   <script>
     window.__LOCAL_COURSES__ = <%- JSON.stringify(courses || []) %>;
-    window.__LOCAL_TEST_MESSAGE__ = <%- JSON.stringify(message || '') %>;
     window.__CURRENT_TIMESTAMP__ = <%- JSON.stringify(locals.timestamp || '') %>;
+    const CHAT_STORAGE_KEY = 'unifylearn_chat_history';
   </script>
 
   <script>
-    const CHAT_STORAGE_KEY = 'unifylearn_chat_history';
+    class VoiceRecognition {
+      constructor() {
+        this.recognition = null;
+        this.isListening = false;
+        this.voiceButton = document.getElementById('voiceButton');
+        this.userInput = document.getElementById('userInput');
+
+        // State variables
+        this.manualInput = '';
+        this.sessionTranscript = '';
+
+        this.init();
+      }
+
+      init() {
+        // Check browser support
+        if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
+          if (this.voiceButton) this.voiceButton.style.display = 'none';
+          return;
+        }
+
+        const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+        this.recognition = new SpeechRecognition();
+
+        this.setupRecognition();
+        this.setupEventListeners();
+      }
+
+      setupRecognition() {
+        this.recognition.continuous = true; // CRITICAL: Allows pauses
+        this.recognition.interimResults = true;
+        this.recognition.lang = 'en-US';
+
+        this.recognition.onstart = () => {
+          this.isListening = true;
+          this.updateUIState(true);
+          this.addListeningIndicator();
+        };
+
+        this.recognition.onresult = (event) => {
+          let interimTranscript = '';
+          let finalForThisSegment = '';
+
+          // Process results
+          for (let i = event.resultIndex; i < event.results.length; i++) {
+            const transcript = event.results[i][0].transcript;
+            if (event.results[i].isFinal) {
+              finalForThisSegment += transcript;
+            } else {
+              interimTranscript += transcript;
+            }
+          }
+
+          // Append final text to session storage
+          if (finalForThisSegment) {
+            const prefix = (this.sessionTranscript.length > 0 || this.manualInput.length > 0) ? ' ' : '';
+            this.sessionTranscript += prefix + finalForThisSegment;
+          }
+
+          // Display Logic: Manual + Saved Voice + Current Interim
+          let displayInterim = '';
+          if (interimTranscript) {
+            displayInterim = (this.sessionTranscript || this.manualInput) ? ' ' + interimTranscript : interimTranscript;
+          }
+
+          const totalText = this.manualInput + this.sessionTranscript + displayInterim;
+          this.updateInput(totalText);
+        };
+
+        this.recognition.onerror = (event) => {
+          // Ignore silence errors (happens during pauses)
+          if (event.error === 'no-speech') return;
+
+          console.error('Speech error:', event.error);
+          this.stopListening(); // Soft stop on real errors
+        };
+
+        this.recognition.onend = () => {
+          // Only fully stop if the flag says we shouldn't be listening.
+          // In continuous mode, onend happens on network error or user stop.
+          if (!this.isListening) {
+            this.updateUIState(false);
+            this.removeListeningIndicator();
+          }
+        };
+      }
+
+      setupEventListeners() {
+        if (!this.voiceButton) return;
+
+        this.voiceButton.addEventListener('click', (e) => {
+          e.preventDefault();
+          if (this.isListening) {
+            this.stopListening();
+          } else {
+            this.startListening();
+          }
+        });
+      }
+
+      startListening() {
+        // Hard reset to ensure clean slate
+        this.recognition.abort();
+        this.isListening = true;
+
+        // Capture what's currently in the box so we append to it
+        this.manualInput = this.userInput.value;
+        this.sessionTranscript = '';
+
+        try {
+          this.recognition.start();
+        } catch (error) {
+          console.error("Mic start error:", error);
+          this.isListening = false;
+        }
+      }
+
+      stopListening() {
+        this.isListening = false;
+        try {
+          this.recognition.stop();
+        } catch (e) {}
+
+        // Finalize state
+        this.manualInput = this.userInput.value;
+        this.sessionTranscript = '';
+
+        this.updateUIState(false);
+        this.removeListeningIndicator();
+        this.updateCharCount();
+      }
+
+      // CRITICAL FIX: Use abort() instead of stop() for resets
+      // This kills the connection immediately, preventing "Mic Dead" on reload
+      resetState() {
+        this.isListening = false;
+        try {
+          this.recognition.abort();
+        } catch (e) {}
+        this.manualInput = '';
+        this.sessionTranscript = '';
+        this.updateUIState(false);
+        this.removeListeningIndicator();
+      }
+
+      // --- UI HELPERS ---
+      updateUIState(listening) {
+        if (listening) {
+          this.voiceButton.innerHTML = '<i class="fas fa-stop"></i>';
+          this.voiceButton.classList.replace('bg-gray-100', 'bg-red-500');
+          this.voiceButton.classList.replace('text-gray-700', 'text-white');
+          this.voiceButton.classList.add('voice-listening');
+        } else {
+          this.voiceButton.innerHTML = '<i class="fas fa-microphone"></i>';
+          this.voiceButton.classList.replace('bg-red-500', 'bg-gray-100');
+          this.voiceButton.classList.replace('text-white', 'text-gray-700');
+          this.voiceButton.classList.remove('voice-listening');
+        }
+      }
+
+      updateInput(text) {
+        this.userInput.value = text;
+        this.userInput.scrollTop = this.userInput.scrollHeight;
+        this.userInput.style.height = 'auto';
+        this.userInput.style.height = Math.min(this.userInput.scrollHeight, 120) + 'px';
+        this.updateCharCount();
+      }
+
+      updateCharCount() {
+        const charCount = document.getElementById('charCount');
+        const charCountText = document.getElementById('charCountText');
+        if (charCount && charCountText) {
+          charCountText.textContent = this.userInput.value.length;
+          charCount.classList.toggle('hidden', this.userInput.value.length === 0);
+        }
+      }
+
+      addListeningIndicator() {
+        this.removeListeningIndicator();
+        const indicator = document.createElement('div');
+        indicator.id = 'listeningIndicator';
+        indicator.className = 'flex items-center space-x-2 text-sm text-green-600 mb-2 transition-all';
+        indicator.innerHTML = `
+          <div class="flex space-x-1">
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
+            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+          </div>
+          <span>Listening... (Pause allowed)</span>`;
+        this.userInput.parentNode.insertBefore(indicator, this.userInput);
+      }
+
+      removeListeningIndicator() {
+        const indicator = document.getElementById('listeningIndicator');
+        if (indicator) indicator.remove();
+      }
+
+      showError(message) {
+        const errorDiv = document.createElement('div');
+        errorDiv.className = 'text-red-500 text-xs mt-1 absolute -bottom-6 left-0';
+        errorDiv.innerText = message;
+        this.voiceButton.parentNode.appendChild(errorDiv);
+        setTimeout(() => errorDiv.remove(), 4000);
+      }
+    }
+  </script>
+
+  <script>
     document.addEventListener('DOMContentLoaded', function() {
+      // 1. Initialize Voice
+      window.voiceApp = new VoiceRecognition();
+
+      // 2. Initialize Chat
       initializeChatbot();
-      renderCourses();
 
-      // Event delegation for dynamically rendered course cards - FIXED VERSION
-      document.addEventListener('click', function(e) {
-        // Description toggle
-        if (e.target.classList.contains('toggle-description')) {
-          const desc = e.target.nextElementSibling;
-          const isExpanded = desc.classList.contains('expanded');
+      // 3. Render Courses (Using your Original UI File)
+      renderCoursesOriginal();
 
-          if (isExpanded) {
-            desc.classList.remove('expanded');
-            e.target.textContent = 'Read more';
-          } else {
-            desc.classList.add('expanded');
-            e.target.textContent = 'Show less';
-          }
-        }
-
-        // Skills toggle
-        if (e.target.classList.contains('toggle-skills')) {
-          const skillsContainer = e.target.closest('.mb-3');
-          const allSkills = skillsContainer.querySelector('.all-skills');
-          const isExpanded = allSkills.classList.contains('expanded');
-
-          if (isExpanded) {
-            allSkills.classList.remove('expanded');
-            e.target.textContent = 'Show all';
-          } else {
-            allSkills.classList.add('expanded');
-            e.target.textContent = 'Show less';
-          }
-        }
-
-        // Outcomes toggle
-        if (e.target.classList.contains('toggle-outcomes')) {
-          const outcomesContainer = e.target.closest('.mb-3');
-          const allOutcomes = outcomesContainer.querySelector('.all-outcomes');
-          const isExpanded = allOutcomes.classList.contains('expanded');
-
-          if (isExpanded) {
-            allOutcomes.classList.remove('expanded');
-            e.target.textContent = 'Show all';
-          } else {
-            allOutcomes.classList.add('expanded');
-            e.target.textContent = 'Show less';
-          }
-        }
-      });
+      // 4. Setup Toggles
+      setupToggles();
     });
 
+    // --- ORIGINAL RENDERING LOGIC ---
+    function renderCoursesOriginal() {
+      const courses = window.__LOCAL_COURSES__;
+      const resultsContainer = document.getElementById('results-container');
+      const guideSection = document.getElementById('guideSection');
+
+      if (courses && courses.length > 0) {
+        // If container missing (edge case), recreate it
+        if (!resultsContainer) {
+          if (guideSection) guideSection.classList.add('hidden');
+          const main = document.querySelector('main');
+          const h2 = document.createElement('h2');
+          h2.className = "text-3xl font-bold text-gray-800 mb-8 text-center";
+          h2.innerText = "Recommended Courses";
+          main.appendChild(h2);
+          const newContainer = document.createElement('div');
+          newContainer.id = 'results-container';
+          newContainer.className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6";
+          main.appendChild(newContainer);
+          return renderCoursesOriginal();
+        }
+
+        // DYNAMIC IMPORT (Restores your UI)
+        import('/js/courseCard.js')
+          .then(module => {
+            resultsContainer.innerHTML = '';
+            courses.forEach(course => {
+              const col = document.createElement('div');
+              col.className = 'course-col h-full';
+              col.innerHTML = module.renderCourseCard(course);
+              resultsContainer.appendChild(col);
+            });
+            if (guideSection) guideSection.classList.add('hidden');
+          })
+          .catch(err => {
+            console.error("UI Load Error:", err);
+            resultsContainer.innerHTML = '<p class="text-red-500 text-center">Error loading courseCard.js. Check file path.</p>';
+          });
+      }
+    }
+
+    // --- CHAT LOGIC ---
     function initializeChatbot() {
       const userInput = document.getElementById('userInput');
       const sendButton = document.getElementById('sendButton');
-      const closeChat = document.getElementById('closeChat');
-
-      sendButton.addEventListener('click', sendMessage);
-      userInput.addEventListener('keypress', e => {
-        if (e.key === 'Enter') sendMessage();
-      });
-      closeChat.addEventListener('click', () => document.getElementById('chatbotWrapper').classList.add('hidden'));
 
       loadChatHistory();
-    }
 
-    function loadChatHistory() {
-      const chatMessages = document.getElementById('chatMessages');
-      const savedChat = localStorage.getItem(CHAT_STORAGE_KEY);
-      if (savedChat && chatMessages) {
-        chatMessages.innerHTML = savedChat;
-        chatMessages.scrollTop = chatMessages.scrollHeight;
-      }
-    }
+      sendButton.addEventListener('click', sendMessage);
+      userInput.addEventListener('keydown', e => {
+        if (e.key === 'Enter' && !e.shiftKey) {
+          e.preventDefault();
+          sendMessage();
+        }
+      });
 
-    function saveChatHistory() {
-      const chatMessages = document.getElementById('chatMessages');
-      if (chatMessages) localStorage.setItem(CHAT_STORAGE_KEY, chatMessages.innerHTML);
-    }
-
-    function addMessage(text, sender) {
-      const chatMessages = document.getElementById('chatMessages');
-      const messageDiv = document.createElement('div');
-      messageDiv.className = `flex mb-4 ${sender === 'user' ? 'justify-end' : ''}`;
-
-      if (sender === 'user') {
-        messageDiv.innerHTML = `
-          <div class="bg-primary-600 text-white rounded-lg rounded-tr-none px-4 py-2 max-w-[80%]">
-            ${text}
-          </div>
-          <div class="w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center ml-3 flex-shrink-0">
-            <i class="fas fa-user text-primary-600"></i>
-          </div>
-        `;
-      } else {
-        messageDiv.innerHTML = `
-          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
-            <i class="fas fa-robot text-blue-600"></i>
-          </div>
-          <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%]">
-            ${text}
-          </div>
-        `;
-      }
-
-      chatMessages.appendChild(messageDiv);
-      chatMessages.scrollTop = chatMessages.scrollHeight;
-      saveChatHistory();
+      // Ensure we kill the mic before page unloads to prevent "Mic Dead" on next page
+      window.addEventListener('beforeunload', () => {
+        if (window.voiceApp) window.voiceApp.resetState();
+      });
     }
 
     function sendMessage() {
       const userInput = document.getElementById('userInput');
       const query = userInput.value.trim();
       if (!query) return;
+
       const pageLoader = document.getElementById('page-loader');
       if (pageLoader) pageLoader.classList.remove('hidden');
 
+      // 1. Show Message immediately
       addMessage(query, 'user');
-      userInput.value = '';
 
+      // 2. Kill Voice Engine Immediately
+      if (window.voiceApp) window.voiceApp.resetState();
+
+      // 3. Clear Input
+      userInput.value = '';
+      userInput.style.height = 'auto';
+
+      // 4. Send
       fetch('/query', {
           method: 'POST',
           headers: {
@@ -447,70 +713,76 @@
             query
           })
         })
-        .then(response => response.ok ? response.json() : Promise.reject('Network error'))
+        .then(res => res.ok ? res.json() : Promise.reject('Network error'))
         .then(data => {
           if (pageLoader) pageLoader.classList.add('hidden');
           if (data.success) {
             addMessage(`Found ${data.total_results} courses! Redirecting...`, 'bot');
-            saveChatHistory();
+            // Small delay to allow user to see the success message
             setTimeout(() => {
               window.location.href = `/${data.timestamp}`;
-            }, 1500);
+            }, 1000);
           } else {
             addMessage(`Error: ${data.error}`, 'bot');
-            saveChatHistory();
           }
         })
         .catch(err => {
           if (pageLoader) pageLoader.classList.add('hidden');
-          addMessage('Error processing your request. Please try again.', 'bot');
-          saveChatHistory();
+          addMessage('Error processing request.', 'bot');
           console.error(err);
         });
     }
 
-    function renderCourses() {
-      if (window.__LOCAL_COURSES__?.length > 0) {
-        import('/js/courseCard.js')
-          .then(module => {
-            const resultsContainer = document.getElementById('results-container');
-            if (!resultsContainer) return;
-            resultsContainer.innerHTML = '';
-            window.__LOCAL_COURSES__.forEach(course => {
-              const courseCol = document.createElement('div');
-              courseCol.className = 'course-col';
-              courseCol.innerHTML = module.renderCourseCard(course);
-              resultsContainer.appendChild(courseCol);
-            });
-            const guideSection = document.getElementById('guideSection');
-            if (guideSection) guideSection.classList.add('hidden');
-          })
-          .catch(console.error);
+    function addMessage(text, sender) {
+      const chatMessages = document.getElementById('chatMessages');
+      if (!chatMessages) return;
+
+      const div = document.createElement('div');
+      div.className = `flex mb-4 ${sender === 'user' ? 'justify-end' : ''}`;
+
+      if (sender === 'user') {
+        div.innerHTML = `
+          <div class="bg-primary-600 text-white rounded-lg rounded-tr-none px-4 py-2 max-w-[80%] shadow-sm">${text}</div>
+          <div class="w-8 h-8 rounded-full bg-primary-100 flex items-center justify-center ml-3 flex-shrink-0"><i class="fas fa-user text-primary-600"></i></div>`;
+      } else {
+        div.innerHTML = `
+          <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0"><i class="fas fa-robot text-blue-600"></i></div>
+          <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%] shadow-sm text-gray-800">${text}</div>`;
       }
+
+      chatMessages.appendChild(div);
+      chatMessages.scrollTop = chatMessages.scrollHeight;
+      localStorage.setItem(CHAT_STORAGE_KEY, chatMessages.innerHTML);
+    }
+
+    function loadChatHistory() {
+      const chatMessages = document.getElementById('chatMessages');
+      const saved = localStorage.getItem(CHAT_STORAGE_KEY);
+      if (saved && chatMessages) {
+        chatMessages.innerHTML = saved;
+        chatMessages.scrollTop = chatMessages.scrollHeight;
+      }
+    }
+
+    function setupToggles() {
+      const wrapper = document.querySelector('.chatbot-container');
+      const minBtn = document.getElementById('minimizeChat');
+      const closeBtn = document.getElementById('closeChat');
+
+      if (minBtn) minBtn.addEventListener('click', () => {
+        wrapper.classList.toggle('minimized');
+        const body = wrapper.querySelector('.border-t');
+        if (body) body.classList.toggle('hidden');
+      });
+
+      if (closeBtn) closeBtn.addEventListener('click', () => {
+        wrapper.classList.add('hidden');
+      });
     }
   </script>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const chatbotWrapper = document.querySelector('.chatbot-container');
-      const minimizeBtn = document.getElementById('minimizeChat');
-      const closeBtn = document.getElementById('closeChat');
 
-      minimizeBtn.addEventListener('click', () => {
-        chatbotWrapper.classList.toggle('minimized');
-        const chatBody = chatbotWrapper.querySelector('div.border-t');
-        if (chatBody.classList.contains('hidden')) {
-          chatBody.classList.remove('hidden');
-        } else {
-          chatBody.classList.add('hidden');
-        }
-      });
 
-      closeBtn.addEventListener('click', () => {
-        chatbotWrapper.classList.add('hidden');
-      });
-    });
-  </script>
 </body>
 
 </html>

@@ -1,0 +1,11 @@
+{
+  "user_query": "show me Japanese courses from any flight  any platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-27T10:27:40.957347"
+}

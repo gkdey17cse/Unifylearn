@@ -1,0 +1,33 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me database courses from  future learn platform not from other platform
+Total Courses: 3
+Generated at: 2025-11-27T10:22:08.489349
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :   3 courses | Avg Prob: 0.0664 | Avg Score: 0.0533
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.1073 | Score: 0.0820
+     Microsoft Future Ready: Data Query with Transact-SQL T-SQL
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.0531 | Score: 0.0469
+     SQL for Data Analysis
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0387 | Score: 0.0310
+     Data Query with Transact-SQL with Python
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   1 courses ( 33.3%)
+High      :   1 courses ( 33.3%)
+Medium    :   1 courses ( 33.3%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

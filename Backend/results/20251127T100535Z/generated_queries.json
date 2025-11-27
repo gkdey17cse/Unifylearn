@@ -1,0 +1,42 @@
+{
+  "user_query": "show me email courses from future learn platform only",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'email courses' and wants only from 'future learn platform'. Expanding 'email courses' to include synonyms like 'email marketing', 'email management', 'email communication'.",
+    "expanded_terms": [
+      "email courses",
+      "email marketing",
+      "email management",
+      "email communication"
+    ],
+    "providers": {
+      "futurelearn": {
+        "$and": [
+          {
+            "Site": {
+              "$regex": "\\b(Future Learn)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(email courses|email marketing|email management|email communication)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(email courses|email marketing|email management|email communication)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:05:35.252505"
+}

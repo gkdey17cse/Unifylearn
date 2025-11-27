@@ -1,0 +1,282 @@
+{
+  "timestamp": "2025-11-27T10:27:40.959358",
+  "user_query": "show me Japanese courses from any flight  any platform",
+  "debug_info": {
+    "user_query": "show me Japanese courses from any flight  any platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'Japanese courses'. Expanding to include synonyms related to Japanese language learning, such as 'Japanese Language', 'Learn Japanese', 'Japanese for Beginners', and 'JLPT'. Since the user specifies 'any flight' and 'any platform', the query should target all platforms without specific filtering based on flight information (which isn't relevant in the provided schema).",
+      "expanded_terms": [
+        "Japanese courses",
+        "Japanese Language",
+        "Learn Japanese",
+        "Japanese for Beginners",
+        "JLPT"
+      ],
+      "providers": {
+        "coursera": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "udacity": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "futurelearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\b(Japanese courses|Japanese Language|Learn Japanese|Japanese for Beginners|JLPT)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Duration": {
+                "$regex": "\\bjapanese\\ flight\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

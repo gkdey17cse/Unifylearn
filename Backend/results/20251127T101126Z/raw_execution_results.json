@@ -1,0 +1,71 @@
+{
+  "user_query": "show me JavaScript courses from simply learn and Huda City platform but not from other blood from only simply learnt and eudacity platform",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bjavascript\\ simply\\ and\\ huda\\ city\\ but\\ not\\ other\\ blood\\ simply\\ learnt\\ and\\ eudacity\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bjavascript\\ simply\\ and\\ huda\\ city\\ but\\ not\\ other\\ blood\\ simply\\ learnt\\ and\\ eudacity\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bjavascript\\ simply\\ and\\ huda\\ city\\ but\\ not\\ other\\ blood\\ simply\\ learnt\\ and\\ eudacity\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bjavascript\\ simply\\ and\\ huda\\ city\\ but\\ not\\ other\\ blood\\ simply\\ learnt\\ and\\ eudacity\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "match_count": 27,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T10:11:26.226173"
+}

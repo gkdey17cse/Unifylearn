@@ -1,0 +1,45 @@
+{
+  "user_query": "show me database courses from  future learn platform not from other platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'database courses' and specified the 'future learn' platform, while excluding courses from other platforms. Expanding the term 'database' to include related terms such as 'DBMS', 'SQL', and 'NoSQL' to capture more relevant courses.  Since platform specificity is given, only FutureLearn needs to be generated.",
+    "expanded_terms": [
+      "database",
+      "DBMS",
+      "SQL",
+      "NoSQL"
+    ],
+    "providers": {
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(database|DBMS|SQL|NoSQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(database|DBMS|SQL|NoSQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(database|DBMS|SQL|NoSQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Future Learn"
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:22:08.480522"
+}

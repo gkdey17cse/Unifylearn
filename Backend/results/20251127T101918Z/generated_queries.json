@@ -1,0 +1,50 @@
+{
+  "user_query": "show me some Python courses from simply Lord blood form but not from other platforms",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Python courses from Simplilearn, not from other platforms'. Expanding to include Python synonyms and related concepts like Data Science.",
+    "expanded_terms": [
+      "Python",
+      "Python Programming",
+      "Data Science",
+      "Pandas",
+      "NumPy",
+      "Machine Learning with Python"
+    ],
+    "providers": {
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:19:18.884500"
+}

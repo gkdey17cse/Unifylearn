@@ -1,0 +1,39 @@
+{
+  "user_query": "show me email courses from future learn platform only",
+  "execution_results": {
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "Site": {
+              "$regex": "\\b(Future Learn)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(email courses|email marketing|email management|email communication)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(email courses|email marketing|email management|email communication)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 8,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T10:05:35.255519"
+}

@@ -1,0 +1,68 @@
+{
+  "user_query": "show me JavaScript courses from simply learn and Huda City platform but not from other blood from only simply learnt and eudacity platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User wants JavaScript courses from Simplilearn and Udacity, excluding results from other platforms, and explicitly only wanting results from Simplilearn and Udacity. Expanding 'JavaScript' to include related terms like 'Web Development', 'Frontend', and 'Backend'.",
+    "expanded_terms": [
+      "JavaScript",
+      "Web Development",
+      "Frontend",
+      "Backend"
+    ],
+    "providers": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Simplilearn"
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(JavaScript|Web Development|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:11:26.225013"
+}

@@ -1,0 +1,65 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me some Python courses from simply Lord blood form but not from other platforms
+Total Courses: 11
+Generated at: 2025-11-27T10:19:18.893813
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    :  11 courses | Avg Prob: 0.0909 | Avg Score: 0.3102
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.5000 | Score: 1.0000
+     Data Science with Python Course
+     Skills: 48619
+
+ 2. [SIMPLILEARN ] Prob: 0.5000 | Score: 1.0000
+     Python Certification Course
+     Skills: 8099
+
+ 3. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.4424
+     Data Scientist
+     Skills: No skills
+
+ 4. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.4384
+     Artificial Intelligence Engineer
+     Skills: No skills
+
+ 5. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.4354
+     Data Analyst
+     Skills: No skills
+
+ 6. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0255
+     Data Science for Business Decisions
+     Skills: 8583
+
+ 7. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0194
+     Data Science with R Certification Course
+     Skills: 53626
+
+ 8. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0143
+     Caltech Post Graduate Program in Data Science
+     Skills: 8583
+
+ 9. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0143
+     Data Science Bootcamp
+     Skills: 8583
+
+10. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0142
+     Best Data Science Course in India
+     Skills: 8583
+
+11. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0088
+     Ranked No.1 Data Science Program by Economic Times
+     Skills: 757
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses ( 18.2%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   9 courses ( 81.8%)

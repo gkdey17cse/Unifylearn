@@ -1,0 +1,152 @@
+{
+  "user_query": "show me Coursera courses in Database",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 191,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 37,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 8,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Database|Database Management|Relational Databases|NoSQL|SQL|Data Modeling|Data Warehousing|Big Data|Data Mining|Database Design)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 44,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T09:55:02.320710"
+}
