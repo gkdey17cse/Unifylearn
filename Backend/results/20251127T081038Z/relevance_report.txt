@@ -1,0 +1,56 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: "I need data science courses covering Python programming, statistical analysis, machine learning, and big data analytics from Coursera and Simplilearn, plus business intelligence and cloud computing courses from Udacity, all for professional development
+Total Courses: 8
+Generated at: 2025-11-27T08:10:38.280422
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    :   4 courses | Avg Prob: 0.1055 | Avg Score: 0.0357
+UDACITY        :   1 courses | Avg Prob: 0.1350 | Avg Score: 0.0553
+COURSERA       :   2 courses | Avg Prob: 0.1169 | Avg Score: 0.0478
+FUTURELEARN    :   1 courses | Avg Prob: 0.0697 | Avg Score: 0.0223
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.2172 | Score: 0.0791
+     AWS Data Analytics Certification Training Course
+     Skills: 8682
+
+ 2. [UDACITY     ] Prob: 0.1350 | Score: 0.0553
+     Become an AWS Cloud Architect
+     Skills: No skills
+
+ 3. [COURSERA    ] Prob: 0.1298 | Score: 0.0534
+     AWS Cloud Practitioner Essentials
+     Skills: Cloud Computing Security,AWS cloud,cloud networking,Cloud Computing,Migration and Innovation,
+
+ 4. [COURSERA    ] Prob: 0.1039 | Score: 0.0423
+     AWS Cloud Solutions Architect Professional Certificate
+     Skills: AWS Certification Preparation,Cloud Architecture,Architecting on AWS,Data Lakes,AWS Management Conso
+
+ 5. [SIMPLILEARN ] Prob: 0.0722 | Score: 0.0240
+     AWS Developer Associate Certification Training
+     Skills: 35351
+
+ 6. [FUTURELEARN ] Prob: 0.0697 | Score: 0.0223
+     AWS Cloud Practitioner Essentials: Jumpstart your journey within the AWS Cloud
+     Skills: No skills
+
+ 7. [SIMPLILEARN ] Prob: 0.0666 | Score: 0.0200
+     AWS Solutions Architect Certification Training Course
+     Skills: 26640
+
+ 8. [SIMPLILEARN ] Prob: 0.0662 | Score: 0.0197
+     AWS SysOps Associate Certification Training
+     Skills: 24118
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   4 courses ( 50.0%)
+High      :   4 courses ( 50.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

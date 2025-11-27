@@ -17,10 +17,15 @@ Tests: Career-oriented semantic expansion, multi-skill combination (stats + SQL 
 looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement
 ```
 
-4. Very Specific Niche Search
+4. Multiple Platform multiple courses
+```
+SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity
+```
+
+5. Very Specific Niche Search
 Tests: Technical domain expertise, nested skill requirements, practical feature detection (hands-on labs)
 ```
-cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs
+cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera
 ```
 
 5. Duration-Based Aggregation

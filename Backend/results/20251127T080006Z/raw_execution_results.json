@@ -1,0 +1,171 @@
+{
+  "user_query": "bro show me sum datascince or maybe AI type corsess frm cousera or simpli not sure… but only small small duration like less than 3 wek??",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1217,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 140,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 100,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:00:06.779288"
+}

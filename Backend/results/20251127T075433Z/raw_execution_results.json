@@ -1,0 +1,200 @@
+{
+  "user_query": "bro show me sum datascince or maybe AI type corsess frm cousera or simpli not sure… but only small small duration like less than 3 wek??",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Course Type": {
+              "$not": {
+                "$regex": "Beginner",
+                "$options": "i"
+              }
+            }
+          }
+        ]
+      },
+      "match_count": 61,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Prerequisites": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$not": {
+                "$regex": "Beginner",
+                "$options": "i"
+              }
+            }
+          }
+        ]
+      },
+      "match_count": 9,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Course Type": {
+              "$not": {
+                "$regex": "Beginner",
+                "$options": "i"
+              }
+            }
+          }
+        ]
+      },
+      "match_count": 7,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "ExpertTracks": {
+                  "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$not": {
+                "$regex": "Beginner",
+                "$options": "i"
+              }
+            }
+          }
+        ]
+      },
+      "match_count": 68,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T07:54:33.968760"
+}

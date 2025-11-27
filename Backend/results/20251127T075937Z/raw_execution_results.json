@@ -1,0 +1,135 @@
+{
+  "user_query": "I want that coud architicture + devops ka combination course from that udaciti place… and future lern also but no courcera pls.",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "^(?!.*(4|5|6|7|8|9|10|11|12)\\s*months).*(week|month|day).*",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 36,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "^(?!.*(13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48)\\s*week).*(week|month|day).*",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 133,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "^(?!.*(13|14|15|16|17|18|19|20|21|22|23|24|25|26|27|28|29|30|31|32|33|34|35|36|37|38|39|40|41|42|43|44|45|46|47|48)\\s*week).*(week|month|day).*",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 2900,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T07:59:37.754030"
+}

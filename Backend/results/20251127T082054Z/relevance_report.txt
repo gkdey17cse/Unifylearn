@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity
+Total Courses: 191
+Generated at: 2025-11-27T08:20:54.698148
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 184 courses | Avg Prob: 0.0054 | Avg Score: 0.0659
+UDACITY        :   7 courses | Avg Prob: 0.0000 | Avg Score: 0.0326
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.7739 | Score: 1.0000
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+ 2. [COURSERA    ] Prob: 0.2237 | Score: 0.9380
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+ 3. [COURSERA    ] Prob: 0.0007 | Score: 0.6470
+     Text Retrieval and Search Engines
+     Skills: Information Retrieval (IR),Document Retrieval,Machine Learning,Recommender Systems,
+
+ 4. [COURSERA    ] Prob: 0.0005 | Score: 0.6351
+     Python Project for AI  Application Development
+     Skills: Artificial Intelligence (AI),Web Application,Python Programming,Application development,Flask,
+
+ 5. [COURSERA    ] Prob: 0.0005 | Score: 0.6349
+     The Art  Science of Product Management
+     Skills: Lead Designers,Lead Engineers,Technical PM Interview,Technical Literacy,AI/ML,
+
+ 6. [COURSERA    ] Prob: 0.0004 | Score: 0.6192
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+ 7. [COURSERA    ] Prob: 0.0002 | Score: 0.5978
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+ 8. [COURSERA    ] Prob: 0.0000 | Score: 0.1294
+     Future Development in Supply Chain Finance and Blockchain Technology
+     Skills: Financial Innovation,Blockchain Implementation in Supply Chain Finance,APIs for Trade Finance,Managi
+
+ 9. [COURSERA    ] Prob: 0.0000 | Score: 0.1172
+     AI Applications in Marketing and Finance
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0000 | Score: 0.1075
+     Camera and Imaging
+     Skills: Fourier Transform,High-Dynamic-Range (HDR) Imaging,Image Formation,Convolution and Deconvolution,Wor
+
+11. [COURSERA    ] Prob: 0.0000 | Score: 0.1011
+     Prediction and Control with Function Approximation
+     Skills: Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Function Approximation,Intellig
+
+12. [COURSERA    ] Prob: 0.0000 | Score: 0.0937
+     AI, Business  the Future of Work
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0000 | Score: 0.0905
+     Big Data, Artificial Intelligence, and Ethics
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0000 | Score: 0.0887
+     Mathematics for Machine Learning: Multivariate Calculus
+     Skills: Linear Regression,Vector Calculus,Multivariable Calculus,Gradient Descent,
+
+15. [COURSERA    ] Prob: 0.0000 | Score: 0.0862
+     AI  Law
+     Skills: No skills
+
+16. [COURSERA    ] Prob: 0.0000 | Score: 0.0852
+     Machine Learning for All
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0000 | Score: 0.0846
+     A Crash Course in Data Science
+     Skills: Data Science,Data Analysis,Machine Learning,Project,
+
+18. [COURSERA    ] Prob: 0.0000 | Score: 0.0829
+     Advanced Algorithms and Complexity
+     Skills: Python Programming,Linear Programming (LP),Np-Completeness,Dynamic Programming,
+
+19. [COURSERA    ] Prob: 0.0000 | Score: 0.0827
+     Genomic Data Science and Clustering Bioinformatics V
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0000 | Score: 0.0824
+     Feature Engineering
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0000 | Score: 0.0819
+     Mathematics for Machine Learning: Linear Algebra
+     Skills: Eigenvalues And Eigenvectors,Basis (Linear Algebra),Transformation Matrix,Linear Algebra,
+
+22. [COURSERA    ] Prob: 0.0000 | Score: 0.0786
+     Computational Neuroscience
+     Skills: Computational Neuroscience,Artificial Neural Network,Reinforcement Learning,Biological Neuron Model,
+
+23. [COURSERA    ] Prob: 0.0000 | Score: 0.0786
+     Computational Social Science Capstone Project
+     Skills: No skills
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.0771
+     Sample-based Learning Methods
+     Skills: Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Function Approximation,Intellig
+
+25. [COURSERA    ] Prob: 0.0000 | Score: 0.0766
+     AI in Healthcare Capstone
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0000 | Score: 0.0748
+     Computer Simulations
+     Skills: No skills
+
+27. [COURSERA    ] Prob: 0.0000 | Score: 0.0736
+     Build, Train, and Deploy ML Pipelines using BERT
+     Skills: ML Pipelines and MLOps,Model Training and Deployment with BERT,Model Debugging and Evaluation,Featur
+
+28. [COURSERA    ] Prob: 0.0000 | Score: 0.0729
+     Robotics: Perception
+     Skills: Computer Vision,Estimation,Random Sample Consensus (Ransac),Geometry,
+
+29. [COURSERA    ] Prob: 0.0000 | Score: 0.0724
+     Launching into Machine Learning
+     Skills: Tensorflow,Bigquery,Machine Learning,Data Cleansing,
+
+30. [COURSERA    ] Prob: 0.0000 | Score: 0.0703
+     The AI Ladder: A Framework for Deploying AI in your Enterprise
+     Skills: Artificial Intelligence (AI),Management,Analytics,Innovation,Leadership,
+
+31. [COURSERA    ] Prob: 0.0000 | Score: 0.0691
+     Machine Learning Algorithms with R in Business Analytics
+     Skills: clustering,regression,R Programming,classification,prediction,
+
+32. [COURSERA    ] Prob: 0.0000 | Score: 0.0689
+     Application of AI, InsurTech, and Real Estate Technology
+     Skills: No skills
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.0678
+     AI Strategy and Governance
+     Skills: No skills
+
+34. [COURSERA    ] Prob: 0.0000 | Score: 0.0676
+     Health Data Science Foundation
+     Skills: Graphs,Unsupervised Learning,Autoencoder,Deep Learning,
+
+35. [COURSERA    ] Prob: 0.0000 | Score: 0.0670
+     Fundamentals of Scalable Data Science
+     Skills: Statistics,Data Science,Internet Of Things (IOT),Apache Spark,
+
+36. [COURSERA    ] Prob: 0.0000 | Score: 0.0667
+     AI Workflow: Business Priorities and Data Ingestion
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+37. [COURSERA    ] Prob: 0.0000 | Score: 0.0660
+     Introduction to Machine Learning
+     Skills: Natural Language Processing,Convolutional Neural Network,Machine Learning,Python Programming,pytorch
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.0628
+     Introduction to Digital Transformation Part 1
+     Skills: Data-Informed Decision-Making,Technology Strategy,Business Transformation,Digital Strategy,Business 
+
+39. [COURSERA    ] Prob: 0.0000 | Score: 0.0624
+     Optimize ML Models and Deploy Human-in-the-Loop Pipelines
+     Skills: Human-in-the-Loop Pipelines,Distributed Model Training and Hyperparameter Tuning,Cost Savings and Pe
+
+40. [COURSERA    ] Prob: 0.0000 | Score: 0.0607
+     Neural Networks and Deep Learning
+     Skills: Deep Learning,Artificial Neural Network,Backpropagation,Python Programming,Neural Network Architectu
+
+41. [COURSERA    ] Prob: 0.0000 | Score: 0.0604
+     Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+     Skills: Computer Vision,Tensorflow,Machine Learning,
+
+42. [COURSERA    ] Prob: 0.0000 | Score: 0.0584
+     Microsoft Azure Management Tools and Security Solutions
+     Skills: Cloud Computing Security,Artificial Intelligence (AI),Microsoft Azure,Internet Of Things (IOT),
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.0576
+     Mathematical Thinking in Computer Science
+     Skills: Mathematical Induction,Proof Theory,Discrete Mathematics,Mathematical Logic,
+
+44. [COURSERA    ] Prob: 0.0000 | Score: 0.0574
+     Fundamentals of Machine Learning for Healthcare
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.0558
+     Smart Analytics, Machine Learning, and AI on Google Cloud
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.0556
+     Cloud Machine Learning Engineering and MLOps
+     Skills: No skills
+
+47. [COURSERA    ] Prob: 0.0000 | Score: 0.0554
+     NVIDIA: Large Language Models and Generative AI Deployment
+     Skills: Model Optimization, LLM Deployment, Inference Efficiency, Alignment, Scalable Applications
+
+48. [COURSERA    ] Prob: 0.0000 | Score: 0.0551
+     Technologies and platforms for Artificial Intelligence
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.0549
+     Analyze Datasets and Train ML Models using AutoML
+     Skills: Statistical Data Bias Detection,Multi-class Classification with FastText and BlazingText,Data ingest
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.0547
+     Improving Deep Neural Networks: Hyperparameter Tuning, Regularization and Optimization
+     Skills: Tensorflow,Deep Learning,Mathematical Optimization,hyperparameter tuning,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses (  1.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  : 189 courses ( 99.0%)

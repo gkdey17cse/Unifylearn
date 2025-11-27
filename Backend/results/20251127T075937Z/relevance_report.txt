@@ -1,0 +1,223 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: I want that coud architicture + devops ka combination course from that udaciti place… and future lern also but no courcera pls.
+Total Courses: 1688
+Generated at: 2025-11-27T07:59:38.108065
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :  36 courses | Avg Prob: 0.0004 | Avg Score: 0.0253
+UDACITY        : 131 courses | Avg Prob: 0.0004 | Avg Score: 0.0333
+FUTURELEARN    : 1521 courses | Avg Prob: 0.0003 | Avg Score: 0.0186
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0012 | Score: 0.0882
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+ 2. [UDACITY     ] Prob: 0.0009 | Score: 0.0725
+     Become an AWS Cloud Architect
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0008 | Score: 0.0689
+     Become a Cloud DevOps Engineer
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0008 | Score: 0.0651
+     Supervised Machine Learning
+     Skills: No skills
+
+ 5. [UDACITY     ] Prob: 0.0007 | Score: 0.0625
+     Machine Learning DevOps Engineer
+     Skills: No skills
+
+ 6. [UDACITY     ] Prob: 0.0007 | Score: 0.0608
+     Cloud Native Fundamentals
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0007 | Score: 0.0607
+     Introduction to Machine Learning Course
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0583
+     Vaccine Development: Finding a Vaccine for COVID-19 and Future Pandemics
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0579
+     Green Innovation and Business Ethics: The Future of Entrepreneurship
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0007 | Score: 0.0567
+     Food Sustainability, Mindful Eating, and Healthy Cooking Specialization
+     Skills: mindful eating, sensible shopping, sustainable eating, food mindfulness, Cooking, Devise a customize
+
+11. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0563
+     The Future of Network Security and Defence
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0006 | Score: 0.0556
+     Model Building and Validation
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0006 | Score: 0.0555
+     Cloud Architect using Microsoft Azure
+     Skills: No skills
+
+14. [UDACITY     ] Prob: 0.0006 | Score: 0.0548
+     Developing Android Apps with Kotlin
+     Skills: No skills
+
+15. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0548
+     The Future of Cyber Security and Emerging Technologies
+     Skills: No skills
+
+16. [UDACITY     ] Prob: 0.0006 | Score: 0.0538
+     Unsupervised Machine Learning
+     Skills: No skills
+
+17. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0522
+     Decentralised Finance: Blockchain, Ethereum, and The Future of Banking
+     Skills: No skills
+
+18. [UDACITY     ] Prob: 0.0006 | Score: 0.0521
+     Intro to Point  Click App Development
+     Skills: No skills
+
+19. [UDACITY     ] Prob: 0.0006 | Score: 0.0516
+     Product Strategy
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0006 | Score: 0.0516
+     Secure and Private AI
+     Skills: No skills
+
+21. [UDACITY     ] Prob: 0.0006 | Score: 0.0509
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+22. [COURSERA    ] Prob: 0.0006 | Score: 0.0505
+     Digital Marketing Strategy and Planning Specialization
+     Skills: Digital transformation, Digital Marketing, Content Marketing, Digital Strategy, Digital Research, Se
+
+23. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0504
+     UX Design Strategy and Application: Strategy, Innovation and the Future of Work
+     Skills: No skills
+
+24. [COURSERA    ] Prob: 0.0006 | Score: 0.0502
+     Mathematics for Machine Learning and Data Science Specialization
+     Skills: Bayesian Statistics, Machine Learning, Mathematics, Probability, Linear Regression, Linear Equation,
+
+25. [UDACITY     ] Prob: 0.0006 | Score: 0.0499
+     Ethical AI
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0006 | Score: 0.0496
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0493
+     Software Development Fundamentals: Programming Languages and HTML
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0006 | Score: 0.0489
+     Learn to Code
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0487
+     Exploring Possible Futures: Modeling in Environmental and Energy Economics
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0006 | Score: 0.0484
+     Self-Driving Fundamentals: Featuring Apollo
+     Skills: No skills
+
+31. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0480
+     University and Your Future: Career Planning and Making the Most of Your Degree
+     Skills: No skills
+
+32. [UDACITY     ] Prob: 0.0006 | Score: 0.0480
+     Deep Learning
+     Skills: No skills
+
+33. [UDACITY     ] Prob: 0.0006 | Score: 0.0474
+     Advanced Android with Kotlin
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0474
+     Learning for a Sustainable Future
+     Skills: No skills
+
+35. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0473
+     Sustainable Construction and Development
+     Skills: No skills
+
+36. [UDACITY     ] Prob: 0.0005 | Score: 0.0471
+     Introduction to Python
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0005 | Score: 0.0469
+     Intro to TensorFlow for Deep Learning
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0005 | Score: 0.0468
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+39. [UDACITY     ] Prob: 0.0005 | Score: 0.0468
+     How to Become a Product Manager
+     Skills: No skills
+
+40. [UDACITY     ] Prob: 0.0005 | Score: 0.0467
+     AWS Machine Learning Foundations Course
+     Skills: No skills
+
+41. [UDACITY     ] Prob: 0.0005 | Score: 0.0458
+     Data Visualization and D3.js
+     Skills: No skills
+
+42. [UDACITY     ] Prob: 0.0005 | Score: 0.0458
+     SQL for Data Analysis
+     Skills: No skills
+
+43. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0453
+     Placemaking and Public Space Design: Unlocking Place Potential
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0447
+     Microsoft Future Ready: Designing and Implementing a Data Science Solution on Azure
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0447
+     Introduction to Sustainability and Development
+     Skills: No skills
+
+46. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0446
+     Workplace Essentials: Health and Safety
+     Skills: No skills
+
+47. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0444
+     Introduction to Artificial Intelligence and Machine Learning
+     Skills: No skills
+
+48. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0443
+     Microsoft Future Ready: Introduction to Azure Cloud for Data Scientists
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0441
+     Introduction to 5G and Wireless Mobile Communications
+     Skills: No skills
+
+50. [FUTURELEARN ] Prob: 0.0005 | Score: 0.0439
+     Microsoft Future Ready: Essential Mathematics for Machine Learning and AI
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   1 courses (  0.1%)
+Very Low  : 1687 courses ( 99.9%)

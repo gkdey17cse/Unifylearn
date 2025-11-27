@@ -1,0 +1,108 @@
+{
+  "user_query": "SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(1 week|2 weeks|3 weeks|Hours)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 225,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(1 week|2 weeks|3 weeks|Hours)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 7,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    }
+  },
+  "timestamp": "2025-11-27T08:20:54.637963"
+}

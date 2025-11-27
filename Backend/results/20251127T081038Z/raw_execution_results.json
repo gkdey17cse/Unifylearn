@@ -1,0 +1,194 @@
+{
+  "user_query": "\"I need data science courses covering Python programming, statistical analysis, machine learning, and big data analytics from Coursera and Simplilearn, plus business intelligence and cloud computing courses from Udacity, all for professional development",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Type": {
+                  "$regex": "(official|partner|in partnership with)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Program Type": {
+                  "$regex": "(official|professional certificate|specialization|partner|in partnership with)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Program Type": {
+                  "$regex": "(nanodegree|official|partner|in partnership with)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Type": {
+                  "$regex": "(official|partner|in partnership with)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Program Type": {
+                  "$regex": "(official|professional certificate|specialization|partner|in partnership with)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 4,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:10:38.262266"
+}

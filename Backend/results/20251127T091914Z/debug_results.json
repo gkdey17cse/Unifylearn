@@ -1,0 +1,700 @@
+{
+  "timestamp": "2025-11-27T09:19:14.597217",
+  "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera",
+  "debug_info": {
+    "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management'. Expanding the terms to include related concepts and synonyms. User wants courses with hands-on labs and excludes Coursera.",
+      "expanded_terms": [
+        "Cybersecurity",
+        "Ethical Hacking",
+        "Network Security",
+        "Penetration Testing",
+        "Information Security Management",
+        "InfoSec",
+        "Security Auditing",
+        "Vulnerability Assessment"
+      ],
+      "providers": {
+        "udacity": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "What you learn": {
+                "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "futurelearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Topics related to CRM": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bprefer\\ with\\ hands\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bpenetration\\ testing\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\band\\ information\\ security\\ management\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Topics related to CRM": {
+                    "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 1,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7b0",
+        "Title": "Professional Certificate Program in Ethical Hacking and Penetration Testing",
+        "Short Intro": "Boost your career as a cybersecurity expert through this PCP in Ethical Hacking and Penetration Testing in collaboration with IIT Kanpur. In 6 months, you'll learn advanced offensive cybersecurity strategies to protect networks and data from breaches, theft, attacks, and more",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "University Program",
+        "Skills": 8583,
+        "Instructors": "Cyber Security",
+        "URL": "https://www.simplilearn.com/vapt-vulnerability-assessment-penetration-testing-certification?tag=",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Professional Certificate Program in Ethical Hacking and Penetration Testing",
+        "url": "https://www.simplilearn.com/vapt-vulnerability-assessment-penetration-testing-certification?tag=",
+        "description": "Boost your career as a cybersecurity expert through this PCP in Ethical Hacking and Penetration Testing in collaboration with IIT Kanpur. In 6 months, youll learn advanced offensive cybersecurity strategies to protect networks and data from breaches, theft, attacks, and more",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "Network Security",
+          "Vulnerability Assessment",
+          "Security Auditing",
+          "Cybersecurity Strategies",
+          "Incident Response"
+        ],
+        "instructors": [
+          "Cyber Security"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply ethical hacking methodologies to assess system security",
+          "Conduct penetration tests to identify vulnerabilities",
+          "Develop strategies to protect networks from cyberattacks",
+          "Analyze and mitigate security risks",
+          "Implement security controls to prevent data breaches",
+          "Master advanced offensive cybersecurity strategies"
+        ],
+        "price": "Paid",
+        "provider": "simplilearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7b0",
+          "Title": "Professional Certificate Program in Ethical Hacking and Penetration Testing",
+          "Short Intro": "Boost your career as a cybersecurity expert through this PCP in Ethical Hacking and Penetration Testing in collaboration with IIT Kanpur. In 6 months, you'll learn advanced offensive cybersecurity strategies to protect networks and data from breaches, theft, attacks, and more",
+          "Category": "Simplilearn",
+          "Subtitle Languages": "University Program",
+          "Skills": 8583,
+          "Instructors": "Cyber Security",
+          "URL": "https://www.simplilearn.com/vapt-vulnerability-assessment-penetration-testing-certification?tag=",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 0.42855473602524674,
+        "relevance_score": 0.11865119547454192,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.42855473602524674,
+      "relevance_score": 0.11865119547454192
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d80d",
+        "Title": "CEH v12 - Certified Ethical Hacking Course",
+        "Short Intro": "Learn advanced processes in this (CEH) Certified Ethical Hacking course. In this online ethical hacking certification training, you will master advanced network packet analysis and system penetration testing techniques to build your network security skill-set and prevent hackers. You will get access to certified expert professionals who will guide you throughout your learning journey._x000D_\n",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best Cybersecurity Bootcamp by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Course",
+        "Skills": 8962,
+        "Instructors": "Cyber Security",
+        "URL": "https://www.simplilearn.com/cyber-security/ceh-certification?tag=",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "CEH v12 - Certified Ethical Hacking Course",
+        "url": "https://www.simplilearn.com/cyber-security/ceh-certification?tag=",
+        "description": "Learn advanced processes in this CEH Certified Ethical Hacking course. In this online ethical hacking certification training, you will master advanced network packet analysis and system penetration testing techniques to build your network security skill-set and prevent hackers. You will get access to certified expert professionals who will guide you throughout your learning journey._x000D_",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "Network Packet Analysis",
+          "System Penetration",
+          "Vulnerability Assessment",
+          "Security Auditing",
+          "Incident Handling"
+        ],
+        "instructors": [
+          "Cyber Security"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Master network packet analysis techniques",
+          "Perform system penetration testing",
+          "Apply ethical hacking methodologies",
+          "Utilize hacking tools to identify vulnerabilities",
+          "Build network security skill-set",
+          "Prevent hackers"
+        ],
+        "price": "Paid",
+        "provider": "simplilearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d80d",
+          "Title": "CEH v12 - Certified Ethical Hacking Course",
+          "Short Intro": "Learn advanced processes in this (CEH) Certified Ethical Hacking course. In this online ethical hacking certification training, you will master advanced network packet analysis and system penetration testing techniques to build your network security skill-set and prevent hackers. You will get access to certified expert professionals who will guide you throughout your learning journey._x000D_\n",
+          "Category": "Simplilearn",
+          "Course Type": "Ranked #1 Best Cybersecurity Bootcamp by Career Karma",
+          "Language": " Career Karma",
+          "Subtitle Languages": "Course",
+          "Skills": 8962,
+          "Instructors": "Cyber Security",
+          "URL": "https://www.simplilearn.com/cyber-security/ceh-certification?tag=",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 0.2623595496737291,
+        "relevance_score": 0.09411606654544229,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.2623595496737291,
+      "relevance_score": 0.09411606654544229
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d937",
+        "Title": "Ethical Hacker",
+        "URL": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+        "Short Intro": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+        "Duration": "Estimated 2 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Ethical Hacker",
+        "Prequisites": "Linux, Networking, Programming and Windows OS.",
+        "What you learn": "You’ll master the skills necessary to become a successful Ethical Hacker. Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence.",
+        "_provider": "udacity"
+      },
+      "unified_data": {
+        "title": "Ethical Hacker",
+        "url": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+        "description": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organizations computer networks and systems.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Ethical Hacking",
+          "Penetration Testing",
+          "Vulnerability Exploitation",
+          "Network Security",
+          "Security Auditing",
+          "Report Writing"
+        ],
+        "instructors": [],
+        "duration": "Estimated 2 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Find and exploit vulnerabilities in systems",
+          "Design and execute penetration testing plans",
+          "Report test findings with valid evidence",
+          "Master offensive security skills",
+          "Protect organizations' computer networks and systems",
+          "Assess and mitigate security risks"
+        ],
+        "price": "Paid",
+        "provider": "udacity",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac0cf969e0bdd621a8d937",
+          "Title": "Ethical Hacker",
+          "URL": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+          "Short Intro": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+          "Duration": "Estimated 2 months to complete",
+          "Site": "Udacity",
+          "Program Type": "Nanodegree Program",
+          "Courses": "Ethical Hacker",
+          "Prequisites": "Linux, Networking, Programming and Windows OS.",
+          "What you learn": "You’ll master the skills necessary to become a successful Ethical Hacker. Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence.",
+          "_provider": "udacity"
+        },
+        "relevance_probability": 0.2523727784365209,
+        "relevance_score": 0.09217563574470942,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.2523727784365209,
+      "relevance_score": 0.09217563574470942
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d18b",
+        "Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+        "URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+        "Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+        "Course URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+        "Course Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+        "Weekly study": "5 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Microsoft Future Ready: Developing Applications Using Javascript",
+        "url": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+        "description": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "JavaScript",
+          "Web Development",
+          "Frontend Development",
+          "HTML",
+          "CSS",
+          "Application Development"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop web applications using JavaScript",
+          "Apply JavaScript skills in practical exercises",
+          "Gain hands-on web development experience",
+          "Understand JavaScript fundamentals",
+          "Build interactive web pages"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac021069e0bdd621a8d18b",
+          "Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+          "URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+          "Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+          "Duration": "3 weeks",
+          "Site": "Future Learn",
+          "Courses": "314 Courses",
+          "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+          "ExpertTracks": "34 ExpertTracks",
+          "Course Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+          "Course URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+          "Course Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+          "Weekly study": "5 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.0567129358645033,
+        "relevance_score": 0.017530388569986392,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.0567129358645033,
+      "relevance_score": 0.017530388569986392
+    }
+  ]
+}

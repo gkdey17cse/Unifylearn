@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: "Show me courses that can lead to multiple certifications: AWS cloud practitioner, Google data analytics, IBM AI engineering, and Microsoft Azure fundamentals - from platforms offering official certification preparation"
+Total Courses: 316
+Generated at: 2025-11-27T08:03:24.311018
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 182 courses | Avg Prob: 0.0023 | Avg Score: 0.0556
+UDACITY        : 134 courses | Avg Prob: 0.0044 | Avg Score: 0.0899
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0833 | Score: 1.0000
+     Microsoft Azure Fundamentals AZ-900 Exam Prep Specialization
+     Skills: Microsoft Azure, Cloud Computing, Cloud Computing Security, Artificial Intelligence (AI), Internet O
+
+ 2. [COURSERA    ] Prob: 0.0833 | Score: 1.0000
+     Practical Data Science on the AWS Cloud Specialization
+     Skills: Natural Language Processing with BERT, ML Pipelines and ML Operations (MLOps), A/B Testing and Model
+
+ 3. [COURSERA    ] Prob: 0.0833 | Score: 1.0000
+     Microsoft Azure AI Fundamentals AI-900 Exam Prep Specialization
+     Skills: Describe fundamental principles of machine learning on Azure, Describe AI workloads and consideratio
+
+ 4. [COURSERA    ] Prob: 0.0833 | Score: 1.0000
+     AWS Cloud Solutions Architect Professional Certificate
+     Skills: AWS Certification Preparation,Cloud Architecture,Architecting on AWS,Data Lakes,AWS Management Conso
+
+ 5. [COURSERA    ] Prob: 0.0833 | Score: 1.0000
+     Microsoft Azure Data Scientist Associate DP-100 Professional Certificate
+     Skills: Manage Azure resources for machine learning,Deploy and operationalize machine learning solutions,Run
+
+ 6. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     AI Engineer using Microsoft Azure
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     AWS Machine Learning Foundations Course
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     Become an AWS Cloud Architect
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     Cloud Architect using Microsoft Azure
+     Skills: No skills
+
+10. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     Introduction to Machine Learning using Microsoft Azure
+     Skills: No skills
+
+11. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     AWS DeepRacer
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0833 | Score: 1.0000
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0005 | Score: 0.7462
+     AI Fundamentals
+     Skills: No skills
+
+14. [UDACITY     ] Prob: 0.0000 | Score: 0.4784
+     Oracle Cloud Infrastructure Architect Professional
+     Skills: No skills
+
+15. [UDACITY     ] Prob: 0.0000 | Score: 0.0941
+     Google Cloud Digital Leader Training
+     Skills: No skills
+
+16. [COURSERA    ] Prob: 0.0000 | Score: 0.0932
+     Preparing for Google Cloud Certification: Cloud Data Engineer Professional Certificate
+     Skills: Information Engineering,Google Cloud,Bigquery,Tensorflow,Cloud Computing,
+
+17. [COURSERA    ] Prob: 0.0000 | Score: 0.0821
+     Data Engineering, Big Data, and Machine Learning on GCP Specialization
+     Skills: Tensorflow, Bigquery, Google Cloud Platform, Cloud Computing, 
+
+18. [COURSERA    ] Prob: 0.0000 | Score: 0.0814
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+19. [UDACITY     ] Prob: 0.0000 | Score: 0.0799
+     Introduction to Data Analytics for Business
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0000 | Score: 0.0786
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0000 | Score: 0.0760
+     Preparing for Google Cloud Certification: Cloud Data Engineer Professional Certificate 日本語版 Professional Certificate
+     Skills: Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+
+22. [UDACITY     ] Prob: 0.0000 | Score: 0.0752
+     Data Analysis and Visualization with Microsoft Power BI
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0000 | Score: 0.0748
+     Preparing for Google Cloud Certification: Machine Learning Engineer Professional Certificate
+     Skills: Google Cloud,Machine Learning,Feature Engineering,Tensorflow,Cloud Computing,
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.0709
+     Accounting Data Analytics Specialization
+     Skills: Machine Learning, Python Programming, Data Visualization (DataViz), Data Preparation, Exploratory Da
+
+25. [COURSERA    ] Prob: 0.0000 | Score: 0.0709
+     Google Advanced Data Analytics Professional Certificate
+     Skills: Data Science,Regression Models,Predictive Modelling,Exploratory Data Analysis (EDA),Statistical Anal
+
+26. [COURSERA    ] Prob: 0.0000 | Score: 0.0703
+     Machine Learning on Google Cloud Specialization
+     Skills: Vertex AI, Machine Learning, Feature Engineering, Tensorflow, Cloud Computing, Application Programmi
+
+27. [COURSERA    ] Prob: 0.0000 | Score: 0.0701
+     IBM Data Science Professional Certificate
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,Github,Python Programming,Jupyter n
+
+28. [UDACITY     ] Prob: 0.0000 | Score: 0.0691
+     Become a Marketing Analyst
+     Skills: No skills
+
+29. [COURSERA    ] Prob: 0.0000 | Score: 0.0683
+     IBM Data Warehouse Engineer Professional Certificate
+     Skills: Data Science,Database (DBMS),NoSQL,SQL,Database (DB) Design,Database Architecture,Postgresql,MySQL,R
+
+30. [COURSERA    ] Prob: 0.0000 | Score: 0.0673
+     Python, Bash and SQL Essentials for Data Engineering Specialization
+     Skills: Bash (Unix Shell), Database (DBMS), Web Application, Python Programming, SQL, Vim, Pandas, Visual St
+
+31. [COURSERA    ] Prob: 0.0000 | Score: 0.0636
+     Microsoft 365 Fundamentals Specialization
+     Skills: Create and maintain professional looking documents, Create and edit a workbook with multiple sheets,
+
+32. [UDACITY     ] Prob: 0.0000 | Score: 0.0633
+     SQL for Data Analysis
+     Skills: No skills
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.0627
+     BI Foundations with SQL, ETL and Data Warehousing Specialization
+     Skills: Shell Script, Bash (Unix Shell), Linux, Cloud Databases, Python Programming, Jupyter notebooks, Rela
+
+34. [UDACITY     ] Prob: 0.0000 | Score: 0.0619
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+35. [COURSERA    ] Prob: 0.0000 | Score: 0.0616
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+36. [UDACITY     ] Prob: 0.0000 | Score: 0.0614
+     Cloud Native Fundamentals
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0000 | Score: 0.0608
+     Getting Started with Google Workspace
+     Skills: No skills
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.0606
+     Google Cloud Digital Leader Training Professional Certificate
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0000 | Score: 0.0592
+     IBM AI Engineering Professional Certificate
+     Skills: SciPy and scikit-learn,Machine Learning,regression,classification,Hierarchical Clustering,Deep Learn
+
+40. [COURSERA    ] Prob: 0.0000 | Score: 0.0588
+     NoSQL, Big Data, and Spark Foundations Specialization
+     Skills: Apache Hadoop, Mongodb, Big Data, Apache Spark, NoSQL Databases, NoSQL, Cloud Database, Cloudant, Ca
+
+41. [COURSERA    ] Prob: 0.0000 | Score: 0.0554
+     Machine Learning Engineering for Production MLOps Specialization
+     Skills: Managing Machine Learning Production Systems, Deployment Pipelines, Model Pipelines, Data Pipelines,
+
+42. [COURSERA    ] Prob: 0.0000 | Score: 0.0540
+     Google Data Analytics Professional Certificate
+     Skills: Tableurs,Visualisation des données (DataViz),SQL,Nettoyage des données,Analyse de donnees,Prise de d
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.0533
+     IBM zOS Mainframe Practitioner Professional Certificate
+     Skills: Linux,Mainframe,z systems,security,IBM Z,
+
+44. [UDACITY     ] Prob: 0.0000 | Score: 0.0528
+     Data Visualization and D3.js
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.0521
+     Business Statistics and Analysis Specialization
+     Skills: Microsoft Excel, Linear Regression, Statistical Hypothesis Testing, Lookup Table, Data Analysis, Piv
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.0521
+     Building Cloud Computing Solutions at Scale Specialization
+     Skills: Cloud Platforms, Cloud API, Machine Learning, Cloud Databases, Cloud Computing, Github, Devops, 
+
+47. [COURSERA    ] Prob: 0.0000 | Score: 0.0518
+     Executive Data Science Specialization
+     Skills: Data Science, Data Management, Data Analysis, Communication, Leadership, Machine Learning, Project, 
+
+48. [COURSERA    ] Prob: 0.0000 | Score: 0.0515
+     Applied Data Science Specialization
+     Skills: Data Science, Python Programming, Data Analysis, Pandas, Numpy, Jupyter notebooks, Predictive Modell
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.0512
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.0498
+     Business Data Management and Communication Specialization
+     Skills: Asset Management, Business Analytics, Financial Accounting, Data Analysis, Rstudio, Accounting, Accr
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :  12 courses (  3.8%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  : 304 courses ( 96.2%)

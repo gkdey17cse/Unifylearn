@@ -1,0 +1,450 @@
+{
+  "user_query": "\"Search for artificial intelligence courses focusing on natural language processing and computer vision, but only from platforms that offer certification, with prerequisites in Python programming, and exclude any courses shorter than 4 weeks duration\"",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Google Data Analytics|Google|GCP|Data Analytics)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(IBM AI Engineering|IBM|AI Engineering)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Microsoft|Azure Fundamentals|Azure)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 67,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Google Data Analytics|Google|GCP|Data Analytics)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(IBM AI Engineering|IBM|AI Engineering)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Microsoft|Azure Fundamentals|Azure)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for|nanodegree)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 8,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Google Data Analytics|Google|GCP|Data Analytics)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(IBM AI Engineering|IBM|AI Engineering)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Microsoft|Azure Fundamentals|Azure)",
+                  "$options": "i"
+                }
+              },
+              {
+                "$or": [
+                  {
+                    "Short Intro": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Course Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Program Type": {
+                      "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 4,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Google Data Analytics|Google|GCP|Data Analytics)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(IBM AI Engineering|IBM|AI Engineering)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$and": [
+              {
+                "Title": {
+                  "$regex": "(Microsoft|Azure Fundamentals|Azure)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|exam|official|professional certificate|prepare for)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:10:06.921321"
+}

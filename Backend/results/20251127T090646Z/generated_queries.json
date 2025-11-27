@@ -1,0 +1,73 @@
+{
+  "user_query": "i want to learn about machne learning and AI courses from coursera and udacity",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'machine learning' and 'AI' courses. Expanding 'AI' to include: AI, Artificial Intelligence, Machine Learning, Deep Learning, Neural Networks. Also, user wants to filter based on the platforms Coursera and Udacity.",
+    "expanded_terms": [
+      "AI",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T09:06:46.555198"
+}

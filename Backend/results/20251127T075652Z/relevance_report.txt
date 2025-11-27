@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: “I want that coud architicture + devops ka combination course from that udaciti place… and future lern also but no courcera pls.”
+Total Courses: 562
+Generated at: 2025-11-27T07:56:52.687542
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    : 105 courses | Avg Prob: 0.0008 | Avg Score: 0.0247
+FUTURELEARN    : 440 courses | Avg Prob: 0.0007 | Avg Score: 0.0191
+UDACITY        :  14 courses | Avg Prob: 0.0009 | Avg Score: 0.0322
+COURSERA       :   3 courses | Avg Prob: 0.0008 | Avg Score: 0.0245
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.0015 | Score: 0.0574
+     Professional Certificate Course in AI and Machine Learning
+     Skills: 8583
+
+ 2. [SIMPLILEARN ] Prob: 0.0015 | Score: 0.0571
+     TOGAFÂ 9 Combined Level 1 and Level 2 Training Course
+     Skills: 8316
+
+ 3. [FUTURELEARN ] Prob: 0.0014 | Score: 0.0522
+     Decentralised Finance: Blockchain, Ethereum, and The Future of Banking
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0013 | Score: 0.0509
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0013 | Score: 0.0493
+     Software Development Fundamentals: Programming Languages and HTML
+     Skills: No skills
+
+ 6. [SIMPLILEARN ] Prob: 0.0013 | Score: 0.0491
+     Post Graduate Program in DevOps
+     Skills: 8583
+
+ 7. [UDACITY     ] Prob: 0.0013 | Score: 0.0484
+     Self-Driving Fundamentals: Featuring Apollo
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0012 | Score: 0.0457
+     Intro to HTML and CSS
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0453
+     Placemaking and Public Space Design: Unlocking Place Potential
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0447
+     Microsoft Future Ready: Designing and Implementing a Data Science Solution on Azure
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0447
+     Introduction to Sustainability and Development
+     Skills: No skills
+
+12. [SIMPLILEARN ] Prob: 0.0012 | Score: 0.0447
+     Deep Learning Course with Keras  TensorFlow Certification Training
+     Skills: 34113
+
+13. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0444
+     Introduction to Artificial Intelligence and Machine Learning
+     Skills: No skills
+
+14. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0439
+     Microsoft Future Ready: Essential Mathematics for Machine Learning and AI
+     Skills: No skills
+
+15. [SIMPLILEARN ] Prob: 0.0012 | Score: 0.0439
+     AWS Solutions Architect Certification Training Course
+     Skills: 26640
+
+16. [FUTURELEARN ] Prob: 0.0012 | Score: 0.0435
+     Programming Essentials with Python: Source Code and Solutions Architecture
+     Skills: No skills
+
+17. [SIMPLILEARN ] Prob: 0.0011 | Score: 0.0433
+     Lean Management Certification Training Course
+     Skills: 20714
+
+18. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0430
+     Development and Planning in African Cities: Exploring theories, policies and practices from Sierra Leone
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0429
+     Irish 103: An Introduction to Irish Language and Culture
+     Skills: No skills
+
+20. [SIMPLILEARN ] Prob: 0.0011 | Score: 0.0422
+     CICD Pipelines with Jenkins Certification Training Course
+     Skills: 11362
+
+21. [SIMPLILEARN ] Prob: 0.0011 | Score: 0.0419
+     Post Graduate Program in AI and Machine Learning
+     Skills: 757
+
+22. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0418
+     Technology Metals for a Green Future
+     Skills: No skills
+
+23. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0417
+     New Energy Technologies: Energy Transition and Sustainable Development
+     Skills: No skills
+
+24. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0416
+     Microsoft Future Ready: Ethics and Law in Data and Analytics
+     Skills: No skills
+
+25. [SIMPLILEARN ] Prob: 0.0011 | Score: 0.0415
+     Build a Rewarding Career with a Blockchain Developer Course
+     Skills: 8583
+
+26. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0414
+     Microsoft Future Ready: Designing and Implementing an Azure AI Solution
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0401
+     Programming Essentials with Python: Cloud Technology and SaaS
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0395
+     Microsoft Future Ready: Developing Applications Using Javascript
+     Skills: No skills
+
+29. [SIMPLILEARN ] Prob: 0.0011 | Score: 0.0395
+     Python Certification Course
+     Skills: 8099
+
+30. [FUTURELEARN ] Prob: 0.0011 | Score: 0.0393
+     Instructional Design: Course Development
+     Skills: No skills
+
+31. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0382
+     Salesforce Certification - Administrator  App Builder Course
+     Skills: 4451
+
+32. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0378
+     City Liveability: The Intersections of Place, Mobility, and Health
+     Skills: No skills
+
+33. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0378
+     Data Science with Python Course
+     Skills: 48619
+
+34. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0377
+     CEH v12 - Certified Ethical Hacking Course
+     Skills: 8962
+
+35. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0377
+     A Nutritional Approach to Agriculture and Food Security
+     Skills: No skills
+
+36. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0375
+     Workplace Training: Training Evaluation and Measuring Effectiveness
+     Skills: No skills
+
+37. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0369
+     AWS Data Analytics Certification Training Course
+     Skills: 8682
+
+38. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0368
+     Sport for Sustainable Development: Designing Effective Policies and Programmes
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0366
+     Software Development with Python and Java: Introducing Java
+     Skills: No skills
+
+40. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0366
+     Software Development with Python and Java: Understanding Python
+     Skills: No skills
+
+41. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0365
+     Budgeting: How to Prepare a Cash and Functional Budget
+     Skills: No skills
+
+42. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0364
+     ITILÂ 4 Strategist: Direct, Plan, and Improve
+     Skills: 1188
+
+43. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0364
+     Angular Certification Training Course
+     Skills: 3274
+
+44. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0363
+     ICP-ACC ICAgile Certified Agile Coaching Certification Training Course
+     Skills: 301
+
+45. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0362
+     Leadership Training in Healthcare: How to Build Resilience and Personal Development
+     Skills: No skills
+
+46. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0360
+     Data Science with R Certification Course
+     Skills: 53626
+
+47. [FUTURELEARN ] Prob: 0.0010 | Score: 0.0355
+     Essential Mathematics for Data Science and Machine Learning: Using R
+     Skills: No skills
+
+48. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0350
+     Apache Spark and Scala Certification Training
+     Skills: 6163
+
+49. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0349
+     Microsoft Certified Azure Administrator Associate AZ-104 Training Course
+     Skills: 7732
+
+50. [SIMPLILEARN ] Prob: 0.0010 | Score: 0.0349
+     CISA Certification Training Course
+     Skills: 7082
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :  41 courses (  7.3%)
+Very Low  : 521 courses ( 92.7%)

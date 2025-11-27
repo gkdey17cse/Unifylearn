@@ -1,0 +1,158 @@
+{
+  "user_query": "SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for courses from specific platforms: Simplilearn (AI), Coursera (C++), FutureLearn (Web Development), and Udacity (Business & Law). Expanding terms to include synonyms for each category to improve search recall.",
+    "expanded_terms": {
+      "simplilearn_ai": [
+        "AI",
+        "Artificial Intelligence",
+        "Machine Learning",
+        "Deep Learning",
+        "Neural Networks",
+        "NLP",
+        "CV",
+        "Computer Vision"
+      ],
+      "coursera_cpp": [
+        "C++",
+        "C Plus Plus",
+        "C++ Programming"
+      ],
+      "futurelearn_webdev": [
+        "Web Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Full Stack",
+        "Frontend",
+        "Backend"
+      ],
+      "udacity_business_law": [
+        "Business",
+        "Law",
+        "Business Law",
+        "Corporate Law",
+        "Legal Studies",
+        "Entrepreneurship",
+        "Management"
+      ]
+    },
+    "providers": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|CV|Computer Vision)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|CV|Computer Vision)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|CV|Computer Vision)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|CV|Computer Vision)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(C\\+\\+|C Plus Plus|C\\+\\+ Programming)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(C\\+\\+|C Plus Plus|C\\+\\+ Programming)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(C\\+\\+|C Plus Plus|C\\+\\+ Programming)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(C\\+\\+|C Plus Plus|C\\+\\+ Programming)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(C\\+\\+|C Plus Plus|C\\+\\+ Programming)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Business|Law|Business Law|Corporate Law|Legal Studies|Entrepreneurship|Management)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Business|Law|Business Law|Corporate Law|Legal Studies|Entrepreneurship|Management)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Business|Law|Business Law|Corporate Law|Legal Studies|Entrepreneurship|Management)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T08:53:35.957263"
+}

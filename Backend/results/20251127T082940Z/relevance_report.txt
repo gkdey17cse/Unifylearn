@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity
+Total Courses: 1329
+Generated at: 2025-11-27T08:29:41.003834
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 282 courses | Avg Prob: 0.0003 | Avg Score: 0.0606
+UDACITY        :  51 courses | Avg Prob: 0.0014 | Avg Score: 0.1033
+FUTURELEARN    : 981 courses | Avg Prob: 0.0006 | Avg Score: 0.0455
+SIMPLILEARN    :  15 courses | Avg Prob: 0.0000 | Avg Score: 0.0621
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0566 | Score: 1.0000
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+ 2. [UDACITY     ] Prob: 0.0566 | Score: 1.0000
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     A Beginnerâs Guide to Web Development with HTML5
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Learn to Code for the Web
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Software Development Fundamentals: Web Accessibility and CSS
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Mobile and Web Testing with Selenium WebDriver and Java
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     The Web of Sustainable Fashion: Relationships in the Fashion Industry
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Digital Skills: Web Analytics
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Digital Marketing Analytics and Measurement: Advanced Web Analytics
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Digital Marketing Analytics and Measurement: Web Analytics Planning and Tactics
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0566 | Score: 1.0000
+     Digital Marketing Analytics and Measurement: Web Analytics in Perspective
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0164 | Score: 0.9380
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+15. [COURSERA    ] Prob: 0.0074 | Score: 0.8983
+     Python, Bash and SQL Essentials for Data Engineering Specialization
+     Skills: Bash (Unix Shell), Database (DBMS), Web Application, Python Programming, SQL, Vim, Pandas, Visual St
+
+16. [UDACITY     ] Prob: 0.0068 | Score: 0.8938
+     Data Visualization and D3.js
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0063 | Score: 0.8899
+     Learn Intermediate Python
+     Skills: No skills
+
+18. [FUTURELEARN ] Prob: 0.0003 | Score: 0.7298
+     Making sense of genomic data: COVID-19 web-based bioinformatics
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0001 | Score: 0.6607
+     Software Development Basics
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0001 | Score: 0.6601
+     Learn to Code
+     Skills: No skills
+
+21. [FUTURELEARN ] Prob: 0.0001 | Score: 0.6601
+     Email Marketing eCRM: Measurement and Iteration
+     Skills: No skills
+
+22. [FUTURELEARN ] Prob: 0.0001 | Score: 0.6572
+     Microsoft Future Ready: Introduction to Azure Cloud for Data Scientists
+     Skills: No skills
+
+23. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6477
+     Digital Marketing Analytics and Measurement: Goals and Attribution Modelling
+     Skills: No skills
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.6470
+     Text Retrieval and Search Engines
+     Skills: Information Retrieval (IR),Document Retrieval,Machine Learning,Recommender Systems,
+
+25. [COURSERA    ] Prob: 0.0000 | Score: 0.6351
+     Python Project for AI  Application Development
+     Skills: Artificial Intelligence (AI),Web Application,Python Programming,Application development,Flask,
+
+26. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6302
+     Introduction to JavaScript
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6292
+     Digital Skills: Embracing Digital Technology
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6272
+     Online Display Advertising: Measuring Performance
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6272
+     Introduction to Machine Learning on AWS
+     Skills: No skills
+
+30. [COURSERA    ] Prob: 0.0000 | Score: 0.6262
+     Python and Machine-Learning for Asset Management with Alternative Data Sets
+     Skills: Advanced vizualisation,Basics of consuption-based alternative data,Text mining methodologies,Web-scr
+
+31. [COURSERA    ] Prob: 0.0000 | Score: 0.6192
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+32. [FUTURELEARN ] Prob: 0.0000 | Score: 0.6148
+     Doing Business in Web3
+     Skills: No skills
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.5978
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+34. [COURSERA    ] Prob: 0.0000 | Score: 0.4644
+     Fundamentals of Data Visualization
+     Skills: Evaluation Design,Visualizing data with Altair,User-Centered Design (Create basic visualizations tha
+
+35. [COURSERA    ] Prob: 0.0000 | Score: 0.4573
+     Executive Data Science Capstone
+     Skills: Data Science,Data Analysis,Management,Data Management,
+
+36. [COURSERA    ] Prob: 0.0000 | Score: 0.4501
+     Data Visualization with R
+     Skills: Data Science,Data Analysis,Data Visualization (DataViz),R Programming,
+
+37. [COURSERA    ] Prob: 0.0000 | Score: 0.3364
+     IoT Devices
+     Skills: Internet,Internet Of Things (IOT),Wireless,Front And Back Ends,
+
+38. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.3201
+     Data Scientist
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0000 | Score: 0.3087
+     Search Marketing: Search Engine Optimisation SEO
+     Skills: No skills
+
+40. [FUTURELEARN ] Prob: 0.0000 | Score: 0.1576
+     Why Do We Age? The Molecular Mechanisms of Ageing
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0000 | Score: 0.1294
+     Future Development in Supply Chain Finance and Blockchain Technology
+     Skills: Financial Innovation,Blockchain Implementation in Supply Chain Finance,APIs for Trade Finance,Managi
+
+42. [FUTURELEARN ] Prob: 0.0000 | Score: 0.1199
+     The ACNC: How We Help You
+     Skills: No skills
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.1172
+     AI Applications in Marketing and Finance
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0000 | Score: 0.1171
+     Computer Vision: Image Understanding for Efficient Business and Industry
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0000 | Score: 0.1088
+     Why We Post: the Anthropology of Social Media
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.1046
+     Algebra and Differential Calculus for Data Science
+     Skills: Integrals,Derivatives,Algebra,Matrix Algebra,Numerical Analysis,
+
+47. [COURSERA    ] Prob: 0.0000 | Score: 0.1011
+     Prediction and Control with Function Approximation
+     Skills: Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Function Approximation,Intellig
+
+48. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0974
+     Frontier Physics, Future Technologies
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0958
+     Green Innovation and Business Ethics: The Future of Entrepreneurship
+     Skills: No skills
+
+50. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0948
+     Organising for the Sustainable Development Goals SDGs
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :  13 courses (  1.0%)
+Medium    :   1 courses (  0.1%)
+Low       :   3 courses (  0.2%)
+Very Low  : 1312 courses ( 98.7%)

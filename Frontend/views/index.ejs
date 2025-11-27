@@ -171,7 +171,7 @@
   </style>
 </head>
 
-<body class="bg-gray-50 min-h-screen flex flex-col" style='font-family: "Manrope", sans-serif;'>
+<body class="bg-violet-100 min-h-screen flex flex-col" style='font-family: "Manrope", sans-serif;'>
   <!-- Loader -->
   <div id="page-loader" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
     <div class="flex flex-col items-center">
@@ -247,7 +247,7 @@
 
   <!-- Chatbot -->
   <!-- Chatbot -->
-  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50 h-max" style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
     <div class="bg-white/95 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200 overflow-hidden">
       <!-- Header -->
       <div class="flex justify-between items-center bg-primary-600 text-white px-4 py-3">
@@ -281,7 +281,7 @@
         </div>
 
         <!-- Input -->
-        <div class="px-4 py-3 bg-white border-t border-gray-200 flex">
+        <div class="px-4 py-3 bg-white border-t border-gray-200 flex h-20">
           <input type="text" id="userInput" placeholder="Ask about courses (e.g., Python for beginners)..." class="flex-grow px-4 py-2 border border-gray-300 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm">
           <button id="sendButton" class="bg-primary-600 hover:bg-primary-700 text-white px-4 py-2 rounded-r-lg font-medium transition-colors">
             <i class="fas fa-paper-plane"></i>

@@ -1,0 +1,270 @@
+{
+  "user_query": "“I want that coud architicture + devops ka combination course from that udaciti place… and future lern also but no courcera pls.”",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\b([1-3]|4)\\s*week",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\b([1-3]|4)\\s*week",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 14,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 105,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics": {
+                  "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\b([1-3]|4)\\s*week",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1231,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T07:56:52.536174"
+}

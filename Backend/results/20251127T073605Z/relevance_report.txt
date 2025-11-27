@@ -1,0 +1,223 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Bro just pull something related to coding or data or cloud but keep it like under 3–4 weeks dawg
+Total Courses: 1793
+Generated at: 2025-11-27T07:36:06.276619
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 185 courses | Avg Prob: 0.0004 | Avg Score: 0.0161
+UDACITY        :  87 courses | Avg Prob: 0.0004 | Avg Score: 0.0198
+FUTURELEARN    : 1521 courses | Avg Prob: 0.0003 | Avg Score: 0.0040
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0013 | Score: 0.0801
+     Building Cloud Computing Solutions at Scale Specialization
+     Skills: Cloud Platforms, Cloud API, Machine Learning, Cloud Databases, Cloud Computing, Github, Devops, 
+
+ 2. [UDACITY     ] Prob: 0.0011 | Score: 0.0700
+     Intro to Point  Click App Development
+     Skills: No skills
+
+ 3. [COURSERA    ] Prob: 0.0011 | Score: 0.0700
+     Introduction to Data Science Specialization
+     Skills: Data Science, Relational Database Management System (RDBMS), Cloud Databases, Python Programming, SQ
+
+ 4. [COURSERA    ] Prob: 0.0011 | Score: 0.0698
+     Practical Data Science on the AWS Cloud Specialization
+     Skills: Natural Language Processing with BERT, ML Pipelines and ML Operations (MLOps), A/B Testing and Model
+
+ 5. [COURSERA    ] Prob: 0.0010 | Score: 0.0669
+     Cloud Computing Law Specialization
+     Skills: Cloud Services, General Data Protection Regulation (GDPR), Cybersecurity, Contract Law, Cloud Comput
+
+ 6. [COURSERA    ] Prob: 0.0009 | Score: 0.0597
+     BI Foundations with SQL, ETL and Data Warehousing Specialization
+     Skills: Shell Script, Bash (Unix Shell), Linux, Cloud Databases, Python Programming, Jupyter notebooks, Rela
+
+ 7. [COURSERA    ] Prob: 0.0009 | Score: 0.0596
+     Accounting Data Analytics Specialization
+     Skills: Machine Learning, Python Programming, Data Visualization (DataViz), Data Preparation, Exploratory Da
+
+ 8. [COURSERA    ] Prob: 0.0009 | Score: 0.0595
+     Data Engineering, Big Data, and Machine Learning on GCP Specialization
+     Skills: Tensorflow, Bigquery, Google Cloud Platform, Cloud Computing, 
+
+ 9. [UDACITY     ] Prob: 0.0009 | Score: 0.0580
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0008 | Score: 0.0568
+     Machine Learning on Google Cloud Specialization
+     Skills: Vertex AI, Machine Learning, Feature Engineering, Tensorflow, Cloud Computing, Application Programmi
+
+11. [COURSERA    ] Prob: 0.0008 | Score: 0.0566
+     IBM Data Science Professional Certificate
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,Github,Python Programming,Jupyter n
+
+12. [FUTURELEARN ] Prob: 0.0008 | Score: 0.0560
+     Azure Cloud Fundamentals for Data Science with Python
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0008 | Score: 0.0556
+     Big Data Specialization
+     Skills: Big Data, Neo4j, Mongodb, Apache Spark, Apache Hadoop, Mapreduce, Cloudera, Data Model, Data Modelin
+
+14. [UDACITY     ] Prob: 0.0008 | Score: 0.0514
+     Become an AWS Cloud Architect
+     Skills: No skills
+
+15. [COURSERA    ] Prob: 0.0007 | Score: 0.0508
+     Data Science Specialization
+     Skills: Github, Machine Learning, R Programming, Regression Analysis, Data Science, Rstudio, Data Analysis, 
+
+16. [COURSERA    ] Prob: 0.0007 | Score: 0.0503
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+17. [COURSERA    ] Prob: 0.0007 | Score: 0.0501
+     Executive Data Science Specialization
+     Skills: Data Science, Data Management, Data Analysis, Communication, Leadership, Machine Learning, Project, 
+
+18. [UDACITY     ] Prob: 0.0007 | Score: 0.0498
+     Developing Android Apps with Kotlin
+     Skills: No skills
+
+19. [COURSERA    ] Prob: 0.0007 | Score: 0.0495
+     Applied Data Science with Python Specialization
+     Skills: Text Mining, Python Programming, Pandas, Matplotlib, Numpy, Data Cleansing, Data Virtualization, Dat
+
+20. [UDACITY     ] Prob: 0.0007 | Score: 0.0491
+     Data Analysis and Visualization with Microsoft Power BI
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0007 | Score: 0.0491
+     Google Advanced Data Analytics Professional Certificate
+     Skills: Data Science,Regression Models,Predictive Modelling,Exploratory Data Analysis (EDA),Statistical Anal
+
+22. [COURSERA    ] Prob: 0.0007 | Score: 0.0484
+     Information Technology IT and Cloud Fundamentals Specialization
+     Skills: IT Fundamentals, Cybersecurity, Cloud, Networking, hardware, Technical Support, IT Service Managemen
+
+23. [COURSERA    ] Prob: 0.0007 | Score: 0.0480
+     Data Mining Specialization
+     Skills: Data Clustering Algorithms, Text Mining, Data Visualization (DataViz), Data Mining, Data Visualizati
+
+24. [COURSERA    ] Prob: 0.0007 | Score: 0.0480
+     Leverage Data Science for a More Agile Supply Chain Specialization
+     Skills: Data-Informed Decision-Making, Analyze Metrics, Resource and Capacity Optimization, Risk identificat
+
+25. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0475
+     Microsoft Future Ready: Introduction to Azure Cloud for Data Scientists
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0007 | Score: 0.0472
+     Applied Data Science Specialization
+     Skills: Data Science, Python Programming, Data Analysis, Pandas, Numpy, Jupyter notebooks, Predictive Modell
+
+27. [COURSERA    ] Prob: 0.0007 | Score: 0.0469
+     Google Cloud Digital Leader Training Professional Certificate
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0007 | Score: 0.0467
+     Cloud Native Fundamentals
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0007 | Score: 0.0462
+     SQL for Data Analysis
+     Skills: No skills
+
+30. [COURSERA    ] Prob: 0.0007 | Score: 0.0461
+     Advanced Data Science with IBM Specialization
+     Skills: Data Science, Internet Of Things (IOT), Deep Learning, Apache Spark, Statistics, Machine Learning, L
+
+31. [UDACITY     ] Prob: 0.0007 | Score: 0.0460
+     How to Become a Data Scientist
+     Skills: No skills
+
+32. [UDACITY     ] Prob: 0.0007 | Score: 0.0452
+     UIKit Fundamentals
+     Skills: No skills
+
+33. [COURSERA    ] Prob: 0.0007 | Score: 0.0449
+     Data Science: Foundations using R Specialization
+     Skills: Data Science, Machine Learning, Github, R Programming, Exploratory Data Analysis, Rstudio, Data Anal
+
+34. [COURSERA    ] Prob: 0.0007 | Score: 0.0448
+     Vital Skills for Data Science Specialization
+     Skills: Information Privacy, Cybersecurity, analysis, Ethics, Data Science, Applied Mathematics, Information
+
+35. [COURSERA    ] Prob: 0.0007 | Score: 0.0447
+     IBM Data Warehouse Engineer Professional Certificate
+     Skills: Data Science,Database (DBMS),NoSQL,SQL,Database (DB) Design,Database Architecture,Postgresql,MySQL,R
+
+36. [UDACITY     ] Prob: 0.0007 | Score: 0.0444
+     Introduction to Python
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0007 | Score: 0.0442
+     Intro to TensorFlow for Deep Learning
+     Skills: No skills
+
+38. [COURSERA    ] Prob: 0.0007 | Score: 0.0440
+     Preparing for Google Cloud Certification: Machine Learning Engineer Professional Certificate
+     Skills: Google Cloud,Machine Learning,Feature Engineering,Tensorflow,Cloud Computing,
+
+39. [COURSERA    ] Prob: 0.0006 | Score: 0.0435
+     Data Science with Databricks for Data Analysts Specialization
+     Skills: Data Science, Data Analysis, Machine Learning, Spark SQL, SQL, Databricks, 
+
+40. [COURSERA    ] Prob: 0.0006 | Score: 0.0433
+     IBM  Darden Digital Strategy Specialization
+     Skills: Data Science, Digital transformation, Artificial Intelligence (AI), Business Strategy, Cloud Computi
+
+41. [UDACITY     ] Prob: 0.0006 | Score: 0.0431
+     Introduction to Data Analytics for Business
+     Skills: No skills
+
+42. [UDACITY     ] Prob: 0.0006 | Score: 0.0428
+     Cloud Architect using Microsoft Azure
+     Skills: No skills
+
+43. [COURSERA    ] Prob: 0.0006 | Score: 0.0426
+     Python, Bash and SQL Essentials for Data Engineering Specialization
+     Skills: Bash (Unix Shell), Database (DBMS), Web Application, Python Programming, SQL, Vim, Pandas, Visual St
+
+44. [COURSERA    ] Prob: 0.0006 | Score: 0.0418
+     NoSQL, Big Data, and Spark Foundations Specialization
+     Skills: Apache Hadoop, Mongodb, Big Data, Apache Spark, NoSQL Databases, NoSQL, Cloud Database, Cloudant, Ca
+
+45. [COURSERA    ] Prob: 0.0006 | Score: 0.0410
+     TensorFlow: Data and Deployment Specialization
+     Skills: Machine Learning, Tensorflow, advanced deployment, Object Detection, JavaScript, Convolutional Neura
+
+46. [UDACITY     ] Prob: 0.0006 | Score: 0.0409
+     Advanced Android with Kotlin
+     Skills: No skills
+
+47. [COURSERA    ] Prob: 0.0006 | Score: 0.0408
+     Business Data Management and Communication Specialization
+     Skills: Asset Management, Business Analytics, Financial Accounting, Data Analysis, Rstudio, Accounting, Accr
+
+48. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0399
+     Cloud Computing for Beginners
+     Skills: No skills
+
+49. [UDACITY     ] Prob: 0.0006 | Score: 0.0393
+     Learn to Code
+     Skills: No skills
+
+50. [COURSERA    ] Prob: 0.0006 | Score: 0.0377
+     Key Technologies for Business Specialization
+     Skills: Data Science, Artificial Intelligence (AI), Business, Cloud Computing, technology, Cloud Native, Dev
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   5 courses (  0.3%)
+Very Low  : 1788 courses ( 99.7%)

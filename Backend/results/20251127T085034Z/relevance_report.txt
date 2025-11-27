@@ -1,0 +1,209 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Machine learning courses from Futurelearn
+Total Courses: 47
+Generated at: 2025-11-27T08:50:34.110429
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :  47 courses | Avg Prob: 0.0054 | Avg Score: 0.0534
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.0334 | Score: 0.2049
+     Microsoft Future Ready: Principles of Machine Learning with Python Programming
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.0325 | Score: 0.2035
+     Microsoft Future Ready: Essential Mathematics for Machine Learning and AI
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0319 | Score: 0.2027
+     Microsoft Future Ready: Using Python Programming to Explore the Principles of Machine Learning
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0230 | Score: 0.1863
+     Apply Creative Machine Learning
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0184 | Score: 0.1750
+     Deep Learning on Azure with Python: Introduction to Machine Learning
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0153 | Score: 0.1658
+     An Introduction to Machine Learning in Quantitative Finance
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0150 | Score: 0.1651
+     R for Regression and Machine Learning in Investment
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0145 | Score: 0.1632
+     Introduction to Machine Learning on AWS
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0143 | Score: 0.1626
+     AI and Machine Learning Algorithms Using Python
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0137 | Score: 0.1604
+     Mathematics for Data Science: Essential Mathematics for Machine Learning and AI
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0070 | Score: 0.1266
+     Introduction to Artificial Intelligence and Machine Learning
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0046 | Score: 0.1058
+     Essential Mathematics for Data Science and Machine Learning: Using R
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0021 | Score: 0.0654
+     Introduction to AI Applications in Pulmonary Medicine
+     Skills: No skills
+
+14. [FUTURELEARN ] Prob: 0.0019 | Score: 0.0610
+     Deep Learning on Azure with Python: The Basics of Python Programming
+     Skills: No skills
+
+15. [FUTURELEARN ] Prob: 0.0018 | Score: 0.0593
+     Introduction to Microsoft Azure AI Fundamentals
+     Skills: No skills
+
+16. [FUTURELEARN ] Prob: 0.0018 | Score: 0.0578
+     Mastering Cloud Computing for AI: How to Use Microsoft Azure
+     Skills: No skills
+
+17. [FUTURELEARN ] Prob: 0.0017 | Score: 0.0572
+     Artificial Intelligence AI for Earth Monitoring
+     Skills: No skills
+
+18. [FUTURELEARN ] Prob: 0.0013 | Score: 0.0423
+     Microsoft Future Ready: Ethics and Law in Data and Analytics
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0013 | Score: 0.0423
+     Microsoft Future Ready: Designing and Implementing an Azure AI Solution
+     Skills: No skills
+
+20. [FUTURELEARN ] Prob: 0.0008 | Score: 0.0211
+     An Introduction to Artificial Intelligence in the Tourism Industry
+     Skills: No skills
+
+21. [FUTURELEARN ] Prob: 0.0008 | Score: 0.0211
+     Artificial Intelligence in Bioinformatics
+     Skills: No skills
+
+22. [FUTURELEARN ] Prob: 0.0008 | Score: 0.0193
+     Deep Learning on Azure with Python: Reinforcement Learning
+     Skills: No skills
+
+23. [FUTURELEARN ] Prob: 0.0008 | Score: 0.0161
+     Deep Learning on Azure with Python: Introduction to Deep Learning
+     Skills: No skills
+
+24. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0103
+     Deep Learning on Azure with Python: AI for Beginners
+     Skills: No skills
+
+25. [FUTURELEARN ] Prob: 0.0007 | Score: 0.0099
+     Intelligent Systems: An Introduction to Deep Learning and Autonomous Systems
+     Skills: No skills
+
+26. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0057
+     Applications of AI Technology
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Applied Artificial Intelligence: Natural Language Processing
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Applied Artificial Intelligence: Speech Recognition Systems
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+30. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     AI and Big Data in Global Health Improvement
+     Skills: No skills
+
+31. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Artificial Intelligence for Healthcare: Opportunities and Challenges
+     Skills: No skills
+
+32. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     AI for Legal Professionals II: Tools for Lawyers
+     Skills: No skills
+
+33. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Artificial Intelligence: Distinguishing Between Fact and Fiction
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Digital Skills: Artificial Intelligence
+     Skills: No skills
+
+35. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     MedTech: AI and Medical Robots
+     Skills: No skills
+
+36. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Using AI to Gain a Competitive Edge for your Customer Experience CX
+     Skills: No skills
+
+37. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Introduction to Creative AI
+     Skills: No skills
+
+38. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     AI for Healthcare: Equipping the Workforce for Digital Transformation
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Applied Artificial Intelligence: Computer Vision and Image Analysis
+     Skills: No skills
+
+40. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+41. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     The Laws of Digital Data, Content and Artificial Intelligence AI
+     Skills: No skills
+
+42. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Cyber Security Foundations: Reinforcing Identity and Access Management
+     Skills: No skills
+
+43. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Generative AI: Implications and Opportunities for Business
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Artificial Intelligence AI in Hospitality: Challenges and Business Opportunities
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     How Artificial Intelligence Can Support Healthcare
+     Skills: No skills
+
+46. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     Designing Human-Centred AI Products and Services
+     Skills: No skills
+
+47. [FUTURELEARN ] Prob: 0.0006 | Score: 0.0000
+     AI for Legal Professionals I: Law and Policy
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  10 courses ( 21.3%)
+Low       :   9 courses ( 19.1%)
+Very Low  :  28 courses ( 59.6%)

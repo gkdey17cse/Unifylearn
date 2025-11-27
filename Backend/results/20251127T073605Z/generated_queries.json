@@ -1,0 +1,171 @@
+{
+  "user_query": "Bro just pull something related to coding or data or cloud but keep it like under 3–4 weeks dawg",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "The user is asking for courses related to AI and cybersecurity from Coursera and Udacity that are longer than 3 months, and from Simplilearn and FutureLearn, they want courses shorter than 4 weeks.",
+    "expanded_terms": [
+      "AI",
+      "Artificial Intelligence",
+      "Machine Learning",
+      "Deep Learning",
+      "Neural Networks",
+      "NLP",
+      "Computer Vision",
+      "Cyber Security",
+      "Cybersecurity",
+      "Network Security",
+      "Ethical Hacking",
+      "InfoSec",
+      "Penetration Testing"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\d+)\\s*month",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\d+)\\s*month",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\d+)\\s*week",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              },
+              {
+                "ExpertTracks": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision|Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\d+)\\s*week",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T07:36:05.848962"
+}

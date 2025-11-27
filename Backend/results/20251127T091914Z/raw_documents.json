@@ -1,0 +1,66 @@
+{
+  "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera",
+  "raw_documents": {
+    "udacity": [
+      {
+        "_id": "68ac0cf969e0bdd621a8d937",
+        "Title": "Ethical Hacker",
+        "URL": "https://www.udacity.com/course/ethical-hacker-nanodegree--nd350",
+        "Short Intro": "Meet the growing demand for cybersecurity professionals by gaining the offensive security skills to protect an organization’s computer networks and systems.",
+        "Duration": "Estimated 2 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Ethical Hacker",
+        "Prequisites": "Linux, Networking, Programming and Windows OS.",
+        "What you learn": "You’ll master the skills necessary to become a successful Ethical Hacker. Learn how to find and exploit vulnerabilities and weaknesses in various systems, design and execute a penetration testing plan, and report on test findings using valid evidence.",
+        "_provider": "udacity"
+      }
+    ],
+    "simplilearn": [
+      {
+        "_id": "68ac04f569e0bdd621a8d7b0",
+        "Title": "Professional Certificate Program in Ethical Hacking and Penetration Testing",
+        "Short Intro": "Boost your career as a cybersecurity expert through this PCP in Ethical Hacking and Penetration Testing in collaboration with IIT Kanpur. In 6 months, you'll learn advanced offensive cybersecurity strategies to protect networks and data from breaches, theft, attacks, and more",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "University Program",
+        "Skills": 8583,
+        "Instructors": "Cyber Security",
+        "URL": "https://www.simplilearn.com/vapt-vulnerability-assessment-penetration-testing-certification?tag=",
+        "_provider": "simplilearn"
+      },
+      {
+        "_id": "68ac04f569e0bdd621a8d80d",
+        "Title": "CEH v12 - Certified Ethical Hacking Course",
+        "Short Intro": "Learn advanced processes in this (CEH) Certified Ethical Hacking course. In this online ethical hacking certification training, you will master advanced network packet analysis and system penetration testing techniques to build your network security skill-set and prevent hackers. You will get access to certified expert professionals who will guide you throughout your learning journey._x000D_\n",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best Cybersecurity Bootcamp by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Course",
+        "Skills": 8962,
+        "Instructors": "Cyber Security",
+        "URL": "https://www.simplilearn.com/cyber-security/ceh-certification?tag=",
+        "_provider": "simplilearn"
+      }
+    ],
+    "futurelearn": [
+      {
+        "_id": "68ac021069e0bdd621a8d18b",
+        "Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+        "URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+        "Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Microsoft Future Ready: Developing Applications Using Javascript",
+        "Course URL": "https://www.futurelearn.com/courses/developingapplicationsusingjavascript",
+        "Course Short Intro": "Gain hands-on web development experience as you learn the skills for using JavaScript and complete practical exercises.",
+        "Weekly study": "5 hours",
+        "_provider": "futurelearn"
+      }
+    ]
+  },
+  "total_raw_documents": 4,
+  "timestamp": "2025-11-27T09:19:14.591811"
+}

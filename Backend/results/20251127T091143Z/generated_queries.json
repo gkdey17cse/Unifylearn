@@ -1,0 +1,187 @@
+{
+  "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'web development courses', 'javascript', 'react', 'python programming classes', and 'beginner' level. Expanding terms to include synonyms and related technologies. Targeting all platforms since none are specified.",
+    "expanded_terms": [
+      "Web Development",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "Frontend",
+      "Backend",
+      "Python",
+      "Programming"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Level": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Level": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$regex": "\\b(Beginner|Introductory)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Title": {
+              "$regex": "\\b(Beginner|Introductory)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T09:11:43.239858"
+}
