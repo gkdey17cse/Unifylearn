@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Top 7 web dev courses with minimum 4.6 rating and at least 20,000 viewers. Only Coursera. Ignore all React courses.
+Total Courses: 713
+Generated at: 2025-11-27T07:33:54.687540
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 630 courses | Avg Prob: 0.0010 | Avg Score: 0.0839
+UDACITY        :  83 courses | Avg Prob: 0.0035 | Avg Score: 0.2240
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Meta React Native Specialization
+     Skills: Web Development, React (Web Framework), HTML and CSS, Mobile Development, JavaScript, Test-Driven De
+
+ 2. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Applications for Everybody Specialization
+     Skills: Jquery, web application development, Hypertext Preprocessor (PHP), JavaScript, MySQL, HTML, Cascadin
+
+ 3. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Django for Everybody Specialization
+     Skills: Cascading Style Sheets (CSS), HTML, JavaScript, SQL, Django (Web Framework), Hypertext Transfer Prot
+
+ 4. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Design for Everybody: Basics of Web Development  Coding Specialization
+     Skills: Web Development, Cascading Style Sheets (CSS), Html5, JavaScript, Responsive Web Design, Web Design,
+
+ 5. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+ 6. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Introduction to Web Development
+     Skills: Css Code,HTML,JavaScript,Cascading Style Sheets (CSS),
+
+ 7. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     HTML, CSS, and Javascript for Web Developers
+     Skills: HTML,JavaScript,Css Frameworks,Cascading Style Sheets (CSS),
+
+ 8. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Introduction to Web Development with HTML, CSS, JavaScript
+     Skills: Cascading Style Sheets (CSS),HTML,Git (Software),JavaScript,Cloud Applications,
+
+ 9. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Introduction to Front-End Development
+     Skills: Web Development Tools,User Interface,Front-End Web Development,HTML and CSS,Responsive Web Design,
+
+10. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Programming with JavaScript
+     Skills: Test-Driven Development,JavaScript,Front-End Web Development,Object-Oriented Programming (OOP),
+
+11. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Using Python to Access Web Data
+     Skills: Json,Xml,Python Programming,Web Scraping,
+
+12. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Introduction to Mobile Development
+     Skills: Web Development,React (Web Framework),HTML and CSS,Mobile Development,JavaScript,
+
+13. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Building Web Applications in Django
+     Skills: Django Template Language,GET & POST,Object-Oriented Programming (OOP),Cross-Site Scripting Forgery (
+
+14. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Application Technologies and Django
+     Skills: Cascading Style Sheets (CSS),HTML,Hypertext Transfer Protocol (HTTP),SQL,Django (Web Framework),
+
+15. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Interactivity with JavaScript
+     Skills: Document Object Model (DOM),JavaScript,Web Development,
+
+16. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Introduction to HTML5
+     Skills: Web Design,Web Accessibility,HTML,Html5,
+
+17. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Design: Wireframes to Prototypes
+     Skills: Sketch,Adobe XD,Adobe Illustrator,HTML/CSS,Balsamiq,
+
+18. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Design for Everybody Capstone
+     Skills: Web Design,HTML,JavaScript,Cascading Style Sheets (CSS),
+
+19. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Building Web Applications in PHP
+     Skills: Hypertext Preprocessor (PHP),HTML,Cascading Style Sheets (CSS),
+
+20. [COURSERA    ] Prob: 0.0298 | Score: 1.0000
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+21. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Authentication  Authorization: OAuth
+     Skills: No skills
+
+22. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Web Accessibility
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Intro to Backend
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Configuring Linux Web Servers
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Dynamic Web Applications with Sinatra
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Full Stack Foundations
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Browser Rendering Optimization
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     HTTP  Web Servers
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0298 | Score: 1.0000
+     Front End Web Developer
+     Skills: No skills
+
+30. [COURSERA    ] Prob: 0.0273 | Score: 0.9956
+     Meta Back-End Developer Professional Certificate
+     Skills: Cloud Hosting,Application Programming Interfaces (API),Python Programming,Computer Programming,Djang
+
+31. [UDACITY     ] Prob: 0.0157 | Score: 0.9679
+     Building High Conversion Web Forms
+     Skills: No skills
+
+32. [UDACITY     ] Prob: 0.0014 | Score: 0.8455
+     Introduction to Virtual Reality
+     Skills: No skills
+
+33. [UDACITY     ] Prob: 0.0009 | Score: 0.8226
+     Data Visualization and D3.js
+     Skills: No skills
+
+34. [COURSERA    ] Prob: 0.0003 | Score: 0.7651
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+35. [COURSERA    ] Prob: 0.0002 | Score: 0.7602
+     Programming Foundations with JavaScript, HTML and CSS
+     Skills: HTML,JavaScript,Cascading Style Sheets (CSS),Html5,
+
+36. [UDACITY     ] Prob: 0.0002 | Score: 0.7575
+     Intro to Relational Databases
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0002 | Score: 0.7554
+     Learn Intermediate Python
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0002 | Score: 0.7515
+     JavaScript and the DOM
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0002 | Score: 0.7505
+     Software Design and Architecture Specialization
+     Skills: Software Architecture, Java, Software Design Pattern, Object-Oriented Programming (OOP), Object-Orie
+
+40. [COURSERA    ] Prob: 0.0002 | Score: 0.7487
+     Python, Bash and SQL Essentials for Data Engineering Specialization
+     Skills: Bash (Unix Shell), Database (DBMS), Web Application, Python Programming, SQL, Vim, Pandas, Visual St
+
+41. [COURSERA    ] Prob: 0.0002 | Score: 0.7428
+     Python for Everybody Specialization
+     Skills: Json, Xml, Python Programming, Database (DBMS), Python Syntax And Semantics, Basic Programming Langu
+
+42. [COURSERA    ] Prob: 0.0001 | Score: 0.6982
+     Desarrollador back-end de Meta Professional Certificate
+     Skills: Linux,Cloud Hosting,Web Development,Bash (Unix Shell),Python Programming,Application Programming Int
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.6128
+     Scripting with Python and SQL for Data Engineering
+     Skills: Database (DBMS),Python Programming,Web Scraping,MySQL,SQL,
+
+44. [COURSERA    ] Prob: 0.0000 | Score: 0.5981
+     Python Project for Data Engineering
+     Skills: Information Engineering,Python Programming,Jupyter notebooks,Web Scraping,Extract Transform Load (ET
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.5481
+     Text Retrieval and Search Engines
+     Skills: Information Retrieval (IR),Document Retrieval,Machine Learning,Recommender Systems,
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.5318
+     Spring MVC, Spring Boot and Rest Controllers
+     Skills: Spring Framework,Restful services,Java Programming,Spring Boot,
+
+47. [UDACITY     ] Prob: 0.0000 | Score: 0.5305
+     Website Performance Optimization
+     Skills: No skills
+
+48. [UDACITY     ] Prob: 0.0000 | Score: 0.5249
+     Learn to Code
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.5074
+     Python and Machine-Learning for Asset Management with Alternative Data Sets
+     Skills: Advanced vizualisation,Basics of consuption-based alternative data,Text mining methodologies,Web-scr
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.5048
+     Digital Marketing Analytics in Theory
+     Skills: Digital Marketing,Data Collection,Analytics,Data Analysis,Data Visualization (DataViz),
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  31 courses (  4.3%)
+Low       :   1 courses (  0.1%)
+Very Low  : 681 courses ( 95.5%)

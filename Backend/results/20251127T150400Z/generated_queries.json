@@ -1,0 +1,234 @@
+{
+  "user_query": "looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'data science and business analytics courses with statistics, SQL, and data visualization skills' with 'good ratings and practical projects for career advancement'. Expanding terms for data science, business analytics, and practical projects.",
+    "expanded_terms": [
+      "Data Science",
+      "Data Analysis",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python",
+      "Business Analytics",
+      "Data Visualization",
+      "SQL",
+      "Career Advancement",
+      "Practical Projects",
+      "Real-world Projects",
+      "Hands-on Experience"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Rating": {
+              "$regex": "4|5"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "What you learn": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T15:04:00.099112"
+}

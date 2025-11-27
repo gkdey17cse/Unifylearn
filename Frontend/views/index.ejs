@@ -7,7 +7,6 @@
   <title><%= title %></title>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
   <script src="https://cdn.tailwindcss.com"></script>
-  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -30,7 +29,6 @@
             }
           },
           fontFamily: {
-            // sans: ['Poppins', 'ui-sans-serif', 'system-ui'],
             sans: ['Lato', 'ui-sans-serif', 'system-ui'],
           },
         }
@@ -38,11 +36,8 @@
     }
   </script>
 
-  <!--  Voice Functionality -->
   <style>
     /* Improved voice recognition styles */
-
-    /* Voice button states */
     .voice-listening {
       animation: voice-pulse 1s ease-in-out infinite;
       box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.3);
@@ -62,18 +57,74 @@
       }
     }
 
-    /* Clear button positioning */
+    /* --- NEW WAVE ANIMATION CSS --- */
+    .voice-wave-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 3px;
+      height: 20px;
+    }
+
+    .wave-bar {
+      width: 4px;
+      background: #9333ea;
+      /* Primary purple color */
+      border-radius: 4px;
+      animation: wave-animation 1s ease-in-out infinite;
+    }
+
+    /* Different delays to create the wave effect */
+    .wave-bar:nth-child(1) {
+      animation-delay: 0.0s;
+      height: 40%;
+    }
+
+    .wave-bar:nth-child(2) {
+      animation-delay: 0.1s;
+      height: 50%;
+    }
+
+    .wave-bar:nth-child(3) {
+      animation-delay: 0.2s;
+      height: 100%;
+    }
+
+    .wave-bar:nth-child(4) {
+      animation-delay: 0.3s;
+      height: 50%;
+    }
+
+    .wave-bar:nth-child(5) {
+      animation-delay: 0.4s;
+      height: 40%;
+    }
+
+    @keyframes wave-animation {
+
+      0%,
+      100% {
+        height: 20%;
+        opacity: 0.5;
+      }
+
+      50% {
+        height: 100%;
+        opacity: 1;
+      }
+    }
+
+    /* ----------------------------- */
+
     .relative .absolute {
       z-index: 10;
     }
 
-    /* Better textarea focus states */
     textarea:focus {
       border-color: #a855f7;
       box-shadow: 0 0 0 3px rgba(168, 85, 247, 0.1);
     }
 
-    /* Voice help tooltip */
     .voice-tooltip {
       position: absolute;
       bottom: 100%;
@@ -104,7 +155,6 @@
       opacity: 1;
     }
 
-    /* Error states */
     .textarea-error {
       border-color: #ef4444;
       box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
@@ -112,34 +162,11 @@
   </style>
 
   <style>
+    /* ... (Keeping your existing font/card styles unchanged) ... */
     .poppins-thin {
       font-family: "Poppins", sans-serif;
       font-weight: 100;
       font-style: normal;
-    }
-
-    .poppins-extralight {
-      font-family: "Poppins", sans-serif;
-      font-weight: 200;
-      font-style: normal;
-    }
-
-    .poppins-thin-italic {
-      font-family: "Poppins", sans-serif;
-      font-weight: 100;
-      font-style: italic;
-    }
-
-    .poppins-extralight-italic {
-      font-family: "Poppins", sans-serif;
-      font-weight: 200;
-      font-style: italic;
-    }
-
-    .poppins-regular-italic {
-      font-family: "Poppins", sans-serif;
-      font-weight: 400;
-      font-style: italic;
     }
 
     .course-card {
@@ -194,21 +221,18 @@
       background: #c084fc;
     }
 
-
-    /* Make navbar sticky */
     nav {
       position: sticky;
       top: 0;
       z-index: 50;
     }
 
-    /* Chatbot minimized style */
-    .chatbot-container.minimized .bg-white/95 {
+    /* Minimized style fix */
+    .chatbot-container.minimized .bg-white {
       overflow: hidden;
       height: 50px;
       cursor: pointer;
     }
-
 
     @media (max-width: 640px) {
       .chatbot-container {
@@ -218,7 +242,6 @@
       }
     }
 
-    /* Fix for expandable sections */
     .all-skills,
     .all-outcomes,
     .full-description {
@@ -231,10 +254,8 @@
     .all-outcomes.expanded,
     .full-description.expanded {
       max-height: 500px;
-      /* Adjust this value based on your content */
     }
 
-    /* Ensure content is visible when expanded */
     .all-skills.expanded .bg-gray-100,
     .all-outcomes.expanded .text-gray-600,
     .full-description.expanded {
@@ -245,7 +266,7 @@
 </head>
 
 <body class="bg-violet-100 min-h-screen flex flex-col" style='font-family: "Manrope", sans-serif;'>
-  <!-- Loader -->
+
   <div id="page-loader" class="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50 hidden">
     <div class="flex flex-col items-center">
       <div class="flex space-x-2">
@@ -257,7 +278,6 @@
     </div>
   </div>
 
-  <!-- Navbar -->
   <nav class="bg-primary-700 shadow-md">
     <div class="container mx-auto px-4 py-4 flex items-center justify-between">
       <a href="/" class="flex items-center space-x-2">
@@ -270,8 +290,7 @@
     </div>
   </nav>
 
-  <!-- Main Content -->
-  <main class="flex-1 container mx-auto px-4 py-8">
+  <main class="flex-1 container mx-auto px-4 py-6">
     <% if (!courses || courses.length === 0) { %>
     <div id="guideSection" class="text-center max-w-3xl mx-auto mb-8">
       <h1 class="text-4xl font-bold text-gray-800 mb-4">Discover Courses Smarter with UnifyLearn</h1>
@@ -318,58 +337,48 @@
     </div>
   </footer>
 
-  <!-- Chatbot -->
+  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50 h-max text-sm ">
+    <div class="bg-white backdrop-blur-sm rounded-xl shadow-2xl border border-gray-200 overflow-hidden">
 
-  <div class="chatbot-container fixed bottom-5 right-5 w-96 md:w-80 lg:w-96 z-50 h-max text-sm">
-    <div class="bg-violet-100 backdrop-blur-sm rounded-xl shadow-lg border border-gray-200 overflow-hidden">
-      <!-- Header -->
       <div class="flex justify-between items-center bg-primary-600 text-white px-4 py-3">
         <div class="flex items-center space-x-2">
           <i class="fas fa-robot"></i>
           <h3 class="font-semibold">UnifyBot</h3>
         </div>
         <div class="flex space-x-2">
-          <!-- Minimize button -->
-          <button id="minimizeChat" class="bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full w-7 h-7 flex items-center justify-center">
+          <button id="minimizeChat" class="bg-white/20 hover:bg-white/30 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors">
             <i class="fas fa-minus text-sm"></i>
           </button>
-          <!-- Close button -->
-          <button id="closeChat" class="bg-gray-200 hover:bg-gray-300 text-gray-800 rounded-full w-7 h-7 flex items-center justify-center">
+          <button id="closeChat" class="bg-white/20 hover:bg-white/30 text-white rounded-full w-7 h-7 flex items-center justify-center transition-colors">
             <i class="fas fa-times text-sm"></i>
           </button>
         </div>
       </div>
 
-      <!-- Chat body -->
-      <div class="border-t border-gray-200 bg-violet-100">
-        <div id="chatMessages" class="chat-messages h-80 overflow-y-auto p-4 bg-gray-50/90">
+      <div class="border-t border-gray-100 bg-white">
+        <div id="chatMessages" class="chat-messages h-80 overflow-y-auto p-4 bg-gray-50">
           <div class="flex mb-4">
             <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0">
               <i class="fas fa-robot text-blue-600"></i>
             </div>
-            <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%] text-sm">
+            <div class="bg-white border border-gray-200 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%] text-sm shadow-sm">
               Hello! I am UnifyBot, your course discovery assistant. What would you like to learn today?
             </div>
           </div>
         </div>
 
-        <!-- Updated Input Section -->
-        <div class="px-4 py-3 bg-white border-t border-gray-200">
+        <div class="px-4 py-3 bg-white border-t border-gray-100">
           <div class="flex flex-col space-y-2">
-            <!-- Text Input Area -->
             <div class="flex items-start space-x-2">
               <div class="flex-1 relative">
                 <textarea id="userInput" placeholder="Ask about courses (e.g., Python for beginners)..." rows="2" class="w-full px-4 py-2 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-transparent text-sm resize-none min-h-[60px] max-h-[120px] transition-colors"></textarea>
-                <!-- Character counter -->
                 <div class="absolute bottom-1 right-2 text-xs text-gray-400 hidden" id="charCount">
                   <span id="charCountText">0</span>/500
                 </div>
               </div>
             </div>
 
-            <!-- Action Buttons -->
             <div class="flex justify-between items-center">
-              <!-- Voice Input Button with Wrapper for Tooltip -->
               <div class="voice-button-wrapper relative">
                 <button id="voiceButton" class="bg-gray-100 hover:bg-gray-200 text-gray-700 p-2 rounded-lg transition-all duration-200 relative group" title="Voice Input (Ctrl+Space)" type="button">
                   <i class="fas fa-microphone"></i>
@@ -379,7 +388,6 @@
                 </div>
               </div>
 
-              <!-- Send Button -->
               <button id="sendButton" class="bg-primary-600 hover:bg-primary-700 text-white px-6 py-2 rounded-lg font-medium transition-colors flex items-center space-x-2 disabled:opacity-50 disabled:cursor-not-allowed" type="button">
                 <span>Send</span>
                 <i class="fas fa-paper-plane text-sm"></i>
@@ -388,12 +396,10 @@
           </div>
         </div>
 
-
       </div>
     </div>
   </div>
 
-  <!-- Script for Voice Functionality -->
   <script>
     window.__LOCAL_COURSES__ = <%- JSON.stringify(courses || []) %>;
     window.__CURRENT_TIMESTAMP__ = <%- JSON.stringify(locals.timestamp || '') %>;
@@ -416,7 +422,6 @@
       }
 
       init() {
-        // Check browser support
         if (!('webkitSpeechRecognition' in window) && !('SpeechRecognition' in window)) {
           if (this.voiceButton) this.voiceButton.style.display = 'none';
           return;
@@ -424,13 +429,12 @@
 
         const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
         this.recognition = new SpeechRecognition();
-
         this.setupRecognition();
         this.setupEventListeners();
       }
 
       setupRecognition() {
-        this.recognition.continuous = true; // CRITICAL: Allows pauses
+        this.recognition.continuous = true;
         this.recognition.interimResults = true;
         this.recognition.lang = 'en-US';
 
@@ -444,7 +448,6 @@
           let interimTranscript = '';
           let finalForThisSegment = '';
 
-          // Process results
           for (let i = event.resultIndex; i < event.results.length; i++) {
             const transcript = event.results[i][0].transcript;
             if (event.results[i].isFinal) {
@@ -454,13 +457,11 @@
             }
           }
 
-          // Append final text to session storage
           if (finalForThisSegment) {
             const prefix = (this.sessionTranscript.length > 0 || this.manualInput.length > 0) ? ' ' : '';
             this.sessionTranscript += prefix + finalForThisSegment;
           }
 
-          // Display Logic: Manual + Saved Voice + Current Interim
           let displayInterim = '';
           if (interimTranscript) {
             displayInterim = (this.sessionTranscript || this.manualInput) ? ' ' + interimTranscript : interimTranscript;
@@ -471,16 +472,12 @@
         };
 
         this.recognition.onerror = (event) => {
-          // Ignore silence errors (happens during pauses)
           if (event.error === 'no-speech') return;
-
           console.error('Speech error:', event.error);
-          this.stopListening(); // Soft stop on real errors
+          this.stopListening();
         };
 
         this.recognition.onend = () => {
-          // Only fully stop if the flag says we shouldn't be listening.
-          // In continuous mode, onend happens on network error or user stop.
           if (!this.isListening) {
             this.updateUIState(false);
             this.removeListeningIndicator();
@@ -490,7 +487,6 @@
 
       setupEventListeners() {
         if (!this.voiceButton) return;
-
         this.voiceButton.addEventListener('click', (e) => {
           e.preventDefault();
           if (this.isListening) {
@@ -502,14 +498,10 @@
       }
 
       startListening() {
-        // Hard reset to ensure clean slate
         this.recognition.abort();
         this.isListening = true;
-
-        // Capture what's currently in the box so we append to it
         this.manualInput = this.userInput.value;
         this.sessionTranscript = '';
-
         try {
           this.recognition.start();
         } catch (error) {
@@ -523,18 +515,13 @@
         try {
           this.recognition.stop();
         } catch (e) {}
-
-        // Finalize state
         this.manualInput = this.userInput.value;
         this.sessionTranscript = '';
-
         this.updateUIState(false);
         this.removeListeningIndicator();
         this.updateCharCount();
       }
 
-      // CRITICAL FIX: Use abort() instead of stop() for resets
-      // This kills the connection immediately, preventing "Mic Dead" on reload
       resetState() {
         this.isListening = false;
         try {
@@ -546,7 +533,6 @@
         this.removeListeningIndicator();
       }
 
-      // --- UI HELPERS ---
       updateUIState(listening) {
         if (listening) {
           this.voiceButton.innerHTML = '<i class="fas fa-stop"></i>';
@@ -578,20 +564,31 @@
         }
       }
 
+      // --- CHANGED: NEW WAVE ANIMATION LOGIC ---
       addListeningIndicator() {
         this.removeListeningIndicator();
         const indicator = document.createElement('div');
         indicator.id = 'listeningIndicator';
-        indicator.className = 'flex items-center space-x-2 text-sm text-green-600 mb-2 transition-all';
+        // Improved styling for the text container
+        indicator.className = 'flex items-center justify-between px-2 py-1 mb-2 bg-purple-50 rounded-lg border border-purple-100';
+
+        // This inserts the wave HTML structure
         indicator.innerHTML = `
-          <div class="flex space-x-1">
-            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse"></div>
-            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.2s"></div>
-            <div class="w-2 h-2 bg-green-500 rounded-full animate-pulse" style="animation-delay: 0.4s"></div>
+          <div class="flex items-center space-x-2">
+            <div class="voice-wave-container">
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+              <div class="wave-bar"></div>
+            </div>
+            <span class="text-xs font-semibold text-purple-700">Listening...</span>
           </div>
-          <span>Listening... (Pause allowed)</span>`;
+          <span class="text-[10px] text-gray-500">Tap mic to stop</span>`;
+
         this.userInput.parentNode.insertBefore(indicator, this.userInput);
       }
+      // -----------------------------------------
 
       removeListeningIndicator() {
         const indicator = document.getElementById('listeningIndicator');
@@ -610,27 +607,18 @@
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
-      // 1. Initialize Voice
       window.voiceApp = new VoiceRecognition();
-
-      // 2. Initialize Chat
       initializeChatbot();
-
-      // 3. Render Courses (Using your Original UI File)
       renderCoursesOriginal();
-
-      // 4. Setup Toggles
       setupToggles();
     });
 
-    // --- ORIGINAL RENDERING LOGIC ---
     function renderCoursesOriginal() {
       const courses = window.__LOCAL_COURSES__;
       const resultsContainer = document.getElementById('results-container');
       const guideSection = document.getElementById('guideSection');
 
       if (courses && courses.length > 0) {
-        // If container missing (edge case), recreate it
         if (!resultsContainer) {
           if (guideSection) guideSection.classList.add('hidden');
           const main = document.querySelector('main');
@@ -645,7 +633,6 @@
           return renderCoursesOriginal();
         }
 
-        // DYNAMIC IMPORT (Restores your UI)
         import('/js/courseCard.js')
           .then(module => {
             resultsContainer.innerHTML = '';
@@ -664,7 +651,6 @@
       }
     }
 
-    // --- CHAT LOGIC ---
     function initializeChatbot() {
       const userInput = document.getElementById('userInput');
       const sendButton = document.getElementById('sendButton');
@@ -679,7 +665,6 @@
         }
       });
 
-      // Ensure we kill the mic before page unloads to prevent "Mic Dead" on next page
       window.addEventListener('beforeunload', () => {
         if (window.voiceApp) window.voiceApp.resetState();
       });
@@ -693,17 +678,11 @@
       const pageLoader = document.getElementById('page-loader');
       if (pageLoader) pageLoader.classList.remove('hidden');
 
-      // 1. Show Message immediately
       addMessage(query, 'user');
-
-      // 2. Kill Voice Engine Immediately
       if (window.voiceApp) window.voiceApp.resetState();
-
-      // 3. Clear Input
       userInput.value = '';
       userInput.style.height = 'auto';
 
-      // 4. Send
       fetch('/query', {
           method: 'POST',
           headers: {
@@ -718,7 +697,6 @@
           if (pageLoader) pageLoader.classList.add('hidden');
           if (data.success) {
             addMessage(`Found ${data.total_results} courses! Redirecting...`, 'bot');
-            // Small delay to allow user to see the success message
             setTimeout(() => {
               window.location.href = `/${data.timestamp}`;
             }, 1000);
@@ -747,7 +725,7 @@
       } else {
         div.innerHTML = `
           <div class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 flex-shrink-0"><i class="fas fa-robot text-blue-600"></i></div>
-          <div class="bg-gray-100 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%] shadow-sm text-gray-800">${text}</div>`;
+          <div class="bg-white border border-gray-200 rounded-lg rounded-tl-none px-4 py-2 max-w-[80%] shadow-sm text-gray-800">${text}</div>`;
       }
 
       chatMessages.appendChild(div);
@@ -780,9 +758,6 @@
       });
     }
   </script>
-
-
-
 </body>
 
 </html>

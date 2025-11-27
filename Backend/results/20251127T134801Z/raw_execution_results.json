@@ -1,0 +1,146 @@
+{
+  "user_query": "hey suggest me some course which is related to NLP and deep learning models also some courses on operating system",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 169,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 22,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Topics related to CRM": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(NLP|Natural Language Processing|Deep Learning|Neural Networks|Operating System|OS|Linux|Windows|MacOS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 40,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T13:48:01.024713"
+}

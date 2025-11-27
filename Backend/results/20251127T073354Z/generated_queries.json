@@ -1,0 +1,81 @@
+{
+  "user_query": "Top 7 web dev courses with minimum 4.6 rating and at least 20,000 viewers. Only Coursera. Ignore all React courses.",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "The user is looking for data science courses specifically mentioning Python and Machine Learning (ML) on Coursera and Udacity. I will generate queries for those platforms, expanding 'Data Science' and including Python and ML in the search terms.",
+    "expanded_terms": [
+      "Data Science",
+      "Data Analysis",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python",
+      "ML"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Prerequisites": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T07:33:54.550382"
+}

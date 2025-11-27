@@ -1,0 +1,152 @@
+{
+  "user_query": "show me some  guitar lesson  courses from any kind of platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 7,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\bsome\\ guitar\\ lesson\\ kind\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T14:49:40.045954"
+}

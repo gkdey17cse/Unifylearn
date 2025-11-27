@@ -1,0 +1,78 @@
+{
+  "user_query": "SHow me Database course from Udacity & Sports related course from cursera",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "match_count": 34,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Coursera"
+      },
+      "match_count": 39,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T15:05:48.726012"
+}

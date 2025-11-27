@@ -1,0 +1,93 @@
+{
+  "user_query": "SHow me Database course from Udacity & Sports related course from cursera",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Database course from Udacity' and 'Sports related course from Coursera'. Expanding 'Database' to include related terms such as 'SQL', 'NoSQL', 'DBMS', 'Data Modeling', 'Data Management', and 'Data Warehousing'. Expanding 'Sports' to include terms like 'Fitness', 'Exercise', 'Athletics', 'Physical Activity', and 'Wellness'. Constructing platform-specific queries for Udacity and Coursera.",
+    "expanded_terms": {
+      "database": [
+        "Database",
+        "SQL",
+        "NoSQL",
+        "DBMS",
+        "Data Modeling",
+        "Data Management",
+        "Data Warehousing",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB"
+      ],
+      "sports": [
+        "Sports",
+        "Fitness",
+        "Exercise",
+        "Athletics",
+        "Physical Activity",
+        "Wellness",
+        "Nutrition",
+        "Yoga",
+        "Pilates"
+      ]
+    },
+    "providers": {
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Database|SQL|NoSQL|DBMS|Data Modeling|Data Management|Data Warehousing|PostgreSQL|MySQL|MongoDB)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Sports|Fitness|Exercise|Athletics|Physical Activity|Wellness|Nutrition|Yoga|Pilates)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Coursera"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T15:05:48.722652"
+}

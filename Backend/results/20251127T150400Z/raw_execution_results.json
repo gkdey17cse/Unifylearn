@@ -1,0 +1,265 @@
+{
+  "user_query": "looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Rating": {
+              "$regex": "4|5"
+            }
+          }
+        ]
+      },
+      "match_count": 8,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "What you learn": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T15:04:00.108159"
+}
