@@ -1,0 +1,152 @@
+{
+  "user_query": "show me some difficult level course in  cricket from coursera and  and  data science courses from simply learnt platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for courses in 'cricket' and 'data science'. Expanding 'data science' to include synonyms. Targeting specific platforms (Coursera and Simplilearn) and filtering for 'difficult' level courses. I assume difficult is synonymous with expert or advanced.",
+    "expanded_terms": [
+      "Data Science",
+      "Data Analysis",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python",
+      "Machine Learning",
+      "Deep Learning"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(cricket)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-28T19:42:20.735372"
+}

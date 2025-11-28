@@ -1,0 +1,33 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me some difficult level course in  cricket from coursera and  and  data science courses from simply learnt platform
+Total Courses: 3
+Generated at: 2025-11-28T19:42:20.747547
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+SIMPLILEARN    :   3 courses | Avg Prob: 0.3333 | Avg Score: 0.0869
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [SIMPLILEARN ] Prob: 0.5803 | Score: 0.1208
+     Data Science with R Certification Course
+     Skills: 53626
+
+ 2. [SIMPLILEARN ] Prob: 0.2167 | Score: 0.0716
+     Professional Certificate Course in AI and Machine Learning
+     Skills: 8583
+
+ 3. [SIMPLILEARN ] Prob: 0.2030 | Score: 0.0683
+     Data Analyst
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   3 courses (100.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)
