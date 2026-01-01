@@ -1,0 +1,96 @@
+{
+  "user_query": "\"Show me courses that can lead to multiple certifications: AWS cloud practitioner, Google data analytics, IBM AI engineering, and Microsoft Azure fundamentals - from platforms offering official certification preparation\"",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\d+\\s*(month|week|day)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 183,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP|Computer Vision)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "\\d+\\s*(week|month|day)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 136,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:03:24.222137"
+}

@@ -1,0 +1,64 @@
+{
+  "timestamp": "2025-11-14T20:53:36.781827",
+  "user_query": "show me 3 DBMS course from Udacity",
+  "debug_info": {
+    "user_query": "show me 3 DBMS course from Udacity",
+    "llm_generated_queries": {
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bDBMS\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "$limit": 3
+      }
+    },
+    "execution_results": {
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bDBMS\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bDBMS\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bDBMS\\b",
+                "$options": "i"
+              }
+            }
+          ],
+          "$limit": 3
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for udacity: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763153617, 1), 'signature': {'hash': b'\\xc4\\x9ec\\x97E\\xf3\\xe7\\xd3\\xeep\\x10&\\xc6\\xcc\\xc9\\xb1\\xdaQ\\x92\\x18', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763153617, 1)}"
+      }
+    }
+  },
+  "all_results": []
+}

@@ -1,0 +1,41 @@
+{
+  "user_query": "Show me top 5 courses from Udacity on Simplilearn",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ udacity\\ simplilearn\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ udacity\\ simplilearn\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\btop\\ udacity\\ simplilearn\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\btop\\ udacity\\ simplilearn\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": 5,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-14T21:49:14.670053"
+}

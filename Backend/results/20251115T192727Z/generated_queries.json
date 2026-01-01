@@ -1,0 +1,36 @@
+{
+  "user_query": "List all Cloud courses from Udacity",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "List all Cloud courses from Udacity",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T19:27:27.257192"
+}

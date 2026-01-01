@@ -1,0 +1,36 @@
+{
+  "user_query": "Show all Python courses from Udacity",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Python courses from Udacity",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T02:41:26.967122"
+}

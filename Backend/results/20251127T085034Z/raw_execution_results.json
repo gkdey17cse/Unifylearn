@@ -1,0 +1,42 @@
+{
+  "user_query": "Machine learning courses from Futurelearn",
+  "execution_results": {
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Future Learn"
+      },
+      "match_count": 164,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:50:34.091781"
+}

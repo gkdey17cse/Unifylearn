@@ -1,0 +1,232 @@
+{
+  "user_query": "Show me AI coruses for beginers",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find AI courses for beginners across all providers.",
+    "aggregation_strategy": "provider_level",
+    "sort_field": null,
+    "sort_order": null,
+    "global_limit": null,
+    "providers": {
+      "coursera": {
+        "filter": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "udacity": {
+        "filter": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Level": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "simplilearn": {
+        "filter": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "futurelearn": {
+        "filter": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "AI|Artificial Intelligence|Machine Learning|Deep Learning|Data Science|Computer Vision|Neural Networks|Chatbots|Robotics|Cognitive",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "beginner|introductory|introduction|basic",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "timestamp": "2025-11-22T19:41:57.111387"
+}

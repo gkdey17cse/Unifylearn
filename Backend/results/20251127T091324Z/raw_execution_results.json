@@ -1,0 +1,168 @@
+{
+  "user_query": "``` looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI|Practical Projects|Career Advancement)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Rating": {
+              "$regex": "4\\.[5-9]stars|5stars",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 531,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI|Practical Projects|Career Advancement)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 66,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 30,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Business Intelligence|SQL|Data Visualization|Tableau|Power BI|Practical Projects|Career Advancement)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 1736,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T09:13:24.224928"
+}

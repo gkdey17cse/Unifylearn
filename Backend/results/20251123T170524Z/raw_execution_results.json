@@ -1,0 +1,70 @@
+{
+  "user_query": "Show me AI , ML courses from Simplilearn & Udacity",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 9,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 53,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T17:05:24.170109"
+}

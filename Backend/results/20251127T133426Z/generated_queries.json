@@ -1,0 +1,127 @@
+{
+  "user_query": "give me course on dl and nlp on which tranformer and time series models are explained and used. also a course on os and on dbms",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for courses on Deep Learning (DL), Natural Language Processing (NLP), Operating Systems (OS), and Database Management Systems (DBMS), including topics like transformers and time series models. Expanding terms to include related concepts and synonyms.",
+    "expanded_terms": [
+      "Deep Learning",
+      "NLP",
+      "Natural Language Processing",
+      "Transformer models",
+      "Time Series models",
+      "Operating Systems",
+      "OS",
+      "Database Management Systems",
+      "DBMS"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Deep Learning|NLP|Natural Language Processing|Transformer models|Time Series models|Operating Systems|OS|Database Management Systems|DBMS)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T13:34:26.247028"
+}

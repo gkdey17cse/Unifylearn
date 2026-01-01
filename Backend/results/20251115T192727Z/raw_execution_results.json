@@ -1,0 +1,62 @@
+{
+  "user_query": "List all Cloud courses from Udacity",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bCloud\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 26,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    }
+  },
+  "timestamp": "2025-11-15T19:27:27.259739"
+}

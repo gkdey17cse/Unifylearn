@@ -1,0 +1,39 @@
+{
+  "user_query": "Show me all Reinforcement Learning course from Coursera where no of Viewers is more than 600",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Reinforcement Learning courses from Coursera with more than 600 viewers",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bReinforcement Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bReinforcement Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "600"
+            }
+          }
+        ]
+      },
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T19:35:01.117056"
+}

@@ -1,0 +1,116 @@
+{
+  "user_query": "SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 336,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 52,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 15,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Topics related to CRM": {
+              "$regex": "\\b(Data Science|Machine Learning|Artificial Intelligence)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1423,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:29:40.761414"
+}

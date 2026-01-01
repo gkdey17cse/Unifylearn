@@ -1,0 +1,30 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me Cricket courses from  Huda City  platform only  platform only
+Total Courses: 2
+Generated at: 2025-11-27T10:26:50.764033
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :   1 courses | Avg Prob: 0.3937 | Avg Score: 0.0479
+COURSERA       :   1 courses | Avg Prob: 0.2126 | Avg Score: 0.0171
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.3937 | Score: 0.0479
+     West Indies Cricket: Our Story
+     Skills: No skills
+
+ 2. [COURSERA    ] Prob: 0.2126 | Score: 0.0171
+     Foundations of Sports Analytics: Data, Representation, and Models in Sports
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses (100.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

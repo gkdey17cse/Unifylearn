@@ -1,0 +1,134 @@
+{
+  "user_query": "show me only 3 course in Machine Learning",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "What you learn": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    },
+    "udacity": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "What you learn": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Prequisites": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    },
+    "futurelearn": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bMachine Learning\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    }
+  },
+  "timestamp": "2025-11-14T21:16:46.426308"
+}

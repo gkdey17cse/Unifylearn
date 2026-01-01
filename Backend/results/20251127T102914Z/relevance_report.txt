@@ -1,0 +1,221 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show any literature courses from simply learn and coats up platform show any literature courses from simply learn and coursera platform
+Total Courses: 131
+Generated at: 2025-11-27T10:29:14.206007
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 131 courses | Avg Prob: 0.0069 | Avg Score: 0.0421
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0179 | Score: 0.0939
+     Creative Writing: The Craft of Setting and Description
+     Skills: No skills
+
+ 2. [COURSERA    ] Prob: 0.0167 | Score: 0.0904
+     Memoir and Personal Essay: Managing Your Relationship with the Reader
+     Skills: No skills
+
+ 3. [COURSERA    ] Prob: 0.0158 | Score: 0.0876
+     GIS, Mapping, and Spatial Analysis Capstone
+     Skills: Geographic Information System (GIS),Cartography,Esri,Mapping,Spatial Analysis,
+
+ 4. [COURSERA    ] Prob: 0.0152 | Score: 0.0857
+     Data Collection: Online, Telephone and Face-to-face
+     Skills: No skills
+
+ 5. [COURSERA    ] Prob: 0.0151 | Score: 0.0855
+     Speaking to Inspire: Ceremonial and Motivational Speeches
+     Skills: No skills
+
+ 6. [COURSERA    ] Prob: 0.0142 | Score: 0.0823
+     Python and Pandas for Data Engineering
+     Skills: Vim,Python Programming,Pandas,Visual Studio Code,Data Structure,
+
+ 7. [COURSERA    ] Prob: 0.0141 | Score: 0.0820
+     Memoir and Personal Essay: Write About Yourself Specialization
+     Skills: Creativity, Writing, Non-fiction Writing, Storytelling, Essay Writing, English Language, Creative Wr
+
+ 8. [COURSERA    ] Prob: 0.0133 | Score: 0.0791
+     Songwriting: Writing, Arranging, and Producing Music Specialization
+     Skills: Music, arranging, Producing, Songwriting, Music recording, Poetry, Melodic Hooks, Melody, Harmony, W
+
+ 9. [COURSERA    ] Prob: 0.0117 | Score: 0.0725
+     Python Classes and Inheritance
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0116 | Score: 0.0724
+     Teach English Now! Second Language Reading, Writing, and Grammar
+     Skills: No skills
+
+11. [COURSERA    ] Prob: 0.0116 | Score: 0.0724
+     Psychosocial and Spiritual Aspects of Palliative Care
+     Skills: No skills
+
+12. [COURSERA    ] Prob: 0.0116 | Score: 0.0721
+     Major and Principal Gifts
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0115 | Score: 0.0718
+     Perfect Tenses and Modals
+     Skills: English Grammar,Grammar,Perfect Tenses,Writing,
+
+14. [COURSERA    ] Prob: 0.0110 | Score: 0.0698
+     Software Testing and Automation Specialization
+     Skills: Black-box Testing Techniques, White-box Testing Techniques, Unit Testing, Static Analysis, Testing A
+
+15. [COURSERA    ] Prob: 0.0106 | Score: 0.0677
+     Writing and Editing: Structure and Organization
+     Skills: Persuasion,Creativity,Writing,Time management,Editing,
+
+16. [COURSERA    ] Prob: 0.0105 | Score: 0.0674
+     Writing, Running, and Fixing Code in C
+     Skills: C Programming,Compiler,Debugging,
+
+17. [COURSERA    ] Prob: 0.0105 | Score: 0.0674
+     Text Retrieval and Search Engines
+     Skills: Information Retrieval (IR),Document Retrieval,Machine Learning,Recommender Systems,
+
+18. [COURSERA    ] Prob: 0.0105 | Score: 0.0674
+     Writing and Editing: Word Choice and Word Order
+     Skills: Persuasion,Creativity,Writing,Time management,Editing,
+
+19. [COURSERA    ] Prob: 0.0105 | Score: 0.0671
+     TOEFL Speaking and Writing Sections Skills Mastery
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0104 | Score: 0.0670
+     Writing and Editing: Revising
+     Skills: Persuasion,Creativity,Writing,Time management,Editing,
+
+21. [COURSERA    ] Prob: 0.0100 | Score: 0.0647
+     Python Programming Essentials
+     Skills: Codeskulptor,Python Syntax And Semantics,Python Programming,Debugging,
+
+22. [COURSERA    ] Prob: 0.0100 | Score: 0.0647
+     Interview Research and Preparation
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0100 | Score: 0.0647
+     Grammar and Punctuation
+     Skills: English Grammar,Punctuation,Grammar,Writing,
+
+24. [COURSERA    ] Prob: 0.0100 | Score: 0.0647
+     Writing and Editing: Drafting
+     Skills: Persuasion,Creativity,Writing,Time management,Editing,
+
+25. [COURSERA    ] Prob: 0.0099 | Score: 0.0645
+     Simple Regression Analysis in Public Health
+     Skills: P-Value,Proportional Hazards Model,Confounding,regression,
+
+26. [COURSERA    ] Prob: 0.0099 | Score: 0.0645
+     Introduction to Python Programming
+     Skills: Python Tools,Python Syntax And Semantics,Programming Principles,Python Programming,Computer Programm
+
+27. [COURSERA    ] Prob: 0.0099 | Score: 0.0644
+     Black-box and White-box Testing
+     Skills: Executing Tests,Software Testing,Writing Tests,Cucumber,Junit,
+
+28. [COURSERA    ] Prob: 0.0099 | Score: 0.0644
+     Business English: Management and Leadership
+     Skills: English Language,Writing,Management,Communication,Emailing,Meeting,
+
+29. [COURSERA    ] Prob: 0.0092 | Score: 0.0605
+     Photography Basics and Beyond: From Smartphone to DSLR Specialization
+     Skills: Social Media, Photography, Copywriting, Writing, Confidence, History, Creativity, Art, Project, 
+
+30. [COURSERA    ] Prob: 0.0090 | Score: 0.0595
+     Good with Words: Writing and Editing Specialization
+     Skills: Persuasion, Creativity, Writing, Time management, Editing, 
+
+31. [COURSERA    ] Prob: 0.0090 | Score: 0.0594
+     Arranging for Songwriters
+     Skills: Music,arranging,Songwriting,Writing,
+
+32. [COURSERA    ] Prob: 0.0090 | Score: 0.0594
+     Songwriting: Writing the Lyrics
+     Skills: Music,Music recording,Poetry,Songwriting,
+
+33. [COURSERA    ] Prob: 0.0089 | Score: 0.0589
+     Writing Winning Resumes and Cover Letters
+     Skills: No skills
+
+34. [COURSERA    ] Prob: 0.0083 | Score: 0.0558
+     Creative Writing: The Craft of Plot
+     Skills: Short Story Writing,Fiction Writing,Creativity,Copy Editing,
+
+35. [COURSERA    ] Prob: 0.0083 | Score: 0.0558
+     Effective Communication: Writing, Design, and Presentation Specialization
+     Skills: Business Writing, Presentation, Graphic Design, Writing, Grammar, Communication, Graphics, Typograph
+
+36. [COURSERA    ] Prob: 0.0083 | Score: 0.0558
+     Interviewing and Resume Writing in English Specialization
+     Skills: No skills
+
+37. [COURSERA    ] Prob: 0.0083 | Score: 0.0558
+     Adjectives and Adjective Clauses
+     Skills: Apposition,Grammar,English Language,Adjective,
+
+38. [COURSERA    ] Prob: 0.0083 | Score: 0.0556
+     Effectively delivering the news to your audience
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0081 | Score: 0.0543
+     European Business Law Specialization
+     Skills: Regulation and Legal Compliance , Legal Research , Business , Intellectual Property , Tax Laws , Com
+
+40. [COURSERA    ] Prob: 0.0078 | Score: 0.0526
+     Creative Writing: The Craft of Character
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0076 | Score: 0.0512
+     Write A Feature Length Screenplay For Film Or Television
+     Skills: Script Writing,Filmmaking,Screenwriting,Film and Televison Writing,Creative Writing,
+
+42. [COURSERA    ] Prob: 0.0075 | Score: 0.0507
+     Songwriting: Writing the Music
+     Skills: Melodic Hooks,Melody,Music,Harmony,Songwriting,
+
+43. [COURSERA    ] Prob: 0.0075 | Score: 0.0507
+     Creative Writing: The Craft of Style
+     Skills: No skills
+
+44. [COURSERA    ] Prob: 0.0075 | Score: 0.0507
+     Photography Capstone Project
+     Skills: Art,Project,Photography,Writing,
+
+45. [COURSERA    ] Prob: 0.0075 | Score: 0.0504
+     Writing Stories About Ourselves
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0074 | Score: 0.0498
+     Integrated Analysis in Systems Biology
+     Skills: No skills
+
+47. [COURSERA    ] Prob: 0.0070 | Score: 0.0470
+     Multiple Regression Analysis in Public Health
+     Skills: effect modifcation,Proportional Hazards Model,Regression Analysis,Spline approach,
+
+48. [COURSERA    ] Prob: 0.0068 | Score: 0.0456
+     Learning How to Learn: Powerful mental tools to help you master tough subjects
+     Skills: Test Preparation,Learning To Learn,Pomodoro Technique,Meta Learning,
+
+49. [COURSERA    ] Prob: 0.0067 | Score: 0.0446
+     Machine Learning for All
+     Skills: No skills
+
+50. [COURSERA    ] Prob: 0.0066 | Score: 0.0444
+     Miracles of Human Language: An Introduction to Linguistics
+     Skills: Essay Writing,History,English Language,Chinese Language,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  20 courses ( 15.3%)
+Low       : 111 courses ( 84.7%)
+Very Low  :   0 courses (  0.0%)

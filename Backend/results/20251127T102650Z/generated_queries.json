@@ -1,0 +1,136 @@
+{
+  "user_query": "show me Cricket courses from  Huda City  platform only  platform only",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Cricket courses from Huda City platform'. Expanding 'Cricket' to include synonyms and related terms like batting, bowling, fielding, and different formats of the game. 'Huda City' is interpreted as a specific platform or provider, and this part is a bit ambiguous, so I will filter for course platforms that might relate to location based things.",
+    "expanded_terms": [
+      "Cricket",
+      "Batting",
+      "Bowling",
+      "Fielding",
+      "T20",
+      "ODI",
+      "Test Cricket",
+      "Huda City"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cricket|Batting|Bowling|Fielding|T20|ODI|Test Cricket)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:26:50.757810"
+}

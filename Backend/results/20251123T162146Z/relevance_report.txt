@@ -1,0 +1,42 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Show me top 10 Business Management courses searching from all platform
+Total Courses: 5
+Generated at: 2025-11-23T16:21:46.566614
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :   2 courses | Avg Prob: 0.2691 | Avg Score: 0.1655
+FUTURELEARN    :   3 courses | Avg Prob: 0.0994 | Avg Score: 0.1132
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.3311 | Score: 0.1772
+     Foundations of Management Specialization
+     Skills: Accounting, Leadership, Finance, Marketing, Financial Accounting, Financial Statement, Balance Sheet
+
+ 2. [COURSERA    ] Prob: 0.2071 | Score: 0.1538
+     Introduction to Business Specialization
+     Skills: Strategic Planning, engagement, Storytelling, Expense Control, Leadership Style, Training And Develo
+
+ 3. [FUTURELEARN ] Prob: 0.1459 | Score: 0.1363
+     Introduction to Business Management
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0976 | Score: 0.1162
+     Financial Accounting for Business Management
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0546 | Score: 0.0871
+     Business Management and Leadership
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   3 courses ( 60.0%)
+High      :   2 courses ( 40.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

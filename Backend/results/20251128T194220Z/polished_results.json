@@ -1,0 +1,160 @@
+[
+  {
+    "_batch_enriched": true,
+    "_enrichment_applied": true,
+    "category": "Data Science",
+    "description": "Simplilearnâs Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+    "duration": "",
+    "enrichment_applied": true,
+    "instructors": [
+      "Big Data Analytics"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Apply R programming for data analysis",
+      "Perform data visualization using R packages",
+      "Build statistical models using R",
+      "Implement data mining techniques in R",
+      "Interpret results from statistical analyses",
+      "Make data-driven business decisions"
+    ],
+    "level": "Intermediate",
+    "original_data": {
+      "Category": "Simplilearn",
+      "Instructors": "Big Data Analytics",
+      "Short Intro": "Simplilearnâ€™s Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+      "Skills": 53626,
+      "Subtitle Languages": "Course",
+      "Title": "Data Science with R Certification Course",
+      "URL": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+      "_id": "68ac04f569e0bdd621a8d7f7",
+      "_provider": "simplilearn"
+    },
+    "original_provider_id": "68ac04f569e0bdd621a8d7f7",
+    "prerequisites": [],
+    "price": "Paid",
+    "provider": "simplilearn",
+    "relevance_probability": 0.5802628139588817,
+    "relevance_score": 0.1208096868120101,
+    "site": "Simplilearn",
+    "skills": [
+      "R Programming",
+      "Data Analysis",
+      "Data Visualization",
+      "Statistical Modeling",
+      "Data Mining",
+      "Machine Learning",
+      "Regression Analysis"
+    ],
+    "source_provider": "simplilearn",
+    "title": "Data Science with R Certification Course",
+    "url": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+    "viewers": 1000
+  },
+  {
+    "_batch_enriched": true,
+    "_enrichment_applied": true,
+    "category": "Artificial Intelligence",
+    "description": "Become an AI and ML expert with this Machine Learning Course. Learn the latest tools and technologies of the AI world through live classes delivered by industry experts, hands-on labs, Industry-relevant projects and masterclasses from distinguished IIT Kanpur faculty.",
+    "duration": "",
+    "enrichment_applied": true,
+    "instructors": [
+      "AI & Machine Learning"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Develop AI and Machine Learning models",
+      "Utilize Python libraries for AI development",
+      "Build and train neural networks with TensorFlow and Keras",
+      "Apply machine learning techniques to real-world problems",
+      "Implement natural language processing techniques",
+      "Understand computer vision principles"
+    ],
+    "level": "Intermediate",
+    "original_data": {
+      "Category": "Simplilearn",
+      "Instructors": "AI & Machine Learning",
+      "Short Intro": "Become an AI and ML expert with this Machine Learning Course. Learn the latest tools and technologies of the AI world through live classes delivered by industry experts, hands-on labs, Industry-relevant projects and masterclasses from distinguished IIT Kanpur faculty.",
+      "Skills": 8583,
+      "Subtitle Languages": "University Program",
+      "Title": "Professional Certificate Course in AI and Machine Learning",
+      "URL": "https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?tag=",
+      "_id": "68ac04f569e0bdd621a8d7dd",
+      "_provider": "simplilearn"
+    },
+    "original_provider_id": "68ac04f569e0bdd621a8d7dd",
+    "prerequisites": [],
+    "price": "Paid",
+    "provider": "simplilearn",
+    "relevance_probability": 0.21672864348204382,
+    "relevance_score": 0.0715679343986936,
+    "site": "Simplilearn",
+    "skills": [
+      "Machine Learning",
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "Natural Language Processing",
+      "Computer Vision"
+    ],
+    "source_provider": "simplilearn",
+    "title": "Professional Certificate Course in AI and Machine Learning",
+    "url": "https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?tag=",
+    "viewers": 1000
+  },
+  {
+    "_batch_enriched": true,
+    "_enrichment_applied": true,
+    "category": "Data Science",
+    "description": "This Data Analytics course in collaboration with IBM makes you a Data Analytics expert. Our Data Analyst course helps you learn analytics tools and techniques, how to work with SQL databases, R and Python, how to create data visualizations, and apply statistics and predictive analytics in a business environment. This Data Analytics certification also features Masterclasses from IBM experts.",
+    "duration": "",
+    "enrichment_applied": true,
+    "instructors": [
+      "Data Science & Business Analytics"
+    ],
+    "language": "English",
+    "learning_outcomes": [
+      "Perform data analysis using various tools and techniques",
+      "Query and manipulate data using SQL",
+      "Develop data visualizations using R and Python",
+      "Apply statistical methods for data analysis",
+      "Build predictive models for business applications",
+      "Work with SQL databases to extract and analyze data"
+    ],
+    "level": "Intermediate",
+    "original_data": {
+      "Category": "Simplilearn",
+      "Course Type": "Ranked #1 Best Data Analytics Certification Course by Career Karma",
+      "Instructors": "Data Science & Business Analytics",
+      "Language": " Career Karma",
+      "Short Intro": "This Data Analytics course in collaboration with IBM makes you a Data Analytics expert. Our Data Analyst course helps you learn analytics tools and techniques, how to work with SQL databases, R and Python, how to create data visualizations, and apply statistics and predictive analytics in a business environment. This Data Analytics certification also features Masterclasses from IBM experts.",
+      "Subtitle Languages": "Masters Program",
+      "Title": "Data Analyst",
+      "URL": "https://www.simplilearn.com/",
+      "_id": "68ac04f569e0bdd621a8d7e1",
+      "_provider": "simplilearn"
+    },
+    "original_provider_id": "68ac04f569e0bdd621a8d7e1",
+    "prerequisites": [],
+    "price": "Paid",
+    "provider": "simplilearn",
+    "relevance_probability": 0.20300854255907447,
+    "relevance_score": 0.0682980333771936,
+    "site": "Simplilearn",
+    "skills": [
+      "Data Analysis",
+      "SQL",
+      "R Programming",
+      "Python",
+      "Data Visualization",
+      "Predictive Analytics",
+      "Statistical Analysis"
+    ],
+    "source_provider": "simplilearn",
+    "title": "Data Analyst",
+    "url": "https://www.simplilearn.com/",
+    "viewers": 1000
+  }
+]

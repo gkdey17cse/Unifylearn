@@ -1,0 +1,215 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms
+Total Courses: 48
+Generated at: 2025-11-27T09:11:43.258971
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+UDACITY        :  43 courses | Avg Prob: 0.0089 | Avg Score: 0.1909
+FUTURELEARN    :   4 courses | Avg Prob: 0.0619 | Avg Score: 0.5658
+COURSERA       :   1 courses | Avg Prob: 0.0000 | Avg Score: 0.0764
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [UDACITY     ] Prob: 0.1237 | Score: 1.0000
+     Intro to JavaScript
+     Skills: No skills
+
+ 2. [UDACITY     ] Prob: 0.1237 | Score: 1.0000
+     Networking for Web Developers
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.1237 | Score: 1.0000
+     Introduction to Python Programming
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.1237 | Score: 1.0000
+     A Beginnerâs Guide to Web Development with HTML5
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.1237 | Score: 1.0000
+     A Beginnerâs Guide to Creating a VR Experience
+     Skills: No skills
+
+ 6. [UDACITY     ] Prob: 0.0067 | Score: 0.8543
+     Introduction to Virtual Reality
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0019 | Score: 0.7911
+     What is Programming?
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0016 | Score: 0.7825
+     Intro to Point  Click App Development
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0000 | Score: 0.4635
+     Intro to Data Analysis
+     Skills: No skills
+
+10. [UDACITY     ] Prob: 0.0000 | Score: 0.2978
+     Java Programming Basics
+     Skills: No skills
+
+11. [UDACITY     ] Prob: 0.0000 | Score: 0.2017
+     Intro to HTML and CSS
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0000 | Score: 0.1892
+     A Beginners Guide to Java Programming
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0000 | Score: 0.1476
+     How to Install Android Studio
+     Skills: No skills
+
+14. [UDACITY     ] Prob: 0.0000 | Score: 0.1135
+     Swift for Beginners
+     Skills: No skills
+
+15. [UDACITY     ] Prob: 0.0000 | Score: 0.1013
+     Writing READMEs
+     Skills: No skills
+
+16. [UDACITY     ] Prob: 0.0000 | Score: 0.1001
+     Intro to Physics
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0000 | Score: 0.0903
+     WeChat Mini Program Development
+     Skills: No skills
+
+18. [UDACITY     ] Prob: 0.0000 | Score: 0.0823
+     Swift for Developers
+     Skills: No skills
+
+19. [UDACITY     ] Prob: 0.0000 | Score: 0.0770
+     UX Design for Mobile Developers
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0000 | Score: 0.0764
+     Introductory C Programming Specialization
+     Skills: Software Development Process, Algorithms, Software Engineering, C Programming, Computer Programming,
+
+21. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0739
+     A Beginners Guide to C and .NET
+     Skills: No skills
+
+22. [UDACITY     ] Prob: 0.0000 | Score: 0.0667
+     Microsoft Power Platform
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0000 | Score: 0.0652
+     Creating an Analytical Dataset
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0000 | Score: 0.0636
+     AI Fundamentals
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0000 | Score: 0.0567
+     Self-Driving Fundamentals: Featuring Apollo
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0000 | Score: 0.0557
+     Intro to Psychology
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0000 | Score: 0.0534
+     SQL for Data Analysis
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0000 | Score: 0.0498
+     Eigenvectors and Eigenvalues
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0000 | Score: 0.0496
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0000 | Score: 0.0491
+     Intro to Inferential Statistics
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0000 | Score: 0.0487
+     Product Manager Interview Preparation
+     Skills: No skills
+
+32. [UDACITY     ] Prob: 0.0000 | Score: 0.0476
+     Introduction to Digital Project Management
+     Skills: No skills
+
+33. [UDACITY     ] Prob: 0.0000 | Score: 0.0411
+     Version Control with Git
+     Skills: No skills
+
+34. [UDACITY     ] Prob: 0.0000 | Score: 0.0405
+     Oracle Autonomous Database Administration
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0000 | Score: 0.0394
+     Oracle Cloud Infrastructure Operations Professional
+     Skills: No skills
+
+36. [UDACITY     ] Prob: 0.0000 | Score: 0.0393
+     Data Visualization in Tableau
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0000 | Score: 0.0382
+     Getting Started with Google Workspace
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0000 | Score: 0.0371
+     Strengthen Your LinkedIn Network  Brand
+     Skills: No skills
+
+39. [UDACITY     ] Prob: 0.0000 | Score: 0.0363
+     Managing Remote Teams with Upwork
+     Skills: No skills
+
+40. [UDACITY     ] Prob: 0.0000 | Score: 0.0336
+     Localization Essentials
+     Skills: No skills
+
+41. [UDACITY     ] Prob: 0.0000 | Score: 0.0325
+     Engagement  Monetization  Mobile Games
+     Skills: No skills
+
+42. [UDACITY     ] Prob: 0.0000 | Score: 0.0278
+     Refresh Your Resume
+     Skills: No skills
+
+43. [UDACITY     ] Prob: 0.0000 | Score: 0.0249
+     Problem Solving with Advanced Analytics
+     Skills: No skills
+
+44. [UDACITY     ] Prob: 0.0000 | Score: 0.0248
+     Shell Workshop
+     Skills: No skills
+
+45. [UDACITY     ] Prob: 0.0000 | Score: 0.0242
+     Statistics
+     Skills: No skills
+
+46. [UDACITY     ] Prob: 0.0000 | Score: 0.0223
+     HTML5 Canvas
+     Skills: No skills
+
+47. [UDACITY     ] Prob: 0.0000 | Score: 0.0185
+     Intro to Statistics
+     Skills: No skills
+
+48. [UDACITY     ] Prob: 0.0000 | Score: 0.0185
+     Craft Your Cover Letter
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   5 courses ( 10.4%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   3 courses (  6.2%)
+Very Low  :  40 courses ( 83.3%)

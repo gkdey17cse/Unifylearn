@@ -1,0 +1,11 @@
+{
+  "user_query": "Machine Learning courses sorted by number of viewers",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-15T01:35:34.286040"
+}

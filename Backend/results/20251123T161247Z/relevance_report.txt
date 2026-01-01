@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: find public health courses about epidemiology and health policy. need courses from recognized institutions
+Total Courses: 69
+Generated at: 2025-11-23T16:12:47.965285
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :  53 courses | Avg Prob: 0.0137 | Avg Score: 0.1048
+FUTURELEARN    :  16 courses | Avg Prob: 0.0114 | Avg Score: 0.0984
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0460 | Score: 0.1741
+     Data and Health Indicators in Public Health Practice
+     Skills: No skills
+
+ 2. [COURSERA    ] Prob: 0.0350 | Score: 0.1605
+     Epidemiology in Public Health Practice Specialization
+     Skills: Outbreak investigation, Public Health Surveillance, visualization, Statistics, Epidemiology, Estimat
+
+ 3. [COURSERA    ] Prob: 0.0238 | Score: 0.1411
+     Essential Epidemiologic Tools for Public Health Practice
+     Skills: Estimation,Geographic Information System (GIS),Statistical Methods,visualization,
+
+ 4. [COURSERA    ] Prob: 0.0235 | Score: 0.1405
+     Stanford Introduction to Food and Health
+     Skills: Health Informatics,Nutrition,Food Safety,Food Science,
+
+ 5. [COURSERA    ] Prob: 0.0223 | Score: 0.1379
+     Public Health in Humanitarian Crises 1
+     Skills: Nutrition,International Law,Humanitarian,Public Health,
+
+ 6. [COURSERA    ] Prob: 0.0214 | Score: 0.1359
+     Healthcare Organizations and the Health System
+     Skills: Pharmacy Healthcare Organization Operations,Public Health and Wellness Healthcare Organization Opera
+
+ 7. [COURSERA    ] Prob: 0.0210 | Score: 0.1350
+     Statistical Analysis with R for Public Health Specialization
+     Skills: Statistical Thinking, Survival Analysis, Logistic Regression, Data analysis with R, Linear Regressio
+
+ 8. [FUTURELEARN ] Prob: 0.0207 | Score: 0.1342
+     Public Health and Nursing: Drive Public Health Promotion
+     Skills: No skills
+
+ 9. [COURSERA    ] Prob: 0.0204 | Score: 0.1335
+     Foundations of Public Health Practice: The Public Health Toolkit
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0203 | Score: 0.1332
+     Qualitative Research Design and Methods for Public Health Specialization
+     Skills: Qualitative Research, Public Health Research, Data Analysis, Research Design, Research Methods, 
+
+11. [COURSERA    ] Prob: 0.0199 | Score: 0.1321
+     Health Behavior Change: From Evidence to Action
+     Skills: health practices,behavioral psychology,Public Health,Mental Health,health psychology,
+
+12. [COURSERA    ] Prob: 0.0197 | Score: 0.1317
+     Community Change in Public Health
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0189 | Score: 0.1297
+     Public Health and Nursing: Building a Culture of Health
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0189 | Score: 0.1296
+     Foundations of Public Health Practice: The Public Health Approach
+     Skills: No skills
+
+15. [COURSERA    ] Prob: 0.0186 | Score: 0.1289
+     Foundations of Health Equity Research
+     Skills: Health Research,health equity research,Research Design,Research Methods,Epidemiology,
+
+16. [COURSERA    ] Prob: 0.0184 | Score: 0.1283
+     Foundations of Public Health Practice: Health Protection
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0180 | Score: 0.1272
+     Outbreaks and Epidemics
+     Skills: Statistics,Epidemiology,Public Health,Outbreak investigation,
+
+18. [COURSERA    ] Prob: 0.0177 | Score: 0.1262
+     Foundations of Public Health Practice: Behaviour  Behaviour Change
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0170 | Score: 0.1242
+     Tackling Public Health Issues: Concepts and Evidence
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0168 | Score: 0.1238
+     Understanding and Strengthening Health Systems
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0164 | Score: 0.1225
+     Introduction to Statistics  Data Analysis in Public Health
+     Skills: Run basic analyses in R,R Programming,Understand common data distributions and types of variables,Fo
+
+22. [COURSERA    ] Prob: 0.0161 | Score: 0.1215
+     Diagnosing Health Behaviors for Global Health Programs
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0150 | Score: 0.1180
+     Linear Regression in R for Public Health
+     Skills: Correlation And Dependence,Linear Regression,R Programming,
+
+24. [COURSERA    ] Prob: 0.0145 | Score: 0.1162
+     Survival Analysis in R for Public Health
+     Skills: Understand common ways to choose what predictors go into a regression model,Run and interpret Kaplan
+
+25. [FUTURELEARN ] Prob: 0.0144 | Score: 0.1161
+     Public Health and Nursing: The Greatest Wealth is Health
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0144 | Score: 0.1161
+     Health Care Delivery in Healthcare Organizations
+     Skills: Pharmacy Healthcare Organization Operations,Public Health and Wellness Healthcare Organization Opera
+
+27. [COURSERA    ] Prob: 0.0138 | Score: 0.1138
+     Hypothesis Testing in Public Health
+     Skills: Confidence Interval,Statistical Hypothesis Testing,p values,sampling,
+
+28. [FUTURELEARN ] Prob: 0.0135 | Score: 0.1128
+     Public Health and Nursing: Healing the Community
+     Skills: No skills
+
+29. [COURSERA    ] Prob: 0.0135 | Score: 0.1127
+     Value-Based Care: Population Health
+     Skills: Health Education,value-based healthcare,Public Health,Health Care,Population Health,
+
+30. [COURSERA    ] Prob: 0.0133 | Score: 0.1120
+     U.S. Health Law Fundamentals
+     Skills: Healthcare Management,Health Policy Analysis,Health Insurance,Affordable Care Act,
+
+31. [FUTURELEARN ] Prob: 0.0132 | Score: 0.1116
+     Musculoskeletal Health: A Public Health Approach
+     Skills: No skills
+
+32. [COURSERA    ] Prob: 0.0131 | Score: 0.1113
+     Foundations of Global Health Specialization
+     Skills: Nutrition, International Law, Humanitarian, Public Health, 
+
+33. [FUTURELEARN ] Prob: 0.0131 | Score: 0.1112
+     Public Health and Nursing: Feeling the Communityâs Pulse
+     Skills: No skills
+
+34. [COURSERA    ] Prob: 0.0127 | Score: 0.1097
+     Simple Regression Analysis in Public Health
+     Skills: P-Value,Proportional Hazards Model,Confounding,regression,
+
+35. [COURSERA    ] Prob: 0.0125 | Score: 0.1090
+     Summary Statistics in Public Health
+     Skills: Statistics,Normal Distribution,summary measures,binary data,
+
+36. [COURSERA    ] Prob: 0.0118 | Score: 0.1062
+     Surveillance Systems: The Building Blocks
+     Skills: Data Collection,Epidemiology,surveillance,Disease Surveillance,
+
+37. [FUTURELEARN ] Prob: 0.0116 | Score: 0.1052
+     Food Safety and Nutrition: A Global Approach to Public Health
+     Skills: No skills
+
+38. [COURSERA    ] Prob: 0.0113 | Score: 0.1041
+     Introduction to Digital health
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0112 | Score: 0.1036
+     A History of Public Health in Post-War Britain
+     Skills: No skills
+
+40. [COURSERA    ] Prob: 0.0112 | Score: 0.1034
+     Multiple Regression Analysis in Public Health
+     Skills: effect modifcation,Proportional Hazards Model,Regression Analysis,Spline approach,
+
+41. [COURSERA    ] Prob: 0.0107 | Score: 0.1013
+     Logistic Regression in R for Public Health
+     Skills: Logistic Regression,R Programming,
+
+42. [COURSERA    ] Prob: 0.0105 | Score: 0.1001
+     Surveillance Systems: Analysis, Dissemination, and Special Systems
+     Skills: Data Collection,Data Analysis,Epidemiology,Disease Surveillance,
+
+43. [COURSERA    ] Prob: 0.0104 | Score: 0.0998
+     Digital Health Specialization
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0104 | Score: 0.0995
+     Glaucoma: A Public Health Approach to Preventing Blindness
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0103 | Score: 0.0994
+     Healthcare Law Specialization
+     Skills: Affordable Care Act, Health Law, Health Insurance Portability And Accountability Act (HIPAA), Health
+
+46. [FUTURELEARN ] Prob: 0.0102 | Score: 0.0987
+     The Monday Campaigns: Lessons in Public Health Promotion
+     Skills: No skills
+
+47. [FUTURELEARN ] Prob: 0.0098 | Score: 0.0968
+     Public Health Incidents Involving Lead
+     Skills: No skills
+
+48. [COURSERA    ] Prob: 0.0097 | Score: 0.0965
+     Quality Improvement in Healthcare Organizations
+     Skills: Pharmacy Healthcare Organization Operations,Public Health and Wellness Healthcare Organization Opera
+
+49. [COURSERA    ] Prob: 0.0097 | Score: 0.0964
+     Healthcare Organization Operations Specialization
+     Skills: Pharmacy Healthcare Organization Operations, Public Health and Wellness Healthcare Organization Oper
+
+50. [COURSERA    ] Prob: 0.0095 | Score: 0.0952
+     Value-Based Care Specialization
+     Skills: value-based care, healthcare, social determinants of health, Leadership, Population Health, Quality 
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  46 courses ( 66.7%)
+Low       :  23 courses ( 33.3%)
+Very Low  :   0 courses (  0.0%)

@@ -1,0 +1,159 @@
+{
+  "user_query": "Show me Data Analysis courses from any platform with relevancy from Coursera only",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Coursera"
+          }
+        ]
+      },
+      "match_count": 682,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Duration": {
+              "$regex": "\\bdata\\ analysis\\ with\\ relevancy\\ coursera\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T12:06:57.121785"
+}

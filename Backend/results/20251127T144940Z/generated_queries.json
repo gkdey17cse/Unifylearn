@@ -1,0 +1,127 @@
+{
+  "user_query": "show me some  guitar lesson  courses from any kind of platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'guitar lesson'. Expanding to include: guitar, guitar classes, guitar instruction, guitar course, guitar training, music lesson, music course, string instrument lesson. Since the user is asking for 'any kind of platform', the providers must be coursera, udacity, simplilearn and futurelearn.",
+    "expanded_terms": [
+      "guitar lesson",
+      "guitar",
+      "guitar classes",
+      "guitar instruction",
+      "guitar course",
+      "guitar training",
+      "music lesson",
+      "music course",
+      "string instrument lesson"
+    ],
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(guitar lesson|guitar|guitar classes|guitar instruction|guitar course|guitar training|music lesson|music course|string instrument lesson)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T14:49:40.040556"
+}

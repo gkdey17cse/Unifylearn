@@ -1,0 +1,166 @@
+{
+  "timestamp": "2025-11-14T21:49:45.766341",
+  "user_query": "Show me top 5 courses from Simplilearn on Deep Learning",
+  "debug_info": {
+    "user_query": "Show me top 5 courses from Simplilearn on Deep Learning",
+    "llm_generated_queries": {
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bDeep Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 5
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bDeep Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": 5,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7fe",
+        "Title": "Deep Learning Course (with Keras & TensorFlow) Certification Training",
+        "URL": "https://www.simplilearn.com/deep-learning-course-with-tensorflow-training?tag=",
+        "Short Intro": "This Deep Learning course with TensorFlow certification training is developed by industry leaders and aligned with the latest best practices. Youâ€™ll master deep learning concepts and models using Keras and TensorFlow frameworks through this TensorFlow course. Learn to implement deep learning algorithms with our TensorFlow training and prepare for a career as a Deep Learning Engineer. Achieve our deep learning certification and gain a competitive edge over your peers in your next interview.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "Course",
+        "Skills": 34113,
+        "Instructors": "AI & Machine Learning"
+      },
+      "unified_data": {
+        "title": "Deep Learning Course (with Keras & TensorFlow) Certification Training",
+        "url": "https://www.simplilearn.com/deep-learning-course-with-tensorflow-training?tag=",
+        "description": "This Deep Learning course with TensorFlow certification training is developed by industry leaders and aligned with the latest best practices. Youâ€™ll master deep learning concepts and models using Keras and TensorFlow frameworks through this TensorFlow course. Learn to implement deep learning algorithms with our TensorFlow training and prepare for a career as a Deep Learning Engineer. Achieve our deep learning certification and gain a competitive edge over your peers in your next interview.",
+        "category": "Simplilearn",
+        "language": "English",
+        "skills": 34113,
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "Not specified in the provided information. Needs further research.",
+        "site": "Simplilearn (inferred from provider)",
+        "level": "Intermediate",
+        "viewers": "Estimate: 1000+",
+        "prerequisites": [
+          "Basic Python programming",
+          "Fundamental understanding of Machine Learning concepts"
+        ],
+        "learning_outcomes": [
+          "Master deep learning concepts and models",
+          "Implement deep learning algorithms using Keras and TensorFlow",
+          "Prepare for a career as a Deep Learning Engineer",
+          "Gain a competitive edge in interviews"
+        ],
+        "price": "Not specified in the provided information. Needs further research.",
+        "provider": "Simplilearn"
+      }
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7e8",
+        "Title": "Artificial Intelligence Engineer",
+        "URL": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+        "Short Intro": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Masters Program",
+        "Instructors": "AI & Machine Learning"
+      },
+      "unified_data": {
+        "title": "Artificial Intelligence Engineer",
+        "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Artificial%20Intelligence%20Engineer",
+        "description": "Accelerate your career with this Master's in Artificial Intelligence in conjunction with IBM. This program includes industry-relevant courses, such as Data Science with Python, Machine Learning, Deep Learning, NLP, and Chat GPT and also features hackathons and AMA sessions hosted by IBM. Get job-ready in the AI domain with Capstone projects, practical labs, live sessions, and hands-on projects.",
+        "category": "Simplilearn",
+        "language": " Career Karma",
+        "skills": [
+          "Python",
+          "Data Science",
+          "Machine Learning",
+          "Deep Learning",
+          "NLP",
+          "Chat GPT",
+          "AI"
+        ],
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "Unspecified",
+        "site": "Simplilearn",
+        "level": "Ranked #1 Masters in Artificial Intelligence Program by Career Karma",
+        "viewers": 5000,
+        "prerequisites": [
+          "Basic programming knowledge",
+          "Fundamental understanding of mathematics and statistics"
+        ],
+        "learning_outcomes": [
+          "Apply Data Science with Python techniques",
+          "Develop Machine Learning models",
+          "Build Deep Learning applications",
+          "Utilize NLP techniques",
+          "Understand and apply Chat GPT concepts",
+          "Work on Capstone projects"
+        ],
+        "price": "Unspecified",
+        "provider": "Simplilearn"
+      }
+    }
+  ]
+}

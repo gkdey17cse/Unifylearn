@@ -1,0 +1,33 @@
+{
+  "user_query": "show me top 5 courses in Python from Udacity",
+  "generated_queries": {
+    "query_type": "AGGREGATE",
+    "description": "Top 5 courses in Python from Udacity",
+    "aggregation_strategy": "provider_level",
+    "sort_field": "Number of viewers",
+    "sort_order": -1,
+    "global_limit": 5,
+    "providers": {
+      "coursera": {},
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bPython\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-23T09:40:45.358634"
+}

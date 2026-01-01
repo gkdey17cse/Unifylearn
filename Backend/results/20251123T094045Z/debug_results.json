@@ -1,0 +1,1118 @@
+{
+  "timestamp": "2025-11-23T09:40:45.363018",
+  "user_query": "show me top 5 courses in Python from Udacity",
+  "debug_info": {
+    "user_query": "show me top 5 courses in Python from Udacity",
+    "llm_generated_queries": {
+      "query_type": "AGGREGATE",
+      "description": "Top 5 courses in Python from Udacity",
+      "aggregation_strategy": "provider_level",
+      "sort_field": "Number of viewers",
+      "sort_order": -1,
+      "global_limit": 5,
+      "providers": {
+        "coursera": {},
+        "udacity": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bPython\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {},
+        "futurelearn": {}
+      }
+    },
+    "query_type": "AGGREGATE",
+    "execution_results": {}
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d865",
+        "Title": "Authentication & Authorization: OAuth",
+        "URL": "https://www.udacity.com/course/authentication-authorization-oauth--ud330",
+        "Short Intro": "Implementing Web Security with OAuth 2.0",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "This course was built to expand upon the concepts introduced in Full Stack Foundations, specifically: performing CRUD operationsmaking use of templatesdeveloping with the Flask frameworkAdditionally, HTML, JavaScript, AJAX are heavily used in this course.  A basic understanding of these technologies is needed to get the most out of these lectures.If you'd like to refresh your HTML knowledge start with our Intro to HTML and CSS course. You can check out the JavaScript Basics and Intro to AJAX courses to brush up on these topics as well.See the Technology Requirements for using Udacity.",
+        "What you learn": "Authentication vs. AuthorizationLearn the difference between authentication and authorization.Learn how OAuth 2.0 makes implementing security easier for developers and users.See OAuth 2.0 in action as you make API requests using Google's OAuth 2.0 Playground.Learn the difference between authentication and authorization.Learn how OAuth 2.0 makes implementing security easier for developers and users.See OAuth 2.0 in action as you make API requests using Google's OAuth 2.0 Playground.Creating a Google+ Sign-InLearn about the different types of security flows your application can implement.See how security can be handled by your server and your user's browser.Add a Google+ Sign-In to an existing web application and implement a hybridized client/server flow.Learn about the different types of security flows your application can implement.See how security can be handled by your server and your user's browser.Add a Google+ Sign-In to an existing web application and implement a hybridized client/server flow.Local Permission SystemsAdd python code to create server-side rules that will constitute a permission system.Limit access of the database for each logged in user based on how the developer designs this code.Add a User model model to your database to store the credentials collected from the OAuth provider's API.Add python code to create server-side rules that will constitute a permission system.Limit access of the database for each logged in user based on how the developer designs this code.Add a User model model to your database to store the credentials collected from the OAuth provider's API.Adding Facebook & Other ProvidersLearn to implement multiple OAuth providers on your web application.Add Facebook Login as an alternative sign in option for your users.Understand how to use OAuth provider documentation to add as many providers as you see fit.Learn to implement multiple OAuth providers on your web application.Add Facebook Login as an alternative sign in option for your users.Understand how to use OAuth provider documentation to add as many providers as you see fit."
+      },
+      "unified_data": {
+        "title": "Authentication  Authorization: OAuth",
+        "url": "https://www.udacity.com/course/authentication-authorization-oauth--ud330",
+        "description": "Implementing Web Security with OAuth 2.0",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Oauth 2.0",
+          "Web Security",
+          "Ajax",
+          "Google+ Sign-In",
+          "Html",
+          "Api Integration",
+          "Flask Framework",
+          "Javascript"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Integrate Google's OAuth 2.0 Playground for API requests.",
+          "Implement secure web applications using OAuth 2.0.",
+          "Differentiate between authentication and authorization methods.",
+          "Apply different OAuth 2.0 security flows in web applications.",
+          "Implement Google+ Sign-In functionality in existing web applications.",
+          "Develop hybrid client/server security flows."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d89d",
+        "Title": "Intro to Relational Databases",
+        "URL": "https://www.udacity.com/course/intro-to-relational-databases--ud197",
+        "Short Intro": "SQL, DB-API, and More!",
+        "Duration": "Estimated timeApprox. 4 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "You can read and write basic code in Python. This course uses programming exercises in Python. If you haven't worked with Python before, check out our course Programming Foundations with Python.\r\nIf you can understand this code (maybe with the help of the random module documentation), you know enough Python for this course:\r\nimport random\r\n\r\ndef ChooseTwice(items):\r\n    a = random.choice(items)\r\n    b = random.choice(items)\r\n    return a, b\r\n\r\nnames = [\"Alice\", \"Bob\", \"Charlie\", \"Debra\"]\r\n(one, two) = ChooseTwice(names)\r\nif one == two:\r\n    print \"%s is happy!\" % one\r\nelse:\r\n    print \"%s likes %s!\" % (one, two)\r\n\r\nYou can use a command-line interface (terminal). Some of the exercises in this course involve using a Unix-style command-line interface to enter commands, run Python programs, and navigate directories.\r\nIf you have taken our course on Git and Github, the level of command-line use in this course is similar.\r\nYou don't need to be a Web programmer. This course does include a small Web application and some HTML and JavaScript in examples, but you will not need to make changes in these languages.\r\nYou don't need any previous database experience. This course is an entry-level introduction to relational databases.\r\nYou need a programming text editor (such as Sublime Text) installed on your computer. You should be able to use it to open and edit files of Python code.See the Technology Requirements for using Udacity.",
+        "What you learn": "Data and TablesLearn about how relational databases let you structure data into tables.Learn about the importance of unique keys and relationships between tables.Learn about how relational databases let you structure data into tables.Learn about the importance of unique keys and relationships between tables.Elements of SQLBegin learning SQL, the Structured Query Language used by most relational databases.Learn about the select and insert statements, the basic operations for reading and writing data.Learn about the operators and syntax available to get the database to scan and join tables for you.Begin learning SQL, the Structured Query Language used by most relational databases.Learn about the select and insert statements, the basic operations for reading and writing data.Learn about the operators and syntax available to get the database to scan and join tables for you.Python DB-APILearn how to access a relational database from Python code.Use a virtual machine (VM) to run a Python web application with a database.Common security pitfalls of database applications, including the famous Bobby Tables.Learn how to access a relational database from Python code.Use a virtual machine (VM) to run a Python web application with a database.Common security pitfalls of database applications, including the famous Bobby Tables.Deeper Into SQLLearn how to design and create new databases.Learn about normalized design, which makes it easier to write effective code using a database.Learn how to use the SQL join operators to rapidly connect data from different tables.Learn how to design and create new databases.Learn about normalized design, which makes it easier to write effective code using a database.Learn how to use the SQL join operators to rapidly connect data from different tables."
+      },
+      "unified_data": {
+        "title": "Intro to Relational Databases",
+        "url": "https://www.udacity.com/course/intro-to-relational-databases--ud197",
+        "description": "SQL, DB-API, and More!",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Database Design",
+          "Python Db-Api",
+          "Data Manipulation",
+          "Sql",
+          "Relational Databases",
+          "Data Modeling",
+          "Database Querying"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 4 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop efficient SQL queries to retrieve and manipulate data.",
+          "Analyze database schemas and identify relationships between tables.",
+          "Utilize Python DB-API to interact with relational databases programmatically.",
+          "Understand the principles of relational database design and data modeling.",
+          "Implement database solutions using Python for web applications.",
+          "Apply SQL to create, read, update, and delete data in relational databases."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8b4",
+        "Title": "Configuring Linux Web Servers",
+        "URL": "https://www.udacity.com/course/configuring-linux-web-servers--ud299",
+        "Short Intro": "Your First Ubuntu Server",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Advanced",
+        "Prequisites": "You should be comfortable with your terminal and working within a shell, if you need a refresher take a look at our Intro to the Shell.To actually get a web application up and running you should be familiar with the Python programming language and PostgreSQL. Programming Foundations with Python and Intro to Relational Databases can help you get up to speed if you feel you need some additional practice.See the Technology Requirements for using Udacity.",
+        "What you learn": "Intro to LinuxIntroduction to the Linux operating system and its many distributions.Setup your very own Linux virtual machine on your own computer and explore it.Learn how the filesystem is organized and identify key files.Introduction to the Linux operating system and its many distributions.Setup your very own Linux virtual machine on your own computer and explore it.Learn how the filesystem is organized and identify key files.Linux SecurityExecute administrative tasks, update the software on your system, install new software, and manage users.Learn how to implement even stronger authentication mechanisms, and how to interpret Linux file permissions.Configure a firewall to keep your system secure.Execute administrative tasks, update the software on your system, install new software, and manage users.Learn how to implement even stronger authentication mechanisms, and how to interpret Linux file permissions.Configure a firewall to keep your system secure.Web Application ServersTransform your secure and safe barebones server into a fully functional web application server.Install and configure an Apache HTTP Server and PostgreSQL database server.Write a basic Python WSGI application that can query a database and present that data upon a web request.Transform your secure and safe barebones server into a fully functional web application server.Install and configure an Apache HTTP Server and PostgreSQL database server.Write a basic Python WSGI application that can query a database and present that data upon a web request."
+      },
+      "unified_data": {
+        "title": "Configuring Linux Web Servers",
+        "url": "https://www.udacity.com/course/configuring-linux-web-servers--ud299",
+        "description": "Your First Ubuntu Server",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "User Management (Linux)",
+          "Linux System Administration",
+          "Software Installation & Updates (Linux)",
+          "Firewall Configuration",
+          "Linux File Permissions",
+          "Ubuntu Server Configuration",
+          "Linux Security",
+          "Web Server Configuration"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Interpret and manage Linux file permissions.",
+          "Manage users and groups on a Linux system.",
+          "Configure and manage web application servers.",
+          "Set up and configure an Ubuntu Linux server.",
+          "Update software and execute administrative tasks on a Linux system.",
+          "Implement security measures, including firewalls, on a Linux server."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d84a",
+        "Title": "Full Stack Foundations",
+        "URL": "https://www.udacity.com/course/full-stack-foundations--ud088",
+        "Short Intro": "Build a data-driven web app with Python",
+        "Duration": "Estimated timeApprox. 3 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "You should be comfortable with Python, including Object-Oriented Programming. If you’d like to brush up on your Python, try the first three lessons of our Intro to Computer Science course. For Object-Oriented Programming in Python, see Programming Foundations with Python.You should also have a firm understanding of SQL and working with a relational database, particularly PostgreSQL. Our Intro to Relational Databases course can get you started if you feel you’re not yet prepared.Finally, you should be able to read and write HTML and CSS without any guidance. If you need a refresher on HTML and CSS, start with our Intro to HTML and CSS course.To complete the final project for this course, it is critical you meet these prerequisites as you are given no assets to begin with and will truly build a complete web application from scratch.See the Technology Requirements for using Udacity.",
+        "What you learn": "Working with the CRUDLearn about CRUD; Create, Read, Update, and Delete.Implement CRUD operations on a database.Use an ORM (Object-Relational Mapping) as an alternative to SQL.Learn about CRUD; Create, Read, Update, and Delete.Implement CRUD operations on a database.Use an ORM (Object-Relational Mapping) as an alternative to SQL.Making a Web ServerBuild a web server from scratch using Python and some pre-installed libraries.Learn how GET and POST requests can retrieve and modify information on a web site.How to add CRUD functionality to our website.Build a web server from scratch using Python and some pre-installed libraries.Learn how GET and POST requests can retrieve and modify information on a web site.How to add CRUD functionality to our website.Developing with FrameworksIntroduction to web frameworks like Django and Ruby on Rails.Use the Flask web framework to develop our own web application.Introduction to APIs and how to add JSON endpoints to our application.Introduction to web frameworks like Django and Ruby on Rails.Use the Flask web framework to develop our own web application.Introduction to APIs and how to add JSON endpoints to our application.Iterative DevelopmentBuild an entire web application on your own.Learn about the iterative development process.Have a working prototype throughout all stages of the development process.Build an entire web application on your own.Learn about the iterative development process.Have a working prototype throughout all stages of the development process."
+      },
+      "unified_data": {
+        "title": "Full Stack Foundations",
+        "url": "https://www.udacity.com/course/full-stack-foundations--ud088",
+        "description": "Build a data-driven web app with Python",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "Postgresql",
+          "Api Development",
+          "Python",
+          "Orm (Object-Relational Mapping)",
+          "Sql",
+          "Crud Operations",
+          "Flask Framework",
+          "Web Server Development"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 3 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement CRUD (Create, Read, Update, Delete) operations in web applications",
+          "Utilize ORMs as an alternative to writing SQL queries",
+          "Create API endpoints for web applications using JSON",
+          "Develop web applications using the Flask framework",
+          "Understand GET and POST request methods",
+          "Build a web server from scratch using Python and related libraries"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d84d",
+        "Title": "Introduction to Python Programming",
+        "URL": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "Short Intro": "Learn to solve practical problems with Python.",
+        "Duration": "Estimated timeApprox. 5 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "This course is ideal for students who are new to Python, but have some experience programming in another language. If you're a complete beginner to programming, we recommend checking out the Learn to Code program, which will help you understand how code is used all over the web.  See the Technology Requirements for using Udacity.",
+        "What you learn": "Why Python ProgrammingReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonData Types and OperatorsRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesControl FlowWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsFunctionsDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataScriptingInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python InterpreterInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python Interpreter"
+      },
+      "unified_data": {
+        "title": "Introduction to Python Programming",
+        "url": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "description": "Learn to solve practical problems with Python.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structures",
+          "Conditional Statements",
+          "Control Flow",
+          "Operators",
+          "Python Programming",
+          "Data Types",
+          "Debugging"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 5 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Utilize data structures such as lists, tuples, and dictionaries effectively.",
+          "Apply Python data types and operators to solve problems.",
+          "Understand the core principles of Python programming.",
+          "Implement control flow statements to create dynamic programs.",
+          "Write and debug Python code.",
+          "Create conditional expressions using if statements."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d850",
+        "Title": "Intro to Data Analysis",
+        "URL": "https://www.udacity.com/course/intro-to-data-analysis--ud170",
+        "Short Intro": "Data Analysis Using NumPy & Pandas",
+        "Duration": "Estimated timeApprox. 6 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "To take this course, you should be comfortable programming in Python and familiar with Python concepts like classes, objects, and modules. The Introduction to Python Programming course would be a good place to start learning that material.See the Technology Requirements for using Udacity.",
+        "What you learn": "Data Analysis ProcessLearn about the data analysis process.Pose a question, wrangle your data, draw conclusions and/or make predictions.Complete an analysis of Udacity student data using pure Python, with few additional libraries.Learn about the data analysis process.Pose a question, wrangle your data, draw conclusions and/or make predictions.Complete an analysis of Udacity student data using pure Python, with few additional libraries.NumPy and Pandas for 1D DataStart learning to use NumPy and Pandas to make the data analysis process easier.Features that apply to one-dimensional data.Learn to use NumPy arrays, Pandas Series, and vectorized operations.Start learning to use NumPy and Pandas to make the data analysis process easier.Features that apply to one-dimensional data.Learn to use NumPy arrays, Pandas Series, and vectorized operations.NumPy and Pandas for 2D DataContinue learning about NumPy and Pandas, this time focusing on two-dimensional data.Learn to use two-dimensional NumPy arrays and Pandas DataFrames.Group your data and to combine data from multiple files.Continue learning about NumPy and Pandas, this time focusing on two-dimensional data.Learn to use two-dimensional NumPy arrays and Pandas DataFrames.Group your data and to combine data from multiple files.Investigate a DatasetUse NumPy and Pandas to go through the data analysis process on one of a list of recommended datasets.Use NumPy and Pandas to go through the data analysis process on one of a list of recommended datasets."
+      },
+      "unified_data": {
+        "title": "Intro to Data Analysis",
+        "url": "https://www.udacity.com/course/intro-to-data-analysis--ud170",
+        "description": "Data Analysis Using NumPy  Pandas",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Wrangling",
+          "Numpy",
+          "Data Visualization",
+          "Python",
+          "Data Analysis",
+          "Pandas"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 6 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Wrangle and clean data using Python, NumPy, and Pandas",
+          "Utilize two-dimensional NumPy arrays and Pandas DataFrames for data manipulation",
+          "Apply NumPy arrays and Pandas Series for one-dimensional data analysis",
+          "Draw conclusions and make predictions based on data analysis",
+          "Analyze Udacity student data using Python",
+          "Understand the data analysis process from question to conclusion"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8a7",
+        "Title": "HTTP & Web Servers",
+        "URL": "https://www.udacity.com/course/http-web-servers--ud303",
+        "Short Intro": "How does HTTP work?",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "This course is intended for students with a working knowledge of Python, HTML, and the Unix shell. A Mac, Windows, or Linux computer is required.In this course, you will run commands on your computer using a Unix-like shell environment (command line). A basic familiarity with the terminal, working with files and command-line programs, and the git version control software will be very useful.You will read and write object-oriented Python code using a text editor, and will read Python module documentation to learn about new modules. You will also write code that sends HTML to browsers, so a basic knowledge of HTML markup will come in handy. CSS and JavaScript are not required.This course does not use a virtual machine (VM). You will be installing and writing software on your own computer. You will need a text editor and the ability to install software.Elements of this course require communicating with web services including Github and Heroku.See the Technology Requirements for using Udacity.",
+        "What you learn": "Requests & ResponsesExplore HTTP by running a web server on your own computerInteract with servers and browsers from the command lineDiscover HTTP requests and responses, headers, status codes, and other features of the protocolExplore HTTP by running a web server on your own computerInteract with servers and browsers from the command lineDiscover HTTP requests and responses, headers, status codes, and other features of the protocolThe Web from PythonWrite code that speaks HTTP both as a server and a clientBuild Python code that accepts HTML form submissions, accesses web services, and constructs formatted responsesWrite code that speaks HTTP both as a server and a clientBuild Python code that accepts HTML form submissions, accesses web services, and constructs formatted responsesHTTP in the Real WorldConnect your knowledge of HTTP basics with the rest of the worldDeploy services you've written so that other people can see themInvestigate web server capacity, cookies, security, and new developments in the protocolConnect your knowledge of HTTP basics with the rest of the worldDeploy services you've written so that other people can see themInvestigate web server capacity, cookies, security, and new developments in the protocol"
+      },
+      "unified_data": {
+        "title": "HTTP  Web Servers",
+        "url": "https://www.udacity.com/course/http-web-servers--ud303",
+        "description": "How does HTTP work?",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "Python Programming",
+          "Web Service Integration",
+          "Git Version Control",
+          "Html Form Handling",
+          "Command-Line Interface",
+          "Client-Server Communication",
+          "Http Protocol",
+          "Web Server Configuration"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement a basic HTTP web server using Python",
+          "Build Python applications that handle HTML form submissions and access web services",
+          "Develop Python code to interact with web servers and browsers from the command line",
+          "Deploy web services and understand considerations for server capacity and security",
+          "Analyze and interpret HTTP requests and responses to troubleshoot web application issues",
+          "Understand the fundamentals of the HTTP protocol and its components (requests, responses, headers, status codes)"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8f5",
+        "Title": "Artificial Intelligence for Trading",
+        "URL": "https://www.udacity.com/course/ai-for-trading--nd880",
+        "Short Intro": "Complete real-world projects designed by industry experts, covering topics from asset management to trading signal generation. Master AI algorithms for trading, and build your career-ready portfolio.",
+        "Duration": "Estimated 6 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Quantitative Trading",
+        "What you learn": "Learn the basics of quantitative analysis, including data processing, trading signal generation, and portfolio management. Use Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization."
+      },
+      "unified_data": {
+        "title": "Artificial Intelligence for Trading",
+        "url": "https://www.udacity.com/course/ai-for-trading--nd880",
+        "description": "Complete real-world projects designed by industry experts, covering topics from asset management to trading signal generation. Master AI algorithms for trading, and build your career-ready portfolio.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Portfolio Management",
+          "Algorithmic Trading",
+          "Financial Modeling",
+          "Quantitative Analysis",
+          "Trading Strategy Development",
+          "Python",
+          "Data Processing"
+        ],
+        "instructors": [],
+        "duration": "Estimated 6 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Generate trading signals based on quantitative analysis.",
+          "Understand the basics of quantitative analysis in the financial markets.",
+          "Manage a portfolio using AI-driven techniques.",
+          "Develop and evaluate algorithmic trading strategies.",
+          "Construct and optimize a multi-factor financial model.",
+          "Apply Python to process and analyze financial data."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d934",
+        "Title": "Intro to Machine Learning with TensorFlow",
+        "URL": "https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230",
+        "Short Intro": "Learn foundational machine learning techniques - from data manipulation to unsupervised and supervised algorithms.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Intro to Machine Learning with TensorFlow",
+        "Prequisites": "To optimize your chances of success in this program, we recommend intermediate Python programming knowledge and basic knowledge of probability and statistics.",
+        "What you learn": "Learn foundational machine learning algorithms, starting with data cleaning and supervised models. Then, move on to exploring deep and unsupervised learning. At each step, get practical experience by applying your skills to code exercises and projects.\r\nThis program is intended for students with experience in Python, who have not yet studied Machine Learning topics. "
+      },
+      "unified_data": {
+        "title": "Intro to Machine Learning with TensorFlow",
+        "url": "https://www.udacity.com/course/intro-to-machine-learning-with-tensorflow-nanodegree--nd230",
+        "description": "Learn foundational machine learning techniques - from data manipulation to unsupervised and supervised algorithms.",
+        "category": "Machine Learning",
+        "language": "English",
+        "skills": [
+          "Deep Learning",
+          "Data Cleaning",
+          "Unsupervised Learning",
+          "Supervised Learning",
+          "Python",
+          "Machine Learning Algorithms",
+          "Tensorflow"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the fundamentals of machine learning",
+          "Apply Python and TensorFlow to implement machine learning algorithms",
+          "Perform data cleaning and preprocessing techniques",
+          "Implement and evaluate unsupervised learning models",
+          "Implement and evaluate supervised learning models",
+          "Apply deep learning techniques to solve real-world problems"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d953",
+        "Title": "Data Wrangling",
+        "URL": "https://www.udacity.com/course/data-wrangling--cd0015",
+        "Short Intro": "Learn the most efficient methods for gathering raw “dirty” data and cleaning it up for analysis. After finishing this course, you’ll be able to gather messy data from a variety of sources and “tidy” it up in no time using the powerful Python library, pandas.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Data Wrangling",
+        "Prequisites": "Python & SQL.",
+        "What you learn": "Knowing how to “wrangle data” (aka write code that cleans up “dirty” data and shapes it into useful formats) is a universally sought-after skill across data-driven companies. In this course you’ll learn how to leverage the power of Python to quickly gather, assess & clean messy data so it can be explored and analyzed easily."
+      },
+      "unified_data": {
+        "title": "Data Wrangling",
+        "url": "https://www.udacity.com/course/data-wrangling--cd0015",
+        "description": "Learn the most efficient methods for gathering raw dirty data and cleaning it up for analysis. After finishing this course, youll be able to gather messy data from a variety of sources and tidy it up in no time using the powerful Python library, pandas.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Cleaning",
+          "Data Transformation",
+          "Data Wrangling",
+          "Data Assessment",
+          "Python",
+          "Data Gathering",
+          "Pandas"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement efficient data cleaning workflows.",
+          "Apply data wrangling techniques to prepare data for analysis.",
+          "Clean and transform messy data into a usable format using Pandas.",
+          "Assess data quality and identify common data issues.",
+          "Gather data from various sources using Python."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d95a",
+        "Title": "Data Visualization with Python",
+        "URL": "https://www.udacity.com/course/data-visualization-with-python--cd0016",
+        "Short Intro": "Discover how data visualization can communicate insights far more effectively than text or tables. In this course, you’ll learn how to build data visualizations programmatically using Python, and how you can use visualization to both discover and convey trends in your data.",
+        "Duration": "1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Data Visualization with Python",
+        "Prequisites": "Basic Python skill, statistics and probability concepts.",
+        "What you learn": "Data visualization allows us to instantly see patterns in data that would otherwise be impossible to detect. Without visualization, humans would be unable to make sense of even small amounts of data, let alone the trillions of megabytes now generated every day. In this course, you’ll learn how to create illuminating charts of your data analyses, so you can convey findings to others in the most impactful way possible. "
+      },
+      "unified_data": {
+        "title": "Data Visualization with Python",
+        "url": "https://www.udacity.com/course/data-visualization-with-python--cd0016",
+        "description": "Discover how data visualization can communicate insights far more effectively than text or tables. In this course, youll learn how to build data visualizations programmatically using Python, and how you can use visualization to both discover and convey trends in your data.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Matplotlib",
+          "Data Interpretation",
+          "Data Visualization",
+          "Seaborn",
+          "Python",
+          "Data Analysis"
+        ],
+        "instructors": [],
+        "duration": "1 month to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Evaluate the appropriateness of different visualization methods for specific data analysis tasks",
+          "Apply data visualization techniques to identify patterns and trends in datasets",
+          "Design effective visualizations for different types of data and analytical goals",
+          "Customize visualizations to enhance clarity and impact",
+          "Communicate data insights effectively through visual representations",
+          "Create compelling data visualizations using Python libraries like Matplotlib and Seaborn"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8d2",
+        "Title": "AWS Machine Learning Foundations Course",
+        "URL": "https://www.udacity.com/course/aws-machine-learning-foundations--ud065",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "All learners are welcome to take the foundations course, but familiarity with basic mathematical concepts such as calculation, average, variance, and beginning level programming (preferably Python) is recommended to fully engage in all of the coursework. If you want to brush up on your Python skills, we encourage you to review our free Introduction to Python course.We encourage you to dive deeper in to machine learning with our Intro to Machine Learning and Intro to Deep Learning with PyTorch courses.You may also find our Version Control with Git course helpful.  It is also offered for free.See the Technology Requirements for using Udacity.",
+        "What you learn": "Welcome to the AWS Machine Learning Foundations CourseMeet your instructorsWhat you will learnPre-requisitesMeet your instructorsWhat you will learnPre-requisitesIntroduction to Machine LearningDifferentiate between supervised and unsupervised learningIdentify problems that can be solved with machine learningDescribe commonly used algorithms including linear regression, logistic regression, and k-meansDescribe how model training and testing worksEvaluate the performance of a machine learning model using metricsDifferentiate between supervised and unsupervised learningIdentify problems that can be solved with machine learningDescribe commonly used algorithms including linear regression, logistic regression, and k-meansDescribe how model training and testing worksEvaluate the performance of a machine learning model using metricsMachine Learning with AWSIdentify AWS machine learning offerings and understand how different services are used for different applicationsExplain the fundamentals of computer vision and provide examples of popular tasksDescribe how reinforcement learning works in the context of AWS DeepRacerExplain the fundamentals of generative AI and its applications, and describe three famous generative AI models in the context of music and AWS DeepComposerIdentify AWS machine learning offerings and understand how different services are used for different applicationsExplain the fundamentals of computer vision and provide examples of popular tasksDescribe how reinforcement learning works in the context of AWS DeepRacerExplain the fundamentals of generative AI and its applications, and describe three famous generative AI models in the context of music and AWS DeepComposerSoftware Engineering Practices, Part 1Writing clean and modular codeWriting efficient codeCode refactoringAdding meaningful documentationUsing version controlWriting clean and modular codeWriting efficient codeCode refactoringAdding meaningful documentationUsing version controlSoftware Engineering Practices, Part 2TestingLoggingCode reviewsTestingLoggingCode reviewsIntroduction to Object-Oriented ProgrammingObject-oriented programming syntaxUsing object-oriented programming to make a Python packageObject-oriented programming syntaxUsing object-oriented programming to make a Python package"
+      },
+      "unified_data": {
+        "title": "AWS Machine Learning Foundations Course",
+        "url": "https://www.udacity.com/course/aws-machine-learning-foundations--ud065",
+        "description": "",
+        "category": "Machine Learning",
+        "language": "English",
+        "skills": [
+          "Model Evaluation",
+          "Python",
+          "Machine Learning",
+          "Linear Regression",
+          "Model Training",
+          "K-Means Clustering",
+          "Aws Machine Learning Services",
+          "Logistic Regression"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Months",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify suitable machine learning solutions for specific problems.",
+          "Differentiate between supervised and unsupervised learning techniques.",
+          "Describe and apply common machine learning algorithms like linear regression, logistic regression, and k-means.",
+          "Evaluate the performance of machine learning models using appropriate metrics.",
+          "Identify and understand various AWS machine learning offerings for different applications.",
+          "Explain the model training and testing process in machine learning."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8de",
+        "Title": "Real-Time Analytics with Apache Storm",
+        "URL": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381",
+        "Short Intro": "The \"Hadoop of Real-Time\"",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Programming language required: JavaTo be successful, you'll need intermediate knowledge of Java. Specifically, this is defined by experience and comfort with Java syntax, compile & run-time error diagnostics and debugging, ability to use javadocs as needed, and intermediate data structures including Arrays, HashMaps, and LinkedLists.  If you need to build these skills, a good starting point is Udacity’s Introduction to Java with additional comfortability needed identifying and debugging compile & run-time errors.No prior experience is assumed in Ubuntu, git, Maven, Redis, Flask (Python) or d3 (Javascript).  Python is useful, but optional.  A basic course such as CS101 or OO in Python would be helpful.See the Technology Requirements for using Udacity.",
+        "What you learn": "Basic Storm TopologiesLink to a real-time d3 Word Cloud Visualization using Redis, Flask, and d3Link to a real-time d3 Word Cloud Visualization using Redis, Flask, and d3Storm BasicsProgram Bolts, link Spouts, and connect to the live Twitter API to process real-time tweetsExplore open source components by connecting a Rolling Count Bolt to your topology to visualize Rolling Top Tweeted WordsProgram Bolts, link Spouts, and connect to the live Twitter API to process real-time tweetsExplore open source components by connecting a Rolling Count Bolt to your topology to visualize Rolling Top Tweeted WordsBeyond Storm BasicsExplore multi-language capabilities to download and parse real-time Tweeted URLs in Python using Beautiful SoupIntegrate complex open source bolts to calculate Top-N words to visualize real-time Top-N HashtagsUse stream grouping concepts to easily create streaming join to connect and dynamically process multiple streamsExplore multi-language capabilities to download and parse real-time Tweeted URLs in Python using Beautiful SoupIntegrate complex open source bolts to calculate Top-N words to visualize real-time Top-N HashtagsUse stream grouping concepts to easily create streaming join to connect and dynamically process multiple streamsFinal ProjectWork on your final project and we cover additional questions and topics brought up by Hackathon participantsExplore Vagrant, VirtualBox, Redis, Flask, and d3 further if you are interested!Work on your final project and we cover additional questions and topics brought up by Hackathon participantsExplore Vagrant, VirtualBox, Redis, Flask, and d3 further if you are interested!Final Project: Construct a Storm TopologyDesign a Storm Topology and new bolt that uses streaming joins to dynamically calculate Top-N Hashtags and display real-time tweets that contain trending Top HashtagsPost your visualization to the forum and tweet them to your Twitter followersDesign a Storm Topology and new bolt that uses streaming joins to dynamically calculate Top-N Hashtags and display real-time tweets that contain trending Top HashtagsPost your visualization to the forum and tweet them to your Twitter followersProject ExtensionsUse additional features of the real-time Twitter sample stream or use any data source to drive your real-time d3 visualizationUse additional features of the real-time Twitter sample stream or use any data source to drive your real-time d3 visualization"
+      },
+      "unified_data": {
+        "title": "Real-Time Analytics with Apache Storm",
+        "url": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381",
+        "description": "The Hadoop of Real-Time",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Real-Time Data Processing",
+          "Apache Storm",
+          "Stream Processing",
+          "Data Visualization",
+          "Api Integration",
+          "Java",
+          "Redis",
+          "Flask"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply Storm topologies for real-time data processing.",
+          "Understand the architecture and core concepts of Apache Storm.",
+          "Implement multi-language components within a Storm topology using Python and Beautiful Soup.",
+          "Utilize stream grouping techniques for complex stream processing tasks.",
+          "Develop Storm bolts and spouts using Java.",
+          "Integrate Apache Storm with external APIs such as the Twitter API."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8e9",
+        "Title": "Introduction to Machine Learning Course",
+        "URL": "https://www.udacity.com/course/intro-to-machine-learning--ud120",
+        "Short Intro": "Pattern Recognition for Fun and Profit",
+        "Duration": "Estimated timeApprox. 10 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "To succeed in this course, you must be proficient at programming in Python and basic statistics. If you need a refresher on any of these topics, you can check out these courses:\r\n\r\nIntro to Python Programming\r\nInferential Statistics\r\nDescriptive Statistics\r\n\r\n  One additional course that would be nice to have is Intro to Data Science, as this will get you familiar with scientific problem-solving.  However, completion of that class isn't required for success.  We will also use a tiny bit of git, which you can also learn about on Udacity.One thing that we don’t require is previous exposure to machine learning.  If you’re a machine learning beginner, you’re in the right place.See the Technology Requirements for using Udacity.",
+        "What you learn": "Welcome to Machine LearningLearn what Machine Learning is and meet Sebastian Thrun!Find out where Machine Learning is applied in Technology and Science.Learn what Machine Learning is and meet Sebastian Thrun!Find out where Machine Learning is applied in Technology and Science.Naive BayesUse Naive Bayes with scikit learn in python.Splitting data between training sets and testing sets with scikit learn.Calculate the posterior probability and the prior probability of simple distributions.Use Naive Bayes with scikit learn in python.Splitting data between training sets and testing sets with scikit learn.Calculate the posterior probability and the prior probability of simple distributions.Support Vector MachinesLearn the simple intuition behind Support Vector Machines.Implement an SVM classifier in SKLearn/scikit-learn.Identify how to choose the right kernel for your SVM and learn about RBF and Linear Kernels.Learn the simple intuition behind Support Vector Machines.Implement an SVM classifier in SKLearn/scikit-learn.Identify how to choose the right kernel for your SVM and learn about RBF and Linear Kernels.Decision TreesCode your own decision tree in python.Learn the formulas for entropy and information gain and how to calculate them.Implement a mini project where you identify the authors in a body of emails using a decision tree in Python.Code your own decision tree in python.Learn the formulas for entropy and information gain and how to calculate them.Implement a mini project where you identify the authors in a body of emails using a decision tree in Python.Choose your own AlgorithmDecide how to pick the right Machine Learning Algorithm among K-Means, Adaboost, and Decision Trees.Decide how to pick the right Machine Learning Algorithm among K-Means, Adaboost, and Decision Trees.Datasets and QuestionsApply your Machine Learning knowledge by looking for patterns in the Enron Email Dataset.You'll be investigating one of the biggest frauds in American history!Apply your Machine Learning knowledge by looking for patterns in the Enron Email Dataset.You'll be investigating one of the biggest frauds in American history!RegressionsUnderstand how continuous supervised learning is different from discrete learning.Code a Linear Regression in Python with scikit-learn.Understand different error metrics such as SSE, and R Squared in the context of Linear Regressions.Understand how continuous supervised learning is different from discrete learning.Code a Linear Regression in Python with scikit-learn.Understand different error metrics such as SSE, and R Squared in the context of Linear Regressions.OutliersRemove outliers to improve the quality of your linear regression predictions.Apply your learning in a mini project where you remove the residuals on a real dataset and reimplement your regressor.Apply your same understanding of outliers and residuals on the Enron Email Corpus.Remove outliers to improve the quality of your linear regression predictions.Apply your learning in a mini project where you remove the residuals on a real dataset and reimplement your regressor.Apply your same understanding of outliers and residuals on the Enron Email Corpus.ClusteringIdentify the difference between Unsupervised Learning and Supervised Learning.Implement K-Means in Python and Scikit Learn to find the center of clusters.Apply your knowledge on the Enron Finance Data to find clusters in a real dataset.Identify the difference between Unsupervised Learning and Supervised Learning.Implement K-Means in Python and Scikit Learn to find the center of clusters.Apply your knowledge on the Enron Finance Data to find clusters in a real dataset.Feature ScalingUnderstand how to preprocess data with feature scaling to improve your algorithms.Use a min mx scaler in sklearn.Understand how to preprocess data with feature scaling to improve your algorithms.Use a min mx scaler in sklearn."
+      },
+      "unified_data": {
+        "title": "Introduction to Machine Learning Course",
+        "url": "https://www.udacity.com/course/intro-to-machine-learning--ud120",
+        "description": "Pattern Recognition for Fun and Profit",
+        "category": "Machine Learning",
+        "language": "English",
+        "skills": [
+          "Support Vector Machines (Svm)",
+          "Naive Bayes",
+          "Machine Learning",
+          "Data Splitting",
+          "Python",
+          "Scikit-Learn",
+          "Kernel Selection"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 10 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the principles of Machine Learning and its applications",
+          "Implement data splitting techniques for training and testing datasets",
+          "Apply Naive Bayes classifiers using scikit-learn",
+          "Calculate prior and posterior probabilities for simple distributions",
+          "Evaluate and select appropriate kernels for SVM models",
+          "Implement Support Vector Machine (SVM) classifiers using scikit-learn"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8fc",
+        "Title": "Learn to Code",
+        "URL": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+        "Short Intro": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Introduction to Programming",
+        "Prequisites": "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward!",
+        "What you learn": "Learn the basics of programming through HTML, CSS, Python, and JavaScript. Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer."
+      },
+      "unified_data": {
+        "title": "Learn to Code",
+        "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+        "description": "Udacitys Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Problem Solving",
+          "Algorithmic Thinking",
+          "Html",
+          "Web Development",
+          "Python",
+          "Css",
+          "Javascript"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the fundamentals of programming concepts",
+          "Build projects that demonstrate coding fundamentals",
+          "Develop interactive web applications using JavaScript",
+          "Apply HTML and CSS to structure and style web pages",
+          "Write Python code to solve basic programming problems",
+          "Develop problem-solving skills using computational thinking"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d901",
+        "Title": "Learn to Code",
+        "URL": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+        "Short Intro": "Udacity's Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Introduction to Programming",
+        "Prequisites": "In order to succeed, we recommend having experience using the web, being able to perform a search on Google, and (most importantly) the determination to keep pushing forward!",
+        "What you learn": "Learn the basics of programming through HTML, CSS, Python, and JavaScript. Get extensive practice with hands-on exercises and projects that demonstrate your grasp of coding fundamentals, and build confidence in your ability to think and problem-solve like a programmer."
+      },
+      "unified_data": {
+        "title": "Learn to Code",
+        "url": "https://www.udacity.com/course/intro-to-programming-nanodegree--nd000",
+        "description": "Udacitys Intro to Programming is your first step towards careers in Web and App Development, Machine Learning, Data Science, AI, and more! This program is perfect for beginners.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Problem Solving",
+          "Algorithmic Thinking",
+          "Html",
+          "Software Development",
+          "Python",
+          "Css",
+          "Javascript"
+        ],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Build simple projects demonstrating coding fundamentals",
+          "Understand the fundamentals of programming concepts",
+          "Implement basic JavaScript for interactive web elements",
+          "Utilize Python to solve programming problems",
+          "Apply HTML and CSS to structure and style web pages",
+          "Develop problem-solving skills using computational thinking"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d94c",
+        "Title": "Introduction to Python",
+        "URL": "https://www.udacity.com/course/introduction-to-python--cd0024",
+        "Short Intro": "Every programmer needs to know Python, including those looking to work in rapidly-growing fields such as machine learning and A.I. During this course, you’ll learn the fundamentals you need to take the next step in your career.",
+        "Duration": "1 month",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Introduction to Python",
+        "Prequisites": "No Experience Required.",
+        "What you learn": "In this course, you’ll learn to represent and store data using Python data types and variables, and use conditionals and loops to control the flow of your programs. You’ll harness the power of complex data structures like lists, sets, dictionaries and tuples to store collections of related data. You’ll define and document your own custom functions, write scripts and handle errors. You will also learn to use two powerful Python libraries — Numpy, a scientific computing package, and Pandas, a data manipulation package."
+      },
+      "unified_data": {
+        "title": "Introduction to Python",
+        "url": "https://www.udacity.com/course/introduction-to-python--cd0024",
+        "description": "Every programmer needs to know Python, including those looking to work in rapidly-growing fields such as machine learning and A.I. During this course, youll learn the fundamentals you need to take the next step in your career.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Structures",
+          "Numpy",
+          "Python Programming",
+          "Error Handling",
+          "Data Manipulation",
+          "Scripting",
+          "Pandas"
+        ],
+        "instructors": [],
+        "duration": "1 month",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Represent and store data using Python data types and variables",
+          "Apply Pandas for data manipulation and analysis",
+          "Control program flow using conditionals and loops in Python",
+          "Apply Numpy for scientific computing tasks",
+          "Define and document custom functions in Python",
+          "Utilize lists, sets, dictionaries, and tuples to manage data collections"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d906",
+        "Title": "AI Programming with Python",
+        "URL": "https://www.udacity.com/course/ai-programming-python-nanodegree--nd089",
+        "Short Intro": "Learn Python, NumPy, pandas, Matplotlib, PyTorch, Calculus, and Linear Algebra—the foundations for building your own neural network.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn AI Fundamentals",
+        "Prequisites": "Formal prerequisites include basic knowledge of algebra, and basic programming in any language.",
+        "What you learn": "Learn the essential foundations of AI: the programming tools (Python, NumPy, PyTorch), the math (calculus and linear algebra), and the key techniques of neural networks (gradient descent and backpropagation)."
+      },
+      "unified_data": {
+        "title": "AI Programming with Python",
+        "url": "https://www.udacity.com/course/ai-programming-python-nanodegree--nd089",
+        "description": "Learn Python, NumPy, pandas, Matplotlib, PyTorch, Calculus, and Linear Algebrathe foundations for building your own neural network.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Calculus",
+          "Matplotlib",
+          "Linear Algebra",
+          "Numpy",
+          "Pytorch",
+          "Python",
+          "Neural Networks",
+          "Pandas"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement neural networks using PyTorch",
+          "Understand gradient descent and backpropagation algorithms",
+          "Create data visualizations using Matplotlib",
+          "Apply calculus and linear algebra concepts to machine learning problems",
+          "Apply NumPy and Pandas for data manipulation and analysis",
+          "Understand the fundamentals of Python programming for AI development"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d930",
+        "Title": "Intro to Self-Driving Cars",
+        "URL": "https://www.udacity.com/course/intro-to-self-driving-cars--nd113",
+        "Short Intro": "This introductory program is the perfect way to start your journey.",
+        "Duration": "4 \r\n                      months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Intro to Self-Driving Cars",
+        "Prequisites": "You should be comfortable reading and modifying code. You should also be comfortable with basic algebra.",
+        "What you learn": "In this program, you’ll sharpen your Python skills, apply C++, apply matrices and calculus in code, and touch on computer vision and machine learning. These concepts will be applied to solving self-driving car problems. At the end, you’ll be ready for our Self-Driving Car Engineer Nanodegree program!"
+      },
+      "unified_data": {
+        "title": "Intro to Self-Driving Cars",
+        "url": "https://www.udacity.com/course/intro-to-self-driving-cars--nd113",
+        "description": "This introductory program is the perfect way to start your journey.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Calculus",
+          "Computer Vision",
+          "Self-Driving Car Technology",
+          "Linear Algebra",
+          "Python Programming",
+          "C++ Programming",
+          "Machine Learning Algorithms"
+        ],
+        "instructors": [],
+        "duration": "4 \r\n                      months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the principles of computer vision for object detection",
+          "Utilize matrices and calculus in code for autonomous systems",
+          "Understand the fundamentals of self-driving car technology",
+          "Apply Python and C++ to solve engineering problems",
+          "Apply machine learning techniques to self-driving car challenges"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d932",
+        "Title": "Intro to Machine Learning with PyTorch",
+        "URL": "https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229",
+        "Short Intro": "Learn foundational machine learning techniques -- from data manipulation to unsupervised and supervised algorithms.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Intro to Machine Learning with PyTorch",
+        "Prequisites": "To optimize your chances of success in this program, we recommend intermediate Python programming knowledge and basic knowledge of probability and statistics.",
+        "What you learn": "Learn foundational machine learning algorithms, starting with data cleaning and supervised models. Then, move on to exploring deep and unsupervised learning. At each step, get practical experience by applying your skills to code exercises and projects.\r\nThis program is intended for students with experience in Python, who have not yet studied Machine Learning topics. "
+      },
+      "unified_data": {
+        "title": "Intro to Machine Learning with PyTorch",
+        "url": "https://www.udacity.com/course/intro-to-machine-learning-nanodegree--nd229",
+        "description": "Learn foundational machine learning techniques -- from data manipulation to unsupervised and supervised algorithms.",
+        "category": "Machine Learning",
+        "language": "English",
+        "skills": [
+          "Deep Learning",
+          "Unsupervised Learning",
+          "Supervised Learning",
+          "Data Manipulation",
+          "Machine Learning",
+          "Pytorch",
+          "Python"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the principles of deep learning.",
+          "Apply Python and PyTorch for machine learning tasks.",
+          "Implement and evaluate supervised learning algorithms.",
+          "Design and build machine learning projects.",
+          "Clean and prepare data for machine learning models.",
+          "Implement and evaluate unsupervised learning algorithms."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d905",
+        "Title": "Programming for Data Science with Python",
+        "URL": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+        "Short Intro": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git. ",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn to Code in Python and SQL",
+        "Prequisites": "There are no prerequisites for this program, aside from basic computer skills.",
+        "What you learn": "Learn the programming fundamentals required for a career in data science. By the end of the program, you will be able to use Python, SQL, Command Line, and Git."
+      },
+      "unified_data": {
+        "title": "Programming for Data Science with Python",
+        "url": "https://www.udacity.com/course/programming-for-data-science-nanodegree--nd104",
+        "description": "Prepare for a data science career by learning the fundamental data programming tools: Python, SQL, command line, and git.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Version Control",
+          "Command Line Interface (Cli)",
+          "Python Programming",
+          "Data Manipulation",
+          "Sql",
+          "Database Management",
+          "Git"
+        ],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Employ command-line tools for efficient file management and system navigation.",
+          "Use Git for version control and collaborative software development.",
+          "Understand fundamental data programming concepts.",
+          "Manage and manipulate data using Python libraries.",
+          "Apply Python programming skills to solve data-related problems.",
+          "Utilize SQL to query and manipulate data in relational databases."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d927",
+        "Title": "Learn Intermediate Python",
+        "URL": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+        "Short Intro": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+        "Duration": "Estimated 2 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Learn Intermediate Python",
+        "Prequisites": "Basic familiarity with programming in Python. ",
+        "What you learn": "Python is a general-purpose coding language with applications in web development, data science, machine learning, fintech and more. The Intermediate Python Nanodegree program equips you to leverage the capabilities of Python and streamline the functionality of applications that perform complex tasks, such as classifying files, data mining a webpage, etc. By the end of the program, you’ll have a portfolio that demonstrates your ability to apply practicioner-level Python skills on the job.\r\n"
+      },
+      "unified_data": {
+        "title": "Learn Intermediate Python",
+        "url": "https://www.udacity.com/course/intermediate-python-nanodegree--nd303",
+        "description": "Gain practitioner-level skills with Python and learn the language powering transformation in Data Science, Machine Learning, and beyond.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Data Mining",
+          "Data Science",
+          "Machine Learning",
+          "Python",
+          "File Classification",
+          "Application Development",
+          "Web Scraping"
+        ],
+        "instructors": [],
+        "duration": "Estimated 2 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement data mining techniques using Python.",
+          "Design and build a portfolio demonstrating practitioner-level Python skills.",
+          "Develop applications for file classification.",
+          "Leverage Python capabilities for complex tasks.",
+          "Apply Python to streamline the functionality of applications."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    }
+  ]
+}

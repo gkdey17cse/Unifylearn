@@ -1,0 +1,140 @@
+{
+  "user_query": "Show me top 10 Cloud Engineering courses searching from all platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 130,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 20,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 16,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Cloud Engineering|Cloud Computing|AWS|Azure|GCP|DevOps|Infrastructure as Code)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 109,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T16:23:06.355598"
+}

@@ -1,0 +1,83 @@
+{
+  "user_query": "show any literature courses from simply learn and coats up platform show any literature courses from simply learn and coursera platform",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bliterature\\ simply\\ and\\ coats\\ literature\\ simply\\ and\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bliterature\\ simply\\ and\\ coats\\ literature\\ simply\\ and\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bliterature\\ simply\\ and\\ coats\\ literature\\ simply\\ and\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bliterature\\ simply\\ and\\ coats\\ literature\\ simply\\ and\\ coursera\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(literature|poetry|drama|fiction|non-fiction|literary analysis|creative writing|writing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(literature|poetry|drama|fiction|non-fiction|literary analysis|creative writing|writing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(literature|poetry|drama|fiction|non-fiction|literary analysis|creative writing|writing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(literature|poetry|drama|fiction|non-fiction|literary analysis|creative writing|writing)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(literature|poetry|drama|fiction|non-fiction|literary analysis|creative writing|writing)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Coursera"
+      },
+      "match_count": 144,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T10:29:14.159505"
+}

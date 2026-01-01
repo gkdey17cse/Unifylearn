@@ -1,0 +1,203 @@
+{
+  "timestamp": "2025-11-15T02:13:52.903009",
+  "user_query": "Law courses from Coursera",
+  "debug_info": {
+    "user_query": "Law courses from Coursera",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "Law courses from Coursera",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "udacity": {
+          "query": {}
+        },
+        "simplilearn": {
+          "query": {}
+        },
+        "futurelearn": {
+          "query": {}
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Failed to execute query for coursera: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763172831, 1), 'signature': {'hash': b\"Y\\x93\\x9c0H\\x83\\x88\\xeazrW\\xbd\\x14'\\x0e[\\xb0Ur\\xd7\", 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763172831, 1)}"
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Duration": {
+                "$regex": "\\blaw\\ coursera\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": []
+}

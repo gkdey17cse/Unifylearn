@@ -1,0 +1,116 @@
+{
+  "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management'. Expanding the terms to include related concepts and synonyms. User wants courses with hands-on labs and excludes Coursera.",
+    "expanded_terms": [
+      "Cybersecurity",
+      "Ethical Hacking",
+      "Network Security",
+      "Penetration Testing",
+      "Information Security Management",
+      "InfoSec",
+      "Security Auditing",
+      "Vulnerability Assessment"
+    ],
+    "providers": {
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T09:19:14.586782"
+}

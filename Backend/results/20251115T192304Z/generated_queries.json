@@ -1,0 +1,18 @@
+{
+  "user_query": "Find top 10 highest-rated courses  across all platforms",
+  "generated_queries": {
+    "query_type": "AGGREGATE",
+    "description": "Top 10 highest-rated courses across all platforms",
+    "aggregation_strategy": "cross_platform",
+    "sort_field": "Rating",
+    "sort_order": -1,
+    "global_limit": 10,
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-15T19:23:04.862388"
+}

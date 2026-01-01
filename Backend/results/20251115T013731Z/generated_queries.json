@@ -1,0 +1,38 @@
+{
+  "user_query": "Show me some Law related course from Simplilearn",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find Law related courses from Simplilearn",
+    "providers": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bLaw\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-15T01:37:31.811024"
+}

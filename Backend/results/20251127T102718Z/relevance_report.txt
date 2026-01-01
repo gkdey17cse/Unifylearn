@@ -1,0 +1,61 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Show me Music COurses from Futurelearn platform
+Total Courses: 10
+Generated at: 2025-11-27T10:27:18.546647
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :  10 courses | Avg Prob: 0.0341 | Avg Score: 0.1253
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.0787 | Score: 0.1798
+     Music Moves: Why Does Music Make You Move?
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.0495 | Score: 0.1566
+     Music and Intelligence: Can Music Make You Smarter?
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0467 | Score: 0.1537
+     Music Psychology: Why Does Bohemian Rhapsody Feel so Good?
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0453 | Score: 0.1521
+     Being a Flexible Music Teacher
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0453 | Score: 0.1521
+     Becoming a Better Music Teacher
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0253 | Score: 0.1231
+     Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0188 | Score: 0.1082
+     English Electronic Music: Delve into the Digital Archives
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0157 | Score: 0.0992
+     String Music Appreciation
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0097 | Score: 0.0753
+     From Notation to Performance: Understanding Musical Scores
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0062 | Score: 0.0525
+     How to Use Classroom 200
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   1 courses ( 10.0%)
+Medium    :   7 courses ( 70.0%)
+Low       :   2 courses ( 20.0%)
+Very Low  :   0 courses (  0.0%)

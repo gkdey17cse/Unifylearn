@@ -1,0 +1,82 @@
+{
+  "user_query": "Show me Python and JavaScript courses from Coursera and Udacity",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 248,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Python|JavaScript|Web Development|HTML|CSS|React|Frontend|Backend)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 60,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T08:52:31.362332"
+}

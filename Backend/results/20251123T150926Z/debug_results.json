@@ -1,0 +1,716 @@
+{
+  "timestamp": "2025-11-23T15:09:26.947620",
+  "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from any platforms",
+  "debug_info": {
+    "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from any platforms",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'web development' and 'python programming'. Expanding 'web dev' to include: HTML, CSS, JavaScript, React, Full Stack, Frontend, Backend. Expanding 'Data Science' to include: Data Analysis, Statistics, Big Data, Pandas, Python.",
+      "expanded_terms": [
+        "Web Development",
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "React",
+        "Full Stack",
+        "Frontend",
+        "Backend",
+        "Data Science",
+        "Data Analysis",
+        "Statistics",
+        "Big Data",
+        "Pandas",
+        "Python"
+      ],
+      "providers": {
+        "coursera": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$and": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(JavaScript)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(React)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "udacity": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$and": [
+                {
+                  "What you learn": {
+                    "$regex": "\\b(JavaScript)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(React)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "simplilearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$and": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(JavaScript)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(React)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "futurelearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Level": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Full Stack|Frontend|Backend|Data Science|Data Analysis|Statistics|Big Data|Pandas|Python)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Beginner)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 11,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c7a2",
+        "Title": "A Beginnerâ€™s Guide to Web Development with HTML5",
+        "URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5",
+        "Short Intro": "Learn the fundamental basics of web development and create your own web pages using HTML and HTML5.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "72 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "A Beginnerâ€™s Guide to Web Development with HTML5",
+        "Course URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5",
+        "Course Short Intro": "Learn the fundamental basics of web development and create your own web pages using HTML and HTML5.",
+        "Weekly study": "3 hours",
+        "Premium course": "$79",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "A Beginnerâs Guide to Web Development with HTML5",
+        "url": "https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5",
+        "description": "Learn the fundamental basics of web development and create your own web pages using HTML and HTML5.",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "HTML5",
+          "Web Development",
+          "HTML",
+          "CSS",
+          "Website Structure",
+          "Semantic HTML",
+          "Web Accessibility"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Describe the basic structure of an HTML5 document",
+          "Create web pages using HTML and HTML5 tags",
+          "Apply CSS for basic styling of web pages",
+          "Implement semantic HTML for improved accessibility",
+          "Structure web content effectively using HTML elements"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020e69e0bdd621a8c7a2",
+          "Title": "A Beginnerâ€™s Guide to Web Development with HTML5",
+          "URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5",
+          "Short Intro": "Learn the fundamental basics of web development and create your own web pages using HTML and HTML5.",
+          "Duration": "2 weeks",
+          "Site": "Future Learn",
+          "Courses": "72 Courses",
+          "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+          "ExpertTracks": "5 ExpertTracks",
+          "Course Title": "A Beginnerâ€™s Guide to Web Development with HTML5",
+          "Course URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-web-development-with-html5",
+          "Course Short Intro": "Learn the fundamental basics of web development and create your own web pages using HTML and HTML5.",
+          "Weekly study": "3 hours",
+          "Premium course": "$79",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.1999999990850295,
+        "relevance_score": 1.0,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.1999999990850295,
+      "relevance_score": 1.0
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ce74",
+        "Title": "A Beginnerâ€™s Guide to Creating a VR Experience",
+        "URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-creating-a-webvr-experience-using-aframe",
+        "Short Intro": "Develop your basic programming skills with HTML and JavaScript and learn to create virtual reality content for web browsers.",
+        "Duration": "5 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "A Beginnerâ€™s Guide to Creating a VR Experience",
+        "Course URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-creating-a-webvr-experience-using-aframe",
+        "Course Short Intro": "Develop your basic programming skills with HTML and JavaScript and learn to create virtual reality content for web browsers.",
+        "Weekly study": "2 hours",
+        "Premium course": "$14",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "A Beginnerâs Guide to Creating a VR Experience",
+        "url": "https://www.futurelearn.com/courses/a-beginners-guide-to-creating-a-webvr-experience-using-aframe",
+        "description": "Develop your basic programming skills with HTML and JavaScript and learn to create virtual reality content for web browsers.",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "HTML",
+          "JavaScript",
+          "VR Development",
+          "WebVR",
+          "A-Frame",
+          "3D Modeling (basic)",
+          "Interactive Design"
+        ],
+        "instructors": [],
+        "duration": "5 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop basic programming skills with HTML and JavaScript",
+          "Create virtual reality content for web browsers",
+          "Build interactive VR experiences using WebVR frameworks",
+          "Implement 3D elements and interactions within a VR environment",
+          "Design basic VR interfaces using HTML and JavaScript"
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8ce74",
+          "Title": "A Beginnerâ€™s Guide to Creating a VR Experience",
+          "URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-creating-a-webvr-experience-using-aframe",
+          "Short Intro": "Develop your basic programming skills with HTML and JavaScript and learn to create virtual reality content for web browsers.",
+          "Duration": "5 weeks",
+          "Site": "Future Learn",
+          "Courses": "255 Courses",
+          "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+          "ExpertTracks": "24 ExpertTracks",
+          "Course Title": "A Beginnerâ€™s Guide to Creating a VR Experience",
+          "Course URL": "https://www.futurelearn.com/courses/a-beginners-guide-to-creating-a-webvr-experience-using-aframe",
+          "Course Short Intro": "Develop your basic programming skills with HTML and JavaScript and learn to create virtual reality content for web browsers.",
+          "Weekly study": "2 hours",
+          "Premium course": "$14",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.1999999990850295,
+        "relevance_score": 1.0,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.1999999990850295,
+      "relevance_score": 1.0
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c4db",
+        "Title": "Essential Mathematics for Data Analysis in Microsoft Excel",
+        "URL": "https://www.futurelearn.com/courses/essentialmathfordataanalysisusingexcelonline",
+        "Short Intro": "_x000D_\nUnderstand the basic maths that powers data analysis with this beginnerâ€™s course. _x000D_\n",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "42 Courses",
+        "Topics related to CRM": "AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / ",
+        "ExpertTracks": "11 ExpertTracks",
+        "Course Title": "Essential Mathematics for Data Analysis in Microsoft Excel",
+        "Course URL": "https://www.futurelearn.com/courses/essentialmathfordataanalysisusingexcelonline",
+        "Course Short Intro": "_x000D_\nUnderstand the basic maths that powers data analysis with this beginnerâ€™s course. _x000D_\n",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Essential Mathematics for Data Analysis in Microsoft Excel",
+        "url": "https://www.futurelearn.com/courses/essentialmathfordataanalysisusingexcelonline",
+        "description": "_x000D_ Understand the basic maths that powers data analysis with this beginnerâs course. _x000D_",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68ac020e69e0bdd621a8c4db",
+          "Title": "Essential Mathematics for Data Analysis in Microsoft Excel",
+          "URL": "https://www.futurelearn.com/courses/essentialmathfordataanalysisusingexcelonline",
+          "Short Intro": "_x000D_\nUnderstand the basic maths that powers data analysis with this beginnerâ€™s course. _x000D_\n",
+          "Duration": "3 weeks",
+          "Site": "Future Learn",
+          "Courses": "42 Courses",
+          "Topics related to CRM": "AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / AI & Robotics  / Business Technology / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Excel / Java / Machine Learning / Python / R Programming / Statistics / Tableau / Web Analytics / ",
+          "ExpertTracks": "11 ExpertTracks",
+          "Course Title": "Essential Mathematics for Data Analysis in Microsoft Excel",
+          "Course URL": "https://www.futurelearn.com/courses/essentialmathfordataanalysisusingexcelonline",
+          "Course Short Intro": "_x000D_\nUnderstand the basic maths that powers data analysis with this beginnerâ€™s course. _x000D_\n",
+          "Weekly study": "5 hours",
+          "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 7.624754254338246e-10,
+        "relevance_score": 0.03074935400516796
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 7.624754254338246e-10,
+      "relevance_score": 0.03074935400516796
+    }
+  ]
+}

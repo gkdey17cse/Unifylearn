@@ -1,0 +1,307 @@
+{
+  "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs any course but not from Coursera",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bprefer\\ with\\ hands\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bcybersecurity\\ and\\ ethical\\ hacking\\ focusing\\ network\\ security\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bpenetration\\ testing\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\blabs\\ but\\ not\\ coursera\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\band\\ information\\ security\\ management\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|Information Security Management|InfoSec|Security Auditing|Vulnerability Assessment)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(hands-on labs|hands on labs|practical exercises)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T09:19:14.588777"
+}

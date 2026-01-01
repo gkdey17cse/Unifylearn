@@ -1,0 +1,111 @@
+{
+  "user_query": "Show all Data Science courses where Viewrs are more than 1000 only",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Data Science courses with more than 1000 viewers",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "1000"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "1000"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "1000"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bData Science\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "1000"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-15T02:42:32.375651"
+}

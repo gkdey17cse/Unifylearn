@@ -1,0 +1,140 @@
+{
+  "user_query": "show me business courses from Huda City or simply learn platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1290,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 46,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 54,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Business|Management|Finance|Accounting|Marketing|Entrepreneurship|Economics|Business Administration)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 817,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T09:57:48.188918"
+}

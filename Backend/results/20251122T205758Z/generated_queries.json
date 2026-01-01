@@ -1,0 +1,36 @@
+{
+  "user_query": "Show me Deep Learning Courses from Udacity platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Deep Learning Courses from Udacity platform",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {},
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-22T20:57:58.514223"
+}

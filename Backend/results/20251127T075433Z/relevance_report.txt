@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: bro show me sum datascince or maybe AI type corsess frm cousera or simpli not sure… but only small small duration like less than 3 wek??
+Total Courses: 91
+Generated at: 2025-11-27T07:54:33.994464
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+UDACITY        :   9 courses | Avg Prob: 0.0073 | Avg Score: 0.0084
+COURSERA       :  53 courses | Avg Prob: 0.0075 | Avg Score: 0.0104
+SIMPLILEARN    :   7 courses | Avg Prob: 0.0070 | Avg Score: 0.0072
+FUTURELEARN    :  22 courses | Avg Prob: 0.0063 | Avg Score: 0.0027
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [UDACITY     ] Prob: 0.0125 | Score: 0.0367
+     Computer Networking
+     Skills: No skills
+
+ 2. [COURSERA    ] Prob: 0.0115 | Score: 0.0327
+     Cloud Computing Law: Data Protection and Cybersecurity
+     Skills: Cybersecurity Regulation,Cloud Services,General Data Protection Regulation (GDPR),International Tran
+
+ 3. [COURSERA    ] Prob: 0.0092 | Score: 0.0216
+     Road to the CISO  Culminating Project Course
+     Skills: Cyber-Security Regulation,Cybersecurity Staffing,Risk Management,Contingency Plan,Cybersecurity Gove
+
+ 4. [COURSERA    ] Prob: 0.0092 | Score: 0.0214
+     Introduction to Cybersecurity Foundations
+     Skills: No skills
+
+ 5. [COURSERA    ] Prob: 0.0092 | Score: 0.0211
+     Managing Cybersecurity Incidents and Disasters
+     Skills: Business Continuity,Disaster Recovery,Incident response planning,
+
+ 6. [COURSERA    ] Prob: 0.0090 | Score: 0.0204
+     Cyber Attack Countermeasures
+     Skills: Cybersecurity,Cryptography,Public-Key Cryptography,
+
+ 7. [COURSERA    ] Prob: 0.0087 | Score: 0.0189
+     Vital Skills for Data Science Specialization
+     Skills: Information Privacy, Cybersecurity, analysis, Ethics, Data Science, Applied Mathematics, Information
+
+ 8. [COURSERA    ] Prob: 0.0087 | Score: 0.0187
+     Cybersecurity for Data Science
+     Skills: Communication,Risk Analysis,Problem Solving,
+
+ 9. [COURSERA    ] Prob: 0.0087 | Score: 0.0185
+     Cybersecurity Compliance Framework  System Administration
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0085 | Score: 0.0177
+     Managing Network Security
+     Skills: Wireless Security,Intrusion Detection System,Firewall (Computing),Computer Network,
+
+11. [COURSERA    ] Prob: 0.0085 | Score: 0.0174
+     IT Security: Defense against the digital dark arts
+     Skills: Cybersecurity,Wireless Security,Cryptography,Network Security,
+
+12. [COURSERA    ] Prob: 0.0085 | Score: 0.0172
+     Network Security  Database Vulnerabilities
+     Skills: database vulnerabilities,Network Security,Sql Injection,Cybersecurity,networking basics,
+
+13. [COURSERA    ] Prob: 0.0083 | Score: 0.0163
+     Introduction to Cyber Attacks
+     Skills: Cybersecurity,Information Security (INFOSEC),Denial-Of-Service Attack (DOS),Risk Assessment,
+
+14. [COURSERA    ] Prob: 0.0083 | Score: 0.0161
+     Usable Security
+     Skills: Cybersecurity,Usability,Privacy,User Interface,
+
+15. [SIMPLILEARN ] Prob: 0.0082 | Score: 0.0158
+     CEH v12 - Certified Ethical Hacking Course
+     Skills: 8962
+
+16. [COURSERA    ] Prob: 0.0081 | Score: 0.0153
+     Enterprise and Infrastructure Security
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0081 | Score: 0.0149
+     Cloud Computing Law: Transactions
+     Skills: Intellectual Property,Cybersecurity,Contract Negotiations,Contract Law,Cloud Computing,
+
+18. [COURSERA    ] Prob: 0.0080 | Score: 0.0146
+     Securing Linux Systems
+     Skills: Cybersecurity,Information Technology,Linux,
+
+19. [COURSERA    ] Prob: 0.0080 | Score: 0.0146
+     Enterprise System Management and Security
+     Skills: Subnetwork,Cybersecurity,Information Security (INFOSEC),Enterprise System,
+
+20. [COURSERA    ] Prob: 0.0079 | Score: 0.0138
+     Cyber Security Fundamentals
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0079 | Score: 0.0135
+     Cybersecurity Capstone Project
+     Skills: No skills
+
+22. [COURSERA    ] Prob: 0.0078 | Score: 0.0134
+     Cyber Security in Manufacturing
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0078 | Score: 0.0129
+     Cybersecurity Specialization
+     Skills: Software Testing, Cryptography, Usability, Penetration Test, Cybersecurity, Privacy, User Interface,
+
+24. [UDACITY     ] Prob: 0.0077 | Score: 0.0127
+     Zero Trust Security
+     Skills: No skills
+
+25. [COURSERA    ] Prob: 0.0077 | Score: 0.0126
+     Learning Linux for LFCA Certification Specialization
+     Skills: creating links to files and directories, updating packages, managing Linux File Systems, filtering t
+
+26. [COURSERA    ] Prob: 0.0076 | Score: 0.0115
+     Real-Time Cyber Threat Detection and Mitigation
+     Skills: No skills
+
+27. [COURSERA    ] Prob: 0.0075 | Score: 0.0113
+     Cybersecurity for Everyone
+     Skills: No skills
+
+28. [COURSERA    ] Prob: 0.0073 | Score: 0.0096
+     Cybersecurity Attack and Defense Fundamentals Specialization
+     Skills: Cyberattacks, Network Defense, Digital Forensics, Cybersecurity, Ethical Hacking, Ethica Hacking, Ne
+
+29. [COURSERA    ] Prob: 0.0072 | Score: 0.0091
+     Ethical Hacking Essentials EHE
+     Skills: No skills
+
+30. [COURSERA    ] Prob: 0.0072 | Score: 0.0090
+     Cybersecurity Roles, Processes  Operating System Security
+     Skills: No skills
+
+31. [SIMPLILEARN ] Prob: 0.0072 | Score: 0.0089
+     Caltech Cybersecurity Bootcamp
+     Skills: 8583
+
+32. [FUTURELEARN ] Prob: 0.0072 | Score: 0.0089
+     How Cyber Security Affects the Software Development Life Cycle
+     Skills: No skills
+
+33. [COURSERA    ] Prob: 0.0071 | Score: 0.0085
+     The GRC Approach to Managing Cybersecurity
+     Skills: Cybersecurity planning,Cybersecurity performance measurement,Risk identification,Risk treatment,
+
+34. [UDACITY     ] Prob: 0.0071 | Score: 0.0085
+     Security Analyst
+     Skills: No skills
+
+35. [SIMPLILEARN ] Prob: 0.0071 | Score: 0.0085
+     CompTIA Security Plus Certification - SY0-601 Exam Training
+     Skills: 2146
+
+36. [COURSERA    ] Prob: 0.0069 | Score: 0.0073
+     Introduction to Cybersecurity Tools  Cyber Attacks
+     Skills: Information Security (INFOSEC),IBM New Collar,Malware,Cybersecurity,Cyber Attacks,
+
+37. [COURSERA    ] Prob: 0.0069 | Score: 0.0071
+     Managing Cybersecurity Specialization
+     Skills: Security Management, Network Security, Risk Management, Security Governance, Computer Security Incid
+
+38. [COURSERA    ] Prob: 0.0069 | Score: 0.0069
+     Introduction to Python for Cybersecurity
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0069 | Score: 0.0069
+     Cyber Security Foundations: Reinforcing Identity and Access Management
+     Skills: No skills
+
+40. [SIMPLILEARN ] Prob: 0.0069 | Score: 0.0066
+     Professional Certificate Program in Ethical Hacking and Penetration Testing
+     Skills: 8583
+
+41. [SIMPLILEARN ] Prob: 0.0068 | Score: 0.0066
+     Advanced Executive Program in Cybersecurity
+     Skills: 757
+
+42. [COURSERA    ] Prob: 0.0068 | Score: 0.0066
+     Security Analyst Fundamentals Specialization
+     Skills: threat intelligence, Digital Forensics, Data Breach, cybersecurity analyst, Computer Security Incide
+
+43. [COURSERA    ] Prob: 0.0068 | Score: 0.0066
+     Cloud Computing Law Specialization
+     Skills: Cloud Services, General Data Protection Regulation (GDPR), Cybersecurity, Contract Law, Cloud Comput
+
+44. [FUTURELEARN ] Prob: 0.0068 | Score: 0.0064
+     Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0068 | Score: 0.0063
+     Cyber Security Incident Response for Managers
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0067 | Score: 0.0056
+     Information Technology IT and Cloud Fundamentals Specialization
+     Skills: IT Fundamentals, Cybersecurity, Cloud, Networking, hardware, Technical Support, IT Service Managemen
+
+47. [UDACITY     ] Prob: 0.0067 | Score: 0.0053
+     Introduction to Cybersecurity
+     Skills: No skills
+
+48. [UDACITY     ] Prob: 0.0067 | Score: 0.0053
+     Ethical Hacker
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0066 | Score: 0.0049
+     Cyber Security Foundations: Identity and Access Management
+     Skills: No skills
+
+50. [COURSERA    ] Prob: 0.0066 | Score: 0.0048
+     Information Systems Auditing, Controls and Assurance
+     Skills: Information Security (INFOSEC),Information Technology (IT) Management,Audit,Risk Management,Change M
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   2 courses (  2.2%)
+Low       :  89 courses ( 97.8%)
+Very Low  :   0 courses (  0.0%)

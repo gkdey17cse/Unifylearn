@@ -1,0 +1,19 @@
+{
+  "user_query": "Show me top 5 courses from Udacity on Simplilearn",
+  "generated_queries": {
+    "simplilearn": {
+      "$and": [
+        {
+          "Title": {
+            "$regex": "\bUdacity\b",
+            "$options": "i"
+          }
+        },
+        {
+          "$limit": 5
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-14T21:49:14.668059"
+}

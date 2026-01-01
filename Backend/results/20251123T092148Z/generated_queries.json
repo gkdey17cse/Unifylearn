@@ -1,0 +1,161 @@
+{
+  "user_query": "Show me some AI related courses from Beginner Levell",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "AI related courses from Beginner Level",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Course Type": {
+                  "$regex": "\\bBeginner\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$regex": "\\bBeginner\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Course Type": {
+              "$regex": "\\bBeginner\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Category": {
+              "$regex": "\\bBeginner\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T09:21:48.428133"
+}

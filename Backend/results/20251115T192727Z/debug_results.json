@@ -1,0 +1,1217 @@
+{
+  "timestamp": "2025-11-15T19:27:27.262787",
+  "user_query": "List all Cloud courses from Udacity",
+  "debug_info": {
+    "user_query": "List all Cloud courses from Udacity",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "List all Cloud courses from Udacity",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {},
+        "udacity": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {},
+        "futurelearn": {}
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bCloud\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 26,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d845",
+        "Title": "Google Cloud Digital Leader Training",
+        "URL": "https://www.udacity.com/course/google-cloud-digital-leader-training--ud301",
+        "Short Intro": "Gain foundational cloud and digital transformation literacy.",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "No prior experience required.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to Digital Transformation with Google CloudDefine foundational terms such as cloud, data, and digital transformationExplore examples of companies around the world that are using cloud technology to revolutionize their businessesOverview of the types of opportunities and challenges that companies often encounter in their digital transformation journeyDefine foundational terms such as cloud, data, and digital transformationExplore examples of companies around the world that are using cloud technology to revolutionize their businessesOverview of the types of opportunities and challenges that companies often encounter in their digital transformation journeyInnovating with Data and Google CloudLearn what data is, historical ways companies have used it to make decisions, and why it is so critical for machine learningIntroduces technical concepts such as structured and unstructured data, database, data warehouse, and data lakesCover the most common and fastest growing Google Cloud products around dataLearn what data is, historical ways companies have used it to make decisions, and why it is so critical for machine learningIntroduces technical concepts such as structured and unstructured data, database, data warehouse, and data lakesCover the most common and fastest growing Google Cloud products around dataInfrastructure and Application ModernizationExplore the challenges of an outdated IT infrastructure and how businesses can modernize it using cloud technologyExplore the different compute options available in the cloud and the benefits of eachConsider a range of Google Cloud solutions that can help businesses to better develop and manage their systemsExplore the challenges of an outdated IT infrastructure and how businesses can modernize it using cloud technologyExplore the different compute options available in the cloud and the benefits of eachConsider a range of Google Cloud solutions that can help businesses to better develop and manage their systemsUnderstanding Google Cloud Security and OperationsExplore how businesses can choose to maintain some or none of their own infrastructure by purchasing IT services from a cloud providerExplain how the responsibility of data security is shared between the cloud provider and the businessExplore the defense-in-depth security built into Google CloudExplore how businesses can choose to maintain some or none of their own infrastructure by purchasing IT services from a cloud providerExplain how the responsibility of data security is shared between the cloud provider and the businessExplore the defense-in-depth security built into Google Cloud"
+      },
+      "unified_data": {
+        "title": "Google Cloud Digital Leader Training",
+        "url": "https://www.udacity.com/course/google-cloud-digital-leader-training--ud301",
+        "description": "Gain foundational cloud and digital transformation literacy.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Data Analysis",
+          "Machine Learning Concepts",
+          "Digital Transformation",
+          "Google Cloud Platform (Gcp)",
+          "Data Warehousing",
+          "Cloud Computing",
+          "Data Lakes"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify common opportunities and challenges in digital transformation journeys.",
+          "Describe key technical concepts related to data storage and processing.",
+          "Overview Google Cloud Platform (GCP) most common services.",
+          "Explore real-world examples of companies leveraging cloud technology.",
+          "Define foundational terms related to cloud computing and digital transformation.",
+          "Understand the role of data in decision-making and machine learning."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d846",
+        "Title": "Cloud Native Fundamentals",
+        "URL": "https://www.udacity.com/course/cloud-native-fundamentals--ud064",
+        "Short Intro": "Learn how to structure, package, and release an application to a Kubernetes cluster, while using an automated CI/CD pipeline.",
+        "Duration": "Estimated timeApprox. 1 Month",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "A well-prepared learner will meet the following prerequisites:\r\n\r\nUnderstand the basics of http (like client, server, and internet request)\r\nBasic Python (data types, Functions, REST requests, web development)\r\nAbility to use Git, Linux machines, and Linux Command Line\r\nFamiliar with Web application development in any language\r\nFamiliarity with Docker and exposure to a CI/CD pipeline are not required for success in this program but are helpful skills to have.\r\n\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Welcome to Cloud Native FundamentalsEvaluate the cloud native ecosystemExplore CNCF (Cloud Native Computing Foundation) and cloud native toolingEvaluate the cloud native ecosystemExplore CNCF (Cloud Native Computing Foundation) and cloud native toolingArchitecture Consideration for Cloud Native ApplicationsChoose monolith or microservice based-architecture for an applicationConsider and evaluate the involved trade-offs for monoliths and microservicesApply good development practices to an applicationChoose monolith or microservice based-architecture for an applicationConsider and evaluate the involved trade-offs for monoliths and microservicesApply good development practices to an applicationContainer Orchestration with KubernetesUse Docker to package an application and distribute it via DockerHubBootstrap a Kubernetes cluster using k3sExplore Kubernetes resources for an application deploymentDifferentiate between declarative and imperative Kubernetes management techniquesUse Docker to package an application and distribute it via DockerHubBootstrap a Kubernetes cluster using k3sExplore Kubernetes resources for an application deploymentDifferentiate between declarative and imperative Kubernetes management techniquesOpen Source PaaSUnderstand the usage and abstracted components while using a Platform as a Service (PaaS) solutionExplore application deployment with Cloud FoundryUnderstand the usage and abstracted components while using a Platform as a Service (PaaS) solutionExplore application deployment with Cloud FoundryCI/CD with Cloud Native ToolingExplain CI/CD and its benefitsApply Continuous Integration fundamentals using GitHub ActionsApply Continuous Delivery fundamentals using ArgoCDUse Helm, as a configuration template manager, to parametrize declarative Kubernetes manifestsDeploy an application using ArgoCD and a Helm chartExplain CI/CD and its benefitsApply Continuous Integration fundamentals using GitHub ActionsApply Continuous Delivery fundamentals using ArgoCDUse Helm, as a configuration template manager, to parametrize declarative Kubernetes manifestsDeploy an application using ArgoCD and a Helm chart"
+      },
+      "unified_data": {
+        "title": "Cloud Native Fundamentals",
+        "url": "https://www.udacity.com/course/cloud-native-fundamentals--ud064",
+        "description": "Learn how to structure, package, and release an application to a Kubernetes cluster, while using an automated CICD pipeline.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Docker",
+          "K3S",
+          "Microservices Architecture",
+          "Cloud Native Application Development",
+          "Monolith Architecture",
+          "Kubernetes",
+          "Ci/Cd Pipelines"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Month",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Deploy applications to Kubernetes using declarative and imperative techniques.",
+          "Bootstrap a Kubernetes cluster using k3s.",
+          "Automate application deployment using a CI/CD pipeline.",
+          "Choose appropriate monolith or microservice architecture for an application.",
+          "Evaluate the cloud native ecosystem and CNCF tooling.",
+          "Package and distribute applications using Docker and DockerHub."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d896",
+        "Title": "Firebase in a Weekend: Android",
+        "URL": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
+        "Short Intro": "Building a Realtime Chat App",
+        "Duration": "Estimated timeApprox. 2 Days",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "You need to have proficiency in Java and the Android Framework (Android Basics or equivalent level). Familiarity with Git, using open web APIs and feeling comfortable with Android Studio will also be helpful.See the Technology Requirements for using Udacity.",
+        "What you learn": "SaturdayWhy Choose FirebaseCreating a Firebase ProjectReading and Writing using Firebase Realtime Database and AuthenticationWhy Choose FirebaseCreating a Firebase ProjectReading and Writing using Firebase Realtime Database and AuthenticationSundayStoring DataLeveraging Analytics to Improve User EngagementNotifications, Remote ConfigStoring DataLeveraging Analytics to Improve User EngagementNotifications, Remote ConfigMondayIntroduction to Cloud Functions for FirebaseDeploy Cloud Functions using the Firebase CLIExtend mobile app functionality with server-side codeIntroduction to Cloud Functions for FirebaseDeploy Cloud Functions using the Firebase CLIExtend mobile app functionality with server-side code"
+      },
+      "unified_data": {
+        "title": "Firebase in a Weekend: Android",
+        "url": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-android--ud0352",
+        "description": "Building a Realtime Chat App",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Firebase Authentication",
+          "Mobile App Development",
+          "Firebase Analytics",
+          "Android Development",
+          "Cloud Computing",
+          "Firebase Cloud Functions",
+          "Java",
+          "Firebase Realtime Database"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Days",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Create a Firebase project and integrate it with an Android application",
+          "Extend Android app functionality using Firebase Cloud Functions",
+          "Leverage Firebase Analytics to track user engagement in an Android app",
+          "Implement user authentication using Firebase Authentication",
+          "Store and retrieve data using Firebase Realtime Database",
+          "Deploy Firebase Cloud Functions using the Firebase CLI"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d899",
+        "Title": "Server-Side Swift",
+        "URL": "https://www.udacity.com/course/server-side-swift--ud1031",
+        "Short Intro": "Production-Ready Swift in the Cloud",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Students should have experience making network requests in Swift prior to taking this course. Experience using the command line, whether on a macOS or Linux system, is helpful, but not required.See the Technology Requirements for using Udacity.",
+        "What you learn": "Running Swift Locally and on the ServerConfiguring Swift on macOS and LinuxUsing the Swift Package ManagerBuild simple Swift serversConfiguring Swift on macOS and LinuxUsing the Swift Package ManagerBuild simple Swift serversA Microservices MindsetRun a monolithic Swift serviceSplit a monolith into microservicesPlan a new iOS app using a microservice-based backendRun a monolithic Swift serviceSplit a monolith into microservicesPlan a new iOS app using a microservice-based backendBuilding a Swift MicroserviceCreate a CRUD-based microservice in SwiftInteract with a MySQL database from SwiftAdd paging and transaction support to a serviceCreate a CRUD-based microservice in SwiftInteract with a MySQL database from SwiftAdd paging and transaction support to a serviceCreate an Authentication MicroserviceCreate a microservice using Facebook's AccountKitGenerate JSON web tokens (JWTs) for use across servicesBuild custom middleware to validate JWTsCreate a microservice using Facebook's AccountKitGenerate JSON web tokens (JWTs) for use across servicesBuild custom middleware to validate JWTs"
+      },
+      "unified_data": {
+        "title": "Server-Side Swift",
+        "url": "https://www.udacity.com/course/server-side-swift--ud1031",
+        "description": "Production-Ready Swift in the Cloud",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Microservices Architecture",
+          "Swift Package Manager",
+          "Server-Side Development",
+          "Json Web Tokens (Jwt)",
+          "Mysql",
+          "Rest Apis",
+          "Authentication",
+          "Swift"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Configure Swift development environments on macOS and Linux for server-side development.",
+          "Apply a microservices mindset to software development projects.",
+          "Integrate Swift microservices with MySQL databases.",
+          "Build and deploy simple Swift servers using the Swift Package Manager.",
+          "Design and implement microservices using Swift.",
+          "Implement authentication and authorization using JSON Web Tokens (JWT)."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8a8",
+        "Title": "Advanced Android with Kotlin",
+        "URL": "https://www.udacity.com/course/advanced-android-with-kotlin--ud940",
+        "Short Intro": "Develop Feature-Rich Android Apps with the Kotlin Programming Language.",
+        "Duration": "Estimated timeApprox. 2 Months",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "General Experience: Comfortable with Object Oriented Programming and Android fundamentals with Kotlin.See the Technology Requirements for using Udacity.",
+        "What you learn": "NotificationsSend messages to users using notificationsDesign and style notificationsAdd buttons and actions to notificationsSend push messages using Firebase Cloud MessagingSend messages to users using notificationsDesign and style notificationsAdd buttons and actions to notificationsSend push messages using Firebase Cloud MessagingAdvanced GraphicsCreate custom views for your appCreate and display transformed and clipped regions to the screenBuild an app that allows users to paint directly on the screenCreate custom views for your appCreate and display transformed and clipped regions to the screenBuild an app that allows users to paint directly on the screenAnimationUse animations to draw attention to important UI elements and beautiful designsAnimate UI elements with property animationsUse declarative XML with MotionLayout to coordinate animations across multiple viewsUse animations to draw attention to important UI elements and beautiful designsAnimate UI elements with property animationsUse declarative XML with MotionLayout to coordinate animations across multiple viewsGeoAdd Google Maps to your Android appsStyle maps to fit your designEnable location services and trackingAdd Google Maps to your Android appsStyle maps to fit your designEnable location services and trackingTestingLearn how to test your app before distribution to avoid crashes or unpredicatable behaviorWrite and run tests for Android, including AndroidX TestTest your whole app: UI, data, and code using coroutines, Room, Espresso, and data bindingLearn how to test your app before distribution to avoid crashes or unpredicatable behaviorWrite and run tests for Android, including AndroidX TestTest your whole app: UI, data, and code using coroutines, Room, Espresso, and data bindingLoginImplement user login and identity management for your app using the open source library FirebaseUIEnable login and logout for your app's usersControl navigation in your app based on whether a user is logged inImplement user login and identity management for your app using the open source library FirebaseUIEnable login and logout for your app's usersControl navigation in your app based on whether a user is logged in"
+      },
+      "unified_data": {
+        "title": "Advanced Android with Kotlin",
+        "url": "https://www.udacity.com/course/advanced-android-with-kotlin--ud940",
+        "description": "Develop Feature-Rich Android Apps with the Kotlin Programming Language.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [
+          "Notifications (Android)",
+          "Custom View Creation",
+          "Kotlin Programming",
+          "Animation (Android)",
+          "Motionlayout",
+          "Firebase Cloud Messaging (Fcm)",
+          "Android Development",
+          "Ui Design"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Months",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement custom notifications with actions and styling in Android applications.",
+          "Implement custom graphics and clipping techniques in Android apps.",
+          "Integrate Firebase Cloud Messaging to send push notifications.",
+          "Utilize MotionLayout to create complex and coordinated animations.",
+          "Develop custom Android views for unique user interfaces.",
+          "Apply animations to enhance user experience using property animations."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8ac",
+        "Title": "Firebase in a Weekend: iOS",
+        "URL": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-ios--ud0351",
+        "Short Intro": "Building a Realtime Chat App",
+        "Duration": "Estimated timeApprox. 2 Days",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "You need to have proficiency in building an iOS mobile application, including experience in basic command line, calling a web or cloud API, working with the view controller life cycle, using multiple view controllers, and working with UITableViewController (iOS Developer Nanodegree or equivalent level). Familiarity working with a web service from iOS, using Core Data, or building apps that use databases will also be helpful.See the Technology Requirements for using Udacity.",
+        "What you learn": "SaturdayWhy Choose FirebaseCreating a Firebase ProjectReading and Writing using Firebase Realtime Database and AuthenticationWhy Choose FirebaseCreating a Firebase ProjectReading and Writing using Firebase Realtime Database and AuthenticationSundayStoring DataLeveraging Analytics to Improve User EngagementNotifications and Remote ConfigStoring DataLeveraging Analytics to Improve User EngagementNotifications and Remote ConfigMondayIntroduction to Cloud Functions for FirebaseDeploy Cloud Functions using the Firebase CLIExtend mobile app functionality with server-side codeIntroduction to Cloud Functions for FirebaseDeploy Cloud Functions using the Firebase CLIExtend mobile app functionality with server-side code"
+      },
+      "unified_data": {
+        "title": "Firebase in a Weekend: iOS",
+        "url": "https://www.udacity.com/course/firebase-in-a-weekend-by-google-ios--ud0351",
+        "description": "Building a Realtime Chat App",
+        "category": "Mobile Development",
+        "language": "English",
+        "skills": [
+          "Firebase Authentication",
+          "Ios Development",
+          "Firebase",
+          "Swift",
+          "Firebase Analytics",
+          "Firebase Remote Config",
+          "Firebase Cloud Functions",
+          "Firebase Realtime Database"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Days",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Utilize Firebase Analytics to track user engagement and app performance",
+          "Deploy and manage Firebase Cloud Functions to extend iOS app functionality with server-side code",
+          "Implement real-time data reading and writing using Firebase Realtime Database in an iOS application",
+          "Create a Firebase project and configure it for iOS development",
+          "Implement Firebase Remote Config to dynamically update app behavior",
+          "Integrate Firebase Authentication to manage user accounts in an iOS app"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8b2",
+        "Title": "Network Security",
+        "URL": "https://www.udacity.com/course/network-security--ud199",
+        "Short Intro": "Offered at Georgia Tech as CS 6262",
+        "Duration": "Estimated timeApprox. 16 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "To succeed in this course, you should have:Intermediate to advanced programming knowledgeKnowledge of basic computer networking principlesKnowledge of basic information security principlesSee the Technology Requirements for using Udacity.",
+        "What you learn": "Large-Scale AttacksDDoS AttacksMalware-Based Attacks, Phishing, &  FraudUnderground infrastructuresDDoS AttacksMalware-Based Attacks, Phishing, &  FraudUnderground infrastructuresTesting and Security AssessmentsPenetration TestingSocial Engineering and Human FactorsWeb Security Models & Security and Internet ProtocolsPenetration TestingSocial Engineering and Human FactorsWeb Security Models & Security and Internet ProtocolsAdvanced TopicsEvasive and Mobile MalwareBotnet detection & Cloud SecurityAttack-Tolerant SystemsEvasive and Mobile MalwareBotnet detection & Cloud SecurityAttack-Tolerant Systems"
+      },
+      "unified_data": {
+        "title": "Network Security",
+        "url": "https://www.udacity.com/course/network-security--ud199",
+        "description": "Offered at Georgia Tech as CS 6262",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Social Engineering",
+          "Web Security",
+          "Penetration Testing",
+          "Malware Analysis",
+          "Network Security Monitoring",
+          "Vulnerability Assessment",
+          "Cloud Security"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 16 Weeks",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply penetration testing techniques to identify vulnerabilities in systems.",
+          "Evaluate underground infrastructures used for malicious activities.",
+          "Evaluate advanced topics in network security, including evasive malware and botnet detection.",
+          "Analyze web security models and internet protocols to mitigate threats.",
+          "Understand social engineering tactics and human factors in security breaches.",
+          "Analyze large-scale network attacks, including DDoS and malware-based attacks."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8bd",
+        "Title": "Oracle Cloud Infrastructure Architect Associate",
+        "URL": "https://www.udacity.com/course/oracle-cloud-infrastructure-architect-associate--cd12503",
+        "Short Intro": "Uplevel with in-demand OCI skills that can help you advance your career.",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "No prerequisites required for this course. Anyone who is interested in learning the key concepts and features of Oracle Cloud Infrastructure can enroll.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "OCI IntroductionGet an overview of OCI.Dive into OCI architecture.Get an overview of OCI.Dive into OCI architecture.Oracle Cloud Free Tier AccountSign up for an Oracle Cloud free tier account.Walk through the OCI Console.Sign up for an Oracle Cloud free tier account.Walk through the OCI Console.Identity and Access Management (IAM)Learn about IAM, AuthN, and AuthZ.Understand compartments, policies, and network services.Explore tag-based access control and dynamic groups.Learn about IAM, AuthN, and AuthZ.Understand compartments, policies, and network services.Explore tag-based access control and dynamic groups.Networking: Virtual Cloud NetworkLearn about VCN, security lists, and NSG.Understand concepts like Bastion and gateways (internet, service, and NAT).Explore route tables.Learn about VCN, security lists, and NSG.Understand concepts like Bastion and gateways (internet, service, and NAT).Explore route tables.Networking: ConnectivityLearn about connectivity options.Understand the concept of dynamic routing gateway.Understand the concept of remote peering connection.Explore site-to-site VPN, VPN Connect, and FastConnect.Learn about connectivity options.Understand the concept of dynamic routing gateway.Understand the concept of remote peering connection.Explore site-to-site VPN, VPN Connect, and FastConnect.Networking: Load BalancerGet introduced to load balancers.Dive into the concepts of public and private load balancers.Become versed in load balancer policies and health checks.Learn about Network Load Balancing.Get introduced to load balancers.Dive into the concepts of public and private load balancers.Become versed in load balancer policies and health checks.Learn about Network Load Balancing.Networking: DNS ManagementLearn about OCI DNS Management.Undersatand public DNS and private DNS zones.Grasp traffic management.Learn about OCI DNS Management.Undersatand public DNS and private DNS zones.Grasp traffic management.Networking: Other ServicesExplore the Inter-region Latency dashboard.Learn about the Network Visualizer tool.Explore IPv6 with Oracle.Build knowledge about BYOIP.Understand VCN flow logs.Explore the Inter-region Latency dashboard.Learn about the Network Visualizer tool.Explore IPv6 with Oracle.Build knowledge about BYOIP.Understand VCN flow logs.ComputeGet an overview of compute services.Learn to use the platform and custom images.Understand the difference between bare metal, VM, and dedicated hosts.Explore dedicated VM hosts.Understand vertical and autoscaling in terms of computing.Explore the OS Management Service.Learn about shielded instances.Get an overview of compute services.Learn to use the platform and custom images.Understand the difference between bare metal, VM, and dedicated hosts.Explore dedicated VM hosts.Understand vertical and autoscaling in terms of computing.Explore the OS Management Service.Learn about shielded instances.Object StorageLearn about object storage resources and characteristics.Learn about managing buckets and objects.Explore object storage tiers and auto-tiering.Understand object lifecycle management.Grasp object storage replication.Learn about object storage retention rules and logging.Understand securing object storage.Learn about object storage resources and characteristics.Learn about managing buckets and objects.Explore object storage tiers and auto-tiering.Understand object lifecycle management.Grasp object storage replication.Learn about object storage retention rules and logging.Understand securing object storage.Block StorageGet an overview of block volume and boot volume.Explore block volume performance, backups, and clones.Understand cross region replication.Understand volume groups and encryption.Get an overview of block volume and boot volume.Explore block volume performance, backups, and clones.Understand cross region replication.Understand volume groups and encryption.File StorageDive into file storage concepts and NFS export options.Understand file system paths, snapshots, and cloning.Learn about in-transit encryption.Learn about file storage security.Understand file system usage and metering.Dive into file storage concepts and NFS export options.Understand file system paths, snapshots, and cloning.Learn about in-transit encryption.Learn about file storage security.Understand file system usage and metering.DatabaseGet introduced to OCI database services.Dive into DB systems: provisioning, operations, and maintenance.Explore autonomous database provisioning and administration.Learn about monitoring database services.Learn about external database services.Understand database migration.Get introduced to OCI database services.Dive into DB systems: provisioning, operations, and maintenance.Explore autonomous database provisioning and administration.Learn about monitoring database services.Learn about external database services.Understand database migration.SecurityGet introduced to security services.Explore Cloud Guard (concepts, problems, recipes, and notifications).Dive into security zones and Security Advisor.Understand vaults, keys, and secrets.Get introduced to security services.Explore Cloud Guard (concepts, problems, recipes, and notifications).Dive into security zones and Security Advisor.Understand vaults, keys, and secrets.Observability and Management IntroductionGet introduced to observability.Get introduced to observability.Observability and Management: MonitoringLearn key concepts about monitoring services.Learn about notification services, service metrics, and alarms.Understand building queries and managing alarms.Learn key concepts about monitoring services.Learn about notification services, service metrics, and alarms.Understand building queries and managing alarms.Observability and Management: LoggingGet an overview of Oracle's logging service.Study custom logs.Access, search, and explore logs.Learn about service connectors.Get an overview of Oracle's logging service.Study custom logs.Access, search, and explore logs.Learn about service connectors.Prepare for OCI Architect Associate CertificationPrep for the certification.Practice sample exam questions.Prep for the certification.Practice sample exam questions."
+      },
+      "unified_data": {
+        "title": "Oracle Cloud Infrastructure Architect Associate",
+        "url": "https://www.udacity.com/course/oracle-cloud-infrastructure-architect-associate--cd12503",
+        "description": "Uplevel with in-demand OCI skills that can help you advance your career.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Virtual Cloud Network (Vcn)",
+          "Network Security Groups (Nsg)",
+          "Compartment Management",
+          "Identity And Access Management (Iam)",
+          "Cloud Networking",
+          "Oracle Cloud Infrastructure (Oci)",
+          "Policy Configuration"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Associate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the core architectural principles of Oracle Cloud Infrastructure (OCI)",
+          "Configure and manage Identity and Access Management (IAM) within OCI",
+          "Manage OCI resources effectively using compartments and policies",
+          "Implement network security using security lists and Network Security Groups (NSGs)",
+          "Establish connectivity options for OCI resources and on-premises infrastructure",
+          "Design and implement Virtual Cloud Networks (VCNs) for secure cloud deployments"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8be",
+        "Title": "Oracle Cloud Infrastructure Architect Professional",
+        "URL": "https://www.udacity.com/course/oracle-cloud-infrastructure-architect-professional--cd12504",
+        "Short Intro": "Gain new expertise in architecting infrastructure using OCI services.",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Advanced",
+        "Prequisites": "We recommend that you complete the Oracle Cloud Infrastructure Architect Associate course before taking this course.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Oracle Cloud Free Tier AccountSign up for an Oracle Cloud free tier account.Walk through OCI Console.Sign up for an Oracle Cloud free tier account.Walk through OCI Console.Design and Implement a Real-World Network ArchitectureBuild a network architecture.Build a network architecture.Design Scalable and Elastic Resilient Solutions for HA and DRLearn about high availability and disaster recovery.Learn about high availability and disaster recovery.Design Cloud-Native, Microservices, & Serverless ArchitectureOverview microservices architecture.Understand containerization.Manage OCIR.Create OKE cluster and deploy apps to OKE.Understand functions: overview, concepts, triggers, and use cases.Learn about API Gateway; create and monitor APIs.Overview microservices architecture.Understand containerization.Manage OCIR.Create OKE cluster and deploy apps to OKE.Understand functions: overview, concepts, triggers, and use cases.Learn about API Gateway; create and monitor APIs.Deliver Infrastructure-as-codeGet an introduction to Terraform and configurations.Explore OCI Resource Manager.Sync Resource Manager and infrastructure.Get an introduction to Terraform and configurations.Explore OCI Resource Manager.Sync Resource Manager and infrastructure.Deploy Oracle Database Cloud ServiceExplore custom database software images and DB security.Learn about ExaCS DB changes.Learn about DBCS (monitoring metrics and events).Dive into DBCS cloning.Explore custom database software images and DB security.Learn about ExaCS DB changes.Learn about DBCS (monitoring metrics and events).Dive into DBCS cloning.Deploy Oracle Autonomous DatabaseLearn about provisioning and scaling.Learn about cloning, backup, restore, and patching.Explore Autonomous Data Guard.Understand database actions.Learn about provisioning and scaling.Learn about cloning, backup, restore, and patching.Explore Autonomous Data Guard.Understand database actions.Design for Hybrid Cloud ArchitectureExplore the Oracle Cloud VMware Solution (overview, use cases, and SDDC deployment).Access Microsoft Azure.\r\nExplore the Oracle Cloud VMware Solution (overview, use cases, and SDDC deployment).Access Microsoft Azure.\r\nMigrate On-Premises Workloads to OCILearn about data migration (offline transport and online transport).Learn methods and best practices of database migration.Migrate to OCI DBCS.Learn about data migration (offline transport and online transport).Learn methods and best practices of database migration.Migrate to OCI DBCS.Design for Security and ComplianceLearn concepts and policies of OCI WAF.Dive into certificates and OS Management.Understand vulnerability scanning.Explore Oracle Data Safe in OCI.Learn concepts and policies of OCI WAF.Dive into certificates and OS Management.Understand vulnerability scanning.Explore Oracle Data Safe in OCI.Real-World ArchitecturesExplore hub-spoke architecture.Explore HPC architecture.Explore security architecture.Explore hub-spoke architecture.Explore HPC architecture.Explore security architecture.Prepare for OCI Architect Professional CertificationPrep for certification.Practice with sample exam questions.Prep for certification.Practice with sample exam questions.Continue Your JourneyWhat's next?What's next?"
+      },
+      "unified_data": {
+        "title": "Oracle Cloud Infrastructure Architect Professional",
+        "url": "https://www.udacity.com/course/oracle-cloud-infrastructure-architect-professional--cd12504",
+        "description": "Gain new expertise in architecting infrastructure using OCI services.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Microservices Architecture",
+          "Disaster Recovery (Dr) Design",
+          "Cloud Architecture Design",
+          "High Availability (Ha) Design",
+          "Containerization",
+          "Oracle Cloud Infrastructure (Oci)",
+          "Api Gateway Management",
+          "Kubernetes (Oke)"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Create and monitor APIs using OCI API Gateway",
+          "Architect highly available and disaster-recoverable solutions using OCI services",
+          "Design and implement a resilient and scalable network architecture on OCI",
+          "Manage and deploy container images using Oracle Cloud Infrastructure Registry (OCIR)",
+          "Design and deploy cloud-native microservices applications using OCI Container Engine for Kubernetes (OKE)",
+          "Develop and deploy serverless functions using OCI Functions"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8bf",
+        "Title": "Oracle Cloud Infrastructure Foundations",
+        "URL": "https://www.udacity.com/course/oracle-cloud-infrastructure-foundations--cd12505",
+        "Short Intro": "Develop foundational knowledge of OCI Cloud Services.",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "No prerequisites required for this course. Anyone who is interested in learning the basics of Oracle Cloud Infrastructure can enroll.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "OCI IntroductionOverview of OCI.Learn about OCI Architecture.Overview of OCI.Learn about OCI Architecture.Oracle Cloud Free Tier AccountSign up for an Oracle Cloud free tier account.Walk through OCI Console.Sign up for an Oracle Cloud free tier account.Walk through OCI Console.Identity & Access ManagementIdentity concepts and resources related to OCI IAM.Learn about compartments.Differentiate between AuthN and AuthZ.Explore tenancy setup.Identity concepts and resources related to OCI IAM.Learn about compartments.Differentiate between AuthN and AuthZ.Explore tenancy setup.NetworkingLearn the concept of routing.Dive into security lists and Network Security Group (NSG).Understand the purpose of a network load balancer.Learn the concept of routing.Dive into security lists and Network Security Group (NSG).Understand the purpose of a network load balancer.ComputeLearn instance basics.Differentiate vertical scaling and autoscaling.Ecplore OS Management, patch management, and package management.Learn instance basics.Differentiate vertical scaling and autoscaling.Ecplore OS Management, patch management, and package management.StorageLearn about OCI Object Storage and OCI File Storage.Explore block volume tiers and encrypted block volumes.Learn about data migration.Learn about OCI Object Storage and OCI File Storage.Explore block volume tiers and encrypted block volumes.Learn about data migration.DatabaseStudy autonomous databases.Dive into virtual machines and bare metal options.Explore MySQL Database Service.Study autonomous databases.Dive into virtual machines and bare metal options.Explore MySQL Database Service.Application DevelopmentLearn about developer services.Learn about Oracle Container Engine.Explore API Gateway, functions, and Resource Manager.Learn about developer services.Learn about Oracle Container Engine.Explore API Gateway, functions, and Resource Manager.Observability & ManagementExplore Oracle's monitoring service.Understand metrics and alarms.Understand logging analytics.Explore Oracle's monitoring service.Understand metrics and alarms.Understand logging analytics.Analytics and AIStudy data integration.Explore data flow and data catalog capabilities.Explore data science concepts.Study data integration.Explore data flow and data catalog capabilities.Explore data science concepts.SecurityLearn about security zones and security advisor.Understand vulnerability scanning.Learn about keys, Vault, OCI WAF, and OCI Bastion.Learn about security zones and security advisor.Understand vulnerability scanning.Learn about keys, Vault, OCI WAF, and OCI Bastion.Hybrid CloudUnderstand dedicated regions.Explore Oracle Cloud VMware Solution.Understand dedicated regions.Explore Oracle Cloud VMware Solution.Governance & AdministrationLearn about pricing models.Learn about cost management.Learn the concept of tagging.Learn about pricing models.Learn about cost management.Learn the concept of tagging.Prepare for OCI Foundations Associate CertificationPrep for certification.Practice sample exam questions.Prep for certification.Practice sample exam questions.Continue Your JourneyWhat's next?What's next?"
+      },
+      "unified_data": {
+        "title": "Oracle Cloud Infrastructure Foundations",
+        "url": "https://www.udacity.com/course/oracle-cloud-infrastructure-foundations--cd12505",
+        "description": "Develop foundational knowledge of OCI Cloud Services.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Network Security Groups (Nsg)",
+          "Security Lists",
+          "Identity And Access Management (Iam)",
+          "Oracle Cloud Infrastructure (Oci)",
+          "Compute Services (Oci)",
+          "Networking (Oci)",
+          "Cloud Computing"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the core concepts of Oracle Cloud Infrastructure (OCI)",
+          "Navigate and utilize the OCI Console effectively",
+          "Deploy and manage compute instances within the OCI environment",
+          "Configure and manage Identity and Access Management (IAM) resources within OCI",
+          "Differentiate between Authentication and Authorization in OCI",
+          "Implement networking solutions using security lists and Network Security Groups (NSGs) in OCI"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8c0",
+        "Title": "Oracle Cloud Infrastructure Operations Professional",
+        "URL": "https://www.udacity.com/course/oracle-cloud-infrastructure-operations-professional--cd12506",
+        "Short Intro": "Learn operational activities in the OCI ecosystem.",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "No prerequisites required for this course. Anyone who is interested in learning the basics of Oracle Cloud Infrastructure can enroll.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "IntroductionInteract with OCI: Console, CLI, SDK, and API.Learn about OCI CLI authentication and syntax.Interact with OCI: Console, CLI, SDK, and API.Learn about OCI CLI authentication and syntax.Resource & Configuration ManagementUnderstand configuration management.Learn about Ansible with OCI.Study Terraform (configuration, install, and plan).Explore OCI Resource Manager.Understand configuration management.Learn about Ansible with OCI.Study Terraform (configuration, install, and plan).Explore OCI Resource Manager.Common Operational ActivitiesExplore OS management with Windows and Oracle Linux.Learn the concept of load balancing.Explore OCI Traffic Management Service.Differentiate between block storage and file storage.Explore OCI Object Storage Service.Learn about replication, versioning, retention rules, and security.Explore OS management with Windows and Oracle Linux.Learn the concept of load balancing.Explore OCI Traffic Management Service.Differentiate between block storage and file storage.Explore OCI Object Storage Service.Learn about replication, versioning, retention rules, and security.Troubleshooting & Disaster RecoveryTroubleshoot compute via diagnostic interrrupt.Troubleshoot compute performance.Explore private connectivity: IPSec VPN and FastConnect.Troubleshoot load balancers, backend set, and shared block volumes.Troubleshoot file storage instances and orphaned mount targets.Troubleshoot compute via diagnostic interrrupt.Troubleshoot compute performance.Explore private connectivity: IPSec VPN and FastConnect.Troubleshoot load balancers, backend set, and shared block volumes.Troubleshoot file storage instances and orphaned mount targets.Identity & Access ManagementGet introduced to IAM.Differentiate between AuthZ and AuthN.Learn common policies and conditional policies.Learn dynamic groups, federation, and identity domains.Get introduced to IAM.Differentiate between AuthZ and AuthN.Learn common policies and conditional policies.Learn dynamic groups, federation, and identity domains.Security ServicesExplore Cloud Guard (concepts, problems, recipes, and notifications).Learn about Security Zones and Security Advisor.Learn encryption basics.Explore Vaults, keys, and secrets.Explore Bastion, WAF, vulnerability scanning, and certificates.Explore Cloud Guard (concepts, problems, recipes, and notifications).Learn about Security Zones and Security Advisor.Learn encryption basics.Explore Vaults, keys, and secrets.Explore Bastion, WAF, vulnerability scanning, and certificates.Observability & ManagementGet introduced to observability.Learn about monitoring (notification services, metrics, and alarms).Learn about logging services.Access, search, and explore logs.Get introduced to observability.Learn about monitoring (notification services, metrics, and alarms).Learn about logging services.Access, search, and explore logs.Billing & Cost ManagementUnderstand cost analysis.Calculate and optimize cost (compute, block, file, object storage, and networking).Learn about software licensing models.Understand cost analysis.Calculate and optimize cost (compute, block, file, object storage, and networking).Learn about software licensing models.Governance & AdministrationManage service limits and quotas.Learn about Cloud Advisor and organization management.Manage service limits and quotas.Learn about Cloud Advisor and organization management.Prepare for OCI Operations Professional CertificationPrep for certification.Practice sample exam questions.Prep for certification.Practice sample exam questions.Continue Your JourneyWhat's next?What's next?"
+      },
+      "unified_data": {
+        "title": "Oracle Cloud Infrastructure Operations Professional",
+        "url": "https://www.udacity.com/course/oracle-cloud-infrastructure-operations-professional--cd12506",
+        "description": "Learn operational activities in the OCI ecosystem.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Load Balancing",
+          "Software Development Kit (Sdk)",
+          "Object Storage",
+          "Terraform",
+          "Configuration Management",
+          "Ansible",
+          "Oracle Cloud Infrastructure (Oci)",
+          "Command Line Interface (Cli)"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 1 Week",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Interact with OCI services using the Console, CLI, SDK, and API",
+          "Manage OS instances with Windows and Oracle Linux within OCI",
+          "Configure and manage OCI Object Storage, including replication, versioning, and retention rules",
+          "Implement load balancing solutions for high availability and scalability",
+          "Automate infrastructure deployment and management using Ansible with OCI",
+          "Manage OCI resources and configurations using Terraform and OCI Resource Manager"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8de",
+        "Title": "Real-Time Analytics with Apache Storm",
+        "URL": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381",
+        "Short Intro": "The \"Hadoop of Real-Time\"",
+        "Duration": "Estimated timeApprox. 2 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Intermediate",
+        "Prequisites": "Programming language required: JavaTo be successful, you'll need intermediate knowledge of Java. Specifically, this is defined by experience and comfort with Java syntax, compile & run-time error diagnostics and debugging, ability to use javadocs as needed, and intermediate data structures including Arrays, HashMaps, and LinkedLists.  If you need to build these skills, a good starting point is Udacity’s Introduction to Java with additional comfortability needed identifying and debugging compile & run-time errors.No prior experience is assumed in Ubuntu, git, Maven, Redis, Flask (Python) or d3 (Javascript).  Python is useful, but optional.  A basic course such as CS101 or OO in Python would be helpful.See the Technology Requirements for using Udacity.",
+        "What you learn": "Basic Storm TopologiesLink to a real-time d3 Word Cloud Visualization using Redis, Flask, and d3Link to a real-time d3 Word Cloud Visualization using Redis, Flask, and d3Storm BasicsProgram Bolts, link Spouts, and connect to the live Twitter API to process real-time tweetsExplore open source components by connecting a Rolling Count Bolt to your topology to visualize Rolling Top Tweeted WordsProgram Bolts, link Spouts, and connect to the live Twitter API to process real-time tweetsExplore open source components by connecting a Rolling Count Bolt to your topology to visualize Rolling Top Tweeted WordsBeyond Storm BasicsExplore multi-language capabilities to download and parse real-time Tweeted URLs in Python using Beautiful SoupIntegrate complex open source bolts to calculate Top-N words to visualize real-time Top-N HashtagsUse stream grouping concepts to easily create streaming join to connect and dynamically process multiple streamsExplore multi-language capabilities to download and parse real-time Tweeted URLs in Python using Beautiful SoupIntegrate complex open source bolts to calculate Top-N words to visualize real-time Top-N HashtagsUse stream grouping concepts to easily create streaming join to connect and dynamically process multiple streamsFinal ProjectWork on your final project and we cover additional questions and topics brought up by Hackathon participantsExplore Vagrant, VirtualBox, Redis, Flask, and d3 further if you are interested!Work on your final project and we cover additional questions and topics brought up by Hackathon participantsExplore Vagrant, VirtualBox, Redis, Flask, and d3 further if you are interested!Final Project: Construct a Storm TopologyDesign a Storm Topology and new bolt that uses streaming joins to dynamically calculate Top-N Hashtags and display real-time tweets that contain trending Top HashtagsPost your visualization to the forum and tweet them to your Twitter followersDesign a Storm Topology and new bolt that uses streaming joins to dynamically calculate Top-N Hashtags and display real-time tweets that contain trending Top HashtagsPost your visualization to the forum and tweet them to your Twitter followersProject ExtensionsUse additional features of the real-time Twitter sample stream or use any data source to drive your real-time d3 visualizationUse additional features of the real-time Twitter sample stream or use any data source to drive your real-time d3 visualization"
+      },
+      "unified_data": {
+        "title": "Real-Time Analytics with Apache Storm",
+        "url": "https://www.udacity.com/course/real-time-analytics-with-apache-storm--ud381",
+        "description": "The Hadoop of Real-Time",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "D3.Js",
+          "Java Programming",
+          "Redis",
+          "Flask",
+          "Real-Time Data Processing",
+          "Topology Design",
+          "Data Streaming",
+          "Apache Storm"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 2 Weeks",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Design and implement basic Storm topologies for real-time data processing",
+          "Apply Java programming skills to develop Storm bolts and spouts",
+          "Integrate open-source components with Storm for advanced analytics",
+          "Connect to real-time data sources like the Twitter API using Storm",
+          "Utilize stream grouping techniques to process multiple data streams in Storm",
+          "Understand the architecture and components of Apache Storm"
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d907",
+        "Title": "How to Become a Data Scientist",
+        "URL": "https://www.udacity.com/course/data-scientist-nanodegree--nd025",
+        "Short Intro": "Gain real-world data science experience with projects designed by industry experts. Build your portfolio and advance your data science career. ",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Scientist",
+        "Prequisites": "We recommend students are familiar with machine learning concepts, like those in the Intro to Machine Learning Nanodegree Program. In addition, students should be familiar with Python programming, probability, and statistics. ",
+        "What you learn": "You’ll master the skills necessary to become a successful Data Scientist. You’ll work on projects designed by industry experts, and learn to run data pipelines, design experiments, build recommendation systems, and deploy solutions to the cloud.\r\n\r\n If you already have experience with machine learning, take this program."
+      },
+      "unified_data": {
+        "title": "How to Become a Data Scientist",
+        "url": "https://www.udacity.com/course/data-scientist-nanodegree--nd025",
+        "description": "Gain real-world data science experience with projects designed by industry experts. Build your portfolio and advance your data science career.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Python",
+          "Recommendation Systems",
+          "Data Pipelines",
+          "Machine Learning",
+          "Cloud Deployment",
+          "Experiment Design",
+          "Statistical Analysis"
+        ],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Deploy machine learning solutions to cloud platforms like AWS or Azure.",
+          "Design and implement end-to-end data pipelines for real-world applications.",
+          "Apply statistical analysis techniques to interpret data and draw meaningful conclusions.",
+          "Build and deploy recommendation systems using machine learning techniques.",
+          "Develop and manage data science projects from conception to deployment.",
+          "Apply experimental design principles to evaluate and optimize data-driven solutions."
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d90c",
+        "Title": "Full Stack Web Developer",
+        "URL": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044",
+        "Short Intro": "Learn to design and develop powerful modern web applications that form the foundation for the apps, websites, and systems that people and businesses use every day.",
+        "Duration": "4 Months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Full Stack Web Developer",
+        "Prequisites": "To optimize your chances of success in the Full Stack Web Developer Nanodegree program, we recommend that you have experience writing and testing software with Python or another object-oriented programming language.",
+        "What you learn": "The goal of the Full Stack Web Developer Nanodegree program is to equip learners with the unique skills they need to build database-backed APIs and web applications. A graduate of this program will be able to design and build databases for software applications, create and deploy database-backed web APIs, and secure and manage user authentication and access control for an application backend. Students will also learn how to deploy a Flask-based web application to the cloud using Docker and Kubernetes."
+      },
+      "unified_data": {
+        "title": "Full Stack Web Developer",
+        "url": "https://www.udacity.com/course/full-stack-web-developer-nanodegree--nd0044",
+        "description": "Learn to design and develop powerful modern web applications that form the foundation for the apps, websites, and systems that people and businesses use every day.",
+        "category": "Web Development",
+        "language": "English",
+        "skills": [
+          "Docker",
+          "User Authentication",
+          "Python",
+          "Api Development",
+          "Sqlalchemy",
+          "Flask",
+          "Database Design",
+          "Kubernetes"
+        ],
+        "instructors": [],
+        "duration": "4 Months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Manage database interactions using SQLAlchemy",
+          "Secure web applications against common vulnerabilities",
+          "Deploy web applications to the cloud using Docker and Kubernetes",
+          "Implement user authentication and access control mechanisms",
+          "Develop and deploy RESTful APIs using Flask",
+          "Design relational databases for web applications"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d91a",
+        "Title": "Cloud Native Application Architecture",
+        "URL": "https://www.udacity.com/course/cloud-native-application-architecture-nanodegree--nd064",
+        "Short Intro": "Meet the growing demand for cloud native architects and learn to identify the best application architecture solutions for an organization’s needs.",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Cloud Native Application Architecture",
+        "Prequisites": "HTTP, Python, Git, Linux, Docker.",
+        "What you learn": "You’ll master the skills necessary to become a successful cloud native architect. Learn to run and manage scalable applications in a cloud native environment, using open source tools and projects like ArgoCD, gRPC, and Grafana."
+      },
+      "unified_data": {
+        "title": "Cloud Native Application Architecture",
+        "url": "https://www.udacity.com/course/cloud-native-application-architecture-nanodegree--nd064",
+        "description": "Meet the growing demand for cloud native architects and learn to identify the best application architecture solutions for an organizations needs.",
+        "category": "Cloud Computing",
+        "language": "English",
+        "skills": [
+          "Grpc",
+          "Argocd",
+          "Scalable Application Design",
+          "Cloud Application Management",
+          "Cloud Native Architecture",
+          "Containerization",
+          "Grafana"
+        ],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Utilize open source tools like ArgoCD for continuous delivery",
+          "Implement gRPC for efficient microservice communication",
+          "Identify optimal application architecture solutions for cloud native environments",
+          "Monitor application performance using Grafana",
+          "Design and implement cloud-native application architectures",
+          "Run and manage scalable applications in the cloud"
+        ],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d91b",
+        "Title": "Become a Cloud DevOps Engineer",
+        "URL": "https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991",
+        "Short Intro": "Companies are looking for talented DevOps engineers to remain competitive in this agile world. Enroll now to operationalize infrastructure at scale and deliver applications and services at high velocity, an essential skill for advancing your career.",
+        "Duration": "Estimated 4 Months",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Syllabus",
+        "Prequisites": "You should have intermediate knowledge of Javascript, and familiarity with object-oriented programming, web development with HTML and CSS, and the Linux Command Line. ",
+        "What you learn": "Learn to design and deploy infrastructure as code, build and monitor CI/CD pipelines for different deployment strategies, and deploy scalable microservices using Kubernetes. At the end of the program, you’ll combine your new skills by completing a capstone project."
+      },
+      "unified_data": {
+        "title": "Become a Cloud DevOps Engineer",
+        "url": "https://www.udacity.com/course/cloud-dev-ops-nanodegree--nd9991",
+        "description": "Companies are looking for talented DevOps engineers to remain competitive in this agile world. Enroll now to operationalize infrastructure at scale and deliver applications and services at high velocity, an essential skill for advancing your career.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 4 Months",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d91c",
+        "Title": "Become a Data Architect",
+        "URL": "https://www.udacity.com/course/data-architect-nanodegree--nd038",
+        "Short Intro": "Learn how to plan, design and implement enterprise data infrastructure solutions and create the blueprints for your organization’s data success.",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Architect",
+        "Prequisites": "Intermediate Python and SQL skills, and basic familiarity with ETL/Data Pipelines.",
+        "What you learn": "In this program, you’ll plan, design and implement enterprise data infrastructure solutions and create the blueprints for an organization’s data management system. You’ll create a relational database with PostGreSQL, design an Online Analytical Processing (OLAP) data model to build a cloud based data warehouse, and design scalable data lake architecture that meets the needs of Big Data. Finally, you’ll learn how to apply the principles of data governance to an organization’s data management system.  \r\n"
+      },
+      "unified_data": {
+        "title": "Become a Data Architect",
+        "url": "https://www.udacity.com/course/data-architect-nanodegree--nd038",
+        "description": "Learn how to plan, design and implement enterprise data infrastructure solutions and create the blueprints for your organizations data success.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d920",
+        "Title": "Data Engineering with Microsoft Azure",
+        "URL": "https://www.udacity.com/course/data-engineering-with-microsoft-azure-nanodegree--nd0277",
+        "Short Intro": "Master the job-ready skills you need to succeed as a Microsoft Azure data engineer like designing data models and utilizing other in-demand components of the cloud computing service. ",
+        "Duration": "Estimated 4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Data Engineering with Microsoft Azure",
+        "Prequisites": "Experience with SQL, Python, Azure, and Github.",
+        "What you learn": "Learners will acquire the skills needed to design data models, create data pipelines, and navigate large datasets on the Azure platform. Additionally, they will learn to build data warehouses, data lakes, and lakehouse architecture. "
+      },
+      "unified_data": {
+        "title": "Data Engineering with Microsoft Azure",
+        "url": "https://www.udacity.com/course/data-engineering-with-microsoft-azure-nanodegree--nd0277",
+        "description": "Master the job-ready skills you need to succeed as a Microsoft Azure data engineer like designing data models and utilizing other in-demand components of the cloud computing service.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 4 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d921",
+        "Title": "Become an AWS Cloud Architect",
+        "URL": "https://www.udacity.com/course/aws-cloud-architect-nanodegree--nd063",
+        "Short Intro": "Lead your organization's cloud computing strategy as an AWS Cloud Architect. Plan, design, and build secure, high availability cloud infrastructure.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "AWS Cloud Architect",
+        "Prequisites": "Experience with Cloud Computing, Programming, and AWS.",
+        "What you learn": "Play a critical role in an organization’s cloud computing strategy as an AWS Cloud Architect. Learn to plan, design, and implement secure cloud infrastructure in AWS at scale. Begin by designing and building high availability infrastructure, and then move on to building scalable, secure, and cost-optimized architecture. Finally, explore and execute best practices and strategies around securing access to cloud services and infrastructure. \r\n\r\n"
+      },
+      "unified_data": {
+        "title": "Become an AWS Cloud Architect",
+        "url": "https://www.udacity.com/course/aws-cloud-architect-nanodegree--nd063",
+        "description": "Lead your organizations cloud computing strategy as an AWS Cloud Architect. Plan, design, and build secure, high availability cloud infrastructure.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d928",
+        "Title": "Become a Cloud Developer",
+        "URL": "https://www.udacity.com/course/cloud-developer-nanodegree--nd9990",
+        "Short Intro": "Cloud development is the foundation for the new world of software development. Enroll now to build and deploy production-ready full stack apps at scale on AWS, an essential skill for advancing your web development career.",
+        "Duration": "Estimated 4 Months",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Cloud Developer",
+        "Prequisites": "You should have intermediate knowledge of Javascript, and familiarity with object-oriented programming, web development with HTML and CSS, and the Linux Command Line. ",
+        "What you learn": "Start by learning the fundamentals of cloud development and deployment with AWS. Then, build different apps leveraging microservices, Kubernetes clusters, and serverless application technology. "
+      },
+      "unified_data": {
+        "title": "Become a Cloud Developer",
+        "url": "https://www.udacity.com/course/cloud-developer-nanodegree--nd9990",
+        "description": "Cloud development is the foundation for the new world of software development. Enroll now to build and deploy production-ready full stack apps at scale on AWS, an essential skill for advancing your web development career.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 4 Months",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d93c",
+        "Title": "Become a Cloud Developer using Microsoft Azure",
+        "URL": "https://www.udacity.com/course/cloud-developer-using-microsoft-azure-nanodegree--nd081",
+        "Short Intro": "Learn to build cloud-based applications on Microsoft Azure, the cloud services platform used by 95% of Fortune 500 companies.",
+        "Duration": "4 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Cloud Developer using Microsoft Azure",
+        "Prequisites": "Intermediate programming experience, familiarity with SQL databases and version control with Git.",
+        "What you learn": "Microsoft Azure is one of the most popular cloud services platforms used by enterprises, making it a crucial tool for cloud computing professionals to add to their skillset. The Cloud Developer using Microsoft Azure Nanodegree program teaches students how to deploy, build, migrate, and monitor applications on Azure, thereby preparing learners for success on Microsoft’s AZ-204 Azure Developer Associate Expert certification."
+      },
+      "unified_data": {
+        "title": "Become a Cloud Developer using Microsoft Azure",
+        "url": "https://www.udacity.com/course/cloud-developer-using-microsoft-azure-nanodegree--nd081",
+        "description": "Learn to build cloud-based applications on Microsoft Azure, the cloud services platform used by 95 of Fortune 500 companies.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d93d",
+        "Title": "Golang",
+        "URL": "https://www.udacity.com/course/golang--cd11970",
+        "Short Intro": "Learn Go language fundamentals needed for careers involving cloud services, web applications, DevOps tools, and backend development.",
+        "Duration": "Estimated 1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Golang",
+        "Prequisites": "Basic computer programming.",
+        "What you learn": "This Go programming language online course provides learners with the job-ready digital skills they need to build simple, reliable, and efficient software."
+      },
+      "unified_data": {
+        "title": "Golang",
+        "url": "https://www.udacity.com/course/golang--cd11970",
+        "description": "Learn Go language fundamentals needed for careers involving cloud services, web applications, DevOps tools, and backend development.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 1 month to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d93e",
+        "Title": "Cloud DevOps using Microsoft Azure",
+        "URL": "https://www.udacity.com/course/cloud-devops-using-microsoft-azure-nanodegree--nd082",
+        "Short Intro": "Learn to develop and deploy cloud-based applications on Microsoft Azure, the cloud services platform used by 95% of Fortune 500 companies.",
+        "Duration": "3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Cloud DevOps using Microsoft Azure",
+        "Prequisites": "Intermediate Python, familiarity with Linux shell scripting and cloud concepts.",
+        "What you learn": "Microsoft Azure is one of the most popular cloud services platforms used by enterprises, making it a crucial tool for cloud computing professionals to add to their skillset. The Cloud DevOps using Microsoft Azure Nanodegree program teaches students how to deploy, test, and monitor cloud applications on Azure, thereby preparing learners for success on Microsoft’s AZ-400 DevOps Engineer Expert certification exam."
+      },
+      "unified_data": {
+        "title": "Cloud DevOps using Microsoft Azure",
+        "url": "https://www.udacity.com/course/cloud-devops-using-microsoft-azure-nanodegree--nd082",
+        "description": "Learn to develop and deploy cloud-based applications on Microsoft Azure, the cloud services platform used by 95 of Fortune 500 companies.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d942",
+        "Title": "Cloud Architect using Microsoft Azure",
+        "URL": "https://www.udacity.com/course/cloud-architect-using-microsoft-azure-nanodegree--nd090",
+        "Short Intro": "Meet the growing demand for Azure cloud architects and learn the skills to translate business requirements into technical specifications for reliable, scalable, and secure cloud infrastructure using Microsoft Azure.",
+        "Duration": "Estimated 3 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Cloud Architect using Microsoft Azure",
+        "Prequisites": "Experience with cloud computing, programming and Microsoft Azure.",
+        "What you learn": "This program prepares students for a career as an Azure Solution Architect and trains them to translate business requirements into technical specifications for reliable, scalable and secure cloud infrastructure using Microsoft Azure."
+      },
+      "unified_data": {
+        "title": "Cloud Architect using Microsoft Azure",
+        "url": "https://www.udacity.com/course/cloud-architect-using-microsoft-azure-nanodegree--nd090",
+        "description": "Meet the growing demand for Azure cloud architects and learn the skills to translate business requirements into technical specifications for reliable, scalable, and secure cloud infrastructure using Microsoft Azure.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 3 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d944",
+        "Title": "Cloud Computing for Business Leaders",
+        "URL": "https://www.udacity.com/course/cloud-computing-for-business-leaders-nanodegree--nd046",
+        "Short Intro": "Gain the technical understanding to make tough, IT-driven decisions that unlock the value of cloud computing in your organization.",
+        "Duration": "4 - 8 weeks to complete",
+        "Site": "Udacity",
+        "Program Type": "Executive Program",
+        "Courses": "Cloud Computing for Business Leaders",
+        "Prequisites": "Word Processors, Spreadsheets, Presentation Tools.",
+        "What you learn": "This program will focus on the unique knowledge and skills that business leaders need to unlock the value of cloud technologies in their organizations, or enable a more cloud-native department that leverages cloud computing to drive growth and create operational efficiencies."
+      },
+      "unified_data": {
+        "title": "Cloud Computing for Business Leaders",
+        "url": "https://www.udacity.com/course/cloud-computing-for-business-leaders-nanodegree--nd046",
+        "description": "Gain the technical understanding to make tough, IT-driven decisions that unlock the value of cloud computing in your organization.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 - 8 weeks to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d95c",
+        "Title": "Learn multi-cloud computing.",
+        "URL": "https://www.udacity.com/course/multi-cloud-computing--cd11573",
+        "Short Intro": "Start applying multi-cloud architecture principles to keep IT infrastructure running smoothly and help mitigate challenges that you face in your day-to-day.",
+        "Duration": "Estimated 1 month to complete",
+        "Site": "Udacity",
+        "Program Type": "Course",
+        "Courses": "Multi-Cloud Computing",
+        "Prequisites": "Basic knowledge of Git, cloud providers & Terraform.",
+        "What you learn": "This multiple cloud computing course was designed to introduce learners to multi-cloud architectures and how to design and implement these architectures effectively. It provides learners with the job-ready digital skills they need to approach the shift to a multi-cloud strategy. This involves adopting a mixture of Infrastructure as a Service (IaaS) services from 2 or more cloud providers and sharing workloads between each—allowing users to choose services that meet their specific needs."
+      },
+      "unified_data": {
+        "title": "Learn multi-cloud computing.",
+        "url": "https://www.udacity.com/course/multi-cloud-computing--cd11573",
+        "description": "Start applying multi-cloud architecture principles to keep IT infrastructure running smoothly and help mitigate challenges that you face in your day-to-day.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 1 month to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    }
+  ]
+}

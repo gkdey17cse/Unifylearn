@@ -1,0 +1,242 @@
+{
+  "timestamp": "2025-11-15T02:13:31.526177",
+  "user_query": "Law courses courses from all platforms",
+  "debug_info": {
+    "user_query": "Law courses courses from all platforms",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "Law courses from all platforms",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "udacity": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "simplilearn": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "futurelearn": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Failed to execute query for coursera: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763172812, 4), 'signature': {'hash': b'\\r}\\xf3\\xf1\\xef6\\x01\\xd9\\x01\\xbb\\xa0@\\xc24\\x80\\x90\\xe0\\x8e2\\x91', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763172812, 4)}"
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Failed to execute query for udacity: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763172803, 1), 'signature': {'hash': b'U\\x9f\\xb2\\x05\\xe9\\xbf\\xd8]\\xc9\\xb2x\\x0bC\\xea\\xa8\\x90\\xb5l\\x1ba', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763172803, 1)}"
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Failed to execute query for simplilearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763172812, 1), 'signature': {'hash': b'#h\\r\\x86\\x8d\\x94\\xbb\\xdc6\\xc6\\x14p\\xa5\\xec]\\x94v\\xbb\\xb6\\x8e', 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763172812, 1)}"
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bLaw\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "Failed to execute query for futurelearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763172811, 1), 'signature': {'hash': b'\\xedw\\xac\\xfe\\x81\\xc5\\x19>\\x15\\xfb\\x07d\\x7f<\\xfaG\\x8ah\\xa3\\xa1', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1763172811, 1)}"
+      }
+    }
+  },
+  "all_results": []
+}

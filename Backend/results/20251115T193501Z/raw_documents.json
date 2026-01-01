@@ -1,0 +1,46 @@
+{
+  "user_query": "Show me all Reinforcement Learning course from Coursera where no of Viewers is more than 600",
+  "raw_documents": {
+    "coursera": [
+      {
+        "_id": "68aa13e9b82e4c21254660f1",
+        "Title": "Machine Learning and Reinforcement Learning in Finance Specialization",
+        "URL": "https://www.coursera.org/specializations/machine-learning-reinforcement-finance",
+        "Short Intro": "Reinforce Your Career: Machine Learning in Finance. Extend your expertise of algorithms and tools needed to predict financial markets.",
+        "Category": "Data Science",
+        "Sub-Category": "Machine Learning",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, Portuguese (European), Russian, Spanish",
+        "Skills": "Predictive Modelling, Financial Engineering, Machine Learning, Tensorflow, Reinforcement Learning, option pricing and risk management, simple model for market dynamics, Q-learning using financial problems, optimal trading, Portfolio Optimization, ",
+        "Instructors": "Igor Halperin ,",
+        "Rating": "3.7stars",
+        "Number of viewers": "726",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      {
+        "_id": "68aa13e9b82e4c212546657b",
+        "Title": "Overview of Advanced Methods of Reinforcement Learning in Finance",
+        "URL": "https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance?specialization=machine-learning-reinforcement-finance",
+        "Short Intro": "In the last course of our specialization, Overview of Advanced Methods of Reinforcement Learning in Finance, we will take a deeper look into topics discussed in our third course, Reinforcement Learning in Finance.",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Igor Halperin",
+        "Rating": "3.8stars",
+        "Number of viewers": "78",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      }
+    ],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 2,
+  "timestamp": "2025-11-15T19:35:01.119058"
+}

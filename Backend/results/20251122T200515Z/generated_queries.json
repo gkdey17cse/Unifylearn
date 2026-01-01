@@ -1,0 +1,123 @@
+{
+  "user_query": "Show me Different AI Courses",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find beginner-level AI courses across Coursera, Udacity, Simplilearn, and Futurelearn.",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          }
+        ],
+        "Level": "Beginner"
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "ai:|llm|nlp|\\(ai\\)|gain|cloud|email|train|ai\\-900|python|python\\)|python:|training|aws\\ cloud|training:|vertex\\ ai|watson\\ ai|blockchain|ai\\ strategy|multi\\-cloud|sustainable|uncertainty|cloud\\ native|data\\ science|google\\ cloud|python\\ tools|transformers|cybersecurity|deep\\ learning|email\\ writing|generative\\ ai|idle\\ \\(python\\)|train\\ a\\ model|ai\\ terminology|explainable\\ ai|sustainability|cloud\\ computing|computer\\ vision|deeplearning\\.ai|neural\\ networks|cloud\\ networking|machine\\ learning|hybrid\\ multicloud|python\\ programming|fairness\\ indicators|custom\\ training\\ loops|google\\ cloud\\ platform|large\\ language\\ models|reinforcement\\ learning|artificial\\ intelligence|email\\ list\\ segmentation|including\\ deep\\ learning|cloud\\ computing\\ security|email\\ marketing\\ strategy|cloud\\ governance\\ strategy|email\\ marketing\\ analytics|expertise\\ in\\ data\\ science|machine\\ learning\\ concepts|python\\ programming\\ skills|recurrent\\ neural\\ networks|computer\\-aided\\ design\\ \\(cad\\)|generative\\ machine\\ learning|machine\\ learning\\ regression|natural\\ language\\ processing|python\\ syntax\\ and\\ semantics|artificial\\ intelligence\\ \\(ai\\)|fundamentals\\ of\\ aistatistics|convolutional\\ neural\\ networks|probabilistic\\ neural\\ networks|unsupervised\\ machine\\ learning",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T20:05:15.108633"
+}

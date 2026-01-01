@@ -1,0 +1,11 @@
+{
+  "user_query": "Top 5 most viewed courses from Udacity Platform",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 0,
+  "timestamp": "2025-11-15T02:40:51.157596"
+}

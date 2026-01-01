@@ -1,0 +1,62 @@
+{
+  "user_query": "Show me Deep Learning Courses from Udacity platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\bDeep Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 9,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    }
+  },
+  "timestamp": "2025-11-22T20:57:58.515994"
+}

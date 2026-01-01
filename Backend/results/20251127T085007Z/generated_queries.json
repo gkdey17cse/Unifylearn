@@ -1,0 +1,45 @@
+{
+  "user_query": "Machine learning courses from Simplilearn",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Machine learning courses from Simplilearn'. Expanding 'Machine Learning' to include AI, Deep Learning, Neural Networks. Filtering results to only include Simplilearn.",
+    "expanded_terms": [
+      "Machine Learning",
+      "AI",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "providers": {
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Machine Learning|AI|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Machine Learning|AI|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Machine Learning|AI|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Machine Learning|AI|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Simplilearn"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T08:50:07.053195"
+}

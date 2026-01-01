@@ -1,0 +1,195 @@
+{
+  "user_query": "bro show me sum datascince or maybe AI type corsess frm cousera or simpli not sure… but only small small duration like less than 3 wek??",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User wants information security courses, excluding beginner ones, but not specifying any preferred platform so i will generate for all. I will use a simple SPJ query as no specific sorting/ranking/aggregation is required.",
+    "expanded_terms": [
+      "Cyber Security",
+      "Cybersecurity",
+      "Network Security",
+      "Ethical Hacking",
+      "InfoSec",
+      "Penetration Testing"
+    ],
+    "regex_group": {
+      "Cyber Security": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)"
+    },
+    "providers": {
+      "coursera": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Level": {
+                "$not": {
+                  "$regex": "Beginner",
+                  "$options": "i"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "udacity": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Prerequisites": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Level": {
+                "$not": {
+                  "$regex": "Beginner",
+                  "$options": "i"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "simplilearn": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Level": {
+                "$not": {
+                  "$regex": "Beginner",
+                  "$options": "i"
+                }
+              }
+            }
+          ]
+        }
+      },
+      "futurelearn": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Topics": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "ExpertTracks": {
+                    "$regex": "(Cyber Security|Cybersecurity|Network Security|Ethical Hacking|InfoSec|Penetration Testing)",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Level": {
+                "$not": {
+                  "$regex": "Beginner",
+                  "$options": "i"
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "timestamp": "2025-11-27T07:54:33.965916"
+}

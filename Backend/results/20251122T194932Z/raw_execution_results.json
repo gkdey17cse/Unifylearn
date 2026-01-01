@@ -1,0 +1,260 @@
+{
+  "user_query": "Show me AI coruses for beginers",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1273,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 54,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 102,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 1677,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-22T19:49:32.412498"
+}

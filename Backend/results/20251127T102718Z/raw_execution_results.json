@@ -1,0 +1,30 @@
+{
+  "user_query": "Show me Music COurses from Futurelearn platform",
+  "execution_results": {
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Future Learn"
+      },
+      "match_count": 28,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T10:27:18.537842"
+}

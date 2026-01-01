@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: i want to learn about machne learning and AI courses from coursera and udacity
+Total Courses: 282
+Generated at: 2025-11-27T09:06:46.631958
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+UDACITY        :  52 courses | Avg Prob: 0.0040 | Avg Score: 0.0743
+COURSERA       : 230 courses | Avg Prob: 0.0028 | Avg Score: 0.0579
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [UDACITY     ] Prob: 0.0154 | Score: 0.1504
+     Introduction to Machine Learning Course
+     Skills: No skills
+
+ 2. [UDACITY     ] Prob: 0.0131 | Score: 0.1420
+     Model Building and Validation
+     Skills: No skills
+
+ 3. [COURSERA    ] Prob: 0.0128 | Score: 0.1410
+     Machine Learning and Reinforcement Learning in Finance Specialization
+     Skills: Predictive Modelling, Financial Engineering, Machine Learning, Tensorflow, Reinforcement Learning, o
+
+ 4. [COURSERA    ] Prob: 0.0117 | Score: 0.1363
+     Mathematics for Machine Learning and Data Science Specialization
+     Skills: Bayesian Statistics, Machine Learning, Mathematics, Probability, Linear Regression, Linear Equation,
+
+ 5. [UDACITY     ] Prob: 0.0095 | Score: 0.1259
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+ 6. [COURSERA    ] Prob: 0.0091 | Score: 0.1242
+     Analyze Datasets and Train ML Models using AutoML
+     Skills: Statistical Data Bias Detection,Multi-class Classification with FastText and BlazingText,Data ingest
+
+ 7. [UDACITY     ] Prob: 0.0083 | Score: 0.1193
+     AWS DeepRacer
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0079 | Score: 0.1171
+     Supervised Machine Learning
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0075 | Score: 0.1140
+     Introduction to Machine Learning using Microsoft Azure
+     Skills: No skills
+
+10. [COURSERA    ] Prob: 0.0071 | Score: 0.1117
+     Linear Algebra for Machine Learning and Data Science
+     Skills: Machine Learning,Linear Equation,Eigenvalues And Eigenvectors,Linear Algebra,Determinants,
+
+11. [COURSERA    ] Prob: 0.0069 | Score: 0.1104
+     AI Applications in Marketing and Finance
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0068 | Score: 0.1095
+     Segmentation and Clustering
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0067 | Score: 0.1087
+     Build, Train, and Deploy ML Pipelines using BERT
+     Skills: ML Pipelines and MLOps,Model Training and Deployment with BERT,Model Debugging and Evaluation,Featur
+
+14. [COURSERA    ] Prob: 0.0065 | Score: 0.1074
+     Introduction to Computer Vision and Image Processing
+     Skills: Deep Learning,Opencv,Artificial Intelligence (AI),Image Processing,Computer Vision,
+
+15. [COURSERA    ] Prob: 0.0065 | Score: 0.1068
+     Cloud Machine Learning Engineering and MLOps
+     Skills: No skills
+
+16. [UDACITY     ] Prob: 0.0064 | Score: 0.1063
+     Unsupervised Machine Learning
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0063 | Score: 0.1057
+     Mathematics for Machine Learning Specialization
+     Skills: Eigenvalues And Eigenvectors, Principal Component Analysis (PCA), Multivariable Calculus, Linear Alg
+
+18. [COURSERA    ] Prob: 0.0063 | Score: 0.1051
+     Google Cloud Big Data and Machine Learning Fundamentals
+     Skills: Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+
+19. [COURSERA    ] Prob: 0.0062 | Score: 0.1049
+     Machine Learning with Python
+     Skills: SciPy and scikit-learn,Machine Learning,regression,classification,Hierarchical Clustering,
+
+20. [COURSERA    ] Prob: 0.0061 | Score: 0.1040
+     Introduction to TensorFlow for Artificial Intelligence, Machine Learning, and Deep Learning
+     Skills: Computer Vision,Tensorflow,Machine Learning,
+
+21. [COURSERA    ] Prob: 0.0061 | Score: 0.1039
+     Smart Analytics, Machine Learning, and AI on Google Cloud
+     Skills: No skills
+
+22. [COURSERA    ] Prob: 0.0060 | Score: 0.1031
+     Mathematics for Machine Learning: Multivariate Calculus
+     Skills: Linear Regression,Vector Calculus,Multivariable Calculus,Gradient Descent,
+
+23. [COURSERA    ] Prob: 0.0059 | Score: 0.1022
+     Application of AI, InsurTech, and Real Estate Technology
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0058 | Score: 0.1014
+     Intro to Machine Learning with TensorFlow
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0058 | Score: 0.1014
+     Intro to Machine Learning with PyTorch
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0057 | Score: 0.1008
+     Using Machine Learning in Trading and Finance
+     Skills: Algorithmic Trading,Python Programming,Machine Learning,
+
+27. [COURSERA    ] Prob: 0.0057 | Score: 0.1005
+     Prediction and Control with Function Approximation
+     Skills: Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Function Approximation,Intellig
+
+28. [COURSERA    ] Prob: 0.0056 | Score: 0.0999
+     Machine Learning Engineering for Production MLOps Specialization
+     Skills: Managing Machine Learning Production Systems, Deployment Pipelines, Model Pipelines, Data Pipelines,
+
+29. [COURSERA    ] Prob: 0.0056 | Score: 0.0995
+     Optimize ML Models and Deploy Human-in-the-Loop Pipelines
+     Skills: Human-in-the-Loop Pipelines,Distributed Model Training and Hyperparameter Tuning,Cost Savings and Pe
+
+30. [UDACITY     ] Prob: 0.0055 | Score: 0.0989
+     AWS Machine Learning Foundations Course
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0054 | Score: 0.0982
+     How to Become a Machine Learning Engineer
+     Skills: No skills
+
+32. [COURSERA    ] Prob: 0.0054 | Score: 0.0981
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+33. [COURSERA    ] Prob: 0.0052 | Score: 0.0964
+     Machine Learning Introduction for Everyone
+     Skills: Deep Learning,Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Machine Learning 
+
+34. [COURSERA    ] Prob: 0.0052 | Score: 0.0962
+     Big Data, Artificial Intelligence, and Ethics
+     Skills: No skills
+
+35. [COURSERA    ] Prob: 0.0051 | Score: 0.0951
+     Machine Learning for Accounting with Python
+     Skills: Text Analysis,Basic Time Series Analysis,Machine Learning Model Evaluation and Optimization,Python P
+
+36. [COURSERA    ] Prob: 0.0051 | Score: 0.0949
+     Python and Machine Learning for Asset Management
+     Skills: Programming skills,Managing your own personal invetsments,Investment management knowledge,Computer S
+
+37. [UDACITY     ] Prob: 0.0051 | Score: 0.0947
+     Machine Learning DevOps Engineer
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0050 | Score: 0.0943
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0050 | Score: 0.0942
+     Future Development in Supply Chain Finance and Blockchain Technology
+     Skills: Financial Innovation,Blockchain Implementation in Supply Chain Finance,APIs for Trade Finance,Managi
+
+40. [UDACITY     ] Prob: 0.0049 | Score: 0.0933
+     Oracle Autonomous Database Administration
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0049 | Score: 0.0928
+     Launching into Machine Learning
+     Skills: Tensorflow,Bigquery,Machine Learning,Data Cleansing,
+
+42. [COURSERA    ] Prob: 0.0049 | Score: 0.0926
+     Introduction to Machine Learning in Production
+     Skills: Human-level Performance (HLP),Concept Drift,Model baseline,Project Scoping and Design,ML Deployment 
+
+43. [COURSERA    ] Prob: 0.0049 | Score: 0.0926
+     Machine Learning Foundations: A Case Study Approach
+     Skills: Python Programming,Machine Learning Concepts,Machine Learning,Deep Learning,
+
+44. [COURSERA    ] Prob: 0.0048 | Score: 0.0917
+     AI Strategy and Governance
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0048 | Score: 0.0916
+     Data Engineering, Big Data, and Machine Learning on GCP Specialization
+     Skills: Tensorflow, Bigquery, Google Cloud Platform, Cloud Computing, 
+
+46. [COURSERA    ] Prob: 0.0047 | Score: 0.0904
+     Hands-on Internet of Things Specialization
+     Skills: Python Programming, Device Programming, Raspberry Pi, Machine Learning, Internet, Internet Of Things
+
+47. [COURSERA    ] Prob: 0.0046 | Score: 0.0900
+     Creativity and AI Specialization
+     Skills: Artificial Intelligence (AI), Innovation Strategies, Design Thinking, Business Applications, Applied
+
+48. [COURSERA    ] Prob: 0.0045 | Score: 0.0885
+     Managing Machine Learning Projects with Google Cloud
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0045 | Score: 0.0884
+     Introduction to Trading, Machine Learning  GCP
+     Skills: Finance,Trading,Investment,Machine Learning applied to Finance,
+
+50. [COURSERA    ] Prob: 0.0044 | Score: 0.0880
+     Data Science: Statistics and Machine Learning Specialization
+     Skills: Machine Learning, Github, R Programming, Regression Analysis, Data Visualization (DataViz), Statisti
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   4 courses (  1.4%)
+Low       : 271 courses ( 96.1%)
+Very Low  :   7 courses (  2.5%)

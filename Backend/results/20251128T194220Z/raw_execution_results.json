@@ -1,0 +1,114 @@
+{
+  "user_query": "show me some difficult level course in  cricket from coursera and  and  data science courses from simply learnt platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Skills": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-28T19:42:20.738420"
+}

@@ -1,0 +1,46 @@
+{
+  "user_query": "Show me some AI related courses from Beginner Level from Simplilearn Platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "AI related courses from Beginner Level from Simplilearn Platform",
+    "aggregation_strategy": "provider_level",
+    "providers": {
+      "coursera": {},
+      "udacity": {},
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bAI\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Course Type": {
+              "$regex": "\\bBeginner\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {}
+    }
+  },
+  "timestamp": "2025-11-23T09:21:03.532675"
+}

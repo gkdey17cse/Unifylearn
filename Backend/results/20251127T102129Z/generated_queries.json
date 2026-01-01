@@ -1,0 +1,80 @@
+{
+  "user_query": "SHow me Database course from Udacity & Sports related course from cursera",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Database course' from Udacity and 'Sports related course' from Coursera. Expanding 'Database' to include related terms like DBMS, SQL, Relational Databases, NoSQL, Data Modeling, and expanding 'Sports' to include terms like Athletics, Exercise, Fitness, Games, Physical Activities.",
+    "expanded_terms": {
+      "database": [
+        "Database",
+        "DBMS",
+        "SQL",
+        "Relational Databases",
+        "NoSQL",
+        "Data Modeling"
+      ],
+      "sports": [
+        "Sports",
+        "Athletics",
+        "Exercise",
+        "Fitness",
+        "Games",
+        "Physical Activities"
+      ]
+    },
+    "providers": {
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Database|DBMS|SQL|Relational Databases|NoSQL|Data Modeling)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Database|DBMS|SQL|Relational Databases|NoSQL|Data Modeling)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(Database|DBMS|SQL|Relational Databases|NoSQL|Data Modeling)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Udacity"
+      },
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Sports|Athletics|Exercise|Fitness|Games|Physical Activities)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Sports|Athletics|Exercise|Fitness|Games|Physical Activities)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(Sports|Athletics|Exercise|Fitness|Games|Physical Activities)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Sports|Athletics|Exercise|Fitness|Games|Physical Activities)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Coursera"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:21:29.145695"
+}

@@ -1,0 +1,805 @@
+{
+  "timestamp": "2025-11-27T10:27:18.543003",
+  "user_query": "Show me Music COurses from Futurelearn platform",
+  "debug_info": {
+    "user_query": "Show me Music COurses from Futurelearn platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'Music Courses' from 'Futurelearn'. Expanding 'Music' to include related terms like 'Musical Instruments', 'Music Theory', and 'Vocal Training' to capture a broader range of music-related courses that may be available.",
+      "expanded_terms": [
+        "Music",
+        "Musical Instruments",
+        "Music Theory",
+        "Vocal Training"
+      ],
+      "providers": {
+        "futurelearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+                "$options": "i"
+              }
+            }
+          ],
+          "Site": "Future Learn"
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+                "$options": "i"
+              }
+            }
+          ],
+          "Site": "Future Learn"
+        },
+        "match_count": 28,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cee4",
+        "Title": "Music Moves: Why Does Music Make You Move?",
+        "URL": "https://www.futurelearn.com/courses/music-moves",
+        "Short Intro": "Learn about the psychology of music and movement and how researchers study music-related body motion in this free online course.",
+        "Duration": "6 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "Music Moves: Why Does Music Make You Move?",
+        "Course URL": "https://www.futurelearn.com/courses/music-moves",
+        "Course Short Intro": "Learn about the psychology of music and movement and how researchers study music-related body motion in this free online course.",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Music Moves: Why Does Music Make You Move?",
+        "url": "https://www.futurelearn.com/courses/music-moves",
+        "description": "Learn about the psychology of music and movement and how researchers study music-related body motion in this free online course.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Psychology",
+          "Auditory Perception",
+          "Kinesthetic Awareness",
+          "Music Theory",
+          "Research Methods",
+          "Data Analysis",
+          "Movement Analysis"
+        ],
+        "instructors": [],
+        "duration": "6 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Describe the relationship between music and movement.",
+          "Explain the psychological processes involved in music-induced motion.",
+          "Identify research methods used to study music-related body motion.",
+          "Analyze the factors that influence our tendency to move to music.",
+          "Evaluate the impact of rhythm and tempo on movement.",
+          "Discuss the evolutionary and social aspects of music and movement."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cee4",
+          "Title": "Music Moves: Why Does Music Make You Move?",
+          "URL": "https://www.futurelearn.com/courses/music-moves",
+          "Short Intro": "Learn about the psychology of music and movement and how researchers study music-related body motion in this free online course.",
+          "Duration": "6 weeks",
+          "Site": "Future Learn",
+          "Courses": "255 Courses",
+          "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+          "ExpertTracks": "24 ExpertTracks",
+          "Course Title": "Music Moves: Why Does Music Make You Move?",
+          "Course URL": "https://www.futurelearn.com/courses/music-moves",
+          "Course Short Intro": "Learn about the psychology of music and movement and how researchers study music-related body motion in this free online course.",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.07870447447378481,
+        "relevance_score": 0.17975003301623765,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.07870447447378481,
+      "relevance_score": 0.17975003301623765
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ca08",
+        "Title": "Music and Intelligence: Can Music Make You Smarter?",
+        "URL": "https://www.futurelearn.com/courses/music-and-intelligence-can-music-make-you-smarter",
+        "Short Intro": "Examine the relationship between music and intelligence, debunking common myths, and exploring amazing facts._x000D_\n",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "33 Courses",
+        "Topics related to CRM": "Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Music and Intelligence: Can Music Make You Smarter?",
+        "Course URL": "https://www.futurelearn.com/courses/music-and-intelligence-can-music-make-you-smarter",
+        "Course Short Intro": "Examine the relationship between music and intelligence, debunking common myths, and exploring amazing facts._x000D_\n",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Music and Intelligence: Can Music Make You Smarter?",
+        "url": "https://www.futurelearn.com/courses/music-and-intelligence-can-music-make-you-smarter",
+        "description": "Examine the relationship between music and intelligence, debunking common myths, and exploring amazing facts._x000D_",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Theory",
+          "Cognitive Psychology",
+          "Neuroscience",
+          "Intelligence Assessment",
+          "Critical Thinking",
+          "Research Analysis",
+          "Myth Busting"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Analyze the correlation between music and cognitive abilities.",
+          "Evaluate claims about the impact of music on intelligence.",
+          "Distinguish between different types of intelligence.",
+          "Describe the neurological basis of musical aptitude.",
+          "Apply critical thinking skills to debunk common myths about music and the brain.",
+          "Summarize current research on the relationship between music and intelligence."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8ca08",
+          "Title": "Music and Intelligence: Can Music Make You Smarter?",
+          "URL": "https://www.futurelearn.com/courses/music-and-intelligence-can-music-make-you-smarter",
+          "Short Intro": "Examine the relationship between music and intelligence, debunking common myths, and exploring amazing facts._x000D_\n",
+          "Duration": "3 weeks",
+          "Site": "Future Learn",
+          "Courses": "33 Courses",
+          "Topics related to CRM": "Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / ",
+          "ExpertTracks": "2 ExpertTracks",
+          "Course Title": "Music and Intelligence: Can Music Make You Smarter?",
+          "Course URL": "https://www.futurelearn.com/courses/music-and-intelligence-can-music-make-you-smarter",
+          "Course Short Intro": "Examine the relationship between music and intelligence, debunking common myths, and exploring amazing facts._x000D_\n",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.0495320971250774,
+        "relevance_score": 0.15659607689553146,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.0495320971250774,
+      "relevance_score": 0.15659607689553146
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ca0f",
+        "Title": "Music Psychology: Why Does \"Bohemian Rhapsody\" Feel so Good?",
+        "URL": "https://www.futurelearn.com/courses/music-psychology",
+        "Short Intro": "Explore music psychology and find out why music can make us feel, by analysing Queen's famous song, \"Bohemian Rhapsody\".   ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "33 Courses",
+        "Topics related to CRM": "Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Music Psychology: Why Does \"Bohemian Rhapsody\" Feel so Good?",
+        "Course URL": "https://www.futurelearn.com/courses/music-psychology",
+        "Course Short Intro": "Explore music psychology and find out why music can make us feel, by analysing Queen's famous song, \"Bohemian Rhapsody\".   ",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Music Psychology: Why Does Bohemian Rhapsody Feel so Good?",
+        "url": "https://www.futurelearn.com/courses/music-psychology",
+        "description": "Explore music psychology and find out why music can make us feel, by analysing Queens famous song, Bohemian Rhapsody.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Psychology",
+          "Music Theory",
+          "Emotional Response Analysis",
+          "Song Structure Analysis",
+          "Musical Composition",
+          "Auditory Perception",
+          "Cultural Analysis"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Analyze the musical elements of Bohemian Rhapsody.",
+          "Explain the psychological principles behind emotional responses to music.",
+          "Identify the key features of a successful musical composition.",
+          "Describe the role of music in evoking emotions.",
+          "Evaluate the cultural significance of Bohemian Rhapsody.",
+          "Apply music psychology concepts to understand music's impact."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8ca0f",
+          "Title": "Music Psychology: Why Does \"Bohemian Rhapsody\" Feel so Good?",
+          "URL": "https://www.futurelearn.com/courses/music-psychology",
+          "Short Intro": "Explore music psychology and find out why music can make us feel, by analysing Queen's famous song, \"Bohemian Rhapsody\".   ",
+          "Duration": "2 weeks",
+          "Site": "Future Learn",
+          "Courses": "33 Courses",
+          "Topics related to CRM": "Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / Anxiety & Depression / Dementia / Mindfulness & Wellbeing / Youth Mental Health / ",
+          "ExpertTracks": "2 ExpertTracks",
+          "Course Title": "Music Psychology: Why Does \"Bohemian Rhapsody\" Feel so Good?",
+          "Course URL": "https://www.futurelearn.com/courses/music-psychology",
+          "Course Short Intro": "Explore music psychology and find out why music can make us feel, by analysing Queen's famous song, \"Bohemian Rhapsody\".   ",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.04670145781326053,
+        "relevance_score": 0.1536538016225107,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.04670145781326053,
+      "relevance_score": 0.1536538016225107
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cacc",
+        "Title": "Being a Flexible Music Teacher",
+        "URL": "https://www.futurelearn.com/courses/being-a-flexible-music-teacher",
+        "Short Intro": "Improve your teaching approach by developing strategies and skills for learning with this music teaching course from ABRSM.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "24 Courses",
+        "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Being a Flexible Music Teacher",
+        "Course URL": "https://www.futurelearn.com/courses/being-a-flexible-music-teacher",
+        "Course Short Intro": "Improve your teaching approach by developing strategies and skills for learning with this music teaching course from ABRSM.",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Being a Flexible Music Teacher",
+        "url": "https://www.futurelearn.com/courses/being-a-flexible-music-teacher",
+        "description": "Improve your teaching approach by developing strategies and skills for learning with this music teaching course from ABRSM.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Pedagogy",
+          "Teaching Strategies",
+          "Curriculum Development",
+          "Classroom Management",
+          "Assessment Techniques",
+          "Communication Skills",
+          "Adaptability"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop flexible teaching strategies for music education.",
+          "Apply adaptable approaches to cater to diverse learning needs.",
+          "Identify effective assessment techniques for music students.",
+          "Improve classroom management skills.",
+          "Enhance communication skills for effective teaching.",
+          "Analyze the benefits of a flexible teaching style."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cacc",
+          "Title": "Being a Flexible Music Teacher",
+          "URL": "https://www.futurelearn.com/courses/being-a-flexible-music-teacher",
+          "Short Intro": "Improve your teaching approach by developing strategies and skills for learning with this music teaching course from ABRSM.",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "24 Courses",
+          "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+          "ExpertTracks": "2 ExpertTracks",
+          "Course Title": "Being a Flexible Music Teacher",
+          "Course URL": "https://www.futurelearn.com/courses/being-a-flexible-music-teacher",
+          "Course Short Intro": "Improve your teaching approach by developing strategies and skills for learning with this music teaching course from ABRSM.",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.04527235255153964,
+        "relevance_score": 0.15209985894612757,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.04527235255153964,
+      "relevance_score": 0.15209985894612757
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cb0f",
+        "Title": "Becoming a Better Music Teacher",
+        "URL": "https://www.futurelearn.com/courses/becoming-a-better-music-teacher",
+        "Short Intro": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
+        "Duration": "5 weeks",
+        "Site": "Future Learn",
+        "Courses": "34 Courses",
+        "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "Course Title": "Becoming a Better Music Teacher",
+        "Course URL": "https://www.futurelearn.com/courses/becoming-a-better-music-teacher",
+        "Course Short Intro": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Becoming a Better Music Teacher",
+        "url": "https://www.futurelearn.com/courses/becoming-a-better-music-teacher",
+        "description": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Pedagogy",
+          "Teaching Strategies",
+          "Vocal Coaching",
+          "Curriculum Development",
+          "Assessment Techniques",
+          "Communication Skills",
+          "Performance Evaluation"
+        ],
+        "instructors": [],
+        "duration": "5 weeks",
+        "site": "Futurelearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Evaluate current teaching strategies and identify areas for improvement.",
+          "Develop effective methods for teaching music theory and performance.",
+          "Apply techniques for vocal coaching and performance enhancement.",
+          "Design engaging and effective lesson plans.",
+          "Assess student progress and provide constructive feedback.",
+          "Implement strategies for creating a supportive and motivating learning environment."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cb0f",
+          "Title": "Becoming a Better Music Teacher",
+          "URL": "https://www.futurelearn.com/courses/becoming-a-better-music-teacher",
+          "Short Intro": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
+          "Duration": "5 weeks",
+          "Site": "Future Learn",
+          "Courses": "34 Courses",
+          "Topics related to CRM": "How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / How to Teach Online / Inclusive Teaching / Language Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+          "ExpertTracks": "1 ExpertTracks",
+          "Course Title": "Becoming a Better Music Teacher",
+          "Course URL": "https://www.futurelearn.com/courses/becoming-a-better-music-teacher",
+          "Course Short Intro": "Improve your teaching strategies and skills as a music teacher or vocal coach with this ABRSM online course.",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.04527235255153964,
+        "relevance_score": 0.15209985894612757,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.04527235255153964,
+      "relevance_score": 0.15209985894612757
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c665",
+        "Title": "Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music",
+        "URL": "https://www.futurelearn.com/courses/video-game-music",
+        "Short Intro": "Chart the evolution of the classic 8-bit sound and discover the role of musicians in game design and development.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "61 Courses",
+        "Topics related to CRM": "Coding & Programming / Fashion / Marketing / Music / Photography & Visual Arts / UX / Web Development / Coding & Programming / Fashion / Marketing / Music / Photography & Visual Arts / UX / Web Development / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music",
+        "Course URL": "https://www.futurelearn.com/courses/video-game-music",
+        "Course Short Intro": "Chart the evolution of the classic 8-bit sound and discover the role of musicians in game design and development.",
+        "Weekly study": "2 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music",
+        "url": "https://www.futurelearn.com/courses/video-game-music",
+        "description": "Chart the evolution of the classic 8-bit sound and discover the role of musicians in game design and development.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Video Game Music History",
+          "Sound Design",
+          "Game Development",
+          "Music Composition",
+          "8-bit Music Production",
+          "Game Audio Implementation",
+          "Digital Audio Workstations (DAWs)"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Trace the evolution of video game music from 8-bit to modern styles.",
+          "Identify the key figures and technologies in video game music history.",
+          "Describe the role of musicians and sound designers in game development.",
+          "Analyze the impact of music and sound on the gaming experience.",
+          "Examine the technical aspects of creating music for video games.",
+          "Discuss the future trends in video game music."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020e69e0bdd621a8c665",
+          "Title": "Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music",
+          "URL": "https://www.futurelearn.com/courses/video-game-music",
+          "Short Intro": "Chart the evolution of the classic 8-bit sound and discover the role of musicians in game design and development.",
+          "Duration": "2 weeks",
+          "Site": "Future Learn",
+          "Courses": "61 Courses",
+          "Topics related to CRM": "Coding & Programming / Fashion / Marketing / Music / Photography & Visual Arts / UX / Web Development / Coding & Programming / Fashion / Marketing / Music / Photography & Visual Arts / UX / Web Development / ",
+          "ExpertTracks": "2 ExpertTracks",
+          "Course Title": "Video Game Design and Development: A Bit-by-Bit History of Video Game Music: Video Game Sound and Music",
+          "Course URL": "https://www.futurelearn.com/courses/video-game-music",
+          "Course Short Intro": "Chart the evolution of the classic 8-bit sound and discover the role of musicians in game design and development.",
+          "Weekly study": "2 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.025327647258093354,
+        "relevance_score": 0.12305986138958007,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.025327647258093354,
+      "relevance_score": 0.12305986138958007
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ce5b",
+        "Title": "English Electronic Music: Delve into the Digital Archives",
+        "URL": "https://www.futurelearn.com/courses/english-electronic-music-delve-into-the-digital-archives",
+        "Short Intro": "Explore the history of English electronic music, while mastering techniques and approaches in digital music archiving.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "English Electronic Music: Delve into the Digital Archives",
+        "Course URL": "https://www.futurelearn.com/courses/english-electronic-music-delve-into-the-digital-archives",
+        "Course Short Intro": "Explore the history of English electronic music, while mastering techniques and approaches in digital music archiving.",
+        "Weekly study": "4 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "English Electronic Music: Delve into the Digital Archives",
+        "url": "https://www.futurelearn.com/courses/english-electronic-music-delve-into-the-digital-archives",
+        "description": "Explore the history of English electronic music, while mastering techniques and approaches in digital music archiving.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Electronic Music History",
+          "Digital Music Archiving",
+          "Music Production Techniques",
+          "Audio Restoration",
+          "Historical Research",
+          "Data Preservation",
+          "Musicology"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Explore the history of English electronic music.",
+          "Master techniques for digital music archiving.",
+          "Apply approaches in digital music preservation.",
+          "Identify key figures and trends in English electronic music.",
+          "Analyze the impact of technology on music creation.",
+          "Evaluate the role of archives in preserving musical heritage."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8ce5b",
+          "Title": "English Electronic Music: Delve into the Digital Archives",
+          "URL": "https://www.futurelearn.com/courses/english-electronic-music-delve-into-the-digital-archives",
+          "Short Intro": "Explore the history of English electronic music, while mastering techniques and approaches in digital music archiving.",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "255 Courses",
+          "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+          "ExpertTracks": "24 ExpertTracks",
+          "Course Title": "English Electronic Music: Delve into the Digital Archives",
+          "Course URL": "https://www.futurelearn.com/courses/english-electronic-music-delve-into-the-digital-archives",
+          "Course Short Intro": "Explore the history of English electronic music, while mastering techniques and approaches in digital music archiving.",
+          "Weekly study": "4 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.018834195002205775,
+        "relevance_score": 0.10824873762358686,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.018834195002205775,
+      "relevance_score": 0.10824873762358686
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8ce5c",
+        "Title": "String Music Appreciation",
+        "URL": "https://www.futurelearn.com/courses/string-music-appreciation",
+        "Short Intro": "Explore the history, construction and techniques of different string instruments, and analyse the famous Butterfly Lovers Concerto",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "String Music Appreciation",
+        "Course URL": "https://www.futurelearn.com/courses/string-music-appreciation",
+        "Course Short Intro": "Explore the history, construction and techniques of different string instruments, and analyse the famous Butterfly Lovers Concerto",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "String Music Appreciation",
+        "url": "https://www.futurelearn.com/courses/string-music-appreciation",
+        "description": "Explore the history, construction and techniques of different string instruments, and analyse the famous Butterfly Lovers Concerto",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "String Instrument Knowledge",
+          "Music History",
+          "Music Theory",
+          "Musical Analysis",
+          "Listening Skills",
+          "Cultural Appreciation",
+          "Concerto Analysis"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Describe the history and construction of various string instruments.",
+          "Analyze the techniques used in playing string instruments.",
+          "Explore the cultural significance of string music.",
+          "Identify key musical elements in the Butterfly Lovers Concerto.",
+          "Discuss the impact of string music on different cultures.",
+          "Apply listening skills to appreciate string music performances."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8ce5c",
+          "Title": "String Music Appreciation",
+          "URL": "https://www.futurelearn.com/courses/string-music-appreciation",
+          "Short Intro": "Explore the history, construction and techniques of different string instruments, and analyse the famous Butterfly Lovers Concerto",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "255 Courses",
+          "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+          "ExpertTracks": "24 ExpertTracks",
+          "Course Title": "String Music Appreciation",
+          "Course URL": "https://www.futurelearn.com/courses/string-music-appreciation",
+          "Course Short Intro": "Explore the history, construction and techniques of different string instruments, and analyse the famous Butterfly Lovers Concerto",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.015720551963190825,
+        "relevance_score": 0.09921347751257283,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.015720551963190825,
+      "relevance_score": 0.09921347751257283
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cf4d",
+        "Title": "From Notation to Performance: Understanding Musical Scores",
+        "URL": "https://www.futurelearn.com/courses/musical-scores",
+        "Short Intro": "Find out how musicians turn the notation of a musical score into a memorable performance. Change how you listen to music.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "255 Courses",
+        "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+        "ExpertTracks": "24 ExpertTracks",
+        "Course Title": "From Notation to Performance: Understanding Musical Scores",
+        "Course URL": "https://www.futurelearn.com/courses/musical-scores",
+        "Course Short Intro": "Find out how musicians turn the notation of a musical score into a memorable performance. Change how you listen to music.",
+        "Weekly study": "3 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "From Notation to Performance: Understanding Musical Scores",
+        "url": "https://www.futurelearn.com/courses/musical-scores",
+        "description": "Find out how musicians turn the notation of a musical score into a memorable performance. Change how you listen to music.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Music Theory",
+          "Score Reading",
+          "Musical Interpretation",
+          "Performance Analysis",
+          "Aural Skills",
+          "Critical Listening",
+          "Musical Appreciation"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Interpret musical notation and translate it into sound.",
+          "Analyze the elements of a musical score.",
+          "Understand the role of the performer in bringing music to life.",
+          "Improve critical listening skills.",
+          "Describe the relationship between notation and performance.",
+          "Evaluate different interpretations of a musical score."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cf4d",
+          "Title": "From Notation to Performance: Understanding Musical Scores",
+          "URL": "https://www.futurelearn.com/courses/musical-scores",
+          "Short Intro": "Find out how musicians turn the notation of a musical score into a memorable performance. Change how you listen to music.",
+          "Duration": "4 weeks",
+          "Site": "Future Learn",
+          "Courses": "255 Courses",
+          "Topics related to CRM": "Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / Cooking / Design / Digital Media / Fashion / Music / Photography & Visual Arts / UX / Writing / ",
+          "ExpertTracks": "24 ExpertTracks",
+          "Course Title": "From Notation to Performance: Understanding Musical Scores",
+          "Course URL": "https://www.futurelearn.com/courses/musical-scores",
+          "Course Short Intro": "Find out how musicians turn the notation of a musical score into a memorable performance. Change how you listen to music.",
+          "Weekly study": "3 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.009748597492081715,
+        "relevance_score": 0.0753212039700679,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.009748597492081715,
+      "relevance_score": 0.0753212039700679
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cac6",
+        "Title": "How to Use Classroom 200",
+        "URL": "https://www.futurelearn.com/courses/how-to-use-classroom-200",
+        "Short Intro": "Learn all you need to know about using the ABRSMâ€™s online music teaching resource Classroom 200.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "24 Courses",
+        "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+        "ExpertTracks": "2 ExpertTracks",
+        "Course Title": "How to Use Classroom 200",
+        "Course URL": "https://www.futurelearn.com/courses/how-to-use-classroom-200",
+        "Course Short Intro": "Learn all you need to know about using the ABRSMâ€™s online music teaching resource Classroom 200.",
+        "Weekly study": "2 hours",
+        "_provider": "futurelearn"
+      },
+      "unified_data": {
+        "title": "How to Use Classroom 200",
+        "url": "https://www.futurelearn.com/courses/how-to-use-classroom-200",
+        "description": "Learn all you need to know about using the ABRSMâs online music teaching resource Classroom 200.",
+        "category": "Music",
+        "language": "English",
+        "skills": [
+          "Online Teaching Resources",
+          "Music Education Technology",
+          "Classroom Management",
+          "Digital Literacy",
+          "Software Proficiency",
+          "ABRSM Resources",
+          "Online Pedagogy"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Navigate and utilize Classroom 200 effectively.",
+          "Implement Classroom 200 in music teaching strategies.",
+          "Identify the features and functionalities of Classroom 200.",
+          "Apply best practices for using online music teaching resources.",
+          "Enhance student engagement with digital tools.",
+          "Evaluate the benefits of Classroom 200 for music education."
+        ],
+        "price": "Paid",
+        "provider": "futurelearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac020f69e0bdd621a8cac6",
+          "Title": "How to Use Classroom 200",
+          "URL": "https://www.futurelearn.com/courses/how-to-use-classroom-200",
+          "Short Intro": "Learn all you need to know about using the ABRSMâ€™s online music teaching resource Classroom 200.",
+          "Duration": "3 weeks",
+          "Site": "Future Learn",
+          "Courses": "24 Courses",
+          "Topics related to CRM": "Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / Inclusive Teaching / Language Teaching / Primary Education Teaching / Professional Development for Teachers / Secondary Education Teaching / STEM Teaching / Teaching Computing / Teaching English / TEFL / Teaching Maths / Teaching Science / ",
+          "ExpertTracks": "2 ExpertTracks",
+          "Course Title": "How to Use Classroom 200",
+          "Course URL": "https://www.futurelearn.com/courses/how-to-use-classroom-200",
+          "Course Short Intro": "Learn all you need to know about using the ABRSMâ€™s online music teaching resource Classroom 200.",
+          "Weekly study": "2 hours",
+          "_provider": "futurelearn"
+        },
+        "relevance_probability": 0.006178949914254139,
+        "relevance_score": 0.052522449597464896,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.006178949914254139,
+      "relevance_score": 0.052522449597464896
+    }
+  ]
+}

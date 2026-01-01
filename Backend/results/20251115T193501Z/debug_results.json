@@ -1,0 +1,197 @@
+{
+  "timestamp": "2025-11-15T19:35:01.120072",
+  "user_query": "Show me all Reinforcement Learning course from Coursera where no of Viewers is more than 600",
+  "debug_info": {
+    "user_query": "Show me all Reinforcement Learning course from Coursera where no of Viewers is more than 600",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "Reinforcement Learning courses from Coursera with more than 600 viewers",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bReinforcement Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bReinforcement Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Number of viewers": {
+                "$gt": "600"
+              }
+            }
+          ]
+        },
+        "udacity": {},
+        "simplilearn": {},
+        "futurelearn": {}
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bReinforcement Learning\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bReinforcement Learning\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Number of viewers": {
+                "$gt": "600"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254660f1",
+        "Title": "Machine Learning and Reinforcement Learning in Finance Specialization",
+        "URL": "https://www.coursera.org/specializations/machine-learning-reinforcement-finance",
+        "Short Intro": "Reinforce Your Career: Machine Learning in Finance. Extend your expertise of algorithms and tools needed to predict financial markets.",
+        "Category": "Data Science",
+        "Sub-Category": "Machine Learning",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, French, Portuguese (European), Russian, Spanish",
+        "Skills": "Predictive Modelling, Financial Engineering, Machine Learning, Tensorflow, Reinforcement Learning, option pricing and risk management, simple model for market dynamics, Q-learning using financial problems, optimal trading, Portfolio Optimization, ",
+        "Instructors": "Igor Halperin ,",
+        "Rating": "3.7stars",
+        "Number of viewers": "726",
+        "Duration": "Approximately 4 months to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Machine Learning and Reinforcement Learning in Finance Specialization",
+        "url": "https://www.coursera.org/specializations/machine-learning-reinforcement-finance",
+        "description": "Reinforce Your Career: Machine Learning in Finance. Extend your expertise of algorithms and tools needed to predict financial markets.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Option Pricing And Risk Management",
+          "Portfolio Optimization",
+          "Machine Learning",
+          "Tensorflow",
+          "Simple Model For Market Dynamics",
+          "Reinforcement Learning",
+          "Financial Engineering",
+          "Q-Learning Using Financial Problems"
+        ],
+        "instructors": [
+          "Igor Halperin"
+        ],
+        "duration": "Approximately 4 months to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546657b",
+        "Title": "Overview of Advanced Methods of Reinforcement Learning in Finance",
+        "URL": "https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance?specialization=machine-learning-reinforcement-finance",
+        "Short Intro": "In the last course of our specialization, Overview of Advanced Methods of Reinforcement Learning in Finance, we will take a deeper look into topics discussed in our third course, Reinforcement Learning in Finance.",
+        "Category": "Computer Science",
+        "Sub-Category": "Algorithms",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": null,
+        "Instructors": "Igor Halperin",
+        "Rating": "3.8stars",
+        "Number of viewers": "78",
+        "Duration": "Approx. 13 hours to complete",
+        "Site": "Coursera"
+      },
+      "unified_data": {
+        "title": "Overview of Advanced Methods of Reinforcement Learning in Finance",
+        "url": "https://www.coursera.org/learn/advanced-methods-reinforcement-learning-finance?specialization=machine-learning-reinforcement-finance",
+        "description": "In the last course of our specialization, Overview of Advanced Methods of Reinforcement Learning in Finance, we will take a deeper look into topics discussed in our third course, Reinforcement Learning in Finance.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Igor Halperin"
+        ],
+        "duration": "Approx. 13 hours to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    }
+  ]
+}

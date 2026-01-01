@@ -1,0 +1,82 @@
+{
+  "user_query": "show some ML courses from Simplilearn and Futurelearn platform",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 3,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\bML\\b|\\bMachine Learning\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 46,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-15T02:43:18.159942"
+}

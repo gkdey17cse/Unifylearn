@@ -1,0 +1,214 @@
+{
+  "user_query": "show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Course Type": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Title": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 1,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Level": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Level": {
+              "$regex": "\\b(Beginner|Introductory)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 43,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\bweb\\ development\\ for\\ beginners\\ that\\ teach\\ javascript\\ and\\ react\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\balso\\ some\\ python\\ programming\\ platforms\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Web Development|HTML|CSS|JavaScript|React|Frontend|Backend|Python|Programming)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Beginner|Introductory)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 9,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T09:11:43.243434"
+}

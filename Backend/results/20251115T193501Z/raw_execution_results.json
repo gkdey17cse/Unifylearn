@@ -1,0 +1,65 @@
+{
+  "user_query": "Show me all Reinforcement Learning course from Coursera where no of Viewers is more than 600",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bReinforcement Learning\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bReinforcement Learning\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Number of viewers": {
+              "$gt": "600"
+            }
+          }
+        ]
+      },
+      "match_count": 2,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {},
+      "match_count": 0,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": "No valid query conditions - provider skipped",
+      "skipped": true
+    }
+  },
+  "timestamp": "2025-11-15T19:35:01.117056"
+}

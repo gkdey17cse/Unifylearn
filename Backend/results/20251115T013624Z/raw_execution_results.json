@@ -1,0 +1,152 @@
+{
+  "user_query": "Highest rated Python courses across all platforms",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "query": {
+          "$match": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              },
+              {
+                "Rating": {
+                  "$exists": true,
+                  "$ne": null
+                }
+              }
+            ]
+          }
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for coursera: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170585, 3), 'signature': {'hash': b'\\xba\\n\\xd85\\xa1\\xbd\\xc2\\xab\\xb4\\x8b7\\xa9\\xe1@\\xaae w-5', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763170585, 3)}"
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "query": {
+          "$match": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Prequisites": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "What you learn": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for udacity: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170583, 1), 'signature': {'hash': b'\\xff\\xa8&\\x8e\\xdcl\\xfe\"\\xb9\\xc5\\x92XA\\xf3\\x97\\x00\\x80\\xe7\\xba\\x9d', 'keyId': 7522098043089321992}}, 'operationTime': Timestamp(1763170583, 1)}"
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "query": {
+          "$match": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Skills": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for simplilearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170585, 2), 'signature': {'hash': b'\\x04\\xd5q\\x05\\xben!~Mf$ \\xb0\\x847r\\x0e\\x16;\"', 'keyId': 7521638258250350593}}, 'operationTime': Timestamp(1763170585, 2)}"
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {
+        "query": {
+          "$match": {
+            "$and": [
+              {
+                "$or": [
+                  {
+                    "Title": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  },
+                  {
+                    "Short Intro": {
+                      "$regex": "\\bPython\\b",
+                      "$options": "i"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "match_count": 0,
+      "execution_error": "Failed to execute query for futurelearn: unknown operator: $match, full error: {'ok': 0.0, 'errmsg': 'unknown operator: $match', 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763170583, 1), 'signature': {'hash': b'\\x85\\x8c\\xbc\\x02\\x94d\\xaf!Z\\xfdX\\xf7\\xc5\\xfd\\xb5\\xa2a\\x82I\\xd3', 'keyId': 7511627896369184769}}, 'operationTime': Timestamp(1763170583, 1)}"
+    }
+  },
+  "timestamp": "2025-11-15T01:36:24.530844"
+}

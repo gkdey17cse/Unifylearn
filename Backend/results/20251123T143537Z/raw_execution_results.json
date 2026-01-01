@@ -1,0 +1,76 @@
+{
+  "user_query": "I want to learn about machne learning and AI courses from coursera and udacity",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 267,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(AI|Artificial Intelligence|Machine Learning|Deep Learning|Neural Networks|NLP)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 53,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-23T14:35:37.994750"
+}

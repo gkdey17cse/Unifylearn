@@ -1,0 +1,35 @@
+{
+  "user_query": "Show me top 5 courses from Simplilearn on Deep Learning",
+  "generated_queries": {
+    "simplilearn": {
+      "$and": [
+        {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bDeep Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        {
+          "$limit": 5
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-14T21:49:45.762050"
+}

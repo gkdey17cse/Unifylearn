@@ -1,0 +1,537 @@
+{
+  "user_query": "Show me AI coruses for beginers",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "Find beginner AI courses related to AI, C++, IBM, and Cars.",
+    "aggregation_strategy": "provider_level",
+    "sort_field": null,
+    "sort_order": null,
+    "global_limit": null,
+    "providers": {
+      "coursera": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      "udacity": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "projection": {}
+      },
+      "simplilearn": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "projection": {}
+      },
+      "futurelearn": {
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "AI|ai",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "C\\+\\+|c\\+\\+",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "IBM|ibm",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "Cars|cars",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "projection": {}
+      }
+    }
+  },
+  "timestamp": "2025-11-22T19:33:49.663458"
+}

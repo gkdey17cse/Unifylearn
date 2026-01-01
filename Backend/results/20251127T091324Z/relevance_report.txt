@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: ``` looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement
+Total Courses: 1558
+Generated at: 2025-11-27T09:13:24.539817
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 445 courses | Avg Prob: 0.0012 | Avg Score: 0.1618
+UDACITY        :  62 courses | Avg Prob: 0.0017 | Avg Score: 0.2508
+FUTURELEARN    : 1021 courses | Avg Prob: 0.0001 | Avg Score: 0.0237
+SIMPLILEARN    :  30 courses | Avg Prob: 0.0000 | Avg Score: 0.0729
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     PostgreSQL for Everybody Specialization
+     Skills: Json, Database (DBMS), Natural Language Processing, SQL, 
+
+ 2. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Data Science Fundamentals with Python and SQL Specialization
+     Skills: Data Science, Github, Python Programming, Jupyter notebooks, Rstudio, Data Analysis, Pandas, Numpy, 
+
+ 3. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Oracle SQL Databases Specialization
+     Skills: Insert and Modify Oracle SQL Databases, Delete from Oracle SQL Databases, Create Oracle SQL Database
+
+ 4. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Applied Data Science with R Specialization
+     Skills: Shiny Dashboards, Data Analysis and Modelling, R Programmin Language, Data Visualization (DataViz), 
+
+ 5. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Databases for Data Scientists Specialization
+     Skills: Database (DB) Design, Data Warehousing, NoSQL, database administration, SQL, Database (DBMS), Relati
+
+ 6. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     BI Foundations with SQL, ETL and Data Warehousing Specialization
+     Skills: Shell Script, Bash (Unix Shell), Linux, Cloud Databases, Python Programming, Jupyter notebooks, Rela
+
+ 7. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Learn SQL Basics for Data Science Specialization
+     Skills: Data Analysis, Apache Spark, Delta Lake, SQL, Data Science, Sqlite, A/B Testing, Query String, Predi
+
+ 8. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Modern Big Data Analysis with SQL Specialization
+     Skills: Cloud Storage, Data Analysis, Big Data, Cloudera, SQL, Database (DBMS), Data Warehousing, Apache Hiv
+
+ 9. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Analyze Data to Answer Questions
+     Skills: Spreadsheet,Data Analysis,SQL,Data Calculations,Data Aggregation,
+
+10. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Databases and SQL for Data Science with Python
+     Skills: Cloud Databases,Python Programming,Jupyter notebooks,Relational Database Management System (RDBMS),S
+
+11. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Design and Build a Data Warehouse for Business Intelligence Implementation
+     Skills: Data Warehousing,Microstrategy,Data Warehouse,SQL,
+
+12. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Process Data from Dirty to Clean
+     Skills: Spreadsheet,Data Cleansing,Sample Size Determination,SQL,Data Integrity,
+
+13. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Prepare Data for Exploration
+     Skills: Spreadsheet,Metadata,Data Collection,Data Ethics,SQL,
+
+14. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     SQL for Data Science
+     Skills: Data Science,Data Analysis,Sqlite,SQL,
+
+15. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     SQL: A Practical Introduction for Querying Databases
+     Skills: Create, Read, Update And Delete,Data Analysis,MySQL,Relational Database Management System (RDBMS),SQ
+
+16. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Apache Spark TM SQL for Data Analysts
+     Skills: Data Analysis,Spark SQL,SQL,
+
+17. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Scripting with Python and SQL for Data Engineering
+     Skills: Database (DBMS),Python Programming,Web Scraping,MySQL,SQL,
+
+18. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Foundations for Big Data Analysis with SQL
+     Skills: Database (DBMS),Data Warehousing,Data Analysis,Big Data,SQL,
+
+19. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Database Management Essentials
+     Skills: Database (DB) Design,Entity–Relationship (E-R) Model,Database (DBMS),SQL,
+
+20. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Introduction to Structured Query Language SQL
+     Skills: Phpmyadmin,MySQL,Relational Database,SQL,
+
+21. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     The Structured Query Language SQL
+     Skills: Data Science,Database (DBMS),Database Application,SQL (Structured Query Language),database administr
+
+22. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Software Security
+     Skills: Fuzz Testing,Buffer Overflow,Sql Injection,Penetration Test,
+
+23. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Managing Big Data in Clusters and Cloud Storage
+     Skills: Data Management,Distributed File Systems,Cloud Storage,Big Data,SQL,
+
+24. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Distributed Computing with Spark SQL
+     Skills: Data Science,Apache Spark,Delta Lake,SQL,
+
+25. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Microsoft Azure SQL
+     Skills: Data Management,Database (DBMS),NoSQL,Microsoft Azure,SQL,
+
+26. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Relational Database Support for Data Warehouses
+     Skills: Data Warehousing,Materialized View,Data Warehouse,SQL,
+
+27. [COURSERA    ] Prob: 0.0187 | Score: 1.0000
+     Analyzing Big Data with SQL
+     Skills: Apache Hive,Apache Impala,Data Analysis,Big Data,SQL,
+
+28. [UDACITY     ] Prob: 0.0187 | Score: 1.0000
+     Intro to Relational Databases
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0187 | Score: 1.0000
+     SQL for Data Analysis
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0187 | Score: 1.0000
+     Learn SQL
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0187 | Score: 1.0000
+     Introduction to SQL
+     Skills: No skills
+
+32. [FUTURELEARN ] Prob: 0.0187 | Score: 1.0000
+     SQL for Data Analysis
+     Skills: No skills
+
+33. [FUTURELEARN ] Prob: 0.0187 | Score: 1.0000
+     Data Query with Transact-SQL with Python
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0187 | Score: 1.0000
+     Microsoft Future Ready: Data Query with Transact-SQL T-SQL
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0081 | Score: 0.9583
+     Programming for Data Science with R
+     Skills: No skills
+
+36. [UDACITY     ] Prob: 0.0078 | Score: 0.9564
+     Programming for Data Science with Python
+     Skills: No skills
+
+37. [COURSERA    ] Prob: 0.0073 | Score: 0.9531
+     Excel to MySQL: Analytic Techniques for Business Specialization
+     Skills: Binary Classification, Data Analysis, Tableau Software, SQL, Business Analysis, Business Analytics, 
+
+38. [UDACITY     ] Prob: 0.0057 | Score: 0.9406
+     How to Become a Business Analyst
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0049 | Score: 0.9330
+     Data Engineering Foundations Specialization
+     Skills: Information Engineering, Python Programming, Extraction, Transformation And Loading (ETL), Relationa
+
+40. [UDACITY     ] Prob: 0.0041 | Score: 0.9235
+     Become a Data Product Manager
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0039 | Score: 0.9218
+     Managing Big Data with MySQL
+     Skills: Data Analysis,MySQL,Teradata,SQL,
+
+42. [UDACITY     ] Prob: 0.0028 | Score: 0.9057
+     Data Science Interview Prep
+     Skills: No skills
+
+43. [COURSERA    ] Prob: 0.0023 | Score: 0.8956
+     Using Databases with Python
+     Skills: Python Programming,Database (DBMS),Sqlite,SQL,
+
+44. [COURSERA    ] Prob: 0.0023 | Score: 0.8941
+     Google Cloud Database Engineer Specialization
+     Skills: Cloud Platforms, Cloud Storage, Google Cloud Platform, Google Compute Engine, Google App Engine (GAE
+
+45. [UDACITY     ] Prob: 0.0018 | Score: 0.8839
+     Intro to Backend
+     Skills: No skills
+
+46. [COURSERA    ] Prob: 0.0018 | Score: 0.8822
+     IT Fundamentals for Cybersecurity Specialization
+     Skills: Operating System Security, database vulnerabilities, Cybersecurity, networking basics, Cyber Attacks
+
+47. [COURSERA    ] Prob: 0.0011 | Score: 0.8574
+     Cybersecurity Specialization
+     Skills: Software Testing, Cryptography, Usability, Penetration Test, Cybersecurity, Privacy, User Interface,
+
+48. [COURSERA    ] Prob: 0.0005 | Score: 0.8177
+     Introduction to NoSQL Databases
+     Skills: Mongodb,NoSQL,Cloud Database,Cloudant,Cassandra,
+
+49. [COURSERA    ] Prob: 0.0004 | Score: 0.8044
+     Increasing Real Estate Management Profits: Harnessing Data Analytics
+     Skills: Data Analysis,Tableau Software,MySQL,SQL,
+
+50. [COURSERA    ] Prob: 0.0001 | Score: 0.7490
+     Web Applications for Everybody Specialization
+     Skills: Jquery, web application development, Hypertext Preprocessor (PHP), JavaScript, MySQL, HTML, Cascadin
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  34 courses (  2.2%)
+Low       :  13 courses (  0.8%)
+Very Low  : 1511 courses ( 97.0%)

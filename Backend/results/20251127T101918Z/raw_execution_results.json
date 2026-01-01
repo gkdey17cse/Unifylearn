@@ -1,0 +1,45 @@
+{
+  "user_query": "show me some Python courses from simply Lord blood form but not from other platforms",
+  "execution_results": {
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Python|Python Programming|Data Science|Pandas|NumPy|Machine Learning with Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "match_count": 11,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T10:19:18.886478"
+}

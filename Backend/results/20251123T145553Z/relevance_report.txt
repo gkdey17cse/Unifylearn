@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me web development courses for beginners that teach javascript and react, also some python programming classes from any platforms
+Total Courses: 859
+Generated at: 2025-11-23T14:55:54.118653
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+UDACITY        : 117 courses | Avg Prob: 0.0016 | Avg Score: 0.1577
+COURSERA       : 634 courses | Avg Prob: 0.0008 | Avg Score: 0.0992
+FUTURELEARN    :  85 courses | Avg Prob: 0.0007 | Avg Score: 0.0957
+SIMPLILEARN    :  23 courses | Avg Prob: 0.0005 | Avg Score: 0.0779
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [UDACITY     ] Prob: 0.0099 | Score: 0.3754
+     Learn Intermediate JavaScript
+     Skills: No skills
+
+ 2. [UDACITY     ] Prob: 0.0097 | Score: 0.3730
+     Java Programming Basics
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0092 | Score: 0.3677
+     Swift for Beginners
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0066 | Score: 0.3351
+     Authentication  Authorization: OAuth
+     Skills: No skills
+
+ 5. [COURSERA    ] Prob: 0.0062 | Score: 0.3279
+     The Raspberry Pi Platform and Python Programming for the Raspberry Pi
+     Skills: Computer Programming,Python Programming,Internet Of Things (IOT),Raspberry Pi,
+
+ 6. [UDACITY     ] Prob: 0.0060 | Score: 0.3261
+     Getting Started with Google Workspace
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0047 | Score: 0.3012
+     What is Programming?
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0046 | Score: 0.2980
+     WeChat Mini Program Development
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0045 | Score: 0.2974
+     Front End Web Developer
+     Skills: No skills
+
+10. [UDACITY     ] Prob: 0.0044 | Score: 0.2954
+     Introduction to Python Programming
+     Skills: No skills
+
+11. [COURSERA    ] Prob: 0.0044 | Score: 0.2935
+     Programming with JavaScript
+     Skills: Test-Driven Development,JavaScript,Front-End Web Development,Object-Oriented Programming (OOP),
+
+12. [COURSERA    ] Prob: 0.0042 | Score: 0.2905
+     Programming Foundations with JavaScript, HTML and CSS
+     Skills: HTML,JavaScript,Cascading Style Sheets (CSS),Html5,
+
+13. [UDACITY     ] Prob: 0.0041 | Score: 0.2882
+     Real-Time Analytics with Apache Storm
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0041 | Score: 0.2872
+     Python Programming Essentials
+     Skills: Codeskulptor,Python Syntax And Semantics,Python Programming,Debugging,
+
+15. [COURSERA    ] Prob: 0.0040 | Score: 0.2837
+     Programming for Everybody Getting Started with Python
+     Skills: Python Syntax And Semantics,Basic Programming Language,Computer Programming,Python Programming,
+
+16. [UDACITY     ] Prob: 0.0039 | Score: 0.2824
+     Full Stack Web Developer
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0036 | Score: 0.2752
+     Introduction to Python Programming
+     Skills: Python Tools,Python Syntax And Semantics,Programming Principles,Python Programming,Computer Programm
+
+18. [UDACITY     ] Prob: 0.0034 | Score: 0.2681
+     JavaScript and the DOM
+     Skills: No skills
+
+19. [UDACITY     ] Prob: 0.0034 | Score: 0.2679
+     Intro to Point  Click App Development
+     Skills: No skills
+
+20. [COURSERA    ] Prob: 0.0034 | Score: 0.2675
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+21. [COURSERA    ] Prob: 0.0034 | Score: 0.2674
+     An Introduction to Interactive Programming in Python Part 2
+     Skills: Python Syntax And Semantics,Logic Programming,Python Programming,Object-Oriented Programming (OOP),
+
+22. [UDACITY     ] Prob: 0.0033 | Score: 0.2654
+     Browser Rendering Optimization
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0033 | Score: 0.2643
+     Learn React
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0032 | Score: 0.2638
+     Learn Intermediate Python
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0032 | Score: 0.2610
+     Programming for Data Science with Python
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0031 | Score: 0.2583
+     An Introduction to Interactive Programming in Python Part 1
+     Skills: Programming Principles,Python Syntax And Semantics,Computer Programming,Python Programming,
+
+27. [COURSERA    ] Prob: 0.0030 | Score: 0.2553
+     Advanced Algorithms and Complexity
+     Skills: Python Programming,Linear Programming (LP),Np-Completeness,Dynamic Programming,
+
+28. [COURSERA    ] Prob: 0.0029 | Score: 0.2541
+     Research Instruments and Research Hypotheses
+     Skills: Refine research instruments,Basic data analysis approaches,Manage the development and use of differe
+
+29. [COURSERA    ] Prob: 0.0027 | Score: 0.2473
+     HTML, CSS, and Javascript for Web Developers
+     Skills: HTML,JavaScript,Css Frameworks,Cascading Style Sheets (CSS),
+
+30. [COURSERA    ] Prob: 0.0027 | Score: 0.2441
+     Meta React Native Specialization
+     Skills: Web Development, React (Web Framework), HTML and CSS, Mobile Development, JavaScript, Test-Driven De
+
+31. [COURSERA    ] Prob: 0.0027 | Score: 0.2438
+     Introduction to Programming with Python and Java Specialization
+     Skills: Programming Principles, Python Programming, Java Programming, Data Structure, Computer Programming, 
+
+32. [COURSERA    ] Prob: 0.0026 | Score: 0.2436
+     Using Python to Access Web Data
+     Skills: Json,Xml,Python Programming,Web Scraping,
+
+33. [COURSERA    ] Prob: 0.0026 | Score: 0.2433
+     Web Design for Everybody: Basics of Web Development  Coding Specialization
+     Skills: Web Development, Cascading Style Sheets (CSS), Html5, JavaScript, Responsive Web Design, Web Design,
+
+34. [COURSERA    ] Prob: 0.0026 | Score: 0.2415
+     Python Classes and Inheritance
+     Skills: No skills
+
+35. [COURSERA    ] Prob: 0.0026 | Score: 0.2399
+     React Basics
+     Skills: Web Application,Front-End Web Development,React (Web Framework),Application development,
+
+36. [UDACITY     ] Prob: 0.0025 | Score: 0.2398
+     Introduction to Machine Learning Course
+     Skills: No skills
+
+37. [UDACITY     ] Prob: 0.0025 | Score: 0.2390
+     Full Stack Foundations
+     Skills: No skills
+
+38. [UDACITY     ] Prob: 0.0025 | Score: 0.2388
+     HTTP  Web Servers
+     Skills: No skills
+
+39. [COURSERA    ] Prob: 0.0024 | Score: 0.2335
+     Python Project for AI  Application Development
+     Skills: Artificial Intelligence (AI),Web Application,Python Programming,Application development,Flask,
+
+40. [UDACITY     ] Prob: 0.0024 | Score: 0.2330
+     Data Visualization and D3.js
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0024 | Score: 0.2324
+     Interactivity with JavaScript
+     Skills: Document Object Model (DOM),JavaScript,Web Development,
+
+42. [COURSERA    ] Prob: 0.0023 | Score: 0.2304
+     Python and Pandas for Data Engineering
+     Skills: Vim,Python Programming,Pandas,Visual Studio Code,Data Structure,
+
+43. [COURSERA    ] Prob: 0.0023 | Score: 0.2298
+     Python and Machine-Learning for Asset Management with Alternative Data Sets
+     Skills: Advanced vizualisation,Basics of consuption-based alternative data,Text mining methodologies,Web-scr
+
+44. [COURSERA    ] Prob: 0.0023 | Score: 0.2293
+     Python for Data Science, AI  Development
+     Skills: Data Science,Python Programming,Data Analysis,Pandas,Numpy,
+
+45. [COURSERA    ] Prob: 0.0023 | Score: 0.2284
+     Introduction to Web Development with HTML, CSS, JavaScript
+     Skills: Cascading Style Sheets (CSS),HTML,Git (Software),JavaScript,Cloud Applications,
+
+46. [COURSERA    ] Prob: 0.0022 | Score: 0.2258
+     Python for Everybody Specialization
+     Skills: Json, Xml, Python Programming, Database (DBMS), Python Syntax And Semantics, Basic Programming Langu
+
+47. [COURSERA    ] Prob: 0.0022 | Score: 0.2244
+     Web Design for Everybody Capstone
+     Skills: Web Design,HTML,JavaScript,Cascading Style Sheets (CSS),
+
+48. [UDACITY     ] Prob: 0.0022 | Score: 0.2231
+     Learn to Code
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0021 | Score: 0.2227
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+50. [COURSERA    ] Prob: 0.0021 | Score: 0.2214
+     Python Data Representations
+     Skills: Tuple,Python Programming,Debugging,List & Label,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       : 195 courses ( 22.7%)
+Very Low  : 664 courses ( 77.3%)

@@ -1,0 +1,100 @@
+{
+  "timestamp": "2025-11-14T20:56:01.561107",
+  "user_query": "SHow 3 Database course from Coursera",
+  "debug_info": {
+    "user_query": "SHow 3 Database course from Coursera",
+    "llm_generated_queries": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\bDatabase\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\bDatabase\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\bDatabase\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\bDatabase\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\bDatabase\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$limit": 3
+          }
+        ]
+      }
+    },
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\bDatabase\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bDatabase\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bDatabase\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\bDatabase\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bDatabase\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$limit": 3
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": false,
+        "execution_error": "Failed to execute query for coursera: unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField., full error: {'ok': 0.0, 'errmsg': \"unknown top level operator: $limit. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.\", 'code': 2, 'codeName': 'BadValue', '$clusterTime': {'clusterTime': Timestamp(1763153761, 1), 'signature': {'hash': b'b&d\\x98~\\xfb\"\\xb5\\x01C\\xcc(q\\xf3gP\\xc6\\xb6o\\xf0', 'keyId': 7525856556085149716}}, 'operationTime': Timestamp(1763153761, 1)}"
+      }
+    }
+  },
+  "all_results": []
+}

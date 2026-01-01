@@ -1,0 +1,82 @@
+{
+  "user_query": "Top 7 web dev courses with minimum 4.6 rating and at least 20,000 viewers. Only Coursera. Ignore all React courses.",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 729,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          },
+          {
+            "Prerequisites": {
+              "$regex": "(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|ML)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 86,
+      "used_fallback": false,
+      "limit_applied": null,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-27T07:33:54.552482"
+}

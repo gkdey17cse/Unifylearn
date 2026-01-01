@@ -1,0 +1,182 @@
+{
+  "user_query": "looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'data science' and 'business analytics'. Expanding 'data science' to include: Data Analysis, Statistics, Big Data, Pandas, Python.",
+    "expanded_terms": [
+      "Data Science",
+      "Data Analysis",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python",
+      "Business Analytics"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|SQL|Big Data|Pandas|Python|Business Analytics|data visualization)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|SQL|Big Data|Pandas|Python|Business Analytics|data visualization)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Rating": {
+              "$gt": 3.5
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(practical projects)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(career advancement)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|SQL|Big Data|Pandas|Python|Business Analytics|data visualization)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Prequisites": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|SQL|Big Data|Pandas|Python|Business Analytics|data visualization)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(career advancement)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|SQL|Big Data|Pandas|Python|Business Analytics|data visualization)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(practical projects)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T15:13:23.446897"
+}

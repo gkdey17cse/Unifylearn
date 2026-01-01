@@ -1,0 +1,157 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me web development courses for beginners that teach javascript and react, also some python programming classes from all platforms
+Total Courses: 252
+Generated at: 2025-11-23T14:40:09.888765
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+UDACITY        :  43 courses | Avg Prob: 0.0041 | Avg Score: 0.1401
+FUTURELEARN    : 198 courses | Avg Prob: 0.0039 | Avg Score: 0.1040
+SIMPLILEARN    :  11 courses | Avg Prob: 0.0038 | Avg Score: 0.0786
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [UDACITY     ] Prob: 0.0051 | Score: 0.3605
+     Java Programming Basics
+     Skills: No skills
+
+ 2. [UDACITY     ] Prob: 0.0051 | Score: 0.3565
+     Swift for Beginners
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0049 | Score: 0.3229
+     Getting Started with Google Workspace
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0048 | Score: 0.2926
+     WeChat Mini Program Development
+     Skills: No skills
+
+ 5. [UDACITY     ] Prob: 0.0047 | Score: 0.2852
+     Introduction to Python Programming
+     Skills: No skills
+
+ 6. [UDACITY     ] Prob: 0.0047 | Score: 0.2817
+     What is Programming?
+     Skills: No skills
+
+ 7. [UDACITY     ] Prob: 0.0046 | Score: 0.2658
+     Intro to Point  Click App Development
+     Skills: No skills
+
+ 8. [UDACITY     ] Prob: 0.0044 | Score: 0.2034
+     Self-Driving Fundamentals: Featuring Apollo
+     Skills: No skills
+
+ 9. [UDACITY     ] Prob: 0.0043 | Score: 0.1976
+     AI Fundamentals
+     Skills: No skills
+
+10. [UDACITY     ] Prob: 0.0043 | Score: 0.1924
+     How to Install Android Studio
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1905
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1905
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1905
+     AI Programming with Python for Beginners
+     Skills: No skills
+
+14. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1868
+     Software Development with Python and Java: Prepare for a Software Development Career
+     Skills: No skills
+
+15. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1868
+     Software Development with Python and Java: Prepare for a Software Development Career
+     Skills: No skills
+
+16. [FUTURELEARN ] Prob: 0.0043 | Score: 0.1868
+     Software Development with Python and Java: Prepare for a Software Development Career
+     Skills: No skills
+
+17. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1748
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+18. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1748
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1748
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0042 | Score: 0.1727
+     Intro to JavaScript
+     Skills: No skills
+
+21. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1726
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+22. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1726
+     Programming Applications with Python: Libraries and Web Scraping
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0042 | Score: 0.1706
+     Microsoft Power Platform
+     Skills: No skills
+
+24. [UDACITY     ] Prob: 0.0042 | Score: 0.1654
+     Product Manager Interview Preparation
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0042 | Score: 0.1642
+     Networking for Web Developers
+     Skills: No skills
+
+26. [UDACITY     ] Prob: 0.0042 | Score: 0.1629
+     UX Design for Mobile Developers
+     Skills: No skills
+
+27. [UDACITY     ] Prob: 0.0042 | Score: 0.1616
+     Introduction to Virtual Reality
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1588
+     Software Development with Python and Java: Understanding Python
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1588
+     Software Development with Python and Java: Understanding Python
+     Skills: No skills
+
+30. [FUTURELEARN ] Prob: 0.0042 | Score: 0.1588
+     Software Development with Python and Java: Understanding Python
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0042 | Score: 0.1564
+     SQL for Data Analysis
+     Skills: No skills
+
+32. [FUTURELEARN ] Prob: 0.0041 | Score: 0.1544
+     Software Development with Python and Java: Introducing Java
+     Skills: No skills
+
+33. [FUTURELEARN ] Prob: 0.0041 | Score: 0.1544
+     Software Development with Python and Java: Introducing Java
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0041 | Score: 0.1544
+     Software Development with Python and Java: Introducing Java
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0041 | Score: 0.1523
+     Intro to HTML and CSS
+     Skills: No skills
+
+36. [SIMPLILEARN ] Prob: 0.0041 | Score: 0.1502
+     Post Graduate Program in Full Stack Web Development

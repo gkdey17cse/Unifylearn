@@ -1,0 +1,1300 @@
+{
+  "timestamp": "2025-11-27T15:04:00.124140",
+  "user_query": "looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+  "debug_info": {
+    "user_query": "looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for 'data science and business analytics courses with statistics, SQL, and data visualization skills' with 'good ratings and practical projects for career advancement'. Expanding terms for data science, business analytics, and practical projects.",
+      "expanded_terms": [
+        "Data Science",
+        "Data Analysis",
+        "Statistics",
+        "Big Data",
+        "Pandas",
+        "Python",
+        "Business Analytics",
+        "Data Visualization",
+        "SQL",
+        "Career Advancement",
+        "Practical Projects",
+        "Real-world Projects",
+        "Hands-on Experience"
+      ],
+      "providers": {
+        "coursera": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Rating": {
+                "$regex": "4|5"
+              }
+            }
+          ]
+        },
+        "udacity": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "simplilearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Instructors": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Instructors": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "futurelearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Topics related to CRM": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Course Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Topics related to CRM": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Course Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "Rating": {
+                "$regex": "4|5"
+              }
+            }
+          ]
+        },
+        "match_count": 8,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "What you learn": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Instructors": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Business Analytics|Data Visualization|SQL)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Instructors": {
+                    "$regex": "\\b(Practical Projects|Real-world Projects|Hands-on Experience)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Duration": {
+                "$regex": "\\band\\ data\\ visualization\\ skills\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Duration": {
+                "$regex": "\\blooking\\ for\\ data\\ science\\ and\\ business\\ analytics\\ with\\ statistics\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Title": {
+                "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Duration": {
+                "$regex": "\\bneed\\ that\\ have\\ good\\ ratings\\ and\\ practical\\ projects\\ for\\ career\\ advancement\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125465fef",
+        "Title": "Data Science Fundamentals with Python and SQL Specialization",
+        "URL": "https://www.coursera.org/specializations/data-science-fundamentals-python-sql",
+        "Short Intro": "Build the Foundation for your Data Science career. Develop hands-on experience with Jupyter, Python, SQL. Perform Statistical Analysis on real data sets.",
+        "Category": "Data Science",
+        "Sub-Category": "Data Analysis",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Persian, Korean",
+        "Skills": "Data Science, Github, Python Programming, Jupyter notebooks, Rstudio, Data Analysis, Pandas, Numpy, Probability And Statistics, Regression Analysis, Data Visualization (DataViz), Statistical Hypothesis Testing, ",
+        "Instructors": "Aije Egwaikhide ,Svetlana Levitan ,Romeo Kienzler ,Joseph Santarcangelo ,Azim Hirjani ,Murtaza Haider ,Rav Ahuja ,Hima Vasudevan ,",
+        "Rating": "4.6stars",
+        "Number of viewers": "2,295",
+        "Duration": "Approximately 7 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Data Science Fundamentals with Python and SQL Specialization",
+        "url": "https://www.coursera.org/specializations/data-science-fundamentals-python-sql",
+        "description": "Build the Foundation for your Data Science career. Develop hands-on experience with Jupyter, Python, SQL. Perform Statistical Analysis on real data sets.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "Data Analysis",
+          "Jupyter Notebooks",
+          "Statistical Analysis",
+          "Data Visualization",
+          "Data Cleaning",
+          "Data Wrangling"
+        ],
+        "instructors": [
+          "Joseph Santarcangelo",
+          "Azim Hirjani",
+          "Svetlana Levitan",
+          "Romeo Kienzler",
+          "Aije Egwaikhide"
+        ],
+        "duration": "Approximately 7 months to complete",
+        "site": "Coursera",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply Python programming to solve data science problems.",
+          "Perform data manipulation and analysis using Python libraries.",
+          "Utilize SQL to query and manage relational databases.",
+          "Conduct statistical analysis on real-world datasets.",
+          "Build and interpret data visualizations.",
+          "Develop proficiency in using Jupyter Notebooks for data science workflows."
+        ],
+        "price": "Paid",
+        "provider": "coursera",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125465fef",
+          "Title": "Data Science Fundamentals with Python and SQL Specialization",
+          "URL": "https://www.coursera.org/specializations/data-science-fundamentals-python-sql",
+          "Short Intro": "Build the Foundation for your Data Science career. Develop hands-on experience with Jupyter, Python, SQL. Perform Statistical Analysis on real data sets.",
+          "Category": "Data Science",
+          "Sub-Category": "Data Analysis",
+          "Course Type": "Specialization",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English, Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, Spanish, Persian, Korean",
+          "Skills": "Data Science, Github, Python Programming, Jupyter notebooks, Rstudio, Data Analysis, Pandas, Numpy, Probability And Statistics, Regression Analysis, Data Visualization (DataViz), Statistical Hypothesis Testing, ",
+          "Instructors": "Aije Egwaikhide ,Svetlana Levitan ,Romeo Kienzler ,Joseph Santarcangelo ,Azim Hirjani ,Murtaza Haider ,Rav Ahuja ,Hima Vasudevan ,",
+          "Rating": "4.6stars",
+          "Number of viewers": "2,295",
+          "Duration": "Approximately 7 months to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 0.7926334223514718,
+        "relevance_score": 1.0,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.7926334223514718,
+      "relevance_score": 1.0
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125465ff6",
+        "Title": "Data Engineering Foundations Specialization",
+        "URL": "https://www.coursera.org/specializations/data-engineering-foundations",
+        "Short Intro": "Build the Foundation for a Data Engineering Career. Develop hands-on experience with Python, SQL, and Relational Databases and master the fundamentals of the Data Engineering ecosystem. ",
+        "Category": "Information Technology",
+        "Sub-Category": "Data Management",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Korean, Arabic, Persian",
+        "Skills": "Information Engineering, Python Programming, Extraction, Transformation And Loading (ETL), Relational Database Management System (RDBMS), SQL, Data Science, Database (DBMS), NoSQL, Data Analysis, Pandas, Numpy, Jupyter notebooks, ",
+        "Instructors": "Rav Ahuja ,Priya Kapoor ,Joseph Santarcangelo ,Ramesh Sannareddy ,Sandip Saha Joy ,Lin Joyner ,Rose Malcolm ,Hima Vasudevan ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "922",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Data Engineering Foundations Specialization",
+        "url": "https://www.coursera.org/specializations/data-engineering-foundations",
+        "description": "Build the Foundation for a Data Engineering Career. Develop hands-on experience with Python, SQL, and Relational Databases and master the fundamentals of the Data Engineering ecosystem.",
+        "category": "Data Engineering",
+        "language": "English",
+        "skills": [
+          "Python",
+          "SQL",
+          "Relational Databases",
+          "Data Warehousing",
+          "Data Pipelines",
+          "ETL Processes",
+          "Cloud Computing",
+          "Data Modeling"
+        ],
+        "instructors": [
+          "Joseph Santarcangelo",
+          "Priya Kapoor",
+          "Ramesh Sannareddy",
+          "Sandip Saha Joy",
+          "Rav Ahuja"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Design and implement data pipelines using Python.",
+          "Work with relational databases using SQL.",
+          "Understand the principles of data warehousing.",
+          "Apply ETL processes to transform and load data.",
+          "Model data for efficient storage and retrieval.",
+          "Describe the components of a modern data engineering ecosystem."
+        ],
+        "price": "Paid",
+        "provider": "coursera",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125465ff6",
+          "Title": "Data Engineering Foundations Specialization",
+          "URL": "https://www.coursera.org/specializations/data-engineering-foundations",
+          "Short Intro": "Build the Foundation for a Data Engineering Career. Develop hands-on experience with Python, SQL, and Relational Databases and master the fundamentals of the Data Engineering ecosystem. ",
+          "Category": "Information Technology",
+          "Sub-Category": "Data Management",
+          "Course Type": "Specialization",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English, Korean, Arabic, Persian",
+          "Skills": "Information Engineering, Python Programming, Extraction, Transformation And Loading (ETL), Relational Database Management System (RDBMS), SQL, Data Science, Database (DBMS), NoSQL, Data Analysis, Pandas, Numpy, Jupyter notebooks, ",
+          "Instructors": "Rav Ahuja ,Priya Kapoor ,Joseph Santarcangelo ,Ramesh Sannareddy ,Sandip Saha Joy ,Lin Joyner ,Rose Malcolm ,Hima Vasudevan ,",
+          "Rating": "4.7stars",
+          "Number of viewers": "922",
+          "Duration": "Approximately 5 months to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 0.20736652890413573,
+        "relevance_score": 0.9329563525324689,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.20736652890413573,
+      "relevance_score": 0.9329563525324689
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546696c",
+        "Title": "Fundamentals of Data Visualization",
+        "URL": "https://www.coursera.org/learn/fundamentals-of-data-visualization?specialization=vital-skills-for-data-science",
+        "Short Intro": "Data is everywhere. Charts, graphs, and other types of information visualizations help people to make sense of this data. This course explores the design, development, and evaluation of such information visualizations. By combining aspects of design, computer graphics, HCI, and data science, you will gain hands-on experience with creating visualizations, using exploratory tools, and architecting data narratives. Topics include user-centered design, web-based visualization, data cognition and perception, and design evaluation.",
+        "Category": "Data Science",
+        "Sub-Category": "Data Analysis",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Evaluation Design,Visualizing data with Altair,User-Centered Design (Create basic visualizations that match data and user needs),Task Analysis (Define elements of a data analysis and/or communication problem),",
+        "Instructors": "Danielle Szafir",
+        "Rating": "4.8stars",
+        "Number of viewers": "17",
+        "Duration": "Approx. 14 hours to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Fundamentals of Data Visualization",
+        "url": "https://www.coursera.org/learn/fundamentals-of-data-visualization?specialization=vital-skills-for-data-science",
+        "description": "Data is everywhere. Charts, graphs, and other types of information visualizations help people to make sense of this data. This course explores the design, development, and evaluation of such information visualizations. By combining aspects of design, computer graphics, HCI, and data science, you will gain hands-on experience with creating visualizations, using exploratory tools, and architecting data narratives. Topics include user-centered design, web-based visualization, data cognition and perception, and design evaluation.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [
+          "Task Analysis (Define Elements Of A Data Analysis And/Or Communication Problem)",
+          "Visualizing Data With Altair",
+          "User-Centered Design (Create Basic Visualizations That Match Data And User Needs)",
+          "Evaluation Design"
+        ],
+        "instructors": [
+          "Danielle Szafir"
+        ],
+        "duration": "Approx. 14 hours to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c212546696c",
+          "Title": "Fundamentals of Data Visualization",
+          "URL": "https://www.coursera.org/learn/fundamentals-of-data-visualization?specialization=vital-skills-for-data-science",
+          "Short Intro": "Data is everywhere. Charts, graphs, and other types of information visualizations help people to make sense of this data. This course explores the design, development, and evaluation of such information visualizations. By combining aspects of design, computer graphics, HCI, and data science, you will gain hands-on experience with creating visualizations, using exploratory tools, and architecting data narratives. Topics include user-centered design, web-based visualization, data cognition and perception, and design evaluation.",
+          "Category": "Data Science",
+          "Sub-Category": "Data Analysis",
+          "Course Type": "Course",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English",
+          "Skills": "Evaluation Design,Visualizing data with Altair,User-Centered Design (Create basic visualizations that match data and user needs),Task Analysis (Define elements of a data analysis and/or communication problem),",
+          "Instructors": "Danielle Szafir",
+          "Rating": "4.8stars",
+          "Number of viewers": "17",
+          "Duration": "Approx. 14 hours to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 1.0380091773613298e-08,
+        "relevance_score": 0.09245091566311898
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 1.0380091773613298e-08,
+      "relevance_score": 0.09245091566311898
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7df",
+        "Title": "Data Analytics Bootcamp",
+        "Short Intro": "Stay ahead of the data revolution with the Caltech Data Analytics Bootcamp, delivered in collaboration with Caltech. Designed for working professionals, the Data Analytics Bootcamp follows an applied learning model, featuring industry-oriented real-world projects and integrated labs.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "University Program",
+        "Skills": 8583,
+        "Instructors": "Data Science & Business Analytics",
+        "URL": "https://www.simplilearn.com/data-analytics-bootcamp?tag=",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Data Analytics Bootcamp",
+        "url": "https://www.simplilearn.com/data-analytics-bootcamp?tag=",
+        "description": "Stay ahead of the data revolution with the Caltech Data Analytics Bootcamp, delivered in collaboration with Caltech. Designed for working professionals, the Data Analytics Bootcamp follows an applied learning model, featuring industry-oriented real-world projects and integrated labs.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Data Science & Business Analytics"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Simplilearn",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7df",
+          "Title": "Data Analytics Bootcamp",
+          "Short Intro": "Stay ahead of the data revolution with the Caltech Data Analytics Bootcamp, delivered in collaboration with Caltech. Designed for working professionals, the Data Analytics Bootcamp follows an applied learning model, featuring industry-oriented real-world projects and integrated labs.",
+          "Category": "Simplilearn",
+          "Subtitle Languages": "University Program",
+          "Skills": 8583,
+          "Instructors": "Data Science & Business Analytics",
+          "URL": "https://www.simplilearn.com/data-analytics-bootcamp?tag=",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 6.262367657922104e-09,
+        "relevance_score": 0.06718434639476585
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 6.262367657922104e-09,
+      "relevance_score": 0.06718434639476585
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d8f5",
+        "Title": "Artificial Intelligence for Trading",
+        "URL": "https://www.udacity.com/course/ai-for-trading--nd880",
+        "Short Intro": "Complete real-world projects designed by industry experts, covering topics from asset management to trading signal generation. Master AI algorithms for trading, and build your career-ready portfolio.",
+        "Duration": "Estimated 6 months to complete",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Courses": "Quantitative Trading",
+        "What you learn": "Learn the basics of quantitative analysis, including data processing, trading signal generation, and portfolio management. Use Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization.",
+        "_provider": "udacity"
+      },
+      "unified_data": {
+        "title": "Artificial Intelligence for Trading",
+        "url": "https://www.udacity.com/course/ai-for-trading--nd880",
+        "description": "Complete real-world projects designed by industry experts, covering topics from asset management to trading signal generation. Master AI algorithms for trading, and build your career-ready portfolio.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Estimated 6 months to complete",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68ac0cf969e0bdd621a8d8f5",
+          "Title": "Artificial Intelligence for Trading",
+          "URL": "https://www.udacity.com/course/ai-for-trading--nd880",
+          "Short Intro": "Complete real-world projects designed by industry experts, covering topics from asset management to trading signal generation. Master AI algorithms for trading, and build your career-ready portfolio.",
+          "Duration": "Estimated 6 months to complete",
+          "Site": "Udacity",
+          "Program Type": "Nanodegree Program",
+          "Courses": "Quantitative Trading",
+          "What you learn": "Learn the basics of quantitative analysis, including data processing, trading signal generation, and portfolio management. Use Python to work with historical stock data, develop trading strategies, and construct a multi-factor model with optimization.",
+          "_provider": "udacity"
+        },
+        "relevance_probability": 6.16951367274485e-09,
+        "relevance_score": 0.06643743038563865
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 6.16951367274485e-09,
+      "relevance_score": 0.06643743038563865
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466362",
+        "Title": "Machine Learning Introduction for Everyone",
+        "URL": "https://www.coursera.org/learn/machine-learning-introduction-for-everyone",
+        "Short Intro": "This three-module course introduces machine learning and data science for everyone with a foundational understanding of machine learning models. You’ll learn about the history of machine learning, applications of machine learning, the machine learning model lifecycle, and tools for machine learning. You’ll also learn about supervised versus unsupervised learning, classification, regression, evaluating machine learning models, and more. Our labs give you hands-on experience with these machine learning and data science concepts. You will develop concrete machine learning skills as well as create a final project demonstrating your proficiency. ",
+        "Category": "Data Science",
+        "Sub-Category": "Machine Learning",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English",
+        "Skills": "Deep Learning,Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Machine Learning Model Lifecycle,",
+        "Instructors": "Aije Egwaikhide",
+        "Rating": "4.5stars",
+        "Number of viewers": "112",
+        "Duration": "Approx. 7 hours to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Machine Learning Introduction for Everyone",
+        "url": "https://www.coursera.org/learn/machine-learning-introduction-for-everyone",
+        "description": "This three-module course introduces machine learning and data science for everyone with a foundational understanding of machine learning models. Youll learn about the history of machine learning, applications of machine learning, the machine learning model lifecycle, and tools for machine learning. Youll also learn about supervised versus unsupervised learning, classification, regression, evaluating machine learning models, and more. Our labs give you hands-on experience with these machine learning and data science concepts. You will develop concrete machine learning skills as well as create a final project demonstrating your proficiency.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Machine Learning",
+          "Machine Learning Model Lifecycle",
+          "Artificial Intelligence (Ai)",
+          "Reinforcement Learning",
+          "Deep Learning"
+        ],
+        "instructors": [
+          "Aije Egwaikhide"
+        ],
+        "duration": "Approx. 7 hours to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125466362",
+          "Title": "Machine Learning Introduction for Everyone",
+          "URL": "https://www.coursera.org/learn/machine-learning-introduction-for-everyone",
+          "Short Intro": "This three-module course introduces machine learning and data science for everyone with a foundational understanding of machine learning models. You’ll learn about the history of machine learning, applications of machine learning, the machine learning model lifecycle, and tools for machine learning. You’ll also learn about supervised versus unsupervised learning, classification, regression, evaluating machine learning models, and more. Our labs give you hands-on experience with these machine learning and data science concepts. You will develop concrete machine learning skills as well as create a final project demonstrating your proficiency. ",
+          "Category": "Data Science",
+          "Sub-Category": "Machine Learning",
+          "Course Type": "Course",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English",
+          "Skills": "Deep Learning,Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Machine Learning Model Lifecycle,",
+          "Instructors": "Aije Egwaikhide",
+          "Rating": "4.5stars",
+          "Number of viewers": "112",
+          "Duration": "Approx. 7 hours to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 5.013945759408798e-09,
+        "relevance_score": 0.05606758880122127
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 5.013945759408798e-09,
+      "relevance_score": 0.05606758880122127
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7e0",
+        "Title": "Data Scientist",
+        "Short Intro": "This IBM-sponsored Data Science course includes unique hackathons, masterclasses, webinars, and Ask-Me-Anything sessions. The online training will give you hands-on experience with R, Python, Machine Learning, Tableau, Hadoop, and Spark. Improve your knowledge with this Data Science course and live interaction with other practitioners and Machine Learning Engineers.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best Data Science Course by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Masters Program",
+        "Instructors": "Data Science & Business Analytics",
+        "URL": "https://www.simplilearn.com/",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Data Scientist",
+        "url": "https://www.simplilearn.com/",
+        "description": "This IBM-sponsored Data Science course includes unique hackathons, masterclasses, webinars, and Ask-Me-Anything sessions. The online training will give you hands-on experience with R, Python, Machine Learning, Tableau, Hadoop, and Spark. Improve your knowledge with this Data Science course and live interaction with other practitioners and Machine Learning Engineers.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [
+          "Data Science & Business Analytics"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Simplilearn",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7e0",
+          "Title": "Data Scientist",
+          "Short Intro": "This IBM-sponsored Data Science course includes unique hackathons, masterclasses, webinars, and Ask-Me-Anything sessions. The online training will give you hands-on experience with R, Python, Machine Learning, Tableau, Hadoop, and Spark. Improve your knowledge with this Data Science course and live interaction with other practitioners and Machine Learning Engineers.",
+          "Category": "Simplilearn",
+          "Course Type": "Ranked #1 Best Data Science Course by Career Karma",
+          "Language": " Career Karma",
+          "Subtitle Languages": "Masters Program",
+          "Instructors": "Data Science & Business Analytics",
+          "URL": "https://www.simplilearn.com/",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 4.201641034058939e-09,
+        "relevance_score": 0.04723018827736751
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 4.201641034058939e-09,
+      "relevance_score": 0.04723018827736751
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c21254663bf",
+        "Title": "Introduction to Machine Learning",
+        "URL": "https://www.coursera.org/learn/machine-learning-duke",
+        "Short Intro": "This course will provide you a foundational understanding of machine learning models (logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc.) as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction. In addition, we have designed practice exercises that will give you hands-on experience implementing these data science models on data sets. These practice exercises will teach you how to implement machine learning algorithms with PyTorch, open source libraries used by leading tech companies in the machine learning field (e.g., Google, NVIDIA, CocaCola, eBay, Snapchat, Uber and many more).",
+        "Category": "Data Science",
+        "Sub-Category": "Machine Learning",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+        "Skills": "Natural Language Processing,Convolutional Neural Network,Machine Learning,Python Programming,pytorch,",
+        "Instructors": "Lawrence Carin",
+        "Rating": "4.7stars",
+        "Number of viewers": "3,264",
+        "Duration": "Approx. 21 hours to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Introduction to Machine Learning",
+        "url": "https://www.coursera.org/learn/machine-learning-duke",
+        "description": "This course will provide you a foundational understanding of machine learning models logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc. as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction. In addition, we have designed practice exercises that will give you hands-on experience implementing these data science models on data sets. These practice exercises will teach you how to implement machine learning algorithms with PyTorch, open source libraries used by leading tech companies in the machine learning field e.g., Google, NVIDIA, CocaCola, eBay, Snapchat, Uber and many more.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Machine Learning",
+          "Convolutional Neural Network",
+          "Python Programming",
+          "Pytorch",
+          "Natural Language Processing"
+        ],
+        "instructors": [
+          "Lawrence Carin"
+        ],
+        "duration": "Approx. 21 hours to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c21254663bf",
+          "Title": "Introduction to Machine Learning",
+          "URL": "https://www.coursera.org/learn/machine-learning-duke",
+          "Short Intro": "This course will provide you a foundational understanding of machine learning models (logistic regression, multilayer perceptrons, convolutional neural networks, natural language processing, etc.) as well as demonstrate how these models can solve complex problems in a variety of industries, from medical diagnostics to image recognition to text prediction. In addition, we have designed practice exercises that will give you hands-on experience implementing these data science models on data sets. These practice exercises will teach you how to implement machine learning algorithms with PyTorch, open source libraries used by leading tech companies in the machine learning field (e.g., Google, NVIDIA, CocaCola, eBay, Snapchat, Uber and many more).",
+          "Category": "Data Science",
+          "Sub-Category": "Machine Learning",
+          "Course Type": "Course",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish",
+          "Skills": "Natural Language Processing,Convolutional Neural Network,Machine Learning,Python Programming,pytorch,",
+          "Instructors": "Lawrence Carin",
+          "Rating": "4.7stars",
+          "Number of viewers": "3,264",
+          "Duration": "Approx. 21 hours to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 3.7503317217583536e-09,
+        "relevance_score": 0.041548644469037964
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 3.7503317217583536e-09,
+      "relevance_score": 0.041548644469037964
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c212546645a",
+        "Title": "Principles of Computing (Part 2)",
+        "URL": "https://www.coursera.org/learn/principles-of-computing-2?specialization=computer-fundamentals",
+        "Short Intro": "This two-part course introduces the basic mathematical and programming principles that underlie much of Computer Science. Understanding these principles is crucial to the process of creating efficient and well-structured solutions for computational problems.  To get hands-on experience working with these concepts, we will use the Python programming language. The main focus of the class will be weekly mini-projects that build upon the mathematical and programming principles that are taught in the class. To keep the class fun and engaging, many of the projects will involve working with strategy-based games.",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Course",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish, Romanian",
+        "Skills": "Recursion,Algorithms,Python Programming,Tree (Data Structure),",
+        "Instructors": "Scott Rixner",
+        "Rating": "4.8stars",
+        "Number of viewers": "357",
+        "Duration": "Approx. 15 hours to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Principles of Computing Part 2",
+        "url": "https://www.coursera.org/learn/principles-of-computing-2?specialization=computer-fundamentals",
+        "description": "This two-part course introduces the basic mathematical and programming principles that underlie much of Computer Science. Understanding these principles is crucial to the process of creating efficient and well-structured solutions for computational problems. To get hands-on experience working with these concepts, we will use the Python programming language. The main focus of the class will be weekly mini-projects that build upon the mathematical and programming principles that are taught in the class. To keep the class fun and engaging, many of the projects will involve working with strategy-based games.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [
+          "Algorithms",
+          "Python Programming",
+          "Recursion",
+          "Tree (Data Structure)"
+        ],
+        "instructors": [
+          "Scott Rixner"
+        ],
+        "duration": "Approx. 15 hours to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c212546645a",
+          "Title": "Principles of Computing (Part 2)",
+          "URL": "https://www.coursera.org/learn/principles-of-computing-2?specialization=computer-fundamentals",
+          "Short Intro": "This two-part course introduces the basic mathematical and programming principles that underlie much of Computer Science. Understanding these principles is crucial to the process of creating efficient and well-structured solutions for computational problems.  To get hands-on experience working with these concepts, we will use the Python programming language. The main focus of the class will be weekly mini-projects that build upon the mathematical and programming principles that are taught in the class. To keep the class fun and engaging, many of the projects will involve working with strategy-based games.",
+          "Category": "Computer Science",
+          "Sub-Category": "Software Development",
+          "Course Type": "Course",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: Arabic, French, Portuguese (European), Italian, Vietnamese, German, Russian, English, Spanish, Romanian",
+          "Skills": "Recursion,Algorithms,Python Programming,Tree (Data Structure),",
+          "Instructors": "Scott Rixner",
+          "Rating": "4.8stars",
+          "Number of viewers": "357",
+          "Duration": "Approx. 15 hours to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 3.4803794835026095e-09,
+        "relevance_score": 0.03781349644999302
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 3.4803794835026095e-09,
+      "relevance_score": 0.03781349644999302
+    },
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "692832670045bc30508ab893",
+        "Title": "Agentic AI Nanodegree",
+        "URL": "https://www.udacity.com/course/agentic-ai--nd900",
+        "Short Intro": "Master building AI agents and orchestrating multi-agent workflows.",
+        "Duration": "Approx. 51 hours",
+        "Site": "Udacity",
+        "Program Type": "Nanodegree Program",
+        "Level": "Intermediate",
+        "Prequisites": "Python programming experience recommended.",
+        "What you learn": "Advanced prompting techniques (e.g. Chain-of-Thought, ReAct), design of agentic workflows with patterns like routing and parallelization, create and orchestrate AI agents in Python that can reason, plan, use tools, interact with APIs/databases. Build real-world projects like multi-agent travel planners, AI project managers, automated sales systems.",
+        "_provider": "udacity"
+      },
+      "unified_data": {
+        "title": "Agentic AI Nanodegree",
+        "url": "https://www.udacity.com/course/agentic-ai--nd900",
+        "description": "Master building AI agents and orchestrating multi-agent workflows.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "Approx. 51 hours",
+        "site": "Udacity",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Udacity",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "692832670045bc30508ab893",
+          "Title": "Agentic AI Nanodegree",
+          "URL": "https://www.udacity.com/course/agentic-ai--nd900",
+          "Short Intro": "Master building AI agents and orchestrating multi-agent workflows.",
+          "Duration": "Approx. 51 hours",
+          "Site": "Udacity",
+          "Program Type": "Nanodegree Program",
+          "Level": "Intermediate",
+          "Prequisites": "Python programming experience recommended.",
+          "What you learn": "Advanced prompting techniques (e.g. Chain-of-Thought, ReAct), design of agentic workflows with patterns like routing and parallelization, create and orchestrate AI agents in Python that can reason, plan, use tools, interact with APIs/databases. Build real-world projects like multi-agent travel planners, AI project managers, automated sales systems.",
+          "_provider": "udacity"
+        },
+        "relevance_probability": 3.333817438549137e-09,
+        "relevance_score": 0.03566233097603757
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 3.333817438549137e-09,
+      "relevance_score": 0.03566233097603757
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125466198",
+        "Title": "IBM Back-End Development Professional Certificate",
+        "URL": "https://www.coursera.org/professional-certificates/ibm-backend-development",
+        "Short Intro": "Prepare for a career as a back-end developer.. Gain the in-demand skills and hands-on experience to get job-ready in less than 6 months. ",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Professional Certificate",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Korean, ",
+        "Skills": "Database (DBMS),Containers,Python Programming,Microservices,Backend Development,",
+        "Instructors": "John Rofrano",
+        "Rating": "4.8",
+        "Number of viewers": "106 reviews",
+        "Duration": "12 months at 10 hours a week",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "IBM Back-End Development Professional Certificate",
+        "url": "https://www.coursera.org/professional-certificates/ibm-backend-development",
+        "description": "Prepare for a career as a back-end developer.. Gain the in-demand skills and hands-on experience to get job-ready in less than 6 months.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [
+          "Containers",
+          "Backend Development",
+          "Database (Dbms)",
+          "Microservices",
+          "Python Programming"
+        ],
+        "instructors": [
+          "John Rofrano"
+        ],
+        "duration": "12 months at 10 hours a week",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125466198",
+          "Title": "IBM Back-End Development Professional Certificate",
+          "URL": "https://www.coursera.org/professional-certificates/ibm-backend-development",
+          "Short Intro": "Prepare for a career as a back-end developer.. Gain the in-demand skills and hands-on experience to get job-ready in less than 6 months. ",
+          "Category": "Computer Science",
+          "Sub-Category": "Software Development",
+          "Course Type": "Professional Certificate",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English, Korean, ",
+          "Skills": "Database (DBMS),Containers,Python Programming,Microservices,Backend Development,",
+          "Instructors": "John Rofrano",
+          "Rating": "4.8",
+          "Number of viewers": "106 reviews",
+          "Duration": "12 months at 10 hours a week",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 3.1118107370615242e-09,
+        "relevance_score": 0.03221666907511258
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 3.1118107370615242e-09,
+      "relevance_score": 0.03221666907511258
+    },
+    {
+      "provider": "coursera",
+      "original_data": {
+        "_id": "68aa13e9b82e4c2125465ff8",
+        "Title": "Applied Software Engineering Fundamentals Specialization",
+        "URL": "https://www.coursera.org/specializations/software-engineering-fundamentals",
+        "Short Intro": "Build the foundation of your career in Software. Develop hands-on experience with Git, GitHub, Linux, and Python, and learn the fundamentals of Software Engineering. ",
+        "Category": "Computer Science",
+        "Sub-Category": "Software Development",
+        "Course Type": "Specialization",
+        "Language": "English",
+        "Subtitle Languages": "Subtitles: English, Korean, Arabic",
+        "Skills": "Linux, Software Design and Architecture, Python Programming, Git and GitHub, Software Development Lifecycle (SDLC), Basic programming concepts, Careers in software engineering, Programming languages and frameworks, The Software Development Lifecycle (SDLC), Software Architecture, Shell Script, Bash (Unix Shell), ",
+        "Instructors": "Rav Ahuja ,Lin Joyner ,Bethany Hudnutt ,Sam Prokopchuk ,Ramesh Sannareddy ,Upkar Lidder ,Joseph Santarcangelo ,",
+        "Rating": "4.7stars",
+        "Number of viewers": "201",
+        "Duration": "Approximately 5 months to complete",
+        "Site": "Coursera",
+        "_provider": "coursera"
+      },
+      "unified_data": {
+        "title": "Applied Software Engineering Fundamentals Specialization",
+        "url": "https://www.coursera.org/specializations/software-engineering-fundamentals",
+        "description": "Build the foundation of your career in Software. Develop hands-on experience with Git, GitHub, Linux, and Python, and learn the fundamentals of Software Engineering.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [
+          "Programming Languages And Frameworks",
+          "The Software Development Lifecycle (Sdlc)",
+          "Software Design And Architecture",
+          "Careers In Software Engineering",
+          "Shell Script",
+          "Software Development Lifecycle (Sdlc)",
+          "Basic Programming Concepts",
+          "Bash (Unix Shell)"
+        ],
+        "instructors": [
+          "Bethany Hudnutt",
+          "Sam Prokopchuk",
+          "Ramesh Sannareddy",
+          "Lin Joyner",
+          "Rav Ahuja"
+        ],
+        "duration": "Approximately 5 months to complete",
+        "site": "Coursera",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Coursera",
+        "_enrichment_applied": false,
+        "original_data": {
+          "_id": "68aa13e9b82e4c2125465ff8",
+          "Title": "Applied Software Engineering Fundamentals Specialization",
+          "URL": "https://www.coursera.org/specializations/software-engineering-fundamentals",
+          "Short Intro": "Build the foundation of your career in Software. Develop hands-on experience with Git, GitHub, Linux, and Python, and learn the fundamentals of Software Engineering. ",
+          "Category": "Computer Science",
+          "Sub-Category": "Software Development",
+          "Course Type": "Specialization",
+          "Language": "English",
+          "Subtitle Languages": "Subtitles: English, Korean, Arabic",
+          "Skills": "Linux, Software Design and Architecture, Python Programming, Git and GitHub, Software Development Lifecycle (SDLC), Basic programming concepts, Careers in software engineering, Programming languages and frameworks, The Software Development Lifecycle (SDLC), Software Architecture, Shell Script, Bash (Unix Shell), ",
+          "Instructors": "Rav Ahuja ,Lin Joyner ,Bethany Hudnutt ,Sam Prokopchuk ,Ramesh Sannareddy ,Upkar Lidder ,Joseph Santarcangelo ,",
+          "Rating": "4.7stars",
+          "Number of viewers": "201",
+          "Duration": "Approximately 5 months to complete",
+          "Site": "Coursera",
+          "_provider": "coursera"
+        },
+        "relevance_probability": 3.0404931987627242e-09,
+        "relevance_score": 0.031057416643474264
+      },
+      "enrichment_applied": false,
+      "relevance_probability": 3.0404931987627242e-09,
+      "relevance_score": 0.031057416643474264
+    }
+  ]
+}

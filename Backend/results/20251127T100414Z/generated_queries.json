@@ -1,0 +1,83 @@
+{
+  "user_query": "show me business courses from uda City and simply learn flat for but not from course era",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'business courses from uda City and simply learn flat for but not from course era'. Expanding to include synonyms for business and handling platform-specific requests with exclusions.",
+    "expanded_terms": [
+      "Business",
+      "Management",
+      "Entrepreneurship",
+      "Finance",
+      "Accounting",
+      "Marketing",
+      "Leadership"
+    ],
+    "providers": {
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Business|Management|Entrepreneurship|Finance|Accounting|Marketing|Leadership)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:04:14.793614"
+}

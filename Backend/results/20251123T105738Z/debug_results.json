@@ -1,0 +1,2384 @@
+{
+  "timestamp": "2025-11-23T10:57:38.120889",
+  "user_query": "Show me some Cyber Security related courses from Future Learn platform and Simplilearn platform",
+  "debug_info": {
+    "user_query": "Show me some Cyber Security related courses from Future Learn platform and Simplilearn platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "description": "Cyber Security courses from Future Learn and Simplilearn",
+      "context_terms": "cyber security",
+      "aggregation_strategy": "provider_level",
+      "providers": {
+        "coursera": {},
+        "udacity": {},
+        "simplilearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "futurelearn": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "udacity": {
+        "collection": "Udacity",
+        "query": {},
+        "match_count": 0,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": "No valid query conditions - provider skipped",
+        "skipped": true
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 2,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "futurelearn": {
+        "collection": "FutureLearn",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bCyber Security\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 51,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7c3",
+        "Title": "Post Graduate Program in Cyber Security",
+        "URL": "https://www.simplilearn.com/pgp-cyber-security-certification-training-course?tag=",
+        "Short Intro": "This Post Graduate Program in Cyber Security is designed to equip you with the skills required to become an expert in the rapidly growing field of Cyber Security. This cyber security program aims to help you stay abreast of all the latest trends in cyber security as well.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "University Program",
+        "Skills": 757,
+        "Instructors": "Cyber Security"
+      },
+      "unified_data": {
+        "title": "Post Graduate Program in Cyber Security",
+        "url": "https://www.simplilearn.com/pgp-cyber-security-certification-training-course?tag=",
+        "description": "This Post Graduate Program in Cyber Security is designed to equip you with the skills required to become an expert in the rapidly growing field of Cyber Security. This cyber security program aims to help you stay abreast of all the latest trends in cyber security as well.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Ethical Hacking",
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Security Information And Event Management (Siem)",
+          "Malware Analysis",
+          "Network Security"
+        ],
+        "instructors": [
+          "Cyber Security"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement security measures to protect networks and systems from threats.",
+          "Utilize SIEM tools for security monitoring and threat detection.",
+          "Analyze malware samples to understand their functionality and impact.",
+          "Understand core cybersecurity principles and practices.",
+          "Develop incident response plans to mitigate the impact of security breaches.",
+          "Apply ethical hacking techniques to identify vulnerabilities in systems."
+        ],
+        "price": "Paid",
+        "provider": "Simplilearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7ee",
+        "Title": "Cyber Security Expert",
+        "URL": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Cyber%20Security%20Expert",
+        "Short Intro": "Customized learning paths, 4x outcomes & completion rates; award-winning client support.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "Masters Program",
+        "Instructors": "Cyber Security"
+      },
+      "unified_data": {
+        "title": "Cyber Security Expert",
+        "url": "https://www.simplilearn.com/search?item_type=course%2Cbundle%2Ccohort_master%2Cuniversity_master&tag=Cyber%20Security%20Expert",
+        "description": "Customized learning paths, 4x outcomes  completion rates; award-winning client support.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Ethical Hacking",
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Penetration Testing",
+          "Security Auditing",
+          "Malware Analysis",
+          "Network Security"
+        ],
+        "instructors": [
+          "Cyber Security"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Conduct security audits and risk assessments",
+          "Understand cybersecurity principles and practices",
+          "Analyze malware samples and reverse engineer malicious code",
+          "Implement security controls to protect systems and data",
+          "Develop incident response plans and procedures",
+          "Apply penetration testing methodologies to identify vulnerabilities"
+        ],
+        "price": "Paid",
+        "provider": "Simplilearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c7ad",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "72 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Ethics / Coding & Programming / CRM / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Risk Assessment",
+          "Security Awareness Training",
+          "Cyber Threat Analysis",
+          "Security Policy Development",
+          "Vulnerability Management",
+          "Incident Response Planning"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify different types of cyber threats and their potential impact",
+          "Develop a comprehensive cyber security policy aligned with business objectives",
+          "Evaluate security controls and implement effective mitigation strategies",
+          "Understand the current cyber security landscape and emerging threats",
+          "Implement security awareness programs to educate users about cyber threats",
+          "Analyze vulnerabilities and assess risks to information systems"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c7e9",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "39 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Ethical Hacking / Innovation / Network Security / Python / Software Development / Web Analytics / Web Development / AI & Robotics  / Big Data & Analytics  / Business Technology / Cyber Security / Data Analytics / Data Science / Data Visualisation / Django / Ethical Hacking / Innovation / Network Security / Python / Software Development / Web Analytics / Web Development / ",
+        "ExpertTracks": "4 ExpertTracks",
+        "FAQs": "What is cloud computing? /Can I learn cloud computing online? /Is it difficult to study cloud computing? /What can cloud computing be used for? /How do I start a career in cloud computing? /",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Risk Assessment",
+          "Incident Response",
+          "Cyber Threat Analysis",
+          "Security Policy Development",
+          "Network Security",
+          "Vulnerability Management",
+          "Data Protection"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Evaluate security measures and propose improvements",
+          "Understand the legal and ethical considerations in cybersecurity",
+          "Understand the current cyber security landscape and its evolving threats",
+          "Apply best practices for developing and implementing effective security policies",
+          "Identify different types of cyber threats and their potential impact",
+          "Analyze vulnerabilities and assess security risks within an organization"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c84b",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "Short Intro": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "Course Short Intro": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "description": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Security Awareness Training",
+          "Threat Analysis",
+          "Security Architecture",
+          "Network Security",
+          "Risk Management"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply risk management principles to cyber security",
+          "Identify key functions of cyber security in organizations",
+          "Analyze potential vulnerabilities and risks to commercial organizations",
+          "Understand the importance of security awareness training",
+          "Understand the current cyber security threat landscape",
+          "Evaluate different types of cyber threats and attacks"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c84c",
+        "Title": "Cyber Security Awareness and Solutions",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "Short Intro": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Awareness and Solutions",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "Course Short Intro": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "Weekly study": "2 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Cyber Security Awareness and Solutions",
+        "url": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "description": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Risk Assessment",
+          "Data Security",
+          "Malware Analysis",
+          "Threat Identification",
+          "Privacy Protection",
+          "Phishing Detection",
+          "Password Management"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Evaluate the effectiveness of different security measures.",
+          "Identify common cyber security threats and vulnerabilities.",
+          "Understand the risks associated with phishing and malware.",
+          "Apply secure practices for password management and data protection.",
+          "Protect personal information and privacy online.",
+          "Analyze security settings on computers and smartphones."
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c84d",
+        "Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "Course Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "How Cyber Security Affects the Software Development Life Cycle",
+        "url": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "description": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Security Auditing",
+          "Threat Modeling",
+          "Security Requirements Engineering",
+          "Security Risk Management",
+          "Secure Coding Practices"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Implement secure coding practices to mitigate common vulnerabilities",
+          "Develop a security-conscious approach to software design and development",
+          "Understand the key principles of security in the Software Development Life Cycle (SDLC)",
+          "Evaluate the effectiveness of different security controls within the SDLC",
+          "Analyze the legal and ethical implications of secure software development",
+          "Apply threat modeling techniques to identify potential security vulnerabilities"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c853",
+        "Title": "Introduction to Cyber Security",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "Short Intro": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "Duration": "8 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Introduction to Cyber Security",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "Course Short Intro": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Introduction to Cyber Security",
+        "url": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "description": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Security Auditing",
+          "Malware Analysis",
+          "Network Security",
+          "Risk Management"
+        ],
+        "instructors": [],
+        "duration": "8 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify common cyber threats and vulnerabilities",
+          "Apply security measures to protect digital information",
+          "Understand fundamental cybersecurity principles and concepts",
+          "Evaluate security risks and implement mitigation techniques",
+          "Analyze security incidents and develop response strategies"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c854",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Incident Response",
+          "Vulnerability Assessment",
+          "Cyber Threat Analysis",
+          "Security Policy Development",
+          "Network Security",
+          "Data Protection",
+          "Risk Management"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Analyze vulnerabilities in systems and networks.",
+          "Identify and classify different types of cyber threats.",
+          "Apply risk management principles to cybersecurity.",
+          "Develop an effective security policy for an organization.",
+          "Evaluate and improve existing security measures.",
+          "Understand the current cybersecurity landscape and its challenges."
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c855",
+        "Title": "The Future of Cyber Security and Emerging Technologies",
+        "URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Future of Cyber Security and Emerging Technologies",
+        "Course URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "Course Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Future of Cyber Security and Emerging Technologies",
+        "url": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "description": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cryptography",
+          "Risk Assessment",
+          "Incident Response",
+          "Cyber Threat Analysis",
+          "Network Security",
+          "Vulnerability Management",
+          "Security Architecture Design"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply risk management frameworks to cyber security challenges.",
+          "Evaluate the security implications of new and evolving technologies.",
+          "Develop effective incident response strategies.",
+          "Design robust security architectures to mitigate cyber risks.",
+          "Analyze emerging cyber security threats and their potential impact.",
+          "Understand and apply relevant cyber security regulations and standards."
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c859",
+        "Title": "Cyber Crime Investigation",
+        "URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Crime Investigation",
+        "Course URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Course Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Crime Investigation",
+        "url": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "description": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Cyber Threat Intelligence",
+          "Vulnerability Assessment",
+          "Malware Analysis",
+          "Cybersecurity Incident Response",
+          "Network Security Analysis",
+          "Digital Forensics"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the fundamentals of cybercrime investigation techniques.",
+          "Apply methods for identifying and analyzing cyber security attacks.",
+          "Analyze real-world case studies of cybercrime investigations.",
+          "Evaluate strategies for preventing future cybercrime incidents.",
+          "Understand the legal and ethical considerations in cybercrime investigation."
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c85a",
+        "Title": "Cyber Security Incident Response for Managers",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Incident Response for Managers",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Course Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Incident Response for Managers",
+        "url": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "description": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Security Awareness Training",
+          "Cyber Threat Analysis",
+          "Communication Strategies",
+          "Security Framework Implementation",
+          "Vulnerability Management",
+          "Incident Response Planning",
+          "Risk Management"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the principles of cyber security incident response",
+          "Analyze potential cyber security vulnerabilities within an organization",
+          "Apply relevant security frameworks to prevent cyber threats",
+          "Implement security awareness training programs for employees",
+          "Evaluate the effectiveness of incident response plans",
+          "Develop effective communication strategies during a security incident"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c85b",
+        "Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Course Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "url": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "description": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Reverse Engineering",
+          "Network Traffic Analysis",
+          "Malware Analysis",
+          "Log Analysis",
+          "Cybersecurity Investigations",
+          "Digital Forensics",
+          "System Analysis"
+        ],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop strategies for preventing malware attacks and improving cybersecurity posture.",
+          "Apply forensic tools and techniques to extract and analyze digital evidence.",
+          "Analyze malware behavior using static and dynamic analysis techniques.",
+          "Identify different types of malware and their characteristics.",
+          "Understand the principles of malware analysis and digital forensics.",
+          "Investigate compromised systems and identify the source of malware infections."
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c85f",
+        "Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Short Intro": "536Â enrolled on this course",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "Course URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Course Short Intro": "536Â enrolled on this course",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "url": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "description": "536Â enrolled on this course",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Hashing Algorithms",
+          "Brute-Force Attacks",
+          "Salting Techniques",
+          "Password Cracking",
+          "Key Derivation Functions",
+          "Dictionary Attacks",
+          "Rainbow Tables"
+        ],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Evaluate the effectiveness of salting and key stretching in password security",
+          "Analyze the strengths and weaknesses of different hashing algorithms",
+          "Understand common password storage methods and their vulnerabilities",
+          "Apply various password cracking techniques using appropriate tools",
+          "Create and utilize rainbow tables for password recovery",
+          "Implement defenses against common password attacks"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c860",
+        "Title": "Advanced Cyber Security Training: Network Security",
+        "URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Network Security",
+        "Course URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Course Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Network Security",
+        "url": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "description": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "category": "Cybersecurity",
+        "language": "English",
+        "skills": [
+          "Network Traffic Analysis",
+          "Incident Response",
+          "Security Information And Event Management (Siem)",
+          "Penetration Testing",
+          "Firewall Configuration",
+          "Vulnerability Scanning",
+          "Network Intrusion Detection"
+        ],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "Advanced",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Identify common network attack vectors and vulnerabilities",
+          "Conduct vulnerability assessments and penetration testing to identify security weaknesses",
+          "Apply SIEM principles to monitor and manage security events",
+          "Develop and execute incident response plans for network security breaches",
+          "Implement and configure firewalls to protect network perimeters",
+          "Analyze network traffic to detect malicious activity"
+        ],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c861",
+        "Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "Course URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Course Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "url": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "description": "_x000D_ Identify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c865",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c866",
+        "Title": "The Future of Cyber Security and Emerging Technologies",
+        "URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "The Future of Cyber Security and Emerging Technologies",
+        "Course URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "Course Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "The Future of Cyber Security and Emerging Technologies",
+        "url": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "description": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c868",
+        "Title": "Network Security and Defence: A History of IT",
+        "URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Network Security and Defence: A History of IT",
+        "Course URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Course Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Network Security and Defence: A History of IT",
+        "url": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "description": "Delve into IT infrastructure and explore the history of information technology IT, information systems IS, and cyber security.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c86d",
+        "Title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "URL": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "Short Intro": "_x000D_\nDiscover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "Course URL": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "Course Short Intro": "_x000D_\nDiscover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection. ",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "url": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "description": "_x000D_ Discover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c86e",
+        "Title": "Cyber Security Foundations: Identity and Access Management",
+        "URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "Short Intro": "_x000D_\nExplore key identity and access management concepts and learn how they can contribute to data security and cyber resilience. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Identity and Access Management",
+        "Course URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "Course Short Intro": "_x000D_\nExplore key identity and access management concepts and learn how they can contribute to data security and cyber resilience. ",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Identity and Access Management",
+        "url": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "description": "_x000D_ Explore key identity and access management concepts and learn how they can contribute to data security and cyber resilience.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c86f",
+        "Title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "Short Intro": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_\n",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "Course URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "Course Short Intro": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_\n",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "url": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "description": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c870",
+        "Title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "Short Intro": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "Course Short Intro": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "url": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "description": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c871",
+        "Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "43 Courses",
+        "Topics related to CRM": "AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / AI & Robotics  / Big Data & Analytics  / Business Technology / Cloud Computing / Coding & Programming / Data Analytics / Django / Ethical Hacking / Excel / Game Development / Machine Learning / Network Security / Python / Web Analytics / ",
+        "ExpertTracks": "5 ExpertTracks",
+        "Course Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "Course Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "How Cyber Security Affects the Software Development Life Cycle",
+        "url": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "description": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c886",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "15 Courses",
+        "Topics related to CRM": "Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "FAQs": "What is network security? /Can I learn network security online? /What are the top network security courses? /Is it difficult to study network security? /How do I start a career in network security? /",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c88b",
+        "Title": "Advanced Cyber Security Training: Network Security",
+        "URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "15 Courses",
+        "Topics related to CRM": "Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "FAQs": "What is network security? /Can I learn network security online? /What are the top network security courses? /Is it difficult to study network security? /How do I start a career in network security? /",
+        "Course Title": "Advanced Cyber Security Training: Network Security",
+        "Course URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Course Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Network Security",
+        "url": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "description": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020e69e0bdd621a8c88d",
+        "Title": "Network Security and Defence: A History of IT",
+        "URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "15 Courses",
+        "Topics related to CRM": "Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / Business Technology / Coding & Programming / Cyber Security / Data Analytics / Ethical Hacking / Software Development / Web Development / ",
+        "ExpertTracks": "1 ExpertTracks",
+        "FAQs": "What is network security? /Can I learn network security online? /What are the top network security courses? /Is it difficult to study network security? /How do I start a career in network security? /",
+        "Course Title": "Network Security and Defence: A History of IT",
+        "Course URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Course Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Network Security and Defence: A History of IT",
+        "url": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "description": "Delve into IT infrastructure and explore the history of information technology IT, information systems IS, and cyber security.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cdde",
+        "Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Short Intro": "536Â enrolled on this course",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "Course URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Course Short Intro": "536Â enrolled on this course",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "url": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "description": "536Â enrolled on this course",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cddf",
+        "Title": "Advanced Cyber Security Training: Network Security",
+        "URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Network Security",
+        "Course URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Course Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Network Security",
+        "url": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "description": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac020f69e0bdd621a8cde0",
+        "Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "676 Courses",
+        "Topics related to CRM": "Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / Big Data & Analytics  / Business Ethics / Business Strategy / Communication / Construction / CRM / Data Analytics / Data Visualisation / Decision-making / Digital Marketing / Entrepreneurship / Excel / Finance & Accounting / Fundraising / Hospitality / HR / Innovation / Investment / Logistics / Machine Learning / Management & Leadership / Marketing / Professional Development / Project Management / SEO / Social Media / Soft Skills / Web Analytics / ",
+        "ExpertTracks": "75 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "Course URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Course Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "url": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "description": "_x000D_ Identify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d12c",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "Short Intro": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "Course Short Intro": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/cyber-security-landscape",
+        "description": "Understand cyber security today: explore threats and the key functions of cyber security within a commercial organisation.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d157",
+        "Title": "Cyber Security Awareness and Solutions",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "Short Intro": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Awareness and Solutions",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "Course Short Intro": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "Weekly study": "2 hours",
+        "Premium course": "$84"
+      },
+      "unified_data": {
+        "title": "Cyber Security Awareness and Solutions",
+        "url": "https://www.futurelearn.com/courses/cyber-security-awareness-and-solutions",
+        "description": "Protect yourself from cyber security attacks when using computers and smartphones as you learn how to identify threats.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d16e",
+        "Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "Course Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "How Cyber Security Affects the Software Development Life Cycle",
+        "url": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-sc",
+        "description": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d179",
+        "Title": "Introduction to Cyber Security",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "Short Intro": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "Duration": "8 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Introduction to Cyber Security",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "Course Short Intro": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "Weekly study": "3 hours"
+      },
+      "unified_data": {
+        "title": "Introduction to Cyber Security",
+        "url": "https://www.futurelearn.com/courses/introduction-to-cyber-security",
+        "description": "Learn the essentials of cyber security and build your skills to better protect your digital information from security threats.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "8 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d181",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-sc",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d182",
+        "Title": "The Future of Cyber Security and Emerging Technologies",
+        "URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "The Future of Cyber Security and Emerging Technologies",
+        "Course URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "Course Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "Weekly study": "5 hours"
+      },
+      "unified_data": {
+        "title": "The Future of Cyber Security and Emerging Technologies",
+        "url": "https://www.futurelearn.com/courses/the-future-of-cyber-security-sc",
+        "description": "Discuss the future of cyber security, emerging technologies, the challenges they pose, and the development of cyber solutions.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1c2",
+        "Title": "Cyber Crime Investigation",
+        "URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Crime Investigation",
+        "Course URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Course Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Crime Investigation",
+        "url": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "description": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1c3",
+        "Title": "Cyber Security Incident Response for Managers",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Incident Response for Managers",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Course Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Incident Response for Managers",
+        "url": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "description": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1c6",
+        "Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Course Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "url": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "description": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1f4",
+        "Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Short Intro": "536Â enrolled on this course",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "Course URL": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "Course Short Intro": "536Â enrolled on this course",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Hands-On Password Attacks",
+        "url": "https://www.futurelearn.com/courses/hands-on-password-attacks-and-security",
+        "description": "536Â enrolled on this course",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1f5",
+        "Title": "Advanced Cyber Security Training: Network Security",
+        "URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: Network Security",
+        "Course URL": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "Course Short Intro": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: Network Security",
+        "url": "https://www.futurelearn.com/courses/securing-your-network-from-attacks",
+        "description": "Learn how to identify, mitigate, prevent, and recover from network attacks and understand how to increase your network security.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1f6",
+        "Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "Course URL": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "Course Short Intro": "_x000D_\nIdentify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_\n",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Advanced Cyber Security Training: OWASP Top 10 and Web Application Fundamentals",
+        "url": "https://www.futurelearn.com/courses/owasp-top-10-security-fundamentals",
+        "description": "_x000D_ Identify web application risks using the OWASP Top 10 and learn how to increase your software security. _x000D_",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1fb",
+        "Title": "The Cyber Security Landscape",
+        "URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "The Cyber Security Landscape",
+        "Course URL": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "Course Short Intro": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "The Cyber Security Landscape",
+        "url": "https://www.futurelearn.com/courses/the-cyber-security-landscape-et",
+        "description": "Understand cyber security, types of cyber threat, and the development of an effective security policy.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d1fc",
+        "Title": "The Future of Cyber Security and Emerging Technologies",
+        "URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "The Future of Cyber Security and Emerging Technologies",
+        "Course URL": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "Course Short Intro": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "The Future of Cyber Security and Emerging Technologies",
+        "url": "https://www.futurelearn.com/courses/the-future-of-cyber-security-et",
+        "description": "Discuss the future of cyber security, emerging technologies, the challenges they pose and the development of cyber solutions.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d20c",
+        "Title": "Network Security and Defence: A History of IT",
+        "URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Network Security and Defence: A History of IT",
+        "Course URL": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "Course Short Intro": "Delve into IT infrastructure and explore the history of information technology (IT), information systems (IS), and cyber security.",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Network Security and Defence: A History of IT",
+        "url": "https://www.futurelearn.com/courses/history-of-networks-et",
+        "description": "Delve into IT infrastructure and explore the history of information technology IT, information systems IS, and cyber security.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d225",
+        "Title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "URL": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "Short Intro": "_x000D_\nDiscover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "Course URL": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "Course Short Intro": "_x000D_\nDiscover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection. ",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Common Malware Attacks and Defense Strategies",
+        "url": "https://www.futurelearn.com/courses/common-cybersecurity-attacks-and-defense-strategies",
+        "description": "_x000D_ Discover how to defend yourself against evolving cyber attacks in this cyber security training focused on malware protection.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d226",
+        "Title": "Cyber Security Foundations: Identity and Access Management",
+        "URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "Short Intro": "_x000D_\nExplore key identity and access management concepts and learn how they can contribute to data security and cyber resilience. ",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Identity and Access Management",
+        "Course URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "Course Short Intro": "_x000D_\nExplore key identity and access management concepts and learn how they can contribute to data security and cyber resilience. ",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Identity and Access Management",
+        "url": "https://www.futurelearn.com/courses/identity-and-access-management-part-1",
+        "description": "_x000D_ Explore key identity and access management concepts and learn how they can contribute to data security and cyber resilience.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d227",
+        "Title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "Short Intro": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_\n",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "Course URL": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "Course Short Intro": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_\n",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Reinforcing Identity and Access Management",
+        "url": "https://www.futurelearn.com/courses/identity-and-access-management-part-2",
+        "description": "Build your identity and access management expertise in this course covering topics such as single sign-on, cloud models, and AI._x000D_",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d228",
+        "Title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "Short Intro": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "Course Short Intro": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "Weekly study": "2 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Foundations: Why Cyber Security is Important",
+        "url": "https://www.futurelearn.com/courses/introduction-to-cybersecurity",
+        "description": "Learn how to defend yourself from common cyber attacks, such as phishing, ransomware, and social engineering attacks.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d230",
+        "Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Duration": "2 weeks",
+        "Site": "Future Learn",
+        "Courses": "314 Courses",
+        "Topics related to CRM": "AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / AI & Robotics  / AWS / Business Technology / Cloud Computing / Coding & Programming / Cyber Security / DevOps / Django / Ethical Hacking / Game Development / Java / Network Security / Python / R Programming / Software Development / Tableau / The Internet of Things (IoT) / Web Development / ",
+        "ExpertTracks": "34 ExpertTracks",
+        "Course Title": "How Cyber Security Affects the Software Development Life Cycle",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "Course Short Intro": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems. ",
+        "Weekly study": "5 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "How Cyber Security Affects the Software Development Life Cycle",
+        "url": "https://www.futurelearn.com/courses/cyber-security-in-the-software-development-life-cycle-et",
+        "description": "Examine security in the software development life cycle and discuss the legal and ethical aspects of secure systems.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "2 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2fb",
+        "Title": "Cyber Crime Investigation",
+        "URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Duration": "4 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Cyber Crime Investigation",
+        "Course URL": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "Course Short Intro": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Crime Investigation",
+        "url": "https://www.futurelearn.com/courses/investigating-cybercrime-concepts",
+        "description": "Master the basics of investigating and preventing cyber crime attacks alongside the cyber security experts at PA consulting.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "4 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2fc",
+        "Title": "Cyber Security Incident Response for Managers",
+        "URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Cyber Security Incident Response for Managers",
+        "Course URL": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "Course Short Intro": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Cyber Security Incident Response for Managers",
+        "url": "https://www.futurelearn.com/courses/cyber-security-incident-response-for-managers",
+        "description": "Help secure your organisation as you discover potential cyber security threats and the frameworks you can use to prevent them.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    },
+    {
+      "provider": "futurelearn",
+      "original_data": {
+        "_id": "68ac021069e0bdd621a8d2fd",
+        "Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Duration": "3 weeks",
+        "Site": "Future Learn",
+        "Courses": "58 Courses",
+        "ExpertTracks": "3 ExpertTracks",
+        "FAQs": "Learn flexibly online /Buy a course upgrade or subscribe to Unlimited for extra benefits /Boost your career /",
+        "Course Title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "Course URL": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "Course Short Intro": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "Weekly study": "3 hours",
+        "Premium course": " After your free trial you can: Pay $39 per month to keep learning online Have complete control over your subscription; you can cancel any time Work at your own pace and set your own deadlines at every stage Only pay while youâ€™re learning; the subscription will cancel automatically when you finish Complete online assessments to test your knowledge and prove your skills Earn digital course certificates and a final award that you can share online, with potential employers, and your professional network Keep access to the content of courses you complete even after your subscription ends"
+      },
+      "unified_data": {
+        "title": "Introduction to Digital Forensics: Malware Analysis and Investigations",
+        "url": "https://www.futurelearn.com/courses/introduction-to-malware-investigations",
+        "description": "Learn to identify malware on a computer system to understand how to prevent malware attacks and enhance your cyber security.",
+        "category": "Technology",
+        "language": "English",
+        "skills": [],
+        "instructors": [],
+        "duration": "3 weeks",
+        "site": "Futurelearn",
+        "level": "",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [],
+        "price": "Paid",
+        "provider": "Futurelearn",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    }
+  ]
+}

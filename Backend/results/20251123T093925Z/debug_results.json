@@ -1,0 +1,96 @@
+{
+  "timestamp": "2025-11-23T09:39:25.752567",
+  "user_query": "show me top 5 courses in Python Programming from Udacity",
+  "debug_info": {
+    "user_query": "show me top 5 courses in Python Programming from Udacity",
+    "llm_generated_queries": {
+      "query_type": "AGGREGATE",
+      "description": "Top 5 Python Programming courses from Udacity",
+      "aggregation_strategy": "provider_level",
+      "sort_field": "Number of viewers",
+      "sort_order": -1,
+      "global_limit": 5,
+      "providers": {
+        "coursera": {},
+        "udacity": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bPython Programming\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bPython Programming\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bPython Programming\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "simplilearn": {},
+        "futurelearn": {}
+      }
+    },
+    "query_type": "AGGREGATE",
+    "execution_results": {}
+  },
+  "all_results": [
+    {
+      "provider": "udacity",
+      "original_data": {
+        "_id": "68ac0cf969e0bdd621a8d84d",
+        "Title": "Introduction to Python Programming",
+        "URL": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "Short Intro": "Learn to solve practical problems with Python.",
+        "Duration": "Estimated timeApprox. 5 Weeks",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "This course is ideal for students who are new to Python, but have some experience programming in another language. If you're a complete beginner to programming, we recommend checking out the Learn to Code program, which will help you understand how code is used all over the web.  See the Technology Requirements for using Udacity.",
+        "What you learn": "Why Python ProgrammingReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonReceive an overview of what you’ll be learning and doing in the courseUnderstand why you should learn programming with PythonData Types and OperatorsRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesRepresent data using Python's data types: integers, floats, booleans, strings, lists, tuples, sets, dictionaries, compound data structuresPerform computations and create logical statements using Python’s operators: Arithmetic, Assignment, Comparison, Logical, Membership, IdentityPractice whitespace and style guidelinesControl FlowWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsWrite conditional expressions using if statements and boolean expressions to add decision making to your Python programsUse for and while loops along with useful built-in functions to iterate over and manipulate lists, sets, and dictionariesCondense for loops to create lists efficiently with list comprehensionsFunctionsDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataDefine your own custom functionsCreate and reference variables using the appropriate scopeUse iterators and generators to create streams of dataScriptingInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python InterpreterInstall Python 3 and set up your programming environmentExperiment in the terminal using a Python Interpreter"
+      },
+      "unified_data": {
+        "title": "Introduction to Python Programming",
+        "url": "https://www.udacity.com/course/introduction-to-python--ud1110",
+        "description": "Learn to solve practical problems with Python.",
+        "category": "Computer Science",
+        "language": "English",
+        "skills": [
+          "Loops",
+          "Data Structures",
+          "Conditional Statements",
+          "Control Flow",
+          "Operators",
+          "Python Programming",
+          "Functions",
+          "Debugging"
+        ],
+        "instructors": [],
+        "duration": "Estimated timeApprox. 5 Weeks",
+        "site": "Udacity",
+        "level": "Beginner",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Understand the fundamentals of Python programming.",
+          "Write conditional expressions and control program flow using if statements and loops.",
+          "Create and utilize functions for code modularity and reusability.",
+          "Represent and manipulate data using Python's data types and operators.",
+          "Apply whitespace and style guidelines for readable and maintainable code.",
+          "Debug and troubleshoot Python code."
+        ],
+        "price": "Free",
+        "provider": "Udacity",
+        "_enrichment_applied": false
+      },
+      "enrichment_applied": true
+    }
+  ]
+}

@@ -1,0 +1,228 @@
+{
+  "user_query": "Multi-domain aggregation (public health + policy), institutional filtering (recognized universities), field extraction from unstructured data",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Multi-domain aggregation (public health + policy), institutional filtering (recognized universities), field extraction from unstructured data'. Expanding terms to include related concepts and synonyms for public health, policy, universities, and unstructured data processing. The user is requesting information related to these domains and their extraction of information from unstructured sources within recognized academic institutions.",
+    "expanded_terms": [
+      "Public Health",
+      "Epidemiology",
+      "Biostatistics",
+      "Healthcare Management",
+      "Health Policy",
+      "Policy Analysis",
+      "Public Policy",
+      "Government Policy",
+      "Universities",
+      "Academic Institutions",
+      "Higher Education",
+      "Recognized Universities",
+      "Unstructured Data",
+      "Text Mining",
+      "Natural Language Processing",
+      "Information Extraction",
+      "Data Mining",
+      "Document Analysis"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Text Mining|Natural Language Processing|Information Extraction|Data Mining|Document Analysis)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Text Mining|Natural Language Processing|Information Extraction|Data Mining|Document Analysis)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Text Mining|Natural Language Processing|Information Extraction|Data Mining|Document Analysis)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Prequisites": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Text Mining|Natural Language Processing|Information Extraction|Data Mining|Document Analysis)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Instructors": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Public Health|Epidemiology|Biostatistics|Healthcare Management|Health Policy|Policy Analysis|Public Policy|Government Policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Topics related to CRM": {
+                  "$regex": "\\b(Text Mining|Natural Language Processing|Information Extraction|Data Mining|Document Analysis)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Universities|Academic Institutions|Higher Education|Recognized Universities)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T09:14:44.023559"
+}

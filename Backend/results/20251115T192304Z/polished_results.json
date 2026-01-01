@@ -1,0 +1,401 @@
+[
+  {
+    "title": "Google Business Intelligence Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/google-business-intelligence",
+    "description": "Learn in-demand skills like data modeling, data visualization, and dashboarding and reporting in less than 2 months.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Data Modeling",
+      "Data Analysis",
+      "Sheets",
+      "Data Visualization (Dataviz)",
+      "Business Intelligence",
+      "Transformation And Loading (Etl)",
+      "Business Analysis",
+      "Bigquery"
+    ],
+    "instructors": [
+      "Google Career Certificates"
+    ],
+    "duration": "2 months at 10 hours a week",
+    "site": "Coursera",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Design interactive dashboards for real-time monitoring and decision-making.",
+      "Generate comprehensive reports to summarize data findings and recommendations.",
+      "Develop data storytelling skills to present data-driven narratives.",
+      "Utilize business intelligence tools to analyze and interpret business data.",
+      "Create compelling data visualizations to communicate insights effectively.",
+      "Apply data modeling techniques to structure and organize data for analysis."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c21254661a5"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Análisis de Datos de Google Professional Certificate",
+    "url": "https://www.coursera.org/professional-certificates/analisis-de-datos-de-google",
+    "description": "El comienzo de tu carrera en el análisis de datos. Con este programa adquirirás habilidades que te prepararán para trabajar en menos de 6 meses. No se requiere título ni experiencia previa.",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Limpieza De Datos",
+      "Cuestionamiento",
+      "Resolución De Problemas",
+      "Visualización De Datos (Dataviz)",
+      "Caso Práctico",
+      "Metadatos",
+      "Cálculos En Torno A Los Datos",
+      "Sql"
+    ],
+    "instructors": [
+      "Google Career Certificates"
+    ],
+    "duration": "6 months at 10 hours a week",
+    "site": "Coursera",
+    "level": "Beginner",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Create compelling data visualizations and dashboards.",
+      "Communicate data insights effectively to stakeholders.",
+      "Apply data cleaning and transformation techniques using spreadsheets and SQL.",
+      "Analyze data using statistical methods and tools.",
+      "Evaluate the ethical considerations in data analysis.",
+      "Understand the data analysis process from data collection to presentation."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c21254661a8"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Excel Skills for Business Specialization",
+    "url": "https://www.coursera.org/specializations/excel",
+    "description": "Learn Excel Skills for Business. Master Excel to add a highly valuable asset to your employability portfolio.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Lookup Table",
+      "Chart",
+      "Concatenation",
+      "Consolization",
+      "Microsoft Excel",
+      "Pivot Table",
+      "Data Validation",
+      "Spreadsheet"
+    ],
+    "instructors": [
+      "Nicky Bull",
+      "Professor Yvonne Breyer",
+      "Dr Prashan S. M. Karunaratne"
+    ],
+    "duration": "Approximately 6 months to complete",
+    "site": "Coursera",
+    "level": "Beginner",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Analyze data using PivotTables and other Excel tools",
+      "Develop financial models and perform sensitivity analysis",
+      "Create insightful data visualizations in Excel",
+      "Apply Excel functions to solve business problems",
+      "Automate tasks using Macros",
+      "Manage and organize data effectively within Excel spreadsheets"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c2125466008"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Risk Management Specialization",
+    "url": "https://www.coursera.org/specializations/risk-management",
+    "description": "Enhance Your Skills in Risk Management. Understand the theory and practice of risk management and the expected results from a successful risk management process.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Market Risk Management",
+      "Risk Management",
+      "Operational Risk Measurement And Management",
+      "Credit Analysis",
+      "Credit Risk",
+      "Market Risk Measurement And Management",
+      "Leadership And Financial Risk Estimation And Management",
+      "Regulations"
+    ],
+    "instructors": [
+      "Tracy Williams",
+      "Joseph Iraci",
+      "Jack Farmer"
+    ],
+    "duration": "Approximately 6 months to complete",
+    "site": "Coursera",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Apply risk management principles in various business contexts.",
+      "Understand the importance of compliance in risk management",
+      "Analyze potential risks and their impact on projects and organizations.",
+      "Develop effective risk mitigation strategies.",
+      "Evaluate the effectiveness of risk management processes.",
+      "Understand the theoretical foundations of risk management."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c2125466043"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Security in Google Cloud Specialization",
+    "url": "https://www.coursera.org/specializations/security-google-cloud-platform",
+    "description": "Launch your career in Cloud Security. This self-paced Specialization gives a broad study of security controls, best practices, and techniques on Google Cloud.",
+    "category": "Cybersecurity",
+    "language": "English",
+    "skills": [
+      "Google Compute Engine",
+      "Cloud Computing",
+      "Google App Engine (Gae)",
+      "Google Cloud Platform"
+    ],
+    "instructors": [
+      "Google Cloud Training"
+    ],
+    "duration": "Approximately 6 months to complete",
+    "site": "Coursera",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Configure and manage security services on GCP",
+      "Apply security best practices to protect cloud infrastructure and data",
+      "Implement security measures to comply with industry standards and regulations",
+      "Design and deploy secure cloud architectures on GCP",
+      "Understand security controls available on Google Cloud Platform (GCP)",
+      "Analyze potential security threats and vulnerabilities in GCP environments"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c2125466056"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Songwriting: Writing, Arranging, and Producing Music Specialization",
+    "url": "https://www.coursera.org/specializations/songwriting",
+    "description": "Write, Arrange, and Produce Your Original Songs. Apply the tools and techniques of songwriting to bring your musical ideas to life.",
+    "category": "Music",
+    "language": "English",
+    "skills": [
+      "Writing",
+      "Music",
+      "Arranging",
+      "Melody",
+      "Audio Recording",
+      "Music Making",
+      "Poetry",
+      "Melodic Hooks"
+    ],
+    "instructors": [
+      "Bonnie Hayes",
+      "Pat Pattison",
+      "Scarlet Keys",
+      "Erin Barra",
+      "Sarah Brindell"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Beginner",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Analyze and improve existing song arrangements and productions",
+      "Develop proficiency in music theory concepts relevant to songwriting",
+      "Arrange musical elements to create compelling song structures",
+      "Produce music using digital audio workstations (DAWs)",
+      "Apply songwriting techniques to develop original song ideas",
+      "Write lyrics that effectively convey emotions and narratives"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c2125466084"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "PostgreSQL for Everybody Specialization",
+    "url": "https://www.coursera.org/specializations/postgresql-for-everybody",
+    "description": "SQL: From Basic to Advanced. Learn SQL skills you can use in an actual, real-world environment",
+    "category": "Data Science",
+    "language": "English",
+    "skills": [
+      "Database (Dbms)",
+      "Natural Language Processing",
+      "Json",
+      "Sql"
+    ],
+    "instructors": [
+      "Charles Russell Severance"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Administer PostgreSQL databases, including backup and recovery.",
+      "Write efficient SQL queries to retrieve and manipulate data.",
+      "Analyze database performance and optimize queries for speed.",
+      "Develop data models that support specific business requirements.",
+      "Design and implement relational databases using PostgreSQL.",
+      "Understand and apply advanced SQL concepts like transactions and indexing."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c212546608a"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "School Health for Children and Adolescents Specialization",
+    "url": "https://www.coursera.org/specializations/school-health-for-children-and-adolescents",
+    "description": "Promoting Healthy Practices in School. Learn to manage medical conditions  mental health services, facilitate healthy practices in schools",
+    "category": "Health & Wellness",
+    "language": "English",
+    "skills": [
+      "Medical Conditions",
+      "School Health",
+      "Nutrition",
+      "Learning Disabilities",
+      "Behavioral Health"
+    ],
+    "instructors": [
+      "Eve Kutchman",
+      "Karen Hecker",
+      "Lauren Welch",
+      "Daniel Nicklas"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Intermediate",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Develop school health policies and programs that promote healthy practices.",
+      "Analyze the role of mental health services in supporting student well-being.",
+      "Understand the principles of school health promotion.",
+      "Evaluate the effectiveness of school health interventions.",
+      "Facilitate communication and collaboration among school staff, families, and community partners to support student health.",
+      "Apply strategies for managing common medical conditions in school settings."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c212546608f"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Artificial Intelligence: an Overview Specialization",
+    "url": "https://www.coursera.org/specializations/artificial-intelligence-overview",
+    "description": "Enter the artificial intelligence world",
+    "category": "Artificial Intelligence",
+    "language": "English",
+    "skills": [
+      "Legal Issues Of Artificial Intelligence",
+      "Machine Learning",
+      "Artificial Intelligence (Ai)",
+      "Ethical Issues Of Artificial Intelligence"
+    ],
+    "instructors": [
+      "Nicola Gatti",
+      "Viola Schiaffonati",
+      "Annamaria Italiano",
+      "Manuel Roveri",
+      "Marcello Restelli"
+    ],
+    "duration": "Approximately 5 months to complete",
+    "site": "Coursera",
+    "level": "Beginner",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Implement basic AI models using programming tools.",
+      "Understand the core concepts and principles of Artificial Intelligence.",
+      "Apply AI techniques to solve real-world problems.",
+      "Evaluate the ethical implications of AI technologies.",
+      "Analyze different AI algorithms and their applications."
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c21254660bb"
+    },
+    "source_provider": "coursera"
+  },
+  {
+    "title": "Sustainability Analyst Fundamentals Specialization",
+    "url": "https://www.coursera.org/specializations/sustainability-analyst",
+    "description": "Launch Your Career in Sustainability. Develop skills and tools to make organizations more sustainable.",
+    "category": "Business",
+    "language": "English",
+    "skills": [
+      "Business Communication",
+      "Data Analysis",
+      "Problem Solving",
+      "Professional Development",
+      "Sustainability",
+      "Project Management",
+      "Communication",
+      "Project Planning"
+    ],
+    "instructors": [
+      "Christopher Boone"
+    ],
+    "duration": "Approximately 4 months to complete",
+    "site": "Coursera",
+    "level": "Beginner",
+    "viewers": 1000,
+    "prerequisites": [],
+    "learning_outcomes": [
+      "Analyze organizational sustainability performance using key metrics",
+      "Understand the role of stakeholders in driving sustainability",
+      "Develop strategies for improving sustainability practices within organizations",
+      "Apply frameworks for assessing environmental and social impacts",
+      "Evaluate the business case for sustainability initiatives",
+      "Communicate sustainability performance effectively to diverse audiences"
+    ],
+    "price": "Paid",
+    "provider": "Coursera",
+    "_enrichment_applied": false,
+    "original_provider_id": {
+      "$oid": "68aa13e9b82e4c21254660c7"
+    },
+    "source_provider": "coursera"
+  }
+]

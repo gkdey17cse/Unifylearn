@@ -1,0 +1,29 @@
+{
+  "user_query": "show me 3 DBMS course from Udacity",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "What you learn": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    }
+  },
+  "timestamp": "2025-11-14T20:53:36.778835"
+}

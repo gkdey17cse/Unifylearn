@@ -1,0 +1,125 @@
+{
+  "user_query": "Show me courses that can lead to multiple certifications: AWS cloud practitioner, Google data analytics, IBM AI engineering, and Microsoft Azure fundamentals - from platforms offering official certification preparation",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "Finding courses that prepare for the AWS Cloud Practitioner certification.  Requiring both the vendor name and certification-related keywords in the title, short intro, or course type. Also considering durations less than or equal to 1 month. Limiting the search to Coursera and Udacity.",
+    "expanded_terms": [
+      "AWS",
+      "Amazon Web Services",
+      "Cloud Practitioner",
+      "certification",
+      "certificate",
+      "exam prep",
+      "official",
+      "1 week",
+      "2 weeks",
+      "3 weeks",
+      "4 weeks",
+      "month"
+    ],
+    "regex_group": {
+      "AWS": "(AWS|Amazon Web Services|Cloud Practitioner)",
+      "CertIntent": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+      "DurationLessThan1Month": "(\\b([1-3])\\s*week|\\b4\\s*weeks|\\b1\\s*month)"
+    },
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Type": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Course Type": {
+                  "$regex": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\b([1-3])\\s*week|\\b4\\s*weeks|\\b1\\s*month)",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(AWS|Amazon Web Services|Cloud Practitioner)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "(certif|certificate|certification|official|exam(\\s|-)?prep|exam preparation|prepare for|professional certificate|cert prep)",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Duration": {
+              "$regex": "(\\b([1-3])\\s*week|\\b4\\s*weeks|\\b1\\s*month)",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-27T08:08:15.997275"
+}

@@ -1,0 +1,30 @@
+{
+  "user_query": "Find top 10 highest-rated courses  across all platforms",
+  "execution_results": {
+    "coursera": {
+      "collection": "Coursera",
+      "query": {},
+      "match_count": 2820,
+      "execution_error": null
+    },
+    "udacity": {
+      "collection": "Udacity",
+      "query": {},
+      "match_count": 282,
+      "execution_error": null
+    },
+    "simplilearn": {
+      "collection": "SimpliLearn",
+      "query": {},
+      "match_count": 148,
+      "execution_error": null
+    },
+    "futurelearn": {
+      "collection": "FutureLearn",
+      "query": {},
+      "match_count": 4843,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-15T19:23:04.865400"
+}

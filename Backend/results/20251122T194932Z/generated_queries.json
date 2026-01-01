@@ -1,0 +1,236 @@
+{
+  "user_query": "Show me AI coruses for beginers",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "description": "AI courses for beginners",
+    "providers": {
+      "coursera": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Skills": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "AI",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "Beginner",
+              "$options": "i"
+            }
+          },
+          {
+            "Title": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "Introduction",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-22T19:49:32.410888"
+}

@@ -1,0 +1,50 @@
+{
+  "user_query": "Show me some courses from DBMS from Udacity or SImplilearn platform",
+  "generated_queries": {
+    "udacity": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    },
+    "simplilearn": {
+      "$or": [
+        {
+          "Course Title": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Brief Description": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Main Category": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills Covered": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        }
+      ]
+    }
+  },
+  "timestamp": "2025-11-14T19:26:38.813309"
+}

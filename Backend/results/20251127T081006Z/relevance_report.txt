@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: "Search for artificial intelligence courses focusing on natural language processing and computer vision, but only from platforms that offer certification, with prerequisites in Python programming, and exclude any courses shorter than 4 weeks duration"
+Total Courses: 76
+Generated at: 2025-11-27T08:10:06.973508
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :  63 courses | Avg Prob: 0.0159 | Avg Score: 0.1336
+UDACITY        :   8 courses | Avg Prob: 0.0000 | Avg Score: 0.0348
+SIMPLILEARN    :   4 courses | Avg Prob: 0.0000 | Avg Score: 0.0263
+FUTURELEARN    :   1 courses | Avg Prob: 0.0000 | Avg Score: 0.0097
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.4315 | Score: 1.0000
+     IBM Data Science Professional Certificate
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,Github,Python Programming,Jupyter n
+
+ 2. [COURSERA    ] Prob: 0.4315 | Score: 1.0000
+     Google IT Automation with Python Professional Certificate
+     Skills: Using Version Control,Troubleshooting & Debugging,Python Programming,Configuration Management,Automa
+
+ 3. [COURSERA    ] Prob: 0.0598 | Score: 0.9012
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+ 4. [COURSERA    ] Prob: 0.0475 | Score: 0.8897
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+ 5. [COURSERA    ] Prob: 0.0290 | Score: 0.8650
+     Google Advanced Data Analytics Professional Certificate
+     Skills: Data Science,Regression Models,Predictive Modelling,Exploratory Data Analysis (EDA),Statistical Anal
+
+ 6. [COURSERA    ] Prob: 0.0002 | Score: 0.6249
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+ 7. [COURSERA    ] Prob: 0.0002 | Score: 0.6041
+     IBM Machine Learning Professional Certificate
+     Skills: Artificial Intelligence (AI),Machine Learning,Feature Engineering,Statistical Hypothesis Testing,Exp
+
+ 8. [COURSERA    ] Prob: 0.0001 | Score: 0.5918
+     IBM Back-End Development Professional Certificate
+     Skills: Database (DBMS),Containers,Python Programming,Microservices,Backend Development,
+
+ 9. [COURSERA    ] Prob: 0.0001 | Score: 0.5813
+     IBM Data Analyst Professional Certificate
+     Skills: Microsoft Excel,Python Programming,Data Analysis,Data Visualization (DataViz),SQL,
+
+10. [COURSERA    ] Prob: 0.0000 | Score: 0.0612
+     Preparing for AI-900: Microsoft Azure AI Fundamentals exam
+     Skills: Natural Language Processing,Test Preparation,Artificial Intelligence (AI),Machine Learning,Microsoft
+
+11. [COURSERA    ] Prob: 0.0000 | Score: 0.0513
+     IBM AI Engineering Professional Certificate
+     Skills: SciPy and scikit-learn,Machine Learning,regression,classification,Hierarchical Clustering,Deep Learn
+
+12. [UDACITY     ] Prob: 0.0000 | Score: 0.0481
+     Cloud DevOps using Microsoft Azure
+     Skills: No skills
+
+13. [COURSERA    ] Prob: 0.0000 | Score: 0.0466
+     Getting Started with AI using IBM Watson
+     Skills: Deep Learning,Application Programming Interfaces (API),Artificial Intelligence (AI),Machine Learning
+
+14. [COURSERA    ] Prob: 0.0000 | Score: 0.0424
+     IBM Mainframe Developer Professional Certificate
+     Skills: Mainframe,z/OS,Enterprise Software,security,IBM Z,COBOL Divisions,COBOL coding,Column Structure,COBO
+
+15. [COURSERA    ] Prob: 0.0000 | Score: 0.0421
+     Google Business Intelligence Professional Certificate
+     Skills: Data Modeling,Business Analysis,Bigquery,Sheets,Data Analysis,Extraction, Transformation And Loading
+
+16. [UDACITY     ] Prob: 0.0000 | Score: 0.0407
+     Become a Cloud Developer using Microsoft Azure
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0000 | Score: 0.0395
+     AI Engineer using Microsoft Azure
+     Skills: No skills
+
+18. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0368
+     AWS Data Analytics Certification Training Course
+     Skills: 8682
+
+19. [COURSERA    ] Prob: 0.0000 | Score: 0.0360
+     Preparing for Google Cloud Certification: Cloud Security Engineer Professional Certificate
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,Create and under
+
+20. [UDACITY     ] Prob: 0.0000 | Score: 0.0358
+     Data Analysis and Visualization with Microsoft Power BI
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0000 | Score: 0.0353
+     Microsoft Azure Fundamentals AZ-900 Exam Prep Specialization
+     Skills: Microsoft Azure, Cloud Computing, Cloud Computing Security, Artificial Intelligence (AI), Internet O
+
+22. [UDACITY     ] Prob: 0.0000 | Score: 0.0350
+     Cloud Architect using Microsoft Azure
+     Skills: No skills
+
+23. [COURSERA    ] Prob: 0.0000 | Score: 0.0337
+     Preparing for the AZ-900 Microsoft Azure Fundamentals Exam
+     Skills: Test Preparation,Microsoft Azure,
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.0336
+     Preparing for Google Cloud Certification: Cloud Engineer Professional Certificate
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,Virtual Machine,
+
+25. [COURSERA    ] Prob: 0.0000 | Score: 0.0322
+     IBM Data Analytics with Excel and R Professional Certificate
+     Skills: Microsoft Excel,Relational Databases (RDBMS),R Programming,Data Analysis,Data Visualization (DataViz
+
+26. [COURSERA    ] Prob: 0.0000 | Score: 0.0320
+     IBM Data Warehouse Engineer Professional Certificate
+     Skills: Data Science,Database (DBMS),NoSQL,SQL,Database (DB) Design,Database Architecture,Postgresql,MySQL,R
+
+27. [UDACITY     ] Prob: 0.0000 | Score: 0.0319
+     Become a Machine Learning Engineer for Microsoft Azure
+     Skills: No skills
+
+28. [COURSERA    ] Prob: 0.0000 | Score: 0.0319
+     Preparing for DP-900: Microsoft Azure Data Fundamentals Exam
+     Skills: Test Preparation,Microsoft Azure,
+
+29. [COURSERA    ] Prob: 0.0000 | Score: 0.0316
+     Preparing for Google Cloud Certification: Cloud DevOps Engineer Professional Certificate
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,SRE Culture,Busi
+
+30. [COURSERA    ] Prob: 0.0000 | Score: 0.0303
+     Microsoft Azure Data Scientist Associate DP-100 Professional Certificate
+     Skills: Manage Azure resources for machine learning,Deploy and operationalize machine learning solutions,Run
+
+31. [COURSERA    ] Prob: 0.0000 | Score: 0.0299
+     Applying Data Analytics in Accounting
+     Skills: Natural Language Processing,robotic process automation,Analytics,Data Analysis,Accounting Analytics,
+
+32. [COURSERA    ] Prob: 0.0000 | Score: 0.0298
+     Preparing for Google Cloud Certification: Cloud Network Engineer Professional Certificate
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.0296
+     Preparing for Google Cloud Certification: Cloud Architect Professional Certificate
+     Skills: Google Compute Engine,Google App Engine (GAE),Google Cloud Platform,Cloud Computing,Virtual Machine,
+
+34. [COURSERA    ] Prob: 0.0000 | Score: 0.0295
+     Microsoft Azure Data Engineering Associate DP-203 Professional Certificate
+     Skills: Develop for Azure storage,Develop Azure compute solutions,Connect to and consume Azure services and 
+
+35. [COURSERA    ] Prob: 0.0000 | Score: 0.0295
+     Preparing for Google Cloud Certification: Cloud Developer Professional Certificate
+     Skills: Debugging,Google Cloud Platform,Cloud Storage,Application development,Cloud Computing,
+
+36. [COURSERA    ] Prob: 0.0000 | Score: 0.0287
+     Google IT Support Professional Certificate
+     Skills: Debugging,Encryption Algorithms and Techniques,Customer Service,Network Protocols,Cloud Computing,
+
+37. [COURSERA    ] Prob: 0.0000 | Score: 0.0278
+     AWS Cloud Solutions Architect Professional Certificate
+     Skills: AWS Certification Preparation,Cloud Architecture,Architecting on AWS,Data Lakes,AWS Management Conso
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.0274
+     IBM Applied DevOps Engineering Professional Certificate
+     Skills: Site Reliability Engineering (SRE),DevOps Engineering,Kubernetes,Agile Methodologies,Continuous Inte
+
+39. [COURSERA    ] Prob: 0.0000 | Score: 0.0273
+     Preparing for Google Cloud Certification: Cloud Data Engineer Professional Certificate 日本語版 Professional Certificate
+     Skills: Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+
+40. [COURSERA    ] Prob: 0.0000 | Score: 0.0273
+     Preparing for Google Cloud Certification: Cloud Data Engineer Professional Certificate
+     Skills: Information Engineering,Google Cloud,Bigquery,Tensorflow,Cloud Computing,
+
+41. [UDACITY     ] Prob: 0.0000 | Score: 0.0271
+     Become an AWS Cloud Architect
+     Skills: No skills
+
+42. [COURSERA    ] Prob: 0.0000 | Score: 0.0269
+     AWS Cloud Practitioner Essentials
+     Skills: Cloud Computing Security,AWS cloud,cloud networking,Cloud Computing,Migration and Innovation,
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.0266
+     Preparing for Google Cloud Certification: Machine Learning Engineer Professional Certificate
+     Skills: Google Cloud,Machine Learning,Feature Engineering,Tensorflow,Cloud Computing,
+
+44. [COURSERA    ] Prob: 0.0000 | Score: 0.0249
+     Modernizing Data Lakes and Data Warehouses with Google Cloud
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.0244
+     Google UX Design Professional Certificate
+     Skills: User Experience (UX),UX Research,Wireframe,Prototype,User Experience Design (UXD),Usability Testing,
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.0242
+     Soporte de Tecnologías de la Información de Google Professional Certificate
+     Skills: Linux,Código binario,Solución de problemas,Soporte al cliente,Ipv4,Sistema de nombres de dominio,Mod
+
+47. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0237
+     AWS SysOps Associate Certification Training
+     Skills: 24118
+
+48. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0236
+     AWS Solutions Architect Certification Training Course
+     Skills: 26640
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.0219
+     Become a CBRS Certified Professional Installer by Google
+     Skills: No skills
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.0214
+     Google Data Analytics Capstone: Complete a Case Study
+     Skills: Job portfolio,Data Cleansing,Data Analysis,Data Visualization (DataViz),case study,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses (  2.6%)
+High      :   1 courses (  1.3%)
+Medium    :   2 courses (  2.6%)
+Low       :   0 courses (  0.0%)
+Very Low  :  71 courses ( 93.4%)

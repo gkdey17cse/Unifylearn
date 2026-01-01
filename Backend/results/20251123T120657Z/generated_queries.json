@@ -1,0 +1,158 @@
+{
+  "user_query": "Show me Data Analysis courses from any platform with relevancy from Coursera only",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Data Analysis' and requested relevancy from 'Coursera'. Expanding 'Data Analysis' to include: Data Science, Statistics, Big Data, Pandas, Python. Filtering results to only show courses where the platform is Coursera.",
+    "expanded_terms": [
+      "Data Analysis",
+      "Data Science",
+      "Statistics",
+      "Big Data",
+      "Pandas",
+      "Python"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Coursera"
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Coursera"
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Coursera"
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Data Analysis|Data Science|Statistics|Big Data|Pandas|Python)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Site": "Coursera"
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T12:06:57.120185"
+}

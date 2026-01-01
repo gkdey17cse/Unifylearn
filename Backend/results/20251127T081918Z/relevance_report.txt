@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: "I need data science courses covering Python programming, statistical analysis, machine learning, and big data analytics from Coursera and Simplilearn, plus business intelligence and cloud computing courses from Udacity, all for professional development
+Total Courses: 205
+Generated at: 2025-11-27T08:19:18.949845
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 198 courses | Avg Prob: 0.0036 | Avg Score: 0.1632
+UDACITY        :   7 courses | Avg Prob: 0.0000 | Avg Score: 0.0466
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     IBM Data Science Professional Certificate
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,Github,Python Programming,Jupyter n
+
+ 2. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Machine Learning with Python
+     Skills: SciPy and scikit-learn,Machine Learning,regression,classification,Hierarchical Clustering,
+
+ 3. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Python for Data Science, AI  Development
+     Skills: Data Science,Python Programming,Data Analysis,Pandas,Numpy,
+
+ 4. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Applied Text Mining in Python
+     Skills: Natural Language Toolkit (NLTK),Text Mining,Python Programming,Natural Language Processing,
+
+ 5. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Applied Machine Learning in Python
+     Skills: Python Programming,Machine Learning (ML) Algorithms,Machine Learning,Scikit-Learn,
+
+ 6. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Python and Machine Learning for Asset Management
+     Skills: Programming skills,Managing your own personal invetsments,Investment management knowledge,Computer S
+
+ 7. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Machine Learning for Accounting with Python
+     Skills: Text Analysis,Basic Time Series Analysis,Machine Learning Model Evaluation and Optimization,Python P
+
+ 8. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Python Project for AI  Application Development
+     Skills: Artificial Intelligence (AI),Web Application,Python Programming,Application development,Flask,
+
+ 9. [COURSERA    ] Prob: 0.0704 | Score: 1.0000
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+10. [COURSERA    ] Prob: 0.0304 | Score: 0.9580
+     Google Advanced Data Analytics Professional Certificate
+     Skills: Data Science,Regression Models,Predictive Modelling,Exploratory Data Analysis (EDA),Statistical Anal
+
+11. [COURSERA    ] Prob: 0.0161 | Score: 0.9263
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+12. [COURSERA    ] Prob: 0.0156 | Score: 0.9247
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+13. [COURSERA    ] Prob: 0.0107 | Score: 0.9060
+     Advanced Algorithms and Complexity
+     Skills: Python Programming,Linear Programming (LP),Np-Completeness,Dynamic Programming,
+
+14. [COURSERA    ] Prob: 0.0107 | Score: 0.9059
+     Machine Learning Foundations: A Case Study Approach
+     Skills: Python Programming,Machine Learning Concepts,Machine Learning,Deep Learning,
+
+15. [COURSERA    ] Prob: 0.0001 | Score: 0.6810
+     Introduction to Machine Learning in Sports Analytics
+     Skills: No skills
+
+16. [COURSERA    ] Prob: 0.0001 | Score: 0.6653
+     IBM Machine Learning Professional Certificate
+     Skills: Artificial Intelligence (AI),Machine Learning,Feature Engineering,Statistical Hypothesis Testing,Exp
+
+17. [COURSERA    ] Prob: 0.0001 | Score: 0.6542
+     Data Analytics in Accounting Capstone
+     Skills: Data Analysis,Python Programming,Machine Learning,Data Visualization (DataViz),
+
+18. [COURSERA    ] Prob: 0.0001 | Score: 0.6522
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+19. [COURSERA    ] Prob: 0.0001 | Score: 0.6473
+     AI Workflow: Business Priorities and Data Ingestion
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+20. [COURSERA    ] Prob: 0.0001 | Score: 0.6469
+     AI Workflow: Data Analysis and Hypothesis Testing
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+21. [COURSERA    ] Prob: 0.0000 | Score: 0.6348
+     AI Workflow: Machine Learning, Visual Recognition and NLP
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+22. [COURSERA    ] Prob: 0.0000 | Score: 0.6268
+     Mathematics for Machine Learning: PCA
+     Skills: Dimensionality Reduction,Python Programming,Linear Algebra,
+
+23. [COURSERA    ] Prob: 0.0000 | Score: 0.6257
+     Introduction to Machine Learning
+     Skills: Natural Language Processing,Convolutional Neural Network,Machine Learning,Python Programming,pytorch
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.6223
+     AI Workflow: Feature Engineering and Bias Detection
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+25. [COURSERA    ] Prob: 0.0000 | Score: 0.6178
+     AI Workflow: Enterprise Model Deployment
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+26. [COURSERA    ] Prob: 0.0000 | Score: 0.6178
+     TensorFlow on Google Cloud
+     Skills: Machine Learning,Python Programming,Build Input Data Pipeline,Tensorflow,keras,
+
+27. [COURSERA    ] Prob: 0.0000 | Score: 0.6151
+     Using Machine Learning in Trading and Finance
+     Skills: Algorithmic Trading,Python Programming,Machine Learning,
+
+28. [COURSERA    ] Prob: 0.0000 | Score: 0.6137
+     AI Workflow: AI in Production
+     Skills: Data Science,Information Engineering,Artificial Intelligence (AI),Machine Learning,Python Programmin
+
+29. [COURSERA    ] Prob: 0.0000 | Score: 0.6010
+     Neural Networks and Deep Learning
+     Skills: Deep Learning,Artificial Neural Network,Backpropagation,Python Programming,Neural Network Architectu
+
+30. [COURSERA    ] Prob: 0.0000 | Score: 0.5790
+     Generative AI with Large Language Models
+     Skills: NLP, Generative AI, Large Language Modeling, Prompt Engineering, Python, PyTorch, Reinforcement Lear
+
+31. [COURSERA    ] Prob: 0.0000 | Score: 0.4715
+     Computational Neuroscience
+     Skills: Computational Neuroscience,Artificial Neural Network,Reinforcement Learning,Biological Neuron Model,
+
+32. [COURSERA    ] Prob: 0.0000 | Score: 0.1208
+     Exploratory Data Analysis for Machine Learning
+     Skills: Artificial Intelligence (AI),Machine Learning,Feature Engineering,Statistical Hypothesis Testing,Exp
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.1135
+     Google Cloud Big Data and Machine Learning Fundamentals
+     Skills: Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+
+34. [COURSERA    ] Prob: 0.0000 | Score: 0.1065
+     Analyze Datasets and Train ML Models using AutoML
+     Skills: Statistical Data Bias Detection,Multi-class Classification with FastText and BlazingText,Data ingest
+
+35. [COURSERA    ] Prob: 0.0000 | Score: 0.1039
+     A Crash Course in Data Science
+     Skills: Data Science,Data Analysis,Machine Learning,Project,
+
+36. [COURSERA    ] Prob: 0.0000 | Score: 0.0979
+     Machine Learning for All
+     Skills: No skills
+
+37. [COURSERA    ] Prob: 0.0000 | Score: 0.0966
+     Applied Data Science for Data Analysts
+     Skills: Data Science,Machine Learning,Databricks,
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.0937
+     Data Science Fundamentals for Data Analysts
+     Skills: Data Science,Data Analysis,Machine Learning,
+
+39. [COURSERA    ] Prob: 0.0000 | Score: 0.0915
+     Machine Learning With Big Data
+     Skills: Machine Learning Concepts,Knime,Machine Learning,Apache Spark,
+
+40. [COURSERA    ] Prob: 0.0000 | Score: 0.0861
+     Smart Analytics, Machine Learning, and AI on Google Cloud
+     Skills: No skills
+
+41. [COURSERA    ] Prob: 0.0000 | Score: 0.0859
+     Big Data, Artificial Intelligence, and Ethics
+     Skills: No skills
+
+42. [COURSERA    ] Prob: 0.0000 | Score: 0.0858
+     Ethical Issues in Data Science
+     Skills: Data Science,Ethics,Algorithms,Privacy,Philosophy,
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.0857
+     Foundations of Data Science
+     Skills: Sharing Insights With Stakeholders,Effective Written Communication,Asking Effective Questions,Cross-
+
+44. [COURSERA    ] Prob: 0.0000 | Score: 0.0839
+     Fundamentals of Scalable Data Science
+     Skills: Statistics,Data Science,Internet Of Things (IOT),Apache Spark,
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.0835
+     Machine Learning Introduction for Everyone
+     Skills: Deep Learning,Artificial Intelligence (AI),Machine Learning,Reinforcement Learning,Machine Learning 
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.0825
+     Google Cloud Big Data and Machine Learning Fundamentals 日本語版
+     Skills: Tensorflow,Bigquery,Google Cloud Platform,Cloud Computing,
+
+47. [COURSERA    ] Prob: 0.0000 | Score: 0.0820
+     Microsoft Azure Data Scientist Associate DP-100 Professional Certificate
+     Skills: Manage Azure resources for machine learning,Deploy and operationalize machine learning solutions,Run
+
+48. [COURSERA    ] Prob: 0.0000 | Score: 0.0819
+     Probability  Statistics for Machine Learning  Data Science
+     Skills: Statistical Analysis,Probability And Statistics,Probability,Statistical Hypothesis Testing,Machine L
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.0818
+     What is Data Science?
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.0812
+     Machine Learning Foundations for Product Managers
+     Skills: Data Science,Artificial Neural Network,Machine Learning,Predictive Analytics,Modeling,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   9 courses (  4.4%)
+Medium    :   5 courses (  2.4%)
+Low       :   0 courses (  0.0%)
+Very Low  : 191 courses ( 93.2%)

@@ -1,0 +1,469 @@
+{
+  "timestamp": "2025-11-28T19:42:20.743289",
+  "user_query": "show me some difficult level course in  cricket from coursera and  and  data science courses from simply learnt platform",
+  "debug_info": {
+    "user_query": "show me some difficult level course in  cricket from coursera and  and  data science courses from simply learnt platform",
+    "llm_generated_queries": {
+      "query_type": "SPJ",
+      "thought_process": "User asked for courses in 'cricket' and 'data science'. Expanding 'data science' to include synonyms. Targeting specific platforms (Coursera and Simplilearn) and filtering for 'difficult' level courses. I assume difficult is synonymous with expert or advanced.",
+      "expanded_terms": [
+        "Data Science",
+        "Data Analysis",
+        "Statistics",
+        "Big Data",
+        "Pandas",
+        "Python",
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "providers": {
+        "coursera": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(cricket)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(cricket)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(cricket)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(cricket)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\b(cricket)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "simplilearn": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    "query_type": "SPJ",
+    "execution_results": {
+      "coursera": {
+        "collection": "Coursera",
+        "query": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bsome\\ difficult\\ level\\ cricket\\ coursera\\ and\\ and\\ data\\ science\\ simply\\ learnt\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "match_count": 0,
+        "used_fallback": true,
+        "limit_applied": null,
+        "execution_error": null
+      },
+      "simplilearn": {
+        "collection": "SimpliLearn",
+        "query": {
+          "$and": [
+            {
+              "$or": [
+                {
+                  "Title": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Data Science|Data Analysis|Statistics|Big Data|Pandas|Python|Machine Learning|Deep Learning)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            {
+              "$or": [
+                {
+                  "Skills": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Category": {
+                    "$regex": "\\b(Advanced|Expert|Difficult)\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "match_count": 3,
+        "used_fallback": false,
+        "limit_applied": null,
+        "execution_error": null
+      }
+    }
+  },
+  "all_results": [
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7f7",
+        "Title": "Data Science with R Certification Course",
+        "Short Intro": "Simplilearnâ€™s Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "Course",
+        "Skills": 53626,
+        "Instructors": "Big Data Analytics",
+        "URL": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Data Science with R Certification Course",
+        "url": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+        "description": "Simplilearnâs Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "R Programming",
+          "Data Analysis",
+          "Data Visualization",
+          "Statistical Modeling",
+          "Data Mining",
+          "Machine Learning",
+          "Regression Analysis"
+        ],
+        "instructors": [
+          "Big Data Analytics"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Apply R programming for data analysis",
+          "Perform data visualization using R packages",
+          "Build statistical models using R",
+          "Implement data mining techniques in R",
+          "Interpret results from statistical analyses",
+          "Make data-driven business decisions"
+        ],
+        "price": "Paid",
+        "provider": "simplilearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7f7",
+          "Title": "Data Science with R Certification Course",
+          "Short Intro": "Simplilearnâ€™s Data Science with R certification course makes you an expert in data analytics using the R programming language. This data science with R course enables you to take your Data Science skills into a variety of companies, helping them analyze data and make more informed business decisions. With dedicated mentoring sessions, this R course incorporates cutting-edge curriculum to help you develop job-ready skills. Enroll in our R training and build expertise in data science right away.",
+          "Category": "Simplilearn",
+          "Subtitle Languages": "Course",
+          "Skills": 53626,
+          "Instructors": "Big Data Analytics",
+          "URL": "https://www.simplilearn.com/big-data-and-analytics/data-scientist-certification-sas-r-excel-training?tag=",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 0.5802628139588817,
+        "relevance_score": 0.1208096868120101,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.5802628139588817,
+      "relevance_score": 0.1208096868120101
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7dd",
+        "Title": "Professional Certificate Course in AI and Machine Learning",
+        "Short Intro": "Become an AI and ML expert with this Machine Learning Course. Learn the latest tools and technologies of the AI world through live classes delivered by industry experts, hands-on labs, Industry-relevant projects and masterclasses from distinguished IIT Kanpur faculty.",
+        "Category": "Simplilearn",
+        "Subtitle Languages": "University Program",
+        "Skills": 8583,
+        "Instructors": "AI & Machine Learning",
+        "URL": "https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?tag=",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Professional Certificate Course in AI and Machine Learning",
+        "url": "https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?tag=",
+        "description": "Become an AI and ML expert with this Machine Learning Course. Learn the latest tools and technologies of the AI world through live classes delivered by industry experts, hands-on labs, Industry-relevant projects and masterclasses from distinguished IIT Kanpur faculty.",
+        "category": "Artificial Intelligence",
+        "language": "English",
+        "skills": [
+          "Machine Learning",
+          "Artificial Intelligence",
+          "Deep Learning",
+          "Python",
+          "TensorFlow",
+          "Keras",
+          "Natural Language Processing",
+          "Computer Vision"
+        ],
+        "instructors": [
+          "AI & Machine Learning"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Develop AI and Machine Learning models",
+          "Utilize Python libraries for AI development",
+          "Build and train neural networks with TensorFlow and Keras",
+          "Apply machine learning techniques to real-world problems",
+          "Implement natural language processing techniques",
+          "Understand computer vision principles"
+        ],
+        "price": "Paid",
+        "provider": "simplilearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7dd",
+          "Title": "Professional Certificate Course in AI and Machine Learning",
+          "Short Intro": "Become an AI and ML expert with this Machine Learning Course. Learn the latest tools and technologies of the AI world through live classes delivered by industry experts, hands-on labs, Industry-relevant projects and masterclasses from distinguished IIT Kanpur faculty.",
+          "Category": "Simplilearn",
+          "Subtitle Languages": "University Program",
+          "Skills": 8583,
+          "Instructors": "AI & Machine Learning",
+          "URL": "https://www.simplilearn.com/iitk-professional-certificate-course-ai-machine-learning?tag=",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 0.21672864348204382,
+        "relevance_score": 0.0715679343986936,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.21672864348204382,
+      "relevance_score": 0.0715679343986936
+    },
+    {
+      "provider": "simplilearn",
+      "original_data": {
+        "_id": "68ac04f569e0bdd621a8d7e1",
+        "Title": "Data Analyst",
+        "Short Intro": "This Data Analytics course in collaboration with IBM makes you a Data Analytics expert. Our Data Analyst course helps you learn analytics tools and techniques, how to work with SQL databases, R and Python, how to create data visualizations, and apply statistics and predictive analytics in a business environment. This Data Analytics certification also features Masterclasses from IBM experts.",
+        "Category": "Simplilearn",
+        "Course Type": "Ranked #1 Best Data Analytics Certification Course by Career Karma",
+        "Language": " Career Karma",
+        "Subtitle Languages": "Masters Program",
+        "Instructors": "Data Science & Business Analytics",
+        "URL": "https://www.simplilearn.com/",
+        "_provider": "simplilearn"
+      },
+      "unified_data": {
+        "title": "Data Analyst",
+        "url": "https://www.simplilearn.com/",
+        "description": "This Data Analytics course in collaboration with IBM makes you a Data Analytics expert. Our Data Analyst course helps you learn analytics tools and techniques, how to work with SQL databases, R and Python, how to create data visualizations, and apply statistics and predictive analytics in a business environment. This Data Analytics certification also features Masterclasses from IBM experts.",
+        "category": "Data Science",
+        "language": "English",
+        "skills": [
+          "Data Analysis",
+          "SQL",
+          "R Programming",
+          "Python",
+          "Data Visualization",
+          "Predictive Analytics",
+          "Statistical Analysis"
+        ],
+        "instructors": [
+          "Data Science & Business Analytics"
+        ],
+        "duration": "",
+        "site": "Simplilearn",
+        "level": "Intermediate",
+        "viewers": 1000,
+        "prerequisites": [],
+        "learning_outcomes": [
+          "Perform data analysis using various tools and techniques",
+          "Query and manipulate data using SQL",
+          "Develop data visualizations using R and Python",
+          "Apply statistical methods for data analysis",
+          "Build predictive models for business applications",
+          "Work with SQL databases to extract and analyze data"
+        ],
+        "price": "Paid",
+        "provider": "simplilearn",
+        "_enrichment_applied": true,
+        "original_data": {
+          "_id": "68ac04f569e0bdd621a8d7e1",
+          "Title": "Data Analyst",
+          "Short Intro": "This Data Analytics course in collaboration with IBM makes you a Data Analytics expert. Our Data Analyst course helps you learn analytics tools and techniques, how to work with SQL databases, R and Python, how to create data visualizations, and apply statistics and predictive analytics in a business environment. This Data Analytics certification also features Masterclasses from IBM experts.",
+          "Category": "Simplilearn",
+          "Course Type": "Ranked #1 Best Data Analytics Certification Course by Career Karma",
+          "Language": " Career Karma",
+          "Subtitle Languages": "Masters Program",
+          "Instructors": "Data Science & Business Analytics",
+          "URL": "https://www.simplilearn.com/",
+          "_provider": "simplilearn"
+        },
+        "relevance_probability": 0.20300854255907447,
+        "relevance_score": 0.0682980333771936,
+        "_batch_enriched": true
+      },
+      "enrichment_applied": true,
+      "relevance_probability": 0.20300854255907447,
+      "relevance_score": 0.0682980333771936
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: looking for data science and business analytics courses with statistics, SQL, and data visualization skills. need courses that have good ratings and practical projects for career advancement
+Total Courses: 320
+Generated at: 2025-11-23T14:29:31.688334
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    : 320 courses | Avg Prob: 0.0031 | Avg Score: 0.0907
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.0035 | Score: 0.2032
+     Financial Analysis for Business Decisions: Introduction to Data Analysis Tools and Capital Projects
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.0035 | Score: 0.2032
+     Financial Analysis for Business Decisions: Introduction to Data Analysis Tools and Capital Projects
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.0035 | Score: 0.2032
+     Financial Analysis for Business Decisions: Introduction to Data Analysis Tools and Capital Projects
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1856
+     Introduction to Data Science for Business
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1856
+     Introduction to Data Science for Business
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1856
+     Introduction to Data Science for Business
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1856
+     Introduction to Data Science for Business
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1734
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1734
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+10. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1734
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+11. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1734
+     Get ready for a Masters in Data Science and AI
+     Skills: No skills
+
+12. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1712
+     SQL for Data Analysis
+     Skills: No skills
+
+13. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1712
+     SQL for Data Analysis
+     Skills: No skills
+
+14. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1692
+     Data Science Projects and Applications
+     Skills: No skills
+
+15. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1692
+     Data Science Projects and Applications
+     Skills: No skills
+
+16. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1692
+     Data Science Projects and Applications
+     Skills: No skills
+
+17. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+18. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+19. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+20. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+21. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+22. [FUTURELEARN ] Prob: 0.0034 | Score: 0.1665
+     Microsoft Excel: Advanced Data Analysis and Visualisation
+     Skills: No skills
+
+23. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+24. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+25. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+26. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+27. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+28. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+29. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+30. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+31. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+32. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1536
+     Data Visualisation with Python: Matplotlib and Visual Analysis
+     Skills: No skills
+
+33. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1518
+     Advanced Data Visualisation and Analysis in Excel
+     Skills: No skills
+
+34. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1456
+     Microsoft Future Ready: Fundamentals to R for Data Science
+     Skills: No skills
+
+35. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1456
+     Microsoft Future Ready: Fundamentals to R for Data Science
+     Skills: No skills
+
+36. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1456
+     Microsoft Future Ready: Fundamentals to R for Data Science
+     Skills: No skills
+
+37. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1448
+     Data Science for Climate Change
+     Skills: No skills
+
+38. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1448
+     Data Science for Climate Change
+     Skills: No skills
+
+39. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+40. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+41. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+42. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+43. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+44. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+45. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+46. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+47. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+48. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1425
+     Data Visualisation with Python: Bokeh and Advanced Layouts
+     Skills: No skills
+
+49. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1370
+     Introduction to Data Science for Educators
+     Skills: No skills
+
+50. [FUTURELEARN ] Prob: 0.0033 | Score: 0.1370
+     Introduction to Data Science for Educators
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       : 320 courses (100.0%)
+Very Low  :   0 courses (  0.0%)

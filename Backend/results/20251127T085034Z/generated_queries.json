@@ -1,0 +1,46 @@
+{
+  "user_query": "Machine learning courses from Futurelearn",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Machine learning courses from Futurelearn'. Expanding 'Machine Learning' to include: Machine Learning, AI, Artificial Intelligence, Deep Learning, Neural Networks. The platform specified is Futurelearn, so the query will be constructed for Futurelearn only.",
+    "expanded_terms": [
+      "Machine Learning",
+      "AI",
+      "Artificial Intelligence",
+      "Deep Learning",
+      "Neural Networks"
+    ],
+    "providers": {
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Category": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Sub-Category": {
+              "$regex": "\\b(Machine Learning|AI|Artificial Intelligence|Deep Learning|Neural Networks)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Future Learn"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T08:50:34.090762"
+}

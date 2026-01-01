@@ -1,0 +1,41 @@
+{
+  "user_query": "Show me top 5 courses from Udacity on Social Science",
+  "execution_results": {
+    "udacity": {
+      "collection": "Udacity",
+      "query": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\btop\\ udacity\\ social\\ science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\btop\\ udacity\\ social\\ science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "What you learn": {
+              "$regex": "\\btop\\ udacity\\ social\\ science\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Level": {
+              "$regex": "\\btop\\ udacity\\ social\\ science\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "match_count": 0,
+      "used_fallback": true,
+      "limit_applied": 5,
+      "execution_error": null
+    }
+  },
+  "timestamp": "2025-11-14T21:48:32.529823"
+}

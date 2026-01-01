@@ -1,0 +1,73 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: Show me courses that can lead to multiple certifications: AWS cloud practitioner, Google data analytics, IBM AI engineering, and Microsoft Azure fundamentals - from platforms offering official certification preparation
+Total Courses: 13
+Generated at: 2025-11-27T08:08:16.007525
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       :  13 courses | Avg Prob: 0.0769 | Avg Score: 0.1350
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 1.0000 | Score: 1.0000
+     AWS Cloud Practitioner Essentials
+     Skills: Cloud Computing Security,AWS cloud,cloud networking,Cloud Computing,Migration and Innovation,
+
+ 2. [COURSERA    ] Prob: 0.0000 | Score: 0.0820
+     Google Data Analytics Capstone: Complete a Case Study
+     Skills: Job portfolio,Data Cleansing,Data Analysis,Data Visualization (DataViz),case study,
+
+ 3. [COURSERA    ] Prob: 0.0000 | Score: 0.0749
+     Google Data Analytics Professional Certificate
+     Skills: Spreadsheet,Data Cleansing,Data Analysis,Data Visualization (DataViz),SQL,Questioning,Decision-Makin
+
+ 4. [COURSERA    ] Prob: 0.0000 | Score: 0.0714
+     Share Data Through the Art of Visualization
+     Skills: Data Analysis,Tableau Software,Data Visualization (DataViz),Presentation,
+
+ 5. [COURSERA    ] Prob: 0.0000 | Score: 0.0676
+     Prepare Data for Exploration
+     Skills: Spreadsheet,Metadata,Data Collection,Data Ethics,SQL,
+
+ 6. [COURSERA    ] Prob: 0.0000 | Score: 0.0667
+     Data Analysis with R Programming
+     Skills: R Programming,Data Analysis,Data Visualization (DataViz),R Markdown,Rstudio,
+
+ 7. [COURSERA    ] Prob: 0.0000 | Score: 0.0630
+     Process Data from Dirty to Clean
+     Skills: Spreadsheet,Data Cleansing,Sample Size Determination,SQL,Data Integrity,
+
+ 8. [COURSERA    ] Prob: 0.0000 | Score: 0.0627
+     Analyze Data to Answer Questions
+     Skills: Spreadsheet,Data Analysis,SQL,Data Calculations,Data Aggregation,
+
+ 9. [COURSERA    ] Prob: 0.0000 | Score: 0.0605
+     Foundations: Data, Data, Everywhere
+     Skills: Spreadsheet,Data Cleansing,Data Analysis,Data Visualization (DataViz),SQL,
+
+10. [COURSERA    ] Prob: 0.0000 | Score: 0.0595
+     Google Data Analytics DE Professional Certificate
+     Skills: Datenbereinigung,Kalkulationstabelle,Datenvisualisierung (DataViz),Datenanalyse,SQL,Entscheidungsfin
+
+11. [COURSERA    ] Prob: 0.0000 | Score: 0.0592
+     Ask Questions to Make Data-Driven Decisions
+     Skills: Spreadsheet,Questioning,Decision-Making,Problem Solving,Data Analysis,
+
+12. [COURSERA    ] Prob: 0.0000 | Score: 0.0531
+     Google Data Analytics PT Professional Certificate
+     Skills: Visualização de dados (DataViz),Limpeza de dados,Planilha,SQL,Análise dos dados,análise de dados,Que
+
+13. [COURSERA    ] Prob: 0.0000 | Score: 0.0350
+     Aspectos básicos: Datos, datos, en todas partes
+     Skills: Visualización de Datos (DataViz),Limpieza de datos,Hoja de cálculo,análisis de datos,SQL,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   1 courses (  7.7%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :  12 courses ( 92.3%)

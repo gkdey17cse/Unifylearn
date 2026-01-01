@@ -1,0 +1,41 @@
+{
+  "user_query": "SHow 3 DBMS course from Coursera",
+  "generated_queries": {
+    "coursera": {
+      "$or": [
+        {
+          "Title": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Short Intro": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Skills": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Category": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        },
+        {
+          "Sub-Category": {
+            "$regex": "\\bDBMS\\b",
+            "$options": "i"
+          }
+        }
+      ],
+      "$limit": 3
+    }
+  },
+  "timestamp": "2025-11-14T20:55:37.228519"
+}

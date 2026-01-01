@@ -1,0 +1,187 @@
+{
+  "timestamp": "2025-11-15T01:36:48.964755",
+  "user_query": "Show top 3 Data Science courses from each platform",
+  "debug_info": {
+    "user_query": "Show top 3 Data Science courses from each platform",
+    "llm_generated_queries": {
+      "query_type": "AGGREGATE",
+      "description": "Get top 3 Data Science courses from each platform",
+      "aggregation_strategy": "provider_level",
+      "sort_field": "Number of viewers",
+      "sort_order": -1,
+      "providers": {
+        "coursera": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Category": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            "$sort": {
+              "Number of viewers": -1
+            },
+            "$limit": 3
+          }
+        },
+        "udacity": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Program Type": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Level": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "What you learn": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            "$sort": {
+              "Number of viewers": -1
+            },
+            "$limit": 3
+          }
+        },
+        "simplilearn": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Category": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Course Type": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Skills": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            "$sort": {
+              "Number of viewers": -1
+            },
+            "$limit": 3
+          }
+        },
+        "futurelearn": {
+          "query": {
+            "$match": {
+              "$or": [
+                {
+                  "Category": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Sub-Category": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Title": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                },
+                {
+                  "Short Intro": {
+                    "$regex": "\\bData Science\\b",
+                    "$options": "i"
+                  }
+                }
+              ]
+            },
+            "$sort": {
+              "Number of viewers": -1
+            },
+            "$limit": 3
+          }
+        }
+      }
+    },
+    "query_type": "AGGREGATE",
+    "execution_results": {}
+  },
+  "all_results": []
+}

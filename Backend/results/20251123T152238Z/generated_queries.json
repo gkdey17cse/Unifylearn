@@ -1,0 +1,169 @@
+{
+  "user_query": "cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management. prefer courses with hands-on labs",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'cybersecurity and ethical hacking courses focusing on network security, penetration testing, and information security management'. Expanding terms to include: Cybersecurity, Ethical Hacking, InfoSec, Penetration Testing, Network Security.",
+    "expanded_terms": [
+      "Cybersecurity",
+      "Ethical Hacking",
+      "Network Security",
+      "Penetration Testing",
+      "InfoSec"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(hands-on labs)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "What you learn": {
+              "$regex": "\\b(hands-on labs)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Skills": {
+              "$regex": "\\b(hands-on labs)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Sub-Category": {
+                  "$regex": "\\b(Cybersecurity|Ethical Hacking|Network Security|Penetration Testing|InfoSec)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(hands-on labs)\\b",
+              "$options": "i"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T15:22:38.406258"
+}

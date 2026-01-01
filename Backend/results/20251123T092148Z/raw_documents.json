@@ -1,0 +1,48 @@
+{
+  "user_query": "Show me some AI related courses from Beginner Levell",
+  "raw_documents": {
+    "coursera": [],
+    "udacity": [
+      {
+        "_id": "68ac0cf969e0bdd621a8d84b",
+        "Title": "Product Manager Interview Preparation",
+        "URL": "https://www.udacity.com/course/product-manager-interview-preparation--ud034",
+        "Short Intro": "Prove your qualifications in your Product Manager interviews, and watch experienced Product Managers go through mock strategy and technical interviews, as well as share insights about the PM interview process.",
+        "Duration": "Estimated timeApprox. 1 Week",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "This course is ideal for anyone looking to upgrade their PM interviewing skills or break into the Product Management field, and learn best practices for Product Management interviews. There are no technical prerequisites for this course.See the Technology Requirements for using Udacity.",
+        "What you learn": "What You Need to Know Before the Product Manager InterviewUnderstand what skills, abilities, and experience impress Hiring Managers and help you stand outLearn how to prepare for a Product Manager interview, including what assets to prioritize and how responses should be structuredGet advice from practicing Product Managers on how to get into Product ManagementUnderstand what skills, abilities, and experience impress Hiring Managers and help you stand outLearn how to prepare for a Product Manager interview, including what assets to prioritize and how responses should be structuredGet advice from practicing Product Managers on how to get into Product ManagementMock Interview: Product Strategy QuestionsLearn how to answer case questions that touch upon feature enhancements to improve product performance, metrics to measure success, and how to increase product subscriptionsLearn how to justify your product decisions with a strategic framework that is structured and defensibleEvaluate the strengths and weaknesses in the mock strategy interview, and apply your learnings to a set of practice questionsLearn how to answer case questions that touch upon feature enhancements to improve product performance, metrics to measure success, and how to increase product subscriptionsLearn how to justify your product decisions with a strategic framework that is structured and defensibleEvaluate the strengths and weaknesses in the mock strategy interview, and apply your learnings to a set of practice questionsMock Interview: Technical Product QuestionsLearn how to answer questions around prioritizing resources in a product roadmap, and convincing cross-functional teams to execute on your visionLearn how to answer technical questions like explaining the back-end of a Google searchEvaluate the strengths and weaknesses in the mock technical interview, and apply your learnings to a set of practice questionsLearn how to answer questions around prioritizing resources in a product roadmap, and convincing cross-functional teams to execute on your visionLearn how to answer technical questions like explaining the back-end of a Google searchEvaluate the strengths and weaknesses in the mock technical interview, and apply your learnings to a set of practice questionsDay in the Life of a Product ManagerUnderstand how Product Managers structure their day, and which skills are applied how on the jobExplain the typical decisions Product Managers have to make, and the unique challenges and opportunities that are encapsulated in this roleExperience a day in the life of Product Managers in the Growth and AI specializationsUnderstand how Product Managers structure their day, and which skills are applied how on the jobExplain the typical decisions Product Managers have to make, and the unique challenges and opportunities that are encapsulated in this roleExperience a day in the life of Product Managers in the Growth and AI specializations"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d854",
+        "Title": "Microsoft Power Platform",
+        "URL": "https://www.udacity.com/course/microsoft-power-platform--ud091",
+        "Short Intro": "Build powerful business apps with Microsoft Power Platform.",
+        "Duration": "Estimated timeApprox. 1 Month",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "No prior knowledge of Microsoft Power Platform or other Microsoft products  is required. Anyone who is interested in building apps with no prior programming experience can take this course.\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Creating your First App with Power AppsExplore what Power Apps is and how it can be usedGenerate a simple Power App with the template galleryDeploy your first Power AppExplore what Power Apps is and how it can be usedGenerate a simple Power App with the template galleryDeploy your first Power AppApp DevelopmentIdentify a business problemDesign an Inventory Tracking AppCreate a functional page one of a Canvas AppUse a datastore to implement app functionalityIdentify a business problemDesign an Inventory Tracking AppCreate a functional page one of a Canvas AppUse a datastore to implement app functionalityUsing Power AutomateExplain Power Automate and FlowsUse triggers to begin a flow processUse Data ConnectorsExplain Power Automate and FlowsUse triggers to begin a flow processUse Data ConnectorsAI BuilderEvaluate use cases for AI BuilderUse a prebuilt AI Builder model in a Power AppImplement the AI Builder model for Object Recognition inside an AppEvaluate use cases for AI BuilderUse a prebuilt AI Builder model in a Power AppImplement the AI Builder model for Object Recognition inside an App"
+      },
+      {
+        "_id": "68ac0cf969e0bdd621a8d8d4",
+        "Title": "AI Fundamentals",
+        "URL": "https://www.udacity.com/course/ai-fundamentals--ud099",
+        "Short Intro": "Learn the AI skills top companies are looking for.",
+        "Duration": "Estimated timeApprox. 1 Month",
+        "Site": "Udacity",
+        "Program Type": "Free Course",
+        "Level": "Beginner",
+        "Prequisites": "No prior experience with ML or AI is required, but a student taking this course should already:\r\n\r\nBe familiar with basic concepts of linear algebra, probability and statistics\r\nBe familiar with basic Python\r\nHave experience setting up Azure compute resources (recommended but not required)\r\nUnderstand basic programming skills, such as writing conditional and loop statements in any language, preferably Python\r\nHave basic statistics knowledge, such as calculating standard deviation and using linear regression methods\r\nHave basic knowledge of machine learning (recommended but not required)\r\n\r\nSee the Technology Requirements for using Udacity.",
+        "What you learn": "Introduction to AI Fundamentals with AzureMeet your instructors, get an overview of the course, check out the prerequisites and get an introduction to the development of AI and ML.Meet your instructors, get an overview of the course, check out the prerequisites and get an introduction to the development of AI and ML.AI and ML Core ConceptsReview the key terms and concepts related to artificial intelligence and machine learning, including responsible AI and responsible ML.Review the key terms and concepts related to artificial intelligence and machine learning, including responsible AI and responsible ML.Machine LearningTrain and evaluate models using Azure Machine Learning, using its automated machine learning capabilities as well as the Azure Machine Learning designer.Train and evaluate models using Azure Machine Learning, using its automated machine learning capabilities as well as the Azure Machine Learning designer.Computer VisionUse Azure Cognitive Services to handle key workloads in computer vision: object detection, image classification, face detection, text analysis and processing forms.Use Azure Cognitive Services to handle key workloads in computer vision: object detection, image classification, face detection, text analysis and processing forms.Natural Language ProcessingAnalyze text and speech for intent and translate text and speech between languages.Analyze text and speech for intent and translate text and speech between languages.Conversational AICreate a knowledge base in question-and-answer format and create a bot based off of that knowledge base.Create a knowledge base in question-and-answer format and create a bot based off of that knowledge base."
+      }
+    ],
+    "simplilearn": [],
+    "futurelearn": []
+  },
+  "total_raw_documents": 3,
+  "timestamp": "2025-11-23T09:21:48.430296"
+}

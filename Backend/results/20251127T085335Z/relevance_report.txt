@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: SHow me AI course from SImplilearn , C++ Course from Coursera , Web Development course from Future Learn and Business & law course from Udacity
+Total Courses: 69
+Generated at: 2025-11-27T08:53:35.975395
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :   9 courses | Avg Prob: 0.0434 | Avg Score: 0.5935
+UDACITY        :  42 courses | Avg Prob: 0.0006 | Avg Score: 0.0981
+SIMPLILEARN    :   9 courses | Avg Prob: 0.0000 | Avg Score: 0.0801
+COURSERA       :   9 courses | Avg Prob: 0.0000 | Avg Score: 0.0474
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.1948 | Score: 1.0000
+     A Beginnerâs Guide to Web Development with HTML5
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.1948 | Score: 1.0000
+     Software Development Fundamentals: Web Accessibility and CSS
+     Skills: No skills
+
+ 3. [UDACITY     ] Prob: 0.0239 | Score: 0.8951
+     Computer Networking
+     Skills: No skills
+
+ 4. [UDACITY     ] Prob: 0.0003 | Score: 0.6828
+     Full Stack JavaScript Developer
+     Skills: No skills
+
+ 5. [FUTURELEARN ] Prob: 0.0003 | Score: 0.6741
+     Microsoft Future Ready: Developing Applications Using Javascript
+     Skills: No skills
+
+ 6. [FUTURELEARN ] Prob: 0.0002 | Score: 0.6607
+     Software Development Basics
+     Skills: No skills
+
+ 7. [FUTURELEARN ] Prob: 0.0002 | Score: 0.6482
+     Intermediate and Advanced Javascript
+     Skills: No skills
+
+ 8. [FUTURELEARN ] Prob: 0.0001 | Score: 0.6347
+     A Beginnerâs Guide to Creating a VR Experience
+     Skills: No skills
+
+ 9. [FUTURELEARN ] Prob: 0.0001 | Score: 0.6302
+     Introduction to JavaScript
+     Skills: No skills
+
+10. [UDACITY     ] Prob: 0.0001 | Score: 0.6215
+     How to Build a Startup
+     Skills: No skills
+
+11. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.3201
+     Data Scientist
+     Skills: No skills
+
+12. [UDACITY     ] Prob: 0.0000 | Score: 0.0912
+     Introduction to Data Analytics for Business
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0000 | Score: 0.0908
+     Product Strategy
+     Skills: No skills
+
+14. [UDACITY     ] Prob: 0.0000 | Score: 0.0856
+     Data Science for Business Leaders
+     Skills: No skills
+
+15. [UDACITY     ] Prob: 0.0000 | Score: 0.0837
+     SQL for Data Analysis
+     Skills: No skills
+
+16. [FUTURELEARN ] Prob: 0.0000 | Score: 0.0830
+     Software Development Fundamentals: Programming Languages and HTML
+     Skills: No skills
+
+17. [UDACITY     ] Prob: 0.0000 | Score: 0.0820
+     Become a business intelligence analyst.
+     Skills: No skills
+
+18. [UDACITY     ] Prob: 0.0000 | Score: 0.0811
+     Predictive Analytics for Business
+     Skills: No skills
+
+19. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0801
+     AI for Decision Making: Business Strategies and Applications
+     Skills: No skills
+
+20. [UDACITY     ] Prob: 0.0000 | Score: 0.0759
+     AI for Business Leaders
+     Skills: No skills
+
+21. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0747
+     Professional Certificate Course in AI and Machine Learning
+     Skills: 8583
+
+22. [COURSERA    ] Prob: 0.0000 | Score: 0.0707
+     C Class Development
+     Skills: No skills
+
+23. [UDACITY     ] Prob: 0.0000 | Score: 0.0664
+     Become an AI Product Manager
+     Skills: No skills
+
+24. [COURSERA    ] Prob: 0.0000 | Score: 0.0647
+     More C Programming and Unreal
+     Skills: No skills
+
+25. [UDACITY     ] Prob: 0.0000 | Score: 0.0647
+     Data Privacy
+     Skills: No skills
+
+26. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0626
+     Post Graduate Program in AI and Machine Learning
+     Skills: 757
+
+27. [UDACITY     ] Prob: 0.0000 | Score: 0.0612
+     How to Become a Product Manager
+     Skills: No skills
+
+28. [UDACITY     ] Prob: 0.0000 | Score: 0.0611
+     How to Become a Business Analyst
+     Skills: No skills
+
+29. [UDACITY     ] Prob: 0.0000 | Score: 0.0602
+     Microsoft Power Platform
+     Skills: No skills
+
+30. [UDACITY     ] Prob: 0.0000 | Score: 0.0602
+     2D Game Development with libGDX
+     Skills: No skills
+
+31. [UDACITY     ] Prob: 0.0000 | Score: 0.0590
+     Cloud Computing for Business Leaders
+     Skills: No skills
+
+32. [COURSERA    ] Prob: 0.0000 | Score: 0.0587
+     Introduction to C Programming and Unreal
+     Skills: No skills
+
+33. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0581
+     Deep Learning Course with Keras  TensorFlow Certification Training
+     Skills: 34113
+
+34. [UDACITY     ] Prob: 0.0000 | Score: 0.0556
+     Cybersecurity for Business Leaders
+     Skills: No skills
+
+35. [UDACITY     ] Prob: 0.0000 | Score: 0.0544
+     Cloud Architect using Microsoft Azure
+     Skills: No skills
+
+36. [UDACITY     ] Prob: 0.0000 | Score: 0.0543
+     Learn SQL
+     Skills: No skills
+
+37. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.0513
+     Ranked 1 Artificial Intelligence Course by Career Karma
+     Skills: 8583
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.0496
+     Coding for Everyone: C and C Specialization
+     Skills: Algorithms, C Programming, Coding, C++, Computer Programming, Graph Theory, C++11, Graph Algorithms,
+
+39. [COURSERA    ] Prob: 0.0000 | Score: 0.0485
+     C Programming for Unreal Game Development Specialization
+     Skills: Video Game Development, Game Programming, Unreal Engine (User Interface), C++ (Programming Language)
+
+40. [UDACITY     ] Prob: 0.0000 | Score: 0.0483
+     AB Testing for Business Analysts
+     Skills: No skills
+
+41. [UDACITY     ] Prob: 0.0000 | Score: 0.0482
+     Segmentation and Clustering
+     Skills: No skills
+
+42. [UDACITY     ] Prob: 0.0000 | Score: 0.0423
+     Cloud Native Fundamentals
+     Skills: No skills
+
+43. [UDACITY     ] Prob: 0.0000 | Score: 0.0422
+     Digital Project Management
+     Skills: No skills
+
+44. [UDACITY     ] Prob: 0.0000 | Score: 0.0421
+     High Performance Computer Architecture
+     Skills: No skills
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.0416
+     Intermediate Object-Oriented Programming for Unreal Games
+     Skills: No skills
+
+46. [UDACITY     ] Prob: 0.0000 | Score: 0.0398
+     Introduction to Digital Project Management
+     Skills: No skills
+
+47. [UDACITY     ] Prob: 0.0000 | Score: 0.0387
+     Oracle Cloud Infrastructure Foundations
+     Skills: No skills
+
+48. [COURSERA    ] Prob: 0.0000 | Score: 0.0375
+     C For C Programmers, Part B
+     Skills: Graph Theory,C++11,Standard Template Library,C++,
+
+49. [UDACITY     ] Prob: 0.0000 | Score: 0.0363
+     Growth Product Manager
+     Skills: No skills
+
+50. [UDACITY     ] Prob: 0.0000 | Score: 0.0358
+     Advanced Android with Kotlin
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   2 courses (  2.9%)
+High      :   0 courses (  0.0%)
+Medium    :   1 courses (  1.4%)
+Low       :   0 courses (  0.0%)
+Very Low  :  66 courses ( 95.7%)

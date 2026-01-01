@@ -1,0 +1,222 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: find me the shortest duration courses in web development and programming, sorted by duration ascending. I want quick learning options
+Total Courses: 284
+Generated at: 2025-11-23T15:27:08.686088
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 273 courses | Avg Prob: 0.0030 | Avg Score: 0.1959
+SIMPLILEARN    :  11 courses | Avg Prob: 0.0032 | Avg Score: 0.2851
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Meta Android Developer Professional Certificate
+     Skills: Android Studio,Application development,Mobile Development,Linux,Web Development,Bash (Unix Shell),Gi
+
+ 2. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Meta Back-End Developer Professional Certificate
+     Skills: Cloud Hosting,Application Programming Interfaces (API),Python Programming,Computer Programming,Djang
+
+ 3. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Meta iOS Developer Professional Certificate
+     Skills: iOS App Development,Application development,Mobile Development,Linux,Web Development,Bash (Unix Shel
+
+ 4. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to Web Development
+     Skills: Css Code,HTML,JavaScript,Cascading Style Sheets (CSS),
+
+ 5. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     React Basics
+     Skills: Web Application,Front-End Web Development,React (Web Framework),Application development,
+
+ 6. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     HTML, CSS, and Javascript for Web Developers
+     Skills: HTML,JavaScript,Css Frameworks,Cascading Style Sheets (CSS),
+
+ 7. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to Web Development with HTML, CSS, JavaScript
+     Skills: Cascading Style Sheets (CSS),HTML,Git (Software),JavaScript,Cloud Applications,
+
+ 8. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Advanced Styling with Responsive Design
+     Skills: Bootstrap (Front-End Framework),Responsive Web Design,JavaScript,Cascading Style Sheets (CSS),
+
+ 9. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to Front-End Development
+     Skills: Web Development Tools,User Interface,Front-End Web Development,HTML and CSS,Responsive Web Design,
+
+10. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Programming with JavaScript
+     Skills: Test-Driven Development,JavaScript,Front-End Web Development,Object-Oriented Programming (OOP),
+
+11. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Using Python to Access Web Data
+     Skills: Json,Xml,Python Programming,Web Scraping,
+
+12. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to Mobile Development
+     Skills: Web Development,React (Web Framework),HTML and CSS,Mobile Development,JavaScript,
+
+13. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Building Web Applications in Django
+     Skills: Django Template Language,GET & POST,Object-Oriented Programming (OOP),Cross-Site Scripting Forgery (
+
+14. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to CSS3
+     Skills: Web Design,Style Sheets,Cascading Style Sheets (CSS),Web Development,
+
+15. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Web Application Technologies and Django
+     Skills: Cascading Style Sheets (CSS),HTML,Hypertext Transfer Protocol (HTTP),SQL,Django (Web Framework),
+
+16. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Introduction to HTML5
+     Skills: Web Design,Web Accessibility,HTML,Html5,
+
+17. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Developing Cloud Apps with Node.js and React
+     Skills: Web Development,back-end development,Server-side JavaScript,express,Computer Science,
+
+18. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Web Design: Wireframes to Prototypes
+     Skills: Sketch,Adobe XD,Adobe Illustrator,HTML/CSS,Balsamiq,
+
+19. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Principles of UXUI Design
+     Skills: Web Design,Front-End Web Development,User Experience (UX),Accessibility,
+
+20. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Web Design for Everybody Capstone
+     Skills: Web Design,HTML,JavaScript,Cascading Style Sheets (CSS),
+
+21. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Building Web Applications in PHP
+     Skills: Hypertext Preprocessor (PHP),HTML,Cascading Style Sheets (CSS),
+
+22. [COURSERA    ] Prob: 0.0347 | Score: 1.0000
+     Web Applications and Command-Line Tools for Data Engineering
+     Skills: Web Application,Python Programming,Jupyter notebooks,Cloud-Hosted Notebooks,Command-Line Interface,
+
+23. [SIMPLILEARN ] Prob: 0.0347 | Score: 1.0000
+     Post Graduate Program in Full Stack Web Development
+     Skills: 8583
+
+24. [COURSERA    ] Prob: 0.0297 | Score: 0.9922
+     Interactivity with JavaScript
+     Skills: Document Object Model (DOM),JavaScript,Web Development,
+
+25. [COURSERA    ] Prob: 0.0112 | Score: 0.9437
+     Programming Foundations with JavaScript, HTML and CSS
+     Skills: HTML,JavaScript,Cascading Style Sheets (CSS),Html5,
+
+26. [COURSERA    ] Prob: 0.0111 | Score: 0.9430
+     IBM DevOps and Software Engineering Professional Certificate
+     Skills: Test-Driven Development,CI/CD,Behavior-Driven Development,Devops,Cloud Native,Iaas PaaS Saas,Hybrid 
+
+27. [COURSERA    ] Prob: 0.0051 | Score: 0.9037
+     Animation with JavaScript and jQuery
+     Skills: Jquery,JavaScript,animations,
+
+28. [COURSERA    ] Prob: 0.0020 | Score: 0.8570
+     Capstone React App
+     Skills: UX and UI,React (Web Framework),Github,Figma,SQL,
+
+29. [COURSERA    ] Prob: 0.0016 | Score: 0.8461
+     Version Control
+     Skills: Linux,Web Development,Bash (Unix Shell),Github,Version Control,
+
+30. [COURSERA    ] Prob: 0.0003 | Score: 0.7579
+     Scripting with Python and SQL for Data Engineering
+     Skills: Database (DBMS),Python Programming,Web Scraping,MySQL,SQL,
+
+31. [COURSERA    ] Prob: 0.0002 | Score: 0.7372
+     Python Project for Data Engineering
+     Skills: Information Engineering,Python Programming,Jupyter notebooks,Web Scraping,Extract Transform Load (ET
+
+32. [COURSERA    ] Prob: 0.0001 | Score: 0.7048
+     Introduction to Software, Programming, and Databases
+     Skills: Software Development Process,database management,IT Fundamentals,Software Application Development,Co
+
+33. [COURSERA    ] Prob: 0.0000 | Score: 0.6654
+     Spring MVC, Spring Boot and Rest Controllers
+     Skills: Spring Framework,Restful services,Java Programming,Spring Boot,
+
+34. [COURSERA    ] Prob: 0.0000 | Score: 0.6538
+     Software Security
+     Skills: Fuzz Testing,Buffer Overflow,Sql Injection,Penetration Test,
+
+35. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.6493
+     Java Certification Training Course
+     Skills: 10152
+
+36. [COURSERA    ] Prob: 0.0000 | Score: 0.6473
+     Using Databases with Python
+     Skills: Python Programming,Database (DBMS),Sqlite,SQL,
+
+37. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.6453
+     Angular Certification Training Course
+     Skills: 3274
+
+38. [COURSERA    ] Prob: 0.0000 | Score: 0.6444
+     Spring Data Repositories
+     Skills: Spring Support for JPA,JPA,Restful services,Spring Data Repositories,Spring Data,
+
+39. [SIMPLILEARN ] Prob: 0.0000 | Score: 0.6397
+     Node.js Certification Training
+     Skills: 3147
+
+40. [COURSERA    ] Prob: 0.0000 | Score: 0.6258
+     Python Project for AI  Application Development
+     Skills: Artificial Intelligence (AI),Web Application,Python Programming,Application development,Flask,
+
+41. [COURSERA    ] Prob: 0.0000 | Score: 0.6236
+     IBM Full Stack Software Developer Professional Certificate
+     Skills: Cloud Native,Devops,Iaas PaaS Saas,Hybrid Multicloud,Cloud Computing,Cascading Style Sheets (CSS),HT
+
+42. [COURSERA    ] Prob: 0.0000 | Score: 0.6091
+     Python and Machine-Learning for Asset Management with Alternative Data Sets
+     Skills: Advanced vizualisation,Basics of consuption-based alternative data,Text mining methodologies,Web-scr
+
+43. [COURSERA    ] Prob: 0.0000 | Score: 0.6080
+     IBM Applied AI Professional Certificate
+     Skills: Data Science,Deep Learning,Artificial Intelligence (AI),Jobs,Machine Learning,Application Programmin
+
+44. [COURSERA    ] Prob: 0.0000 | Score: 0.5993
+     Android App Components - Intents, Activities, and Broadcast Receivers
+     Skills: Computer Programming,Android Studio,Android Software Development,Concurrent Computing,
+
+45. [COURSERA    ] Prob: 0.0000 | Score: 0.5978
+     Developing Data Products
+     Skills: Interactivity,Plotly,Web Application,R Programming,
+
+46. [COURSERA    ] Prob: 0.0000 | Score: 0.5633
+     JavaScript Basics
+     Skills: No skills
+
+47. [COURSERA    ] Prob: 0.0000 | Score: 0.4836
+     Getting and Cleaning Data
+     Skills: Data Manipulation,Regular Expression (REGEX),R Programming,Data Cleansing,
+
+48. [COURSERA    ] Prob: 0.0000 | Score: 0.4585
+     Python Data Visualization
+     Skills: No skills
+
+49. [COURSERA    ] Prob: 0.0000 | Score: 0.4551
+     Executive Data Science Capstone
+     Skills: Data Science,Data Analysis,Management,Data Management,
+
+50. [COURSERA    ] Prob: 0.0000 | Score: 0.4478
+     Data Visualization with R
+     Skills: Data Science,Data Analysis,Data Visualization (DataViz),R Programming,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   0 courses (  0.0%)
+Medium    :  26 courses (  9.2%)
+Low       :   3 courses (  1.1%)
+Very Low  : 255 courses ( 89.8%)

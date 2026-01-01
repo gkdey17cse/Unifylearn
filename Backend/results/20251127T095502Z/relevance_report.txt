@@ -1,0 +1,224 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me Coursera courses in Database
+Total Courses: 230
+Generated at: 2025-11-27T09:55:02.380695
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+COURSERA       : 175 courses | Avg Prob: 0.0045 | Avg Score: 0.1125
+UDACITY        :  34 courses | Avg Prob: 0.0024 | Avg Score: 0.0865
+SIMPLILEARN    :   8 courses | Avg Prob: 0.0019 | Avg Score: 0.0829
+FUTURELEARN    :  13 courses | Avg Prob: 0.0009 | Avg Score: 0.0589
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [COURSERA    ] Prob: 0.0502 | Score: 0.2636
+     Advanced Topics and Future Trends in Database Technologies
+     Skills: Database (DBMS),Data Warehousing,NoSQL,Big Data,database administration,
+
+ 2. [COURSERA    ] Prob: 0.0483 | Score: 0.2618
+     Relational Database Design
+     Skills: Database (DB) Design,Database (DBMS),Relational Models,Normalization,Entity–Relationship (E-R) Model
+
+ 3. [COURSERA    ] Prob: 0.0346 | Score: 0.2451
+     Database Management Essentials
+     Skills: Database (DB) Design,Entity–Relationship (E-R) Model,Database (DBMS),SQL,
+
+ 4. [COURSERA    ] Prob: 0.0235 | Score: 0.2257
+     Relational Database Support for Data Warehouses
+     Skills: Data Warehousing,Materialized View,Data Warehouse,SQL,
+
+ 5. [COURSERA    ] Prob: 0.0223 | Score: 0.2230
+     Migrating On-premises MySQL Using a Continuous Database Migration Service Job
+     Skills: Database (DBMS),Google Cloud Platform,MySQL,
+
+ 6. [COURSERA    ] Prob: 0.0203 | Score: 0.2184
+     Microsoft Azure Data Fundamentals DP-900 Exam Prep Specialization
+     Skills: Describe how to work with relational data on Azure, Describe core data concepts, Describe how to wor
+
+ 7. [COURSERA    ] Prob: 0.0203 | Score: 0.2184
+     Google Cloud Database Engineer Specialization
+     Skills: Cloud Platforms, Cloud Storage, Google Cloud Platform, Google Compute Engine, Google App Engine (GAE
+
+ 8. [COURSERA    ] Prob: 0.0197 | Score: 0.2169
+     Migrating to Cloud SQL from Amazon RDS for MySQL Using Database Migration Service
+     Skills: Database (DBMS),Google Cloud Platform,MySQL,
+
+ 9. [COURSERA    ] Prob: 0.0193 | Score: 0.2159
+     SQL: A Practical Introduction for Querying Databases
+     Skills: Create, Read, Update And Delete,Data Analysis,MySQL,Relational Database Management System (RDBMS),SQ
+
+10. [COURSERA    ] Prob: 0.0183 | Score: 0.2131
+     Foundations for Big Data Analysis with SQL
+     Skills: Database (DBMS),Data Warehousing,Data Analysis,Big Data,SQL,
+
+11. [COURSERA    ] Prob: 0.0150 | Score: 0.2032
+     Meta Database Engineer Professional Certificate
+     Skills: SQL and Python syntax,database management,database administration,MySQL,Tabular records,
+
+12. [UDACITY     ] Prob: 0.0136 | Score: 0.1983
+     Oracle Autonomous Database Administration
+     Skills: No skills
+
+13. [UDACITY     ] Prob: 0.0121 | Score: 0.1925
+     SQL for Data Analysis
+     Skills: No skills
+
+14. [COURSERA    ] Prob: 0.0118 | Score: 0.1914
+     Network Security  Database Vulnerabilities
+     Skills: database vulnerabilities,Network Security,Sql Injection,Cybersecurity,networking basics,
+
+15. [COURSERA    ] Prob: 0.0114 | Score: 0.1895
+     Data Warehousing for Business Intelligence Specialization
+     Skills: Pentaho, Data Visualization (DataViz), Data Warehouse, SQL, Database (DB) Design, Entity–Relationshi
+
+16. [UDACITY     ] Prob: 0.0112 | Score: 0.1888
+     Database Systems Concepts  Design
+     Skills: No skills
+
+17. [COURSERA    ] Prob: 0.0111 | Score: 0.1880
+     Introduction to Relational Databases RDBMS
+     Skills: Database (DB) Design,Database Architecture,Postgresql,MySQL,Relational Database Management System (R
+
+18. [COURSERA    ] Prob: 0.0110 | Score: 0.1877
+     Scripting with Python and SQL for Data Engineering
+     Skills: Database (DBMS),Python Programming,Web Scraping,MySQL,SQL,
+
+19. [COURSERA    ] Prob: 0.0108 | Score: 0.1866
+     A Crash Course in Data Science
+     Skills: Data Science,Data Analysis,Machine Learning,Project,
+
+20. [COURSERA    ] Prob: 0.0092 | Score: 0.1786
+     Oracle Database Platform
+     Skills: No skills
+
+21. [COURSERA    ] Prob: 0.0084 | Score: 0.1740
+     Migrate to Cloud SQL for PostgreSQL using Database Migration Service
+     Skills: Database (DBMS),Data Management,Google Cloud Platform,
+
+22. [COURSERA    ] Prob: 0.0080 | Score: 0.1718
+     Increasing Real Estate Management Profits: Harnessing Data Analytics
+     Skills: Data Analysis,Tableau Software,MySQL,SQL,
+
+23. [COURSERA    ] Prob: 0.0080 | Score: 0.1717
+     Introduction to NoSQL Databases
+     Skills: Mongodb,NoSQL,Cloud Database,Cloudant,Cassandra,
+
+24. [COURSERA    ] Prob: 0.0079 | Score: 0.1714
+     Enterprise Database Migration
+     Skills: No skills
+
+25. [COURSERA    ] Prob: 0.0079 | Score: 0.1712
+     Database Architecture, Scale, and NoSQL with Elasticsearch
+     Skills: No skills
+
+26. [COURSERA    ] Prob: 0.0075 | Score: 0.1685
+     Databases and SQL for Data Science with Python
+     Skills: Cloud Databases,Python Programming,Jupyter notebooks,Relational Database Management System (RDBMS),S
+
+27. [COURSERA    ] Prob: 0.0067 | Score: 0.1629
+     Databases for Data Scientists Specialization
+     Skills: Database (DB) Design, Data Warehousing, NoSQL, database administration, SQL, Database (DBMS), Relati
+
+28. [COURSERA    ] Prob: 0.0067 | Score: 0.1628
+     IBM Data Warehouse Engineer Professional Certificate
+     Skills: Data Science,Database (DBMS),NoSQL,SQL,Database (DB) Design,Database Architecture,Postgresql,MySQL,R
+
+29. [COURSERA    ] Prob: 0.0067 | Score: 0.1628
+     Explore Core Data Concepts in Microsoft Azure
+     Skills: Microsoft Azure,Data Management,Data Storage,Data Concepts,
+
+30. [COURSERA    ] Prob: 0.0065 | Score: 0.1616
+     Using Databases with Python
+     Skills: Python Programming,Database (DBMS),Sqlite,SQL,
+
+31. [COURSERA    ] Prob: 0.0065 | Score: 0.1615
+     Introduction to Data Science Specialization
+     Skills: Data Science, Relational Database Management System (RDBMS), Cloud Databases, Python Programming, SQ
+
+32. [COURSERA    ] Prob: 0.0065 | Score: 0.1612
+     Modern Big Data Analysis with SQL Specialization
+     Skills: Cloud Storage, Data Analysis, Big Data, Cloudera, SQL, Database (DBMS), Data Warehousing, Apache Hiv
+
+33. [COURSERA    ] Prob: 0.0064 | Score: 0.1608
+     IBM Data Science Professional Certificate
+     Skills: Data Science,Deep Learning,Machine Learning,Big Data,Data Mining,Github,Python Programming,Jupyter n
+
+34. [COURSERA    ] Prob: 0.0058 | Score: 0.1559
+     Introduction to Software, Programming, and Databases
+     Skills: Software Development Process,database management,IT Fundamentals,Software Application Development,Co
+
+35. [COURSERA    ] Prob: 0.0057 | Score: 0.1546
+     The Path to Insights: Data Models and Pipelines
+     Skills: Data Management,Google Dataflow/Google BigQuery,Extraction, Transformation And Loading (ETL),Databas
+
+36. [COURSERA    ] Prob: 0.0056 | Score: 0.1540
+     Modern Data Warehouse Analytics in Microsoft Azure
+     Skills: Data Visualization Software,Data Warehousing,Analytics,Microsoft Azure,Data Visualization (DataViz),
+
+37. [COURSERA    ] Prob: 0.0055 | Score: 0.1535
+     Oracle Database Foundations
+     Skills: No skills
+
+38. [COURSERA    ] Prob: 0.0055 | Score: 0.1532
+     Cloud Spanner - Loading Data and Performing Backups
+     Skills: Database (DBMS),Dataflow,Data Management,Google Cloud Platform,
+
+39. [UDACITY     ] Prob: 0.0054 | Score: 0.1523
+     Data Engineering for Data Scientists
+     Skills: No skills
+
+40. [COURSERA    ] Prob: 0.0054 | Score: 0.1519
+     Data Engineering Foundations Specialization
+     Skills: Information Engineering, Python Programming, Extraction, Transformation And Loading (ETL), Relationa
+
+41. [COURSERA    ] Prob: 0.0050 | Score: 0.1488
+     Capstone: Retrieving, Processing, and Visualizing Data with Python
+     Skills: Data Analysis,Python Programming,Database (DBMS),Data Visualization (DataViz),
+
+42. [COURSERA    ] Prob: 0.0050 | Score: 0.1487
+     Graph Analytics for Big Data
+     Skills: Graph Theory,Neo4j,Analytics,Graph Database,
+
+43. [COURSERA    ] Prob: 0.0050 | Score: 0.1482
+     SQL for Data Science
+     Skills: Data Science,Data Analysis,Sqlite,SQL,
+
+44. [COURSERA    ] Prob: 0.0048 | Score: 0.1467
+     BI Foundations with SQL, ETL and Data Warehousing Specialization
+     Skills: Shell Script, Bash (Unix Shell), Linux, Cloud Databases, Python Programming, Jupyter notebooks, Rela
+
+45. [COURSERA    ] Prob: 0.0048 | Score: 0.1464
+     Python, Bash and SQL Essentials for Data Engineering Specialization
+     Skills: Bash (Unix Shell), Database (DBMS), Web Application, Python Programming, SQL, Vim, Pandas, Visual St
+
+46. [COURSERA    ] Prob: 0.0048 | Score: 0.1463
+     IBM Data Engineering Professional Certificate
+     Skills: Relational Database Management Syste (RDBMS),ETL & Data Pipelines,NoSQL and Big Data,Apache Spark,SQ
+
+47. [COURSERA    ] Prob: 0.0047 | Score: 0.1448
+     Big Data Specialization
+     Skills: Big Data, Neo4j, Mongodb, Apache Spark, Apache Hadoop, Mapreduce, Cloudera, Data Model, Data Modelin
+
+48. [COURSERA    ] Prob: 0.0047 | Score: 0.1448
+     Managing Big Data with MySQL
+     Skills: Data Analysis,MySQL,Teradata,SQL,
+
+49. [COURSERA    ] Prob: 0.0046 | Score: 0.1441
+     Design and Build a Data Warehouse for Business Intelligence Implementation
+     Skills: Data Warehousing,Microstrategy,Data Warehouse,SQL,
+
+50. [COURSERA    ] Prob: 0.0046 | Score: 0.1439
+     Spring Data Repositories
+     Skills: Spring Support for JPA,JPA,Restful services,Spring Data Repositories,Spring Data,
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   0 courses (  0.0%)
+High      :   1 courses (  0.4%)
+Medium    :  18 courses (  7.8%)
+Low       : 152 courses ( 66.1%)
+Very Low  :  59 courses ( 25.7%)

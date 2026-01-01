@@ -1,0 +1,37 @@
+RELEVANCE SCORING REPORT
+====================================================================================================
+User Query: show me email courses from future learn platform only
+Total Courses: 4
+Generated at: 2025-11-27T10:05:35.261034
+====================================================================================================
+
+PROVIDER DISTRIBUTION:
+--------------------------------------------------------------------------------
+FUTURELEARN    :   4 courses | Avg Prob: 0.1250 | Avg Score: 0.1539
+
+TOP 50 COURSES BY RELEVANCE PROBABILITY:
+------------------------------------------------------------------------------------------------------------------------
+ 1. [FUTURELEARN ] Prob: 0.1313 | Score: 0.1564
+     Email Marketing eCRM: Planning and Tactics
+     Skills: No skills
+
+ 2. [FUTURELEARN ] Prob: 0.1271 | Score: 0.1547
+     Email Marketing eCRM: The User Journey
+     Skills: No skills
+
+ 3. [FUTURELEARN ] Prob: 0.1249 | Score: 0.1539
+     Email Marketing eCRM: Measurement and Iteration
+     Skills: No skills
+
+ 4. [FUTURELEARN ] Prob: 0.1167 | Score: 0.1505
+     Email Marketing eCRM: CRM and Marketing Automation
+     Skills: No skills
+
+
+PROBABILITY DISTRIBUTION:
+--------------------------------------------------------------------------------
+Very High :   4 courses (100.0%)
+High      :   0 courses (  0.0%)
+Medium    :   0 courses (  0.0%)
+Low       :   0 courses (  0.0%)
+Very Low  :   0 courses (  0.0%)

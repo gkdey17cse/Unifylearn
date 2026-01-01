@@ -1,0 +1,157 @@
+{
+  "user_query": "Machine Learning courses sorted by number of viewers",
+  "generated_queries": {
+    "query_type": "AGGREGATE",
+    "description": "Sort Machine Learning courses by the number of viewers.",
+    "aggregation_strategy": "provider_level",
+    "sort_field": "Number of viewers",
+    "sort_order": -1,
+    "providers": {
+      "coursera": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "udacity": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Prequisites": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "What you learn": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "simplilearn": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Skills": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      },
+      "futurelearn": {
+        "$match": {
+          "$or": [
+            {
+              "Title": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Short Intro": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            },
+            {
+              "Sub-Category": {
+                "$regex": "\\bMachine Learning\\b",
+                "$options": "i"
+              }
+            }
+          ]
+        },
+        "$sort": {
+          "Number of viewers": -1
+        }
+      }
+    }
+  },
+  "timestamp": "2025-11-15T01:35:34.280956"
+}

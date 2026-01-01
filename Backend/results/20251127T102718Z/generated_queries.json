@@ -1,0 +1,33 @@
+{
+  "user_query": "Show me Music COurses from Futurelearn platform",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'Music Courses' from 'Futurelearn'. Expanding 'Music' to include related terms like 'Musical Instruments', 'Music Theory', and 'Vocal Training' to capture a broader range of music-related courses that may be available.",
+    "expanded_terms": [
+      "Music",
+      "Musical Instruments",
+      "Music Theory",
+      "Vocal Training"
+    ],
+    "providers": {
+      "futurelearn": {
+        "$or": [
+          {
+            "Title": {
+              "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+              "$options": "i"
+            }
+          },
+          {
+            "Short Intro": {
+              "$regex": "\\b(Music|Musical Instruments|Music Theory|Vocal Training)\\b",
+              "$options": "i"
+            }
+          }
+        ],
+        "Site": "Future Learn"
+      }
+    }
+  },
+  "timestamp": "2025-11-27T10:27:18.536961"
+}

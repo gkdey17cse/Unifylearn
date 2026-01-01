@@ -1,0 +1,137 @@
+{
+  "user_query": "find public health courses about epidemiology and health policy. need courses from recognized institutions",
+  "generated_queries": {
+    "query_type": "SPJ",
+    "thought_process": "User asked for 'public health courses about epidemiology and health policy from recognized institutions'. Expanding terms to include synonyms and related concepts where applicable. Filtering for courses specifically from recognized institutions, implying a filter on course provider reputation, but explicit provider list is not available so filtering cannot be strictly enforced.",
+    "expanded_terms": [
+      "public health",
+      "epidemiology",
+      "health policy"
+    ],
+    "providers": {
+      "coursera": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "udacity": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "What you learn": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "simplilearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Skills": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "futurelearn": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "Title": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Short Intro": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              },
+              {
+                "Category": {
+                  "$regex": "\\b(public health|epidemiology|health policy)\\b",
+                  "$options": "i"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "timestamp": "2025-11-23T16:12:47.936733"
+}
